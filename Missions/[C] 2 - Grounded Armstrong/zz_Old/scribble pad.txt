@@ -1,0 +1,647 @@
+{
+[4] spawn BIS_fnc_earthquake; 
+		{
+			_li = "#lightpoint" createVehiclelocal (getPosASL _x);
+			_li setLightBrightness 100;
+			_li setLightAttenuation [5,0,100,2000,200,500]; 
+			_li setLightUseFlare true;
+			_li setLightFlareSize 1;
+			_li setLightFlareMaxDistance 2000;	
+			_li setLightAmbient[1,0.7,0];
+			_li setLightColor[1,1,1];
+			_li lightAttachObject [_x, [0,0,-3]];
+			_ps1 = "#particlesource" createVehicleLocal getpos _x;
+			_ps1 setParticleCircle [0, [0, 0, 0]];
+			_ps1 setParticleClass "RHS_NukeConeFire";
+			_ps1 setParticleFire [0.3,1.0,0.1];
+			_ps1 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+			_ps1 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+			_ps1 setDropInterval 0.002;
+		} forEach [thrusters_1, thrusters_2, thrusters_3, thrusters_4];
+		{
+			_li = "#lightpoint" createVehiclelocal (getPosASL _x);
+			_li setLightBrightness 100;
+			_li setLightAttenuation [5,0,100,2000,200,500]; 
+			_li setLightUseFlare true;
+			_li setLightFlareSize 1;
+			_li setLightFlareMaxDistance 2000;	
+			_li setLightAmbient[1,0.7,0];
+			_li setLightColor[1,1,1];
+			_li lightAttachObject [_x, [0,0,-3]];
+			_ps1 = "#particlesource" createVehicleLocal getpos _x;
+			_ps1 setParticleCircle [0, [0, 0, 0]];
+			_ps1 setParticleClass "RHS_NukeSmokeChimney";
+			_ps1 setParticleFire [0.3,1.0,0.1];
+			_ps1 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+			_ps1 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+			_ps1 setDropInterval 0.002;
+		} forEach [thrusters_5, thrusters_6, thrusters_7, thrusters_8];
+} remoteExec ["call", [0,-2] select isDedicated];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+	mine_entrance_door addAction[
+		"Enter the Tunnel", 
+		{
+			params ["_target", "_caller", "_id", "_args"]; 
+			1 cutText ["","BLACK OUT",1];
+			_mine_exit_spawnpos = [((getPosASL mine_exit select 0) + random (3)), ((getPosASL mine_exit select 1) + random (3)), (getPosASL mine_exit select 2)];
+			sleep 2;
+			_caller setPosASL _mine_exit_spawnpos;
+			_caller setDir 333;
+			1 cutText ["","BLACK IN",1];
+			enableEnvironment false;
+			sleep 0.4;
+		},
+		nil,
+		1.5,
+		true,
+		true,
+		"",
+		"true",
+		5,
+		false,
+		"",
+		""
+	];
+} remoteExec ["call", [0, -2] select isDedicated, true];
+
+{
+	mine_exit_door addAction[
+		"Exit the Tunnel", 
+		{
+			params ["_target", "_caller", "_id", "_args"]; 
+			1 cutText ["","BLACK OUT",1];
+			_mine_entrance_spawnpos = [((getPosASL mine_entrance select 0) + random (3)), ((getPosASL mine_entrance select 1) + random (3)), (getPosASL mine_entrance select 2)];
+			sleep 2;
+			_caller setPosASL _mine_entrance_spawnpos;
+			_caller setDir 333;
+			1 cutText ["","BLACK IN",1];
+			enableEnvironment true;
+			sleep 0.4;
+		},
+		nil,
+		1.5,
+		true,
+		true,
+		"",
+		"true",
+		5,
+		false,
+		"",
+		""
+	];
+} remoteExec ["call", [0, -2] select isDedicated, true];
+
+
+
+
+
+
+
+
+
+
+
+
+[this, rocket_engine_vic] call BIS_fnc_attachToRelative;
+
+_temppos = getPosWorld this;
+_tempvecup = vectorUp this;
+_tempvecdir = vectorDir this;
+this attachTo [rocket_engine_vic];
+this setPosWorld _temppos;
+this setVectorDirAndUp [_tempvecdir, _tempvecup];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z1 addAction[
+	"Initiate!", 
+	{
+		params ["_target", "_caller", "_id", "_args"];
+		{
+			[4] spawn BIS_fnc_earthquake; 
+			private _thrusters1 = [thrusters_1, thrusters_2, thrusters_3, thrusters_4];
+			private _thrusters2 = [thrusters_5, thrusters_6, thrusters_7, thrusters_8];
+			private _emitters1 = [];
+			private _emitters2 = [];
+			{
+				_li1 = "#lightpoint" createVehiclelocal (getPosASL _x);
+				_li1 setLightBrightness 100;
+				_li1 setLightAttenuation [5,0,100,2000,200,500]; 
+				_li1 setLightUseFlare true;
+				_li1 setLightFlareSize 1;
+				_li1 setLightFlareMaxDistance 2000;	
+				_li1 setLightAmbient[1,0.7,0];
+				_li1 setLightColor[1,1,1];
+				_li1 lightAttachObject [_x, [0,0,-3]];
+				_emitters1 pushBack _li1;
+				_ps1 = "#particlesource" createVehicleLocal getposASL _x;
+				_ps1 setParticleCircle [0, [0, 0, 0]];
+				_ps1 setParticleClass "RHS_NukeConeFire";
+				_ps1 setParticleFire [0.3,1.0,0.1];
+				_ps1 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+				_ps1 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+				_ps1 setDropInterval 0.002;
+				_emitters1 pushBack _ps1;
+
+				_x setVariable ["ROOT_emitters_1", _emitters1];
+				_x addEventHandler ["Deleted", {
+					params ["_entity"];
+					private _emitters1 = _entity getVariable "ROOT_emitters_1";
+					if (isNil "_emitters1") exitWith {}; 
+					{
+						deleteVehicle _x;
+					} forEach _emitters1;
+				}];
+			} forEach _thrusters1;
+			{
+				_li2 = "#lightpoint" createVehiclelocal (getPosASL _x);
+				_li2 setLightBrightness 100;
+				_li2 setLightAttenuation [5,0,100,2000,200,500]; 
+				_li2 setLightUseFlare true;
+				_li2 setLightFlareSize 1;
+				_li2 setLightFlareMaxDistance 2000;	
+				_li2 setLightAmbient[1,0.7,0];
+				_li2 setLightColor[1,1,1];
+				_li2 lightAttachObject [_x, [0,0,-3]];
+				_emitters2 pushBack _li2;
+				_ps2 = "#particlesource" createVehicleLocal getpos _x;
+				_ps2 setParticleCircle [0, [0, 0, 0]];
+				_ps2 setParticleClass "RHS_NukeSmokeChimney";
+				_ps2 setParticleFire [0.3,1.0,0.1];
+				_ps2 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+				_ps2 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+				_ps2 setDropInterval 0.002;
+				_emitters2 pushBack _ps2;
+
+				_x setVariable ["ROOT_emitters_2", _emitters2];
+				_x addEventHandler ["Deleted", {
+					params ["_entity"];
+					private _emitters2 = _entity getVariable "ROOT_emitters_2";
+					if (isNil "_emitters2") exitWith {}; 
+					{
+						deleteVehicle _x;
+					} forEach _emitters2;
+				}]; 
+			} forEach _thrusters2;
+		} remoteExec ["call", [0,-2] select isDedicated, true];
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+
+z1 addAction[
+	"Launch!", 
+	{
+		playsound3D ["A3\Sounds_F\arsenal\weapons\vehicles\VLS_01_Launch_03.wss", player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+		params ["_target", "_caller", "_id", "_args"];
+		_veh = rocket_engine_vic;
+		_tempvecup = vectorUp _veh;
+		_tempvecdir = vectorDir _veh;
+		_fuel_cap_1_vecup = vectorUp fuel_cap_1;
+		_fuel_cap_1_vecdir = vectorDir fuel_cap_1;
+		_fuel_cap_2_vecup = vectorUp fuel_cap_2;
+		_fuel_cap_2_vecdir = vectorDir fuel_cap_2;
+		[fuel_cap_1, rocket_engine_vic] call BIS_fnc_attachToRelative;
+		[fuel_cap_2, rocket_engine_vic] call BIS_fnc_attachToRelative;
+		for "_i" from 1 to 50 do {
+			_vel = velocity _veh;
+			fuel_cap_1 setVectorDirAndUp [_fuel_cap_1_vecdir, _fuel_cap_1_vecup];
+			fuel_cap_2 setVectorDirAndUp [_fuel_cap_2_vecdir, _fuel_cap_2_vecup];
+			_veh setVectorDirAndUp [_tempvecdir, _tempvecup];
+			_veh setVelocity [_vel select 0, _vel select 1, (_vel select 2) + _i];
+			sleep (_i/25);
+		};
+		_nearbyUnits = [9418.48,1471.18,0] nearEntities [["Man"], 30];
+		{
+			_x setDamage 1;
+		} forEach _nearbyUnits;
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+_this addAction[
+	"Explode!", 
+	{
+		params ["_target", "_caller", "_id", "_args"];
+		private _thrusters = [thrusters_1, thrusters_2, thrusters_3, thrusters_4, thrusters_5, thrusters_6, thrusters_7, thrusters_8];
+		_thrusters spawn {
+			{
+				if (not isNull _x) then
+				{
+					deleteVehicle _x;
+				}
+			} forEach _this;
+		};
+		{
+			enableCamShake true;
+			_power_sh = linearConversion [0,2000,player distance rocket_center_part,15,0.1,true];
+			addCamShake [_power_sh,5, 50];
+		} remoteExec ["call", [0,-2] select isDedicated, true];
+
+		_exp1 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL rocket_center_part);
+		_exp2 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL fuel_cap_1);
+		_exp3 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL fuel_cap_2);
+		[_exp1, _exp2, _exp3] spawn {
+			params ["_exp1", "_exp2", "_exp3"];
+			_exp1 setDamage 1;
+			uiSleep 0.5;
+			_exp2 setDamage 1;
+			uiSleep 1;
+			_exp3 setDamage 1;
+		};
+		rocket_engine_vic setVelocity [0, 0, 0];
+		_random_velocity = 0.5 * (random [-200,-200,0] + random [0,200,200]);
+		private _delete_objs = [];
+		if ((getPosASL rocket_center_part select 2) > 100) then {
+			{
+				if (_x == rocket_center_part) then { continue; };
+				_delete_objs pushback _x;
+				playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+				detach _x;
+				_x enableSimulationGlobal true;
+				_x setDir random(360);
+				_x setVectorDirAndUp [[random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]], [random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]]];
+				_x setVelocity [_random_velocity, _random_velocity, _random_velocity];
+				_x setPosASL (getPosASL _x) vectorAdd [_random_velocity,_random_velocity,_random_velocity];
+			} forEach attachedObjects rocket_engine_vic;
+			publicVariable "rocket_engine_vic";
+		} else {
+			[2] spawn BIS_fnc_earthquake;
+			playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+			_nearbyObjects = getPosASL rocket_center_part nearObjects 100;
+			{
+				if (_x == rocket_center_part) then { continue; };
+				playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+				if !(isNull attachedTo _x) then { detach _x; _delete_objs pushback _x; };
+				if (_x isKindOf "CAManBase") then { _x setDamage 1; };
+				_x enableSimulationGlobal true;
+				_x setDir random(360);
+				_x setVectorDirAndUp [[random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]], [random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]]];
+				_x setVelocity [_random_velocity, _random_velocity, _random_velocity];
+				_x setPosATL [getPosATL _x select 0, getPosATL _x select 1, 0];
+				_x allowDamage true;
+				_x setDamage 1;
+			} forEach _nearbyObjects;
+			publicVariable "rocket_engine_vic";
+		};
+		{
+			if (not isNull _x) then
+			{
+				if (_x == rocket_center_part) then { 
+					_x hideObjectGlobal true;
+				} else {
+					deleteVehicle _x;
+				};
+			};
+		} forEach _delete_objs;
+		[] spawn {
+			uiSleep 5;
+			deleteVehicle rocket_center_part;
+			deleteVehicle rocket_engine_vic;
+		};
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+
+
+
+
+
+
+
+private _particles = "true" configClasses (configFile >> "CfgSounds") apply {configName _x};
+
+private _display = findDisplay 49;
+private _control = _display ctrlCreate ["RscControlsGroup", -1];
+_control ctrlSetPosition [0,0,1,1];
+_control ctrlCommit 0;
+
+private _edit = _display ctrlCreate ["RscEditMulti", -1, _control];
+private _height = count _particles * getNumber (configFile >> ctrlClassName _edit >> "sizeEx");
+_edit ctrlSetPosition [0,0,1, _height];
+_edit ctrlCommit 0;
+_edit ctrlSetBackgroundColor [0,0,0,1];
+_edit ctrlSetText (_particles joinString endl);
+ctrlSetFocus _edit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_this addAction[
+	"Initiate!", 
+	{
+		params ["_target", "_caller", "_id", "_args"];
+		{
+			[4] spawn BIS_fnc_earthquake; 
+			private _thrusters1 = [thrusters_1, thrusters_2, thrusters_3, thrusters_4];
+			private _thrusters2 = [thrusters_5, thrusters_6, thrusters_7, thrusters_8];
+			private _emitters1 = [];
+			private _emitters2 = [];
+			{
+				_li1 = "#lightpoint" createVehiclelocal (getPosASL _x);
+				_li1 setLightBrightness 100;
+				_li1 setLightAttenuation [5,0,100,2000,200,500]; 
+				_li1 setLightUseFlare true;
+				_li1 setLightFlareSize 1;
+				_li1 setLightFlareMaxDistance 2000;	
+				_li1 setLightAmbient[1,0.7,0];
+				_li1 setLightColor[1,1,1];
+				_li1 lightAttachObject [_x, [0,0,-3]];
+				_emitters1 pushBack _li1;
+				_ps1 = "#particlesource" createVehicleLocal getposASL _x;
+				_ps1 setParticleCircle [0, [0, 0, 0]];
+				_ps1 setParticleClass "RHS_NukeConeFire";
+				_ps1 setParticleFire [0.3,1.0,0.1];
+				_ps1 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+				_ps1 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+				_ps1 setDropInterval 0.002;
+				_emitters1 pushBack _ps1;
+
+				_x setVariable ["ROOT_emitters_1", _emitters1];
+				_x addEventHandler ["Deleted", {
+					params ["_entity"];
+					private _emitters = _entity getVariable "ROOT_emitters_1";
+					if (isNil "_emitters1") exitWith {}; 
+					{
+						deleteVehicle _x;
+					} forEach _emitters1;
+				}];
+			} forEach _thrusters1;
+			{
+				_li2 = "#lightpoint" createVehiclelocal (getPosASL _x);
+				_li2 setLightBrightness 100;
+				_li2 setLightAttenuation [5,0,100,2000,200,500]; 
+				_li2 setLightUseFlare true;
+				_li2 setLightFlareSize 1;
+				_li2 setLightFlareMaxDistance 2000;	
+				_li2 setLightAmbient[1,0.7,0];
+				_li2 setLightColor[1,1,1];
+				_li2 lightAttachObject [_x, [0,0,-3]];
+				_emitters2 pushBack _li2;
+				_ps2 = "#particlesource" createVehicleLocal getpos _x;
+				_ps2 setParticleCircle [0, [0, 0, 0]];
+				_ps2 setParticleClass "RHS_NukeSmokeChimney";
+				_ps2 setParticleFire [0.3,1.0,0.1];
+				_ps2 setParticleRandom [2, [0, 0, 0], [0.2, 0.2, 0.5], 0.3, 0.5, [0, 0, 0, 0.5], 0, 0];
+				_ps2 setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 2+random 1, [0, 0, 0], [0, 0, 1], 3, 0.01, 0.007, 0, [4,1,7,10], [[1, 1, 1, 1], [0.6, 0.3, 0.2, 1], [0, 0, 0, 0.5], [0, 0, 0, 0]], [0.08], 1, 0, "", "", _x];
+				_ps2 setDropInterval 0.002;
+				_emitters2 pushBack _ps2;
+
+				_x setVariable ["ROOT_emitters_2", _emitters2];
+				_x addEventHandler ["Deleted", {
+					params ["_entity"];
+					private _emitters = _entity getVariable "ROOT_emitters_2";
+					if (isNil "_emitters2") exitWith {}; 
+					{
+						deleteVehicle _x;
+					} forEach _emitters2;
+				}]; 
+			} forEach _thrusters2;
+		} remoteExec ["call", [0,-2] select isDedicated];
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+
+_this addAction[
+	"Launch!", 
+	{
+		playsound3D ["A3\Sounds_F\arsenal\weapons\vehicles\VLS_01_Launch_03.wss", player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+		params ["_target", "_caller", "_id", "_args"];
+		_veh = rocket_engine_vic;
+		_tempvecup = vectorUp _veh;
+		_tempvecdir = vectorDir _veh;
+		_fuel_cap_1_vecup = vectorUp fuel_cap_1;
+		_fuel_cap_1_vecdir = vectorDir fuel_cap_1;
+		_fuel_cap_2_vecup = vectorUp fuel_cap_2;
+		_fuel_cap_2_vecdir = vectorDir fuel_cap_2;
+		[fuel_cap_1, rocket_engine_vic] call BIS_fnc_attachToRelative;
+		[fuel_cap_2, rocket_engine_vic] call BIS_fnc_attachToRelative;
+		for "_i" from 1 to 50 do {
+			_vel = velocity _veh;
+			fuel_cap_1 setVectorDirAndUp [_fuel_cap_1_vecdir, _fuel_cap_1_vecup];
+			fuel_cap_2 setVectorDirAndUp [_fuel_cap_2_vecdir, _fuel_cap_2_vecup];
+			_veh setVectorDirAndUp [_tempvecdir, _tempvecup];
+			_veh setVelocity [_vel select 0, _vel select 1, (_vel select 2) + _i];
+			sleep (_i/25);
+		};
+		_nearbyUnits = [9418.48,1471.18,0] nearEntities [["Man"], 30];
+		{
+			_x setDamage 1;
+		} forEach _nearbyUnits;
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+_this addAction[
+	"Explode!", 
+	{
+		params ["_target", "_caller", "_id", "_args"];
+		private _thrusters = [thrusters_1, thrusters_2, thrusters_3, thrusters_4, thrusters_5, thrusters_6, thrusters_7, thrusters_8];
+		_thrusters spawn {
+			{
+				if (not isNull _x) then
+				{
+					deleteVehicle _x;
+				}
+			} forEach _this;
+		};
+		{
+			enableCamShake true;
+			_power_sh = linearConversion [0,2000,player distance rocket_center_part,15,0.1,true];
+			addCamShake [_power_sh,5, 50];
+		} remoteExec ["call", [0,-2] select isDedicated];
+
+		_exp1 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL rocket_center_part);
+		_exp2 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL fuel_cap_1);
+		_exp3 = "Bo_GBU12_LGB_MI10" createVehicle (getPosASL fuel_cap_2);
+		[_exp1, _exp2, _exp3] spawn {
+			params ["_exp1", "_exp2", "_exp3"];
+			_exp1 setDamage 1;
+			uiSleep 0.5;
+			_exp2 setDamage 1;
+			uiSleep 1;
+			_exp3 setDamage 1;
+		};
+		rocket_engine_vic setVelocity [0, 0, 0];
+		_random_velocity = 0.5 * (random [-200,-200,0] + random [0,200,200]);
+		private _reserved_objs = [rocket_center_part, fuel_cap_1, fuel_cap_2];
+		private _delete_objs = [];
+		if ((getPosASL rocket_center_part select 2) > 100) then {
+			{
+				if (_x in _reserved_objs) then { continue; };
+				_delete_objs pushback _x;
+				playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+				detach _x;
+				_x enableSimulationGlobal true;
+				_x setDir random(360);
+				_x setVectorDirAndUp [[random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]], [random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]]];
+				_x setVelocity [_random_velocity, _random_velocity, _random_velocity];
+				_x setPosASL (getPosASL _x) vectorAdd [_random_velocity,_random_velocity,_random_velocity];
+			} forEach attachedObjects rocket_engine_vic;
+			publicVariable "rocket_engine_vic";
+		} else {
+			[2] spawn BIS_fnc_earthquake;
+			playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+			_nearbyObjects = getPosASL rocket_center_part nearObjects 100;
+			{
+				if (_x in _reserved_objs) then { continue; };
+				playsound3D [format ["A3\Sounds_F\arsenal\explosives\shells\Artillery_shell_explosion_0%1.wss",ceil (random 8)], player, false, getPosASL rocket_center_part, 5, 1, 10000, 0, false];
+				if !(isNull attachedTo _x) then { detach _x; _delete_objs pushback _x; };
+				if (_x isKindOf "CAManBase") then { _x setDamage 1; };
+				_x enableSimulationGlobal true;
+				_x setDir random(360);
+				_x setVectorDirAndUp [[random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]], [random [-1, 0, 1], random [-1, 0, 1], random [-1, 0, 1]]];
+				_x setVelocity [_random_velocity, _random_velocity, _random_velocity];
+				_x setPosATL [getPosATL _x select 0, getPosATL _x select 1, 0];
+				_x allowDamage true;
+				_x setDamage 1;
+			} forEach _nearbyObjects;
+			publicVariable "rocket_engine_vic";
+		};
+			{
+				if (not isNull _x) then
+				{
+					if (_x in _reserved_objs) then { 
+						_x hideObjectGlobal true;
+					} else {
+						deleteVehicle _x;
+					};
+				};
+			} forEach _delete_objs;
+		[] spawn {
+			uiSleep 5;
+			deleteVehicle rocket_center_part;
+			deleteVehicle fuel_cap_1;
+			deleteVehicle fuel_cap_2;
+			deleteVehicle rocket_engine_vic;
+		};
+	},
+	nil,
+	1.5,
+	true,
+	true,
+	"",
+	"true",
+	5,
+	false,
+	"",
+	""
+];
+
+
+
+
+
+
+
+
+
+

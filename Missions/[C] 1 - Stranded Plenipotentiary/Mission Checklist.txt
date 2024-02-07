@@ -1,0 +1,30 @@
+// Pre-Init //
+
+1. Hide Terrain @ AO Insertion and Safehouse
+2. Spawn Briefing Table (LE)
+3. Spawn Mapboard (LE)
+4. Spawn units at AO Insertion
+5. Spawn units at Rahmadi
+6. Spawn units at Main Airbase
+
+// Briefing Starts //
+
+1. Spawn AAN News Article
+2. Spawn units at Safehouse
+3. Spawn Live Feed
+4. Add intel at Safehouse => Cargo Ship
+5. Add intel at Rahmadi => Fox Island
+
+// Intels //
+
+1. Scientist // Chelonian:
+- Wears Labcoat
+- Name "Dr. Josh Gates"
+- Face "Zelinski"
+- Voice "Altis English 04"
+
+2. Officer // Oxford:
+- Wears Formal Suite
+- Name "Doug Stamper"
+- Face "Williams"
+- Voice "American English 01"

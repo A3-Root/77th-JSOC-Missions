@@ -1,0 +1,175 @@
+// DO NOT CRASH THE SERVER
+
+
+
+
+Verbal Briefing:
+
+
+Alright everyone listen up!
+
+Our last operation resulted in the disclosure of one of the key members behind the cartel's activities and its the now-former Mexican Governor, Alejanda Diego, codenamed 'Oliver'. Our operation has caused a major dent in the cartel's capabilities in the region. Unfortunately, this also instabilized the Mexcian government causing a near full-blown civil war. 
+
+Oliver managed to use this chaos as a distraction and escape to this island here. Like its parent country, this island has also descended into chaos with the rebels fighting against the cartel and police force still loyal to Oliver. A state of emergency has been declared on the island and a small contigent of Mexican-Malden Defense Force (MDF) deployed to restore order and arrest the Governor. However, the cartel and the police forces managed to come out strong by eliminating key MDF leaders and making them retreat back to the Airport waiting for the expeditionary force to begin their second assault in town.
+
+Most importantly, the cartels have also seized an United States Oil Rig, holding the American workers hostages while blocking the sea route threatening to blow up the rig should we interfere in Mexico again.
+
+The POTUS has had enough and wants to end this immediately and decisively. Since Mexico is still our neighbour and ally, we are limited to UH-60M Blackhawk helicopters with some having dumbfire rockets for this operation. The Mexican Government and by proxy, the MDF will be unaware of our presence and operation until we leave the LHD for Operational Security. DO NOT KILL / SHOOT ANY MDF SOLDIER IN THE FIELD. WE ARE NOT HERE TO START A WAR WITH MEXICO.
+
+Our operation is of two-fold:
+1. Raid "Oliver's" safehouse, capture him ALIVE, retrieve and investigate any intel found.
+2. Infiltrate and Secure the Oil Rig and its workers by any means.
+
+With our last operation, the cartel has lost sigificant firepower. However, they still posses improvised vehicles, and the armed vehicles from the police department nonetheless a threat to our operation. Proceed with caution.
+
+Breachers and Flashbangs are recommended while we do not forsee a use for Marksmen in this operation.
+
+
+
+I'll take your questions now.
+
+* Q & A *
+
+Over to the Mission Commander.
+
+
+
+
+
+
+
+
+
+
+if (side player != sideLogic) then {     
+ 
+	disableSerialization; 
+	[ 
+		[ 
+			["title","Is Mexico the new Iraq?"], 
+			["meta",["Katherine Bishop",[2015,05,20,11,25],"CET"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa","1"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa","2"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa","3"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_90_co.paa","4"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_117_co.paa","5"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_110_co.paa","6"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa","7"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_11_co.paa","8"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_102_co.paa","9"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\canvas\showcase_aow_picture_12_co.paa","10"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_07_co.paa","11"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa","12"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_21_co.paa","13"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_45_co.paa","14"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_72_co.paa","15"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_05_co.paa","16"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_86_co.paa","17"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_70_co.paa","18"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_50_co.paa","19"]], 
+			["image",["\a3\missions_f_aow\data\img\showcase_aow_diorama_screen_infographic_v2_co.paa","20"]], 
+			["image",["\a3\missions_f_aow\data\img\showcase_aow_stand_text_02_ca.paa","21"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_65_co.paa","22"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_96_co.paa","23"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_59_co.paa","24"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_79_co.paa","25"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_85_co.paa","26"]],
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_62_co.paa","27"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_22_co.paa","28"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_116_co.paa","29"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_44_co.paa","30"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_84_co.paa","31"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_105_co.paa","32"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_92_co.paa","33"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_18_co.paa","34"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_123_co.paa","35"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_40_co.paa","36"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_68_co.paa","37"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_98_co.paa","38"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_66_co.paa","39"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_83_co.paa","40"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_69_co.paa","41"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_122_co.paa","42"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_109_co.paa","43"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_20_co.paa","44"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_27_co.paa","45"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_103_co.paa","46"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_113_co.paa","47"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_28_co.paa","48"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_88_co.paa","49"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_111_co.paa","50"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_17_co.paa","51"]], 
+			["textlocked", "As the U.S. government deliberates its next move, the people of Altis face an uncertain future, hoping for a resolution that will bring an end to the violence and bloodshed that has plagued their homeland. Whether or not military action will be the answer to their prayers remains to be seen, but the situation in the fictional scenario of Altis has certainly captured the attention of the gaming community, highlighting the broader issues of international security and the challenges posed by drug cartels."], 
+			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+		],findDisplay 46,true
+	] call bis_fnc_showAANArticle;  
+}; 
+
+
+
+https://ibb.co/nnkQ0q6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mission complete.
+
+SQFs and Scripts for those interested (SQFBin down, Pastebin Links instead):
+
+Mission Markers:
+https://pastebin.com/AgabHrh1
+
+Journalist SQF + Underground Control Base (Delta 2):
+https://pastebin.com/mhMLzETA
+
+Oilrig:
+https://pastebin.com/iQNcW6Li
+
+'Oliver' Safehouse:
+https://gist.github.com/A3-Root/a36624b32fbe13bb74cd34a1322bea14
+
+Mission Scripts:
+https://pastebin.com/U0aT3hNG
+

@@ -1,0 +1,2 @@
+selected_object = (get3DENSelected "object" select 0)
+copyToClipboard str (getPosASL selected_object);

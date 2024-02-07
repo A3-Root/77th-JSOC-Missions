@@ -1,0 +1,451 @@
+- Hide Terrain @ Cave Area, HQ, Rocket Site
+- Delete the CSG except for spawn
+- Run Zeus SQF
+- Move spawn box to new position ---- 
+_this setPosASL [5999.09,-1402.3,5];
+_this setPosASL [5992.91,-1409.61,4.4];
+_this setPosASL [5992.93,-1405.51,4.4];
+_this setPosASL [5992.71,-1401.53,4.4];
+_this setPosASL [5992.53,-1396.93,4.4];
+- Disable movements for VMF soldiers inside cave & HQ
+- Disable simulations for HVTs inside Cave and HQ
+- Place ladder at rocket site tower
+- Adjust time and time acceleration (deploy portable double lights at briefing area if needed)
+- Set operation name
+- Exec MCI Images
+- Exec Teleports
+- Exec Live Feed
+- Exec News Feed (Diary Entry)
+- Populate Camp Damo
+- Populate Depot Lesnik
+
+
+
+
+==================== Intel @ HQ ====================
+
+Intel #1:
+Pickup Officer Memo
+Rocket Launch Timetable
+The launch of the rocket is scheduled for 01:00 AM on April 31st, 2020. Additional forces are enroute to assist in security. The payload's successful deployment is expected to grant us a strategic advantage in space warfare.
+
+Intel #2:
+Pickup Researcher's Journal Entry
+The "Sehreno" Incident
+They murdered Dr. Josh Gates and his family at Sehreno. I believe they are after me now as I worked closely with Dr. Josh before he tried to defect. Do they suspect of me working with Dr. Josh in sabotaging this project? I must find a way to escape this island and seek asylum in the United States. I have to warn them about the electromagnetic spectrum disk and its potential impact on global communications and security.
+
+Intel #3:
+Pickup Research Log Excerpt
+"Spectra Nullifier" Field Test Results
+The field test results of the "Spectra Nullifier" are promising. During the test, we managed to temporarily disable radar and communication systems within a 30-kilometer radius of Grozovo. However, the side effects of the disruption also affected our own communication equipment. Fine-tuning the device's output to minimize collateral damage is now a priority.
+
+Intel #4:
+Pickup Engineering Memo
+Payload Control System - Vulnerabilities
+We've identified potential vulnerabilities in the payload control system. If the enemy gains access to the satellite's terminal, they could potentially reprogram the payload's trajectory, targeting Earth or vital orbital assets. Security protocols must be fortified to prevent any unauthorized access and ensure the payload operates solely under our control.
+
+Intel #5:
+Pickup Emergency Procedure Note
+Emergency Shutdown Protocol
+In case of any unforeseen malfunctions or safety concerns, the emergency shutdown protocol must be initiated. The Colonel is the only one who can abort the launch and is briefed on the procedure to prevent accidental or premature launch events. It is VITAL to ensure that the rocket launches atleast 300m in the air before self-destructing.
+
+Intel #6:
+Pickup Fuel Efficiency Test Notes
+Rocket Fuel Efficiency Report
+The latest fuel efficiency test indicates that the rocket's propulsion system is operating at optimal levels. The refined fuel formula has significantly improved thrust, enabling the rocket to reach its maximum velocity faster. This achievement ensures a swift and stealthy launch, minimizing the chances of detection during the critical phase of the operation.
+
+Intel #7:
+Decrypt Encrypted Files
+"Project Aurora" - Top Secret
+The "Project Aurora" files contain highly sensitive information regarding the electromagnetic spectrum disk's origin and development. The project's code name suggests it could be part of a larger Russian space warfare initiative. These documents provide insight into their long-term plans and the potential impact of the disk on global communications and security.
+
+Intel #8:
+Pickup Security Bulletin
+Sharokovo Security Upgrades
+The recent incident at Sehreno has led to reinforced security protocols. Spetsnaz and VMF have been deployed across the island with VDV and VVS on standby to provide support. All personnel are required to carry ID cards with embedded RFID chips for access to restricted areas. Any unauthorized personnel will be met with immediate force.
+
+Intel #9:
+Pickup Researcher's Findings
+"Spectra Nullifier" - Environmental Impact Assessment
+The electromagnetic spectrum disk's deployment has the potential to generate significant electromagnetic pulses (EMPs) upon activation. Initial simulations show that this could disrupt local wildlife and cause ecological imbalances. As we proceed with the launch, measures must be taken to minimize the environmental impact on the Fapovo Archipelago.
+
+Intel #10:
+Pickup Tablet
+Rocket Control Terminal Use
+The rocket control terminal is used to monitor and control the rocket's launch sequence. The terminal is currently locked and requires a security code to gain access. The code is only known to Col. Georgious Akhanteros, the launch commander. The terminal is also equipped with a self-destruct mechanism to prevent unauthorized access.
+
+
+==================== Intel @ Cave ====================
+
+Intel #1:
+Download Unit Orders
+The Grozovian Problem
+The opposition leader, Dr. Dimitri Kolekiv, has been a thorn in our side for too long. His anti-Russian rhetoric has been gaining traction among the Grozovian locals and the army. We cannot allow him to jeopardize our plans for Grozovia. It is time for Dr. Kolekiv and his bodyguards to have an unfortunate accident.
+
+Intel #2:
+Download Interrogation Report
+Interrogation Report
+Even after killing his bodyguards and threatening about his family, Dr. Dimitri Kolekiv refused to cooperate. He claims that he is not afraid of death and that his death will only fuel the resistance. He also mentioned that he has already sent a message to his people. His body is being preppared to be moved to a vehicle crash site offshore.
+
+Intel #3:
+Retrieve Interrogation Tape
+Interrogation Tape
+A video tape showing the torture and killing of Dr. Dimitri Kolekiv and his bodyguards.
+
+==================== Intel @ Scientist Mobile Phone ====================
+
+Intel #1:
+Retrieve Beacon Location
+Beacon Position of Dr. Arkam Khelosi
+Dr. Khelosi's last becon was pinged from grid 074003 before losing connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verbal Briefing:
+
+Root: [
+    Good morning. Our success wtih Operation Stranded Plenipotentiary has yeilded us crucial intelligence regarding Russia's intention, progression, and operation in space warfare and it all starts here. Dr. Josh Gates is a nuclear physicist and was the lead electromagnetic scientist of Projet 923A for Russia. Project 923A is an wide array spectrum disk capable of producing an electromagnetic pulse wave of several thousands of miles in space. According to the Dr., its development began as early as last year under secrecy here in the Sharkovo island. Dr. Josh Gates was always skeptical about Russia's intention with this technology, and when he knew that the disk was ready for launch, he decided to defect which led to the scenario at Sehreno. Lucky for us, the deaths of his family, however unfortunate, led Russia to believe that it was a genuine attack by the SAF troops and not of our involvement. To their eyes, Dr. Josh Gates presumed is KIA with his family and we'll keep it that way.
+    Now for the mission at hand, Dr. Josh Gates has helped us establish contact with his fellow researcher Dr. Arkam Khelosi who is still performing his duties at the Sharkovo island. This is him on the screen next to me. Dr. Khelosi has been working on the disk's payload control system and is the only one who can help us gain access to the disk's terminal and so we need to extract Dr. Khelosi and bring him back. According to him, the launch is operated via a tablet that is carried only by Col. Georgious Akhanteros. This is him on the screen. We also have reports of a FSB Interrogation Specialist, Lt. Vyacheslav Petrov, who is also spotted in the island. The exact purpose and nature of the FSB's involvement is unknown but we can assume that they are here to ensure the disk's launch and keep an eye on the researchers. This is the latest picture we have of the Lt. on the screen. Upon investigating the disappearance of the Grozovian opposition leader, Dr. Dimitri Kolekiv, we were able to generalize his last known ping in this island so it is also worth investigating. This is Dr. Dimitri. 
+    Since the launch of the satellite is crucial for Russia, the entire island is being guarded by the MSV and Spetsnaz with VDV and VVS on standby from remote bases to provide reinforcements. And so we will begin the operation by infiltrating / assaulting Camp Damo to the west of the island using the Rhib boats and sieze their armor for SMAR. The big screen to my right shows us real-time intelligence about the activity at the camp. You can use it at your advantage. With the campsite secured, we will make a move to towards the HQ and the launch site in neutralizing hostile forces and taking over. The big screen to my left shows us real-time intelligence about the activity at the HQ and the launch site. You can use it at your advantage. Once we have the launch terminal under control, await further orders. It is imperative that we do not destroy the rocket before we could extract all information about it.
+    Now, I know this is a lot to take in but - it seems like we have an emergency transmission from Dr. Khelosi. Standby. Switching the screen to Video Telecom.
+]
+
+Root: Dr. Khelosi - Is everything alright?
+
+Dr. Khelosi: No, the FSB, they are onto me! I ran away from HQ! I need you to get me out of here fast!
+
+Root: Dr., where are you right now and is anyone following you?
+
+Dr. Khelosi: I'm heading towards the UFO Hunters Camp to the North. I don't have anyone following me yet, but I may be wrong. How fast can you get me out?
+
+Root: We'll be there as soon - *interruption*
+
+Dr. Khelosi: Oh shit - they spotted me - oh fuck - I'm going to hide.
+
+CoZeus: *Russian noises about Dr. being spotted and running towards him*
+
+Root: Dr. Khelosi, where are you at the moment?
+
+Dr. Khelosi: I don't think I'll make it to the dock! I see soldiers coming to my location. I'll hide in this barn and leave my beacon tied to the phone! Please find me and get me out!
+
+* Dr. Khelosi now places his camera at the barn and goes into his position to hide being prone *
+
+Root: Dr. Khelosi, can you hear me? Dr. Khelosi!
+
+CoZeus: *Finds Dr. Khelosi and captures him.* - Let's take him to Lesnik! The Lt. will have fun with you traitor! (While looking at the Dr. Khelosi) 
+
+*Video Feed Cuts*
+
+It seems like we have a situation. Any questions, ask now or else prepare for immediate deployment. Pack tight. Securing Dr. Khelosi is our priority objective now. Meanwhile, we'll try to figure out who or what "LESNIK" means. 
+
+* Q & A *
+
+Over to the Mission Commander.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Spawn = _this setPosATL [5999.09,-1402.3,4.4];
+// Box 1 = _this setPosATL [5999.09,-1402.3,4.34193];
+// Box 2 = _this setPosATL [5992.91,-1409.61,4.4];
+// Box 3 = _this setPosATL [5992.93,-1405.51,4.34656];
+// Box 4 = _this setPosATL [5992.71,-1401.53,4.34001];
+
+
+
+
+
+Dr Arkman "MacGuyver" Khelosi - Scientist
+Face = Doukas
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "U_C_Scientist";
+this addGoggles "G_Tactical_Black";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+[this,"GreekHead_A3_05","male02gre"] call BIS_fnc_setIdentity;
+
+
+
+Col Nikolai "Frankenstein" Petrov - Launch Commander
+Face = Petrenko
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "U_B_ParadeUniform_01_US_decorated_F";
+this addWeapon "Binocular";
+this addItemToUniform "FirstAidKit";
+this addItemToUniform "rhs_1PN138";
+this addHeadgear "rhs_cossack_visor_cap_tan";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+[this,"RussianHead_2","male03gre"] call BIS_fnc_setIdentity;
+
+
+
+Lt Vyacheslav "Johnson" Petrov - FSB Station Chief
+Face = Bahadur (Semi-Arid)
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "rhs_uniform_6sh122_v2";
+this addVest "rhs_vest_pistol_holster";
+this addWeapon "Binocular";
+this addItemToUniform "FirstAidKit";
+this addItemToUniform "rhs_1PN138";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
+this addHeadgear "rhs_beret_mp1";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+[this,"RussianHead_3","male02rus"] call BIS_fnc_setIdentity;
+
+
+
+Dr Dimitri "Maximus" Kolekiv - Grozovian Opposition Policital Leader
+Face = Severov
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "UK3CB_CHC_C_U_POLITIC_01";
+this linkItem "ItemWatch";
+[this,"WhiteHead_29","rhs_male02cz"] call BIS_fnc_setIdentity;
+
+
+[5242.901, -4025.773, 46.303]
