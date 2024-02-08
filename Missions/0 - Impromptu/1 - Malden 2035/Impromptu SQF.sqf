@@ -72,7 +72,7 @@ if (_layer1 && _layer499 && _layer496) then {
 	_this setMarkerDir 30.989;
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item9 = "";
@@ -86,7 +86,7 @@ if (_layer1 && _layer499 && _layer496) then {
 	_this setMarkerDir 30.989;
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2139 = "";
@@ -99,7 +99,7 @@ if (_layer496) then {
 	_this setMarkerText "Destroy Comms Tower";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2210 = "";
@@ -112,7 +112,7 @@ if (_layer496) then {
 	_this setMarkerText "Destroy Comms Tower";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2209 = "";
@@ -125,7 +125,7 @@ if (_layer496) then {
 	_this setMarkerText "Outpost";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2141 = "";
@@ -138,7 +138,7 @@ if (_layer496) then {
 	_this setMarkerText "Power & Fuel Station";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorUNKNOWN";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2140 = "";
@@ -151,7 +151,7 @@ if (_layer496) then {
 	_this setMarkerText "Rescue Prisoner";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorWEST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2914 = "";
@@ -164,7 +164,7 @@ if (_layer496) then {
 	_this setMarkerText "Shooting Range";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorUNKNOWN";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2864 = "";
@@ -177,7 +177,7 @@ if (_layer535) then {
 	_this setMarkerText "Start";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorWEST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 private _item2062 = "";
@@ -190,7 +190,7 @@ if (_layer1982) then {
 	_this setMarkerText "Smuggling Ship";
 	_this setMarkerShape "ICON";
 	_this setMarkerColor "ColorEAST";
-	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};;
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
 };
 
 
@@ -1334,10 +1334,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 66;
 	_this setPosWorld [9767.6,3989.83,40.6637];
 	_this setVectorDirAndUp [[0.0915545,0.993334,-0.0700368],[0.00128729,0.0702141,0.997531]];
-	_this setname "Vladimir Yagudin";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.957978;;
+	_this setname "Vladimir Yagudin";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male03rus";
+	_this setpitch 0.957978;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1353,10 +1353,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 33;
 	_this setPosWorld [9632.97,3353.56,44.9775];
 	_this setVectorDirAndUp [[0,0.991807,-0.127745],[0,0.127745,0.991807]];
-	_this setname "Leonid Zverev";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.959961;;
+	_this setname "Leonid Zverev";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "male03rus";
+	_this setpitch 0.959961;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1373,10 +1373,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 34;
 	_this setPosWorld [9633.33,3352.34,45.1984];
 	_this setVectorDirAndUp [[0,0.991807,-0.127745],[0,0.127745,0.991807]];
-	_this setname "Abram Putin";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00061;;
+	_this setname "Abram Putin";
+	_this setface "Oakes_v2";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00061;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1394,10 +1394,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9651,3276.71,42.9336];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Kiril Borichev";;
-	_this setface "RHS_GreekHead_A3_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.0178;;
+	_this setname "Kiril Borichev";
+	_this setface "RHS_GreekHead_A3_09";
+	_this setspeaker "male02rus";
+	_this setpitch 1.0178;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -1414,10 +1414,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 84;
 	_this setPosWorld [9655.91,3276.1,43.0686];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
-	_this setname "Egor Shcherbakov";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.01945;;
+	_this setname "Egor Shcherbakov";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "male03rus";
+	_this setpitch 1.01945;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -1434,10 +1434,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 85;
 	_this setPosWorld [9660.87,3275.48,43.2049];
 	_this setVectorDirAndUp [[-0.984429,0.123182,0.125401],[0.118956,-0.0583806,0.991182]];
-	_this setname "Nikolay Baranov";;
-	_this setface "RHS_WhiteHead_04";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.04123;;
+	_this setname "Nikolay Baranov";
+	_this setface "RHS_WhiteHead_04";
+	_this setspeaker "male02rus";
+	_this setpitch 1.04123;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -1455,10 +1455,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 25;
 	_this setPosWorld [9645.91,3319.46,45.834];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Leonid Kamenev";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.991948;;
+	_this setname "Leonid Kamenev";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male03rus";
+	_this setpitch 0.991948;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1474,10 +1474,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 28;
 	_this setPosWorld [9654.44,3352.36,45.1994];
 	_this setVectorDirAndUp [[-0.361728,0.932147,-0.0159738],[0.0423613,0.0335502,0.998539]];
-	_this setname "Timofey Gurevich";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.976133;;
+	_this setname "Timofey Gurevich";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male01rus";
+	_this setpitch 0.976133;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1493,10 +1493,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 29;
 	_this setPosWorld [9655.03,3352.42,45.3046];
 	_this setVectorDirAndUp [[-0.361728,0.932147,-0.0159738],[0.0423613,0.0335502,0.998539]];
-	_this setname "Ruslan Zhitkov";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.997868;;
+	_this setname "Ruslan Zhitkov";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male01rus";
+	_this setpitch 0.997868;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1513,10 +1513,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 30;
 	_this setPosWorld [9655.05,3350.95,45.4005];
 	_this setVectorDirAndUp [[-0.361728,0.932147,-0.0159738],[0.0423613,0.0335502,0.998539]];
-	_this setname "Fedor Zhegalov";;
-	_this setface "RHS_RussianHead_1";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.974738;;
+	_this setname "Fedor Zhegalov";
+	_this setface "RHS_RussianHead_1";
+	_this setspeaker "male03rus";
+	_this setpitch 0.974738;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1533,10 +1533,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 71;
 	_this setPosWorld [9705.6,3958.16,40.3136];
 	_this setVectorDirAndUp [[-0.0744044,-0.997228,0],[0,0,1]];
-	_this setname "Timofey Zhitkov";;
-	_this setface "WhiteHead_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.991057;;
+	_this setname "Timofey Zhitkov";
+	_this setface "WhiteHead_01";
+	_this setspeaker "male03rus";
+	_this setpitch 0.991057;
 	backup_airD = _this;
 	_this setVehicleVarName "backup_airD";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
@@ -1554,10 +1554,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 72;
 	_this setPosWorld [9704.4,3958.25,40.3174];
 	_this setVectorDirAndUp [[-0.0744044,-0.997228,0],[0,0,1]];
-	_this setname "Filip Kalashnikov";;
-	_this setface "WhiteHead_12";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.956867;;
+	_this setname "Filip Kalashnikov";
+	_this setface "WhiteHead_12";
+	_this setspeaker "male02rus";
+	_this setpitch 0.956867;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1573,10 +1573,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 73;
 	_this setPosWorld [9705.26,3959.12,40.5856];
 	_this setVectorDirAndUp [[-0.0744044,-0.997228,0],[0,0,1]];
-	_this setname "Kiril Babchenko";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.95007;;
+	_this setname "Kiril Babchenko";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "male01rus";
+	_this setpitch 0.95007;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1592,10 +1592,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 74;
 	_this setPosWorld [9704.98,3964.71,40.5369];
 	_this setVectorDirAndUp [[-0.0744044,-0.997228,0],[0,0,1]];
-	_this setname "Timofey Zykov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.98072;;
+	_this setname "Timofey Zykov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male03rus";
+	_this setpitch 0.98072;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1611,10 +1611,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 75;
 	_this setPosWorld [9704.95,3957.59,40.5516];
 	_this setVectorDirAndUp [[-0.0744044,-0.997228,0],[0,0,1]];
-	_this setname "Lev Romanov";;
-	_this setface "WhiteHead_03";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.960269;;
+	_this setname "Lev Romanov";
+	_this setface "WhiteHead_03";
+	_this setspeaker "male02rus";
+	_this setpitch 0.960269;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1631,10 +1631,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 98;
 	_this setPosWorld [9648.88,3350.32,44.2298];
 	_this setVectorDirAndUp [[-0.151793,0.988412,0],[0,0,1]];
-	_this setname "Vasil Borodin";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.951147;;
+	_this setname "Vasil Borodin";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male02rus";
+	_this setpitch 0.951147;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1651,9 +1651,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 81;
 	_this setPosWorld [9659.05,3302.81,44.2514];
 	_this setVectorDirAndUp [[0.46685,-0.884337,0],[0,0,1]];
-	_this setname "Filip Litvinov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1.03;;
+	_this setname "Filip Litvinov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1.03;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1670,10 +1670,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 100;
 	_this setPosWorld [9682.12,3891.5,42.8417];
 	_this setVectorDirAndUp [[0.0225948,-0.999745,0],[0,0,1]];
-	_this setname "Viktor Fisenko";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.986827;;
+	_this setname "Viktor Fisenko";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male02rus";
+	_this setpitch 0.986827;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1690,10 +1690,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 102;
 	_this setPosWorld [9678.76,3910.17,38.8772];
 	_this setVectorDirAndUp [[-0.975578,-0.219655,0],[0,0,1]];
-	_this setname "Filip Sharapov";;
-	_this setface "RHS_WhiteHead_06";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.953598;;
+	_this setname "Filip Sharapov";
+	_this setface "RHS_WhiteHead_06";
+	_this setspeaker "male03rus";
+	_this setpitch 0.953598;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1710,10 +1710,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 104;
 	_this setPosWorld [9651.23,3898.85,38.8772];
 	_this setVectorDirAndUp [[-0.999923,-0.0123946,0],[0,0,1]];
-	_this setname "Nikolay Zhegalov";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.998112;;
+	_this setname "Nikolay Zhegalov";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "male02rus";
+	_this setpitch 0.998112;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1730,10 +1730,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 106;
 	_this setPosWorld [9717.68,3851.18,38.8772];
 	_this setVectorDirAndUp [[0.547144,-0.837038,0],[0,0,1]];
-	_this setname "Leonid Pushkin";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02152;;
+	_this setname "Leonid Pushkin";
+	_this setface "RussianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02152;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1750,10 +1750,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 108;
 	_this setPosWorld [9752.09,3858.71,42.7296];
 	_this setVectorDirAndUp [[-0.0168297,-0.999858,0],[0,0,1]];
-	_this setname "Andrey Chapayev";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.01694;;
+	_this setname "Andrey Chapayev";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male03rus";
+	_this setpitch 1.01694;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1770,10 +1770,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 110;
 	_this setPosWorld [9795.54,3877.43,42.7297];
 	_this setVectorDirAndUp [[0.971639,-0.236468,0],[0,0,1]];
-	_this setname "Konstantin Volk";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.962305;;
+	_this setname "Konstantin Volk";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male03rus";
+	_this setpitch 0.962305;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1790,10 +1790,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 112;
 	_this setPosWorld [9777.65,3943.11,38.8728];
 	_this setVectorDirAndUp [[0.811351,0.58456,-0.000403658],[0,0.000690534,1]];
-	_this setname "Viktor Gusakov";;
-	_this setface "RHS_WhiteHead_04";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.992567;;
+	_this setname "Viktor Gusakov";
+	_this setface "RHS_WhiteHead_04";
+	_this setspeaker "male01rus";
+	_this setpitch 0.992567;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1810,10 +1810,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 114;
 	_this setPosWorld [9762.28,3946.42,38.8703];
 	_this setVectorDirAndUp [[-0.151793,0.988412,-0.000645937],[0.000771824,0.00077204,0.999999]];
-	_this setname "Pavel Zykov";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.985307;;
+	_this setname "Pavel Zykov";
+	_this setface "RussianHead_5";
+	_this setspeaker "male03rus";
+	_this setpitch 0.985307;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1830,10 +1830,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 116;
 	_this setPosWorld [9695.51,3851.53,38.6601];
 	_this setVectorDirAndUp [[-0.513636,-0.85259,-0.0962722],[-0.0702267,-0.070053,0.995068]];
-	_this setname "Daniil Kubasov";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.984049;;
+	_this setname "Daniil Kubasov";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male01rus";
+	_this setpitch 0.984049;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1850,9 +1850,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 118;
 	_this setPosWorld [9502.67,4213.45,36.0405];
 	_this setVectorDirAndUp [[-0.684954,-0.728586,0],[0,0,1]];
-	_this setname "Nikita Zubov";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.95;;
+	_this setname "Nikita Zubov";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1869,9 +1869,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 120;
 	_this setPosWorld [9495.88,4219.58,36.1182];
 	_this setVectorDirAndUp [[-0.761402,-0.64828,0],[0,0,1]];
-	_this setname "Vyacheslav Ivanov";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.95;;
+	_this setname "Vyacheslav Ivanov";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1888,9 +1888,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 122;
 	_this setPosWorld [9510,4205.07,36.0521];
 	_this setVectorDirAndUp [[-0.706872,-0.707341,0],[0,0,1]];
-	_this setname "Vladimir Antonov";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.95;;
+	_this setname "Vladimir Antonov";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1907,9 +1907,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 124;
 	_this setPosWorld [9517.39,4197.17,35.9457];
 	_this setVectorDirAndUp [[-0.733327,-0.679877,0],[0,0,1]];
-	_this setname "Arkadiy Bakunin";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.95;;
+	_this setname "Arkadiy Bakunin";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1926,9 +1926,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 126;
 	_this setPosWorld [9525.43,4189.6,35.6444];
 	_this setVectorDirAndUp [[-0.705377,-0.708832,0],[0,0,1]];
-	_this setname "Yuri Vorobiev";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.95;;
+	_this setname "Yuri Vorobiev";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1946,10 +1946,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9517.68,4206.67,35.7284];
 	_this setVectorDirAndUp [[-0.717438,-0.695483,0.0398288],[0.0399682,0.0159849,0.999073]];
 	_this setUnitLoadout [[],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_mag_9x18_8_57N181S",3,8]]],["rhs_6b45_holster",[["rhs_mag_rdg2_white",2,1]]],[],"rhs_beret_vdv1","",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Roman Zhitkov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02892;;
+	_this setname "Roman Zhitkov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02892;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1965,10 +1965,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 130;
 	_this setPosWorld [9518.01,4209.96,35.5873];
 	_this setVectorDirAndUp [[-0.716472,-0.693476,0.0758894],[0.065459,0.0414747,0.996993]];
-	_this setname "Leonid Romanov";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.984004;;
+	_this setname "Leonid Romanov";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male01rus";
+	_this setpitch 0.984004;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -1984,10 +1984,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 132;
 	_this setPosWorld [9520.94,4206.95,35.521];
 	_this setVectorDirAndUp [[-0.716472,-0.693476,0.0758894],[0.065459,0.0414747,0.996993]];
-	_this setname "Dimitri Blagonravov";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.952603;;
+	_this setname "Dimitri Blagonravov";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male02rus";
+	_this setpitch 0.952603;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2004,10 +2004,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9521.27,4210.2,35.3641];
 	_this setVectorDirAndUp [[-0.716472,-0.693476,0.0758894],[0.065459,0.0414747,0.996993]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Pyotr Nikolayev";;
-	_this setface "RHS_LivonianHead_5";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.96503;;
+	_this setname "Pyotr Nikolayev";
+	_this setface "RHS_LivonianHead_5";
+	_this setspeaker "male03rus";
+	_this setpitch 0.96503;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2025,10 +2025,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9611.66,3335.39,44.4183];
 	_this setVectorDirAndUp [[0.428542,0.894886,0.12462],[-0.0927019,-0.0936509,0.99128]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Fedor Komarov";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.980055;;
+	_this setname "Fedor Komarov";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male02rus";
+	_this setpitch 0.980055;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2045,10 +2045,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 137;
 	_this setPosWorld [9609.52,3330.93,44.0575];
 	_this setVectorDirAndUp [[0.428542,0.894886,0.12462],[-0.0927019,-0.0936509,0.99128]];
-	_this setname "Ilya Chapayev";;
-	_this setface "RHS_WhiteHead_08";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03222;;
+	_this setname "Ilya Chapayev";
+	_this setface "RHS_WhiteHead_08";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03222;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2065,10 +2065,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 138;
 	_this setPosWorld [9607.36,3326.42,43.7623];
 	_this setVectorDirAndUp [[0.4285,0.894797,0.125401],[-0.0930374,-0.0943551,0.991182]];
-	_this setname "Oleg Blagonravov";;
-	_this setface "RHS_WhiteHead_05";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02089;;
+	_this setname "Oleg Blagonravov";
+	_this setface "RHS_WhiteHead_05";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02089;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2087,10 +2087,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9430.9,3451.33,32.534];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vadim Zverev";;
-	_this setface "RHS_WhiteHead_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.996904;;
+	_this setname "Vadim Zverev";
+	_this setface "RHS_WhiteHead_01";
+	_this setspeaker "male02rus";
+	_this setpitch 0.996904;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2107,10 +2107,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 141;
 	_this setPosWorld [9435.81,3450.71,32.5895];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
-	_this setname "Valery Rogozhkin";;
-	_this setface "Mason_v2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04011;;
+	_this setname "Valery Rogozhkin";
+	_this setface "Mason_v2";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04011;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2127,10 +2127,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 142;
 	_this setPosWorld [9440.77,3450.09,32.5793];
 	_this setVectorDirAndUp [[-0.984429,0.123182,0.125401],[0.118956,-0.0583806,0.991182]];
-	_this setname "Grigoriy Komarov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.972437;;
+	_this setname "Grigoriy Komarov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.972437;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2149,10 +2149,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9366.46,3576.51,15.0098];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Nikita Provodnikov";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.979374;;
+	_this setname "Nikita Provodnikov";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "male03rus";
+	_this setpitch 0.979374;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2169,10 +2169,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 145;
 	_this setPosWorld [9371.37,3575.9,15.3041];
 	_this setVectorDirAndUp [[-0.984527,0.123194,0.124621],[0.118182,-0.0582853,0.99128]];
-	_this setname "Lev Afanasyev";;
-	_this setface "RHS_GreekHead_A3_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.974226;;
+	_this setname "Lev Afanasyev";
+	_this setface "RHS_GreekHead_A3_09";
+	_this setspeaker "male02rus";
+	_this setpitch 0.974226;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2189,10 +2189,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 146;
 	_this setPosWorld [9376.33,3575.28,15.6958];
 	_this setVectorDirAndUp [[-0.984429,0.123182,0.125401],[0.118956,-0.0583806,0.991182]];
-	_this setname "Vasili Rogozhkin";;
-	_this setface "AsianHead_A3_04";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.986192;;
+	_this setname "Vasili Rogozhkin";
+	_this setface "AsianHead_A3_04";
+	_this setspeaker "male03rus";
+	_this setpitch 0.986192;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2211,10 +2211,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10291.7,3179.28,1.67744];
 	_this setVectorDirAndUp [[0.903895,-0.427755,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Anatoli Yeltsin";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02385;;
+	_this setname "Anatoli Yeltsin";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02385;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2231,10 +2231,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 170;
 	_this setPosWorld [10293.4,3178.44,1.20764];
 	_this setVectorDirAndUp [[0.903895,-0.427755,0],[0,0,1]];
-	_this setname "Fedor Titov";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03184;;
+	_this setname "Fedor Titov";
+	_this setface "RussianHead_4";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03184;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2251,10 +2251,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 171;
 	_this setPosWorld [10291.4,3178.72,1.71281];
 	_this setVectorDirAndUp [[0.903895,-0.427755,0],[0,0,1]];
-	_this setname "Maksim Sarafanov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.00097;;
+	_this setname "Maksim Sarafanov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male02rus";
+	_this setpitch 1.00097;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2271,10 +2271,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 285;
 	_this setPosWorld [9794.26,3904.27,46.5179];
 	_this setVectorDirAndUp [[0.715247,0.698871,0],[0,0,1]];
-	_this setname "Pyotr Bulgakov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00095;;
+	_this setname "Pyotr Bulgakov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00095;
 	_this setUnitPos "DOWN";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2292,10 +2292,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 286;
 	_this setPosWorld [9793.36,3879.73,39.7268];
 	_this setVectorDirAndUp [[0.999933,-0.0115798,0],[0,0,1]];
-	_this setname "Vladimir Lermontov";;
-	_this setface "RHS_WhiteHead_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0121;;
+	_this setname "Vladimir Lermontov";
+	_this setface "RHS_WhiteHead_01";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0121;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2311,10 +2311,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 287;
 	_this setPosWorld [9793.7,3905.13,39.8337];
 	_this setVectorDirAndUp [[0.698871,-0.715248,0],[0,0,1]];
-	_this setname "Kiril Petrov";;
-	_this setface "RHS_LivonianHead_2";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.991029;;
+	_this setname "Kiril Petrov";
+	_this setface "RHS_LivonianHead_2";
+	_this setspeaker "male02rus";
+	_this setpitch 0.991029;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2330,10 +2330,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 288;
 	_this setPosWorld [9786.2,3883.21,39.8337];
 	_this setVectorDirAndUp [[-0.999933,0.0115797,0],[0,0,1]];
-	_this setname "Mikhail Makarov";;
-	_this setface "RHS_RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04467;;
+	_this setname "Mikhail Makarov";
+	_this setface "RHS_RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04467;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2349,10 +2349,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 289;
 	_this setPosWorld [9792.81,3893.1,46.7298];
 	_this setVectorDirAndUp [[0.999933,-0.0115798,0],[0,0,1]];
-	_this setname "Oleg Molotov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03652;;
+	_this setname "Oleg Molotov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03652;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2369,10 +2369,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 290;
 	_this setPosWorld [9795.74,3905.88,42.8401];
 	_this setVectorDirAndUp [[0.715247,0.698871,0],[0,0,1]];
-	_this setname "Oleg Sarafanov";;
-	_this setface "RHS_WhiteHead_04";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02675;;
+	_this setname "Oleg Sarafanov";
+	_this setface "RHS_WhiteHead_04";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02675;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2388,10 +2388,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 291;
 	_this setPosWorld [9786.54,3902.14,42.8401];
 	_this setVectorDirAndUp [[-0.999933,0.0115797,0],[0,0,1]];
-	_this setname "Vyacheslav Akulov";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.964454;;
+	_this setname "Vyacheslav Akulov";
+	_this setface "RussianHead_3";
+	_this setspeaker "male01rus";
+	_this setpitch 0.964454;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2407,10 +2407,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 292;
 	_this setPosWorld [9786.37,3890.67,39.8337];
 	_this setVectorDirAndUp [[-0.715247,-0.698871,0],[0,0,1]];
-	_this setname "Vitaly Popov";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.961908;;
+	_this setname "Vitaly Popov";
+	_this setface "Oakes_v2";
+	_this setspeaker "male03rus";
+	_this setpitch 0.961908;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2426,10 +2426,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 297;
 	_this setPosWorld [9785.88,3935.39,39.542];
 	_this setVectorDirAndUp [[-0.706144,0.708068,0],[0,0,1]];
-	_this setname "Pavel Medvedev";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.96297;;
+	_this setname "Pavel Medvedev";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male01rus";
+	_this setpitch 0.96297;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2446,10 +2446,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 298;
 	_this setPosWorld [9776.42,3929.04,39.542];
 	_this setVectorDirAndUp [[0.999999,-0.00136082,0],[0,0,1]];
-	_this setname "Sergei Baranov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00317;;
+	_this setname "Sergei Baranov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00317;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2465,10 +2465,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 302;
 	_this setPosWorld [9781.67,3928,39.542];
 	_this setVectorDirAndUp [[-0.00136074,-0.999999,0],[0,0,1]];
-	_this setname "Boris Tokarev";;
-	_this setface "RHS_WhiteHead_08";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03634;;
+	_this setname "Boris Tokarev";
+	_this setface "RHS_WhiteHead_08";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03634;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2485,10 +2485,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 303;
 	_this setPosWorld [9783.35,3932.47,39.212];
 	_this setVectorDirAndUp [[0.999999,-0.00136082,0],[0,0,1]];
-	_this setname "Alyosha Rogozhkin";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.970121;;
+	_this setname "Alyosha Rogozhkin";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male01rus";
+	_this setpitch 0.970121;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2505,10 +2505,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 326;
 	_this setPosWorld [9681.88,3893.03,39.7294];
 	_this setVectorDirAndUp [[1,3.13916e-007,0],[0,0,1]];
-	_this setname "Vasili Kalashnikov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.96511;;
+	_this setname "Vasili Kalashnikov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male02rus";
+	_this setpitch 0.96511;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2524,10 +2524,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 330;
 	_this setPosWorld [9722.75,3865.98,39.2802];
 	_this setVectorDirAndUp [[-0.0152709,0.999883,0],[0,0,1]];
-	_this setname "Filip Beregovoi";;
-	_this setface "RHS_WhiteHead_06";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03113;;
+	_this setname "Filip Beregovoi";
+	_this setface "RHS_WhiteHead_06";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03113;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2544,10 +2544,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 331;
 	_this setPosWorld [9724.12,3862.23,39.2802];
 	_this setVectorDirAndUp [[-0.0152709,0.999883,0],[0,0,1]];
-	_this setname "Ruslan Zykov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.995067;;
+	_this setname "Ruslan Zykov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male02rus";
+	_this setpitch 0.995067;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2563,10 +2563,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 332;
 	_this setPosWorld [9720.53,3861.81,39.2802];
 	_this setVectorDirAndUp [[0.696226,0.717823,0],[0,0,1]];
-	_this setname "Vasili Naryshkin";;
-	_this setface "RHS_WhiteHead_25";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.994841;;
+	_this setname "Vasili Naryshkin";
+	_this setface "RHS_WhiteHead_25";
+	_this setspeaker "male03rus";
+	_this setpitch 0.994841;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2582,10 +2582,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 333;
 	_this setPosWorld [9725.38,3884.29,39.2802];
 	_this setVectorDirAndUp [[0.0152707,-0.999883,0],[0,0,1]];
-	_this setname "Valentin Provodnikov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.987175;;
+	_this setname "Valentin Provodnikov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male02rus";
+	_this setpitch 0.987175;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2602,10 +2602,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9721.35,3871.59,39.2802];
 	_this setVectorDirAndUp [[0.717822,-0.696226,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vasili Vorobiev";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.972391;;
+	_this setname "Vasili Vorobiev";
+	_this setface "RussianHead_3";
+	_this setspeaker "male01rus";
+	_this setpitch 0.972391;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2622,10 +2622,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 339;
 	_this setPosWorld [9376.9,3831.37,4.137];
 	_this setVectorDirAndUp [[-0.123703,0.992319,0],[0,0,1]];
-	_this setname "Vyacheslav Produnov";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.984654;;
+	_this setname "Vyacheslav Produnov";
+	_this setface "RussianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 0.984654;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2642,10 +2642,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 340;
 	_this setPosWorld [9371.85,3852.85,4.137];
 	_this setVectorDirAndUp [[0.614205,0.789147,0],[0,0,1]];
-	_this setname "Stepan Maksimov";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.951703;;
+	_this setname "Stepan Maksimov";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 0.951703;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2662,10 +2662,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 341;
 	_this setPosWorld [9378.17,3852.09,4.137];
 	_this setVectorDirAndUp [[0.123703,-0.992319,0],[0,0,1]];
-	_this setname "Fyodor Yagudin";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01914;;
+	_this setname "Fyodor Yagudin";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01914;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2682,10 +2682,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9375.41,3844.5,4.137];
 	_this setVectorDirAndUp [[0.123703,-0.992319,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_gp25_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],["rhs_VOG25",1],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_grn",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_VOG25",8,1],["rhs_GRD40_White",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Sergei Derevenko";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.954489;;
+	_this setname "Sergei Derevenko";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male02rus";
+	_this setpitch 0.954489;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2701,10 +2701,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 343;
 	_this setPosWorld [9373.13,3840.38,4.137];
 	_this setVectorDirAndUp [[0.123703,-0.992319,0],[0,0,1]];
-	_this setname "Nikolay Baranov";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.958402;;
+	_this setname "Nikolay Baranov";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male01rus";
+	_this setpitch 0.958402;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2721,10 +2721,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 344;
 	_this setPosWorld [9375.14,3834.95,4.137];
 	_this setVectorDirAndUp [[-0.123703,0.992319,0],[0,0,1]];
-	_this setname "Nikita Nikolayev";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02698;;
+	_this setname "Nikita Nikolayev";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02698;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2741,10 +2741,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 349;
 	_this setPosWorld [9319.3,3791.67,3.76471];
 	_this setVectorDirAndUp [[-0.989644,0.143546,0],[0,0,1]];
-	_this setname "Timofey Derevenko";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.99087;;
+	_this setname "Timofey Derevenko";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male01rus";
+	_this setpitch 0.99087;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2762,10 +2762,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 351;
 	_this setPosWorld [9344.5,3730.57,3.68144];
 	_this setVectorDirAndUp [[0.647944,-0.761688,0],[0,0,1]];
-	_this setname "Aleksander Tolstoy";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02076;;
+	_this setname "Aleksander Tolstoy";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02076;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2783,10 +2783,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 352;
 	_this setPosWorld [9312.87,3830.91,3.74652];
 	_this setVectorDirAndUp [[-0.99192,-0.126866,0],[0,0,1]];
-	_this setname "Ilya Gorbunov";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00078;;
+	_this setname "Ilya Gorbunov";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00078;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2805,10 +2805,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9306.9,3860.06,3.96855];
 	_this setVectorDirAndUp [[-0.962357,-0.271789,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],[],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_rifleman",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_mag_rgn",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vadim Smirnov";;
-	_this setface "RHS_LivonianHead_3";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.973222;;
+	_this setname "Vadim Smirnov";
+	_this setface "RHS_LivonianHead_3";
+	_this setspeaker "male01rus";
+	_this setpitch 0.973222;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2826,10 +2826,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 412;
 	_this setPosWorld [9343.21,3729.69,3.66725];
 	_this setVectorDirAndUp [[0.513905,-0.857847,0],[0,0,1]];
-	_this setname "Stepan Romanov";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.996565;;
+	_this setname "Stepan Romanov";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 0.996565;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2846,10 +2846,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 350;
 	_this setPosWorld [9302.13,3877.43,3.77831];
 	_this setVectorDirAndUp [[-0.938861,-0.344296,0],[0,0,1]];
-	_this setname "Egor Turchinsky";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01513;;
+	_this setname "Egor Turchinsky";
+	_this setface "RussianHead_4";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01513;
 	_this setUnitPos "MIDDLE";
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -2867,10 +2867,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 415;
 	_this setPosWorld [9356.89,3731.6,3.66725];
 	_this setVectorDirAndUp [[-0.0144141,-0.999896,0],[0,0,1]];
-	_this setname "Mikhail Sudakov";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.950101;;
+	_this setname "Mikhail Sudakov";
+	_this setface "RussianHead_5";
+	_this setspeaker "male02rus";
+	_this setpitch 0.950101;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2886,12 +2886,12 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 27;
 	_this setPosWorld [9655.36,3350.96,46.3297];
 	_this setVectorDirAndUp [[-0.361728,0.932147,-0.0159738],[0.0423613,0.0335502,0.998539]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -2907,12 +2907,12 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 442;
 	_this setPosWorld [9325.61,3858.15,6.01615];
 	_this setVectorDirAndUp [[0.166338,-0.986069,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -2928,20 +2928,20 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 438;
 	_this setPosWorld [9354.61,3739.41,5.87657];
 	_this setVectorDirAndUp [[-0.474149,-0.880445,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Honor"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Honor"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
-	_this setVariable ['rhs_decalVV_type', "Platoon"];;
+	_this setVariable ['rhs_decalVV_type', "Platoon"];
 
 
 
@@ -2964,10 +2964,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 418;
 	_this setPosWorld [9313.41,3838.39,3.72912];
 	_this setVectorDirAndUp [[-0.979607,-0.200916,0.00165552],[0.00161916,0.000345267,0.999999]];
-	_this setname "Yuri Chapayev";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03309;;
+	_this setname "Yuri Chapayev";
+	_this setface "RussianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03309;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -2984,10 +2984,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 421;
 	_this setPosWorld [9302.84,3870.88,3.76592];
 	_this setVectorDirAndUp [[-0.934631,-0.355615,0.00160134],[0.00158197,0.000345267,0.999999]];
-	_this setname "Vadim Krasko";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.976267;;
+	_this setname "Vadim Krasko";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male02rus";
+	_this setpitch 0.976267;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3004,10 +3004,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 424;
 	_this setPosWorld [9318.78,3775.83,3.75286];
 	_this setVectorDirAndUp [[-0.979607,-0.200917,0.00158615],[0.00161916,0,0.999999]];
-	_this setname "Roman Akulov";;
-	_this setface "RHS_GreekHead_A3_09";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.964817;;
+	_this setname "Roman Akulov";
+	_this setface "RHS_GreekHead_A3_09";
+	_this setspeaker "male01rus";
+	_this setpitch 0.964817;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3024,10 +3024,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 427;
 	_this setPosWorld [9320.51,3731.68,3.75448];
 	_this setVectorDirAndUp [[-0.979607,-0.200917,0.00158615],[0.00161916,0,0.999999]];
-	_this setname "Yuri Zhegalov";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04933;;
+	_this setname "Yuri Zhegalov";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04933;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3043,10 +3043,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 439;
 	_this setPosWorld [9353.81,3737.11,4.86859];
 	_this setVectorDirAndUp [[-0.474149,-0.880445,0],[0,0,1]];
-	_this setname "Daniil Nikolayev";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.963797;;
+	_this setname "Daniil Nikolayev";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male02rus";
+	_this setpitch 0.963797;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3063,10 +3063,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 440;
 	_this setPosWorld [9354.38,3738.65,5.30144];
 	_this setVectorDirAndUp [[-0.474149,-0.880445,0],[0,0,1]];
-	_this setname "Pavel Yakushkin";;
-	_this setface "RHS_LivonianHead_5";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03399;;
+	_this setname "Pavel Yakushkin";
+	_this setface "RHS_LivonianHead_5";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03399;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3082,10 +3082,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 435;
 	_this setPosWorld [9337.72,3734.91,4.85784];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Igor Smirnov";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.996077;;
+	_this setname "Igor Smirnov";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 0.996077;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3102,10 +3102,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 436;
 	_this setPosWorld [9338.08,3733.68,4.92124];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yuri Putin";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0479;;
+	_this setname "Yuri Putin";
+	_this setface "RussianHead_5";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0479;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3121,10 +3121,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 443;
 	_this setPosWorld [9326.16,3856.56,4.89609];
 	_this setVectorDirAndUp [[0.166338,-0.986069,0],[0,0,1]];
-	_this setname "Mikhail Ivanov";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.996504;;
+	_this setname "Mikhail Ivanov";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male01rus";
+	_this setpitch 0.996504;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3140,10 +3140,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 444;
 	_this setPosWorld [9325.59,3856.63,5.02774];
 	_this setVectorDirAndUp [[0.166338,-0.986069,0],[0,0,1]];
-	_this setname "Fyodor Bakunin";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02242;;
+	_this setname "Fyodor Bakunin";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02242;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3160,10 +3160,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 445;
 	_this setPosWorld [9325.86,3858.08,5.07491];
 	_this setVectorDirAndUp [[0.166338,-0.986069,0],[0,0,1]];
-	_this setname "Stepan Sudakov";;
-	_this setface "WhiteHead_06";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.962439;;
+	_this setname "Stepan Sudakov";
+	_this setface "WhiteHead_06";
+	_this setspeaker "male03rus";
+	_this setpitch 0.962439;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -3181,10 +3181,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10087.6,4007.99,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Pyotr Glebov";;
-	_this setface "Mason_v2";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.966437;;
+	_this setname "Pyotr Glebov";
+	_this setface "Mason_v2";
+	_this setspeaker "male02rus";
+	_this setpitch 0.966437;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3201,10 +3201,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 464;
 	_this setPosWorld [10082.6,4002.99,27.8502];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Maksim Golovko";;
-	_this setface "RHS_LivonianHead_3";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03519;;
+	_this setname "Maksim Golovko";
+	_this setface "RHS_LivonianHead_3";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03519;
 	_this setSkill 0.45;
 	_this setRank "CORPORAL";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
@@ -3222,10 +3222,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 465;
 	_this setPosWorld [10090.6,4002.99,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Semyon Kirygin";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.999113;;
+	_this setname "Semyon Kirygin";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male01rus";
+	_this setpitch 0.999113;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3242,10 +3242,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 466;
 	_this setPosWorld [10092.6,4002.99,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Andrey Zykov";;
-	_this setface "AsianHead_A3_02";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.04181;;
+	_this setname "Andrey Zykov";
+	_this setface "AsianHead_A3_02";
+	_this setspeaker "male03rus";
+	_this setpitch 1.04181;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3262,10 +3262,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 467;
 	_this setPosWorld [10094.6,4002.99,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Fedor Borodin";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.0418;;
+	_this setname "Fedor Borodin";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male02rus";
+	_this setpitch 1.0418;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3282,10 +3282,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 468;
 	_this setPosWorld [10096.6,4002.99,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Maksim Akulov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.0345;;
+	_this setname "Maksim Akulov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male02rus";
+	_this setpitch 1.0345;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3304,10 +3304,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10084.6,3963.44,28.5712];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Kuzma Akulov";;
-	_this setface "RHS_WhiteHead_05";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02225;;
+	_this setname "Kuzma Akulov";
+	_this setface "RHS_WhiteHead_05";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02225;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3324,10 +3324,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 471;
 	_this setPosWorld [10079.6,3958.44,29.1871];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Anatoli Zhegalov";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.998238;;
+	_this setname "Anatoli Zhegalov";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "male01rus";
+	_this setpitch 0.998238;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3344,10 +3344,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 472;
 	_this setPosWorld [10087.6,3958.44,29.1854];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Filip Akulov";;
-	_this setface "RHS_LivonianHead_5";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.990962;;
+	_this setname "Filip Akulov";
+	_this setface "RHS_LivonianHead_5";
+	_this setspeaker "male03rus";
+	_this setpitch 0.990962;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3366,10 +3366,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10150.2,3957.65,28.5344];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "German Baranov";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.981449;;
+	_this setname "German Baranov";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male02rus";
+	_this setpitch 0.981449;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3386,10 +3386,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 475;
 	_this setPosWorld [10145.2,3952.65,29.125];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yuri Produnov";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02744;;
+	_this setname "Yuri Produnov";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02744;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3406,10 +3406,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 476;
 	_this setPosWorld [10153.2,3952.65,28.4081];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Ruslan Malyukov";;
-	_this setface "RHS_LivonianHead_3";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01101;;
+	_this setname "Ruslan Malyukov";
+	_this setface "RHS_LivonianHead_3";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01101;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3428,10 +3428,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10159.7,4004.89,27.3653];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Pyotr Khrushchev";;
-	_this setface "RHS_GreekHead_A3_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.0358;;
+	_this setname "Pyotr Khrushchev";
+	_this setface "RHS_GreekHead_A3_01";
+	_this setspeaker "male02rus";
+	_this setpitch 1.0358;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3448,10 +3448,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 479;
 	_this setPosWorld [10154.7,3999.89,27.5467];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasil Derevenko";;
-	_this setface "AsianHead_A3_04";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.982679;;
+	_this setname "Vasil Derevenko";
+	_this setface "AsianHead_A3_04";
+	_this setspeaker "male03rus";
+	_this setpitch 0.982679;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3468,10 +3468,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 480;
 	_this setPosWorld [10162.7,3999.89,27.0939];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yuri Smirnov";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02266;;
+	_this setname "Yuri Smirnov";
+	_this setface "RussianHead_1";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02266;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3490,10 +3490,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10126.6,4044.63,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vitaly Zubov";;
-	_this setface "RHS_WhiteHead_27";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02319;;
+	_this setname "Vitaly Zubov";
+	_this setface "RHS_WhiteHead_27";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02319;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3510,10 +3510,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 483;
 	_this setPosWorld [10121.6,4039.63,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yevgeniy Borichev";;
-	_this setface "AsianHead_A3_02";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.994481;;
+	_this setname "Yevgeniy Borichev";
+	_this setface "AsianHead_A3_02";
+	_this setspeaker "male01rus";
+	_this setpitch 0.994481;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3530,10 +3530,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 484;
 	_this setPosWorld [10129.6,4039.63,27.8314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Valentin Popov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02255;;
+	_this setname "Valentin Popov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02255;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3552,10 +3552,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10054.9,4059.86,27.6871];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Konstantin Zhukov";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.957135;;
+	_this setname "Konstantin Zhukov";
+	_this setface "Oakes_v2";
+	_this setspeaker "male01rus";
+	_this setpitch 0.957135;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3572,10 +3572,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 487;
 	_this setPosWorld [10049.9,4054.86,27.8295];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Grigoriy Zhukov";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02508;;
+	_this setname "Grigoriy Zhukov";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02508;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3592,10 +3592,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 488;
 	_this setPosWorld [10057.9,4054.86,27.7712];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Ivan Popov";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0467;;
+	_this setname "Ivan Popov";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0467;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3614,10 +3614,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [10045.1,3994.94,28.0152];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Abram Blagonravov";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.989247;;
+	_this setname "Abram Blagonravov";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "male02rus";
+	_this setpitch 0.989247;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3634,10 +3634,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 491;
 	_this setPosWorld [10040.1,3989.94,28.8985];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Fedor Antonov";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.04832;;
+	_this setname "Fedor Antonov";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "male02rus";
+	_this setpitch 1.04832;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3654,10 +3654,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 492;
 	_this setPosWorld [10048.1,3989.94,27.9088];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Boris Fisenko";;
-	_this setface "Mason_v2";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03895;;
+	_this setname "Boris Fisenko";
+	_this setface "Mason_v2";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03895;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -3674,14 +3674,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 20;
 	_this setPosWorld [9656.27,3303.01,46.2987];
 	_this setVectorDirAndUp [[0.494938,-0.868928,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -3697,14 +3697,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 32;
 	_this setPosWorld [9633.61,3353.25,46.0431];
 	_this setVectorDirAndUp [[0,0.991807,-0.127745],[0,0.127745,0.991807]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -3720,14 +3720,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 434;
 	_this setPosWorld [9338.36,3734.46,5.87422];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -3743,15 +3743,15 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 24;
 	_this setPosWorld [9646.6,3317.54,45.9026];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (1 != (if (isNumber (configOf _this >> "ace_repair_canRepair")) then {getNumber (configOf _this >> "ace_repair_canRepair")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['s', 1, true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -3765,24 +3765,24 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 67;
 	_this setPosWorld [9768.12,3987.86,40.8705];
 	_this setVectorDirAndUp [[0.0915545,0.993334,-0.0700368],[0.00128729,0.0702141,0.997531]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (1 != (if (isNumber (configOf _this >> "ace_repair_canRepair")) then {getNumber (configOf _this >> "ace_repair_canRepair")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['s', 1, true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
 };
 
-private _item70 = objNull;
+backup_air = objNull;
 if (_layer497 && _layer496) then {
-	_item70 = createVehicle ["RHS_Mi8MTV3_heavy_vdv",[9705.43,3964.02,0],[],0,"CAN_COLLIDE"];
-	_this = _item70;
+	backup_air = createVehicle ["RHS_Mi8MTV3_heavy_vdv",[9705.43,3964.02,0],[],0,"CAN_COLLIDE"];
+	_this = backup_air;
 	_objects pushback _this;
 	_objectIDs pushback 70;
 	_this setPosWorld [9705.42,3963.89,42.1205];
@@ -3796,7 +3796,7 @@ if (_layer497 && _layer496) then {
 	_this setPylonLoadout [5,"rhs_mag_b8v20a_s8kom"];
 	_this setPylonLoadout [6,"rhs_mag_b8v20a_s8kom"];
 	_this setPylonLoadout [7,"rhs_ASO2_CMFlare_Chaff_Magazine_x6"];
-	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
@@ -3812,7 +3812,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9343.06,3729.95,5.36848];
 	_this setVectorDirAndUp [[0.513905,-0.857847,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item416 = objNull;
@@ -3824,7 +3824,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9356.9,3731.9,5.36848];
 	_this setVectorDirAndUp [[-0.0144141,-0.999896,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item419 = objNull;
@@ -3836,7 +3836,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9313.71,3838.45,5.42985];
 	_this setVectorDirAndUp [[-0.979607,-0.200916,0.00165552],[0.00161916,0.000345267,0.999999]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item422 = objNull;
@@ -3848,7 +3848,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9303.12,3870.98,5.46667];
 	_this setVectorDirAndUp [[-0.934631,-0.355615,0.00160134],[0.00158197,0.000345267,0.999999]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item425 = objNull;
@@ -3860,7 +3860,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9319.08,3775.88,5.45361];
 	_this setVectorDirAndUp [[-0.979607,-0.200917,0.00158615],[0.00161916,0,0.999999]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item428 = objNull;
@@ -3872,7 +3872,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9320.81,3731.74,5.45524];
 	_this setVectorDirAndUp [[-0.979607,-0.200917,0.00158615],[0.00161916,0,0.999999]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item148 = objNull;
@@ -3883,7 +3883,7 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 148;
 	_this setPosWorld [10291.7,3179.29,3.43748];
 	_this setVectorDirAndUp [[0.903895,-0.427755,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -3897,7 +3897,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9648.92,3350.03,45.931];
 	_this setVectorDirAndUp [[-0.151793,0.988412,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item87 = objNull;
@@ -3909,7 +3909,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9682.12,3891.8,44.5429];
 	_this setVectorDirAndUp [[0.0225948,-0.999745,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item88 = objNull;
@@ -3921,7 +3921,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9679.05,3910.23,40.5785];
 	_this setVectorDirAndUp [[-0.975578,-0.219655,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item89 = objNull;
@@ -3933,7 +3933,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9651.53,3898.84,40.5785];
 	_this setVectorDirAndUp [[-0.999923,-0.0123946,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item90 = objNull;
@@ -3945,7 +3945,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9762.32,3946.13,40.5717];
 	_this setVectorDirAndUp [[-0.151793,0.988412,-0.000645937],[0.000771824,0.00077204,0.999999]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item91 = objNull;
@@ -3957,7 +3957,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9777.41,3942.94,40.5741];
 	_this setVectorDirAndUp [[0.811351,0.58456,-0.000403658],[0,0.000690534,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item92 = objNull;
@@ -3969,7 +3969,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9795.25,3877.51,44.4309];
 	_this setVectorDirAndUp [[0.971639,-0.236468,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item93 = objNull;
@@ -3981,7 +3981,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9695.55,3851.66,40.3818];
 	_this setVectorDirAndUp [[-0.513636,-0.85259,-0.0962722],[-0.0702267,-0.070053,0.995068]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item94 = objNull;
@@ -3993,7 +3993,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9717.53,3851.44,40.5785];
 	_this setVectorDirAndUp [[0.547144,-0.837038,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item95 = objNull;
@@ -4005,7 +4005,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9752.11,3859.01,44.4308];
 	_this setVectorDirAndUp [[-0.0168297,-0.999858,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item539 = objNull;
@@ -4016,10 +4016,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 539;
 	_this setPosWorld [9772.09,3862.54,39.8336];
 	_this setVectorDirAndUp [[0.707189,-0.707024,0],[0,0,1]];
-	_this setname "Filip Litvinov";;
-	_this setface "RHS_LivonianHead_7";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04604;;
+	_this setname "Filip Litvinov";
+	_this setface "RHS_LivonianHead_7";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04604;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4036,10 +4036,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 540;
 	_this setPosWorld [9779.73,3860.98,42.84];
 	_this setVectorDirAndUp [[0.000115784,-1,0],[0,0,1]];
-	_this setname "Lev Maksimov";;
-	_this setface "RHS_WhiteHead_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.04853;;
+	_this setname "Lev Maksimov";
+	_this setface "RHS_WhiteHead_01";
+	_this setspeaker "male02rus";
+	_this setpitch 1.04853;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4055,10 +4055,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 541;
 	_this setPosWorld [9770.61,3870.14,42.84];
 	_this setVectorDirAndUp [[-0.000116173,1,0],[0,0,1]];
-	_this setname "Anatoli Chapayev";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.00891;;
+	_this setname "Anatoli Chapayev";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male02rus";
+	_this setpitch 1.00891;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4074,10 +4074,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 542;
 	_this setPosWorld [9775.99,3867.5,46.6893];
 	_this setVectorDirAndUp [[1,0.000116185,0],[0,0,1]];
-	_this setname "Aleksei Alekseev";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.9955;;
+	_this setname "Aleksei Alekseev";
+	_this setface "RussianHead_2";
+	_this setspeaker "male03rus";
+	_this setpitch 0.9955;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4094,10 +4094,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 543;
 	_this setPosWorld [9763.77,3861.3,42.84];
 	_this setVectorDirAndUp [[-0.707025,-0.707189,0],[0,0,1]];
-	_this setname "German Gurevich";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.0006;;
+	_this setname "German Gurevich";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "male01rus";
+	_this setpitch 1.0006;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4114,10 +4114,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9757.73,3868.22,42.84];
 	_this setVectorDirAndUp [[-0.000116173,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Alyosha Yeltsin";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.976725;;
+	_this setname "Alyosha Yeltsin";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male01rus";
+	_this setpitch 0.976725;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4133,10 +4133,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 545;
 	_this setPosWorld [9772.79,3862.78,42.84];
 	_this setVectorDirAndUp [[0.000115784,-1,0],[0,0,1]];
-	_this setname "Fyodor Nikolayev";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.952213;;
+	_this setname "Fyodor Nikolayev";
+	_this setface "RussianHead_3";
+	_this setspeaker "male02rus";
+	_this setpitch 0.952213;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4152,10 +4152,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 546;
 	_this setPosWorld [9756.02,3864.7,42.84];
 	_this setVectorDirAndUp [[1,0.000116185,0],[0,0,1]];
-	_this setname "Alyosha Bakunin";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.993144;;
+	_this setname "Alyosha Bakunin";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.993144;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4171,10 +4171,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 547;
 	_this setPosWorld [9773.41,3870.09,42.84];
 	_this setVectorDirAndUp [[-0.000116173,1,0],[0,0,1]];
-	_this setname "Egor Kamenev";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02982;;
+	_this setname "Egor Kamenev";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02982;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4190,10 +4190,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 548;
 	_this setPosWorld [9754.33,3861.03,39.7267];
 	_this setVectorDirAndUp [[0.000115784,-1,0],[0,0,1]];
-	_this setname "Ilya Blagonravov";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.967405;;
+	_this setname "Ilya Blagonravov";
+	_this setface "RussianHead_2";
+	_this setspeaker "male01rus";
+	_this setpitch 0.967405;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4210,10 +4210,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9767.69,3861.05,39.8336];
 	_this setVectorDirAndUp [[0.000115784,-1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_gp25_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],["rhs_VOG25",1],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_grn",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_VOG25",8,1],["rhs_GRD40_White",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Ilya Zverev";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.981214;;
+	_this setname "Ilya Zverev";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male01rus";
+	_this setpitch 0.981214;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4229,10 +4229,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 550;
 	_this setPosWorld [9767.24,3866.54,41.4324];
 	_this setVectorDirAndUp [[1,0.000116185,0],[0,0,1]];
-	_this setname "Valentin Sudakov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03076;;
+	_this setname "Valentin Sudakov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03076;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4248,10 +4248,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 551;
 	_this setPosWorld [9776.66,3868.11,39.8336];
 	_this setVectorDirAndUp [[-0.000116173,1,0],[0,0,1]];
-	_this setname "Vyacheslav Provodnikov";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.981874;;
+	_this setname "Vyacheslav Provodnikov";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male03rus";
+	_this setpitch 0.981874;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4267,10 +4267,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 552;
 	_this setPosWorld [9752,3861.13,42.84];
 	_this setVectorDirAndUp [[-0.707189,0.707025,0],[0,0,1]];
-	_this setname "Kuzma Kubasov";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01208;;
+	_this setname "Kuzma Kubasov";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01208;
 	_this setUnitPos "MIDDLE";
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4287,10 +4287,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 553;
 	_this setPosWorld [9767.69,3861.05,42.84];
 	_this setVectorDirAndUp [[0.000115784,-1,0],[0,0,1]];
-	_this setname "Mikhail Rogozhkin";;
-	_this setface "Smith_v2";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.990193;;
+	_this setname "Mikhail Rogozhkin";
+	_this setface "Smith_v2";
+	_this setspeaker "male02rus";
+	_this setpitch 0.990193;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4306,10 +4306,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 554;
 	_this setPosWorld [9761.42,3861.66,46.7158];
 	_this setVectorDirAndUp [[0.707024,0.707189,0],[0,0,1]];
-	_this setname "Ivan Petrov";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02663;;
+	_this setname "Ivan Petrov";
+	_this setface "RussianHead_5";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02663;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4326,10 +4326,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 555;
 	_this setPosWorld [9772.88,3867.76,39.927];
 	_this setVectorDirAndUp [[-0.707189,0.707025,0],[0,0,1]];
-	_this setname "Pavel Kamenev";;
-	_this setface "RHS_WhiteHead_04";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02222;;
+	_this setname "Pavel Kamenev";
+	_this setface "RHS_WhiteHead_04";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02222;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4345,10 +4345,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 556;
 	_this setPosWorld [9775.11,3864.68,39.8336];
 	_this setVectorDirAndUp [[-1,-0.000116336,0],[0,0,1]];
-	_this setname "Nikita Kubasov";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.963669;;
+	_this setname "Nikita Kubasov";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male03rus";
+	_this setpitch 0.963669;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4364,10 +4364,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 557;
 	_this setPosWorld [9757.73,3868.22,39.8336];
 	_this setVectorDirAndUp [[-0.000116173,1,0],[0,0,1]];
-	_this setname "Alyosha Sudakov";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02324;;
+	_this setname "Alyosha Sudakov";
+	_this setface "Oakes_v2";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02324;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4383,10 +4383,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 558;
 	_this setPosWorld [9754.75,3867.91,46.6196];
 	_this setVectorDirAndUp [[-1,-0.000116336,0],[0,0,1]];
-	_this setname "Fedor Tokarev";;
-	_this setface "Mason_v2";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02905;;
+	_this setname "Fedor Tokarev";
+	_this setface "Mason_v2";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02905;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4405,9 +4405,9 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9477.13,3306.35,31.5034];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [[],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_mag_9x18_8_57N181S",3,8]]],["rhs_6b45_holster",[["rhs_mag_rdg2_white",2,1]]],[],"rhs_beret_vdv1","",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Pavel Kubasov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 0.95;;
+	_this setname "Pavel Kubasov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4425,9 +4425,9 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9476.31,3307.13,31.5034];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [[],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_mag_9x18_8_57N181S",3,8]]],["rhs_6b45_holster",[["rhs_mag_rdg2_white",2,1]]],[],"rhs_beret_vdv1","",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Yevgeniy Vasilyev";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 0.95;;
+	_this setname "Yevgeniy Vasilyev";
+	_this setspeaker "Male03RUS";
+	_this setpitch 0.95;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4444,10 +4444,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2189;
 	_this setPosWorld [11660.4,4445.32,14.0471];
 	_this setVectorDirAndUp [[0.811351,0.58456,-0.000403658],[0,0.000690534,1]];
-	_this setname "Vitaly Zubov";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02263;;
+	_this setname "Vitaly Zubov";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02263;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4464,7 +4464,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11660.2,4445.15,15.7485];
 	_this setVectorDirAndUp [[0.811351,0.58456,-0.000403658],[0,0.000690534,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2192 = objNull;
@@ -4476,10 +4476,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2192;
 	_this setPosWorld [11651.8,4433.99,21.0244];
 	_this setVectorDirAndUp [[0.282357,-0.959309,-0.000403267],[0.000651185,-0.000228707,1]];
-	_this setname "Daniil Bulgakov";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00867;;
+	_this setname "Daniil Bulgakov";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00867;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4496,7 +4496,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11651.7,4434.28,22.7258];
 	_this setVectorDirAndUp [[0.282357,-0.959309,-0.000403267],[0.000651185,-0.000228707,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2195 = objNull;
@@ -4508,10 +4508,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2195;
 	_this setPosWorld [11595,4437.28,21.9483];
 	_this setVectorDirAndUp [[-0.990034,-0.140828,-0.000403602],[-0.000320735,-0.00061113,1]];
-	_this setname "Kuzma Gusakov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.975294;;
+	_this setname "Kuzma Gusakov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male03rus";
+	_this setpitch 0.975294;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4528,7 +4528,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11595.3,4437.32,23.6496];
 	_this setVectorDirAndUp [[-0.990034,-0.140828,-0.000403602],[-0.000320735,-0.00061113,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2201 = objNull;
@@ -4540,10 +4540,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2201;
 	_this setPosWorld [11615.5,4496.12,14.0471];
 	_this setVectorDirAndUp [[-0.273225,0.96195,-0.000403658],[-0.000649237,0.000235221,1]];
-	_this setname "Valery Dobryakov";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.972584;;
+	_this setname "Valery Dobryakov";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male01rus";
+	_this setpitch 0.972584;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4560,7 +4560,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11615.6,4495.83,15.7485];
 	_this setVectorDirAndUp [[-0.273225,0.96195,-0.000403658],[-0.000649237,0.000235221,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2204 = objNull;
@@ -4572,10 +4572,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2204;
 	_this setPosWorld [11704.8,4514.01,13.9892];
 	_this setVectorDirAndUp [[0.677127,0.735866,-0.000403658],[-0.000138952,0.000676409,1]];
-	_this setname "Igor Titov";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.04467;;
+	_this setname "Igor Titov";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male02rus";
+	_this setpitch 1.04467;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4592,7 +4592,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11704.6,4513.79,15.6905];
 	_this setVectorDirAndUp [[0.677127,0.735866,-0.000403658],[-0.000138952,0.000676409,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2221 = objNull;
@@ -4604,10 +4604,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2221;
 	_this setPosWorld [11343.3,4131.89,33.2166];
 	_this setVectorDirAndUp [[0.964161,-0.265318,0],[0,0,1]];
-	_this setname "Andrey Akulov";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.966382;;
+	_this setname "Andrey Akulov";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male02rus";
+	_this setpitch 0.966382;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4624,7 +4624,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11343,4131.97,34.9178];
 	_this setVectorDirAndUp [[0.964161,-0.265318,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2224 = objNull;
@@ -4636,10 +4636,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2224;
 	_this setPosWorld [11340.1,4138.04,33.2076];
 	_this setVectorDirAndUp [[0.779651,0.626215,0],[0,0,1]];
-	_this setname "Ivan Komarov";;
-	_this setface "RHS_LivonianHead_7";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.965;;
+	_this setname "Ivan Komarov";
+	_this setface "RHS_LivonianHead_7";
+	_this setspeaker "male01rus";
+	_this setpitch 0.965;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4656,7 +4656,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11339.8,4137.86,34.9088];
 	_this setVectorDirAndUp [[0.779651,0.626215,0],[0,0,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item2066 = objNull;
@@ -4667,10 +4667,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2066;
 	_this setPosWorld [11649.9,4440.92,17.8787];
 	_this setVectorDirAndUp [[-0.128518,0.991707,0],[0,0,1]];
-	_this setname "Leonid Fisenko";;
-	_this setface "RHS_GreekHead_A3_09";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.991685;;
+	_this setname "Leonid Fisenko";
+	_this setface "RHS_GreekHead_A3_09";
+	_this setspeaker "male01rus";
+	_this setpitch 0.991685;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4688,10 +4688,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2067;
 	_this setPosWorld [11645.7,4435.59,14.3214];
 	_this setVectorDirAndUp [[-0.128518,0.991707,0],[0,0,1]];
-	_this setname "Roman Smirnov";;
-	_this setface "AsianHead_A3_02";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01817;;
+	_this setname "Roman Smirnov";
+	_this setface "AsianHead_A3_02";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01817;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4707,10 +4707,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2069;
 	_this setPosWorld [11648.2,4437.61,17.8689];
 	_this setVectorDirAndUp [[0.991707,0.128519,0],[0,0,1]];
-	_this setname "Aleksei Krasko";;
-	_this setface "RHS_LivonianHead_2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02174;;
+	_this setname "Aleksei Krasko";
+	_this setface "RHS_LivonianHead_2";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02174;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4728,10 +4728,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11652.2,4432.93,17.8464];
 	_this setVectorDirAndUp [[0.128518,-0.991707,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_gp25_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],["rhs_VOG25",1],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_grn",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_VOG25",8,1],["rhs_GRD40_White",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Leonid Kubasov";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.041;;
+	_this setname "Leonid Kubasov";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.041;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4748,10 +4748,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11644.6,4436.52,17.8689];
 	_this setVectorDirAndUp [[0.610367,0.792119,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],[],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_rifleman",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_mag_rgn",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Nikolay Timoshenko";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00173;;
+	_this setname "Nikolay Timoshenko";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00173;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4768,10 +4768,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2076;
 	_this setPosWorld [11594.9,4433.57,15.0037];
 	_this setVectorDirAndUp [[-0.992328,-0.12363,0],[0,0,1]];
-	_this setname "Yuri Malyukov";;
-	_this setface "RHS_RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.954962;;
+	_this setname "Yuri Malyukov";
+	_this setface "RHS_RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 0.954962;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4788,10 +4788,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2077;
 	_this setPosWorld [11601.2,4435.14,21.8799];
 	_this setVectorDirAndUp [[-0.614263,-0.789102,0],[0,0,1]];
-	_this setname "Lev Doronin";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00694;;
+	_this setname "Lev Doronin";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00694;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4809,10 +4809,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11600.2,4448.89,18.0101];
 	_this setVectorDirAndUp [[0.614263,0.789102,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Lev Mamayev";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.955036;;
+	_this setname "Lev Mamayev";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male02rus";
+	_this setpitch 0.955036;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4828,10 +4828,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2079;
 	_this setPosWorld [11600.8,4441.21,15.0971];
 	_this setVectorDirAndUp [[-0.12363,0.992328,0],[0,0,1]];
-	_this setname "Arkadiy Pushkin";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.965909;;
+	_this setname "Arkadiy Pushkin";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male03rus";
+	_this setpitch 0.965909;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4847,10 +4847,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2080;
 	_this setPosWorld [11602.9,4443.75,18.0101];
 	_this setVectorDirAndUp [[0.992328,0.12363,0],[0,0,1]];
-	_this setname "Grigoriy Tolstoy";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0405;;
+	_this setname "Grigoriy Tolstoy";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0405;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', true, true];
@@ -4866,10 +4866,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2081;
 	_this setPosWorld [11593.5,4445.53,18.0101];
 	_this setVectorDirAndUp [[-0.992328,-0.12363,0],[0,0,1]];
-	_this setname "Lev Sudakov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.991496;;
+	_this setname "Lev Sudakov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male02rus";
+	_this setpitch 0.991496;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4885,10 +4885,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2082;
 	_this setPosWorld [11599,4459.3,18.0101];
 	_this setVectorDirAndUp [[0.992328,0.12363,0],[0,0,1]];
-	_this setname "Valentin Tolstoy";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04654;;
+	_this setname "Valentin Tolstoy";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04654;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4904,10 +4904,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2083;
 	_this setPosWorld [11600.2,4448.89,15.0037];
 	_this setVectorDirAndUp [[0.614263,0.789102,0],[0,0,1]];
-	_this setname "Grigoriy Derevenko";;
-	_this setface "RHS_WhiteHead_05";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02154;;
+	_this setname "Grigoriy Derevenko";
+	_this setface "RHS_WhiteHead_05";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02154;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4923,10 +4923,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2084;
 	_this setPosWorld [11598.9,4446.66,16.6025];
 	_this setVectorDirAndUp [[0.789101,-0.614263,0],[0,0,1]];
-	_this setname "Yevgeniy Vorobiev";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.951581;;
+	_this setname "Yevgeniy Vorobiev";
+	_this setface "RussianHead_3";
+	_this setspeaker "male02rus";
+	_this setpitch 0.951581;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4943,10 +4943,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11591.7,4461.11,18.0101];
 	_this setVectorDirAndUp [[-0.789102,0.614263,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Abram Bulgakov";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.959787;;
+	_this setname "Abram Bulgakov";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.959787;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -4963,10 +4963,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2086;
 	_this setPosWorld [11599,4459.3,15.0037];
 	_this setVectorDirAndUp [[0.992328,0.12363,0],[0,0,1]];
-	_this setname "Anatoli Zverev";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.993333;;
+	_this setname "Anatoli Zverev";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.993333;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -4983,10 +4983,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11591.9,4458.2,18.0101];
 	_this setVectorDirAndUp [[-0.614263,-0.789102,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_gp25_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],["rhs_VOG25",1],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_grn",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_VOG25",8,1],["rhs_GRD40_White",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Oleg Tokarev";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04536;;
+	_this setname "Oleg Tokarev";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04536;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5002,10 +5002,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2088;
 	_this setPosWorld [11599.4,4451.75,21.8337];
 	_this setVectorDirAndUp [[0.614263,0.789102,0],[0,0,1]];
-	_this setname "Arkadiy Glebov";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.04832;;
+	_this setname "Arkadiy Glebov";
+	_this setface "Oakes_v2";
+	_this setspeaker "male03rus";
+	_this setpitch 1.04832;
 	_this setUnitPos "MIDDLE";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5023,10 +5023,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11594.6,4436.56,18.0101];
 	_this setVectorDirAndUp [[-0.992328,-0.12363,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Semyon Davidov";;
-	_this setface "RHS_LivonianHead_6";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.956806;;
+	_this setname "Semyon Davidov";
+	_this setface "RHS_LivonianHead_6";
+	_this setspeaker "male01rus";
+	_this setpitch 0.956806;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5042,10 +5042,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2123;
 	_this setPosWorld [11654.7,4458.67,15.2378];
 	_this setVectorDirAndUp [[0.982051,-0.188616,0],[0,0,1]];
-	_this setname "Vladimir Kuznetsov";;
-	_this setface "RHS_WhiteHead_05";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.975428;;
+	_this setname "Vladimir Kuznetsov";
+	_this setface "RHS_WhiteHead_05";
+	_this setspeaker "male03rus";
+	_this setpitch 0.975428;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5062,10 +5062,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2124;
 	_this setPosWorld [11653.4,4458.55,15.3012];
 	_this setVectorDirAndUp [[0.982051,-0.188616,0],[0,0,1]];
-	_this setname "Mikhail Kubasov";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02707;;
+	_this setname "Mikhail Kubasov";
+	_this setface "RussianHead_4";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02707;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5081,10 +5081,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2127;
 	_this setPosWorld [11649.5,4495.57,15.2761];
 	_this setVectorDirAndUp [[0.0878344,-0.996135,0],[0,0,1]];
-	_this setname "Anatoli Vorobiev";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.988749;;
+	_this setname "Anatoli Vorobiev";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "male02rus";
+	_this setpitch 0.988749;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5101,10 +5101,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2128;
 	_this setPosWorld [11648.9,4495.49,15.0771];
 	_this setVectorDirAndUp [[0.0878344,-0.996135,0],[0,0,1]];
-	_this setname "Viktor Sudakov";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.02897;;
+	_this setname "Viktor Sudakov";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male02rus";
+	_this setpitch 1.02897;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5120,10 +5120,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2136;
 	_this setPosWorld [9530.35,4203.68,36.3979];
 	_this setVectorDirAndUp [[0.787382,-0.615063,-0.0415651],[0.0071404,-0.058321,0.998272]];
-	_this setname "Dimitri Alekseev";;
-	_this setface "RHS_WhiteHead_08";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.977552;;
+	_this setname "Dimitri Alekseev";
+	_this setface "RHS_WhiteHead_08";
+	_this setspeaker "male03rus";
+	_this setpitch 0.977552;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5140,10 +5140,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2137;
 	_this setPosWorld [9529.16,4204.16,36.4979];
 	_this setVectorDirAndUp [[0.787382,-0.615063,-0.0415651],[0.0071404,-0.058321,0.998272]];
-	_this setname "Viktor Zubov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.964673;;
+	_this setname "Viktor Zubov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male03rus";
+	_this setpitch 0.964673;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5160,10 +5160,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2171;
 	_this setPosWorld [9681.78,3897.26,38.8914];
 	_this setVectorDirAndUp [[0.277287,0.960787,0],[0,0,1]];
-	_this setname "Vadim Romanov";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02754;;
+	_this setname "Vadim Romanov";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02754;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5180,10 +5180,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2198;
 	_this setPosWorld [11595.4,4458.07,22.1117];
 	_this setVectorDirAndUp [[-0.785906,0.618346,-0.000403754],[-0.000663675,-0.00019056,1]];
-	_this setname "Kuzma Yagudin";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.993745;;
+	_this setname "Kuzma Yagudin";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male01rus";
+	_this setpitch 0.993745;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5199,10 +5199,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2213;
 	_this setPosWorld [11340.6,4143.39,34.3794];
 	_this setVectorDirAndUp [[0.835704,0.549159,-0.00479639],[0.00664212,-0.00137404,0.999977]];
-	_this setname "Semyon Kubasov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.992665;;
+	_this setname "Semyon Kubasov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male03rus";
+	_this setpitch 0.992665;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5219,10 +5219,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2214;
 	_this setPosWorld [11339.8,4142.41,34.447];
 	_this setVectorDirAndUp [[0.835704,0.549159,-0.00479639],[0.00664212,-0.00137404,0.999977]];
-	_this setname "Valentin Titov";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.0283;;
+	_this setname "Valentin Titov";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male01rus";
+	_this setpitch 1.0283;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5238,10 +5238,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2217;
 	_this setPosWorld [11318.3,4136.55,34.4088];
 	_this setVectorDirAndUp [[0.622572,-0.782548,-0.00479613],[-0.00076698,-0.00673891,0.999977]];
-	_this setname "Mikhail Gusakov";;
-	_this setface "AsianHead_A3_05";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.04678;;
+	_this setname "Mikhail Gusakov";
+	_this setface "AsianHead_A3_05";
+	_this setspeaker "male03rus";
+	_this setpitch 1.04678;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5258,10 +5258,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2218;
 	_this setPosWorld [11317.3,4137.3,34.4764];
 	_this setVectorDirAndUp [[0.622572,-0.782548,-0.00479613],[-0.00076698,-0.00673891,0.999977]];
-	_this setname "Alyosha Kirygin";;
-	_this setface "RHS_WhiteHead_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.00318;;
+	_this setname "Alyosha Kirygin";
+	_this setface "RHS_WhiteHead_08";
+	_this setspeaker "male01rus";
+	_this setpitch 1.00318;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5277,10 +5277,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2228;
 	_this setPosWorld [10589.4,4282.14,31.2465];
 	_this setVectorDirAndUp [[-0.734807,-0.674875,0.0678484],[0.0850344,0.007582,0.996349]];
-	_this setname "Pyotr Dobryakov";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.994868;;
+	_this setname "Pyotr Dobryakov";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male02rus";
+	_this setpitch 0.994868;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5297,10 +5297,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2229;
 	_this setPosWorld [10590.5,4283.14,31.5573];
 	_this setVectorDirAndUp [[-0.734807,-0.674875,0.0678484],[0.0850344,0.007582,0.996349]];
-	_this setname "Valery Yefremov";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.03262;;
+	_this setname "Valery Yefremov";
+	_this setface "RussianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.03262;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5318,10 +5318,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9680.84,3907.55,38.8914];
 	_this setVectorDirAndUp [[-0.918085,-0.396384,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74mr_gp25_1p87","rhs_acc_uuk","","rhs_acc_1p87",["rhs_30Rnd_545x39_7N10_AK",30],["rhs_VOG25",1],""],[],[],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_fieldcap_digi2",1],["rhs_mag_rgn",1,1]]],["rhs_6b45_grn",[["rhs_30Rnd_545x39_7N10_AK",7,30],["rhs_VOG25",8,1],["rhs_GRD40_White",1,1]]],[],"rhs_6b47_emr_1","",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Pavel Yeltsin";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02843;;
+	_this setname "Pavel Yeltsin";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02843;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5339,10 +5339,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9659.87,3911.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Ilya Molotov";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.988569;;
+	_this setname "Ilya Molotov";
+	_this setface "RussianHead_2";
+	_this setspeaker "male02rus";
+	_this setpitch 0.988569;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5359,10 +5359,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2932;
 	_this setPosWorld [9654.87,3906.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Valentin Morozov";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.968781;;
+	_this setname "Valentin Morozov";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "male03rus";
+	_this setpitch 0.968781;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5379,10 +5379,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2933;
 	_this setPosWorld [9662.87,3906.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Semyon Antonov";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.952951;;
+	_this setname "Semyon Antonov";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male01rus";
+	_this setpitch 0.952951;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5401,10 +5401,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9490.32,3295.66,31.3314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Ruslan Kamenev";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.953262;;
+	_this setname "Ruslan Kamenev";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "male02rus";
+	_this setpitch 0.953262;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5421,10 +5421,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2941;
 	_this setPosWorld [9485.32,3290.66,31.3314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Viktor Vasilyev";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.0252;;
+	_this setname "Viktor Vasilyev";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male01rus";
+	_this setpitch 1.0252;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5441,10 +5441,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2942;
 	_this setPosWorld [9493.32,3290.66,31.3314];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Fyodor Malyukov";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0218;;
+	_this setname "Fyodor Malyukov";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0218;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5463,10 +5463,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9440.7,3303.41,32.0014];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Mikhail Mikoyan";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03102;;
+	_this setname "Mikhail Mikoyan";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03102;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5483,10 +5483,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2945;
 	_this setPosWorld [9435.7,3298.41,33.0896];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Konstantin Turchinsky";;
-	_this setface "RHS_LivonianHead_2";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02514;;
+	_this setname "Konstantin Turchinsky";
+	_this setface "RHS_LivonianHead_2";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02514;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5503,10 +5503,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2946;
 	_this setPosWorld [9443.7,3298.41,31.9562];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Semyon Beregovoi";;
-	_this setface "AsianHead_A3_04";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.04508;;
+	_this setname "Semyon Beregovoi";
+	_this setface "AsianHead_A3_04";
+	_this setspeaker "male01rus";
+	_this setpitch 1.04508;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5525,10 +5525,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9467.88,3343.83,31.8951];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Filip Kalashnikov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.96995;;
+	_this setname "Filip Kalashnikov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.96995;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5545,10 +5545,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2949;
 	_this setPosWorld [9462.88,3338.83,31.4431];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Andrey Yagudin";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.967997;;
+	_this setname "Andrey Yagudin";
+	_this setface "RussianHead_3";
+	_this setspeaker "male02rus";
+	_this setpitch 0.967997;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5565,10 +5565,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2950;
 	_this setPosWorld [9470.88,3338.83,31.4815];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Lev Pushkin";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.982713;;
+	_this setname "Lev Pushkin";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "male02rus";
+	_this setpitch 0.982713;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5587,10 +5587,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9485.28,3249.83,32.9092];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "German Shcherbakov";;
-	_this setface "RHS_WhiteHead_05";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.975288;;
+	_this setname "German Shcherbakov";
+	_this setface "RHS_WhiteHead_05";
+	_this setspeaker "male02rus";
+	_this setpitch 0.975288;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5607,10 +5607,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2953;
 	_this setPosWorld [9480.28,3244.83,34.1691];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Aleksei Beregovoi";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male01rus";;
-	_this setpitch 0.952341;;
+	_this setname "Aleksei Beregovoi";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male01rus";
+	_this setpitch 0.952341;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5627,10 +5627,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2954;
 	_this setPosWorld [9488.28,3244.83,33.1373];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Pyotr Kalashnikov";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.01065;;
+	_this setname "Pyotr Kalashnikov";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "male01rus";
+	_this setpitch 1.01065;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5647,10 +5647,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2970;
 	_this setPosWorld [9677.75,3893.67,40.0678];
 	_this setVectorDirAndUp [[-0.491497,-0.870879,0],[0,0,1]];
-	_this setname "Semyon Komarov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.956891;;
+	_this setname "Semyon Komarov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male03rus";
+	_this setpitch 0.956891;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5667,9 +5667,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2971;
 	_this setPosWorld [9678.05,3894.93,40.1312];
 	_this setVectorDirAndUp [[-0.491497,-0.87088,0],[0,0,1]];
-	_this setname "Nikolay Yeltsin";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 0.99;;
+	_this setname "Nikolay Yeltsin";
+	_this setspeaker "Male01RUS";
+	_this setpitch 0.99;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5687,9 +5687,9 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9477.13,3310.07,31.3314];
 	_this setVectorDirAndUp [[0.961108,-0.276173,0],[0,0,1]];
 	_this setUnitLoadout [[],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_mag_9x18_8_57N181S",3,8]]],["rhs_6b45_holster",[["rhs_mag_rdg2_white",2,1]]],[],"rhs_beret_vdv1","",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vladimir Morozov";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.01;;
+	_this setname "Vladimir Morozov";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.01;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5705,12 +5705,12 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2126;
 	_this setPosWorld [11649,4497.2,16.4253];
 	_this setVectorDirAndUp [[0.0878344,-0.996135,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -5726,20 +5726,20 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2227;
 	_this setPosWorld [10590.4,4283.52,32.7971];
 	_this setVectorDirAndUp [[-0.734807,-0.674875,0.0678484],[0.0850344,0.007582,0.996349]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Honor"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Honor"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
-	_this setVariable ['rhs_decalVV_type', "Platoon"];;
+	_this setVariable ['rhs_decalVV_type', "Platoon"];
 
 
 
@@ -5761,14 +5761,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2122;
 	_this setPosWorld [11654.1,4458.13,16.2542];
 	_this setVectorDirAndUp [[0.982051,-0.188616,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -5784,14 +5784,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2135;
 	_this setPosWorld [9529.61,4203.4,37.4048];
 	_this setVectorDirAndUp [[0.787382,-0.615063,-0.0415651],[0.0071404,-0.058321,0.998272]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -5807,14 +5807,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2212;
 	_this setPosWorld [11340.6,4142.61,35.3948];
 	_this setVectorDirAndUp [[0.835704,0.549159,-0.00479639],[0.00664212,-0.00137404,0.999977]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -5830,14 +5830,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2219;
 	_this setPosWorld [11317.5,4136.5,35.4242];
 	_this setVectorDirAndUp [[0.622572,-0.782548,-0.00479613],[-0.00076698,-0.00673891,0.999977]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -5853,14 +5853,14 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 2969;
 	_this setPosWorld [9677.42,3894.38,41.0842];
 	_this setVectorDirAndUp [[-0.491497,-0.870879,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -5877,7 +5877,7 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [11595.6,4457.88,23.813];
 	_this setVectorDirAndUp [[-0.785906,0.618346,-0.000403754],[-0.000663675,-0.00019056,1]];
 	[_this, 2] call ace_cargo_fnc_setSize;
-	_this setVariable ['UK3CB_Enable_SearchLight',true];;
+	_this setVariable ['UK3CB_Enable_SearchLight',true];
 };
 
 private _item3002 = objNull;
@@ -5888,9 +5888,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3002;
 	_this setPosWorld [9787.03,3880.96,39.4954];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Valentin Pushkin";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Valentin Pushkin";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5907,9 +5907,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3003;
 	_this setPosWorld [9787.85,3881.03,39.4954];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Nikita Nikolayev";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Nikita Nikolayev";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5925,9 +5925,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3005;
 	_this setPosWorld [9784.99,3898.15,39.4954];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,-6.51641e-006],[0.00115234,0,0.999999]];
-	_this setname "Lev Nikolayev";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Lev Nikolayev";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	_this enableSimulation false;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5945,9 +5945,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3006;
 	_this setPosWorld [9785.82,3898.22,39.4954];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Oleg Kalashnikov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Oleg Kalashnikov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	_this enableSimulation false;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -5964,9 +5964,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3026;
 	_this setPosWorld [9792.25,3882.15,39.4955];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Valentin Litvinov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Valentin Litvinov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -5983,9 +5983,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3027;
 	_this setPosWorld [9793.07,3882.22,39.4955];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Vadim Titov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Vadim Titov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6001,9 +6001,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3033;
 	_this setPosWorld [9786.96,3903.99,39.4955];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Lev Lermontov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Lev Lermontov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6020,9 +6020,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3034;
 	_this setPosWorld [9787.78,3904.06,39.4955];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Nikita Antonov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Nikita Antonov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6038,9 +6038,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3039;
 	_this setPosWorld [9792.25,3902.21,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Pyotr Sarafanov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Pyotr Sarafanov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6057,9 +6057,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3040;
 	_this setPosWorld [9793.07,3902.28,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Ivan Akulov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Ivan Akulov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6075,9 +6075,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3042;
 	_this setPosWorld [9791.96,3894.44,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Daniil Blagonravov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Daniil Blagonravov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6094,9 +6094,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3043;
 	_this setPosWorld [9792.78,3894.51,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Viktor Zykov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Viktor Zykov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6112,9 +6112,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3045;
 	_this setPosWorld [9786.46,3886.76,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Igor Doronin";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Igor Doronin";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6131,9 +6131,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3046;
 	_this setPosWorld [9787.28,3886.83,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Ruslan Glebov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Ruslan Glebov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6149,9 +6149,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3048;
 	_this setPosWorld [9792.58,3880.4,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Valentin Komarov";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1;;
+	_this setname "Valentin Komarov";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6168,9 +6168,9 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3049;
 	_this setPosWorld [9793.4,3880.47,42.8295];
 	_this setVectorDirAndUp [[0.00565493,-0.999984,0],[0,0,1]];
-	_this setname "Vasil Provodnikov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Vasil Provodnikov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -6188,10 +6188,10 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9730.81,3912.05,38.8894];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Boris Zhegalov";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 1;;
+	_this setname "Boris Zhegalov";
+	_this setface "RussianHead_5";
+	_this setspeaker "Male02RUS";
+	_this setpitch 1;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6208,10 +6208,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3054;
 	_this setPosWorld [9725.81,3909.75,38.8882];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Boris Borodin";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.03579;;
+	_this setname "Boris Borodin";
+	_this setface "RussianHead_1";
+	_this setspeaker "male02rus";
+	_this setpitch 1.03579;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6228,10 +6228,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3055;
 	_this setPosWorld [9733.81,3909.75,38.8802];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Ilya Titov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.959598;;
+	_this setname "Ilya Titov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male02rus";
+	_this setpitch 0.959598;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6250,9 +6250,9 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9713.78,3906.71,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Mikhail Babchenko";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 1.05;;
+	_this setname "Mikhail Babchenko";
+	_this setspeaker "Male03RUS";
+	_this setpitch 1.05;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6269,10 +6269,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3058;
 	_this setPosWorld [9708.78,3901.7,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasili Bychkov";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02658;;
+	_this setname "Vasili Bychkov";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02658;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6289,10 +6289,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3059;
 	_this setPosWorld [9716.78,3901.7,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Leonid Sarafanov";;
-	_this setface "RHS_GreekHead_A3_09";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.0206;;
+	_this setname "Leonid Sarafanov";
+	_this setface "RHS_GreekHead_A3_09";
+	_this setspeaker "male03rus";
+	_this setpitch 1.0206;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6311,9 +6311,9 @@ if (_layer497 && _layer496) then {
 	_this setPosWorld [9764.1,3929.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Aleksei Alekseev";;
-	_this setspeaker "Male03RUS";;
-	_this setpitch 0.95;;
+	_this setname "Aleksei Alekseev";
+	_this setspeaker "Male03RUS";
+	_this setpitch 0.95;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6330,10 +6330,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3062;
 	_this setPosWorld [9759.1,3924.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Ruslan Kamenev";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.970383;;
+	_this setname "Ruslan Kamenev";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "male03rus";
+	_this setpitch 0.970383;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6350,10 +6350,10 @@ if (_layer497 && _layer496) then {
 	_objectIDs pushback 3063;
 	_this setPosWorld [9767.1,3924.23,38.8914];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Ilya Gurevich";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.999535;;
+	_this setname "Ilya Gurevich";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 0.999535;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6370,7 +6370,7 @@ if (_layer177 && _layer498 && _layer496) then {
 	_objectIDs pushback 176;
 	_this setPosWorld [10672.1,3369.02,3.43748];
 	_this setVectorDirAndUp [[0.968815,-0.247785,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6385,10 +6385,10 @@ if (_layer177 && _layer498 && _layer496) then {
 	_this setPosWorld [10672.1,3369.01,1.67744];
 	_this setVectorDirAndUp [[0.968815,-0.247785,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Igor Komarov";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.02232;;
+	_this setname "Igor Komarov";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "male01rus";
+	_this setpitch 1.02232;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6405,10 +6405,10 @@ if (_layer177 && _layer498 && _layer496) then {
 	_objectIDs pushback 174;
 	_this setPosWorld [10674,3368.52,1.20764];
 	_this setVectorDirAndUp [[0.968815,-0.247785,0],[0,0,1]];
-	_this setname "Lev Bychkov";;
-	_this setface "RHS_WhiteHead_04";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.01085;;
+	_this setname "Lev Bychkov";
+	_this setface "RHS_WhiteHead_04";
+	_this setspeaker "male01rus";
+	_this setpitch 1.01085;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6425,10 +6425,10 @@ if (_layer177 && _layer498 && _layer496) then {
 	_objectIDs pushback 175;
 	_this setPosWorld [10672,3368.42,1.71281];
 	_this setVectorDirAndUp [[0.968815,-0.247785,0],[0,0,1]];
-	_this setname "Stepan Romanov";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.01811;;
+	_this setname "Stepan Romanov";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "male03rus";
+	_this setpitch 1.01811;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6445,7 +6445,7 @@ if (_layer183 && _layer498 && _layer496) then {
 	_objectIDs pushback 182;
 	_this setPosWorld [8818.12,3598.11,0.811992];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6460,10 +6460,10 @@ if (_layer183 && _layer498 && _layer496) then {
 	_this setPosWorld [8818.13,3598.09,-0.948048];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Dimitri Titov";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.034;;
+	_this setname "Dimitri Titov";
+	_this setface "RussianHead_3";
+	_this setspeaker "male01rus";
+	_this setpitch 1.034;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6480,10 +6480,10 @@ if (_layer183 && _layer498 && _layer496) then {
 	_objectIDs pushback 180;
 	_this setPosWorld [8818.14,3600.05,-1.41784];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Oleg Vasilyev";;
-	_this setface "RussianHead_1";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.0267;;
+	_this setname "Oleg Vasilyev";
+	_this setface "RussianHead_1";
+	_this setspeaker "male01rus";
+	_this setpitch 1.0267;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6500,10 +6500,10 @@ if (_layer183 && _layer498 && _layer496) then {
 	_objectIDs pushback 181;
 	_this setPosWorld [8818.73,3598.14,-0.912673];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Maksim Makarov";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.988725;;
+	_this setname "Maksim Makarov";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 0.988725;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6520,7 +6520,7 @@ if (_layer189 && _layer498 && _layer496) then {
 	_objectIDs pushback 188;
 	_this setPosWorld [9124.77,4376.67,7.42472];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6535,10 +6535,10 @@ if (_layer189 && _layer498 && _layer496) then {
 	_this setPosWorld [9124.78,4376.65,5.66468];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Abram Naryshkin";;
-	_this setface "RHS_GreekHead_A3_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.989616;;
+	_this setname "Abram Naryshkin";
+	_this setface "RHS_GreekHead_A3_01";
+	_this setspeaker "male02rus";
+	_this setpitch 0.989616;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6555,10 +6555,10 @@ if (_layer189 && _layer498 && _layer496) then {
 	_objectIDs pushback 186;
 	_this setPosWorld [9124.79,4378.6,5.19488];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Dimitri Putin";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.00839;;
+	_this setname "Dimitri Putin";
+	_this setface "RussianHead_3";
+	_this setspeaker "male02rus";
+	_this setpitch 1.00839;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6575,10 +6575,10 @@ if (_layer189 && _layer498 && _layer496) then {
 	_objectIDs pushback 187;
 	_this setPosWorld [9125.38,4376.69,5.70005];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Viktor Ivanov";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.962186;;
+	_this setname "Viktor Ivanov";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "male03rus";
+	_this setpitch 0.962186;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6595,7 +6595,7 @@ if (_layer195 && _layer498 && _layer496) then {
 	_objectIDs pushback 194;
 	_this setPosWorld [8885.88,2902.25,-3.21207];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6610,10 +6610,10 @@ if (_layer195 && _layer498 && _layer496) then {
 	_this setPosWorld [8885.89,2902.23,-4.97211];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Nikolay Potapenko";;
-	_this setface "RHS_WhiteHead_01";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.04851;;
+	_this setname "Nikolay Potapenko";
+	_this setface "RHS_WhiteHead_01";
+	_this setspeaker "male03rus";
+	_this setpitch 1.04851;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6630,10 +6630,10 @@ if (_layer195 && _layer498 && _layer496) then {
 	_objectIDs pushback 192;
 	_this setPosWorld [8885.9,2904.19,-5.44191];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Nikita Borodin";;
-	_this setface "RHS_WhiteHead_27";;
-	_this setspeaker "male03rus";;
-	_this setpitch 0.982594;;
+	_this setname "Nikita Borodin";
+	_this setface "RHS_WhiteHead_27";
+	_this setspeaker "male03rus";
+	_this setpitch 0.982594;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6650,10 +6650,10 @@ if (_layer195 && _layer498 && _layer496) then {
 	_objectIDs pushback 193;
 	_this setPosWorld [8886.49,2902.28,-4.93674];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Andrey Sharapov";;
-	_this setface "RHS_WhiteHead_08";;
-	_this setspeaker "male01rus";;
-	_this setpitch 1.01743;;
+	_this setname "Andrey Sharapov";
+	_this setface "RHS_WhiteHead_08";
+	_this setspeaker "male01rus";
+	_this setpitch 1.01743;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6670,7 +6670,7 @@ if (_layer201 && _layer498 && _layer496) then {
 	_objectIDs pushback 200;
 	_this setPosWorld [9683.82,2529.31,9.02981];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6685,10 +6685,10 @@ if (_layer201 && _layer498 && _layer496) then {
 	_this setPosWorld [9683.83,2529.3,7.26977];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Ruslan Beregovoi";;
-	_this setface "RHS_GreekHead_A3_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 0.993449;;
+	_this setname "Ruslan Beregovoi";
+	_this setface "RHS_GreekHead_A3_01";
+	_this setspeaker "male02rus";
+	_this setpitch 0.993449;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6705,10 +6705,10 @@ if (_layer201 && _layer498 && _layer496) then {
 	_objectIDs pushback 198;
 	_this setPosWorld [9683.84,2531.25,6.79998];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Kuzma Doronin";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.02949;;
+	_this setname "Kuzma Doronin";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "male03rus";
+	_this setpitch 1.02949;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6725,10 +6725,10 @@ if (_layer201 && _layer498 && _layer496) then {
 	_objectIDs pushback 199;
 	_this setPosWorld [9684.43,2529.34,7.30515];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Konstantin Babchenko";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.01805;;
+	_this setname "Konstantin Babchenko";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "male02rus";
+	_this setpitch 1.01805;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6745,7 +6745,7 @@ if (_layer374 && _layer498 && _layer496) then {
 	_objectIDs pushback 373;
 	_this setPosWorld [9287.29,3858.7,2.97454];
 	_this setVectorDirAndUp [[-0.90915,-0.416468,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6760,10 +6760,10 @@ if (_layer374 && _layer498 && _layer496) then {
 	_this setPosWorld [9287.3,3858.72,1.2145];
 	_this setVectorDirAndUp [[-0.90915,-0.416468,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Dimitri Pushkin";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "male03rus";;
-	_this setpitch 1.00145;;
+	_this setname "Dimitri Pushkin";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "male03rus";
+	_this setpitch 1.00145;
 	_this setRank "SERGEANT";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6780,10 +6780,10 @@ if (_layer374 && _layer498 && _layer496) then {
 	_objectIDs pushback 371;
 	_this setPosWorld [9285.52,3857.91,0.744709];
 	_this setVectorDirAndUp [[-0.90915,-0.416468,0],[0,0,1]];
-	_this setname "Kiril Gusakov";;
-	_this setface "RHS_LivonianHead_2";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.00704;;
+	_this setname "Kiril Gusakov";
+	_this setface "RHS_LivonianHead_2";
+	_this setspeaker "male02rus";
+	_this setpitch 1.00704;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6800,10 +6800,10 @@ if (_layer374 && _layer498 && _layer496) then {
 	_objectIDs pushback 372;
 	_this setPosWorld [9287.01,3859.25,1.24988];
 	_this setVectorDirAndUp [[-0.90915,-0.416468,0],[0,0,1]];
-	_this setname "Mikhail Mikoyan";;
-	_this setface "RHS_WhiteHead_01";;
-	_this setspeaker "male02rus";;
-	_this setpitch 1.00544;;
+	_this setname "Mikhail Mikoyan";
+	_this setface "RHS_WhiteHead_01";
+	_this setspeaker "male02rus";
+	_this setpitch 1.00544;
 	_this setSkill 0.4;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
@@ -6820,7 +6820,7 @@ if (_layer380 && _layer498 && _layer496) then {
 	_objectIDs pushback 379;
 	_this setPosWorld [9291.93,3843.33,3.43748];
 	_this setVectorDirAndUp [[-0.932957,-0.359989,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6833,7 +6833,7 @@ if (_layer380 && _layer498 && _layer496) then {
 	_objectIDs pushback 381;
 	_this setPosWorld [9295.28,3830.76,3.2128];
 	_this setVectorDirAndUp [[-0.932957,-0.359989,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
@@ -6846,15 +6846,15 @@ if (_layer380 && _layer498 && _layer496) then {
 	_objectIDs pushback 382;
 	_this setPosWorld [9298.09,3818.62,2.92588];
 	_this setVectorDirAndUp [[-0.932957,-0.359989,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
 	
 };
 
-private _item0 = objNull;
+uw_submarine1 = objNull;
 if (_layer1 && _layer499 && _layer496) then {
-	_item0 = createVehicle ["Submarine_01_F",[8928.81,3882.85,2.067],[],0,"CAN_COLLIDE"];
-	_this = _item0;
+	uw_submarine1 = createVehicle ["Submarine_01_F",[8928.81,3882.85,2.067],[],0,"CAN_COLLIDE"];
+	_this = uw_submarine1;
 	_objects pushback _this;
 	_objectIDs pushback 0;
 	_this setPosWorld [8928.81,3882.79,-22.7871];
@@ -6883,12 +6883,12 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 449;
 	_this setPosWorld [10080.8,3978.01,29.6581];
 	_this setVectorDirAndUp [[0,0.999731,0.023193],[0.00320178,-0.0231929,0.999726]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -6904,20 +6904,20 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 451;
 	_this setPosWorld [10093.6,3977.11,29.4886];
 	_this setVectorDirAndUp [[0,0.9998,0.0199947],[-0.00320187,-0.0199946,0.999795]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalRightTurret_type', 0];;
+	_this setVariable ['rhs_decalRightTurret_type', 0];
 
-	_this setVariable ['rhs_decalFront_type', 0];;
+	_this setVariable ['rhs_decalFront_type', 0];
 
-	_this setVariable ['rhs_decalVV_type', 0];;
+	_this setVariable ['rhs_decalVV_type', 0];
 
 
 
@@ -6949,14 +6949,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 452;
 	_this setPosWorld [10070.5,3990.4,29.8433];
 	_this setVectorDirAndUp [[0.998768,-0.0466244,-0.0170025],[0.0167971,-0.00479564,0.999847]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -6972,14 +6972,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 453;
 	_this setPosWorld [10070.5,3986.43,29.8064];
 	_this setVectorDirAndUp [[0.9992,-0.0359073,-0.0176236],[0.0167971,-0.0231921,0.99959]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -6995,14 +6995,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 450;
 	_this setPosWorld [10088,3977.12,28.9138];
 	_this setVectorDirAndUp [[0,0.9998,0.0199947],[-0.00320187,-0.0199946,0.999795]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -7026,17 +7026,17 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 446;
 	_this setPosWorld [9340.3,3822.53,6.27506];
 	_this setVectorDirAndUp [[-0.993928,-0.110032,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
-	_this animateSource ['bench_hide',0,true];;
+	_this animateSource ['bench_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
 	_this animateDoor ['Door_RF',0,true];
 	_this animateDoor ['back_door',0,true];
@@ -7050,17 +7050,17 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 447;
 	_this setPosWorld [9351.56,3823.9,6.27506];
 	_this setVectorDirAndUp [[-0.993928,-0.110032,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
-	_this animateSource ['bench_hide',0,true];;
+	_this animateSource ['bench_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
 	_this animateDoor ['Door_RF',0,true];
 	_this animateDoor ['back_door',0,true];
@@ -7074,26 +7074,26 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 448;
 	_this setPosWorld [10073.5,3977.18,29.9414];
 	_this setVectorDirAndUp [[0.00737554,0.999707,0.0230709],[0.0167971,-0.0231921,0.99959]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
-	_this animateSource ['bench_hide',0,true];;
+	_this animateSource ['bench_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
 	_this animateDoor ['Door_RF',0,true];
 	_this animateDoor ['back_door',0,true];
 };
 
-private _item493 = objNull;
+power_generator = objNull;
 if (_layer500 && _layer496) then {
-	_item493 = createVehicle ["Land_PowerGenerator_F",[10145.6,3978.01,0],[],0,"CAN_COLLIDE"];
-	_this = _item493;
+	power_generator = createVehicle ["Land_PowerGenerator_F",[10145.6,3978.01,0],[],0,"CAN_COLLIDE"];
+	_this = power_generator;
 	_objects pushback _this;
 	_objectIDs pushback 493;
 	_this setPosWorld [10145.6,3978.01,28.5508];
@@ -8106,16 +8106,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 501;
 	_this setPosWorld [10071.3,3994.1,29.906];
 	_this setVectorDirAndUp [[0.999419,-0.0340817,-0.00073612],[0,-0.0215936,0.999767]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 };
 
@@ -8127,16 +8127,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 502;
 	_this setPosWorld [10071.3,3998.09,29.9923];
 	_this setVectorDirAndUp [[0.999419,-0.0340817,-0.00073612],[0,-0.0215936,0.999767]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 };
 
@@ -8148,13 +8148,13 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2162;
 	_this setPosWorld [9714.19,3914.67,41.8266];
 	_this setVectorDirAndUp [[-0.0229072,-0.999738,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
 	_this setVehicleReportOwnPosition true;
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
 };
 
@@ -8166,20 +8166,20 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2166;
 	_this setPosWorld [9760.03,3889.27,41.1709];
 	_this setVectorDirAndUp [[0.999727,-0.0146967,0.0181842],[-0.0183958,-0.014395,0.999727]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Army"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Army"];
 
-	_this setVariable ['rhs_decalLeftTurret_type', "Army"];;
+	_this setVariable ['rhs_decalLeftTurret_type', "Army"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
 
 
@@ -8202,20 +8202,20 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2158;
 	_this setPosWorld [9760.27,3894.72,41.1819];
 	_this setVectorDirAndUp [[0.999865,-0.0159342,0.00399624],[-0.00399675,0,0.999992]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Army"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Army"];
 
-	_this setVariable ['rhs_decalLeftTurret_type', "Army"];;
+	_this setVariable ['rhs_decalLeftTurret_type', "Army"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
 
 
@@ -8238,12 +8238,12 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2143;
 	_this setPosWorld [9738.3,3975.33,41.2257];
 	_this setVectorDirAndUp [[-0.0141097,-0.9999,-1.17325e-010],[-0.000690216,9.7396e-006,1]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -8259,20 +8259,20 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2177;
 	_this setPosWorld [9706.28,3914.07,41.0866];
 	_this setVectorDirAndUp [[0.00566185,-0.999984,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Honor"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Honor"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
-	_this setVariable ['rhs_decalVV_type', "Platoon"];;
+	_this setVariable ['rhs_decalVV_type', "Platoon"];
 
 
 
@@ -8294,20 +8294,20 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2173;
 	_this setPosWorld [9699.59,3912.85,40.5376];
 	_this setVectorDirAndUp [[-0.0461046,-0.998937,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7""],[2,2,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Platoon"];
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalRightTurret_type', "Honor"];;
+	_this setVariable ['rhs_decalRightTurret_type', "Honor"];
 
-	_this setVariable ['rhs_decalFront_type', "Army"];;
+	_this setVariable ['rhs_decalFront_type', "Army"];
 
-	_this setVariable ['rhs_decalVV_type', "Platoon"];;
+	_this setVariable ['rhs_decalVV_type', "Platoon"];
 
 
 
@@ -8329,14 +8329,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2920;
 	_this setPosWorld [9652.72,3914.52,40.9387];
 	_this setVectorDirAndUp [[0.997297,-0.0734698,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8352,14 +8352,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2924;
 	_this setPosWorld [9660.34,3871.73,40.9387];
 	_this setVectorDirAndUp [[-0.102596,-0.994723,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8375,14 +8375,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2925;
 	_this setPosWorld [9652.38,3888.45,40.9387];
 	_this setVectorDirAndUp [[-0.999978,-0.00664371,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8398,14 +8398,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2148;
 	_this setPosWorld [9742.43,3975.35,41.0799];
 	_this setVectorDirAndUp [[-0.027691,-0.999617,-1.18234e-010],[-0.000690021,1.91146e-005,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8421,14 +8421,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2180;
 	_this setPosWorld [9743.56,3919.91,41.0842];
 	_this setVectorDirAndUp [[-0.996731,-0.0807896,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8444,14 +8444,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2181;
 	_this setPosWorld [9743.67,3912.5,41.0842];
 	_this setVectorDirAndUp [[-0.996731,-0.0807896,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', 0];;
+	_this setVariable ['rhs_decalArmy_type', 0];
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8467,14 +8467,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2182;
 	_this setPosWorld [9743.83,3926.2,41.0842];
 	_this setVectorDirAndUp [[-0.996731,-0.0807906,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8490,14 +8490,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2184;
 	_this setPosWorld [9743.49,3895.42,41.0125];
 	_this setVectorDirAndUp [[-0.996731,-0.0807906,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8513,14 +8513,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2138;
 	_this setPosWorld [9528.07,4210.55,37.0687];
 	_this setVectorDirAndUp [[0.737232,-0.67564,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_rpg26""],[4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""FirstAidKit"",""Medikit"",""ToolKit"",""ACE_rope12""],[10,1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
@@ -8536,14 +8536,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2185;
 	_this setPosWorld [9742.78,3887.44,40.6666];
 	_this setVectorDirAndUp [[-0.99984,-0.0174285,0.00399622],[0.00389796,0.0056681,0.999976]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -8557,14 +8557,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2187;
 	_this setPosWorld [9742.52,3903.32,40.6978];
 	_this setVectorDirAndUp [[-0.99984,-0.0174299,0.0039901],[0.00389176,0.00567225,0.999976]];
-	[_this,"[[[[""FirstAidKit""],[10]],[[],[]],[[""ACE_rope12""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""FirstAidKit""],[10]],[[],[]],[[""ACE_rope12""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -8578,17 +8578,17 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2206;
 	_this setPosWorld [11627.5,4475.22,16.6551];
 	_this setVectorDirAndUp [[0.995017,0.0997068,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
-	_this animateSource ['bench_hide',0,true];;
+	_this animateSource ['bench_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
 	_this animateDoor ['Door_RF',0,true];
 	_this animateDoor ['back_door',0,true];
@@ -8602,17 +8602,17 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2207;
 	_this setPosWorld [11635.5,4468.36,16.6551];
 	_this setVectorDirAndUp [[0.995017,0.0997068,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['spare_hide',0,true];
-	_this animateSource ['bench_hide',0,true];;
+	_this animateSource ['bench_hide',0,true];
 	_this animateDoor ['Door_LF',0,true];
 	_this animateDoor ['Door_RF',0,true];
 	_this animateDoor ['back_door',0,true];
@@ -8876,16 +8876,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2152;
 	_this setPosWorld [9749.56,3975.84,41.0871];
 	_this setVectorDirAndUp [[-0.0145705,-0.999894,0.000690282],[9.83873e-006,0.000690212,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 };
 
@@ -8897,16 +8897,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2155;
 	_this setPosWorld [9756.63,3975.23,41.0875];
 	_this setVectorDirAndUp [[-0.095683,-0.995412,0.000690291],[6.61055e-005,0.000687118,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 25] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 };
 
@@ -8918,14 +8918,14 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2170;
 	_this setPosWorld [9693.26,3913.98,40.1356];
 	_this setVectorDirAndUp [[-0.0348091,-0.999394,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[4,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[4,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -8943,16 +8943,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2116;
 	_this setPosWorld [11612.7,4489.37,16.4867];
 	_this setVectorDirAndUp [[-0.996358,-0.0852716,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -8968,16 +8968,16 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 2117;
 	_this setPosWorld [11603.5,4472.08,16.7517];
 	_this setVectorDirAndUp [[-0.0845702,0.996418,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[10,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if (10000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 10000] call ace_refuel_fnc_makeSource};
 	if ([-0.05,-3.6,-0.45] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[-0.05,-3.6,-0.45]], true]};
-	_this setVariable ['s',1];;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalArmy_type', "Army"];;
+	_this setVariable ['rhs_decalArmy_type', "Army"];
 
-	_this setVariable ['rhs_decalPlatoon_type', "Army"];;
+	_this setVariable ['rhs_decalPlatoon_type', "Army"];
 
 	_this animate ['light_hide',0,true];
 	_this animate ['spare_hide',0,true];
@@ -8993,12 +8993,12 @@ if (_layer500 && _layer496) then {
 	_objectIDs pushback 3015;
 	_this setPosWorld [9474.6,3284.76,33.6661];
 	_this setVectorDirAndUp [[0.10693,0.994267,0],[0,0,1]];
-	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	[_this,"[[[[""rhs_weap_igla""],[1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[""FirstAidKit"",""Medikit"",""ACE_rope12""],[4,1,1]],[[""rhs_sidor""],[3]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 4] call ace_cargo_fnc_setSpace;
 
 
-	_this setVariable ['rhs_decalPlatoon_type', 0];;
+	_this setVariable ['rhs_decalPlatoon_type', 0];
 
 	_this animate ['big_numbers_hide',0,true];
 	_this animate ['small_numbers_hide',0,true];
@@ -9015,10 +9015,10 @@ if (_layer568 && _layer496) then {
 	_objectIDs pushback 509;
 	_this setPosWorld [9786.01,3932.27,39.2124];
 	_this setVectorDirAndUp [[-0.994085,-0.108606,0],[0,0,1]];
-	_this setname "Sotridis Tavoularis";;
-	_this setface "WhiteHead_21";;
-	_this setspeaker "Male01ENG";;
-	_this setpitch 1.02;;
+	_this setname "Sotridis Tavoularis";
+	_this setface "WhiteHead_21";
+	_this setspeaker "Male01ENG";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -9034,7 +9034,7 @@ if (_layer535) then {
 	_objectIDs pushback 523;
 	_this setPosWorld [6988.62,618.387,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item524 = objNull;
@@ -9045,7 +9045,7 @@ if (_layer535) then {
 	_objectIDs pushback 524;
 	_this setPosWorld [6993.74,624.385,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item525 = objNull;
@@ -9056,7 +9056,7 @@ if (_layer535) then {
 	_objectIDs pushback 525;
 	_this setPosWorld [6999.22,631.241,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item511 = objNull;
@@ -9067,7 +9067,7 @@ if (_layer535) then {
 	_objectIDs pushback 511;
 	_this setPosWorld [6975.88,580.875,-0.842444];
 	_this setVectorDirAndUp [[0.783264,-0.62169,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item512 = objNull;
@@ -9078,7 +9078,7 @@ if (_layer535) then {
 	_objectIDs pushback 512;
 	_this setPosWorld [6981.31,576.88,-0.810553];
 	_this setVectorDirAndUp [[-0.781012,0.624515,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item513 = objNull;
@@ -9089,7 +9089,7 @@ if (_layer535) then {
 	_objectIDs pushback 513;
 	_this setPosWorld [7001.85,613.389,-0.839064];
 	_this setVectorDirAndUp [[0.783264,-0.62169,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item534 = objNull;
@@ -9100,7 +9100,7 @@ if (_layer535) then {
 	_objectIDs pushback 534;
 	_this setPosWorld [7007.29,609.394,-0.813361];
 	_this setVectorDirAndUp [[-0.781012,0.624515,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item510 = objNull;
@@ -9112,7 +9112,7 @@ if (_layer535) then {
 	_this setPosWorld [6992.08,595.657,10.5302];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item533 = objNull;
@@ -9123,7 +9123,7 @@ if (_layer535) then {
 	_objectIDs pushback 533;
 	_this setPosWorld [7017.04,634.659,-0.824118];
 	_this setVectorDirAndUp [[-0.625251,-0.780424,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item526 = objNull;
@@ -9134,8 +9134,8 @@ if (_layer535) then {
 	_objectIDs pushback 526;
 	_this setPosWorld [7020.02,632.968,4.42011];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this allowdamage false;
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
@@ -9187,7 +9187,7 @@ if (_layer535) then {
 	_objectIDs pushback 530;
 	_this setPosWorld [7019.54,633.449,5.03073];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [1, "\A3\missions_f_oldman\Data\img\Screens\MillerNtbScreen01_co.paa"];
 };
 
@@ -9199,7 +9199,7 @@ if (_layer535) then {
 	_objectIDs pushback 531;
 	_this setPosWorld [7020.77,632.576,5.03047];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [1, "\a3\missions_f_aow\data\img\showcase_future_gcs_active_co.paa"];
 };
 
@@ -9211,7 +9211,7 @@ if (_layer535) then {
 	_objectIDs pushback 532;
 	_this setPosWorld [7020.13,633.082,5.03947];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setVariable ['expEden_StaticNoise_distance', 20, true];
 };
 
@@ -9223,7 +9223,7 @@ if (_layer535) then {
 	_objectIDs pushback 514;
 	_this setPosWorld [7011.37,589.551,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item515 = objNull;
@@ -9234,7 +9234,7 @@ if (_layer535) then {
 	_objectIDs pushback 515;
 	_this setPosWorld [7015.41,596.194,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item516 = objNull;
@@ -9245,7 +9245,7 @@ if (_layer535) then {
 	_objectIDs pushback 516;
 	_this setPosWorld [7019.25,601.766,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item517 = objNull;
@@ -9256,7 +9256,7 @@ if (_layer535) then {
 	_objectIDs pushback 517;
 	_this setPosWorld [7023.48,607.603,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item518 = objNull;
@@ -9267,7 +9267,7 @@ if (_layer535) then {
 	_objectIDs pushback 518;
 	_this setPosWorld [7004.06,580.895,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item519 = objNull;
@@ -9278,7 +9278,7 @@ if (_layer535) then {
 	_objectIDs pushback 519;
 	_this setPosWorld [6999.22,573.327,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item520 = objNull;
@@ -9289,7 +9289,7 @@ if (_layer535) then {
 	_objectIDs pushback 520;
 	_this setPosWorld [6965.99,591.182,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item521 = objNull;
@@ -9300,7 +9300,7 @@ if (_layer535) then {
 	_objectIDs pushback 521;
 	_this setPosWorld [6973.54,600.21,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item522 = objNull;
@@ -9311,7 +9311,7 @@ if (_layer535) then {
 	_objectIDs pushback 522;
 	_this setPosWorld [6981.8,610.268,1.29529];
 	_this setVectorDirAndUp [[-0.622974,-0.782243,0],[0,0,1]];
-	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 };
 
 private _item37 = objNull;
@@ -9325,7 +9325,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Router1 = _this;
 	_this setVehicleVarName "Router1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item38 = objNull;
@@ -9339,7 +9339,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Cabinet1 = _this;
 	_this setVehicleVarName "Cabinet1";
 	_this enableSimulation false;
-	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	_this animate ['Drawer_1_move_source',0,true];
 	_this animate ['Drawer_2_move_source',0,true];
 	_this animate ['Drawer_3_move_source',0,true];
@@ -9362,7 +9362,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Cabinet2 = _this;
 	_this setVehicleVarName "Cabinet2";
 	_this enableSimulation false;
-	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	_this animate ['Drawer_2_move_source',0,true];
 	_this animate ['Drawer_3_move_source',0,true];
 	_this animate ['Drawer_4_move_source',0,true];
@@ -9387,7 +9387,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Cabinet3 = _this;
 	_this setVehicleVarName "Cabinet3";
 	_this enableSimulation false;
-	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	_this setObjectTextureGlobal [1,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
 	_this setObjectTextureGlobal [2,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
 	_this setObjectTextureGlobal [3,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
@@ -9477,7 +9477,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Router2 = _this;
 	_this setVehicleVarName "Router2";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item47 = objNull;
@@ -9505,7 +9505,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Chair1 = _this;
 	_this setVehicleVarName "Chair1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item50 = objNull;
@@ -9519,13 +9519,13 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Chair2 = _this;
 	_this setVehicleVarName "Chair2";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
-private _item51 = objNull;
+Satscreen1 = objNull;
 if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _layer1982) then {
-	_item51 = createVehicle ["Land_Laptop_03_olive_F",[9469.46,3309.55,1.05888],[],0,"CAN_COLLIDE"];
-	_this = _item51;
+	Satscreen1 = createVehicle ["Land_Laptop_03_olive_F",[9469.46,3309.55,1.05888],[],0,"CAN_COLLIDE"];
+	_this = Satscreen1;
 	_objects pushback _this;
 	_objectIDs pushback 51;
 	_this setPosWorld [9469.46,3309.55,32.5563];
@@ -9533,7 +9533,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Satscreen1 = _this;
 	_this setVehicleVarName "Satscreen1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [1,"\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa"];
 };
 
@@ -9548,7 +9548,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Screen1 = _this;
 	_this setVehicleVarName "Screen1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [0,"\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa"];
 };
 
@@ -9563,7 +9563,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Monitor1 = _this;
 	_this setVehicleVarName "Monitor1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [1,"\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa"];
 	_this setObjectTextureGlobal [2,"\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa"];
 	_this setObjectTextureGlobal [3,"\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_27_co.paa"];
@@ -9580,7 +9580,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Monitor2 = _this;
 	_this setVehicleVarName "Monitor2";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [1,"\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa"];
 	_this setObjectTextureGlobal [2,"\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_72_co.paa"];
 	_this setObjectTextureGlobal [3,"\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_86_co.paa"];
@@ -9597,8 +9597,8 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Desk1 = _this;
 	_this setVehicleVarName "Desk1";
 	_this enableSimulation false;
-	_this allowdamage false;;
-	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this allowdamage false;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
@@ -9623,8 +9623,8 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Desk2 = _this;
 	_this setVehicleVarName "Desk2";
 	_this enableSimulation false;
-	_this allowdamage false;;
-	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this allowdamage false;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
@@ -9649,8 +9649,8 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Desk3 = _this;
 	_this setVehicleVarName "Desk3";
 	_this enableSimulation false;
-	_this allowdamage false;;
-	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this allowdamage false;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
 	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
@@ -9675,7 +9675,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	WhiteB = _this;
 	_this setVehicleVarName "WhiteB";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this setObjectTextureGlobal [0,"a3\structures_f\civ\infoboards\data\mapboard_default_co.paa"];
 	_this setObjectMaterialGlobal [0,""];
 };
@@ -9691,7 +9691,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	Gen = _this;
 	_this setVehicleVarName "Gen";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item60 = objNull;
@@ -9705,7 +9705,7 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	ServerA1 = _this;
 	_this setVehicleVarName "ServerA1";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this animateSource ['Lights_Off_Source',0,true];
 	_this animateSource ['Server_Move_Source',0,true];
 	_this animateSource ['Server_Hide_Source',0,true];
@@ -9722,23 +9722,26 @@ if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _
 	ServerA2 = _this;
 	_this setVehicleVarName "ServerA2";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 	_this animateSource ['Lights_Off_Source',0,true];
 	_this animateSource ['Server_Move_Source',0,true];
 	_this animateSource ['Server_Hide_Source',0,true];
 };
 
-private _item2880 = objNull;
+commsbox = objNull;
 if (_layer36 && _layer35 && _layer64 && _layer571 && _layer570 && _layer569 && _layer1982) then {
-	_item2880 = createVehicle ["Land_Cargo20_EMP_F",[9471.99,3309.51,0],[],0,"CAN_COLLIDE"];
-	_this = _item2880;
+	commsbox = createVehicle ["Land_Cargo20_EMP_F",[9471.99,3309.51,0],[],0,"CAN_COLLIDE"];
+	_this = commsbox;
 	_objects pushback _this;
 	_objectIDs pushback 2880;
 	_this setPosWorld [9471.99,3309.51,32.3967];
 	_this setVectorDirAndUp [[-0.335205,-0.942145,0],[0,0,1]];
-	Box1 = _this;
-	_this setVehicleVarName "Box1";
-	_this allowdamage false;;
+	commsbox = _this;
+	_this setVehicleVarName "commsbox";
+	_this allowdamage false;
+	_this enableSimulation false;
+	_this allowdamage false;
+	publicVariable "commsbox";
 	[_this, 4] call ace_cargo_fnc_setSize;
 	
 };
@@ -10012,10 +10015,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2025;
 	_this setPosWorld [10985.2,8645.89,34.866];
 	_this setVectorDirAndUp [[-0.38075,-0.924678,0],[0,0,1]];
-	_this setname "Ruslan Romanov";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Ruslan Romanov";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10032,10 +10035,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2027;
 	_this setPosWorld [10972.4,8674,22.7675];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Nikita Vasilyev";;
-	_this setface "RHS_WhiteHead_11";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Nikita Vasilyev";
+	_this setface "RHS_WhiteHead_11";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10052,10 +10055,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2028;
 	_this setPosWorld [10975.2,8650.2,25.833];
 	_this setVectorDirAndUp [[-0.608867,0.793272,0],[0,0,1]];
-	_this setname "Daniil Borodin";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Daniil Borodin";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10072,10 +10075,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2029;
 	_this setPosWorld [10974,8673.43,22.8748];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Nikita Produnov";;
-	_this setface "RHS_WhiteHead_16";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Nikita Produnov";
+	_this setface "RHS_WhiteHead_16";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10092,10 +10095,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2030;
 	_this setPosWorld [10970.3,8636.15,32.5665];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Fedor Yakushkin";;
-	_this setface "RussianHead_5";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Fedor Yakushkin";
+	_this setface "RussianHead_5";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10112,10 +10115,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2031;
 	_this setPosWorld [10971.9,8639.48,25.9135];
 	_this setVectorDirAndUp [[-0.363511,-0.93159,0],[0,0,1]];
-	_this setname "Valentin Fisenko";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Valentin Fisenko";
+	_this setface "RussianHead_2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10132,10 +10135,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2032;
 	_this setPosWorld [10968.1,8662.42,25.9324];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Nikolay Yeltsin";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Nikolay Yeltsin";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10152,10 +10155,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2033;
 	_this setPosWorld [10974.3,8642.84,34.9172];
 	_this setVectorDirAndUp [[-0.522369,-0.85272,0],[0,0,1]];
-	_this setname "Ruslan Sharapov";;
-	_this setface "AsianHead_A3_06";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Ruslan Sharapov";
+	_this setface "AsianHead_A3_06";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10173,9 +10176,9 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_this setPosWorld [10975,8647.93,34.7087];
 	_this setVectorDirAndUp [[0.289533,0.957168,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Timofey Rogozhkin";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Timofey Rogozhkin";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10193,10 +10196,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2034;
 	_this setPosWorld [10972.9,8620.64,25.9659];
 	_this setVectorDirAndUp [[0.998587,0.0531331,0],[0,0,1]];
-	_this setname "Stepan Chapayev";;
-	_this setface "RHS_LivonianHead_5";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Stepan Chapayev";
+	_this setface "RHS_LivonianHead_5";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10213,10 +10216,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2035;
 	_this setPosWorld [10972.4,8606.12,25.9291];
 	_this setVectorDirAndUp [[-0.563483,0.826128,0],[0,0,1]];
-	_this setname "Nikita Zhukov";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Nikita Zhukov";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10233,10 +10236,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2036;
 	_this setPosWorld [10975.3,8606.1,25.9678];
 	_this setVectorDirAndUp [[-0.457952,0.888977,0],[0,0,1]];
-	_this setname "Konstantin Gusakov";;
-	_this setface "RHS_WhiteHead_25";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Konstantin Gusakov";
+	_this setface "RHS_WhiteHead_25";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10253,10 +10256,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2037;
 	_this setPosWorld [10971.3,8625.05,26.0497];
 	_this setVectorDirAndUp [[-0.0468967,0.9989,0],[0,0,1]];
-	_this setname "Pyotr Vorobiev";;
-	_this setface "AsianHead_A3_01";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Pyotr Vorobiev";
+	_this setface "AsianHead_A3_01";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10273,10 +10276,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2038;
 	_this setPosWorld [10973.8,8631.82,26.0511];
 	_this setVectorDirAndUp [[-0.718706,0.695315,0],[0,0,1]];
-	_this setname "Roman Zubov";;
-	_this setface "RHS_WhiteHead_11";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Roman Zubov";
+	_this setface "RHS_WhiteHead_11";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10293,10 +10296,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2039;
 	_this setPosWorld [10976.5,8634.61,26.2041];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Ruslan Produnov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Ruslan Produnov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10313,10 +10316,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2040;
 	_this setPosWorld [10963.3,8619.92,29.3825];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Grigoriy Pushkin";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Grigoriy Pushkin";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10333,10 +10336,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2041;
 	_this setPosWorld [10970.4,8615.78,25.9735];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
-	_this setname "Roman Mamayev";;
-	_this setface "RHS_GreekHead_A3_01";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Roman Mamayev";
+	_this setface "RHS_GreekHead_A3_01";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10353,10 +10356,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_objectIDs pushback 2042;
 	_this setPosWorld [10977.6,8613.19,25.9814];
 	_this setVectorDirAndUp [[-0.244427,0.969668,0],[0,0,1]];
-	_this setname "Ruslan Malyukov";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Ruslan Malyukov";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10375,9 +10378,9 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_this setPosWorld [10982.8,8650.63,34.681];
 	_this setVectorDirAndUp [[0.289533,0.957168,0],[0,0,1]];
 	_this setUnitLoadout [[],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_mag_9x18_8_57N181S",3,8]]],["rhs_6b45_holster",[["rhs_mag_rdg2_white",2,1]]],[],"rhs_beret_mp1","",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Konstantin Petrov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Konstantin Petrov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10396,10 +10399,10 @@ if (_layer1084 && _layer1083 && _layer1982) then {
 	_this setPosWorld [10981.4,8646.42,34.6386];
 	_this setVectorDirAndUp [[0.289533,0.957168,0],[0,0,1]];
 	_this setUnitLoadout [["rhs_weap_ak74m_pkas","rhs_acc_dtk","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK",30],[],""],["rhs_weap_rpg26","","","",["rhs_rpg26_mag",1],[],""],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["rhs_uniform_vkpo_gloves",[["FirstAidKit",1],["rhs_30Rnd_545x39_7N10_AK",1,30]]],["rhs_6b45_off",[["rhs_30Rnd_545x39_7N10_AK",6,30],["rhs_mag_9x18_8_57N181S",1,8],["rhs_mag_rdg2_white",2,1],["rhs_mag_rgn",2,1]]],[],"rhs_6b47_emr_1","rhs_facewear_6m2_1",["Binocular","","","",[],[],""],["ItemMap","","ItemRadio","ItemCompass","ItemWatch","rhs_1PN138"]];
-	_this setname "Vitaly Khrushchev";;
-	_this setface "Smith_v2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Vitaly Khrushchev";
+	_this setface "Smith_v2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -10416,7 +10419,7 @@ if (_layer1507 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1508;
 	_this setPosWorld [10982.7,8653.59,14.8386];
 	_this setVectorDirAndUp [[-0.342281,-0.939598,0],[0,0,1]];
-	['init',_this,[594,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	['init',_this,[594,0,0]] call bis_fnc_3DENAttributeDoorStates;
 };
 
 private _item1509 = objNull;
@@ -10427,7 +10430,7 @@ if (_layer1507 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1509;
 	_this setPosWorld [10975.8,8680.6,14.8396];
 	_this setVectorDirAndUp [[0.342244,0.939611,0],[0,0,1]];
-	['init',_this,[16,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	['init',_this,[16,0,0]] call bis_fnc_3DENAttributeDoorStates;
 };
 
 private _item1510 = objNull;
@@ -10438,7 +10441,7 @@ if (_layer1507 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1510;
 	_this setPosWorld [10995.2,8673.49,14.8391];
 	_this setVectorDirAndUp [[0.342244,0.939611,0],[0,0,1]];
-	['init',_this,[4,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	['init',_this,[4,0,0]] call bis_fnc_3DENAttributeDoorStates;
 };
 
 private _item1511 = objNull;
@@ -10499,7 +10502,7 @@ if (_layer1519 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1520;
 	_this setPosWorld [10991.6,8647.81,26.289];
 	_this setVectorDirAndUp [[0.419867,-0.907586,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1521 = objNull;
@@ -10510,7 +10513,7 @@ if (_layer1519 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1521;
 	_this setPosWorld [10991.3,8648.33,29.164];
 	_this setVectorDirAndUp [[-0.0196527,0.0759231,0.99692],[-0.579998,0.811321,-0.073222]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1522 = objNull;
@@ -10521,7 +10524,7 @@ if (_layer1519 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1522;
 	_this setPosWorld [10972.4,8654.82,28.789];
 	_this setVectorDirAndUp [[-0.00744776,0.0177504,0.999815],[0.922119,0.386906,-1.69122e-008]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1523 = objNull;
@@ -10532,7 +10535,7 @@ if (_layer1519 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1523;
 	_this setPosWorld [10972.2,8654.75,26.164];
 	_this setVectorDirAndUp [[-0.907592,-0.419853,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1985 = objNull;
@@ -10543,7 +10546,7 @@ if (_layer1519 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1985;
 	_this setPosWorld [10974.8,8655.11,26.6896];
 	_this setVectorDirAndUp [[-0.986144,-0.165893,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1525 = objNull;
@@ -10874,7 +10877,7 @@ if (_layer1555 && _layer1506 && _layer1505 && _layer1982) then {
 	_objectIDs pushback 1570;
 	_this setPosWorld [10974.6,8641.68,34.6831];
 	_this setVectorDirAndUp [[-0.939606,0.342257,0],[0,0,1]];
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1571 = objNull;
@@ -11302,9 +11305,9 @@ if (_layer1581 && _layer1506 && _layer1505 && _layer1982) then {
 	_this setPosWorld [10990.3,8688.6,26.4528];
 	_this setVectorDirAndUp [[-0.342283,-0.939597,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
-	[_this,"[[[[""arifle_MX_F"",""FirstAidKit""],[2,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[12,6,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
-	_this setVariable ['s',1];;
+	_this allowdamage false;
+	[_this,"[[[[""arifle_MX_F"",""FirstAidKit""],[2,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[12,6,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVariable ['s',1];
 	[_this, 8] call ace_cargo_fnc_setSpace;
 
 
@@ -11321,10 +11324,10 @@ if (_layer1506 && _layer1505 && _layer1982) then {
 	_this setPosWorld [10982,8651.49,34.6806];
 	_this setVectorDirAndUp [[0.289526,0.95717,0],[0,0,1]];
 	_this setUnitLoadout [[],[],[],["U_I_E_ParadeUniform_01_LDF_decorated_F",[["30Rnd_9x21_Mag",2,30]]],[],[],"H_ParadeDressCap_01_LDF_F","G_Aviator",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
-	_this setname "Angelos Papageorgiou";;
-	_this setface "GreekHead_A3_04";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Angelos Papageorgiou";
+	_this setface "GreekHead_A3_04";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11436,9 +11439,9 @@ if (_layer1982) then {
 	_objectIDs pushback 2002;
 	_this setPosWorld [10957.8,8608.91,25.9422];
 	_this setVectorDirAndUp [[-8.74228e-008,-1,0],[0,0,1]];
-	_this setname "Egor Komarov";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Egor Komarov";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	interior_alarmguy = _this;
 	_this setVehicleVarName "interior_alarmguy";
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
@@ -11458,10 +11461,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2003;
 	_this setPosWorld [10971.5,8612.96,25.9685];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Daniil Rogozhkin";;
-	_this setface "RHS_RussianHead_1";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Daniil Rogozhkin";
+	_this setface "RHS_RussianHead_1";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11479,10 +11482,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2004;
 	_this setPosWorld [10959,8612.18,25.9423];
 	_this setVectorDirAndUp [[0.949254,-0.314512,0],[0,0,1]];
-	_this setname "Pyotr Pushkin";;
-	_this setface "RHS_GreekHead_A3_01";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Pyotr Pushkin";
+	_this setface "RHS_GreekHead_A3_01";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11500,10 +11503,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2005;
 	_this setPosWorld [10963.8,8627.02,26.0012];
 	_this setVectorDirAndUp [[0.557083,-0.830457,0],[0,0,1]];
-	_this setname "Filip Kamenev";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Filip Kamenev";
+	_this setface "RussianHead_2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11521,10 +11524,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2006;
 	_this setPosWorld [10977.8,8620.38,29.3475];
 	_this setVectorDirAndUp [[-0.218736,-0.975784,0],[0,0,1]];
-	_this setname "Fedor Timoshenko";;
-	_this setface "RHS_GreekHead_A3_08";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Fedor Timoshenko";
+	_this setface "RHS_GreekHead_A3_08";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11542,10 +11545,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2007;
 	_this setPosWorld [10996.8,8675.69,22.6917];
 	_this setVectorDirAndUp [[-0.551795,0.83398,0],[0,0,1]];
-	_this setname "Nikolay Bychkov";;
-	_this setface "RHS_WhiteHead_15";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Nikolay Bychkov";
+	_this setface "RHS_WhiteHead_15";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11563,10 +11566,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2008;
 	_this setPosWorld [10988.4,8652.43,25.9429];
 	_this setVectorDirAndUp [[-0.357154,0.934045,0],[0,0,1]];
-	_this setname "Vasili Kuznetsov";;
-	_this setface "RHS_LivonianHead_5";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Vasili Kuznetsov";
+	_this setface "RHS_LivonianHead_5";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11584,10 +11587,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2009;
 	_this setPosWorld [10986.2,8645.48,25.9093];
 	_this setVectorDirAndUp [[0.688282,0.725443,0],[0,0,1]];
-	_this setname "Mikhail Vasilyev";;
-	_this setface "RHS_WhiteHead_07";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Mikhail Vasilyev";
+	_this setface "RHS_WhiteHead_07";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11605,10 +11608,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2010;
 	_this setPosWorld [10989.9,8681.9,22.7616];
 	_this setVectorDirAndUp [[0.215526,0.976498,0],[0,0,1]];
-	_this setname "Abram Putin";;
-	_this setface "RHS_WhiteHead_28";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Abram Putin";
+	_this setface "RHS_WhiteHead_28";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11626,10 +11629,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2011;
 	_this setPosWorld [10990.1,8697,22.8399];
 	_this setVectorDirAndUp [[0.129339,-0.9916,0],[0,0,1]];
-	_this setname "Stepan Tokarev";;
-	_this setface "RHS_WhiteHead_27";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Stepan Tokarev";
+	_this setface "RHS_WhiteHead_27";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11647,10 +11650,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2012;
 	_this setPosWorld [10981.6,8685.03,22.8312];
 	_this setVectorDirAndUp [[0.215526,0.976498,0],[0,0,1]];
-	_this setname "Grigoriy Kamenev";;
-	_this setface "Smith_v2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Grigoriy Kamenev";
+	_this setface "Smith_v2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11668,10 +11671,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2013;
 	_this setPosWorld [10998.2,8682.19,22.7982];
 	_this setVectorDirAndUp [[-0.390245,0.920711,0],[0,0,1]];
-	_this setname "Lev Alekseev";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Lev Alekseev";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11689,10 +11692,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2014;
 	_this setPosWorld [11003.2,8690.72,22.8187];
 	_this setVectorDirAndUp [[-0.539154,-0.842207,0],[0,0,1]];
-	_this setname "Pavel Putin";;
-	_this setface "AsianHead_A3_02";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Pavel Putin";
+	_this setface "AsianHead_A3_02";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11710,10 +11713,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2015;
 	_this setPosWorld [10999.6,8689.37,22.9968];
 	_this setVectorDirAndUp [[-0.356364,-0.934347,0],[0,0,1]];
-	_this setname "Boris Blagonravov";;
-	_this setface "RHS_WhiteHead_09";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Boris Blagonravov";
+	_this setface "RHS_WhiteHead_09";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11731,10 +11734,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2016;
 	_this setPosWorld [10984,8698.37,22.777];
 	_this setVectorDirAndUp [[-0.994837,0.101487,0],[0,0,1]];
-	_this setname "Vitaly Produnov";;
-	_this setface "RHS_WhiteHead_11";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Vitaly Produnov";
+	_this setface "RHS_WhiteHead_11";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11752,10 +11755,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2017;
 	_this setPosWorld [10983,8693.8,22.777];
 	_this setVectorDirAndUp [[-0.10608,0.994358,0],[0,0,1]];
-	_this setname "Semyon Popov";;
-	_this setface "RHS_WhiteHead_10";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Semyon Popov";
+	_this setface "RHS_WhiteHead_10";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11773,10 +11776,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2018;
 	_this setPosWorld [10986.1,8707.95,22.885];
 	_this setVectorDirAndUp [[-0.193512,-0.981098,0],[0,0,1]];
-	_this setname "Vadim Volk";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Vadim Volk";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11794,10 +11797,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2019;
 	_this setPosWorld [10973.5,8705.35,22.885];
 	_this setVectorDirAndUp [[0.999998,0.00198145,0],[0,0,1]];
-	_this setname "Yevgeniy Yeltsin";;
-	_this setface "Oakes_v2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Yevgeniy Yeltsin";
+	_this setface "Oakes_v2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11815,10 +11818,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2020;
 	_this setPosWorld [10981.6,8691.17,22.885];
 	_this setVectorDirAndUp [[-0.282211,0.959352,0],[0,0,1]];
-	_this setname "Lev Glebov";;
-	_this setface "AsianHead_A3_03";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Lev Glebov";
+	_this setface "AsianHead_A3_03";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11836,10 +11839,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2021;
 	_this setPosWorld [10980.1,8709.86,22.885];
 	_this setVectorDirAndUp [[0.550287,-0.834976,0],[0,0,1]];
-	_this setname "Sergei Soloveychik";;
-	_this setface "RussianHead_4";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Sergei Soloveychik";
+	_this setface "RussianHead_4";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11857,10 +11860,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2022;
 	_this setPosWorld [10978.2,8711.49,22.8165];
 	_this setVectorDirAndUp [[-0.342401,-0.939554,0],[0,0,1]];
-	_this setname "Arkadiy Afanasyev";;
-	_this setface "Mason_v2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Arkadiy Afanasyev";
+	_this setface "Mason_v2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11878,10 +11881,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2023;
 	_this setPosWorld [10969.5,8709.19,22.8165];
 	_this setVectorDirAndUp [[0.949606,0.313446,0],[0,0,1]];
-	_this setname "Vadim Nikolayev";;
-	_this setface "RussianHead_3";;
-	_this setspeaker "Male02RUS";;
-	_this setpitch 0.96;;
+	_this setname "Vadim Nikolayev";
+	_this setface "RussianHead_3";
+	_this setspeaker "Male02RUS";
+	_this setpitch 0.96;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -11899,10 +11902,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2024;
 	_this setPosWorld [10970.6,8711.49,26.1528];
 	_this setVectorDirAndUp [[0.910975,-0.412462,0],[0,0,1]];
-	_this setname "Yuri Soloveychik";;
-	_this setface "RHS_LivonianHead_4";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Yuri Soloveychik";
+	_this setface "RHS_LivonianHead_4";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12122,10 +12125,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2046;
 	_this setPosWorld [10975.3,8617.25,25.9444];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Aleksander Sarafanov";;
-	_this setface "RHS_WhiteHead_32";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Aleksander Sarafanov";
+	_this setface "RHS_WhiteHead_32";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12143,10 +12146,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2048;
 	_this setPosWorld [10968.9,8630.29,25.974];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Vyacheslav Lermontov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Vyacheslav Lermontov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12164,10 +12167,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2050;
 	_this setPosWorld [10972.9,8641.15,29.1071];
 	_this setVectorDirAndUp [[0.297669,-0.954669,0],[0,0,1]];
-	_this setname "Grigoriy Sudakov";;
-	_this setface "RHS_WhiteHead_14";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Grigoriy Sudakov";
+	_this setface "RHS_WhiteHead_14";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12185,10 +12188,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2052;
 	_this setPosWorld [10973.8,8639.55,32.2878];
 	_this setVectorDirAndUp [[-0.880767,-0.47355,0],[0,0,1]];
-	_this setname "Pyotr Golovko";;
-	_this setface "RussianHead_2";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Pyotr Golovko";
+	_this setface "RussianHead_2";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12206,10 +12209,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2054;
 	_this setPosWorld [10993.7,8712.45,22.849];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Daniil Sudakov";;
-	_this setface "RHS_LivonianHead_6";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Daniil Sudakov";
+	_this setface "RHS_LivonianHead_6";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12227,10 +12230,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2056;
 	_this setPosWorld [10996.4,8711.83,22.849];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Arkadiy Borichev";;
-	_this setface "RHS_LivonianHead_10";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Arkadiy Borichev";
+	_this setface "RHS_LivonianHead_10";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12248,10 +12251,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2058;
 	_this setPosWorld [10992.3,8704.34,22.8482];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Fedor Molotov";;
-	_this setface "AsianHead_A3_07";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Fedor Molotov";
+	_this setface "AsianHead_A3_07";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12269,10 +12272,10 @@ if (_layer1982) then {
 	_objectIDs pushback 2060;
 	_this setPosWorld [10995.2,8703,22.849];
 	_this setVectorDirAndUp [[0.525166,0.851,0],[0,0,1]];
-	_this setname "Fedor Tolstoy";;
-	_this setface "RHS_LivonianHead_1";;
-	_this setspeaker "Male01RUS";;
-	_this setpitch 1.02;;
+	_this setname "Fedor Tolstoy";
+	_this setface "RHS_LivonianHead_1";
+	_this setspeaker "Male01RUS";
+	_this setpitch 1.02;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
@@ -12281,10 +12284,10 @@ if (_layer1982) then {
 	if (true) then { _this setVariable ['s', true, true]; };
 };
 
-private _item1999 = objNull;
+shipentrydoor = objNull;
 if (_layer1982) then {
-	_item1999 = createVehicle ["Land_Misc_Cargo1D",[12425.1,3780.93,45.252],[],0,"CAN_COLLIDE"];
-	_this = _item1999;
+	shipentrydoor = createVehicle ["Land_Misc_Cargo1D",[12425.1,3780.93,45.252],[],0,"CAN_COLLIDE"];
+	_this = shipentrydoor;
 	_objects pushback _this;
 	_objectIDs pushback 1999;
 	_this setPosWorld [12425.1,3780.93,0.618313];
@@ -12292,7 +12295,7 @@ if (_layer1982) then {
 	shipentrydoor = _this;
 	_this setVehicleVarName "shipentrydoor";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item1997 = objNull;
@@ -12314,13 +12317,13 @@ if (_layer1982) then {
 	_this setPosWorld [12426.9,3803.84,14.2951];
 	_this setVectorDirAndUp [[0.860397,-0.509625,-2.09175e-005],[-0.508621,-0.858705,0.0626978]];
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
-private _item2865 = objNull;
+shipexitdoor = objNull;
 if (_layer1982) then {
-	_item2865 = createVehicle ["Land_Misc_Cargo1D",[10954.9,8594.04,76.285],[],0,"CAN_COLLIDE"];
-	_this = _item2865;
+	shipexitdoor = createVehicle ["Land_Misc_Cargo1D",[10954.9,8594.04,76.285],[],0,"CAN_COLLIDE"];
+	_this = shipexitdoor;
 	_objects pushback _this;
 	_objectIDs pushback 2865;
 	_this setPosWorld [10954.9,8594.04,27.0077];
@@ -12328,7 +12331,7 @@ if (_layer1982) then {
 	shipexitdoor = _this;
 	_this setVehicleVarName "shipexitdoor";
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item2873 = objNull;
@@ -12340,7 +12343,7 @@ if (_layer1982) then {
 	_this setPosWorld [10975,8657.19,36.2629];
 	_this setVectorDirAndUp [[-0.498147,0.867093,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
 private _item2883 = objNull;
@@ -12352,8 +12355,8 @@ if (_layer1982) then {
 	_this setPosWorld [10983.2,8654.02,36.1978];
 	_this setVectorDirAndUp [[0.343365,0.939202,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
-	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	_this allowdamage false;
+	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;
 	[_this, 4] call ace_cargo_fnc_setSize;
 	
 };
@@ -12367,8 +12370,8 @@ if (_layer1982) then {
 	_this setPosWorld [10972.9,8651.61,36.3257];
 	_this setVectorDirAndUp [[0.940098,-0.340905,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
-	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	_this allowdamage false;
+	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;
 	[_this, 100] call ace_cargo_fnc_setSize;
 	
 };
@@ -12382,8 +12385,8 @@ if (_layer1982) then {
 	_this setPosWorld [10989.6,8648.36,36.7878];
 	_this setVectorDirAndUp [[-0.940857,0.338803,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
-	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;;
+	_this allowdamage false;
+	['init',_this,[5,0,0]] call bis_fnc_3DENAttributeDoorStates;
 	[_this, 100] call ace_cargo_fnc_setSize;
 	
 };
@@ -12397,42 +12400,13 @@ if (_layer1982) then {
 	_this setPosWorld [10991,8651.11,36.7864];
 	_this setVectorDirAndUp [[-0.943933,-0.330137,0],[0,0,1]];
 	_this enableSimulation false;
-	_this allowdamage false;;
+	_this allowdamage false;
 };
 
-private _item2976 = objNull;
-if (_layer2974 && _layer2978) then {
-	_item2976 = _item2975 createUnit ["jsoc_VSM_Multicam_Crye_Uniform",[9313.77,3195.71,0.441],[],0,"CAN_COLLIDE"];
-	_item2975 selectLeader _item2976;
-	_this = _item2976;
-	_objects pushback _this;
-	_objectIDs pushback 2976;
-	_this setPosWorld [9313.77,3195.76,23.5593];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setUnitLoadout [["uk3cb_auga3_gl_blk","Tier1_SandmanS_Black","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552",["rhs_mag_30Rnd_556x45_M855A1_PMAG",30],["rhs_mag_M441_HE",1],""],[],["hlc_pistol_P226R_357Combat","Tier1_Octane9","hlc_acc_DBALPL","HLC_optic_VTAC",["hlc_12Rnd_357SIG_B_P226",12],[],""],["VSM_Multicam_Camo",[["ItemcTabHCam",1],["ACE_fieldDressing",20],["ACE_IR_Strobe_Item",1],["ACE_Flashlight_XL50",1],["ACE_tourniquet",4],["ACE_EarPlugs",2],["ACE_morphine",5],["ACE_epinephrine",5],["ACRE_PRC343",1]]],["tfa_v_mmac_teamleader_belt_mc",[["ACE_salineIV_500",2],["ACE_CableTie",4],["ACE_MapTools",1],["ItemcTab",1],["ACE_SpraypaintBlue",1],["hlc_12Rnd_357SIG_B_P226",2,12],["rhs_mag_30Rnd_556x45_M855A1_PMAG",8,30],["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",2,30]]],["VSM_Multicam_Backpack_Kitbag",[["ACE_HuntIR_monitor",1],["ACRE_PRC117F",1],["ACRE_PRC152",1],["rhs_mag_M441_HE",5,1],["rhs_mag_m713_Red",2,1],["rhs_mag_m714_White",2,1],["ACE_HuntIR_M203",5,1],["rhs_mag_m67",2,1],["SmokeShellBlue",1,1],["SmokeShellRed",1,1],["Chemlight_blue",2,1],["SmokeShell",2,1],["ACE_M14",2,1]]],"VSM_OPS_multicam","T_HoodTanBlk",["Laserdesignator","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ACE_Altimeter","A3_GPNVG18_REC_F"]];
-	_this setname "Toby Coburn";;
-	_this setface "WhiteHead_12";;
-	_this setpitch 1.03;;
-	z1 = _this;
-	_this setVehicleVarName "z1";
-	selectPlayer _this;
-	addSwitchableUnit _this;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-};
-
-
-///////////////////////////////////////////////////////////////////////////////////////////
-// Triggers
 private _triggers = [];
 private _triggerIDs = [];
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// Group attributes (applied only once group units exist)
 _this = _item65;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
@@ -13140,14 +13114,10 @@ if !(units _this isEqualTo []) then {
 };
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// Waypoints
 private _waypoints = [];
 private _waypointIDs = [];
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// Logics
 private _logics = [];
 private _logicIDs = [];
 
@@ -13159,10 +13129,10 @@ if (_layer2978) then {
 	_logicIDs pushback 2977;
 	_this setPosWorld [9315.72,3195.89,23.5577];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setVariable ['Owner',"z1",true];;
-	_this setVariable ['Name',"",true];;
-	_this setVariable ['Addons',3,true];;
-	_this setVariable ['Forced',0,true];;
+	_this setVariable ['Owner',"z1",true];
+	_this setVariable ['Name',"",true];
+	_this setVariable ['Addons',3,true];
+	_this setVariable ['Forced',0,true];
 	_this setvariable ["BIS_fnc_initModules_disableAutoActivation",true];
 };
 
@@ -13175,9 +13145,9 @@ if (_layerRoot) then {
 	_this setPosWorld [9768.31,3892.48,38.89];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setVariable ["objectArea",[50,50,0,false,-1]];
-	_this setVariable ['lambs_wp_ExitWP', 1, true];;
-	_this setVariable ['lambs_wp_Teleport',true,true];;
-	_this setVariable ['lambs_wp_Patrol',false,true];;
+	_this setVariable ['lambs_wp_ExitWP', 1, true];
+	_this setVariable ['lambs_wp_Teleport',true,true];
+	_this setVariable ['lambs_wp_Patrol',false,true];
 	_this setvariable ["BIS_fnc_initModules_disableAutoActivation",true];
 };
 
@@ -13190,18 +13160,14 @@ if (_layerRoot) then {
 	_this setPosWorld [9766.67,3900.29,38.89];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
 	_this setVariable ["objectArea",[50,50,0,false,-1]];
-	_this setVariable ['lambs_wp_ExitConditions', -2, true];;
-	_this setVariable ['lambs_wp_SortByHeight',false,true];;
-	_this setVariable ['lambs_wp_Teleport',true,true];;
-	_this setVariable ['lambs_wp_Patrol',false,true];;
+	_this setVariable ['lambs_wp_ExitConditions', -2, true];
+	_this setVariable ['lambs_wp_SortByHeight',false,true];
+	_this setVariable ['lambs_wp_Teleport',true,true];
+	_this setVariable ['lambs_wp_Patrol',false,true];
 	_this setvariable ["BIS_fnc_initModules_disableAutoActivation",true];
 };
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// Layers
-if (_layer2974) then {missionNamespace setVariable ["Impromptu_Stock_3",[[_item2976],[]]];};
-if (_layer2978) then {missionNamespace setVariable ["Impromptu_Stock",[[_item2976,_item2977],[]]];};
 if (_layer1975) then {missionNamespace setVariable ["Impromptu_Flammable Fuel Bladder (Sand)_5",[[_item1976],[]]];};
 if (_layer1974) then {missionNamespace setVariable ["Impromptu_flame fuel_5",[[_item1976],[]]];};
 if (_layer1972) then {missionNamespace setVariable ["Impromptu_Flammable Fuel Bladder (Sand)_4",[[_item1973],[]]];};
@@ -13230,18 +13196,18 @@ if (_layer754) then {missionNamespace setVariable ["Impromptu_Top Middle_1",[[_i
 if (_layer696) then {missionNamespace setVariable ["Impromptu_Top Underside_1",[[_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729],[]]];};
 if (_layer671) then {missionNamespace setVariable ["Impromptu_Top_1",[[_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
 if (_layer670) then {missionNamespace setVariable ["Impromptu_Deck Floor_1",[[_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
-if (_layer36) then {missionNamespace setVariable ["Impromptu_Command Point Vic",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880],[]]];};
-if (_layer35) then {missionNamespace setVariable ["Impromptu_Command Vehicle",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880],[]]];};
-if (_layer64) then {missionNamespace setVariable ["Impromptu_Shipping Container Command",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880],[]]];};
-if (_layer571) then {missionNamespace setVariable ["Impromptu_Bastek Oil Rig v10 (Up)",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
-if (_layer570) then {missionNamespace setVariable ["Impromptu_Bastek Oil Rig",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
-if (_layer569) then {missionNamespace setVariable ["Impromptu_Jackup Oil Rig (Bastek)",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
-if (_layer1982) then {missionNamespace setVariable ["Impromptu_honorSteven Ship CQB",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,_item51,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,_item2880,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822,_item1194,_item1210,_item1211,_item1212,_item1213,_item2025,_item2027,_item2028,_item2029,_item2030,_item2031,_item2032,_item2033,_item2866,_item2034,_item2035,_item2036,_item2037,_item2038,_item2039,_item2040,_item2041,_item2042,_item2867,_item2869,_item1508,_item1509,_item1510,_item1511,_item1512,_item1513,_item1514,_item1515,_item1520,_item1521,_item1522,_item1523,_item1985,_item1525,_item1526,_item1527,_item1528,_item1529,_item1530,_item1531,_item1532,_item1533,_item1534,_item1535,_item1536,_item1537,_item1538,_item1539,_item1556,_item1557,_item1558,_item1559,_item1560,_item1561,_item1562,_item1563,_item1564,_item1565,_item1566,_item1567,_item1568,_item1569,_item1570,_item1571,_item1577,_item1578,_item1579,_item1580,_item1582,_item1583,_item1584,_item1585,_item1586,_item1587,_item1588,_item1589,_item1590,_item1591,_item1592,_item1593,_item1594,_item1596,_item1597,_item1598,_item1599,_item1600,_item1601,_item1602,_item1603,_item1604,_item1605,_item1606,_item1607,_item1608,_item1609,_item1610,_item1611,_item1612,_item1613,_item1614,_item1615,_item1616,_item1617,_item1635,_item1500,_item1766,_item1767,_item1769,_item1770,_item1772,_item1773,_item1774,_item1775,_item1776,_item2002,_item2003,_item2004,_item2005,_item2006,_item2007,_item2008,_item2009,_item2010,_item2011,_item2012,_item2013,_item2014,_item2015,_item2016,_item2017,_item2018,_item2019,_item2020,_item2021,_item2022,_item2023,_item2024,_item1961,_item1964,_item1967,_item1970,_item1973,_item1976,_item1662,_item1663,_item1664,_item1665,_item1666,_item1667,_item1668,_item1669,_item1670,_item1671,_item1672,_item1673,_item1674,_item2046,_item2048,_item2050,_item2052,_item2054,_item2056,_item2058,_item2060,_item1999,_item1997,_item1998,_item2865,_item2873,_item2883,_item2874,_item2884,_item2872],[_item2062]]];};
+if (_layer36) then {missionNamespace setVariable ["Impromptu_Command Point Vic",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox],[]]];};
+if (_layer35) then {missionNamespace setVariable ["Impromptu_Command Vehicle",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox],[]]];};
+if (_layer64) then {missionNamespace setVariable ["Impromptu_Shipping Container Command",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox],[]]];};
+if (_layer571) then {missionNamespace setVariable ["Impromptu_Bastek Oil Rig v10 (Up)",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
+if (_layer570) then {missionNamespace setVariable ["Impromptu_Bastek Oil Rig",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
+if (_layer569) then {missionNamespace setVariable ["Impromptu_Jackup Oil Rig (Bastek)",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822],[]]];};
+if (_layer1982) then {missionNamespace setVariable ["Impromptu_honorSteven Ship CQB",[[_item37,_item38,_item39,_item40,_item41,_item42,_item43,_item44,_item45,_item46,_item47,_item49,_item50,Satscreen1,_item52,_item53,_item54,_item55,_item56,_item57,_item58,_item59,_item60,_item61,commsbox,_item722,_item723,_item724,_item725,_item726,_item727,_item728,_item729,_item778,_item780,_item782,_item783,_item784,_item785,_item786,_item787,_item788,_item789,_item820,_item821,_item822,_item1194,_item1210,_item1211,_item1212,_item1213,_item2025,_item2027,_item2028,_item2029,_item2030,_item2031,_item2032,_item2033,_item2866,_item2034,_item2035,_item2036,_item2037,_item2038,_item2039,_item2040,_item2041,_item2042,_item2867,_item2869,_item1508,_item1509,_item1510,_item1511,_item1512,_item1513,_item1514,_item1515,_item1520,_item1521,_item1522,_item1523,_item1985,_item1525,_item1526,_item1527,_item1528,_item1529,_item1530,_item1531,_item1532,_item1533,_item1534,_item1535,_item1536,_item1537,_item1538,_item1539,_item1556,_item1557,_item1558,_item1559,_item1560,_item1561,_item1562,_item1563,_item1564,_item1565,_item1566,_item1567,_item1568,_item1569,_item1570,_item1571,_item1577,_item1578,_item1579,_item1580,_item1582,_item1583,_item1584,_item1585,_item1586,_item1587,_item1588,_item1589,_item1590,_item1591,_item1592,_item1593,_item1594,_item1596,_item1597,_item1598,_item1599,_item1600,_item1601,_item1602,_item1603,_item1604,_item1605,_item1606,_item1607,_item1608,_item1609,_item1610,_item1611,_item1612,_item1613,_item1614,_item1615,_item1616,_item1617,_item1635,_item1500,_item1766,_item1767,_item1769,_item1770,_item1772,_item1773,_item1774,_item1775,_item1776,_item2002,_item2003,_item2004,_item2005,_item2006,_item2007,_item2008,_item2009,_item2010,_item2011,_item2012,_item2013,_item2014,_item2015,_item2016,_item2017,_item2018,_item2019,_item2020,_item2021,_item2022,_item2023,_item2024,_item1961,_item1964,_item1967,_item1970,_item1973,_item1976,_item1662,_item1663,_item1664,_item1665,_item1666,_item1667,_item1668,_item1669,_item1670,_item1671,_item1672,_item1673,_item1674,_item2046,_item2048,_item2050,_item2052,_item2054,_item2056,_item2058,_item2060,shipentrydoor,_item1997,_item1998,shipexitdoor,_item2873,_item2883,_item2874,_item2884,_item2872],[_item2062]]];};
 if (_layer535) then {missionNamespace setVariable ["Impromptu_Off Shore Safe Start",[[_item523,_item524,_item525,_item511,_item512,_item513,_item534,_item510,_item533,_item526,_item527,_item528,_item529,_item530,_item531,_item532,_item514,_item515,_item516,_item517,_item518,_item519,_item520,_item521,_item522],[_item2864]]];};
 if (_layer568) then {missionNamespace setVariable ["Impromptu_MCI",[[_item509],[]]];};
-if (_layer500) then {missionNamespace setVariable ["Impromptu_Defenses and Prep",[[_item449,_item451,_item396,_item452,_item453,_item450,_item494,_item446,_item447,_item448,_item493,_item495,_item203,_item204,_item205,_item214,_item392,_item398,_item215,_item271,_item272,_item278,_item279,_item386,_item393,_item401,_item207,_item208,_item209,_item210,_item217,_item220,_item221,_item222,_item225,_item234,_item235,_item236,_item237,_item238,_item239,_item242,_item243,_item253,_item254,_item255,_item256,_item257,_item258,_item259,_item260,_item261,_item262,_item263,_item264,_item265,_item266,_item267,_item268,_item273,_item274,_item387,_item388,_item389,_item390,_item394,_item395,_item402,_item403,_item404,_item405,_item206,_item216,_item224,_item232,_item233,_item384,_item385,_item399,_item400,_item211,_item212,_item218,_item223,_item226,_item227,_item228,_item229,_item230,_item231,_item240,_item241,_item244,_item245,_item248,_item249,_item250,_item251,_item252,_item269,_item270,_item276,_item277,_item391,_item397,_item213,_item219,_item275,_item280,_item501,_item502,_item2162,_item2166,_item2158,_item2143,_item2177,_item2173,_item2920,_item2924,_item2925,_item2148,_item2180,_item2181,_item2182,_item2184,_item2138,_item2185,_item2187,_item2206,_item2207,_item2093,_item2109,_item2110,_item2111,_item2112,_item2113,_item2114,_item2115,_item2105,_item2106,_item2107,_item2108,_item2091,_item2092,_item2094,_item2095,_item2096,_item2097,_item2098,_item2099,_item2100,_item2101,_item2102,_item2103,_item2104,_item2152,_item2155,_item2170,_item2116,_item2117,_item3015],[]]];};
-if (_layer1) then {missionNamespace setVariable ["Impromptu_Submarine",[[_item0,_item8],[_item2,_item9]]];};
-if (_layer499) then {missionNamespace setVariable ["Impromptu_Env",[[_item0,_item8],[_item2,_item9]]];};
+if (_layer500) then {missionNamespace setVariable ["Impromptu_Defenses and Prep",[[_item449,_item451,_item396,_item452,_item453,_item450,_item494,_item446,_item447,_item448,power_generator,_item495,_item203,_item204,_item205,_item214,_item392,_item398,_item215,_item271,_item272,_item278,_item279,_item386,_item393,_item401,_item207,_item208,_item209,_item210,_item217,_item220,_item221,_item222,_item225,_item234,_item235,_item236,_item237,_item238,_item239,_item242,_item243,_item253,_item254,_item255,_item256,_item257,_item258,_item259,_item260,_item261,_item262,_item263,_item264,_item265,_item266,_item267,_item268,_item273,_item274,_item387,_item388,_item389,_item390,_item394,_item395,_item402,_item403,_item404,_item405,_item206,_item216,_item224,_item232,_item233,_item384,_item385,_item399,_item400,_item211,_item212,_item218,_item223,_item226,_item227,_item228,_item229,_item230,_item231,_item240,_item241,_item244,_item245,_item248,_item249,_item250,_item251,_item252,_item269,_item270,_item276,_item277,_item391,_item397,_item213,_item219,_item275,_item280,_item501,_item502,_item2162,_item2166,_item2158,_item2143,_item2177,_item2173,_item2920,_item2924,_item2925,_item2148,_item2180,_item2181,_item2182,_item2184,_item2138,_item2185,_item2187,_item2206,_item2207,_item2093,_item2109,_item2110,_item2111,_item2112,_item2113,_item2114,_item2115,_item2105,_item2106,_item2107,_item2108,_item2091,_item2092,_item2094,_item2095,_item2096,_item2097,_item2098,_item2099,_item2100,_item2101,_item2102,_item2103,_item2104,_item2152,_item2155,_item2170,_item2116,_item2117,_item3015],[]]];};
+if (_layer1) then {missionNamespace setVariable ["Impromptu_Submarine",[[uw_submarine1,_item8],[_item2,_item9]]];};
+if (_layer499) then {missionNamespace setVariable ["Impromptu_Env",[[uw_submarine1,_item8],[_item2,_item9]]];};
 if (_layer380) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",[[_item379,_item381,_item382],[]]];};
 if (_layer374) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",[[_item373,_item370,_item371,_item372],[]]];};
 if (_layer201) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",[[_item200,_item197,_item198,_item199],[]]];};
@@ -13250,12 +13216,10 @@ if (_layer189) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",
 if (_layer183) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",[[_item182,_item179,_item180,_item181],[]]];};
 if (_layer177) then {missionNamespace setVariable ["Impromptu_SAF Naval Patrol",[[_item176,_item173,_item174,_item175],[]]];};
 if (_layer498) then {missionNamespace setVariable ["Impromptu_Hostiles - Sea",[[_item176,_item173,_item174,_item175,_item182,_item179,_item180,_item181,_item188,_item185,_item186,_item187,_item194,_item191,_item192,_item193,_item200,_item197,_item198,_item199,_item373,_item370,_item371,_item372,_item379,_item381,_item382],[]]];};
-if (_layer497) then {missionNamespace setVariable ["Impromptu_Hostiles - Land",[[_item66,_item33,_item34,_item83,_item84,_item85,_item25,_item28,_item29,_item30,_item71,_item72,_item73,_item74,_item75,_item98,_item81,_item100,_item102,_item104,_item106,_item108,_item110,_item112,_item114,_item116,_item118,_item120,_item122,_item124,_item126,_item128,_item130,_item132,_item134,_item136,_item137,_item138,_item140,_item141,_item142,_item144,_item145,_item146,_item169,_item170,_item171,_item285,_item286,_item287,_item288,_item289,_item290,_item291,_item292,_item297,_item298,_item302,_item303,_item326,_item330,_item331,_item332,_item333,_item334,_item339,_item340,_item341,_item342,_item343,_item344,_item349,_item351,_item352,_item353,_item412,_item350,_item415,_item27,_item442,_item438,_item418,_item421,_item424,_item427,_item439,_item440,_item435,_item436,_item443,_item444,_item445,_item463,_item464,_item465,_item466,_item467,_item468,_item470,_item471,_item472,_item474,_item475,_item476,_item478,_item479,_item480,_item482,_item483,_item484,_item486,_item487,_item488,_item490,_item491,_item492,_item20,_item32,_item434,_item24,_item67,_item70,_item413,_item416,_item419,_item422,_item425,_item428,_item148,_item86,_item87,_item88,_item89,_item90,_item91,_item92,_item93,_item94,_item95,_item539,_item540,_item541,_item542,_item543,_item544,_item545,_item546,_item547,_item548,_item549,_item550,_item551,_item552,_item553,_item554,_item555,_item556,_item557,_item558,_item2882,_item2881,_item2189,_item2190,_item2192,_item2193,_item2195,_item2196,_item2201,_item2202,_item2204,_item2205,_item2221,_item2222,_item2224,_item2225,_item2066,_item2067,_item2069,_item2070,_item2072,_item2076,_item2077,_item2078,_item2079,_item2080,_item2081,_item2082,_item2083,_item2084,_item2085,_item2086,_item2087,_item2088,_item2089,_item2123,_item2124,_item2127,_item2128,_item2136,_item2137,_item2171,_item2198,_item2213,_item2214,_item2217,_item2218,_item2228,_item2229,_item325,_item2931,_item2932,_item2933,_item2940,_item2941,_item2942,_item2944,_item2945,_item2946,_item2948,_item2949,_item2950,_item2952,_item2953,_item2954,_item2970,_item2971,_item2973,_item2126,_item2227,_item2122,_item2135,_item2212,_item2219,_item2969,_item2199,_item3002,_item3003,_item3005,_item3006,_item3026,_item3027,_item3033,_item3034,_item3039,_item3040,_item3042,_item3043,_item3045,_item3046,_item3048,_item3049,_item3053,_item3054,_item3055,_item3057,_item3058,_item3059,_item3061,_item3062,_item3063],[]]];};
-if (_layer496) then {missionNamespace setVariable ["Impromptu_Obj Group 1",[[_item66,_item33,_item34,_item83,_item84,_item85,_item25,_item28,_item29,_item30,_item71,_item72,_item73,_item74,_item75,_item98,_item81,_item100,_item102,_item104,_item106,_item108,_item110,_item112,_item114,_item116,_item118,_item120,_item122,_item124,_item126,_item128,_item130,_item132,_item134,_item136,_item137,_item138,_item140,_item141,_item142,_item144,_item145,_item146,_item169,_item170,_item171,_item285,_item286,_item287,_item288,_item289,_item290,_item291,_item292,_item297,_item298,_item302,_item303,_item326,_item330,_item331,_item332,_item333,_item334,_item339,_item340,_item341,_item342,_item343,_item344,_item349,_item351,_item352,_item353,_item412,_item350,_item415,_item27,_item442,_item438,_item418,_item421,_item424,_item427,_item439,_item440,_item435,_item436,_item443,_item444,_item445,_item463,_item464,_item465,_item466,_item467,_item468,_item470,_item471,_item472,_item474,_item475,_item476,_item478,_item479,_item480,_item482,_item483,_item484,_item486,_item487,_item488,_item490,_item491,_item492,_item20,_item32,_item434,_item24,_item67,_item70,_item413,_item416,_item419,_item422,_item425,_item428,_item148,_item86,_item87,_item88,_item89,_item90,_item91,_item92,_item93,_item94,_item95,_item539,_item540,_item541,_item542,_item543,_item544,_item545,_item546,_item547,_item548,_item549,_item550,_item551,_item552,_item553,_item554,_item555,_item556,_item557,_item558,_item2882,_item2881,_item2189,_item2190,_item2192,_item2193,_item2195,_item2196,_item2201,_item2202,_item2204,_item2205,_item2221,_item2222,_item2224,_item2225,_item2066,_item2067,_item2069,_item2070,_item2072,_item2076,_item2077,_item2078,_item2079,_item2080,_item2081,_item2082,_item2083,_item2084,_item2085,_item2086,_item2087,_item2088,_item2089,_item2123,_item2124,_item2127,_item2128,_item2136,_item2137,_item2171,_item2198,_item2213,_item2214,_item2217,_item2218,_item2228,_item2229,_item325,_item2931,_item2932,_item2933,_item2940,_item2941,_item2942,_item2944,_item2945,_item2946,_item2948,_item2949,_item2950,_item2952,_item2953,_item2954,_item2970,_item2971,_item2973,_item2126,_item2227,_item2122,_item2135,_item2212,_item2219,_item2969,_item2199,_item3002,_item3003,_item3005,_item3006,_item3026,_item3027,_item3033,_item3034,_item3039,_item3040,_item3042,_item3043,_item3045,_item3046,_item3048,_item3049,_item3053,_item3054,_item3055,_item3057,_item3058,_item3059,_item3061,_item3062,_item3063,_item176,_item173,_item174,_item175,_item182,_item179,_item180,_item181,_item188,_item185,_item186,_item187,_item194,_item191,_item192,_item193,_item200,_item197,_item198,_item199,_item373,_item370,_item371,_item372,_item379,_item381,_item382,_item0,_item8,_item449,_item451,_item396,_item452,_item453,_item450,_item494,_item446,_item447,_item448,_item493,_item495,_item203,_item204,_item205,_item214,_item392,_item398,_item215,_item271,_item272,_item278,_item279,_item386,_item393,_item401,_item207,_item208,_item209,_item210,_item217,_item220,_item221,_item222,_item225,_item234,_item235,_item236,_item237,_item238,_item239,_item242,_item243,_item253,_item254,_item255,_item256,_item257,_item258,_item259,_item260,_item261,_item262,_item263,_item264,_item265,_item266,_item267,_item268,_item273,_item274,_item387,_item388,_item389,_item390,_item394,_item395,_item402,_item403,_item404,_item405,_item206,_item216,_item224,_item232,_item233,_item384,_item385,_item399,_item400,_item211,_item212,_item218,_item223,_item226,_item227,_item228,_item229,_item230,_item231,_item240,_item241,_item244,_item245,_item248,_item249,_item250,_item251,_item252,_item269,_item270,_item276,_item277,_item391,_item397,_item213,_item219,_item275,_item280,_item501,_item502,_item2162,_item2166,_item2158,_item2143,_item2177,_item2173,_item2920,_item2924,_item2925,_item2148,_item2180,_item2181,_item2182,_item2184,_item2138,_item2185,_item2187,_item2206,_item2207,_item2093,_item2109,_item2110,_item2111,_item2112,_item2113,_item2114,_item2115,_item2105,_item2106,_item2107,_item2108,_item2091,_item2092,_item2094,_item2095,_item2096,_item2097,_item2098,_item2099,_item2100,_item2101,_item2102,_item2103,_item2104,_item2152,_item2155,_item2170,_item2116,_item2117,_item3015,_item509],[_item2,_item9,_item2139,_item2210,_item2209,_item2141,_item2140,_item2914]]];};
+if (_layer497) then {missionNamespace setVariable ["Impromptu_Hostiles - Land",[[_item66,_item33,_item34,_item83,_item84,_item85,_item25,_item28,_item29,_item30,_item71,_item72,_item73,_item74,_item75,_item98,_item81,_item100,_item102,_item104,_item106,_item108,_item110,_item112,_item114,_item116,_item118,_item120,_item122,_item124,_item126,_item128,_item130,_item132,_item134,_item136,_item137,_item138,_item140,_item141,_item142,_item144,_item145,_item146,_item169,_item170,_item171,_item285,_item286,_item287,_item288,_item289,_item290,_item291,_item292,_item297,_item298,_item302,_item303,_item326,_item330,_item331,_item332,_item333,_item334,_item339,_item340,_item341,_item342,_item343,_item344,_item349,_item351,_item352,_item353,_item412,_item350,_item415,_item27,_item442,_item438,_item418,_item421,_item424,_item427,_item439,_item440,_item435,_item436,_item443,_item444,_item445,_item463,_item464,_item465,_item466,_item467,_item468,_item470,_item471,_item472,_item474,_item475,_item476,_item478,_item479,_item480,_item482,_item483,_item484,_item486,_item487,_item488,_item490,_item491,_item492,_item20,_item32,_item434,_item24,_item67,backup_air,_item413,_item416,_item419,_item422,_item425,_item428,_item148,_item86,_item87,_item88,_item89,_item90,_item91,_item92,_item93,_item94,_item95,_item539,_item540,_item541,_item542,_item543,_item544,_item545,_item546,_item547,_item548,_item549,_item550,_item551,_item552,_item553,_item554,_item555,_item556,_item557,_item558,_item2882,_item2881,_item2189,_item2190,_item2192,_item2193,_item2195,_item2196,_item2201,_item2202,_item2204,_item2205,_item2221,_item2222,_item2224,_item2225,_item2066,_item2067,_item2069,_item2070,_item2072,_item2076,_item2077,_item2078,_item2079,_item2080,_item2081,_item2082,_item2083,_item2084,_item2085,_item2086,_item2087,_item2088,_item2089,_item2123,_item2124,_item2127,_item2128,_item2136,_item2137,_item2171,_item2198,_item2213,_item2214,_item2217,_item2218,_item2228,_item2229,_item325,_item2931,_item2932,_item2933,_item2940,_item2941,_item2942,_item2944,_item2945,_item2946,_item2948,_item2949,_item2950,_item2952,_item2953,_item2954,_item2970,_item2971,_item2973,_item2126,_item2227,_item2122,_item2135,_item2212,_item2219,_item2969,_item2199,_item3002,_item3003,_item3005,_item3006,_item3026,_item3027,_item3033,_item3034,_item3039,_item3040,_item3042,_item3043,_item3045,_item3046,_item3048,_item3049,_item3053,_item3054,_item3055,_item3057,_item3058,_item3059,_item3061,_item3062,_item3063],[]]];};
+if (_layer496) then {missionNamespace setVariable ["Impromptu_Obj Group 1",[[_item66,_item33,_item34,_item83,_item84,_item85,_item25,_item28,_item29,_item30,_item71,_item72,_item73,_item74,_item75,_item98,_item81,_item100,_item102,_item104,_item106,_item108,_item110,_item112,_item114,_item116,_item118,_item120,_item122,_item124,_item126,_item128,_item130,_item132,_item134,_item136,_item137,_item138,_item140,_item141,_item142,_item144,_item145,_item146,_item169,_item170,_item171,_item285,_item286,_item287,_item288,_item289,_item290,_item291,_item292,_item297,_item298,_item302,_item303,_item326,_item330,_item331,_item332,_item333,_item334,_item339,_item340,_item341,_item342,_item343,_item344,_item349,_item351,_item352,_item353,_item412,_item350,_item415,_item27,_item442,_item438,_item418,_item421,_item424,_item427,_item439,_item440,_item435,_item436,_item443,_item444,_item445,_item463,_item464,_item465,_item466,_item467,_item468,_item470,_item471,_item472,_item474,_item475,_item476,_item478,_item479,_item480,_item482,_item483,_item484,_item486,_item487,_item488,_item490,_item491,_item492,_item20,_item32,_item434,_item24,_item67,backup_air,_item413,_item416,_item419,_item422,_item425,_item428,_item148,_item86,_item87,_item88,_item89,_item90,_item91,_item92,_item93,_item94,_item95,_item539,_item540,_item541,_item542,_item543,_item544,_item545,_item546,_item547,_item548,_item549,_item550,_item551,_item552,_item553,_item554,_item555,_item556,_item557,_item558,_item2882,_item2881,_item2189,_item2190,_item2192,_item2193,_item2195,_item2196,_item2201,_item2202,_item2204,_item2205,_item2221,_item2222,_item2224,_item2225,_item2066,_item2067,_item2069,_item2070,_item2072,_item2076,_item2077,_item2078,_item2079,_item2080,_item2081,_item2082,_item2083,_item2084,_item2085,_item2086,_item2087,_item2088,_item2089,_item2123,_item2124,_item2127,_item2128,_item2136,_item2137,_item2171,_item2198,_item2213,_item2214,_item2217,_item2218,_item2228,_item2229,_item325,_item2931,_item2932,_item2933,_item2940,_item2941,_item2942,_item2944,_item2945,_item2946,_item2948,_item2949,_item2950,_item2952,_item2953,_item2954,_item2970,_item2971,_item2973,_item2126,_item2227,_item2122,_item2135,_item2212,_item2219,_item2969,_item2199,_item3002,_item3003,_item3005,_item3006,_item3026,_item3027,_item3033,_item3034,_item3039,_item3040,_item3042,_item3043,_item3045,_item3046,_item3048,_item3049,_item3053,_item3054,_item3055,_item3057,_item3058,_item3059,_item3061,_item3062,_item3063,_item176,_item173,_item174,_item175,_item182,_item179,_item180,_item181,_item188,_item185,_item186,_item187,_item194,_item191,_item192,_item193,_item200,_item197,_item198,_item199,_item373,_item370,_item371,_item372,_item379,_item381,_item382,uw_submarine1,_item8,_item449,_item451,_item396,_item452,_item453,_item450,_item494,_item446,_item447,_item448,power_generator,_item495,_item203,_item204,_item205,_item214,_item392,_item398,_item215,_item271,_item272,_item278,_item279,_item386,_item393,_item401,_item207,_item208,_item209,_item210,_item217,_item220,_item221,_item222,_item225,_item234,_item235,_item236,_item237,_item238,_item239,_item242,_item243,_item253,_item254,_item255,_item256,_item257,_item258,_item259,_item260,_item261,_item262,_item263,_item264,_item265,_item266,_item267,_item268,_item273,_item274,_item387,_item388,_item389,_item390,_item394,_item395,_item402,_item403,_item404,_item405,_item206,_item216,_item224,_item232,_item233,_item384,_item385,_item399,_item400,_item211,_item212,_item218,_item223,_item226,_item227,_item228,_item229,_item230,_item231,_item240,_item241,_item244,_item245,_item248,_item249,_item250,_item251,_item252,_item269,_item270,_item276,_item277,_item391,_item397,_item213,_item219,_item275,_item280,_item501,_item502,_item2162,_item2166,_item2158,_item2143,_item2177,_item2173,_item2920,_item2924,_item2925,_item2148,_item2180,_item2181,_item2182,_item2184,_item2138,_item2185,_item2187,_item2206,_item2207,_item2093,_item2109,_item2110,_item2111,_item2112,_item2113,_item2114,_item2115,_item2105,_item2106,_item2107,_item2108,_item2091,_item2092,_item2094,_item2095,_item2096,_item2097,_item2098,_item2099,_item2100,_item2101,_item2102,_item2103,_item2104,_item2152,_item2155,_item2170,_item2116,_item2117,_item3015,_item509],[_item2,_item9,_item2139,_item2210,_item2209,_item2141,_item2140,_item2914]]];};
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// Crews
 if (!isNull _item28 && !isNull _item27) then {_item28 moveInDriver _item27;};
 if (!isNull _item29 && !isNull _item27) then {_item29 moveInTurret [_item27,[0]];};
 if (!isNull _item30 && !isNull _item27) then {_item30 moveInTurret [_item27,[1]];};
@@ -13270,11 +13234,11 @@ if (!isNull _item435 && !isNull _item434) then {_item435 moveInDriver _item434;}
 if (!isNull _item436 && !isNull _item434) then {_item436 moveInTurret [_item434,[0]];};
 if (!isNull _item25 && !isNull _item24) then {_item25 moveInDriver _item24;};
 if (!isNull _item66 && !isNull _item67) then {_item66 moveInDriver _item67;};
-if (!isNull _item71 && !isNull _item70) then {_item71 moveInDriver _item70;};
-if (!isNull _item72 && !isNull _item70) then {_item72 moveInTurret [_item70,[0]];};
-if (!isNull _item73 && !isNull _item70) then {_item73 moveInTurret [_item70,[1]];};
-if (!isNull _item74 && !isNull _item70) then {_item74 moveInTurret [_item70,[2]];};
-if (!isNull _item75 && !isNull _item70) then {_item75 moveInTurret [_item70,[3]];};
+if (!isNull _item71 && !isNull backup_air) then {_item71 moveInDriver backup_air;};
+if (!isNull _item72 && !isNull backup_air) then {_item72 moveInTurret [backup_air,[0]];};
+if (!isNull _item73 && !isNull backup_air) then {_item73 moveInTurret [backup_air,[1]];};
+if (!isNull _item74 && !isNull backup_air) then {_item74 moveInTurret [backup_air,[2]];};
+if (!isNull _item75 && !isNull backup_air) then {_item75 moveInTurret [backup_air,[3]];};
 if (!isNull _item412 && !isNull _item413) then {_item412 moveInTurret [_item413,[0]];};
 if (!isNull _item415 && !isNull _item416) then {_item415 moveInTurret [_item416,[0]];};
 if (!isNull _item418 && !isNull _item419) then {_item418 moveInTurret [_item419,[0]];};
@@ -13342,79 +13306,79 @@ if (!isNull _item540 && !isNull _item3050) then {_item540 synchronizeObjectsAdd 
 
 	if !(isnull _item33) then {
 		this = _item33;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item34) then {
 		this = _item34;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item28) then {
 		this = _item28;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item29) then {
 		this = _item29;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item30) then {
 		this = _item30;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item71) then {
 		this = _item71;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item72) then {
 		this = _item72;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item73) then {
 		this = _item73;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item74) then {
 		this = _item74;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item75) then {
 		this = _item75;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item98) then {
 		this = _item98;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item100) then {
 		this = _item100;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item102) then {
 		this = _item102;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item104) then {
 		this = _item104;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item106) then {
 		this = _item106;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item108) then {
 		this = _item108;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item110) then {
 		this = _item110;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item112) then {
 		this = _item112;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item114) then {
 		this = _item114;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item116) then {
 		this = _item116;
@@ -13422,85 +13386,85 @@ if (!isNull _item540 && !isNull _item3050) then {_item540 synchronizeObjectsAdd 
 	};
 	if !(isnull _item169) then {
 		this = _item169;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item170) then {
 		this = _item170;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item171) then {
 		this = _item171;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item412) then {
 		this = _item412;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item415) then {
 		this = _item415;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item418) then {
 		this = _item418;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item421) then {
 		this = _item421;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item424) then {
 		this = _item424;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item427) then {
 		this = _item427;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item439) then {
 		this = _item439;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item440) then {
 		this = _item440;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item435) then {
 		this = _item435;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item436) then {
 		this = _item436;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item443) then {
 		this = _item443;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item444) then {
 		this = _item444;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item445) then {
 		this = _item445;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
-	if !(isnull _item70) then {
-		this = _item70;
+	if !(isnull backup_air) then {
+		this = backup_air;
 		publicVariable "backup_air";
 	};
 	if !(isnull _item2882) then {
 		this = _item2882;
 		this disableAI "PATH";
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item2881) then {
 		this = _item2881;
 		this disableAI "PATH";
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item2189) then {
 		this = _item2189;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2192) then {
 		this = _item2192;
@@ -13508,32 +13472,32 @@ this setUnitPos "UP";;
 	};
 	if !(isnull _item2195) then {
 		this = _item2195;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2201) then {
 		this = _item2201;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2204) then {
 		this = _item2204;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2221) then {
 		this = _item2221;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2224) then {
 		this = _item2224;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2198) then {
 		this = _item2198;
-		turnedunits pushBack this;;
+		turnedunits pushBack this;
 	};
 	if !(isnull _item2973) then {
 		this = _item2973;
 		this disableAI "PATH";
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item3002) then {
 		this = _item3002;
@@ -13583,15 +13547,15 @@ this setUnitPos "UP";;
 		this = _item3061;
 		reinforcement_group pushBack this;
 	};
-	if !(isnull _item0) then {
-		this = _item0;
+	if !(isnull uw_submarine1) then {
+		this = uw_submarine1;
 		this setPosATL [8928.806, 3882.854, 2.067];
 this setDir 209.454;
 publicVariable "uw_submarine1";
-completesub1 pushBack this;;
+completesub1 pushBack this;
 	};
-	if !(isnull _item493) then {
-		this = _item493;
+	if !(isnull power_generator) then {
+		this = power_generator;
 		publicVariable "power_generator";
 	};
 	if !(isnull _item2162) then {
@@ -13638,486 +13602,486 @@ completesub1 pushBack this;;
 		this = _item509;
 		this setCaptive true;
 this disableAI "PATH";
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item722) then {
 		this = _item722;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item723) then {
 		this = _item723;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item724) then {
 		this = _item724;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item725) then {
 		this = _item725;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item726) then {
 		this = _item726;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item727) then {
 		this = _item727;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item728) then {
 		this = _item728;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item729) then {
 		this = _item729;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item778) then {
 		this = _item778;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item780) then {
 		this = _item780;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item782) then {
 		this = _item782;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item783) then {
 		this = _item783;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item784) then {
 		this = _item784;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item785) then {
 		this = _item785;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item786) then {
 		this = _item786;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item787) then {
 		this = _item787;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item788) then {
 		this = _item788;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item789) then {
 		this = _item789;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item820) then {
 		this = _item820;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item821) then {
 		this = _item821;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item822) then {
 		this = _item822;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1194) then {
 		this = _item1194;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1210) then {
 		this = _item1210;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1211) then {
 		this = _item1211;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1212) then {
 		this = _item1212;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1213) then {
 		this = _item1213;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item2025) then {
 		this = _item2025;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2027) then {
 		this = _item2027;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2028) then {
 		this = _item2028;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2029) then {
 		this = _item2029;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2030) then {
 		this = _item2030;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2031) then {
 		this = _item2031;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2032) then {
 		this = _item2032;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2033) then {
 		this = _item2033;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2866) then {
 		this = _item2866;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2034) then {
 		this = _item2034;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2035) then {
 		this = _item2035;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2036) then {
 		this = _item2036;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2037) then {
 		this = _item2037;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2038) then {
 		this = _item2038;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2039) then {
 		this = _item2039;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2040) then {
 		this = _item2040;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2041) then {
 		this = _item2041;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2042) then {
 		this = _item2042;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2867) then {
 		this = _item2867;
 		this disableAI 'PATH';
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item2869) then {
 		this = _item2869;
 		this disableAI 'PATH';
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item1508) then {
 		this = _item1508;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1509) then {
 		this = _item1509;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1510) then {
 		this = _item1510;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1511) then {
 		this = _item1511;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1512) then {
 		this = _item1512;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1513) then {
 		this = _item1513;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1514) then {
 		this = _item1514;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1515) then {
 		this = _item1515;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1520) then {
 		this = _item1520;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1521) then {
 		this = _item1521;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1522) then {
 		this = _item1522;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1523) then {
 		this = _item1523;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1985) then {
 		this = _item1985;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1525) then {
 		this = _item1525;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1526) then {
 		this = _item1526;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1527) then {
 		this = _item1527;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1528) then {
 		this = _item1528;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1529) then {
 		this = _item1529;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1530) then {
 		this = _item1530;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1531) then {
 		this = _item1531;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1532) then {
 		this = _item1532;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1533) then {
 		this = _item1533;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1534) then {
 		this = _item1534;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1535) then {
 		this = _item1535;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1536) then {
 		this = _item1536;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1537) then {
 		this = _item1537;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1538) then {
 		this = _item1538;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1539) then {
 		this = _item1539;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1556) then {
 		this = _item1556;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1557) then {
 		this = _item1557;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1558) then {
 		this = _item1558;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1559) then {
 		this = _item1559;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1560) then {
 		this = _item1560;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1561) then {
 		this = _item1561;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1562) then {
 		this = _item1562;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1563) then {
 		this = _item1563;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1564) then {
 		this = _item1564;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1565) then {
 		this = _item1565;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1566) then {
 		this = _item1566;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1567) then {
 		this = _item1567;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1568) then {
 		this = _item1568;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1569) then {
 		this = _item1569;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1570) then {
 		this = _item1570;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1571) then {
 		this = _item1571;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1577) then {
 		this = _item1577;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1578) then {
 		this = _item1578;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1579) then {
 		this = _item1579;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1580) then {
 		this = _item1580;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1582) then {
 		this = _item1582;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1583) then {
 		this = _item1583;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1584) then {
 		this = _item1584;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1585) then {
 		this = _item1585;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1586) then {
 		this = _item1586;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1587) then {
 		this = _item1587;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1588) then {
 		this = _item1588;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1589) then {
 		this = _item1589;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1590) then {
 		this = _item1590;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1591) then {
 		this = _item1591;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1592) then {
 		this = _item1592;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1593) then {
 		this = _item1593;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1594) then {
 		this = _item1594;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1596) then {
 		this = _item1596;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1597) then {
 		this = _item1597;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1598) then {
 		this = _item1598;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1599) then {
 		this = _item1599;
@@ -14141,408 +14105,408 @@ if (isServer) then
   _x addCuratorEditableObjects [[this], false]; 
  } count allCurators; 
  [allCurators, "IntelObjectFound", {hint "Intel found: Bypass Sanctions"}] call BIS_fnc_addScriptedEventHandler; 
-};;
+};
 	};
 	if !(isnull _item1600) then {
 		this = _item1600;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1601) then {
 		this = _item1601;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1602) then {
 		this = _item1602;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1603) then {
 		this = _item1603;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1604) then {
 		this = _item1604;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1605) then {
 		this = _item1605;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1606) then {
 		this = _item1606;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1607) then {
 		this = _item1607;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1608) then {
 		this = _item1608;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1609) then {
 		this = _item1609;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1610) then {
 		this = _item1610;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1611) then {
 		this = _item1611;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1612) then {
 		this = _item1612;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1613) then {
 		this = _item1613;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1614) then {
 		this = _item1614;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1615) then {
 		this = _item1615;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1616) then {
 		this = _item1616;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1617) then {
 		this = _item1617;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1635) then {
 		this = _item1635;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1500) then {
 		this = _item1500;
 		this disableAI 'PATH';
-this setUnitPos "UP";;
+this setUnitPos "UP";
 	};
 	if !(isnull _item1766) then {
 		this = _item1766;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1767) then {
 		this = _item1767;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1769) then {
 		this = _item1769;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1770) then {
 		this = _item1770;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1772) then {
 		this = _item1772;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1773) then {
 		this = _item1773;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1774) then {
 		this = _item1774;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1775) then {
 		this = _item1775;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1776) then {
 		this = _item1776;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item2002) then {
 		this = _item2002;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2003) then {
 		this = _item2003;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2004) then {
 		this = _item2004;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2005) then {
 		this = _item2005;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2006) then {
 		this = _item2006;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2007) then {
 		this = _item2007;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2008) then {
 		this = _item2008;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2009) then {
 		this = _item2009;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2010) then {
 		this = _item2010;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2011) then {
 		this = _item2011;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2012) then {
 		this = _item2012;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2013) then {
 		this = _item2013;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2014) then {
 		this = _item2014;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2015) then {
 		this = _item2015;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2016) then {
 		this = _item2016;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2017) then {
 		this = _item2017;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2018) then {
 		this = _item2018;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2019) then {
 		this = _item2019;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2020) then {
 		this = _item2020;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2021) then {
 		this = _item2021;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2022) then {
 		this = _item2022;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2023) then {
 		this = _item2023;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2024) then {
 		this = _item2024;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item1961) then {
 		this = _item1961;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1964) then {
 		this = _item1964;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1967) then {
 		this = _item1967;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1970) then {
 		this = _item1970;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1973) then {
 		this = _item1973;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1976) then {
 		this = _item1976;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1662) then {
 		this = _item1662;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1663) then {
 		this = _item1663;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1664) then {
 		this = _item1664;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1665) then {
 		this = _item1665;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1666) then {
 		this = _item1666;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1667) then {
 		this = _item1667;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1668) then {
 		this = _item1668;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1669) then {
 		this = _item1669;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1670) then {
 		this = _item1670;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1671) then {
 		this = _item1671;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1672) then {
 		this = _item1672;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1673) then {
 		this = _item1673;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item1674) then {
 		this = _item1674;
-		interior_ship pushBack this;;
+		interior_ship pushBack this;
 	};
 	if !(isnull _item2046) then {
 		this = _item2046;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2048) then {
 		this = _item2048;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2050) then {
 		this = _item2050;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2052) then {
 		this = _item2052;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2054) then {
 		this = _item2054;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2056) then {
 		this = _item2056;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2058) then {
 		this = _item2058;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
 	if !(isnull _item2060) then {
 		this = _item2060;
 		this disableAI "PATH";
 this setUnitPos "UP";
-this setDir 180;;
+this setDir 180;
 	};
-	if !(isnull _item1999) then {
-		this = _item1999;
+	if !(isnull shipentrydoor) then {
+		this = shipentrydoor;
 		this setPosATL [12425.093, 3780.933, 45.252];
 [this, [135.869, 0, 0]] call BIS_fnc_setObjectRotation;
 publicVariable "shipentrydoor";
-sinking_ship pushBack this;;
+sinking_ship pushBack this;
 	};
 	if !(isnull _item1997) then {
 		this = _item1997;
-		sinking_ship pushBack this;;
+		sinking_ship pushBack this;
 	};
 	if !(isnull _item1998) then {
 		this = _item1998;
 		this setPosATL [12329.979, 5016.321, 52.958];
 [this, [88.406, 273.932, 336.105]] call BIS_fnc_setObjectRotation;
-sinking_ship pushBack this;;
+sinking_ship pushBack this;
 	};
-	if !(isnull _item2865) then {
-		this = _item2865;
+	if !(isnull shipexitdoor) then {
+		this = shipexitdoor;
 		this setPosATL [10955.606, 8597.461, 76.932];
-publicVariable "shipexitdoor";;
+publicVariable "shipexitdoor";
 	};
 	if !(isnull _item2873) then {
 		this = _item2873;

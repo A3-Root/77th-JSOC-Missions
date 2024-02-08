@@ -1,0 +1,13 @@
+// SQF Regex
+
+=(\s*\(_allWhitelisted[^;]*);
+= true;
+
+^.*rhs_fnc_decalsInit.*$
+
+
+^.*rhs_fnc_setHabarEden.*$
+
+
+^.*rhs_fnc_lockTop.*$
+

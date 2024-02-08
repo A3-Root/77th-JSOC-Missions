@@ -24,26 +24,6 @@ interior_alarmguy = objNull;
 backup_air = objNull;
 
 
-
-
-// BEGIN
-
-
-
-
-// Spawn and Box
-
-_this setPosATL [6974.954, 563.866, 77.7];
-_this setPosATL [6974.954, 565.355, 77.7];
-_this setPosATL [6974.954, 567.866, 77.7];
-_this setPosATL [6974.954, 569.866, 77.7];
-_this setPosATL [6974.954, 571.866, 77.7];
-_this setPosATL [6974.954, 573.866, 77.7];
-_this setPosATL [6973.058, 570.943, 77.7];
-
-
-
-
 honeypot_goingdown = false;
 generator_turnedoff = false;
 commsintercept = true; 
@@ -58,6 +38,7 @@ completesub1 = [];
 completesub2 = [];
 backup_landvic = [];
 reset_alertstatus = true;
+qrf_sent = "";
 
 publicVariable "commsintercept";
 publicVariable "generator_turnedoff";
@@ -79,6 +60,22 @@ publicVariable "qrf_available";
 publicVariable "reinforcement_group";
 publicVariable "reset_alertstatus";
 publicVariable "reinforcementSetup";
+publicVariable "qrf_sent";
+
+
+
+// Spawn and Box
+
+_this setPosATL [6974.954, 563.866, 77.7];
+_this setPosATL [6974.954, 565.355, 77.7];
+_this setPosATL [6974.954, 567.866, 77.7];
+_this setPosATL [6974.954, 569.866, 77.7];
+_this setPosATL [6974.954, 571.866, 77.7];
+_this setPosATL [6974.954, 573.866, 77.7];
+_this setPosATL [6973.058, 570.943, 77.7];
+
+
+
 
 // Add Flashlights to AI
 
@@ -88,7 +85,6 @@ publicVariable "reinforcementSetup";
         if (side _x == east) then 
         {
             _x addPrimaryWeaponItem "rhs_acc_2dpZenit";
-            uisleep 1;
             _x enablegunlights "forceOn";
         };
     } forEach (allUnits);
@@ -187,11 +183,11 @@ publicVariable "backup_landvic";
 						_x setHit ["light_2_hitpoint", 0];
 						_x setHit ["light_3_hitpoint", 0];
 						_x setHit ["light_4_hitpoint", 0];
-						uiSleep 1;
+						uiSleep 0.3;
 					} forEach _worldObjects;
 					{
 						_x switchLight "ON";
-						uiSleep 1;
+						uiSleep 0.3;
 					} forEach _lightoffobj;
 				} else 
 				{
@@ -202,11 +198,11 @@ publicVariable "backup_landvic";
 						_x setHit ["light_2_hitpoint", 0.97];
 						_x setHit ["light_3_hitpoint", 0.97];
 						_x setHit ["light_4_hitpoint", 0.97];
-						uiSleep 1;
+						uiSleep 0.3;
 					} forEach _worldObjects;
 					{
 						_x switchLight "OFF";
-						uiSleep 1;
+						uiSleep 0.3;
 					} forEach _lightoffobj;
 				};
 		},
@@ -247,15 +243,19 @@ publicVariable "backup_landvic";
 				_grp = group (turnedunits select _i);
                 if (_unit == vehicle _unit) then 
 				{
+					_newgroup = createGroup [independent, true];
 					{
+						_x joinSilent _newgroup;
 						_x addRating -8000;
+						turnedunits deleteAt (turnedunits find _x);
 					} forEach units _grp;
 				} else 
 				{
-					_unit join grpNull;
+					_newgroup = createGroup [independent, true];
+					[_unit] join _newgroup;
 					_unit addRating -8000;
-				}
-                uiSleep 2;
+				};
+                uiSleep 0.5;
             };
 		},
 		nil,
@@ -274,12 +274,15 @@ publicVariable "backup_landvic";
 		{
 			params ["_target", "_caller", "_id", "_args"]; 
 			qrf_available = false;
+			qrf_sent = "Outpost";
+			publicVariable "qrf_sent";
 			publicVariable "qrf_available";
 			{
 				_x params ["_vehicle", "_unit"];
         		private _group = group _unit;
         		_group addVehicle _vehicle;
         		_group move [(11622.965 + random (20)), (4459.736 + random (20)), 0];
+				uiSleep 0.3;
 			} forEach reinforcementSetup;
 		},
 		nil,
@@ -299,11 +302,14 @@ publicVariable "backup_landvic";
 			params ["_target", "_caller", "_id", "_args"]; 
 			qrf_available = false;
 			publicVariable "qrf_available";
+			qrf_sent = "Harbor";
+			publicVariable "qrf_sent";
 			{
 				_x params ["_vehicle", "_unit"];
         		private _group = group _unit;
         		_group addVehicle _vehicle;
         		_group move [(9343.636 + random (20)), (3840.682 + random (20)), 0];
+				uiSleep 0.3;
 			} forEach reinforcementSetup;
 		},
 		nil,
@@ -323,11 +329,14 @@ publicVariable "backup_landvic";
 			params ["_target", "_caller", "_id", "_args"]; 
 			qrf_available = false;
 			publicVariable "qrf_available";
+			qrf_sent = "Comms Tower East";
+			publicVariable "qrf_sent";
 			{
 				_x params ["_vehicle", "_unit"];
         		private _group = group _unit;
         		_group addVehicle _vehicle;
         		_group move [(11322.387 + random (20)), (4129.518 + random (20)), 0];
+				uiSleep 0.3;
 			} forEach reinforcementSetup;
 		},
 		nil,
@@ -342,16 +351,19 @@ publicVariable "backup_landvic";
 		""
 	];
 	Satscreen1 addAction[
-		"Send QRF to Power & Fuel Station", 
+		"Send QRF to Power and Fuel Station", 
 		{
 			params ["_target", "_caller", "_id", "_args"]; 
 			qrf_available = false;
 			publicVariable "qrf_available";
+			qrf_sent = "Power and Fuel Station";
+			publicVariable "qrf_sent";
 			{
 				_x params ["_vehicle", "_unit"];
         		private _group = group _unit;
         		_group addVehicle _vehicle;
         		_group move [(10108.528 + random (20)), (3988.316 + random (20)), 0];
+				uiSleep 0.3;
 			} forEach reinforcementSetup;
 		},
 		nil,
