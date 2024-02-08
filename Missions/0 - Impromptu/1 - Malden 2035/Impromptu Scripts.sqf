@@ -241,19 +241,21 @@ publicVariable "backup_landvic";
             {
 				_unit = (turnedunits select _i);
 				_grp = group (turnedunits select _i);
-                if (_unit == vehicle _unit) then 
+				if (side _unit == east) then 
 				{
-					_newgroup = createGroup [independent, true];
+					if (_unit == vehicle _unit) then 
 					{
-						_x joinSilent _newgroup;
-						_x addRating -8000;
-						turnedunits deleteAt (turnedunits find _x);
-					} forEach units _grp;
-				} else 
-				{
-					_newgroup = createGroup [independent, true];
-					[_unit] join _newgroup;
-					_unit addRating -8000;
+						_newgroup = createGroup [independent, true];
+						{
+							_x joinSilent _newgroup;
+							_x addRating -8000;
+						} forEach units _grp;
+					} else 
+					{
+						_newgroup = createGroup [independent, true];
+						[_unit] joinSilent _newgroup;
+						_unit addRating -8000;
+					};
 				};
                 uiSleep 0.5;
             };
