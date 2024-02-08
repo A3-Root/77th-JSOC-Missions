@@ -91,6 +91,13 @@ _this setPosATL [6973.058, 570.943, 77.7];
 };
 
 
+[] spawn {
+    waitUntil {honeypot_goingdown == true};
+    while {honeypot_goingdown == true} do {
+		{_x setPosASL [(getPosASL _x select 0), (getPosASL _x select 1), (getPosASL _x select 2) - 0.1];} forEach sinking_ship;
+		uisleep 0.1;
+	};
+};
 
 
 
@@ -523,19 +530,14 @@ publicVariable "backup_landvic";
 	honey_demo6 setDamage 1;
 	uisleep 1;
 	honey_demo3 = "Bo_GBU12_LGB" createVehicle [12434.299, 3814.369, 48];
-	honey_demo3 setDamage 1;	
+	honey_demo3 setDamage 1;
+	uisleep 3;	
 };
+
 
 honeypot_goingdown = true;
 publicVariable "honeypot_goingdown";
 
-[] spawn {
-    waitUntil {honeypot_goingdown == true};
-    while {honeypot_goingdown == true} do {
-		{_x setPosASL [(getPosASL _x select 0), (getPosASL _x select 1), (getPosASL _x select 2) - 0.1];} forEach sinking_ship;
-		uisleep 0.1;
-	};
-};
 honeypot_goingdown = false;
 publicVariable "honeypot_goingdown";
 
@@ -544,3 +546,33 @@ publicVariable "honeypot_goingdown";
 
 
 
+{
+	ROOT_fnc_myArticle = { 
+ 
+    if (side player != sideLogic) then {     
+ 
+        disableSerialization; 
+        [  
+            [  
+                ["title","A New Cold War in the Horizon?"], 
+				["meta",["Katherine Bishop",[2024,02,05,11,25],"CET"]], 
+				["box",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_50_co.paa","Rescuers still finding Earthquake victims in Stratis!"]], 
+				["textbold","Russian Military Base in the Malden Islands a threat to US Security says POTUS Jackshit!"], 
+				["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa","The US Navy conducting joint-fire exercise off the southern coast in preparation for a confrontation with Russia over the Malden Island military base."]], 
+				["text","Over the past few weeks, tremendous phone calls were exchanged between Moscow and Washington over the placement of Russian Troops in the Island of Malden. Moscow claims its only extending an already existing military presence to better provide support and relief to the Malden population at the behest of the Malden Government. "], 
+				["box",["\a3\missions_f_aow\data\img\artwork\masters\lost_masterwork_03_co.paa","You won't believe what we found inside the Pyramids and its NOT what you think!"]], 
+				["text","White House officials say this is a deliberate act of provocation by the Russian Government of US Troops placed in the Island of Stratis which is strategically closer to Moscow and is of importance to them."], 
+				["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_98_co.paa","US Army troops in an M1A2 Abrams tank in the city of Stratis on their way back to base after a training session."]], 
+				["text","White House officials say that this escalating situation looks very similar to the Cuban Missile crisis which led to the Cold War. Officials fear that this time, it could and would escalate to a full scale war of biblical propositions."], 
+				["text","The Russian Government claims that it does not intend to disrupt the sovernighty of the Malden nation and will back down from the veil threats of the US Government."], 
+				["box",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_66_co.paa","Vietnam recreation event planned by an ARMA 3 Milsim group on February 17."]], 
+				["textlocked", "Heres the timeline of the events leading to the present situation."], 
+				["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+            ],findDisplay 46,true 
+        ] call bis_fnc_showAANArticle; 
+  
+    }; 
+};
+ 
+player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>A New Cold War in the Horizon?</execute>"]];
+} remoteExec ["call", [0, -2] select isDedicated, true];
