@@ -576,3 +576,58 @@ publicVariable "honeypot_goingdown";
  
 player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>A New Cold War in the Horizon?</execute>"]];
 } remoteExec ["call", [0, -2] select isDedicated, true];
+
+
+
+
+
+{
+tunnel_entrance addAction[ 
+  "Enter the vessel",  
+  { 
+   params ["_target", "_caller", "_id", "_args"];  
+            1 cutText ["","BLACK OUT",1]; 
+   _ship_entry_spawnpos = [(10957.798 + random (3)), (8599.286 + random (3)), 77]; 
+   uisleep 2; 
+   _caller setPosATL _ship_entry_spawnpos; 
+   _caller setDir (random[-75, 0, 75]); 
+   1 cutText ["","BLACK IN",1]; 
+   enableEnvironment false; 
+   uisleep 0.4; 
+  }, 
+  nil, 
+  1.5, 
+  true, 
+  true, 
+  "", 
+  "true", 
+  5, 
+  false, 
+  "", 
+  "" 
+ ]; 
+    tunnel_exit addAction[ 
+  "Exit the tunnel",  
+  { 
+   params ["_target", "_caller", "_id", "_args"];  
+            1 cutText ["","BLACK OUT",1]; 
+   _ship_exit_spawnpos = [(12428.968 + random (3)), (3776.359 + random (3)), 45.403]; 
+   uisleep 2; 
+   _caller setPosATL _ship_exit_spawnpos; 
+   _caller setDir (random[60, 125, 200]); 
+   1 cutText ["","BLACK IN",1]; 
+   enableEnvironment false; 
+   uisleep 0.4; 
+  }, 
+  nil, 
+  1.5, 
+  true, 
+  true, 
+  "", 
+  "true", 
+  5, 
+  false, 
+  "", 
+  "" 
+ ]; 
+} remoteExec ["call", [0, -2] select isDedicated, true]; 
