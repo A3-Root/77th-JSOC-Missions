@@ -2,11 +2,12 @@
 
 1. Add Lightsource at base
 2. Remove grass at airstrip
-3. Add mortar / damage at the base to indicate past attack
+3. Spawn AC-47s & respawn the M-113 ACAV vehicles to match the paint
 4. Make zeuses invincible
 5. Set time to 6 AM and pause time
 6. Set time accelaration to max
-7. Unpause time when mission start
+7. Execute Init, Zeus FPS View and Carpet Run scripts
+
 
 
 
