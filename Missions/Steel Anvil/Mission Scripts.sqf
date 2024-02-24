@@ -112,8 +112,8 @@ ROOT_fnc_carpetBombing = {
 	if (_bombcenterlocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
 	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid Bomb Class"};
 	if (!isClass (configFile >> "CfgVehicles" >> _bomberclass)) exitWith {systemchat "Invalid Bomber Class"};
-	_headingdir = _headingdir / 45;
-	[_bomberclass, _bombcenterlocation, _useASL, _spawnheight, _spawndist, _headingdir, 1, _numberofplanes] call zen_modules_fnc_moduleAmbientFlyby;
+	_planeheadingdir = _headingdir / 45;
+	[_bomberclass, _bombcenterlocation, _useASL, _spawnheight, _spawndist, _planeheadingdir, 1, _numberofplanes] call zen_modules_fnc_moduleAmbientFlyby;
 	uiSleep _dropdelay;
 	_firstImpactPos = (_bombcenterlocation getPos [(_bombingarea / 2),_headingdir + 180]) vectorAdd [0,0,200];
 	_posincrement = _bombingarea / _amountofbombs;
