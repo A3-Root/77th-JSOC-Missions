@@ -33,7 +33,6 @@ ROOT_fnc_carpetBombing = {
 		_relpos = _firstImpactPos getPos [(_posincrement * _i),_direction] vectorAdd [0,0,200];
 		_bomb setVectorDirAndUp [[0,0,-1],[0,0.8,0]];
 		_bomb setVelocityModelSpace [0,50,-50];
-		_bomb setFeatureType 2;
 		_nul = [_bomb] spawn {
 			params ["_bomb"];
 			waituntil {getposATL _bomb select 2 <= 700};
