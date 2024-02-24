@@ -162,7 +162,7 @@ ROOT_fnc_carpetBombing = {
 //  \$$   \$$  \$$$$$$  \$$   \$$       \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
 
 
-["uns_b52h_lb2", 1, "Bo_Mk82_MI08", carpetbomb_pos, 0, 100, 1000, 5000, 1000, 32, true] spawn ROOT_fnc_carpetBombing;
+["uns_b52h_alu", 1, "Bo_Mk82_MI08", carpetbomb_pos, 45, 150, 1000, 5000, 1000, 32, true] spawn ROOT_fnc_carpetBombing;
 
 
 carpetbomb_pos = [0,0,0];
