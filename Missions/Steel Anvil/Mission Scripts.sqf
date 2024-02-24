@@ -108,40 +108,26 @@ addMissionEventHandler ["Draw3D", {
 
 
 ROOT_fnc_carpetBombing = {
-	params [["_bombType",""],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100]];
-	if (_bomblocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
-	if (_bombType isEqualTo "") then {_bombType = "Bo_Mk82_MI08"};
-	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid B52 Bomb Class"};
-	if !(missionNamespace getVariable ["ROOT_fnc_carpetBombingAvailable",true]) exitWith {systemchat "No more B52's unavailable!"};
-	missionNamespace setVariable ["ROOT_fnc_carpetBombingAvailable",false,true];
-	_spawnposendx1 = ((carpetbomb_pos select 0)) + 5000 * sin(_direction);
-	_spawnposendy1 = ((carpetbomb_pos select 1)) + 5000 * cos(_direction);
-	_spawnposbegx1 = ((carpetbomb_pos select 0)) - 5000 * sin(_direction);
-	_spawnposbegy1 = ((carpetbomb_pos select 1)) - 5000 * cos(_direction);
-	_spawnposendx2 = ((carpetbomb_pos select 0) + 25) + 5000 * sin(_direction);
-	_spawnposendy2 = ((carpetbomb_pos select 1) + 25) + 5000 * cos(_direction);
-	_spawnposbegx2 = ((carpetbomb_pos select 0) + 25) - 5000 * sin(_direction);
-	_spawnposbegy2 = ((carpetbomb_pos select 1) + 25) - 5000 * cos(_direction);
-	_spawncoordend1 = [_spawnposendx1, _spawnposendy1, 500];
-	_spawncoordbeg1 = [_spawnposbegx1, _spawnposbegy1, 500];
-	_spawncoordend2 = [_spawnposendx2, _spawnposendy2, 500];
-	_spawncoordbeg2 = [_spawnposbegx2, _spawnposbegy2, 500];
-	spawnPlane1 = [_spawncoordbeg1, _spawncoordend1, 1100, "NORMAL", "uns_b52h_lb2"] call BIS_fnc_ambientFlyby;
-	spawnPlane2 = [_spawncoordbeg2, _spawncoordend2, 1000, "NORMAL", "uns_b52h_lb2"] call BIS_fnc_ambientFlyby;
-	uiSleep 40;
-	_firstImpactPos = (_bomblocation getPos [(_distance / 2),_direction + 180]) vectorAdd [0,0,200];
-	_posincrement = _distance / _amount;
+	params [["_bomberclass", "uns_b52h_lb2"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bombcenterlocation",[0,0,0]],["_headingdir",random 360],["_amountofbombs",25],["_bombingarea",100],["_spawndist", 5000], ["_spawnheight", 1000], ["_dropdelay", 32], ["_useASL", true]];
+	if (_bombcenterlocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
+	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid Bomb Class"};
+	if (!isClass (configFile >> "CfgVehicles" >> _bomberclass)) exitWith {systemchat "Invalid Bomber Class"};
+	_headingdir = _headingdir / 45;
+	[_bomberclass, _bombcenterlocation, _useASL, _spawnheight, _spawndist, _headingdir, 1, _numberofplanes] call zen_modules_fnc_moduleAmbientFlyby;
+	uiSleep _dropdelay;
+	_firstImpactPos = (_bombcenterlocation getPos [(_bombingarea / 2),_headingdir + 180]) vectorAdd [0,0,200];
+	_posincrement = _bombingarea / _amountofbombs;
 	_randomsound = selectRandom ["BattlefieldJet1_3D","BattlefieldJet2_3D","BattlefieldJet3_3D"];
 	_closePlayers = allPlayers select {_x distance2D _firstImpactPos < 1500};
 	[_randomsound] remoteExec ["playSound",_closePlayers];
 	_relpos = _firstImpactPos;
 	_bomb = objNull;
-	for "_i" from 1 to _amount do {
+	for "_i" from 1 to _amountofbombs do {
 		sleep 0.3;
 		_tempPos = _relpos vectorAdd [random [-20,0,20],random [-20,0,20],random [-5,0,5]];
 		_bomb = _bombType createvehicle _tempPos;
 		_bomb setposasl _tempPos;
-		_relpos = _firstImpactPos getPos [(_posincrement * _i),_direction] vectorAdd [0,0,200];
+		_relpos = _firstImpactPos getPos [(_posincrement * _i),_headingdir] vectorAdd [0,0,200];
 		_bomb setVectorDirAndUp [[0,0,-1],[0,0.8,0]];
 		_bomb setVelocityModelSpace [0,50,-50];
 		_bomb setFeatureType 2;
@@ -159,7 +145,6 @@ ROOT_fnc_carpetBombing = {
 		};
 	};
 	sleep 10;
-	missionNamespace setVariable ["ROOT_fnc_carpetBombingAvailable",true,true];
 	true
 };
 
@@ -177,5 +162,7 @@ ROOT_fnc_carpetBombing = {
 //  \$$   \$$  \$$$$$$  \$$   \$$       \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
 
 
-["",carpetbomb_pos,0,50,500] spawn ROOT_fnc_carpetBombing;
+["uns_b52h_lb2", 2, "Bo_Mk82_MI08", carpetbomb_pos, 0, 100, 1000, 5000, 1000, 32, true] spawn ROOT_fnc_carpetBombing;
+
+
 carpetbomb_pos = [0,0,0];
