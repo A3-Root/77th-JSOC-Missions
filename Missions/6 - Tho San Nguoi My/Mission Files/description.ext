@@ -1,0 +1,42 @@
+//------------------------- On Load
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;										// Min # of players the MISSION supports
+	maxPlayers = 120;									// Max # of players the MISSION supports, not server slots. Make sure # is greater than server slots.
+};
+
+author = "77th JSOC's Development Team";
+onLoadName = "Private Operation";
+OnLoadMission = "The 77th JSOC can be deployed anywhere around the globe wherever the threat is real.";
+loadScreen = "media\images\mission.jpg";
+onLoadIntro = "The 77th JSOC can be deployed anywhere around the globe wherever the threat is real.";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+disabledAI = 1;
+debriefing = 0;
+briefing = 0;
+showGPS = 1;
+enableDebugConsole = 1;
+zeusCompositionScriptLevel = 2;
+cba_settings_hasSettingsFile = 1;
+ 
+
+//------------------------- Cleanup
+
+corpseManagerMode = 2;
+corpseLimit = 1;
+wreckManagerMode = 0;
+wreckLimit = 1;
+wreckRemovalMinTime = 10;
+corpseRemovalMinTime = 960;
+corpseRemovalMaxTime = 3600;
+minPlayerDistance = 150;
+
+//------------------------- Respawn
+
+Respawn = "BASE";											// 0 = none. 1 = bird. 2 = instant where died. 3 = base
+RespawnDelay = 1;
+RespawnDialog = 0;										// default = 1. show respawn timer and scoreboard when killed.
+
+//------------------------- Includes / Functions

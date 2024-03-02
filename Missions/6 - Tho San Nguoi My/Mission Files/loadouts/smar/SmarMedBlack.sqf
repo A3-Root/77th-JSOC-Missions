@@ -1,0 +1,67 @@
+comment "Remove existing items";
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+
+comment "Add weapons";
+player addWeapon "hlc_wp_SCAR_PDW_Blk";
+player addPrimaryWeaponItem "hlc_muzzle_OEMDevice_556";
+player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+player addPrimaryWeaponItem "optic_Yorris";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR";
+player addPrimaryWeaponItem "rhsusf_acc_grip2";
+player addWeapon "Tier1_Glock19_Urban";
+player addHandgunItem "Tier1_15Rnd_9x19_JHP";
+
+comment "Add containers";
+player forceAddUniform "Alpine_Massif_Camo";
+player addVest "Exer_LPC_blk_3";
+player addBackpack "jsoc_Kitbag_MED_arctic";
+
+comment "Add binoculars";
+player addWeapon "ACE_Vector";
+
+comment "Add items to containers";
+for "_i" from 1 to 20 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_CableTie";};
+player addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_epinephrine";};
+player addItemToUniform "ACE_IR_Strobe_Item";
+player addItemToUniform "ACRE_PRC152";
+player addItemToVest "ItemcTabHCam";
+for "_i" from 1 to 5 do {player addItemToVest "ACE_morphine";};
+for "_i" from 1 to 2 do {player addItemToVest "ACE_salineIV_500";};
+for "_i" from 1 to 3 do {player addItemToVest "ACE_tourniquet";};
+player addItemToVest "ACE_Flashlight_MX991";
+player addItemToVest "ItemAndroid";
+player addItemToVest "ItemcTab";
+player addItemToVest "Tier1_15Rnd_9x19_JHP";
+for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_556x45_EPR";};
+for "_i" from 1 to 2 do {player addItemToVest "Chemlight_blue";};
+player addItemToVest "SmokeShellBlue";
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+player addItemToBackpack "adv_aceCPR_AED";
+for "_i" from 1 to 27 do {player addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bodyBag";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_personalAidKit";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV";};
+for "_i" from 1 to 6 do {player addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_tourniquet";};
+player addHeadgear "jsoc_rhsusf_cvc_winter_helmet";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ItemRadioAcreFlagged";
+player linkItem "ItemGPS";
+player linkItem "A3_GPNVG18_REC_BLK_F";

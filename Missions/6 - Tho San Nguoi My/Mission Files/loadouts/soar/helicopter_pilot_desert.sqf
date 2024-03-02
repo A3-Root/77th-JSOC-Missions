@@ -1,0 +1,52 @@
+comment "Remove existing items";
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+
+comment "Add weapons";
+player addWeapon "Tier1_HK416D10_RAHG_MFT";
+player addPrimaryWeaponItem "hlc_muzzle_556NATO_rotexiiic_grey";
+player addPrimaryWeaponItem "Tier1_RAHG_NGAL_Side";
+player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
+player addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+player addPrimaryWeaponItem "rhsusf_acc_grip2";
+
+comment "Add containers";
+player forceAddUniform "VSM_Multicam_Crye_Camo";
+player addVest "Exer_6094_mc_1";
+player addBackpack "UK3CB_UN_B_B_ASS";
+
+comment "Add items to containers";
+player addItemToUniform "ACE_EarPlugs";
+player addItemToUniform "ItemcTabHCam";
+player addItemToUniform "ItemcTab";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_IR_Strobe_Item";};
+player addItemToUniform "ACE_MapTools";
+player addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 4 do {player addItemToVest "ACE_tourniquet";};
+for "_i" from 1 to 5 do {player addItemToVest "ACE_morphine";};
+for "_i" from 1 to 5 do {player addItemToVest "ACE_epinephrine";};
+for "_i" from 1 to 20 do {player addItemToVest "ACE_fieldDressing";};
+for "_i" from 1 to 3 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+player addItemToUniform "ItemMicroDAGR";
+player addItemToVest "SmokeShellGreen";
+player addItemToVest "SmokeShellBlue";
+player addItemToBackpack "ToolKit";
+player addItemToBackpack "ACRE_PRC117F";
+player addItemToBackpack "ACRE_PRC152";
+player addHeadgear "rhsusf_hgu56p_visor_black";
+player addGoggles "L_Shemagh_Tan";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ItemRadioAcreFlagged";
+player linkItem "ItemMicroDAGR";
+player linkItem "A3_GPNVG18_BLK_F";
