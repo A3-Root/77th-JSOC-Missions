@@ -13,72 +13,28 @@
 
 
 
-comment "
-A3_Interplanetary_Starship
-
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050062499
-
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
-
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
-
-
-comment "Delete composition helipad";
-
-	if ((!isNull (findDisplay 312)) && (!isNil 'this')) then {
-		if (!isNull this) then {
-			if (typeOf this == 'Land_HelipadEmpty_F') then {
-				deleteVehicle this;
-			};
-		};
-	};
-
-comment "Spawn rocket init code";
-
-	comment "Set script parameters";
-
 	M9SD_rocketSpawnComp_version = '1.0.0 Beta';
 	M9SD_debug = true;
 	if (isnil 'M9SD_rocketDebugMode') then {M9SD_rocketDebugMode = 0;};
-
-	comment "Place the rocket down at the given module location.";
 
 	M9SD_fnc_sysChat = {
 		if  (missionNamespace getVariable ['M9SD_debug', false]) then {
 			if !(shownChat) then {
 				showChat true;
 			};
-			systemChat _this;
+
 		};
 	};
 
 	M9SD_fnc_addObjectToGameMaster = {
 		private _obj = _this;
-		comment "
-			On official Zeus servers the game mod's player has a 
-			variable name of 'bis_curatorUnit_1'. Likewise, the 
-			game mod's curator logic is equal to 'bis_curator_1'.
-			
-			Commands used to obtain var names:
-			vehiclevarname player >>> 'bis_curatorUnit_1'
-			vehiclevarname (getAssignedCuratorLogic player) >>> 'bis_curator_1'
-		";
-
-		comment "Exclude game moderator from objects being added to interface.";
-		
 		{
 		
 			if ((vehicleVarName _x == 'bis_curator_1') or (vehicleVarName (getAssignedCuratorUnit _x) == 'bis_curatorUnit_1')) then {
-				comment "Exclude";
 			} else {
-				comment "Include";
 				[_x, [[_obj], true]] remoteExec ['addCuratorEditableObjects', owner _x];
 			};
-		} forEach allCurators; comment "Iterate through live array of zeus logics.";
+		} forEach allCurators;
 	};
 
 	M9SD_fnc_cleanupRockets = {
@@ -89,11 +45,6 @@ comment "Spawn rocket init code";
 		private _deleteCount_baseObj = 0;
 		private _deleteCount_fuselage = 0;
 		private _deleteCount_jipScripts = 0;
-		comment "
-		if (_rocketCompCount < 1) exitWith {
-			(format ['ROCKET SCRIPT: Error on rocket cleanup: M9SD_rocketComps array is empty.']) call M9SD_fnc_sysChat;
-		};
-		";
 		{
 			private _rocketComp = _x;
 			private _rocketBaseObj = _rocketComp # 0;
@@ -122,13 +73,11 @@ comment "Spawn rocket init code";
 			missionNamespace setVariable ['M9SD_rocketComps', _newRocketCompArray, true];
 			(format ["ROCKET SCRIPT: Auto-cleanup deleted %1 comp(s): [%2 baseObjs, %3 fuselages, %4 jipScripts].", _deleteCount_comps, _deleteCount_baseObj, _deleteCount_fuselage, _deleteCount_jipScripts]) call M9SD_fnc_sysChat;
 		} else {
-			comment "(format ['ROCKET SCRIPT: Found no rocket comps to delete.']) call M9SD_fnc_sysChat;";
 		};
 	};
 
 	
 	M9SD_fnc_countRockets = {
-		comment "Figure out how many rockets are alive.";
 		if (isNil 'M9SD_rocketComps') exitWith {0};
 		private _counter = 0;
 		{
@@ -143,8 +92,8 @@ comment "Spawn rocket init code";
 
 	M9SD_fnc_rocketAssembly = {
 
-		if ((call M9SD_fnc_countRockets > 2) && (M9SD_rocketDebugMode != 1)) exitWith {
-			systemChat "ROCKET SCRIPT: Cannot spawn more than 3 rockets at a time!";
+		if ((call M9SD_fnc_countRockets > 20) && (M9SD_rocketDebugMode != 1)) exitWith {
+			systemChat "ROCKET SCRIPT: Cannot spawn more than 20 rockets at a time!";
 			playSound 'AddItemFailed';
 		};
 		(format ['ROCKET SCRIPT: Spawning rocket...']) call M9SD_fnc_sysChat;
@@ -161,7 +110,6 @@ comment "Spawn rocket init code";
 		private _jipid_attachTo = format ["M9SD_JIP_rocket_attachTo_%1", str(_rocketFuselage)];
 		_jipIDs pushback _jipid_attachTo;
 		
-		comment "Ensure the rocket initializes consistently accross all clients";
 		
 		[_rocketFuselage,[_rocketBaseObj,[4.20,4.20,59.07]]] remoteExec ['attachTo', 0, _jipid_attachTo];
 		
@@ -211,75 +159,11 @@ comment "Spawn rocket init code";
 				sleep 0.5;
 			};
 		};
-		comment "(format ['ROCKET SCRIPT: Rocket spawned! | %1', str _rocketComp]) call M9SD_fnc_sysChat;";
 		(format ['ROCKET SCRIPT: Rocket [%1] spawned!', M9SD_rocketComps find _rocketComp]) call M9SD_fnc_sysChat;
 		_rocketComp;
 	};
 
-	comment "
-	call M9SD_fnc_cleanupRockets;
-	";
-
-	comment "
-	(screenToWorld [0.5,0.5]) spawn M9SD_fnc_rocketAssembly;
-	";
-
-	comment "
-	(getpos this) spawn M9SD_fnc_rocketAssembly;
-	deleteVehicle this;
-	";
-
-
-
-
-
-
-
-	comment "
-		[rocketFuselage,[rocketBaseObj,[4.20,4.20,59.07]]] remoteExec ['attachTo'];   
-		private _y = 0;  
-		private _p = -90;  
-		private _r = 90;  
-		[  
-		rocketFuselage,  
-		[     
-		[    
-			sin _y * cos _p,     
-			cos _y * cos _p,     
-			sin _p    
-		],                         
-		[    
-			[    
-			sin _r,     
-			-sin _p,     
-			cos _r * cos _p    
-			],     
-			-_y    
-		] call BIS_fnc_rotateVector2D     
-		]  
-		] remoteExec ['setVectorDirAndUp']; 
-		[rocketFuselage, 29] remoteExec ['setObjectScale'];
-	";
-	"
-	(screenToWorld [0.5,0.5]) spawn M9SD_fnc_rocketAssembly;
-	(getpos this) spawn M9SD_fnc_rocketAssembly;
-	";
-	comment "deleteVehicle this;";
-	(screenToWorld getMousePosition) spawn M9SD_fnc_rocketAssembly;
-
-
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
-
-comment "
-A3_Interplanetary_Starship
-
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050062499
-
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
+	mapclick_pos spawn M9SD_fnc_rocketAssembly;
 
 
 
@@ -342,39 +226,12 @@ https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
 
 
 
-comment "
-A3_Interplanetary_Starship
 
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050062657
-
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
-
-
-comment "Delete composition helipad";
-
-	if ((!isNull (findDisplay 312)) && (!isNil 'this')) then {
-		if (!isNull this) then {
-			if (typeOf this == 'Land_HelipadEmpty_F') then {
-				deleteVehicle this;
-			};
-		};
-	};
-
-comment "Launch rocket init code";
-
-	comment "deleteVehicle this;";
 	0 = [] spawn {
 		private _initREpack = [] spawn {
 			if (!isNil 'M9SD_fnc_RE2_V3') exitWith {};
-			comment "Initialize Remote-Execution Package";
 			M9SD_fnc_initRE2_V3 = {
 				M9SD_fnc_initRE2Functions_V3 = {
-					comment "Prep RE2 functions.";
 					M9SD_fnc_REinit2_V3 = {
 						private _functionNameRE2 = '';
 						if (isNil {_this}) exitWith {false};
@@ -420,10 +277,8 @@ comment "Launch rocket init code";
 							addMissionEventHandler ["EachFrame", (missionNamespace getVariable [_this # 0, ['']]) joinString '', _this # 1]; 
 						}] remoteExec ['call', _REtarget, _JIPparam];
 					};
-					comment "systemChat '[ RE2 Package ] : RE2 functions initialized.';";
 				};
 				M9SD_fnc_initRE2FunctionsGlobal_V2 = {
-					comment "Prep RE2 functions on all clients+jip.";
 					private _fncStr = format ["{
 						removeMissionEventHandler ['EachFrame', _thisEventHandler];
 						_thisArgs call %1
@@ -435,7 +290,6 @@ comment "Launch rocket init code";
 					[["RE2_M9SD_fnc_initRE2Functions_V2", []],{ 
 						addMissionEventHandler ["EachFrame", (missionNamespace getVariable ["RE2_M9SD_fnc_initRE2Functions_V2", ['']]) joinString '', _this # 1]; 
 					}] remoteExec ['call', 0, 'RE2_M9SD_JIP_initRE2Functions_V2'];
-					comment "Delete from jip queue: remoteExec ['', 'RE2_M9SD_JIP_initRE2Functions_V2'];";
 				};
 				call M9SD_fnc_initRE2FunctionsGlobal_V2;
 			};
@@ -453,16 +307,16 @@ comment "Launch rocket init code";
 
 		if (isnil 'M9SD_rocketDebugMode') then {M9SD_rocketDebugMode = 0;};
 
-		comment "set the view distance (required or else script will bug out)";
+
 
 		7000 remoteExec ['setViewDistance'];
 		7000 remoteExec ['setObjectViewDistance'];
 
-		comment "control size/scale of particle effects";
+
 
 		rocketPFXSize = 0.5;
 
-		comment "Free up resources and regain lost framerate by deleting rocket once it reaches max altitude.";
+
 
 		M9SD_fnc_rocketCleanup = {
 			waitUntil {sleep 0.1;
@@ -473,15 +327,15 @@ comment "Launch rocket init code";
 				deleteVehicle _x;
 			} foreach (attachedObjects _this);
 			deleteVehicle _this;
-			comment "remote executions ? JIP ? ";
-			comment "camera shake ?? ";
-			comment " leftover objects ? ";
-			comment " event handlers ? ";
-			comment "Reset the view distance settings once there are no rockets left ?";
+
+
+
+
+
 		};
 
 
-		comment "cool lightning effect during rocket ascent";
+
 
 		M9_SD_fnc_moduleSafeLightningBolt = 
 		{
@@ -506,10 +360,10 @@ comment "Launch rocket init code";
 				[_light, [1, 1, 2]] remoteExec ['setlightcolor'];
 				if !(isNull _object) then 
 				{
-					comment "attach it to the bugga";
+
 					_objPos = getPos _object;
 					_lightning setPos _objPos;
-					comment "_lightning attachTo [_object, [100,100,100]];";
+
 					_light attachTo [_object, [0,0,10]];
 					[_light,7] remoteExec ['setObjectScale'];
 					if (_object isKindOf 'Man') then 
@@ -555,7 +409,7 @@ comment "Launch rocket init code";
 		};
 		"M9_SD_fnc_moduleSafeLightningBolt = {};";
 
-		comment "Initiate engine/ignition VFX/SFX.";
+
 
 		M9SD_fnc_rocketIgnition = {
 
@@ -563,7 +417,7 @@ comment "Launch rocket init code";
 			private _camShake = {
 				private _rocketPos = getPos _this;
 
-				comment "Make the camera shake for nearby players.";
+
 
 				private _shakeDistanceFactor = 1.5;
 
@@ -571,10 +425,10 @@ comment "Launch rocket init code";
 				_maxDistance_lvl_02 = 800 * _shakeDistanceFactor;
 				_maxDistance_lvl_03 = 1600 * _shakeDistanceFactor;
 
+
 				{
 					private _distanceFromRocket = (vehicle _x) distance _rocketPos;
 					if (_distanceFromRocket <= _maxDistance_lvl_03) then {
-						
 						true remoteExec ['enableCamShake', _x];
 						[[1, 60, 100]] remoteExec ['addCamShake', _x];
 						if (_distanceFromRocket <= _maxDistance_lvl_02) then {
@@ -586,18 +440,8 @@ comment "Launch rocket init code";
 					};
 				} forEach allPlayers;
 
-				comment "
-					ALTERNATIVE (for cutscenes),
-					Make the camera shake for everyone:
-
-					true remoteExec ['enableCamShake'];
-					[1, 60, 100] remoteExec ['addCamShake'];
-					[5, 20, 50] remoteExec ['addCamShake'];
-					[10, 10, 10] remoteExec ['addCamShake'];
-				";
-
 			};
-			
+		
 			private _soundFX = {
 				private _object = _this;
 				_object spawn {
@@ -646,7 +490,7 @@ comment "Launch rocket init code";
 			private _visualFX = 
 			{
 				private _posASL = getPosASL _this;
-				
+	
 				
 				
 				private _light_engine = createVehicle ["#lightpoint",_posASL,[],0,"CAN_COLLIDE"];
@@ -762,8 +606,8 @@ comment "Launch rocket init code";
 					deleteVehicle _this;
 				};
 				
-				comment "_thrustFlames setParticleCircle [0.5,[0,0,0]];";
-				comment "_thrustFlames setParticleRandom [0.5,[0,0,0.3],[0,0,0],0,0.1 * _thrustFlamesSizeFactor,[0,0,0,0.1],0,0];";
+
+
 				[_thrustFlames,[
 				["\A3\data_f\cl_exp",1,0,1],"",
 				"Billboard",
@@ -783,7 +627,7 @@ comment "Launch rocket init code";
 				
 				private _groundSmoke = createVehicle ["#particlesource", _posASL, [], 0, "CAN_COLLIDE"]; 
 				[_groundSmoke,'BombSmk2'] remoteExec ['setParticleClass']; "";
-				comment "_groundSmoke setParticleCircle [3, [0,0,0]];";
+
 				[_groundSmoke,[_this,[0,0,-1]]] remoteExec ['attachTo'];
 				_groundSmoke spawn {
 					uiSleep 14;
@@ -806,7 +650,7 @@ comment "Launch rocket init code";
 						if (false) then {
 							while {_scale < _endScale} do {
 								_scale = _scale + 0.5;
-								comment "_groundChar setDir (random 360);";
+
 								[_groundChar, _scale] remoteExec ['setObjectScale'];
 								uiSleep 0.07;
 							};
@@ -921,19 +765,77 @@ comment "Launch rocket init code";
 				};
 
 			};
+
+			private _acefireFX = 
+			{
+				private _firePos = getPos _this;
+				private _bodyPart = selectRandom ["Head", "RightLeg", "LeftArm", "Body", "LeftLeg", "RightArm"];
+				{
+					private _distanceFromRocket = (vehicle _x) distance2D _firePos;
+					if (_distanceFromRocket <= 150) then {
+						[_x, 0.3] remoteExec ["ace_fire_fnc_burn", _x];
+						[_x, 0.3, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						if (_distanceFromRocket <= 125) then {
+							[_x, 1] remoteExec ["ace_fire_fnc_burn", _x];
+							[_x, 1, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							if (_distanceFromRocket <= 100) then {
+								[_x, 3] remoteExec ["ace_fire_fnc_burn", _x];
+								[_x, 3, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								if (_distanceFromRocket <= 75) then {
+									[_x, 5] remoteExec ["ace_fire_fnc_burn", _x];
+									[_x, 5, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									if ((vehicle _x) != _x) then {(vehicle _x) setDamage 1; };
+									if (_distanceFromRocket <= 50) then {
+										[_x, 10] remoteExec ["ace_fire_fnc_burn", _x];
+										[_x, 10, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										_x setDamage 1;
+									};
+								};
+							};
+						};
+					};
+				} forEach allUnits;	
+			};
 			
 			_this call _camShake;
+
+			_this spawn _visualFX;
 			
 			_this spawn _soundFX;
 			
-			_this spawn _visualFX;
+			_this spawn _acefireFX;		
 		};
 
-		comment "Simulate the trajectory and acceleration of the rocket.";
+
 
 
 		M9SD_fnc_rocketAscent = {
-			comment "Set the velocity of the rocket object to simulate thrust";
+
 			0 = [_this] spawn {
 				params [["_rocketObj_stage_01", objNull]];
 				if (isNull _rocketObj_stage_01) exitWith {
@@ -946,8 +848,8 @@ comment "Launch rocket init code";
 				rocketObj_stage_01  = _rocketObj_stage_01;
 				publicVariable 'rocketObj_stage_01';
 				rocketObj_stage_01 setVariable ['enginesFiring', true, true];
-				comment "Run the velocity loop while the first stage is firing";
-				comment "systemChat 'Starting velocity loop...';";
+
+
 				private _rocketStartTime = time;
 				private _newTime = time - time;
 				private _straightUp = [0,0,1];
@@ -961,46 +863,35 @@ comment "Launch rocket init code";
 				while {((!(isNull _rocketObj_stage_01)) && 
 				(_rocketObj_stage_01 getVariable ['enginesFiring', false]))} do {
 					
-					comment "Get the dynamic value from memory.";
+
 					private _flightTime = time - _rocketStartTime;
 					
-					comment "Maintain upright direction.";
+
 					if (_flightTime < _timeTilTurn) then {
-						comment "_rocketObj_stage_01 setDir _dir;";
+
 					};
 					
-					comment "Calculate velocity, given acceleration factor and flight time.";
+
 					private _upVel = upVel_start + 10.9894 * _flightTime;
 					private _vel = [0,0,_upVel];
 					
-					comment "Set the velocity of the central object.";
-					comment "_rocketObj_stage_01 setVelocity _vel;";
-					comment "_rocketObj_stage_01 setVelocityModelSpace _vel;";
 
-					comment "[_rocketObj_stage_01, _vel] remoteExec ['setVelocityModelSpace'];";
+
+
+
+
 					[[_rocketObj_stage_01, _vel], 'RE2_M9_tmpREfnc_svmspc', 0] call M9SD_fnc_RE2_V3;
 
 
 
-					comment "Make the rocket spin around.";
-					comment "private _torque_z = 3;";
+
+
 					if (_flightTime >= _timeTilTurn) then {
-						comment "
-						_rocketObj_stage_01 addTorque (_rocketObj_stage_01 vectorModelToWorld [0,0,3]);
-						";
 					};
 					
 					
 					
-					comment "
-					_vdir = vectordir _rocketObj_stage_01;
-					_vdir_radians = _vdir # 0 atan2 _vdir # 1;
-					_vup = vectorup _rocketObj_stage_01;
-					_vup_radians = _vup # 0 atan2 _vup # 1;
-					
-					systemChat format ['%1 | %2', _vdir_radians, _vup_radians];
-					";
-					
+
 					private _upVec = vectorUp _rocketObj_stage_01;
 					
 					if !(_upVec isEqualTo _straightUp) then {
@@ -1050,12 +941,10 @@ comment "Launch rocket init code";
 						
 						private _newTorque_relative = [_torque_y * 1,_torque_x * -1,3.5];
 						private _newTorque = _rocketObj_stage_01 vectorModelToWorld _newTorque_relative;
-						comment "systemChat (str(_newTorque_relative) + ' | ' + str(_newTorque));";
 						
 						private _speed = speed _rocketObj_stage_01;
 						private _soundBarrier = 1239;
 						private _vertSpeed = (velocityModelSpace _rocketObj_stage_01 # 2) * 3.6;
-						comment "systemChat format ['%1 | %2', _speed, _vertSpeed];";
 						if ((_speed >= _soundBarrier) or (_vertSpeed >= _soundBarrier)) then {
 							if (false) then {systemChat "BARRIER BROKEN!";};
 						
@@ -1070,7 +959,6 @@ comment "Launch rocket init code";
 					uiSleep 0.1;
 				};
 				
-				comment "systemChat 'Engines no longer firing.';";
 			};
 		};
 
@@ -1102,15 +990,6 @@ comment "Launch rocket init code";
 		M9SD_fnc_launchAllRockets = {
 			private _rocketComps = missionNamespace getVariable ['M9SD_rocketComps', []];
 			if (_rocketComps isEqualTo []) exitWith {};
-			comment 
-			"
-			if (missionNamespace getVariable ['M9_rocketsAreLaunching', false]) exitWith {
-				playSound ['additemfailed', false];
-				systemChat 'ROCKET SCRIPT: Rockets are launching, please wait.';
-				playSound ['additemfailed', true];
-			};
-			M9_rocketsAreLaunching = true;
-			publicVariable 'M9_rocketsAreLaunching';";
 			with uiNamespace do 
 			{
 	
@@ -1146,20 +1025,6 @@ comment "Launch rocket init code";
 
 
 	};
-
-
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
-comment "
-A3_Interplanetary_Starship
-
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050062657
-
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
-
 
 
 
@@ -1218,42 +1083,11 @@ https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
 
 
 
-
-comment "
-A3_Interplanetary_Starship
-
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050063440
-
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
-
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
-
-
-comment "Delete composition helipad";
-
-	if ((!isNull (findDisplay 312)) && (!isNil 'this')) then {
-		if (!isNull this) then {
-			if (typeOf this == 'Land_HelipadEmpty_F') then {
-				deleteVehicle this;
-			};
-		};
-	};
-
-comment "Land rocket init code";
-
-	if (false) exitWith {"comment 'deletevehicle this;';"};
-
 	0 = [] spawn {
 		private _initREpack = [] spawn {
 			if (!isNil 'M9SD_fnc_RE2_V3') exitWith {};
-			comment "Initialize Remote-Execution Package";
 			M9SD_fnc_initRE2_V3 = {
 				M9SD_fnc_initRE2Functions_V3 = {
-					comment "Prep RE2 functions.";
 					M9SD_fnc_REinit2_V3 = {
 						private _functionNameRE2 = '';
 						if (isNil {_this}) exitWith {false};
@@ -1299,10 +1133,8 @@ comment "Land rocket init code";
 							addMissionEventHandler ["EachFrame", (missionNamespace getVariable [_this # 0, ['']]) joinString '', _this # 1]; 
 						}] remoteExec ['call', _REtarget, _JIPparam];
 					};
-					comment "systemChat '[ RE2 Package ] : RE2 functions initialized.';";
 				};
 				M9SD_fnc_initRE2FunctionsGlobal_V2 = {
-					comment "Prep RE2 functions on all clients+jip.";
 					private _fncStr = format ["{
 						removeMissionEventHandler ['EachFrame', _thisEventHandler];
 						_thisArgs call %1
@@ -1314,7 +1146,6 @@ comment "Land rocket init code";
 					[["RE2_M9SD_fnc_initRE2Functions_V2", []],{ 
 						addMissionEventHandler ["EachFrame", (missionNamespace getVariable ["RE2_M9SD_fnc_initRE2Functions_V2", ['']]) joinString '', _this # 1]; 
 					}] remoteExec ['call', 0, 'RE2_M9SD_JIP_initRE2Functions_V2'];
-					comment "Delete from jip queue: remoteExec ['', 'RE2_M9SD_JIP_initRE2Functions_V2'];";
 				};
 				call M9SD_fnc_initRE2FunctionsGlobal_V2;
 			};
@@ -1330,17 +1161,8 @@ comment "Land rocket init code";
 		['M9_tmpREfnc_svmspc'] call M9SD_fnc_REinit2_V3;
 		waitUntil {!isNil 'RE2_M9_tmpREfnc_svmspc'};
 
-		comment "control size/scale of particle effects";
 
 		rocketPFXSize = 0.5;
-
-		comment "
-			use taru bench pod for base object??!
-			dont forget to lock seats, hide it, and god mode it
-			'Land_Pod_Heli_Transport_04_bench_F'
-
-			for '_i' from -1 to 64 do {cursorObject setObjectTextureGlobal [_x,''];};
-		";
 
 		if (isnil 'M9SD_rocketDebugMode') then {M9SD_rocketDebugMode = 0;};
 
@@ -1398,11 +1220,7 @@ comment "Land rocket init code";
 				private _deleteCount_baseObj = 0;
 				private _deleteCount_fuselage = 0;
 				private _deleteCount_jipScripts = 0;
-				comment "
-				if (_rocketCompCount < 1) exitWith {
-					(format ['ROCKET SCRIPT: Error on rocket cleanup: M9SD_rocketComps array is empty.']) call M9SD_fnc_sysChat;
-				};
-				";
+
 				{
 					private _rocketComp = _x;
 					private _rocketBaseObj = _rocketComp # 0;
@@ -1431,7 +1249,6 @@ comment "Land rocket init code";
 					missionNamespace setVariable ['M9SD_rocketComps', _newRocketCompArray, true];
 					(format ["ROCKET SCRIPT: Auto-cleanup deleted %1 comp(s): [%2 baseObjs, %3 fuselages, %4 jipScripts].", _deleteCount_comps, _deleteCount_baseObj, _deleteCount_fuselage, _deleteCount_jipScripts]) call M9SD_fnc_sysChat;
 				} else {
-					comment "(format ['ROCKET SCRIPT: Found no rocket comps to delete.']) call M9SD_fnc_sysChat;";
 				};
 			};
 		};
@@ -1442,7 +1259,6 @@ comment "Land rocket init code";
 					if !(shownChat) then {
 						showChat true;
 					};
-					systemChat _this;
 				};
 			};
 		};
@@ -1450,32 +1266,18 @@ comment "Land rocket init code";
 		if (isNil 'M9SD_fnc_addObjectToGameMaster') then {
 			M9SD_fnc_addObjectToGameMaster = {
 				private _obj = _this;
-				comment "
-					On official Zeus servers the game mod's player has a 
-					variable name of 'bis_curatorUnit_1'. Likewise, the 
-					game mod's curator logic is equal to 'bis_curator_1'.
-					
-					Commands used to obtain var names:
-					vehiclevarname player >>> 'bis_curatorUnit_1'
-					vehiclevarname (getAssignedCuratorLogic player) >>> 'bis_curator_1'
-				";
 
-				comment "Exclude game moderator from objects being added to interface.";
-				
+			
 				{
 				
 					if ((vehicleVarName _x == 'bis_curator_1') or (vehicleVarName (getAssignedCuratorUnit _x) == 'bis_curatorUnit_1')) then {
-						comment "Exclude";
 					} else {
-						comment "Include";
 						[_x, [[_obj], true]] remoteExec ['addCuratorEditableObjects', owner _x];
 					};
-				} forEach allCurators; comment "Iterate through live array of zeus logics.";
+				} forEach allCurators; 
 			};
 
 		};
-
-		comment "Place the rocket down at the given module location.";
 
 
 		M9SD_fnc_rocketAssembly_landing = {
@@ -1496,8 +1298,6 @@ comment "Land rocket init code";
 			
 			private _jipid_attachTo = format ["M9SD_JIP_rocket_attachTo_%1", str(_rocketFuselage)];
 			_jipIDs pushback _jipid_attachTo;
-			
-			comment "Ensure the rocket initializes consistently accross all clients";
 			
 			[_rocketFuselage,[_rocketBaseObj,[4.20,4.20,59.07]]] remoteExec ['attachTo', 0, _jipid_attachTo];
 			
@@ -1552,7 +1352,6 @@ comment "Land rocket init code";
 
 
 
-			comment "(format ['ROCKET SCRIPT: Rocket spawned! | %1', str _rocketComp]) call M9SD_fnc_sysChat;";
 			(format ['ROCKET SCRIPT: Rocket [%1] spawned!', M9SD_rocketComps find _rocketComp]) call M9SD_fnc_sysChat;
 
 
@@ -1563,17 +1362,16 @@ comment "Land rocket init code";
 		};
 
 
-		comment "Initiate engine/ignition VFX/SFX.";
-
 		M9SD_fnc_rocketIgnition_landingBurn = {
 
 			private _camShake = {
 				private _rocketPos = getPos _this;
 
-				comment "Make the camera shake for nearby players.";
+
 
 				private _shakeDistanceFactor = 1.5;
 
+				_maxDistance_lvl_00 = 200 * _shakeDistanceFactor;
 				_maxDistance_lvl_01 = 400 * _shakeDistanceFactor;
 				_maxDistance_lvl_02 = 800 * _shakeDistanceFactor;
 				_maxDistance_lvl_03 = 1600 * _shakeDistanceFactor;
@@ -1581,27 +1379,27 @@ comment "Land rocket init code";
 				{
 					private _distanceFromRocket = (vehicle _x) distance _rocketPos;
 					if (_distanceFromRocket <= _maxDistance_lvl_03) then {
-						
 						true remoteExec ['enableCamShake', _x];
 						[[1, 60, 100]] remoteExec ['addCamShake', _x];
+						_bodypart = selectRandom ["Head", "Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"];
+						[_x, 0.1, _bodyPart, "fire"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
 						if (_distanceFromRocket <= _maxDistance_lvl_02) then {
 							[[5, 20, 50]] remoteExec ['addCamShake', _x];
+							_bodypart = selectRandom ["Head", "Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"];
+							[_x, 0.2, _bodyPart, "fire"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
 							if (_distanceFromRocket <= _maxDistance_lvl_01) then {
 								[[10, 10, 10]] remoteExec ['addCamShake', _x];
+								_bodypart = selectRandom ["Head", "Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"];
+								[_x, 0.4, _bodyPart, "fire"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								if (_distanceFromRocket <= _maxDistance_lvl_00) then {
+									[[10, 10, 10]] remoteExec ['addCamShake', _x];
+									_bodypart = selectRandom ["Head", "Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"];
+									[_x, 0.8, _bodyPart, "fire"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								};
 							};
 						};
 					};
 				} forEach allPlayers;
-
-				comment "
-					ALTERNATIVE (for cutscenes),
-					Make the camera shake for everyone:
-
-					true remoteExec ['enableCamShake'];
-					[1, 60, 100] remoteExec ['addCamShake'];
-					[5, 20, 50] remoteExec ['addCamShake'];
-					[10, 10, 10] remoteExec ['addCamShake'];
-				";
 
 			};
 			
@@ -1768,9 +1566,7 @@ comment "Land rocket init code";
 				
 				private _thrustFlamesSizeFactor = 5.5;
 				private _thrustFlames = createVehicle ["#particlesource", _posASL, [], 0, "CAN_COLLIDE"];
-				
-				comment "_thrustFlames setParticleCircle [0.5,[0,0,0]];";
-				comment "_thrustFlames setParticleRandom [0.5,[0,0,0.3],[0,0,0],0,0.1 * _thrustFlamesSizeFactor,[0,0,0,0.1],0,0];";
+
 				[_thrustFlames,[
 				["\A3\data_f\cl_exp",1,0,1],"",
 				"Billboard",
@@ -1817,7 +1613,6 @@ comment "Land rocket init code";
 					
 					private _groundSmoke = createVehicle ["#particlesource", _posATL, [], 0, "CAN_COLLIDE"]; 
 					[_groundSmoke,'BombSmk2'] remoteExec ['setParticleClass']; "";
-					comment "_groundSmoke setParticleCircle [3, [0,0,0]];";
 					[_groundSmoke,[_this,[0,0,-1]]] remoteExec ['attachTo'];
 					_groundSmoke spawn {
 						uiSleep 14 * 2;
@@ -1838,7 +1633,7 @@ comment "Land rocket init code";
 							if (false) then {
 								while {_scale < _endScale} do {
 									_scale = _scale + 0.5;
-									comment "_groundChar setDir (random 360);";
+
 									[_groundChar, _scale] remoteExec ['setObjectScale'];
 									uiSleep 0.07;
 								};
@@ -1941,12 +1736,70 @@ comment "Land rocket init code";
 					};
 				};
 			};
+
+			private _acefireFX = 
+			{
+				private _firePos = getPos _this;
+				private _bodyPart = selectRandom ["Head", "RightLeg", "LeftArm", "Body", "LeftLeg", "RightArm"];
+				{
+					private _distanceFromRocket = (vehicle _x) distance2D _firePos;
+					if (_distanceFromRocket <= 150) then {
+						[_x, 0.3] remoteExec ["ace_fire_fnc_burn", _x];
+						[_x, 0.3, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						[_x, 0.3, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+						if (_distanceFromRocket <= 125) then {
+							[_x, 1] remoteExec ["ace_fire_fnc_burn", _x];
+							[_x, 1, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							[_x, 1, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+							if (_distanceFromRocket <= 100) then {
+								[_x, 3] remoteExec ["ace_fire_fnc_burn", _x];
+								[_x, 3, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								[_x, 3, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+								if (_distanceFromRocket <= 75) then {
+									[_x, 5] remoteExec ["ace_fire_fnc_burn", _x];
+									[_x, 5, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									[_x, 5, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+									if ((vehicle _x) != _x) then {(vehicle _x) setDamage 1; };
+									if (_distanceFromRocket <= 50) then {
+										[_x, 10] remoteExec ["ace_fire_fnc_burn", _x];
+										[_x, 10, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										[_x, 10, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
+										_x setDamage 1;
+									};
+								};
+							};
+						};
+					};
+				} forEach allUnits;	
+			};
 			
 			_this call _camShake;
 			
-			_this spawn _soundFX;
-			
 			_this spawn _visualFX;
+			
+			_this spawn _soundFX;
+
+			_this spawn _acefireFX;
 			
 			_this spawn {
 				waitUntil {((isNull _this) or (isTouchingGround _this))};
@@ -1959,12 +1812,11 @@ comment "Land rocket init code";
 			};
 		};
 
-		comment "Simulate the trajectory and acceleration of the rocket.";
+
 
 
 
 		M9SD_fnc_rocketDescent = {
-			comment "Set the velocity of the rocket object to simulate thrust";
 			0 = [_this] spawn {
 				params [["_rocketObj_stage_01", objNull]];
 				if (isNull _rocketObj_stage_01) exitWith {
@@ -1980,8 +1832,6 @@ comment "Land rocket init code";
 				rocketObj_stage_01  = _rocketObj_stage_01;
 				publicVariable 'rocketObj_stage_01';
 
-				comment "Run the velocity loop while the first stage is firing";
-				comment "systemChat 'Starting velocity loop...';";
 				private _rocketStartTime = time;
 				private _newTime = time - time;
 				private _straightUp = [0,0,1];
@@ -1991,11 +1841,9 @@ comment "Land rocket init code";
 				
 				private _getDescentSpeed = {
 					private _alt = _this;
-					comment "v = (1000 kph) * (1 - (_alt / 1000))";
 					_v = (1000) * (1 - (_alt / 1000));
 					_v = _v / 3.6;
 					_v = 277.778 - _v;
-					comment "systemChat format ['_v = %1', _v];";
 					_v;
 				};
 				
@@ -2003,54 +1851,31 @@ comment "Land rocket init code";
 				while {((!(isNull _rocketObj_stage_01)) && 
 				(_rocketObj_stage_01 getVariable ['enginesFiring', false]) && (!isTouchingGround _rocketObj_stage_01))} do {
 					
-					comment "Get the dynamic value from memory.";
 					private _flightTime = time - _rocketStartTime;
 					
-					comment "Maintain upright direction.";
 					if (_flightTime < _timeTilTurn) then {
-						comment "_rocketObj_stage_01 setDir _dir;";
 					};
 					
-					comment "Calculate velocity, given acceleration factor and flight time.";
-					comment "private _upVel = _start + 10.9894 * _flightTime;";
 					private _posATL = getPosATL _rocketObj_stage_01;
-					comment "systemChat format ['_posATL = %1', _posATL];";
 					private _altitude = _posATL select 2;
-					comment "systemChat format ['_altitude = %1', _altitude];";
 
-					
-					comment "Set the velocity of the central object.";
-					comment "_rocketObj_stage_01 setVelocity _vel;";
+
 					if (_altitude <= 1000) then {
 						private _downVel = -1 * (_altitude call _getDescentSpeed);
-						comment "systemChat format ['_downVel = %1', _downVel];";
+
 						private _vel = [0,0,_downVel];
-						comment "systemChat format ['_vel = %1', _vel];";
-						comment "_rocketObj_stage_01 setVelocityModelSpace _vel;";
+
 
 
 						[[_rocketObj_stage_01, _vel], 'RE2_M9_tmpREfnc_svmspc', 0] call M9SD_fnc_RE2_V3;
 
 					};
-					comment "Make the rocket spin around.";
-					comment "private _torque_z = 3;";
+
 					if (_flightTime >= _timeTilTurn) then {
-						comment "
-						_rocketObj_stage_01 addTorque (_rocketObj_stage_01 vectorModelToWorld [0,0,3]);
-						";
+
 					};
 					
-					
-					
-					comment "
-					_vdir = vectordir _rocketObj_stage_01;
-					_vdir_radians = _vdir # 0 atan2 _vdir # 1;
-					_vup = vectorup _rocketObj_stage_01;
-					_vup_radians = _vup # 0 atan2 _vup # 1;
-					
-					systemChat format ['%1 | %2', _vdir_radians, _vup_radians];
-					";
-					
+
 					private _upVec = vectorUp _rocketObj_stage_01;
 					
 					if !(_upVec isEqualTo _straightUp) then {
@@ -2100,7 +1925,6 @@ comment "Land rocket init code";
 						
 						private _newTorque_relative = [_torque_y * 1,_torque_x * -1,3.5];
 						private _newTorque = _rocketObj_stage_01 vectorModelToWorld _newTorque_relative;
-						comment "systemChat (str(_newTorque_relative) + ' | ' + str(_newTorque));";
 						
 						private _speed = speed _rocketObj_stage_01;
 						private _soundBarrier = 1239;
@@ -2111,7 +1935,7 @@ comment "Land rocket init code";
 						
 						
 						
-						comment "systemChat format ['%1 | %2', _speed, _vertSpeed];";
+
 						if ((_speed >= _soundBarrier) or (_vertSpeed >= _soundBarrier)) then {
 							systemChat "BARRIER BROKEN!";
 						
@@ -2129,7 +1953,7 @@ comment "Land rocket init code";
 					uiSleep 0.1;
 				};
 				
-				comment "systemChat 'Engines no longer firing.';";
+
 				_rocketObj_stage_01 spawn {
 					sleep 60;
 					if (!isNull _this) then {
@@ -2140,17 +1964,7 @@ comment "Land rocket init code";
 		};
 
 
-		M9SD_fnc_rocketSpin = {
-			comment "deprecated/obsolete";
-		};
-
-		comment "
-
-		deleteVehicle rocketObj_stage_01;
-
-		";
-
-		comment "Figure out how many rockets are alive.";
+		M9SD_fnc_rocketSpin = {};
 
 		M9SD_fnc_countRockets = {
 			if (isNil 'M9SD_rocketComps') exitWith {0};
@@ -2163,9 +1977,6 @@ comment "Land rocket init code";
 			} forEach M9SD_rocketComps;
 			_counter;
 		};
-
-		comment "Free up resources and regain lost framerate.";
-
 		M9SD_fnc_rocketCleanup = {
 			private _attobjs = attachedObjects _this;
 			waitUntil {
@@ -2185,11 +1996,6 @@ comment "Land rocket init code";
 			} foreach _attobjs;
 			
 			deleteVehicle _this;
-			comment "remote executions ? JIP ? ";
-			comment "camera shake ?? ";
-			comment " leftover objects ? ";
-			comment " event handlers ? ";
-			comment "Reset the view distance settings once there are no rockets left.";
 			waitUntil {((isNull _this) && (!alive _this) && ((call M9SD_fnc_countRockets) != _rocketCountBefore))};
 			private _rocketCountAfter = call M9SD_fnc_countRockets;
 			if (False) then {
@@ -2197,20 +2003,13 @@ comment "Land rocket init code";
 			if (_rocketCountAfter == 0) then {
 				private _ogVD = missionNamespace getVariable ['M9SD_ogVD', 1600];
 				private _ogOVD = missionNamespace getVariable ['M9SD_ogOVD', 1600];
-				
-				comment "
-				_ogVD remoteExec ['setViewDistance'];
-				_ogOVD remoteExec ['setObjectViewDistance'];
-				";
-				
+								
 				"_ogVD call M9SD_fnc_transitionViewDistance;";
 				if (False) then {
 				systemChat format ["viewDistance reset to: %1", _ogVD];
 				systemChat format ["objectViewDistance reset to: %1", _ogOVD];};
 			};
 		};
-
-		comment "Upgrade the view distance so players can see the launch.";
 
 		M9SD_fnc_rocketViewDistance = {
 			if (isNil 'M9SD_ogVD') then {
@@ -2221,42 +2020,30 @@ comment "Land rocket init code";
 				missionNamespace setVariable ['M9SD_ogOVD', _ogOVD, true];
 				systemChat format ["M9SD_ogOVD saved as %1", M9SD_ogOVD];
 			};
-			
-			comment "
-			newVD remoteExec ['setViewDistance'];
-			newVD remoteExec ['setObjectViewDistance'];
-			";
-			
+					
 			"newVD call M9SD_fnc_transitionViewDistance;";
 			
 			if (False) then {
 			systemChat format ["New viewDistance and objectViewDistance: %1", newVD];};
 		};
 
-		comment "Control the timing of the script execution.";
 
 		M9SD_fnc_initRocketSequence_landing = {
-			if ((call M9SD_fnc_countRockets > 2) && (M9SD_rocketDebugMode != 1)) exitWith {
-				systemChat "ROCKET SCRIPT: Cannot spawn more than 3 rockets at a time!";
+			params ["_landingposition"];
+			
+			if ((call M9SD_fnc_countRockets > 20) && (M9SD_rocketDebugMode != 1)) exitWith {
+				systemChat "ROCKET SCRIPT: Cannot spawn more than 20 rockets at a time!";
 				playSound 'AddItemFailed';
 			};
 
-			comment "call M9SD_fnc_rocketViewDistance;";
-
-			M9_sShipLandPos = screenToWorld getMousePosition;
+			M9_sShipLandPos = _landingposition;
 
 			private _rocketComp = M9_sShipLandPos call M9SD_fnc_rocketAssembly_landing;
 			private _rocket = _rocketComp # 0;
 			playSound3D ["A3\Sounds_F\ambient\battlefield\battlefield_jet3.wss", _rocket, false, getPosATL _rocket, 4, 2, 6400];
 			uisleep 0.5;
 
-			comment "SpaceX falcon 9 booster:
-				1000 kph
-				277.778 mps
-				@ ~1km
-			";
 			while {(getPosATL _rocket # 2) > 1000} do {
-				comment "_rocket setVelocityModelSpace [0,0,-277.778];";
 
 				[[_rocket, [0,0,-277.778]], 'RE2_M9_tmpREfnc_svmspc', 0] call M9SD_fnc_RE2_V3;
 
@@ -2264,7 +2051,6 @@ comment "Land rocket init code";
 			_rocket spawn {
 				waitUntil {(!isTouchingGround _this)};
 				while {((alive _this) && (!isTouchingGround _this))} do {
-					comment "systemChat format ['Speed: %1', (velocity _this) # 2];";
 					sleep 1;
 				};
 			};
@@ -2272,28 +2058,39 @@ comment "Land rocket init code";
 			_rocket call M9SD_fnc_rocketIgnition_landingBurn;
 			_rocket call M9SD_fnc_rocketDescent;
 			_rocket call M9SD_fnc_rocketSpin;
-			comment "uiSleep 124;";
 			_rocket spawn M9SD_fnc_rocketCleanup;
 		};
 
 		0 = [] spawn M9SD_fnc_initRocketSequence_landing;
 
+		uiSleep 1000;
+		[9012.796, 616.186, 0] spawn M9SD_fnc_initRocketSequence_landing;
+		uiSleep 300;
+		[9954.423, 5602.701, 0] spawn M9SD_fnc_initRocketSequence_landing;
+		uiSleep 600;
+		[9954.423, 5602.701, 0] spawn M9SD_fnc_initRocketSequence_landing;
+
 
 	};
 
 
-comment "------- ------- ------- ------- ------- ------- -------  -------  ------- ";
 
-comment "
-A3_Interplanetary_Starship
 
-Arma 3 Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=3050063440
 
-MIT License
-Copyright (c) 2023 M9-SD
-https://github.com/M9-SD/A3_Interplanetary_Starship/blob/main/LICENSE
-";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

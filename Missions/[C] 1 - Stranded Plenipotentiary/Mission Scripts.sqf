@@ -652,7 +652,7 @@ ROOT_fnc_clearTable = {
 		] call bis_fnc_showAANArticle;
  
 	};
-}
+};
 
 ROOT_fnc_myArticle = { 
  

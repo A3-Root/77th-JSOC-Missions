@@ -9,6 +9,7 @@
 7. Execute Init, Zeus FPS View and Carpet Run scripts
  
 
+_this setPosATL [getPosATL _this select 0, getPosATL _this select 1, 14.5];
 
 
 
@@ -29,3 +30,197 @@ After nearly three weeks of burning large amounts of aviation fuel desperately n
 Kinnard replaces 1st Brigade with 3rd Brigade on the 9th of November.
 
 The 3rd Brigade is alerted to a communist assembly area on the Chupong mountain to the west holding at least three NVA regiments and under pressure from the increasingly impatient General Westmoreland, the 3rd Brigade Commander Colonel Tim Brown tells the 3rd Brigade's 1st Battalion 77th Cavalry Regiment Commander Colonel Knight to take his Company to search the east edge of Chupong Mountain the next day.
+
+
+
+
+
+A3\Enoch\addons\props_f_enoch.pbo\Civilian\Info Boards\data\MapBoard_Enoch_CO.paa
+
+a3\missions_f_oldman\data\img\screens\MillerNtbScreen02_co.paa
+
+
+selected_object = (get3DENSelected "object" select 0);
+copyToClipboard str (getPosASL selected_object);
+
+
+a3\armor_f\data\pip_cover_nato_co.paa
+a3\props_f_decade\objectives\data\computerscreen_flame_ca.paa
+a3\armor_f\data\pip_cover_csat_co.paa
+
+a3\props_f_decade\objectives\data\computerscreen_flame_ca.paa
+
+a3\props_f_decade\objectives\data\linkterminal_box_01_co.paa
+a3\props_f_decade\objectives\data\linkterminal_box_02_co.paa
+a3\props_f_decade\objectives\data\linkterminal_01_ntb_ant_co.paa
+a3\props_f_decade\objectives\data\linknode_01_main_f_acessories_co.paa
+
+a3\props_f_decade\objectives\data\computerscreen_flame_ca.paa
+
+a3\data_f_exp_b\data\fm_learn_combataudio_ca.paa
+
+
+a3\structures_f_enoch\commercial\fuelstation_03\data\a_fuelstation_billboard_co.paa
+a3\structures_f_epb\items\documents\data\leaflets_co.paa
+
+
+a3\missions_f_exp\video\exp_m06_vintel.ogv
+
+
+
+
+
+
+
+
+[[[],[],[],["UK3CB_GAF_O_U_CombatUniform_05_DIGI",[]],[],["rhs_r148",[]],"UK3CB_H_Cap_DPM_SA","",["Hate_Smartphone_HUD","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","UK3CB_Tactical_Gloves_green_NVG"]],[]]
+
+
+
+if (!local this) exitWith {};
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "UK3CB_GAF_O_U_CombatUniform_05_DIGI";
+this addBackpack "rhs_r148";
+this addWeapon "Hate_Smartphone_HUD";
+this addHeadgear "UK3CB_H_Cap_DPM_SA";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "ItemGPS";
+this linkItem "UK3CB_Tactical_Gloves_green_NVG";
+[this,"WhiteHead_20","rhs_male05cz"] call BIS_fnc_setIdentity;
+
+
+
+
+
+
+
+
+
+
+
+if (!local this) exitWith {};
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this addWeapon "rhs_weap_makarov_pm";
+this addHandgunItem "rhs_mag_9x18_8_57N181S";
+this forceAddUniform "UK3CB_GAF_O_U_CombatUniform_01_DIGI";
+this addVest "UK3CB_GAF_O_MBAV_DIGI";
+this addWeapon "Binocular";
+this addHeadgear "UK3CB_GAF_O_H_Off_Beret";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "ItemGPS";
+[this,"WhiteHead_02","rhs_male02cz"] call BIS_fnc_setIdentity;
+
+
+
+
+
+
+
+
+
+_object addAction ["Play Sound for BLUFOR", {
+	"soundName" remoteExec ["playSound", allPlayers select {side _x == west}];
+}];
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Author: mharis001
+ * Add an intel action to the given object.
+ *
+ * Arguments:
+ * 0: Object <OBJECT>
+ * 1: Share With (0 - Side, 1 - Group, 2 - Nobody) <NUMBER>
+ * 2: Delete On Completion <BOOL>
+ * 3: Action Type (0 - Hold Action, 1 - ACE Interaction Menu) <NUMBER>
+ * 4: Action Text <STRING>
+ * 5: Action Sounds <ARRAY>
+ * 6: Action Duration <NUMBER>
+ * 7: Intel Title <STRING>
+ * 8: Intel Text <STRING>
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * [_object, 0, true, 0, "Pick Up Intel", 1, "Intel!", "Notes..."] call zen_modules_fnc_addIntelAction
+ *
+ * Public: No
+ */
+
+[_object, 0, true, 0, "Pick Up Intel", 1, "Intel!", "Notes..."] call zen_modules_fnc_addIntelAction
+
+private _sounds = [[], ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]];
+
+private _laptopsearchsound = ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"];
+
+
+private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+
+
+private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"];
+[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 2."] call zen_modules_fnc_addIntelAction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dropsite Victor:
+[9012.796, 616.186, 0]
+
+Dropsite Uniform:
+[5281.178, 4738.698, 0]
+
+Dropsite Alpha:
+[9954.423, 5602.701, 0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

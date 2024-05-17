@@ -14,7 +14,7 @@
 
 0 = [] spawn { 
 mapclick = true; 
-onMapSingleClick "carpetbomb_pos = _pos;"; 
+onMapSingleClick "mapclick_pos = _pos;"; 
 };
 
 
@@ -95,6 +95,56 @@ addMissionEventHandler ["Draw3D", {
 
 
 
+//   ______   __        ________   ______   __    __        __    __  _______  
+//  /      \ |  \      |        \ /      \ |  \  |  \      |  \  |  \|       \ 
+// |  $$$$$$\| $$      | $$$$$$$$|  $$$$$$\| $$\ | $$      | $$  | $$| $$$$$$$\
+// | $$   \$$| $$      | $$__    | $$__| $$| $$$\| $$      | $$  | $$| $$__/ $$
+// | $$      | $$      | $$  \   | $$    $$| $$$$\ $$      | $$  | $$| $$    $$
+// | $$   __ | $$      | $$$$$   | $$$$$$$$| $$\$$ $$      | $$  | $$| $$$$$$$ 
+// | $$__/  \| $$_____ | $$_____ | $$  | $$| $$ \$$$$      | $$__/ $$| $$      
+//  \$$    $$| $$     \| $$     \| $$  | $$| $$  \$$$       \$$    $$| $$      
+//   \$$$$$$  \$$$$$$$$ \$$$$$$$$ \$$   \$$ \$$   \$$        \$$$$$$  \$$      
+
+
+// Delete Compound Interior
+{
+	if !(isNull _x) then { deleteVehicle _x; };
+} foreach gulag_interior;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //   ______    ______   _______   _______   ________  ________        _______   __    __  __    __ 
 //  /      \  /      \ |       \ |       \ |        \|        \      |       \ |  \  |  \|  \  |  \
 // |  $$$$$$\|  $$$$$$\| $$$$$$$\| $$$$$$$\| $$$$$$$$ \$$$$$$$$      | $$$$$$$\| $$  | $$| $$\ | $$
@@ -108,7 +158,7 @@ addMissionEventHandler ["Draw3D", {
 
 
 ROOT_fnc_carpetBombing = {
-	params [["_bomberclass", "uns_b52h_alu"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100],["_spawndist", 5000],["_spawnalt", 1000]];
+	params [["_bomberclass", "usaf_kc135"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100],["_spawndist", 5000],["_spawnalt", 1000]];
 	if (_bomblocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
 	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid Bomb Class"};
 	if (!isClass (configFile >> "CfgVehicles" >> _bomberclass)) exitWith {systemchat "Invalid Bomber Class"};
@@ -171,7 +221,11 @@ ROOT_fnc_carpetBombing = {
 //  \$$   \$$  \$$$$$$  \$$   \$$       \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
 
 
-["uns_b52h_alu", 2, "Bo_Mk82_MI08", carpetbomb_pos, 0, 50, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
+["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 50, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
 
 
-carpetbomb_pos = [0,0,0];
+mapclick_pos = [0,0,0];
+
+
+
+
