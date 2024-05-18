@@ -297,6 +297,8 @@
 			waitUntil {!isNil 'M9SD_fnc_RE2_V3'};
 			if (true) exitWith {true};
 		};
+
+
 		waitUntil {scriptDone _initREpack};
 		waitUntil {!isNil 'M9SD_fnc_REinit2_V3'};
 
@@ -304,15 +306,15 @@
 		M9_tmpREfnc_svmspc = {
 			(_this # 0) setVelocityModelSpace (_this # 1);
 		};
+
+
 		['M9_tmpREfnc_svmspc'] call M9SD_fnc_REinit2_V3;
 		waitUntil {!isNil 'RE2_M9_tmpREfnc_svmspc'};
-
 		if (isnil 'M9SD_rocketDebugMode') then {M9SD_rocketDebugMode = 0;};
-
 		7000 remoteExec ['setViewDistance'];
 		7000 remoteExec ['setObjectViewDistance'];
-
 		rocketPFXSize = 0.5;
+
 
 		M9SD_fnc_rocketCleanup = {
 			waitUntil {sleep 0.1;
@@ -330,8 +332,8 @@
 
 		};
 
-		M9_SD_fnc_moduleSafeLightningBolt = 
-		{
+
+		M9_SD_fnc_moduleSafeLightningBolt = {
 			params [["_object", objNull]];
 			_object spawn 
 			{
@@ -401,7 +403,6 @@
 						
 		};
 		"M9_SD_fnc_moduleSafeLightningBolt = {};";
-
 
 
 		M9SD_fnc_rocketIgnition = {
@@ -825,8 +826,6 @@
 		};
 
 
-
-
 		M9SD_fnc_rocketAscent = {
 
 			0 = [_this] spawn {
@@ -954,6 +953,7 @@
 				
 			};
 		};
+
 
 		M9SD_fnc_launchRocket = {
 			params [['_rocket', objNull]];
