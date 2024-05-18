@@ -299,6 +299,8 @@
 		};
 		waitUntil {scriptDone _initREpack};
 		waitUntil {!isNil 'M9SD_fnc_REinit2_V3'};
+
+
 		M9_tmpREfnc_svmspc = {
 			(_this # 0) setVelocityModelSpace (_this # 1);
 		};
@@ -307,16 +309,10 @@
 
 		if (isnil 'M9SD_rocketDebugMode') then {M9SD_rocketDebugMode = 0;};
 
-
-
 		7000 remoteExec ['setViewDistance'];
 		7000 remoteExec ['setObjectViewDistance'];
 
-
-
 		rocketPFXSize = 0.5;
-
-
 
 		M9SD_fnc_rocketCleanup = {
 			waitUntil {sleep 0.1;
@@ -333,9 +329,6 @@
 
 
 		};
-
-
-
 
 		M9_SD_fnc_moduleSafeLightningBolt = 
 		{
@@ -2029,7 +2022,9 @@
 
 
 		M9SD_fnc_initRocketSequence_landing = {
-			params ["_landingposition"];
+			params ["_landingposition", "_addDelay"];
+
+			uiSleep _addDelay;
 			
 			if ((call M9SD_fnc_countRockets > 20) && (M9SD_rocketDebugMode != 1)) exitWith {
 				systemChat "ROCKET SCRIPT: Cannot spawn more than 20 rockets at a time!";
@@ -2061,20 +2056,11 @@
 			_rocket spawn M9SD_fnc_rocketCleanup;
 		};
 
-		0 = [] spawn M9SD_fnc_initRocketSequence_landing;
-
-		uiSleep 1000;
-		[9012.796, 616.186, 0] spawn M9SD_fnc_initRocketSequence_landing;
-		uiSleep 300;
-		[9954.423, 5602.701, 0] spawn M9SD_fnc_initRocketSequence_landing;
-		uiSleep 600;
-		[9954.423, 5602.701, 0] spawn M9SD_fnc_initRocketSequence_landing;
-
-
+		
 	};
 
 
-
+[mapclick_pos, 1] spawn M9SD_fnc_initRocketSequence_landing;
 
 
 
