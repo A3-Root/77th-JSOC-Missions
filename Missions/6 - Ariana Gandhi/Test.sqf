@@ -15,9 +15,9 @@
  * None
  *
  * Example:
- * ["CREATE", 5, [5091.82,6482.27,0]] spawn ROOT_fnc_rocketAIOModule;
- * ["LAUNCH", 2] spawn ROOT_fnc_rocketAIOModule;
- * ["LAND", 5, [5091.82,6482.27,0]] spawn ROOT_fnc_rocketAIOModule;
+ * ["CREATE", 0, [5141.23,6478.69,0]] spawn ROOT_fnc_rocketAIOModule;
+ * ["LAUNCH", 0] spawn ROOT_fnc_rocketAIOModule;
+ * ["LAND", 0, [5141.23,6478.69,0]] spawn ROOT_fnc_rocketAIOModule;
  *
  * Public: No (unless Remote-Executed intentionally)
  * 
@@ -44,6 +44,7 @@ ROOT_fnc_rocketAIOModule = {
 
 
     ROOT_fnc_cleanupRockets = {
+        diag_log format ["*********************************************************** Entering ROOT_fnc_cleanupRockets *********************************************************************"];
         private _rocketComps = missionNamespace getVariable ['ROOT_rocketComps', []];
         private _newRocketCompArray = _rocketComps;
         private _rocketCompCount = count _rocketComps;
@@ -76,6 +77,7 @@ ROOT_fnc_rocketAIOModule = {
             };
         } forEach _rocketComps;
         if (_deleteCount_comps > 0) then { missionNamespace setVariable ['ROOT_rocketComps', _newRocketCompArray, true]; };
+        ROOT_rocketCleanupRunning = false;
     };
 
 
@@ -94,6 +96,7 @@ ROOT_fnc_rocketAIOModule = {
 
     ROOT_fnc_createRocket = {
         params ["_createPosition", "_sleepdelay"];
+        diag_log format ["*********************************************************** Entering ROOT_fnc_createRocket *********************************************************************"];
         uiSleep _sleepdelay;
         private _rocketBaseObj = "Land_Pod_Heli_Transport_04_bench_F" createVehicle _createPosition;
         rocketBaseObj = _rocketBaseObj;
@@ -144,7 +147,7 @@ ROOT_fnc_rocketAIOModule = {
             ROOT_rocketCleanupRunning = true;
             while {ROOT_rocketCleanupRunning} do {
                 call ROOT_fnc_cleanupRockets;
-                sleep 0.5;
+                sleep 2;
             };
         };
         _rocketComp;
@@ -954,9 +957,9 @@ ROOT_fnc_rocketAIOModule = {
         private _acefireFX = 
         {
             private _firePos = getPos _this;
-            private _endTime = diag_tickTime + 22;
+            private _endTime = diag_tickTime + 20;
             while { diag_tickTime < _endTime } do {
-                uiSleep 0.5;
+                uiSleep 5;
                 {
                     private _distanceFromRocket = (vehicle _x) distance2D _firePos;
                     private _unit = _x;
@@ -1223,7 +1226,7 @@ ROOT_fnc_rocketAIOModule = {
             ROOT_rocketCleanupRunning = true;
             while {ROOT_rocketCleanupRunning} do {
                 call ROOT_fnc_cleanupRockets;
-                sleep 0.5;
+                sleep 2;
             };
         };
         _rocketBaseObj setDir random 360;
@@ -1342,6 +1345,7 @@ ROOT_fnc_rocketAIOModule = {
 
     ROOT_fnc_rocketLand = {
         params ["_landingposition", "_addDelay"];
+        diag_log format ["*********************************************************** Entering ROOT_fnc_rocketLand *********************************************************************"];
         uiSleep _addDelay;
         ROOT_sShipLandPos = _landingposition;
         private _rocketComp = ROOT_sShipLandPos call ROOT_fnc_rocketAssembly_landing;
@@ -1361,15 +1365,7 @@ ROOT_fnc_rocketAIOModule = {
         _rocket call ROOT_fnc_rocketIgnition_landingBurn;
         _rocket call ROOT_fnc_rocketDescent;
         _rocket spawn ROOT_fnc_rocketCleanup;
-        uiSleep 45;
-        private _possible_rocket = (nearestObjects [_landingposition, ["Land_Pod_Heli_Transport_04_bench_F"], 20]) select 0;
-        private _attobjs = attachedObjects _possible_rocket;
-        {
-            deleteVehicle _x;
-        } foreach (_attobjs);
-        deleteVehicle _possible_rocket;
-        uiSleep 1;
-        [_landingposition, 0] spawn ROOT_fnc_createRocket;
+        uiSleep 25;
     };
 
 
@@ -1379,7 +1375,12 @@ ROOT_fnc_rocketAIOModule = {
     newVD = if ((_objVD < _minimumVD) or (_vd < _minimumVD)) then {_minimumVD} else {_objVD};
     switch (_action) do {
         case "CREATE": {[_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;};
-        case "LAND": {[_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;};
+        case "LAND": {
+            private _land_rocket = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
+            waitUntil {scriptDone _land_rocket};
+            call ROOT_fnc_cleanupRockets;
+            [_aiorocket_position, 5] spawn ROOT_fnc_createRocket;
+            };
         case "LAUNCH": {[_sleepdelay] spawn ROOT_fnc_launchAllRockets;};
         default {hint "ERROR! INVALID CASE!"};
     };
