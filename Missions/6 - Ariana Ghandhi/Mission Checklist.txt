@@ -1,35 +1,21 @@
 // DO NOT CRASH THE SERVER
 
-1. Execute Mission Zeus SQF
-2. Remove grass at airstrip
-3. Spawn AC-47s & respawn the M-113 ACAV vehicles to match the paint
+1. Hide Terrain @ Solana
+2. Remove base addons
+3. Execute Mission Zeus SQF
+4. Change clothes matching that of CIA Officer
+5. You are now Andrew Ryan (from Bioshock)
 4. Make zeuses invincible
 5. Set time to 6 AM and pause time
 6. Set time accelaration as needed
 7. Execute Init, Zeus FPS View and Carpet Run scripts
- 
-
-_this setPosATL [getPosATL _this select 0, getPosATL _this select 1, 14.5];
 
 
 
+A man chooses, a slave obeys. ~ Andrew Ryan
 
 === [[[ Verbal Briefing ]]]  === 
 
-
-
-
-Three weeks ago in October, the People's Army of Vietnam also known as the North Vietnamese Army or NVA launched a new offensive against the Pleiku province of South Vietnam. NVA Major General Chu Hui Man believed that if he can destroy the South Vietnamese forces in the region along with any U.S. Reinforcements the NVA can gain control of the Pleiku province.
-
-As such, General Mann's forces completed their trek down the Ho Chi Minh trail through Laos and Cambodia and launched a siege against Plei Me, the HQ of the South Vietnamese Army's II Corps. A joint U.S. and South Vietnamese armoured column to moved to Plei Me from
-Plaiku to relief the defenders but was hit by an ambush by the NVA's 32nd Regiment. The Armored Coloum managed to hold off the ambush while also sustaining heavy casualties and made the NVA troops begin a fighting withdrawal to the Cambodian border.
-
-Major General Harry Kinnard, Commander of The First Cavalry Division deployed in the region since September, saw this as an opportunity to demonstrate the potency of helicopter-borne Air Cavalry Division by hunting down and rapidly deploying infantry against the retreating vietnamese forces hidden in the forest.
-
-After nearly three weeks of burning large amounts of aviation fuel desperately needed elsewhere in the war, the First Brigade have only achieved small-scale skirmishes and ambushes against the retreating force and not a knockout blow. Frustrated with the lack of results
-Kinnard replaces 1st Brigade with 3rd Brigade on the 9th of November.
-
-The 3rd Brigade is alerted to a communist assembly area on the Chupong mountain to the west holding at least three NVA regiments and under pressure from the increasingly impatient General Westmoreland, the 3rd Brigade Commander Colonel Tim Brown tells the 3rd Brigade's 1st Battalion 77th Cavalry Regiment Commander Colonel Knight to take his Company to search the east edge of Chupong Mountain the next day.
 
 
 
@@ -147,11 +133,6 @@ _object addAction ["Play Sound for BLUFOR", {
 
 
 
-
-
-
-
-
 /*
  * Author: mharis001
  * Add an intel action to the given object.
@@ -202,6 +183,33 @@ private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntel
 
 
 
+
+
+
+
+
+
+
+
+
+
+The island of Laghisola, once a tranquil haven, has been thrust into chaos and conflict. Recently annexed by the Grozovian government, this strategic piece of land has become a focal point of military power. Partnering with Russia, the Grozovian regime has established a formidable military presence on the island. The collaboration has led to a grim campaign of ethnic cleansing, turning Laghisola into a fortified stronghold. The last remnants of the refugee population are now huddled in the town of Esperan, their existence threatened by constant violence.
+
+Esperan, a town once known for its vibrant community, is now a battleground. Rebel groups, determined to resist the Grozovian occupation, clash frequently with the heavily armed Grozovian forces. Amidst this turmoil, the United Nations has managed to establish a small aid mission in Esperan, a beacon of hope in a sea of despair. However, the mission's efforts are hindered by the omnipresent threat of attack and the oppressive oversight of Russian forces.
+
+Amid this backdrop of conflict, a new layer of mystery and urgency has been added. A covert team sent by US SOCCOM, disguised as UN Field Officers, was deployed to Laghisola to investigate an undisclosed issue of high importance involving experimental and advanced UAVs. This team, skilled and prepared, confirmed the coordinates of three critical sites before all contact was abruptly lost. The sites, code-named 'Dropsite Alpha,' 'Dropsite Victor,' and 'Dropsite Uniform,' have since remained shrouded in silence.
+
+Compounding the crisis, an American journalist and their crew, who were documenting the humanitarian and military situation on the island, have also gone missing. Their last known location was within the volatile region surrounding Esperan. Fears grow that they have been captured by Grozovian forces, their fate uncertain.
+
+To address this escalating crisis, the 77th JSOC has been mobilized. Under the guise of a search and rescue mission for the missing journalist and the 4 undercover UN field operatives, the 77th JSOC team will infiltrate the Laghisola islands. The primary goal is to locate and secure the three dropsites whose significance is closely guarded. While the official narrative focuses on the humanitarian aspect of rescuing the journalist, the underlying mission is of paramount importance.
+
+Once the dropsites have been secured and the informations retrived from the UAVs, the team will then further investigate the disappearance of the UN field operatives and the journalists.
+
+
+
+
+
+
 Dropsite Victor:
 [9012.796, 616.186, 0]
 
@@ -210,17 +218,4 @@ Dropsite Uniform:
 
 Dropsite Alpha:
 [9954.423, 5602.701, 0]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
