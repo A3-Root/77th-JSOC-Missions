@@ -1,4 +1,4 @@
-// Steel Anvil Scripts
+// Ariana Ghandhi Scripts
 
 
 //  ______  __    __  ______  ________ 
@@ -12,10 +12,12 @@
 //  \$$$$$$ \$$   \$$ \$$$$$$    \$$ 
 
 
+ROOT_debugMode = false;
 0 = [] spawn { 
 mapclick = true; 
 onMapSingleClick "mapclick_pos = _pos;"; 
 };
+mapclick_pos = [0,0,0];
 
 
 
@@ -43,7 +45,7 @@ onMapSingleClick "mapclick_pos = _pos;";
             };
         };
     };
-}] remoteExec ["spawn", 0, true];
+}] remoteExec ["spawn", [0, -2] select isDedicated, true];
 
 JSOC_showFrames = true;
 
@@ -144,7 +146,6 @@ ROOT_fnc_carpetBombing = {
 		uiSleep 0.5;
 		_spawnalt = _spawnalt + 25;
 	};
-	if (_bomberclass == "uns_A6_Intruder_GBU") then { uiSleep 25; } else { uiSleep 35; };
 	_firstImpactPos = (_bomblocation getPos [(_distance / 2),_direction + 180]) vectorAdd [0,0,200];
 	_posincrement = _distance / _amount;
 	_randomsound = selectRandom ["BattlefieldJet1_3D","BattlefieldJet2_3D","BattlefieldJet3_3D"];
@@ -180,99 +181,6 @@ ROOT_fnc_carpetBombing = {
 
 
 
-//  _______   ________  __       __          ________  __    __  ________   ______  
-// |       \ |        \|  \     /  \        |        \|  \  |  \|        \ /      \ 
-// | $$$$$$$\| $$$$$$$$| $$\   /  $$        | $$$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$\
-// | $$__| $$| $$__    | $$$\ /  $$$ ______ | $$__     \$$\/  $$| $$__    | $$   \$$
-// | $$    $$| $$  \   | $$$$\  $$$$|      \| $$  \     >$$  $$ | $$  \   | $$      
-// | $$$$$$$\| $$$$$   | $$\$$ $$ $$ \$$$$$$| $$$$$    /  $$$$\ | $$$$$   | $$   __ 
-// | $$  | $$| $$_____ | $$ \$$$| $$        | $$_____ |  $$ \$$\| $$_____ | $$__/  \
-// | $$  | $$| $$     \| $$  \$ | $$        | $$     \| $$  | $$| $$     \ \$$    $$
-//  \$$   \$$ \$$$$$$$$ \$$      \$$         \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
-
-
-ROOT_fnc_acefireFX = {
-	params ["_position"];
-    if (ROOT_debugMode) then {
-        diag_log format ["*********************************************************** Entering ROOT_fnc_acefireFX ***********************************************************"];
-        diag_log format ["Position: %1", _position];
-    };
-	private _firePos = getPos _position;
-	private _endTime = diag_tickTime + 20;
-    private _tempTime = _endTime / 1.5;
-    private _bodypart = ["Head", "RightLeg", "LeftArm", "Body", "LeftLeg", "RightArm"];
-    private _visibility = 0;
-	while { diag_tickTime < _endTime } do {
-		uiSleep 0.5;
-        private _distanceFromRocket = (vehicle player) distance2D _firePos;
-        private _burndmg = 0;
-        switch true do {
-            case (_distanceFromRocket <= 50) : {_burndmg = 10};
-            case (_distanceFromRocket <= 75) : {_burndmg = 5};
-            case (_distanceFromRocket <= 100) : {_burndmg = 3};
-            case (_distanceFromRocket <= 125) : {_burndmg = 1};
-            case (_distanceFromRocket <= 150) : {_burndmg = 0.3};
-            default {_burndmg = 0};
-        };
-        _visibility = [objNull, "VIEW"] checkVisibility [(eyePos player), (getPosASL _position)];
-        if (ROOT_debugMode) then {
-            diag_log format ["********** Visibility:  %1", _visibility];
-        };            
-        if ( _visibility > 0) then {
-            if (diag_tickTime < _tempTime) then {
-                [player, _burndmg] call ace_fire_fnc_burn;
-            };
-            {
-                [player, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
-            } forEach _bodypart;
-        };
-	};
-};
-
-
-
-ROOT_fnc_acefireFX = compileFinal {
-	params ["_position"];
-    if (ROOT_debugMode) then {
-        diag_log format ["*********************************************************** Entering ROOT_fnc_acefireFX ***********************************************************"];
-        diag_log format ["Position: %1", _position];
-    };
-	private _firePos = getPos _position;
-	private _endTime = diag_tickTime + 20;
-    private _tempTime = _endTime / 1.5;
-    private _bodypart = ["Head", "RightLeg", "LeftArm", "Body", "LeftLeg", "RightArm"];
-    private _visibility = 0;
-	while { diag_tickTime < _endTime } do {
-		uiSleep 0.5;
-        private _distanceFromRocket = (vehicle player) distance2D _firePos;
-        private _burndmg = 0;
-        switch true do {
-            case (_distanceFromRocket <= 50) : {_burndmg = 10};
-            case (_distanceFromRocket <= 75) : {_burndmg = 5};
-            case (_distanceFromRocket <= 100) : {_burndmg = 3};
-            case (_distanceFromRocket <= 125) : {_burndmg = 1};
-            case (_distanceFromRocket <= 150) : {_burndmg = 0.3};
-            default {_burndmg = 0};
-        };
-        _visibility = [objNull, "VIEW"] checkVisibility [(eyePos player), (getPosASL _position)];
-        if (ROOT_debugMode) then {
-            diag_log format ["********** Visibility:  %1", _visibility];
-        };            
-        if ( _visibility > 0) then {
-            if (diag_tickTime < _tempTime) then {
-                [player, _burndmg] call ace_fire_fnc_burn;
-            };
-            {
-                [player, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
-            } forEach _bodypart;
-        };
-	};
-};
-publicVariable "ROOT_fnc_acefireFX";
-
-
-
-
 //  __    __   ______   __    __        ________  __    __  ________   ______  
 // |  \  |  \ /      \ |  \  |  \      |        \|  \  |  \|        \ /      \ 
 // | $$\ | $$|  $$$$$$\| $$\ | $$      | $$$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$\
@@ -284,17 +192,13 @@ publicVariable "ROOT_fnc_acefireFX";
 //  \$$   \$$  \$$$$$$  \$$   \$$       \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
 
 
-ROOT_debugMode = false;
-
 ["CREATE", 0, [5128.81,6535.72,0]] spawn ROOT_fnc_rocketAIOModule;
 ["LAUNCH", 0] spawn ROOT_fnc_rocketAIOModule;
 ["LAND", 0, [5128.81,6535.72,0]] spawn ROOT_fnc_rocketAIOModule;
+
 
 ["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 50, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
 
 
 mapclick_pos = [0,0,0];
-
-
-
 

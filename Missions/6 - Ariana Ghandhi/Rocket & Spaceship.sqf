@@ -1,3 +1,42 @@
+ROOT_fnc_acefireFX = compileFinal {
+	params ["_position"];
+    if (ROOT_debugMode) then {
+        diag_log format ["*********************************************************** Entering ROOT_fnc_acefireFX ***********************************************************"];
+        diag_log format ["Position: %1", _position];
+    };
+	private _firePos = getPos _position;
+	private _endTime = diag_tickTime + 20;
+    private _tempTime = _endTime / 1.5;
+    private _bodypart = ["Head", "RightLeg", "LeftArm", "Body", "LeftLeg", "RightArm"];
+    private _visibility = 0;
+	while { diag_tickTime < _endTime } do {
+		uiSleep 0.5;
+        private _distanceFromRocket = (vehicle player) distance2D _firePos;
+        private _burndmg = 0;
+        switch true do {
+            case (_distanceFromRocket <= 50) : {_burndmg = 10};
+            case (_distanceFromRocket <= 75) : {_burndmg = 5};
+            case (_distanceFromRocket <= 100) : {_burndmg = 3};
+            case (_distanceFromRocket <= 200) : {_burndmg = 1};
+            default {_burndmg = 0};
+        };
+        _visibility = [objNull, "VIEW"] checkVisibility [(eyePos player), (getPosASL _position)];
+        if (ROOT_debugMode) then {
+            diag_log format ["********** Visibility:  %1", _visibility];
+        };            
+        if ( _visibility > 0) then {
+            if (diag_tickTime < _tempTime) then {
+                [player, _burndmg] call ace_fire_fnc_burn;
+            };
+            {
+                [player, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
+            } forEach _bodypart;
+        };
+	};
+};
+publicVariable "ROOT_fnc_acefireFX";
+
+
 ROOT_fnc_rocketAIOModule = {
     params ["_action", ["_sleepdelay", 0], ["_aiorocket_position", [0,0,0]]];
     TEMP_ROCKETLAND = [];
@@ -1388,7 +1427,7 @@ ROOT_fnc_rocketAIOModule = {
                 diag_log format ["*********************************************************** VARIABLES ***********************************************************"];
                 diag_log format ["*********************************************************** Creating rocket ***********************************************************"];
             };
-            [_aiorocket_position, 0] spawn ROOT_fnc_createRocket;
+            [_aiorocket_position, 1] spawn ROOT_fnc_createRocket;
         };
         case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};

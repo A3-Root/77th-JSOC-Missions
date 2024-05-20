@@ -1,4 +1,4 @@
-// Export of 'Operation: Ariana Ghandhi @ Laghisola' by [Pfc.] Root on May 17, 2024 for 77th JSOC.
+// Export of 'Operation: Ariana Ghandhi @ Laghisola' by [Pfc.] Root on May 20, 2024 for 77th JSOC.
 
 private _allWhitelisted = true;
 private _layerRoot = true;
