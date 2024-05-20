@@ -1,66 +1,11 @@
-/*
- * 
- * Author: Root (Originally by M9SD)
- * To create, launch, and land rockets in ARMA 3
- * Made exclusively for use in mission on 77th JSOC
- * Can be executed in any valid order
- * 
- * 
- * Arguments:
- * 0: Action (CREATE / LAUNCH / LAND) <STRING>
- * 0: Execution Delay <NUMBER> (OPTIONAL)
- * 1: POSITION <ARRAY> (OPTIONAL FOR LAUNCH)
- * 
- * Return Value:
- * None
- *
- * Example:
- * ["CREATE", 0, [5141.23,6478.69,0]] spawn ROOT_fnc_rocketAIOModule;
- * ["LAUNCH", 0] spawn ROOT_fnc_rocketAIOModule;
- * ["LAND", 0, [5141.23,6478.69,0]] spawn ROOT_fnc_rocketAIOModule;
- *
- * Public: No (unless Remote-Executed intentionally)
- * 
- */
-
-
-
-
-ROOT_fnc_acefireFX = {
-	params ["_position"];
-	private _firePos = getPos _position;
-	private _endTime = diag_tickTime + 20;
-	while { diag_tickTime < _endTime } do {
-		uiSleep 5;
-		{
-			private _distanceFromRocket = (vehicle _x) distance2D _firePos;
-			private _unit = _x;
-			private _burndmg = 0;
-			switch true do {
-				case (_distanceFromRocket <= 50) : {_burndmg = 10};
-				case (_distanceFromRocket <= 75) : {_burndmg = 5};
-				case (_distanceFromRocket <= 100) : {_burndmg = 3};
-				case (_distanceFromRocket <= 125) : {_burndmg = 1};
-				case (_distanceFromRocket <= 150) : {_burndmg = 0.3};
-				default {_burndmg = 0};
-			};
-			[_x, _burndmg] remoteExec ["ace_fire_fnc_burn", _x];
-			[_x, _burndmg, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-			[_x, _burndmg, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-			[_x, _burndmg, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-			[_x, _burndmg, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-			[_x, _burndmg, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-			[_x, _burndmg, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-		} forEach allUnits;	
-	};
-};
-
-
-
-
-
 ROOT_fnc_rocketAIOModule = {
     params ["_action", ["_sleepdelay", 0], ["_aiorocket_position", [0,0,0]]];
+    TEMP_ROCKETLAND = [];
+    private _objVD = getobjectviewdistance # 0;
+    private _vd = viewDistance;
+    private _minimumVD = 12800;
+    newVD = if ((_objVD < _minimumVD) or (_vd < _minimumVD)) then {_minimumVD} else {_objVD};
+
 
     ROOT_fnc_addObjectToGameMaster = {
         private _obj = _this;
@@ -70,117 +15,6 @@ ROOT_fnc_rocketAIOModule = {
                 [_x, [[_obj], true]] remoteExec ['addCuratorEditableObjects', owner _x];
             };
         } forEach allCurators;
-    };
-
-
-    ROOT_fnc_cleanupRockets = {
-        diag_log format ["*********************************************************** Entering ROOT_fnc_cleanupRockets *********************************************************************"];
-        private _rocketComps = missionNamespace getVariable ['ROOT_rocketComps', []];
-        private _newRocketCompArray = _rocketComps;
-        private _rocketCompCount = count _rocketComps;
-        private _deleteCount_comps = 0;
-        private _deleteCount_baseObj = 0;
-        private _deleteCount_fuselage = 0;
-        private _deleteCount_jipScripts = 0;
-        {
-            private _rocketComp = _x;
-            private _rocketBaseObj = _rocketComp # 0;
-            private _rocketFuselage = _rocketComp # 1;
-            private _jipIDs = _rocketComp # 2;
-            private _isRocketBaseNull = (isNull _rocketBaseObj) or (!alive _rocketBaseObj);
-            private _isRocketFuselageNull = (isNull _rocketFuselage) or (!alive _rocketFuselage);
-            if ((_isRocketBaseNull) or (_isRocketFuselageNull)) then {
-                _deleteCount_comps = _deleteCount_comps + 1;
-                if (_isRocketBaseNull) then {
-                    _deleteCount_baseObj = _deleteCount_baseObj + 1;
-                };
-                if (_isRocketFuselageNull) then {
-                    _deleteCount_fuselage = _deleteCount_fuselage + 1;
-                };
-                _deleteCount_jipScripts = _deleteCount_jipScripts + (count _jipIDs);
-                deleteVehicle _rocketBaseObj;
-                deleteVehicle _rocketFuselage;
-                {
-                    remoteExec ['', _x];
-                } forEach _jipIDs;
-                _newRocketCompArray deleteAt _forEachIndex;
-            };
-        } forEach _rocketComps;
-        if (_deleteCount_comps > 0) then { missionNamespace setVariable ['ROOT_rocketComps', _newRocketCompArray, true]; };
-        ROOT_rocketCleanupRunning = false;
-    };
-
-
-    ROOT_fnc_countRockets = {
-        if (isNil 'ROOT_rocketComps') exitWith {0};
-        private _counter = 0;
-        {
-            private _rocketObj = _x select 0;
-            if ((!isNull _rocketObj) && (alive _rocketObj)) then {
-                _counter = _counter + 1;
-            };
-        } forEach ROOT_rocketComps;
-        _counter;
-    };
-
-
-    ROOT_fnc_createRocket = {
-        params ["_createPosition", "_sleepdelay"];
-        diag_log format ["*********************************************************** Entering ROOT_fnc_createRocket *********************************************************************"];
-        uiSleep _sleepdelay;
-        private _rocketBaseObj = "Land_Pod_Heli_Transport_04_bench_F" createVehicle _createPosition;
-        rocketBaseObj = _rocketBaseObj;
-        for '_i' from -1 to 16 do {[_rocketBaseObj,[_i,'']] remoteExec ['setObjectTextureGlobal', 2] ;};
-        _rocketBaseObj call ROOT_fnc_addObjectToGameMaster;
-        private _rocketFuselage = createSimpleObject ["ammo_Missile_KH58", _createPosition];
-        rocketFuselage = _rocketFuselage;
-        private _jipIDs = [];
-        private _jipid_attachTo = format ["ROOT_JIP_rocket_attachTo_%1", str(_rocketFuselage)];
-        _jipIDs pushback _jipid_attachTo;
-        [_rocketFuselage,[_rocketBaseObj,[4.20,4.20,59.07]]] remoteExec ['attachTo', 0, _jipid_attachTo];
-        private _jipid_setVectorDirAndUp = format ["ROOT_JIP_rocket_setVectorDirAndUp_%1", str(_rocketFuselage)];
-        _jipIDs pushback _jipid_setVectorDirAndUp;
-        private _y = 0;
-        private _p = -90;
-        private _r = 90;
-        [
-            _rocketFuselage,
-            [   
-                [  
-                    sin _y * cos _p,   
-                    cos _y * cos _p,   
-                    sin _p  
-                ],                       
-                [  
-                    [  
-                        sin _r,   
-                        -sin _p,   
-                        cos _r * cos _p  
-                    ],   
-                    -_y  
-                ] call BIS_fnc_rotateVector2D   
-            ]
-        ] remoteExec ['setVectorDirAndUp', 0, _jipid_setVectorDirAndUp];
-        private _jipid_setObjectScale = format ["ROOT_JIP_rocket_setObjectScale_%1", str(_rocketFuselage)];
-        _jipIDs pushback _jipid_setObjectScale;
-        [_rocketFuselage, 29] remoteExec ['setObjectScale', 0, _jipid_setObjectScale];
-        if (isNil 'ROOT_rocketComps') then {
-            ROOT_rocketComps = [];
-            publicVariable 'ROOT_rocketComps';
-        };
-        private _rocketComp = [_rocketBaseObj, _rocketFuselage, _jipIDs];
-        ROOT_rocketComps pushback _rocketComp;
-        publicVariable 'ROOT_rocketComps';
-        private _initRocketCleanup = [] spawn {
-            if (!isNil 'ROOT_rocketCleanupRunning') exitWith {};
-
-            ROOT_rocketCleanupRunning = true;
-            while {ROOT_rocketCleanupRunning} do {
-                call ROOT_fnc_cleanupRockets;
-                sleep 2;
-            };
-        };
-        _rocketComp;
     };
 
 
@@ -269,14 +103,140 @@ ROOT_fnc_rocketAIOModule = {
     rocketPFXSize = 0.5;
 
 
+    if (isNil 'ROOT_fnc_cleanupRockets') then {
+        ROOT_fnc_cleanupRockets = {
+            if (ROOT_debugMode) then {
+                diag_log format ["*********************************************************** Entering ROOT_fnc_cleanupRockets ***********************************************************"];
+            };
+            private _rocketComps = missionNamespace getVariable ['ROOT_rocketComps', []];
+            private _newRocketCompArray = _rocketComps;
+            private _rocketCompCount = count _rocketComps;
+            private _deleteCount_comps = 0;
+            private _deleteCount_baseObj = 0;
+            private _deleteCount_fuselage = 0;
+            private _deleteCount_jipScripts = 0;
+            {
+                private _rocketComp = _x;
+                private _rocketBaseObj = _rocketComp # 0;
+                private _rocketFuselage = _rocketComp # 1;
+                private _jipIDs = _rocketComp # 2;
+                private _isRocketBaseNull = (isNull _rocketBaseObj) or (!alive _rocketBaseObj);
+                private _isRocketFuselageNull = (isNull _rocketFuselage) or (!alive _rocketFuselage);
+                if ((_isRocketBaseNull) or (_isRocketFuselageNull)) then {
+                    _deleteCount_comps = _deleteCount_comps + 1;
+                    if (_isRocketBaseNull) then {
+                        _deleteCount_baseObj = _deleteCount_baseObj + 1;
+                    };
+                    if (_isRocketFuselageNull) then {
+                        _deleteCount_fuselage = _deleteCount_fuselage + 1;
+                    };
+                    _deleteCount_jipScripts = _deleteCount_jipScripts + (count _jipIDs);
+                    deleteVehicle _rocketBaseObj;
+                    deleteVehicle _rocketFuselage;
+                    {
+                        remoteExec ['', _x];
+                    } forEach _jipIDs;
+                    _newRocketCompArray deleteAt _forEachIndex;
+                };
+            } forEach _rocketComps;
+            if (_deleteCount_comps > 0) then { missionNamespace setVariable ['ROOT_rocketComps', _newRocketCompArray, true]; };
+        };
+    };
+
+
+    ROOT_fnc_countRockets = {
+        if (isNil 'ROOT_rocketComps') exitWith {0};
+        private _counter = 0;
+        {
+            private _rocketObj = _x select 0;
+            if ((!isNull _rocketObj) && (alive _rocketObj)) then {
+                _counter = _counter + 1;
+            };
+        } forEach ROOT_rocketComps;
+        _counter;
+    };
+
+
+    ROOT_fnc_createRocket = {
+        params ["_createPosition", "_sleepdelay"];
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** Entering ROOT_fnc_createRocket ***********************************************************"];
+        };
+        uiSleep _sleepdelay;
+        private _rocketBaseObj = "Land_Pod_Heli_Transport_04_bench_F" createVehicle _createPosition;
+        rocketBaseObj = _rocketBaseObj;
+        for '_i' from -1 to 16 do {[_rocketBaseObj,[_i,'']] remoteExec ['setObjectTextureGlobal', 2] ;};
+        _rocketBaseObj call ROOT_fnc_addObjectToGameMaster;
+        private _rocketFuselage = createSimpleObject ["ammo_Missile_KH58", _createPosition];
+        rocketFuselage = _rocketFuselage;
+        private _jipIDs = [];
+        private _jipid_attachTo = format ["ROOT_JIP_rocket_attachTo_%1", str(_rocketFuselage)];
+        _jipIDs pushback _jipid_attachTo;
+        [_rocketFuselage,[_rocketBaseObj,[4.20,4.20,59.07]]] remoteExec ['attachTo', 0, _jipid_attachTo];
+        private _jipid_setVectorDirAndUp = format ["ROOT_JIP_rocket_setVectorDirAndUp_%1", str(_rocketFuselage)];
+        _jipIDs pushback _jipid_setVectorDirAndUp;
+        private _y = 0;
+        private _p = -90;
+        private _r = 90;
+        [
+            _rocketFuselage,
+            [   
+                [  
+                    sin _y * cos _p,   
+                    cos _y * cos _p,   
+                    sin _p  
+                ],                       
+                [  
+                    [  
+                        sin _r,   
+                        -sin _p,   
+                        cos _r * cos _p  
+                    ],   
+                    -_y  
+                ] call BIS_fnc_rotateVector2D   
+            ]
+        ] remoteExec ['setVectorDirAndUp', 0, _jipid_setVectorDirAndUp];
+        private _jipid_setObjectScale = format ["ROOT_JIP_rocket_setObjectScale_%1", str(_rocketFuselage)];
+        _jipIDs pushback _jipid_setObjectScale;
+        [_rocketFuselage, 29] remoteExec ['setObjectScale', 0, _jipid_setObjectScale];
+        if (isNil 'ROOT_rocketComps') then {
+            ROOT_rocketComps = [];
+            publicVariable 'ROOT_rocketComps';
+        };
+        private _rocketComp = [_rocketBaseObj, _rocketFuselage, _jipIDs];
+        ROOT_rocketComps pushback _rocketComp;
+        publicVariable 'ROOT_rocketComps';
+        private _initRocketCleanup = [] spawn {
+            if (!isNil 'ROOT_rocketCleanupRunning') exitWith {};
+
+            ROOT_rocketCleanupRunning = true;
+            while {ROOT_rocketCleanupRunning} do {
+                call ROOT_fnc_cleanupRockets;
+                sleep 2;
+            };
+        };
+        _rocketComp;
+    };
+
+
     ROOT_fnc_rocketCleanup = {
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** Entering ROOT_fnc_rocketCleanup ***********************************************************"];
+            diag_log format ["THIS: %1", _this];
+        };
         waitUntil {((isNull _this) or (!alive _this)) or (((getPosWorldVisual _this) # 2) > newVD)};
         private _waitAbit = 0;
         if (((getPosWorldVisual _this) # 2) > newVD) then {
             _waitAbit = 3;
         };
         private _rocketCountBefore = call ROOT_fnc_countRockets;
+        if (ROOT_debugMode) then {
+            diag_log format ["_rocketCountBefore: %1", _rocketCountBefore];
+        };
         private _attobjs = attachedObjects _this;
+        if (ROOT_debugMode) then {
+            diag_log format ["_attobjs: %1", _attobjs];
+        };
         {
             deleteVehicle _x;
         } foreach (attachedObjects _this);
@@ -286,10 +246,12 @@ ROOT_fnc_rocketAIOModule = {
         deleteVehicle _this;
         waitUntil {((isNull _this) && (!alive _this) && ((call ROOT_fnc_countRockets) != _rocketCountBefore))};
         private _rocketCountAfter = call ROOT_fnc_countRockets;
+        if (False) then {};
         if (_rocketCountAfter == 0) then {
             private _ogVD = missionNamespace getVariable ['ROOT_ogVD', 1600];
             private _ogOVD = missionNamespace getVariable ['ROOT_ogOVD', 1600];
             "_ogVD call ROOT_fnc_transitionViewDistance;";
+            if (False) then {};
         };
     };
 
@@ -384,6 +346,8 @@ ROOT_fnc_rocketAIOModule = {
                 };
             } forEach allPlayers;
         };
+
+
         private _soundFX = {
             private _object = _this;
             _object spawn {
@@ -427,8 +391,9 @@ ROOT_fnc_rocketAIOModule = {
             playSound3D ["A3\Sounds_F\ambient\quakes\earthquake4.wss", _object, false, getPosATL _object, 5, 0.5, 12800];
             playSound3D ["A3\Sounds_F\ambient\quakes\earthquake4.wss", _object, false, getPosATL _object, 5, 1, 12800];
         };
-        private _visualFX = 
-        {
+
+
+        private _visualFX = {
             private _posASL = getPosASL _this;  
             private _light_engine = createVehicle ["#lightpoint",_posASL,[],0,"CAN_COLLIDE"];
             [_light_engine,50] remoteExec ["setLightBrightness"];
@@ -652,37 +617,24 @@ ROOT_fnc_rocketAIOModule = {
                 deleteVehicle _this;
             };
         };
-        private _acefireFX = {
-            private _firePos = getPos _this;
-            private _endTime = diag_tickTime + 10;
-            while { diag_tickTime < _endTime } do {
-                uiSleep 0.5;
-                {
-                    private _distanceFromRocket = (vehicle _x) distance2D _firePos;
-                    private _unit = _x;
-                    private _burndmg = 0;
-                    switch true do {
-                        case (_distanceFromRocket <= 50) : {_burndmg = 10};
-                        case (_distanceFromRocket <= 75) : {_burndmg = 5};
-                        case (_distanceFromRocket <= 100) : {_burndmg = 3};
-                        case (_distanceFromRocket <= 125) : {_burndmg = 1};
-                        case (_distanceFromRocket <= 150) : {_burndmg = 0.3};
-                        default {_burndmg = 0};
-                    };
-                    [_x, _burndmg] remoteExec ["ace_fire_fnc_burn", _x];
-                    [_x, _burndmg, "Head", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                    [_x, _burndmg, "RightLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                    [_x, _burndmg, "LeftArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                    [_x, _burndmg, "Body", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                    [_x, _burndmg, "LeftLeg", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                    [_x, _burndmg, "RightArm", "burn"] remoteExec ["ace_medical_fnc_addDamageToUnit", _x];
-                } forEach allUnits;	
-            };
+
+
+        private _envdmg = {
+            private _posASL = getPosASL _this;
+            private _nearObjects = _this nearObjects 50;
+            {
+                if ((typeOf _x != "EmptyDetector") && (typeOf _x != "Land_Pod_Heli_Transport_04_bench_F") && (isNull (attachedTo _x))) then {
+                    _x setDamage 1;
+                };
+            } forEach _nearObjects;
         };
+
+
         _this call _camShake;
         _this spawn _visualFX;
         _this spawn _soundFX;
-        _this spawn _acefireFX;		
+        _this spawn _envdmg;
+        [_this] remoteExec ["ROOT_fnc_acefireFX", [0, -2] select isDedicated];	
     };
 
 
@@ -707,6 +659,8 @@ ROOT_fnc_rocketAIOModule = {
                 };
             } forEach allPlayers;
         };
+
+
         private _soundFX = {
             private _object = _this;
             _object spawn {
@@ -750,8 +704,9 @@ ROOT_fnc_rocketAIOModule = {
             playSound3D ["A3\Sounds_F\ambient\quakes\earthquake4.wss", _object, false, getPosATL _object, 5, 0.5, 12800];
             playSound3D ["A3\Sounds_F\ambient\quakes\earthquake4.wss", _object, false, getPosATL _object, 5, 1, 12800];
         };
-        private _visualFX = 
-        {
+
+
+        private _visualFX = {
             private _posASL = getPosASL _this;
             private _light_engine = createVehicle ["#lightpoint",_posASL,[],0,"CAN_COLLIDE"];
             [_light_engine,50] remoteExec ["setLightBrightness"];
@@ -978,21 +933,30 @@ ROOT_fnc_rocketAIOModule = {
                 
                 [_groundSmokeWave,[60, [-60, 60, 2.5]]] remoteExec ['setParticleCircle']; ;
                 _groundSmokeWave spawn {
-                
                     uiSleep 15;
                     deleteVehicle _this;
                 };
             };
         };
-        
-        
-        _this call _camShake;
-        
-        _this spawn _visualFX;
-        
-        _this spawn _soundFX;
 
-        _this spawn ROOT_fnc_acefireFx;
+
+        private _envdmg = {
+            private _posASL = getPosASL _this;
+            private _nearObjects = _this nearObjects 50;
+            {
+                if ((typeOf _x != "EmptyDetector") && (typeOf _x != "Land_Pod_Heli_Transport_04_bench_F") && (isNull (attachedTo _x))) then {
+                    _x setDamage 1;
+                };
+            } forEach _nearObjects;
+        };
+
+
+        _this call _camShake;
+        _this spawn _visualFX;
+        _this spawn _soundFX;
+        _this spawn _envdmg;
+        [_this] remoteExec ["ROOT_fnc_acefireFX", [0, -2] select isDedicated];
+
         
         _this spawn {
             waitUntil {((isNull _this) or (isTouchingGround _this))};
@@ -1175,9 +1139,15 @@ ROOT_fnc_rocketAIOModule = {
 
 
     ROOT_fnc_rocketAssembly_landing = {
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** Entering ROOT_fnc_rocketAssembly_landing ***********************************************************"];
+        };
         private _pos = _this;
         _pos set [2, ( _pos # 2 ) + 4000];
         private _rocketBaseObj = createVehicle ['Land_Pod_Heli_Transport_04_bench_F', _pos, [], 0, "CAN_COLLIDE"];
+        if (ROOT_debugMode) then {
+            diag_log format ["_rocketBaseObj: %1", _rocketBaseObj];
+        };
         _rocketBaseObj setVariable ['isLanding', true, true];
         _rocketBaseObj setPosATL _pos;
         _rocketBaseObj allowDamage false;
@@ -1185,6 +1155,9 @@ ROOT_fnc_rocketAIOModule = {
         for '_i' from -1 to 16 do {[_rocketBaseObj,[_i,'']] remoteExec ['setObjectTextureGlobal', 2] ;};
         _rocketBaseObj call ROOT_fnc_addObjectToGameMaster;
         private _rocketFuselage = createSimpleObject ["ammo_Missile_KH58", _pos];
+        if (ROOT_debugMode) then {
+            diag_log format ["_rocketFuselage: %1", _rocketFuselage];
+        };
         rocketFuselage = _rocketFuselage;
         private _jipIDs = [];
         private _jipid_attachTo = format ["ROOT_JIP_rocket_attachTo_%1", str(_rocketFuselage)];
@@ -1220,8 +1193,21 @@ ROOT_fnc_rocketAIOModule = {
             ROOT_rocketComps = [];
             publicVariable 'ROOT_rocketComps';
         };
+        if (ROOT_debugMode) then {
+            diag_log format ["_jipIDs: %1", _jipIDs];
+        };
         private _rocketComp = [_rocketBaseObj, _rocketFuselage, _jipIDs];
+        if (ROOT_debugMode) then {
+            diag_log format ["_rocketComp: [%1, %2, %3]", _rocketBaseObj, _rocketFuselage, _jipIDs];
+        };
+        TEMP_ROCKETLAND pushback _rocketComp;
+        if (ROOT_debugMode) then {
+            diag_log format ["TEMP_ROCKETLAND: %1", TEMP_ROCKETLAND];
+        };
         ROOT_rocketComps pushback _rocketComp;
+        if (ROOT_debugMode) then {
+            diag_log format ["ROOT_rocketComps: %1", ROOT_rocketComps];
+        };
         publicVariable 'ROOT_rocketComps';
         private _initRocketCleanup = [] spawn {
             if (!isNil 'ROOT_rocketCleanupRunning') exitWith {};
@@ -1229,7 +1215,7 @@ ROOT_fnc_rocketAIOModule = {
             ROOT_rocketCleanupRunning = true;
             while {ROOT_rocketCleanupRunning} do {
                 call ROOT_fnc_cleanupRockets;
-                sleep 2;
+                sleep 0.5;
             };
         };
         _rocketBaseObj setDir random 360;
@@ -1343,12 +1329,15 @@ ROOT_fnc_rocketAIOModule = {
             missionNamespace setVariable ['ROOT_ogOVD', _ogOVD, true];
         };
         "newVD call ROOT_fnc_transitionViewDistance;";
+        if (False) then {};
     };
 
 
     ROOT_fnc_rocketLand = {
         params ["_landingposition", "_addDelay"];
-        diag_log format ["*********************************************************** Entering ROOT_fnc_rocketLand *********************************************************************"];
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** Entering ROOT_fnc_rocketLand ***********************************************************"];
+        };
         uiSleep _addDelay;
         ROOT_sShipLandPos = _landingposition;
         private _rocketComp = ROOT_sShipLandPos call ROOT_fnc_rocketAssembly_landing;
@@ -1368,46 +1357,44 @@ ROOT_fnc_rocketAIOModule = {
         _rocket call ROOT_fnc_rocketIgnition_landingBurn;
         _rocket call ROOT_fnc_rocketDescent;
         _rocket spawn ROOT_fnc_rocketCleanup;
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** PRE-DELETE VARIABLES ***********************************************************"];
+            diag_log format ["****** _rocketComp = %1", _rocketComp];
+            diag_log format ["****** _rocket = %1", _rocket];
+            diag_log format ["****** ROOT_rocketComps = %1", ROOT_rocketComps];
+        };
         uiSleep 25;
+        deleteVehicle _rocket;
+        if (ROOT_debugMode) then {
+            diag_log format ["*********************************************************** POST-DELETE VARIABLES ***********************************************************"];
+            diag_log format ["****** _rocketComp = %1", _rocketComp];
+            diag_log format ["****** _rocket = %1", _rocket];
+            diag_log format ["****** ROOT_rocketComps = %1", ROOT_rocketComps];
+        };
+        uiSleep 0.1;
+
     };
 
-
-    private _objVD = getobjectviewdistance # 0;
-    private _vd = viewDistance;
-    private _minimumVD = 12800;
-    newVD = if ((_objVD < _minimumVD) or (_vd < _minimumVD)) then {_minimumVD} else {_objVD};
     switch (_action) do {
-        case "CREATE": {[_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;};
+        case "CREATE": { [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket; };
         case "LAND": {
-            private _land_rocket = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
-            waitUntil {scriptDone _land_rocket};
-            call ROOT_fnc_cleanupRockets;
-            [_aiorocket_position, 5] spawn ROOT_fnc_createRocket;
+            private _templand = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
+            if (ROOT_debugMode) then {
+                diag_log format ["*********************************************************** Waiting until scriptDone _templand ***********************************************************"];
             };
-        case "LAUNCH": {[_sleepdelay] spawn ROOT_fnc_launchAllRockets;};
+            waitUntil {scriptDone _templand};
+            if (ROOT_debugMode) then {
+                diag_log format ["*********************************************************** scriptDone _templand ***********************************************************"];
+                diag_log format ["*********************************************************** VARIABLES ***********************************************************"];
+                diag_log format ["*********************************************************** Creating rocket ***********************************************************"];
+            };
+            [_aiorocket_position, 0] spawn ROOT_fnc_createRocket;
+        };
+        case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};
     };
 };
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 
