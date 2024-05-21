@@ -134,8 +134,7 @@ _id = [
 	}; 
 	player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>Is Mexico the new Iraq?</execute>"]];
 } remoteExec ["call", [0, -2] select isDedicated, true];
-
-// Global Exec                                                                                                                    
+                                                                                                                   
 if (side player != sideLogic) then {     
  
 	disableSerialization; 

@@ -2,12 +2,12 @@
 
 1. Hide Terrain @ Solana
 2. Remove base addons
-3. Execute Mission Zeus SQF
+3. Execute Init, Zeus FPS View
 4. Change clothes matching that of CIA Officer
 5. You are now Andrew Ryan (from Bioshock)
 4. Make zeuses invincible
-5. Set time to 6 AM and pause time
-6. Set time accelaration as needed
+5. Set time to 5 AM and pause time
+6. Setup SOAR assets ()
 7. Execute Init, Zeus FPS View and Carpet Run scripts
 
 
@@ -15,6 +15,97 @@
 A man chooses, a slave obeys. ~ Andrew Ryan
 
 === [[[ Verbal Briefing ]]]  === 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pope Field - Home of 77th JSOC
+umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa
+
+In Memory of Kaiya
+umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_kaiya.paa
+
+RHS APC
+rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg
+
+UN
+z\aceax\compats\RHS\data\camo\un.paa
+rhsafrf\addons\rhs_decals\data\labels\army\un_logo03_ca.paa
+rhsafrf\addons\rhs_decals\data\labels\army\un_logo02_ca.paa
+
+Eyetest
+rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa
+
+UN POL
+rhsusf\addons\rhsusf_m1117\data\ui\unpol_ca.paa
+
+Country View
+rhsusf\addons\rhsusf_infantry\data\env_land_co.paa
+a3\structures_f_enoch\furniture\decoration\wallboards\picture_c\data\picture_c01_co.paa
+
+Mastercard Cash Rewards
+a3\props_f_orange\items\documents\data\wallet_picture_co.paa
+
+Country Villa
+a3\structures_f_enoch\furniture\decoration\wallboards\picture_c_02\data\picture_c02_co.paa
+
+GAF
+a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa
+a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa
+a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_109_co.paa
+a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa
+a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_85_co.paa
+a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa
+
+JSOC
+a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_69_co.paa
+a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_20_co.paa
+a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_65_co.paa
+
+Cash
+ca\misc\data\icons\picture_money_ca.paa
+
+
+1
+3
+4
+7
+9
+11
+13
+14
+16
+17
+18
+19
+21
+22
+
+
 
 
 
@@ -219,3 +310,48 @@ Dropsite Uniform:
 Dropsite Alpha:
 [9954.423, 5602.701, 0]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if ((side player != sideLogic) && (hasInterface)) then {     
+ 
+	disableSerialization; 
+	[ 
+		[ 
+			["title","The rising crisis at Laghisola!"], 
+			["meta",["Katherine Bishop",[2024,05,21,11,25],"CET"]], 
+			["box",["umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa","US ARMY JSOC Welcomes New Privates!"]], 
+			["textbold","The humanitarian crisis has only worsened with the Grozovian Armed Forces completely militarizing the island with the backing of the Russian Federation"], 
+			["image",["rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg","3"]], 
+			["image",["z\aceax\compats\RHS\data\camo\un.paa","4"]], 
+			["image",["rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa","7"]], 
+			["image",["rhsusf\addons\rhsusf_infantry\data\env_land_co.paa","9"]], 
+			["image",["a3\props_f_orange\items\documents\data\wallet_picture_co.paa","11"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa","13"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa","14"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa","16"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_85_co.paa","17"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa","18"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_69_co.paa","19"]], 
+			["image",["a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_65_co.paa","21"]], 
+			["image",["ca\misc\data\icons\picture_money_ca.paa","22"]], 
+			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+		],findDisplay 46,true
+	] call bis_fnc_showAANArticle;  
+}; 
+
+
+			

@@ -26,6 +26,9 @@
 
 private _sounds = [[], ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]];
 
+
+
+
 private _laptopsearchsound = ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"];
 
 
@@ -36,3 +39,17 @@ private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntel
 [this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 2."] call zen_modules_fnc_addIntelAction;
 
 
+
+
+private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+[this, 2, false, 1, "Recover Log Data & Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log & Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+
+
+
+
+private _intelBasePos = [((_aiorocket_position select 0) + -3), ((_aiorocket_position select 1) - 2), ((_aiorocket_position select 2) + 1)];
+private _intelBaseLightPos = [((_intelBasePos select 0)), (_intelBasePos select 1), (_intelBasePos select 2) + 1];
+private _intelBase = "Land_InvisibleBarrier_F" createVehicle _intelBasePos;
+private _intelBaseLight = "Sign_Sphere25cm_F" createVehicle _intelBaseLightPos;
+private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+[_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;

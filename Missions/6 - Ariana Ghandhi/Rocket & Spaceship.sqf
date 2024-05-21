@@ -1415,7 +1415,21 @@ ROOT_fnc_rocketAIOModule = {
     };
 
     switch (_action) do {
-        case "CREATE": { [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket; };
+        case "CREATE": {
+            [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;
+            uiSleep 5;
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 2), ((_aiorocket_position select 2) + 2)];
+            private _intelBaseLightPos = [((_aiorocket_position select 0) - 3), ((_aiorocket_position select 1) - 1), (_aiorocket_position select 2) + 2];
+            private _intelBase = "Land_InvisibleBarrier_F" createVehicle _intelBasePos;
+            _intelBase setDir 237;
+            _intelBase allowDamage false;
+            _intelBase enableSimulation false;
+            private _intelBaseLight = "Sign_Sphere25cm_F" createVehicle _intelBaseLightPos;
+            _intelBaseLight enableSimulation false;
+            _intelBaseLight allowDamage false;
+            private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+            };
         case "LAND": {
             private _templand = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
             if (ROOT_debugMode) then {
@@ -1424,10 +1438,19 @@ ROOT_fnc_rocketAIOModule = {
             waitUntil {scriptDone _templand};
             if (ROOT_debugMode) then {
                 diag_log format ["*********************************************************** scriptDone _templand ***********************************************************"];
-                diag_log format ["*********************************************************** VARIABLES ***********************************************************"];
                 diag_log format ["*********************************************************** Creating rocket ***********************************************************"];
             };
             [_aiorocket_position, 1] spawn ROOT_fnc_createRocket;
+            uiSleep 5;
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 2), ((_aiorocket_position select 2) + 2)];
+            private _intelBaseLightPos = [((_aiorocket_position select 0) - 3), ((_aiorocket_position select 1) - 1), (_aiorocket_position select 2) + 2];
+            private _intelBase = "Land_InvisibleBarrier_F" createVehicle _intelBasePos;
+            _intelBase enableSimulation false;
+            _intelBase setDir 237;
+            private _intelBaseLight = "Sign_Sphere25cm_F" createVehicle _intelBaseLightPos;
+            _intelBaseLight enableSimulation false;
+            private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
         };
         case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};

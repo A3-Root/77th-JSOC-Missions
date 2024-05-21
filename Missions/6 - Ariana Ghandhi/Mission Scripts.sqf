@@ -13,11 +13,26 @@
 
 
 ROOT_debugMode = false;
+publicVariable "ROOT_debugMode";
 0 = [] spawn { 
 mapclick = true; 
 onMapSingleClick "mapclick_pos = _pos;"; 
 };
 mapclick_pos = [0,0,0];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,6 +115,15 @@ addMissionEventHandler ["Draw3D", {
 
 
 
+
+
+
+
+
+
+
+
+
 //   ______   __        ________   ______   __    __        __    __  _______  
 //  /      \ |  \      |        \ /      \ |  \  |  \      |  \  |  \|       \ 
 // |  $$$$$$\| $$      | $$$$$$$$|  $$$$$$\| $$\ | $$      | $$  | $$| $$$$$$$\
@@ -114,6 +138,17 @@ addMissionEventHandler ["Draw3D", {
 {
 	if !(isNull _x) then { deleteVehicle _x; };
 } foreach gulag_interior;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -177,6 +212,97 @@ ROOT_fnc_carpetBombing = {
 	sleep 10;
 	true
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  __    __  ________  __       __   ______          ______   _______  ________  ______   ______   __        ________ 
+// |  \  |  \|        \|  \  _  |  \ /      \        /      \ |       \|        \|      \ /      \ |  \      |        \
+// | $$\ | $$| $$$$$$$$| $$ / \ | $$|  $$$$$$\      |  $$$$$$\| $$$$$$$\\$$$$$$$$ \$$$$$$|  $$$$$$\| $$      | $$$$$$$$
+// | $$$\| $$| $$__    | $$/  $\| $$| $$___\$$      | $$__| $$| $$__| $$  | $$     | $$  | $$   \$$| $$      | $$__    
+// | $$$$\ $$| $$  \   | $$  $$$\ $$ \$$    \       | $$    $$| $$    $$  | $$     | $$  | $$      | $$      | $$  \   
+// | $$\$$ $$| $$$$$   | $$ $$\$$\$$ _\$$$$$$\      | $$$$$$$$| $$$$$$$\  | $$     | $$  | $$   __ | $$      | $$$$$   
+// | $$ \$$$$| $$_____ | $$$$  \$$$$|  \__| $$      | $$  | $$| $$  | $$  | $$    _| $$_ | $$__/  \| $$_____ | $$_____ 
+// | $$  \$$$| $$     \| $$$    \$$$ \$$    $$      | $$  | $$| $$  | $$  | $$   |   $$ \ \$$    $$| $$     \| $$     \
+//  \$$   \$$ \$$$$$$$$ \$$      \$$  \$$$$$$        \$$   \$$ \$$   \$$   \$$    \$$$$$$  \$$$$$$  \$$$$$$$$ \$$$$$$$$
+                                                                                                                    
+
+{
+	ROOT_fnc_myArticle = { 
+		if (side player != sideLogic) then {     
+	
+			disableSerialization; 
+			[ 
+				[ 
+					["title","Chaos and Conflict Grip Laghisola Amid Grozovian Annexation"], 
+					["meta",["Katherine Bishop",[2024,05,21,11,25],"CET"]], 
+					["box",["umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa","US ARMY JSOC Welcomes New Privates!"]], 
+					["textbold","The humanitarian crisis has only worsened with the Grozovian Armed Forces completely militarizing the island with the backing of the Russian Federation"], 
+					["image",["rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg","A Grozovian BTR carrying troops from the GAF HQ."]], 
+					["text","The picturesque island of Laghisola, known for its serene landscapes and harmonious communities, has been plunged into turmoil following its recent annexation by the Grozovian government. The strategic value of Laghisola has attracted significant military interest, leading to a controversial partnership between Grozovia and Russia. This alliance has resulted in a massive military buildup, transforming the island into a heavily fortified zone."], 
+					["box",["rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa","Do you see a Ballsac? The US Army does not! Here's why!"]], 
+					["text","The situation on the ground has deteriorated rapidly. Reports from various sources confirm a disturbing campaign of ethnic cleansing by Grozovian forces, aimed at consolidating control over the region. The once-peaceful population of Laghisola is now fragmented, with the remaining refugees seeking shelter in the town of Esperan. However, their safety is far from guaranteed as violence continues to escalate."], 
+					["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_85_co.paa","A refugee providing his identification to the GAF to get food for his family."]], 
+					["text","In a bid to alleviate the humanitarian crisis, the United Nations has established a small aid mission in Esperan. This mission, although a symbol of hope, operates under constant threat from both Grozovian forces and the rebels. The presence of Russian military personnel adds another layer of tension, severely restricting the mission's ability to provide aid and protection to the beleaguered population."], 
+					["text","Amid the chaos, the island has also become the center of a deepening mystery. An American journalist and their crew, who were documenting the unfolding humanitarian and military crisis, have gone missing. Their last known location was within the volatile area around Esperan, sparking fears that they may have been detained by Grozovian forces. The fate of these journalists remains unknown, adding to the growing anxiety on the island."], 
+					["image",["ca\misc\data\icons\picture_money_ca.paa","[AD] Earn more than 200,000 USD PER WEEK with this method! Quick before the government closes the loophole! Click on the image to read more!"]],
+					["box",["a3\props_f_orange\items\documents\data\wallet_picture_co.paa","See what islands you can visit for free with Fastercard Cash Rewards!"]], 
+					["text","The international community watches with bated breath as the situation in Laghisola continues to unravel. Calls for intervention and humanitarian assistance are growing louder, but the complex and dangerous environment poses significant challenges to any potential rescue efforts."], 
+					["textlocked", "With furious exchange of words between the US and the Russian governments, the people of Laghisola face an uncertain future, hoping for a resolution that will bring an end to the violence and bloodshed that has plagued their homeland. Whether or not military action will be the answer to their prayers remains to be seen, but the situation at Laghisola has certainly captured the attention of the international governments."], 
+					["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+				],findDisplay 46,true
+			] call bis_fnc_showAANArticle;
+		}; 
+	}; 
+	player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>Chaos and Conflict Grip Laghisola Amid Grozovian Annexation</execute>"]];
+} remoteExec ["call", [0, -2] select isDedicated, true];
+                                                                                                                   
+if ((side player != sideLogic) && (hasInterface)) then {     
+ 
+	disableSerialization; 
+	[ 
+		[ 
+			["title","Chaos and Conflict Grip Laghisola Amid Grozovian Annexation"], 
+			["meta",["Katherine Bishop",[2024,05,21,11,25],"CET"]], 
+			["box",["umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa","US ARMY JSOC Welcomes New Privates!"]], 
+			["textbold","The humanitarian crisis has only worsened with the Grozovian Armed Forces completely militarizing the island with the backing of the Russian Federation"], 
+			["image",["rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg","A Grozovian BTR carrying troops from the GAF HQ."]], 
+			["text","The picturesque island of Laghisola, known for its serene landscapes and harmonious communities, has been plunged into turmoil following its recent annexation by the Grozovian government. The strategic value of Laghisola has attracted significant military interest, leading to a controversial partnership between Grozovia and Russia. This alliance has resulted in a massive military buildup, transforming the island into a heavily fortified zone."], 
+			["box",["rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa","Do you see a Ballsac? The US Army does not! Here's why!"]], 
+			["text","The situation on the ground has deteriorated rapidly. Reports from various sources confirm a disturbing campaign of ethnic cleansing by Grozovian forces, aimed at consolidating control over the region. The once-peaceful population of Laghisola is now fragmented, with the remaining refugees seeking shelter in the town of Esperan. However, their safety is far from guaranteed as violence continues to escalate."], 
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_85_co.paa","A refugee providing his identification to the GAF to get food for his family."]], 
+			["text","In a bid to alleviate the humanitarian crisis, the United Nations has established a small aid mission in Esperan. This mission, although a symbol of hope, operates under constant threat from both Grozovian forces and the rebels. The presence of Russian military personnel adds another layer of tension, severely restricting the mission's ability to provide aid and protection to the beleaguered population."], 
+			["text","Amid the chaos, the island has also become the center of a deepening mystery. An American journalist and their crew, who were documenting the unfolding humanitarian and military crisis, have gone missing. Their last known location was within the volatile area around Esperan, sparking fears that they may have been detained by Grozovian forces. The fate of these journalists remains unknown, adding to the growing anxiety on the island."], 
+			["image",["ca\misc\data\icons\picture_money_ca.paa","[AD] Earn more than 200,000 USD PER WEEK with this method! Quick before the government closes the loophole! Click on the image to read more!"]],
+			["box",["a3\props_f_orange\items\documents\data\wallet_picture_co.paa","See what islands you can visit for free with Fastercard Cash Rewards!"]], 
+			["text","The international community watches with bated breath as the situation in Laghisola continues to unravel. Calls for intervention and humanitarian assistance are growing louder, but the complex and dangerous environment poses significant challenges to any potential rescue efforts."], 
+			["textlocked", "With furious exchange of words between the US and the Russian governments, the people of Laghisola face an uncertain future, hoping for a resolution that will bring an end to the violence and bloodshed that has plagued their homeland. Whether or not military action will be the answer to their prayers remains to be seen, but the situation at Laghisola has certainly captured the attention of the international governments."], 
+			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+		],findDisplay 46,true
+	] call bis_fnc_showAANArticle;  
+}; 
+
+
+
+
+
+
+
+
 
 
 
