@@ -7,7 +7,7 @@
 5. You are now Andrew Ryan (from Bioshock)
 4. Make zeuses invincible
 5. Set time to 5 AM and pause time
-6. Setup SOAR assets ()
+6. Setup SOAR assets (AV)
 7. Execute Init, Zeus FPS View and Carpet Run scripts
 
 
@@ -43,25 +43,8 @@ A man chooses, a slave obeys. ~ Andrew Ryan
 
 
 
-Pope Field - Home of 77th JSOC
-umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa
 
-In Memory of Kaiya
-umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_kaiya.paa
 
-RHS APC
-rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg
-
-UN
-z\aceax\compats\RHS\data\camo\un.paa
-rhsafrf\addons\rhs_decals\data\labels\army\un_logo03_ca.paa
-rhsafrf\addons\rhs_decals\data\labels\army\un_logo02_ca.paa
-
-Eyetest
-rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa
-
-UN POL
-rhsusf\addons\rhsusf_m1117\data\ui\unpol_ca.paa
 
 Country View
 rhsusf\addons\rhsusf_infantry\data\env_land_co.paa

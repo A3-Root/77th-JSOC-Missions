@@ -95,6 +95,16 @@ if (side player != sideLogic) then {
 			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_02_co.paa","56"]],
 			["image",["\rhsafrf\addons\rhs_missions\mpmissions\rhs_co1-10_czeczenia.altis\pic.jpg","57"]],
 			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_67_co.paa","58"]],
+			["image",["umb\UMB_traininggrounds_objects\data\umb_sign_jsoc_popefield.paa","59"]],
+			["image",["z\aceax\compats\RHS\data\camo\un.paa","60"]],
+			["image",["rhsusf\addons\rhsusf_weapons\icons\a_tacsac.paa","61"]],
+			["image",["rhsusf\addons\rhsusf_infantry\data\env_land_co.paa","62"]],
+			["image",["a3\structures_f_enoch\furniture\decoration\wallboards\picture_c\data\picture_c01_co.paa","63"]],
+			["image",["a3\props_f_orange\items\documents\data\wallet_picture_co.paa","64"]],
+			["image",["a3\structures_f_enoch\furniture\decoration\wallboards\picture_c_02\data\picture_c02_co.paa","65"]],
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_20_co.paa","66"]],
+			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_65_co.paa","67"]],
+			["image",["ca\misc\data\icons\picture_money_ca.paa","68"]],
 			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
 		],findDisplay 46,true
 	] call bis_fnc_showAANArticle;  

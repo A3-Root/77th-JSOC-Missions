@@ -79,7 +79,7 @@ Once the dropsites have been secured and the ███████████�
 
 
 [align=center][color=#FFD700][size=150][font=Arial][u]Objectives and Execution[/u][/font][/size][/color][/align]
- 
+
 
 [align=left] 
 [b]1. Helicopter Insertion[/b]
@@ -151,7 +151,7 @@ Ensure the air space is free from hostile forces and QRF by maintaining active p
 
 
 [align=center][color=#FFD700][size=150][font=Arial][u]Region Map & Intel[/u][/font][/size][/color][/align]
- 
+
 
 [align=center][b][u]Region Map[/b][/u]
 [spoil][url=https://postimg.cc/PN7nSc5r][img]https://i.postimg.cc/J4r7zCwJ/EX-20240517154254-1.jpg[/img][/url][/spoil]
@@ -191,12 +191,12 @@ Refinery
 
 
 [align=center][color=#FFD700][size=150][font=Arial][u]Roles & Equipment[/u][/font][/size][/color][/align]
- 
+
 
 - Deltas will be using standard equipment.
 - Highly recommended to have breachers in the field.
 - Recommended to carry zipties.
-- Heavy AT approved.
+- Heavy AT approved and recommended.
 
 
 [align=center]

@@ -203,6 +203,7 @@ ROOT_fnc_rocketAIOModule = {
         };
         uiSleep _sleepdelay;
         private _rocketBaseObj = "Land_Pod_Heli_Transport_04_bench_F" createVehicle _createPosition;
+        _rocketBaseObj allowDamage false;
         rocketBaseObj = _rocketBaseObj;
         for '_i' from -1 to 16 do {[_rocketBaseObj,[_i,'']] remoteExec ['setObjectTextureGlobal', 2] ;};
         _rocketBaseObj call ROOT_fnc_addObjectToGameMaster;
@@ -660,7 +661,7 @@ ROOT_fnc_rocketAIOModule = {
 
         private _envdmg = {
             private _posASL = getPosASL _this;
-            private _nearObjects = _this nearObjects 50;
+            private _nearObjects = _this nearObjects 75;
             {
                 if ((typeOf _x != "EmptyDetector") && (typeOf _x != "Land_Pod_Heli_Transport_04_bench_F") && (isNull (attachedTo _x))) then {
                     _x setDamage 1;
@@ -981,7 +982,7 @@ ROOT_fnc_rocketAIOModule = {
 
         private _envdmg = {
             private _posASL = getPosASL _this;
-            private _nearObjects = _this nearObjects 50;
+            private _nearObjects = _this nearObjects 75;
             {
                 if ((typeOf _x != "EmptyDetector") && (typeOf _x != "Land_Pod_Heli_Transport_04_bench_F") && (isNull (attachedTo _x))) then {
                     _x setDamage 1;
@@ -1418,17 +1419,15 @@ ROOT_fnc_rocketAIOModule = {
         case "CREATE": {
             [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;
             uiSleep 5;
-            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 2), ((_aiorocket_position select 2) + 2)];
-            private _intelBaseLightPos = [((_aiorocket_position select 0) - 3), ((_aiorocket_position select 1) - 1), (_aiorocket_position select 2) + 2];
-            private _intelBase = "Land_InvisibleBarrier_F" createVehicle _intelBasePos;
-            _intelBase setDir 237;
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
+            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
+            _intelBase setDir 320;
             _intelBase allowDamage false;
             _intelBase enableSimulation false;
-            private _intelBaseLight = "Sign_Sphere25cm_F" createVehicle _intelBaseLightPos;
-            _intelBaseLight enableSimulation false;
-            _intelBaseLight allowDamage false;
             private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
             [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
+            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
             };
         case "LAND": {
             private _templand = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
@@ -1442,21 +1441,19 @@ ROOT_fnc_rocketAIOModule = {
             };
             [_aiorocket_position, 1] spawn ROOT_fnc_createRocket;
             uiSleep 5;
-            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 2), ((_aiorocket_position select 2) + 2)];
-            private _intelBaseLightPos = [((_aiorocket_position select 0) - 3), ((_aiorocket_position select 1) - 1), (_aiorocket_position select 2) + 2];
-            private _intelBase = "Land_InvisibleBarrier_F" createVehicle _intelBasePos;
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
+            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
+            _intelBase setDir 320;
+            _intelBase allowDamage false;
             _intelBase enableSimulation false;
-            _intelBase setDir 237;
-            private _intelBaseLight = "Sign_Sphere25cm_F" createVehicle _intelBaseLightPos;
-            _intelBaseLight enableSimulation false;
             private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
             [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
+            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
         };
         case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};
     };
 };
-
-
 
 

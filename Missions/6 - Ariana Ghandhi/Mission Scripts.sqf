@@ -270,7 +270,14 @@ ROOT_fnc_carpetBombing = {
 	}; 
 	player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>Chaos and Conflict Grip Laghisola Amid Grozovian Annexation</execute>"]];
 } remoteExec ["call", [0, -2] select isDedicated, true];
-                                                                                                                   
+
+
+
+
+
+
+
+
 if ((side player != sideLogic) && (hasInterface)) then {     
  
 	disableSerialization; 
