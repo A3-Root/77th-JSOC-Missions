@@ -28,13 +28,10 @@ private _sounds = [[], ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntel
 
 private _laptopsearchsound = ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"];
 
-
 private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
-
 
 private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"];
 [this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 2."] call zen_modules_fnc_addIntelAction;
 
-
-
-
+private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
+[this, 2, false, 1, "Recover Log Data & Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log & Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;

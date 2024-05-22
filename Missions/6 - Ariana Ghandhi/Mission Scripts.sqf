@@ -330,6 +330,21 @@ if ((side player != sideLogic) && (hasInterface)) then {
 ["LAND", 0, [5128.81,6535.72,0]] spawn ROOT_fnc_rocketAIOModule;
 
 
+
+comment "Dropsite Victor";
+["LAND", 0, [9012.796, 616.186, 15]] spawn ROOT_fnc_rocketAIOModule;
+
+comment "Dropsite Uniform";
+["LAND", 0, [5281.178, 4738.698, 35]] spawn ROOT_fnc_rocketAIOModule;
+
+comment "Dropsite Alpha";
+["LAND", 0, [9954.423, 5602.701, 25]] spawn ROOT_fnc_rocketAIOModule;
+
+
+
+
+
+
 ["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 50, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
 
 

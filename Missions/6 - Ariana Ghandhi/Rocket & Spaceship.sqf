@@ -1425,7 +1425,7 @@ ROOT_fnc_rocketAIOModule = {
             _intelBase allowDamage false;
             _intelBase enableSimulation false;
             private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
             _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
             _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
             };
@@ -1447,7 +1447,7 @@ ROOT_fnc_rocketAIOModule = {
             _intelBase allowDamage false;
             _intelBase enableSimulation false;
             private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 5, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
             _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
             _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
         };
