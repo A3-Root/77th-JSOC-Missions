@@ -3,12 +3,15 @@
 1. Hide Terrain @ Solana
 2. Remove base addons
 3. Execute Init, Zeus FPS View
-4. Change clothes matching that of CIA Officer
+4. Change side relations (BLUFOR FRIENDLY OPFOR) && (OPFOR FRIENDLY INDFOR)
 5. You are now Andrew Ryan (from Bioshock)
 4. Make zeuses invincible
 5. Set time to 5 AM and pause time
-6. Setup SOAR assets (AV)
-7. Execute Init, Zeus FPS View and Carpet Run scripts
+6. Destroy structures around the drop sites and make it war torn
+7. Fill Dropsites with OPFOR Infantry (Make sure no AA)
+8. 
+
+
 
 
 
@@ -117,13 +120,6 @@ this linkItem "ItemGPS";
 
 
 
-
-
-
-
-
-
-
 The island of Laghisola, once a tranquil haven, has been thrust into chaos and conflict. Recently annexed by the Grozovian government, this strategic piece of land has become a focal point of military power. Partnering with Russia, the Grozovian regime has established a formidable military presence on the island. The collaboration has led to a grim campaign of ethnic cleansing, turning Laghisola into a fortified stronghold. The last remnants of the refugee population are now huddled in the town of Esperan, their existence threatened by constant violence.
 
 Esperan, a town once known for its vibrant community, is now a battleground. Rebel groups, determined to resist the Grozovian occupation, clash frequently with the heavily armed Grozovian forces. Amidst this turmoil, the United Nations has managed to establish a small aid mission in Esperan, a beacon of hope in a sea of despair. However, the mission's efforts are hindered by the omnipresent threat of attack and the oppressive oversight of Russian forces.
@@ -137,5 +133,34 @@ To address this escalating crisis, the 77th JSOC has been mobilized. Under the g
 Once the dropsites have been secured and the informations retrived from the UAVs, the team will then further investigate the disappearance of the UN field operatives and the journalists.
 
 
+
+
+DAP - 270
+[-4490.83, 5707.12, 42.225]
+[-4489.66, 5689.46, 42.225]
+[-4488.72, 5671.49, 42.225]
+[-4488.37, 5651.47, 42.225]
+
+AV-35B
+[-4506.46, 5667.67, 42.246]
+[-4508.31, 5703.31, 42.246]
+[-4510.74, 5745.81, 42.246]
+[-4513.04, 5786.94, 42.246]
+
+CH-53E
+[-4494.76, 5838.63, 42.325]
+[-4496.47, 5873.84, 42.325]
+
+Fuel
+[-4473.74, 5665.3, 42.143]
+[-4472.64, 5672.46, 42.145]
+
+Ammo
+[-4521.3, 5713.85, 42.141]
+[-4522.6, 5719.65, 42.147]
+
+Repair
+[-4490.25, 5807.82, 42.297]
+[-4490.53, 5813.96, 42.300]
 
 

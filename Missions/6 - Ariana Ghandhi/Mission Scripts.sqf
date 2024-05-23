@@ -181,6 +181,7 @@ ROOT_fnc_carpetBombing = {
 		uiSleep 0.5;
 		_spawnalt = _spawnalt + 25;
 	};
+	uiSleep 25;
 	_firstImpactPos = (_bomblocation getPos [(_distance / 2),_direction + 180]) vectorAdd [0,0,200];
 	_posincrement = _distance / _amount;
 	_randomsound = selectRandom ["BattlefieldJet1_3D","BattlefieldJet2_3D","BattlefieldJet3_3D"];
@@ -189,7 +190,7 @@ ROOT_fnc_carpetBombing = {
 	_relpos = _firstImpactPos;
 	_bomb = objNull;
 	for "_i" from 1 to _amount do {
-		sleep 0.2;
+		uiSleep 0.2;
 		_tempPos = _relpos vectorAdd [random [-20,0,20],random [-20,0,20],random [-5,0,5]];
 		_bomb = _bombType createvehicle _tempPos;
 		_bomb setposasl _tempPos;
@@ -332,20 +333,47 @@ if ((side player != sideLogic) && (hasInterface)) then {
 
 
 comment "Dropsite Victor";
-["LAND", 0, [9012.796, 616.186, 15]] spawn ROOT_fnc_rocketAIOModule;
+["LAND", 0, [9012.796, 616.186, 0]] spawn ROOT_fnc_rocketAIOModule;
 
 comment "Dropsite Uniform";
-["LAND", 0, [5281.178, 4738.698, 35]] spawn ROOT_fnc_rocketAIOModule;
+["LAND", 0, [5281.178, 4738.698, 0]] spawn ROOT_fnc_rocketAIOModule;
 
 comment "Dropsite Alpha";
-["LAND", 0, [9954.423, 5602.701, 25]] spawn ROOT_fnc_rocketAIOModule;
+["LAND", 0, [9954.423, 5602.701, 0]] spawn ROOT_fnc_rocketAIOModule;
+
+
+private _indforunits = allUnits select { side _x == independent };
+{
+    removeAllWeapons _x;
+    removeAllItems _x;
+    removeAllAssignedItems _x;
+} forEach _indforunits;
+
+
+
+private _indforunits = allUnits select { side _x == independent };
+{
+    _x enableAI "PATH";
+    _x addMagazineGlobal "rhsgref_30rnd_556x45_m21";
+    _x addWeaponGlobal "rhs_weap_m21a";
+    _x addMagazines ["rhsgref_30rnd_556x45_m21", 3];
+    _x reload [];
+    (group _x) setCombatMode "RED";
+} forEach _indforunits;
+
+
+
+// Server Execution Only
+resistance setFriend [west, 1];
+west setFriend [resistance, 1];
 
 
 
 
+["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 25, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
 
 
-["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 50, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
+["usaf_kc135", 2, "Bo_Mk82_MI08", [5113.78,6346.48,0], 0, 32, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
 
 
 mapclick_pos = [0,0,0];

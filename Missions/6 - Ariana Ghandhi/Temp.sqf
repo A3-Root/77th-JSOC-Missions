@@ -683,7 +683,7 @@ ROOT_fnc_rocketAIOModule = {
                             default {_burndmg = 0};
                         };
                         if((_ent isKindOf "AllVehicles") && !(_ent isKindOf "CAManBase")) then {
-                            _ent setDamage ((damage _ent) + ((_burndmg) / 10));
+                            _ent setDamage ((damage _ent) + ((_burndmg) / 20));
                         } else {
                             if((_ent isKindOf "CAManBase") && !(_ent in allPlayers)) then {
                                     if (diag_tickTime < _tempTime) then {
@@ -1034,7 +1034,7 @@ ROOT_fnc_rocketAIOModule = {
                             default {_burndmg = 0};
                         };
                         if((_ent isKindOf "AllVehicles") && !(_ent isKindOf "CAManBase")) then {
-                            _ent setDamage ((damage _ent) + ((_burndmg) / 10));
+                            _ent setDamage ((damage _ent) + ((_burndmg) / 20));
                         } else {
                             if((_ent isKindOf "CAManBase") && !(_ent in allPlayers)) then {
                                     if (diag_tickTime < _tempTime) then {
@@ -1515,5 +1515,6 @@ ROOT_fnc_rocketAIOModule = {
         default {hint "ERROR! INVALID CASE!"};
     };
 };
+
 
 
