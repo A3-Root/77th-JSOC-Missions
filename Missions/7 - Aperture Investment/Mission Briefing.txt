@@ -1,0 +1,234 @@
+[align=center][img]https://i.imgur.com/K5ANhGr.png[/img][/align]
+
+[align=center][s]----------------------------------------------------------------------------------------------------[/s][/align]
+
+
+[align=center][size=300][color=#FFD700][font=Arial]Operation "Aperture Investments" [/font][/color][/size][/align]
+
+
+[align=center][s]----------------------------------------------------------------------------------------------------[/s][/align]
+
+
+[align=right][size=150][font=Arial]Classification: NOFORN // TS // SCI
+Location: Los Alamos, Mexico
+Date: May 25, 2024
+Time: 0600 Zulu
+[/font][/size][/align]
+
+[align=center][url=https://ibb.co/Z6tgqYY][img]https://i.ibb.co/8DTx1dd/20240521-Mission-Dossier-docx-Word-193.png[/img][/url][/align]
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Situation[/u][/font][/size][/color][/align]
+
+
+[align=justify] 
+The island of Laghisola, once a tranquil haven, has been thrust into chaos and conflict. Recently annexed by the Grozovian government, this ███████████████████ and ████████████████████████ piece of land has become a focal point of ███████████████. Partnering with Russia, the Grozovian regime has established a formidable military presence on the island. The collaboration has led to a grim campaign of ethnic cleansing, turning Laghisola ███████████████████████████ into a fortified stronghold. ████████████████████████████ The last █████████████████████████ remnants of the refugee population are now huddled in the ██████████████ town of Esperan, their existence threatened by constant violence.
+
+Esperan, ███████████ a town once known for its vibrant community, ███████████████████ is now a battleground. Rebel groups, determined to resist the Grozovian occupation, clash frequently with the heavily armed ███████████ Grozovian forces. Amidst this turmoil, ██████████████ and the United Nations has managed ███████████████ to establish a small █████████████████████ mission in Esperan, a beacon █████████████████████ of hope in a sea of despair. However, the mission's efforts are hindered by the omnipresent threat of attack and the oppressive oversight of Russian forces.
+
+Amid this backdrop of conflict, a new layer of ████████████████ mystery and urgency has been added ███████████████. A covert team sent by US SOCCOM, ██████████████████, was deployed to Laghisola to investigate an ████████████████████████ This team, skilled and prepared, confirmed the coordinates of three ███████████████████ before all contact was abruptly lost. The sites, code-named 'Dropsite Alpha,' 'Dropsite Victor,' and 'Dropsite Uniform,' ██████████████.
+
+Compounding the crisis, an American journalist and their crew, who were documenting the humanitarian and military situation on the island, have also gone missing. Their last known location was within the volatile region surrounding Esperan. Fears grow that they have been captured by Grozovian forces, their fate uncertain.
+
+To address this escalating crisis, the 77th JSOC has been mobilized. Under the guise of a search and rescue mission for the missing journalist and the █████████████, the 77th JSOC team will infiltrate the Laghisola islands. The primary goal is to locate and secure the three dropsites whose significance ██████████████████████. ████████████ official narrative focuses ████████████████████████████ humanitarian aspect of rescuing the journalist, the underlying mission is of paramount importance.
+
+Once the dropsites have been secured and the ████████████████████████, the team will then further investigate the ██████████████████ and the journalists.
+[/align]
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Mission Critical Individuals[/u][/font][/size][/color][/align] 
+
+[align=left] 
+1. [b]Kevin "Frank" Ryan [/b]: - Journalist
+2. [b]Edward "Fontaine" Wright[/b] - Journalist
+3. [b]James "Atlas" Gallegos [/b]: - UN Field Officer
+4. [b]Ernest "Ocelot" Kidder[/b] - UN Field Officer
+5. [b]Edward "Lester" Thomas [/b]: - UN Field Officer
+6. [b]Marcus "Fisher" Baier[/b] - UN Field Officer
+[/align]
+
+[spoil][img]https://i.postimg.cc/2ywz72WV/20240518140806-1.jpg[/img][/spoil]
+
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Objectives and Execution[/u][/font][/size][/color][/align]
+
+
+[align=left] 
+[b]1. Helicopter Insertion[/b]
+- Deltas will be inserted into the AO via MH-60M DAP MLASS helicopters with support from an F-35C Lightning II (CV) or F-35B Lightning II. 
+
+[b]2. Secure 'Dropsite Victor'[/b]
+- Secure the Dropsite.
+- Await further instructions.
+
+[b]3. Secure 'Dropsite Alpha'[/b]
+- Secure the Dropsite.
+- Await further instructions.
+
+[b]4. Secure 'Dropsite Uniform'[/b]
+- Secure the Dropsite.
+- Await further instructions.
+
+[b]5. Search and Rescue "Frank, Fontaine"[/b]
+- Locate and rescue the American Journalists codenamed "Frank" and "Fontaine".
+
+[b]4. Secure and Rescue "Atlas, Ocelot, Lester, Fisher"[/b]
+- Locate and rescue the UN Field Officers codenamed "Atlas", "Ocelot", "Lester" and "Fisher".
+[/align]
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]SOAR[/u][/font][/size][/color][/align]
+
+
+[align=left] 
+For this operation, SOAR will be provided with:
+- 5x MH-60M DAP MLASS
+- 2x F-35C Lightning II (CV)
+- 2x F-35B Lightning II (STOVL)
+- 2x CH-53E Super Stallion
+- 3x AH-1Z Viper
+
+
+[b]1. Transportation[/b]
+SOAR crew can be expected to provide necessary transportation to the Delta's as needed.
+
+[b]2. Closae Air Support[/b]
+Provide fire support as required during the operation. Maintain a high level of coordination to maximize operational effectiveness.
+
+[b]3. SEAD/DEAD[/b]
+Suppression / Destruction of Enemy Air Defenses may be necessary for safe infiltration of Deltas in the island.
+
+[b]4. Combat Air Patrol[/b]
+Ensure the air space is free from hostile forces and QRF by maintaining active patrol during the operation.
+
+[/align]
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Region Map & Intel[/u][/font][/size][/color][/align]
+
+
+[align=center][b][u]Region Map[/b][/u]
+[spoil][url=https://postimg.cc/PN7nSc5r][img]https://i.postimg.cc/J4r7zCwJ/EX-20240517154254-1.jpg[/img][/url][/spoil]
+
+[b][u]Grozovian Armed Forces HQ[/b][/u]
+[spoil][url=https://postimg.cc/9rq5KpDP][img]https://i.postimg.cc/pXsW9cxS/EX-20240517150054-1.jpg[/img][/url][/spoil]
+
+[b][u]Dropsite Alpha[/b][/u]
+[spoil]Base
+[url=https://postimg.cc/K4jyrFFH][img]https://i.postimg.cc/7PMY4YRw/EX-20240517141602-1.jpg[/img][/url]
+
+Refinery
+[url=https://postimg.cc/pmbbHFjw][img]https://i.postimg.cc/fRkwY7RR/EX-20240517143233-1.jpg[/img][/url][/spoil]
+
+[b][u]Dropsite Victor[/b][/u]
+[spoil][url=https://postimg.cc/PCWGr5zP][img]https://i.postimg.cc/QdPjmBFk/EX-20240517151946-1.jpg[/img][/url][/align][/spoil]
+
+
+
+[align=center][u][b]Threat Intel[/b][/u][/align]
+[align=left]
+[b]1 - Concentration of Infantry[/b]
+[b]2 - Rotary / Fixed Wing[/b]
+[b]3 - Heavy Armored Vehicles[/b]
+[b]4 - Light Armored Vehicles[/b]
+[b]5 - Transport & Support Vehicles[/b]
+[b]6 - Anti-air and other installations[/b]
+[/align]
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Roles & Equipment[/u][/font][/size][/color][/align]
+
+
+- Deltas will be using standard equipment.
+- Highly recommended to have breachers in the field.
+- Recommended to carry zipties.
+- Heavy AT approved and recommended.
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][color=#FFD700][size=150][font=Arial][u]Additional Information Report[/u][/font][/size][/color][/align]
+ 
+
+The region is heavily fortified and has strong military presence with possible  (extremely likely) QRF of Russian Airforce and interceptors. The town of Esperan is considered a UN PROTECTED NO-FLY zone and any engagement in / from / towards the town is forbidden. The newly built airport to the South West can be used as a FARP for SOAR at the behest of the rebel forces. The GAF are well trained and have been seen preparing for our possible operation.
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
+
+
+[align=center][img]https://i.imgur.com/K5ANhGr.png[/img][/align]
+
+
+[align=center]
+
+
+[s]--------------------------------------------------------------------------------------------------------------------------------------------[/s]
+
+
+[/align]
