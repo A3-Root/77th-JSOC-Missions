@@ -12,8 +12,7 @@
 //  \$$$$$$ \$$   \$$ \$$$$$$    \$$ 
 
 
-ROOT_debugMode = false;
-publicVariable "ROOT_debugMode";
+
 0 = [] spawn { 
 mapclick = true; 
 onMapSingleClick "mapclick_pos = _pos;"; 

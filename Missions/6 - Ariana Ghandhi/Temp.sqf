@@ -1,3 +1,7 @@
+ROOT_debugMode = false;
+publicVariable "ROOT_debugMode";
+
+
 ROOT_fnc_acefireFX = compileFinal {
 	params ["_position"];
     if (ROOT_debugMode) then {
@@ -14,10 +18,10 @@ ROOT_fnc_acefireFX = compileFinal {
         private _distanceFromRocket = (vehicle player) distance2D _firePos;
         private _burndmg = 0;
         switch true do {
-            case (_distanceFromRocket <= 50) : {_burndmg = 10};
-            case (_distanceFromRocket <= 75) : {_burndmg = 5};
-            case (_distanceFromRocket <= 100) : {_burndmg = 3};
-            case (_distanceFromRocket <= 200) : {_burndmg = 1};
+            case (_distanceFromRocket <= 50) : {_burndmg = 1};
+            case (_distanceFromRocket <= 75) : {_burndmg = 0.5};
+            case (_distanceFromRocket <= 100) : {_burndmg = 0.3};
+            case (_distanceFromRocket <= 135) : {_burndmg = 0.1};
             default {_burndmg = 0};
         };
         _visibility = [objNull, "VIEW"] checkVisibility [(eyePos player), (getPosASL _position)];
@@ -373,7 +377,7 @@ ROOT_fnc_rocketAIOModule = {
             _maxDistance_lvl_02 = 800 * _shakeDistanceFactor;
             _maxDistance_lvl_03 = 1600 * _shakeDistanceFactor;
             {
-                private _distanceFromRocket = (vehicle _x) distance _rocketPos;
+                private _distanceFromRocket = (vehicle _x) distance2D _rocketPos;
                 if (_distanceFromRocket <= _maxDistance_lvl_03) then {
                     true remoteExec ['enableCamShake', _x];
                     [[1, 60, 100]] remoteExec ['addCamShake', _x];
@@ -676,22 +680,28 @@ ROOT_fnc_rocketAIOModule = {
                         private _distanceFromRocket = _ent distance2D _rocket;
                         private _burndmg = 0;
                         switch true do {
-                            case (_distanceFromRocket <= 50) : {_burndmg = 10;};
-                            case (_distanceFromRocket <= 100) : {_burndmg = 5};
-                            case (_distanceFromRocket <= 150) : {_burndmg = 3};
-                            case (_distanceFromRocket <= 200) : {_burndmg = 1};
+                            case (_distanceFromRocket <= 50) : {_burndmg = 1;};
+                            case (_distanceFromRocket <= 75) : {_burndmg = 0.5};
+                            case (_distanceFromRocket <= 100) : {_burndmg = 0.3};
+                            case (_distanceFromRocket <= 125) : {_burndmg = 0.1};
                             default {_burndmg = 0};
                         };
                         if((_ent isKindOf "AllVehicles") && !(_ent isKindOf "CAManBase")) then {
-                            _ent setDamage ((damage _ent) + ((_burndmg) / 20));
+                            _ent setDamage ((damage _ent) + ((_burndmg) / 10));
                         } else {
                             if((_ent isKindOf "CAManBase") && !(_ent in allPlayers)) then {
+                                _visibility = [objNull, "VIEW"] checkVisibility [(eyePos _ent), (getPosASL _rocket)];
+                                if (ROOT_debugMode) then {
+                                    diag_log format ["********** AI Visibility:  %1", _visibility];
+                                };            
+                                if (( _visibility > 0) || (_distanceFromRocket <= 50)) then {
                                     if (diag_tickTime < _tempTime) then {
                                         [_ent, _burndmg] call ace_fire_fnc_burn;
                                     };
                                     {
                                         [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
                                     } forEach _bodypart;
+                                };
                             };
                         };
                     };
@@ -716,7 +726,7 @@ ROOT_fnc_rocketAIOModule = {
             _maxDistance_lvl_02 = 800 * _shakeDistanceFactor;
             _maxDistance_lvl_03 = 1600 * _shakeDistanceFactor;
             {
-                private _distanceFromRocket = (vehicle _x) distance _rocketPos;
+                private _distanceFromRocket = (vehicle _x) distance2D _rocketPos;
                 if (_distanceFromRocket <= _maxDistance_lvl_03) then {
                     true remoteExec ['enableCamShake', _x];
                     [[1, 60, 100]] remoteExec ['addCamShake', _x];
@@ -1027,22 +1037,28 @@ ROOT_fnc_rocketAIOModule = {
                         private _distanceFromRocket = _ent distance2D _rocket;
                         private _burndmg = 0;
                         switch true do {
-                            case (_distanceFromRocket <= 50) : {_burndmg = 10;};
-                            case (_distanceFromRocket <= 100) : {_burndmg = 5};
-                            case (_distanceFromRocket <= 150) : {_burndmg = 3};
-                            case (_distanceFromRocket <= 200) : {_burndmg = 1};
+                            case (_distanceFromRocket <= 50) : {_burndmg = 1;};
+                            case (_distanceFromRocket <= 75) : {_burndmg = 0.5};
+                            case (_distanceFromRocket <= 100) : {_burndmg = 0.3};
+                            case (_distanceFromRocket <= 125) : {_burndmg = 0.1};
                             default {_burndmg = 0};
                         };
                         if((_ent isKindOf "AllVehicles") && !(_ent isKindOf "CAManBase")) then {
-                            _ent setDamage ((damage _ent) + ((_burndmg) / 20));
+                            _ent setDamage ((damage _ent) + ((_burndmg) / 10));
                         } else {
                             if((_ent isKindOf "CAManBase") && !(_ent in allPlayers)) then {
+                                _visibility = [objNull, "VIEW"] checkVisibility [(eyePos _ent), (getPosASL _rocket)];
+                                if (ROOT_debugMode) then {
+                                    diag_log format ["********** AI Visibility:  %1", _visibility];
+                                };            
+                                if (( _visibility > 0) || (_distanceFromRocket <= 50)) then {
                                     if (diag_tickTime < _tempTime) then {
                                         [_ent, _burndmg] call ace_fire_fnc_burn;
                                     };
                                     {
                                         [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
                                     } forEach _bodypart;
+                                };
                             };
                         };
                     };
@@ -1515,6 +1531,4 @@ ROOT_fnc_rocketAIOModule = {
         default {hint "ERROR! INVALID CASE!"};
     };
 };
-
-
 
