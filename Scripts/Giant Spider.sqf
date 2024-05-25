@@ -1,4 +1,4 @@
-private _core = this;  
+private _core = _this;  
 if !(isServer) exitwith {};  
 spider_overall_speed = 1;  
 spider_arm_length = 13;  
