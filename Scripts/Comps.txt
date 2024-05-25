@@ -1,0 +1,71 @@
+-- Skibidi
+-- Jankmobile
+-- CTRG Pickup
+-- HEMTT (Dual Mortars)
+-- Blue Pearl Oil Platform
+-- SCD
+-- Oerlikon GDF-001
+-- HHD_SGC_FULL_V2.0
+-- HHD_ALPHA_SITE_III_FULL
+-- Sd.Kfz. 7 (FlakBus)
+-- Rheinmetall AAA Gun
+-- Rheinmetall Factory
+-- Marid + BTR-T
+-- Haunted Hummingbird
+-- Aurora
+-- GAR Base
+-- hell mt
+-- GOAT Bike v3
+-- A164 Strike EAGLE
+-- Hunter Anti Air Avenger
+-- Hunter 20mm Wolverine
+-- NATO LPC
+-- CSAT LPC
+-- Zamak 2.8 T-100 turret
+-- Bunker Tunnel L
+-- Creepy altar
+-- CSAT T-140 MLRS
+-- Excalibur
+-- Underground IED Factory
+-- CSAT SAM truck
+-- Super Bobcat
+-- Offrhino 
+-- Metal Tarantula
+-- BattleDrone 3077
+-- Flickering Lights
+-- UEG Sickle Troop Carrier Mech
+-- UEG Scorpion Air Defense Support Mech
+-- UEG Tripod Cannon Support Mech
+-- Flying islands
+-- Swat APC 2.0
+-- ARRRV
+-- Altis Railgun
+-- M2 (Rocket AP)
+-- sub [Flying]
+-- Large Military Base Detailed / Lab and Prision 
+-- Cargo ship
+-- Metal Gear STRATIS
+-- Metal Gear Leviathan
+-- Metal Iguana
+-- Metal Gear Rex
+-- Metal Gear STR
+-- Metal Gear ALTIS
+-- Metal Gear Rex
+-- InterPlanetary Fighting Vehicle v1
+-- Alien Mothership (Plane Eater)
+-- PLANET BUSTER
+-- UNSC Cringecopter (Armed)
+-- CSAT SpaceCruiser
+-- UNSC Cringecopter (Unarmed)
+-- Starship
+-- Tomb Of Lord Khuila
+-- AMV-7 Spartan
+-- HEMTT UP II Spec Ops 
+-- Armored Jeep 
+-- Freedom
+-- LPC (BLUE)
+-- Blimp
+-- Bunker HQ
+-- Custom Submarine Interior
+-- Liberty Prime
+-- NATO Mech
