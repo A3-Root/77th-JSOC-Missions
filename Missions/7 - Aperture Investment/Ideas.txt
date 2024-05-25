@@ -7,6 +7,7 @@
 -- Spider (look into the attack power)
 -- Maybe CSAT Automaton??
 -- Enlarged ED-1D Pelter
+-- Mini UGV Stomper
 
 
 - AC
@@ -74,23 +75,15 @@
 -- Starship
 -- Tomb Of Lord Khuila
 -- AMV-7 Spartan
--- 
--- 
--- 
--- 
--- 
--- 
--- 
--- 
-
-
-
-
-
-
-
-
-
+-- HEMTT UP II Spec Ops 
+-- Armored Jeep 
+-- Freedom
+-- LPC (BLUE)
+-- Blimp
+-- Bunker HQ
+-- Custom Submarine Interior
+-- Liberty Prime
+-- NATO Mech
 
 
 
