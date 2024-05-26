@@ -161,7 +161,7 @@ Ammo
 
 Repair
 [-4490.25, 5807.82, 42.297]
-
+[-4490.53, 5813.96, 42.300]
 
 
 
@@ -174,27 +174,3 @@ Repair
 
 Flashing Red Lights
 
-
-
-
-if (!local this) exitWith {};
-removeAllWeapons this;
-removeAllItems this;
-removeAllAssignedItems this;
-removeUniform this;
-removeVest this;
-removeBackpack this;
-removeHeadgear this;
-removeGoggles this;
-this forceAddUniform "UK3CB_GAF_O_U_CombatUniform_05_DIGI";
-this addBackpack "rhs_r148";
-this addWeapon "Hate_Smartphone_HUD";
-this addHeadgear "UK3CB_H_Cap_DPM_SA";
-this linkItem "ItemMap";
-this linkItem "ItemCompass";
-this linkItem "ItemWatch";
-this linkItem "ItemRadio";
-this linkItem "ItemGPS";
-this linkItem "UK3CB_Tactical_Gloves_green_NVG";
-// [-4490.53, 5813.96, 42.300]
-[this,"WhiteHead_20","rhs_male05cz"] call BIS_fnc_setIdentity;
