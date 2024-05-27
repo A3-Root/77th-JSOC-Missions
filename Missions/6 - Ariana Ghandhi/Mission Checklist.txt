@@ -8,7 +8,7 @@
 4. Make zeuses invincible
 5. Set time to 5 AM and pause time
 6. Destroy structures around the drop sites and make it war torn
-7. Fill Dropsites with OPFOR Infantry (Make sure no AA)
+7. Fill Dropsites with OPFOR Infantry (Make sure no AA Infantry)
 8. 
 
 
