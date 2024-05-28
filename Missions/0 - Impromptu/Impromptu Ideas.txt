@@ -1,5 +1,4 @@
 - Radio Comms Decryption + Base Defense (EWO)
-- Secure landing zone for SpaceX ship which is out of control - Desert map, rebel faction
 - Take out key air defenses
 - Take out artillery
 - Take out radars
