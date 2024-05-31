@@ -334,11 +334,12 @@ if ((side player != sideLogic) && (hasInterface)) then {
 comment "Dropsite Victor";
 ["LAND", 0, [9012.796, 616.186, 0]] spawn ROOT_fnc_rocketAIOModule;
 
+comment "Dropsite Alpha";
+["LAND", 0, [9954.423, 5602.701, 0]] spawn ROOT_fnc_rocketAIOModule;
+
 comment "Dropsite Uniform";
 ["LAND", 0, [5281.178, 4738.698, 0]] spawn ROOT_fnc_rocketAIOModule;
 
-comment "Dropsite Alpha";
-["LAND", 0, [9954.423, 5602.701, 0]] spawn ROOT_fnc_rocketAIOModule;
 
 
 private _indforunits = allUnits select { side _x == independent };

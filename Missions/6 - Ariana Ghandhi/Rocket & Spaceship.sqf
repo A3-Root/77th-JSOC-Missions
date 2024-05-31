@@ -4,6 +4,7 @@ publicVariable "ROOT_debugMode";
 
 ROOT_fnc_acefireFX = compileFinal {
 	params ["_position"];
+    if (not local player) exitWith {};
     if (ROOT_debugMode) then {
         diag_log format ["*********************************************************** Entering ROOT_fnc_acefireFX ***********************************************************"];
         diag_log format ["Position: %1", _position];
@@ -697,10 +698,10 @@ ROOT_fnc_rocketAIOModule = {
                                 if (( _visibility > 0) || (_distanceFromRocket <= 50)) then {
                                     if (diag_tickTime < _tempTime) then {
                                         [_ent, _burndmg] call ace_fire_fnc_burn;
+                                        {
+                                            [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
+                                        } forEach _bodypart;
                                     };
-                                    {
-                                        [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
-                                    } forEach _bodypart;
                                 };
                             };
                         };
@@ -1054,10 +1055,10 @@ ROOT_fnc_rocketAIOModule = {
                                 if (( _visibility > 0) || (_distanceFromRocket <= 50)) then {
                                     if (diag_tickTime < _tempTime) then {
                                         [_ent, _burndmg] call ace_fire_fnc_burn;
+                                        {
+                                            [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
+                                        } forEach _bodypart;
                                     };
-                                    {
-                                        [_ent, _burndmg, _x, "burn"] call ace_medical_fnc_addDamageToUnit;
-                                    } forEach _bodypart;
                                 };
                             };
                         };
@@ -1494,16 +1495,6 @@ ROOT_fnc_rocketAIOModule = {
     switch (_action) do {
         case "CREATE": {
             [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;
-            uiSleep 5;
-            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
-            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
-            _intelBase setDir 320;
-            _intelBase allowDamage false;
-            _intelBase enableSimulation false;
-            private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
-            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
-            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
             };
         case "LAND": {
             private _templand = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
@@ -1516,16 +1507,6 @@ ROOT_fnc_rocketAIOModule = {
                 diag_log format ["*********************************************************** Creating rocket ***********************************************************"];
             };
             [_aiorocket_position, 1] spawn ROOT_fnc_createRocket;
-            uiSleep 5;
-            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
-            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
-            _intelBase setDir 320;
-            _intelBase allowDamage false;
-            _intelBase enableSimulation false;
-            private _pcsearchsound = ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
-            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
-            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
         };
         case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};
