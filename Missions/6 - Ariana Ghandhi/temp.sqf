@@ -115,13 +115,8 @@ ROOT_fnc_rocketAIOModule = {
                 };
                 ROOT_fnc_RE2_V3 = {
                     params [["_REarguments", []], ["_REfncName2", ""], ["_REtarget", player], ["_JIPparam", false]];
-                    if (!((missionnamespace getVariable [_REfncName2, []]) isEqualType []) && !((uiNamespace getVariable [_REfncName2, []]) isEqualType [])) exitWith {
-                        systemChat "::Error:: remoteExec failed (invalid _REfncName2 - not an array).";
-                    };
-                    if ((count (missionnamespace getVariable [_REfncName2, []]) == 0) && (count (uiNamespace getVariable [_REfncName2, []]) == 0)) exitWith {
-                        systemChat "::Error:: remoteExec failed (invalid _REfncName2 - empty array).";
-                        systemChat str _REfncName2;
-                    };
+                    if (!((missionnamespace getVariable [_REfncName2, []]) isEqualType []) && !((uiNamespace getVariable [_REfncName2, []]) isEqualType [])) exitWith {};
+                    if ((count (missionnamespace getVariable [_REfncName2, []]) == 0) && (count (uiNamespace getVariable [_REfncName2, []]) == 0)) exitWith {};
                     [[_REfncName2, _REarguments],{ 
                         addMissionEventHandler ["EachFrame", (missionNamespace getVariable [_this # 0, ['']]) joinString '', _this # 1]; 
                     }] remoteExec ['call', _REtarget, _JIPparam];
