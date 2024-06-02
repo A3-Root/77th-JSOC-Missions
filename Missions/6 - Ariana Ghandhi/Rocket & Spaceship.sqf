@@ -3,16 +3,9 @@ publicVariable "ROOT_debugMode";
 
 
 ROOT_fnc_addIntel = compileFinal {
-    params ["_aiorocket_position"];
-    private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
-    private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
-    _intelBase setDir 320;
-    _intelBase allowDamage false;
-    _intelBase enableSimulation false;
+    params ["_intelBase"];
     private _pcsearchsound = selectRandom ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"];
     [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", _pcsearchsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
-    _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
-    _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
 };
 publicVariable "ROOT_fnc_addIntel";
 
@@ -1507,11 +1500,19 @@ ROOT_fnc_rocketAIOModule = {
 
     };
 
+
     switch (_action) do {
         case "CREATE": {
             [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_createRocket;
             uiSleep 5;
-            [_aiorocket_position] remoteExec ["ROOT_fnc_addIntel", [0, -2] select isDedicated];
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
+            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
+            _intelBase setDir 320;
+            _intelBase allowDamage false;
+            _intelBase enableSimulation false;
+            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
+            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
+            [_intelBase] remoteExec ["ROOT_fnc_addIntel", [0, -2] select isDedicated, true];
             };
         case "LAND": {
             private _templand = [_aiorocket_position, _sleepdelay] spawn ROOT_fnc_rocketLand;
@@ -1525,7 +1526,14 @@ ROOT_fnc_rocketAIOModule = {
             };
             [_aiorocket_position, 1] spawn ROOT_fnc_createRocket;
             uiSleep 5;
-            [_aiorocket_position] remoteExec ["ROOT_fnc_addIntel", [0, -2] select isDedicated];
+            private _intelBasePos = [((_aiorocket_position select 0) - 4), ((_aiorocket_position select 1) - 3), ((_aiorocket_position select 2) + 1.6)];
+            private _intelBase = "Land_BombRail_01_F" createVehicle _intelBasePos;
+            _intelBase setDir 320;
+            _intelBase allowDamage false;
+            _intelBase enableSimulation false;
+            _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
+            _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
+            [_intelBase] remoteExec ["ROOT_fnc_addIntel", [0, -2] select isDedicated, true];
         };
         case "LAUNCH": { [_sleepdelay] spawn ROOT_fnc_launchAllRockets; };
         default {hint "ERROR! INVALID CASE!"};

@@ -20308,7 +20308,7 @@ this linkItem "ItemRadio";
 this linkItem "ItemGPS";  
 [this,"WhiteHead_02","rhs_male02cz"] call BIS_fnc_setIdentity; 
 private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; 
-[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 2."] call zen_modules_fnc_addIntelAction;
+[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key '2'"] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 	};
 	if !(isnull _item15873) then {
 		this = _item15873;
@@ -20335,7 +20335,7 @@ this linkItem "ItemRadio";
 this linkItem "ItemGPS";  
 [this,"WhiteHead_02","rhs_male02cz"] call BIS_fnc_setIdentity; 
 private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; 
-[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 5."] call zen_modules_fnc_addIntelAction;
+[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key '4'."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 	};
 	if !(isnull _item16271) then {
 		this = _item16271;
@@ -20362,7 +20362,7 @@ this linkItem "ItemRadio";
 this linkItem "ItemGPS";  
 [this,"WhiteHead_02","rhs_male02cz"] call BIS_fnc_setIdentity; 
 private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; 
-[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 3."] call zen_modules_fnc_addIntelAction;
+[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key '5'."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 	};
 	if !(isnull _item16273) then {
 		this = _item16273;
@@ -20389,7 +20389,7 @@ this linkItem "ItemRadio";
 this linkItem "ItemGPS";  
 [this,"WhiteHead_02","rhs_male02cz"] call BIS_fnc_setIdentity; 
 private _bodysearchsound = ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; 
-[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key 4."] call zen_modules_fnc_addIntelAction;
+[this, 2, false, 1, "Retrieve Satellite Decryption Keys", _bodysearchsound, 5, "Satellite Decryption Keys", "Acquired Satellite Decryption Key '3'."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 	};
 	if !(isnull _item16315) then {
 		this = _item16315;

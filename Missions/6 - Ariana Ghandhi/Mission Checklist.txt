@@ -3,10 +3,10 @@
 1. Hide Terrain @ Solana
 2. Remove base addons
 3. Execute Init, Zeus FPS View
-4. Change side relations (BLUFOR FRIENDLY OPFOR) && (OPFOR FRIENDLY INDFOR)
+4. Change side relations (OPFOR FRIENDLY INDFOR)
 5. You are now Andrew Ryan (from Bioshock)
 4. Make zeuses invincible
-5. Set time to 5 AM and pause time
+5. Set time to 5 AM (normal acceleration)
 6. Destroy structures around the drop sites and make it war torn
 7. Fill Dropsites with OPFOR Infantry (Make sure no AA Infantry)
 8. 

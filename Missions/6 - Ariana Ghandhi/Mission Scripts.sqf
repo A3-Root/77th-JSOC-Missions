@@ -19,8 +19,22 @@ onMapSingleClick "mapclick_pos = _pos;";
 };
 mapclick_pos = [0,0,0];
 
+ROOT_fnc_addIntel = compileFinal {
+    params ["_object", "_doc", "_type", "_pickuptext", "_sound", "_duration", "_title", "_text"];
+	private _pickupsound = "";
+	switch (_sound) do {
+        case "PC": { _pickupsound = selectRandom ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"]; };
+        case "BODY": { _pickupsound = selectRandom ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; };
+        case "LAPTOP": { _pickupsound = selectRandom ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"]; };
+        default { _pickupsound = "OMIntelGrabPC_01"; };
+    };
+    [_object, 2, _doc, _type, _pickuptext, _pickupsound, _duration, _title, _text] call zen_modules_fnc_addIntelAction;
+};
+publicVariable "ROOT_fnc_addIntel";
 
 
+// [_object, 2, false, 0, "Recover Log Data and Execute Failsafe", _pickupsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
+// [_object, 2, _doc, _type, _pickuptext, _pickupsound, _duration, _title, _text] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 
 
 

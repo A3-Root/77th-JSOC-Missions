@@ -1,5 +1,4 @@
 - Radio Comms Decryption + Base Defense (EWO)
-- Take out key air defenses
-- Take out artillery
-- Take out radars
 - Hold the LZ until backup arrives
+- Black Hawk Down
+- HVT Elimnination - Follow one HVT to discover 3 more and interdict them.
