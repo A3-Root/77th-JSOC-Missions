@@ -45,6 +45,10 @@ publicVariable "ROOT_fnc_acefireFX";
 
 ROOT_fnc_moduleSafeLightningBolt = compileFinal {
     params [["_object", objNull]];
+    if (ROOT_debugMode) then {
+        diag_log format ["*********************************************************** Entering ROOT_fnc_moduleSafeLightningBolt ***********************************************************"];
+        diag_log format ["Object: %1", _object];
+    };
     _object spawn 
     {
         params [["_object", objNull]];
@@ -89,6 +93,12 @@ publicVariable "ROOT_fnc_moduleSafeLightningBolt";
 
 
 ROOT_fnc_landingburn = compileFinal {
+    if (ROOT_debugMode) then {
+        diag_log format ["*********************************************************** Entering ROOT_fnc_landingburn ***********************************************************"];
+        diag_log format ["This: %1", _this];
+    };
+
+
     private _camShake = {
         private _rocketPos = getPos _this;
         private _shakeDistanceFactor = 1.5;
