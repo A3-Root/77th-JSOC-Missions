@@ -1,0 +1,46 @@
+_this addItemCargoGlobal ["ACE_tourniquet", 50]; 
+_this addItemCargoGlobal ["ACE_fieldDressing", 250];
+_this addItemCargoGlobal ["ACE_epinephrine", 150];
+_this addItemCargoGlobal ["ACE_morphine", 150];
+_this addItemCargoGlobal ["ACE_bloodIV", 50];
+_this addItemCargoGlobal ["ACE_bloodIV_250", 150];
+_this addItemCargoGlobal ["ACE_bloodIV_500", 100];
+_this addItemCargoGlobal ["ACE_personalAidKit", 25];
+_this addItemCargoGlobal ["ACE_packingBandage", 250];
+_this addItemCargoGlobal ["ACE_elasticBandage", 250];
+[_this, true, [0, 1.5, 0], 0, true] call ace_dragging_fnc_setDraggable;
+[_this, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
+[_this, 1] call ace_cargo_fnc_setSize;
+
+
+
+
+_this addItemCargoGlobal ["ACE_1Rnd_82mm_Mo_HE", 50]; 
+_this addItemCargoGlobal ["ACE_1Rnd_82mm_Mo_Smoke", 50];
+[_this, true, [0, 1.5, 0], 0, true] call ace_dragging_fnc_setDraggable;
+[_this, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
+[_this, 1] call ace_cargo_fnc_setSize;
+
+
+
+
+_this addItemCargoGlobal ["Uns_1Rnd_HE_M406", 150]; 
+_this addItemCargoGlobal ["1Rnd_SmokeBlue_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["1Rnd_Smoke_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["1Rnd_SmokeRed_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["1Rnd_SmokeOrange_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["1Rnd_SmokeGreen_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["1Rnd_SmokePurple_Grenade_shell", 50]; 
+_this addItemCargoGlobal ["uns_m18Blue", 50]; 
+_this addItemCargoGlobal ["uns_m18Green", 50]; 
+_this addItemCargoGlobal ["uns_m18Orange", 50]; 
+_this addItemCargoGlobal ["uns_m18Purple", 50]; 
+_this addItemCargoGlobal ["uns_m18red", 50]; 
+_this addItemCargoGlobal ["uns_m18white", 50]; 
+_this addItemCargoGlobal ["uns_m67gren", 50]; 
+_this addItemCargoGlobal ["uns_m1911mag", 25]; 
+_this addItemCargoGlobal ["uns_20Rnd_556x45_Stanag", 500]; 
+_this addItemCargoGlobal ["uns_m60mag_200", 250]; 
+[_this, true, [0, 1.5, 0], 0, true] call ace_dragging_fnc_setDraggable;
+[_this, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
+[_this, 1] call ace_cargo_fnc_setSize;
