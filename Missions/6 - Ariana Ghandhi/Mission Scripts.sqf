@@ -345,6 +345,13 @@ if ((side player != sideLogic) && (hasInterface)) then {
 
 
 
+
+// Altis Runway
+["LAND", 0, [15070.9, 16862.1,0]] spawn ROOT_fnc_rocketAIOModule;
+
+
+
+
 comment "Dropsite Victor";
 ["LAND", 0, [9012.796, 616.186, 0]] spawn ROOT_fnc_rocketAIOModule;
 
