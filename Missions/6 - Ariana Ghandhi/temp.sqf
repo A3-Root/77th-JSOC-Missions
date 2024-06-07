@@ -1588,7 +1588,7 @@ ROOT_fnc_rocketAIOModule = {
             _intelBase enableSimulation false;
             _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
             _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", "OMIntelGrabPC_01", 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
             };
         case "LAND": {
             if (ROOT_debugMode) then {
@@ -1612,7 +1612,7 @@ ROOT_fnc_rocketAIOModule = {
             _intelBase enableSimulation false;
             _intelBase setPosATL [(getPosATL _intelBase select 0), (getPosATL _intelBase select 1), (getPosATL _intelBase select 2) + 1.6];
             _intelBase setPosATL [(getPosATL _intelBase select 0) + 1, (getPosATL _intelBase select 1) + 1, (getPosATL _intelBase select 2)];
-            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", "OMIntelGrabPC_01", 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
+            [_intelBase, 2, false, 0, "Recover Log Data and Execute Failsafe", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
         };
         case "LAUNCH": {
             if (ROOT_debugMode) then {
@@ -1623,13 +1623,6 @@ ROOT_fnc_rocketAIOModule = {
         default {hint "ERROR! INVALID CASE!"};
     };
 };
-
-
-
-
-
-
-
 
 
 

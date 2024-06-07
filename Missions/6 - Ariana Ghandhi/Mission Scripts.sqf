@@ -18,27 +18,24 @@ mapclick = true;
 onMapSingleClick "mapclick_pos = _pos;"; 
 };
 mapclick_pos = [0,0,0];
-
-ROOT_fnc_addIntel = compileFinal {
-    params ["_object", "_doc", "_type", "_pickuptext", "_sound", "_duration", "_title", "_text"];
-	private _pickupsound = "";
-	switch (_sound) do {
-        case "PC": { _pickupsound = selectRandom ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"]; };
-        case "BODY": { _pickupsound = selectRandom ["OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"]; };
-        case "LAPTOP": { _pickupsound = selectRandom ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"]; };
-        default { _pickupsound = "OMIntelGrabPC_01"; };
-    };
-    [_object, 2, _doc, _type, _pickuptext, _pickupsound, _duration, _title, _text] call zen_modules_fnc_addIntelAction;
-};
-publicVariable "ROOT_fnc_addIntel";
-
-
-// [_object, 2, false, 0, "Recover Log Data and Execute Failsafe", _pickupsound, 10, "Log Data Recovered", "Recovered Encrypted Log and Debug Data of the AAREV."] call zen_modules_fnc_addIntelAction;
-// [_object, 2, _doc, _type, _pickuptext, _pickupsound, _duration, _title, _text] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
+private _indforunits = allUnits select { side _x == independent };
+{
+    removeAllWeapons _x;
+    removeAllItems _x;
+    removeAllAssignedItems _x;
+} forEach _indforunits;
 
 
 
-
+private _indforunits = allUnits select { side _x == independent };
+{
+    _x enableAI "PATH";
+    _x addMagazineGlobal "rhsgref_30rnd_556x45_m21";
+    _x addWeaponGlobal "rhs_weap_m21a";
+    _x addMagazines ["rhsgref_30rnd_556x45_m21", 3];
+    _x reload [];
+    (group _x) setCombatMode "RED";
+} forEach _indforunits;
 
 
 
@@ -282,7 +279,7 @@ ROOT_fnc_carpetBombing = {
 			] call bis_fnc_showAANArticle;
 		}; 
 	}; 
-	player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>Chaos and Conflict Grip Laghisola Amid Grozovian Annexation</execute>"]];
+	player createDiaryRecord ["diary", ["AAN News Articles", "<execute expression='[] call ROOT_fnc_myArticle'>Grozovian Annexation</execute>"]];
 } remoteExec ["call", [0, -2] select isDedicated, true];
 
 
@@ -363,39 +360,18 @@ comment "Dropsite Uniform";
 
 
 
-private _indforunits = allUnits select { side _x == independent };
-{
-    removeAllWeapons _x;
-    removeAllItems _x;
-    removeAllAssignedItems _x;
-} forEach _indforunits;
 
 
 
-private _indforunits = allUnits select { side _x == independent };
-{
-    _x enableAI "PATH";
-    _x addMagazineGlobal "rhsgref_30rnd_556x45_m21";
-    _x addWeaponGlobal "rhs_weap_m21a";
-    _x addMagazines ["rhsgref_30rnd_556x45_m21", 3];
-    _x reload [];
-    (group _x) setCombatMode "RED";
-} forEach _indforunits;
 
-
-
-// Server Execution Only
-resistance setFriend [west, 1];
-west setFriend [resistance, 1];
 
 
 
 
 ["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 25, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
+mapclick_pos = [0,0,0];
 
 
 ["usaf_kc135", 2, "Bo_Mk82_MI08", [5113.78,6346.48,0], 0, 32, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
-
-
 mapclick_pos = [0,0,0];
 

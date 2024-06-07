@@ -21,9 +21,10 @@
 
 // GULAG
 
+0. Delete all other objects in the map
 1. Disable simulation of bathroom officer
 2. Set uniforms of 'Hackers'
-3. 
+3. Change the loadout of the 'mechanic' on the slab in the basement
 
 
 
@@ -38,8 +39,10 @@ A man chooses, a slave obeys. ~ Andrew Ryan
 
 === [[[ Verbal Briefing ]]]  === 
 
+// Set Operation Name: "A Man Chooses, A Slave Obeys!"
 
-Good day everyone! I'm Andrew Ryan 
+
+People! I'm Andrew Ryan from the ISA and I'll be running this operation.
 
 
 
@@ -190,13 +193,15 @@ Repair
 
 
 
-
-Flashing Red Lights
-
+[this, 2, false, 0, "Recover Deleted Message", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Recovered Message @ Victor (Corrupted)", "From HQ @ 06???? To Lt. ???????????????????, ????? hours ago: MOVE PRISONERS ??????????????? HERE. PREPARE ??????????????? TO DEFEND ??????????????? AGAINST AMERICANS ???????????????. DO NOT LET THEM ???????????????"] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 
 
+[this, 2, false, 0, "Recover Deleted Message", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Recovered Message @ Alpha (Corrupted)", "From HQ @ ??50?? To Lt. ??????????????, ?????????? hours ago: HACK ???????? SUCCESSFUL. ?????????????. SENDING ?????????????????? ADDITIONAL REINFORCEMENTS. ?????????????????????????????? SECURE ????????????????????  PETROV WANTS THIS ??????????????????????. CANNOT FAIL ????????????????????????"] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
+
+
+[this, 2, false, 0, "Recover Deleted Message", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Recovered Message @ Uniform (Corrupted)", "From HQ @ ????96 To Major ???????????, ?????????? hours ago: WATCH ?????????????????????????????? AIRSPACE. FULL COMBAT ALERT ??????????????? YOU ARE OUR LAST HOPE. ??????????????????????????  BRING DATA TO ??????????? WHEN DONE. DO NOT SHARE LOCATION OF SITE ????????????????????"] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
 
 
 
-
-
+private _blackcommsdata = format["%1%2%3%4%5","<t color='#ff0000'>Blacksite HQ: <br /></t><t underline='1' color='#ffffff'>Our tests were successful. Your 'Troy' proved to be a valuable asset. As requested we've targeted three of the latest experimental and most advanced American rocket satellities. We've made them land in our islands as a 'malfunctioning error'. Makarov has already left the facility 4 hours ago with the data, code modifications, and the primary/fail-safe 'Backdoor Access Key'. We've established a dead-man switch with our satellite antennas. As long as they are active, both us and the Americans will have access to all of their satellities. If it goes down before being deactivated, all of us would lose access to the satellites. <br /><br />Petrov: <br />Good. What about the deactivation and reactivation?</t>", "<br /><br />Blacksite HQ: <br />Any deactivation / reactivation requires authorization keys from atleast two officers or the master key now in possesion of Makarov.<br /><br />", "<t color='#ff0000'>Petrov: <br /></t><t color='#ffffff'>Good. Prepare 'Perseus'. <br /><br />Blacksite HQ: <br />Roger! HQ Out!<br /><br />Petrov: <br /> And you.... </t><t color='#00ff00'>American</t><t color='#ffffff'> ... I know you're reading this. <br />I anticipated your arrival. You've been quite useful in our plans so far. I had my doubts, but you did well. <br /><br />So tell me, why are you here? <br /><br />Is it because you chose to protect your government or were you just following orders? <br />How naive. <br />What if I told you, you were nothing but a puppet in this game all along? <br />", "<br />", "<t color='#ffffff'>If you don't believe me, why don't you please ask your handler 'Andrew Ryan' about the 4 undercover 'UN' officers that were sent in here earlier.... Seems like I have more information about you than you do... Till we meet again....!</t><br /><br /> Please, do have a safe trip back home. Till we meet again......."];
+[this, 2, false, 0, "Decrypt Data", ["OMIntelGrabLaptop_01", "OMIntelGrabLaptop_02", "OMIntelGrabLaptop_03"], 10, "Blacksite Comms Data", _blackcommsdata] remoteExec ["zen_modules_fnc_addIntelAction", [0, -2] select isDedicated, true];
