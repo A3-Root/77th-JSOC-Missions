@@ -18,6 +18,9 @@ mapclick = true;
 onMapSingleClick "mapclick_pos = _pos;"; 
 };
 mapclick_pos = [0,0,0];
+
+
+
 private _indforunits = allUnits select { side _x == independent };
 {
     removeAllWeapons _x;
@@ -32,7 +35,7 @@ private _indforunits = allUnits select { side _x == independent };
     _x enableAI "PATH";
     _x addMagazineGlobal "rhsgref_30rnd_556x45_m21";
     _x addWeaponGlobal "rhs_weap_m21a";
-    _x addMagazines ["rhsgref_30rnd_556x45_m21", 3];
+    _x addMagazines ["rhsgref_30rnd_556x45_m21", 5];
     _x reload [];
     (group _x) setCombatMode "RED";
 } forEach _indforunits;

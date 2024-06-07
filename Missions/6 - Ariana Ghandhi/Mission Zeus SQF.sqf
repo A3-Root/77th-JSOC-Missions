@@ -9,6 +9,7 @@ private _layer17433 = true;
 private _layer17432 = true;
 private _layer17402 = true;
 private _layer16010 = true;
+private _layer17431 = true;
 
 
 
@@ -16073,6 +16074,527 @@ if (_layer17433) then {
 
 };
 
+private _item18653 = objNull;
+if (_layer17431) then {
+	_item18653 = createVehicle ["EX3B_AV35B_F",[552.71,453.619,0],[],0,"CAN_COLLIDE"];
+	_this = _item18653;
+	_objects pushback _this;
+	_objectIDs pushback 18653;
+	_this setPosWorld [552.71,453.623,11.1475];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [4,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_HE_shells"];
+	_this enableSimulation false;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+};
+
+private _item18654 = objNull;
+if (_layer17431) then {
+	_item18654 = createVehicle ["EX3B_AV35B_F",[538.013,481.739,0],[],0,"CAN_COLLIDE"];
+	_this = _item18654;
+	_objects pushback _this;
+	_objectIDs pushback 18654;
+	_this setPosWorld [538.013,481.744,11.1475];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [9,"USAF_MISSILE_2Rnd_AIM120_F22"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
+	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
+	_this enableSimulation false;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+};
+
+private _item18655 = objNull;
+if (_layer17431) then {
+	_item18655 = createVehicle ["EX3B_AV35B_F",[526.569,502.565,0],[],0,"CAN_COLLIDE"];
+	_this = _item18655;
+	_objects pushback _this;
+	_objectIDs pushback 18655;
+	_this setPosWorld [526.569,502.569,11.1475];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [4,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_HE_shells"];
+	_this enableSimulation false;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+};
+
+private _item18656 = objNull;
+if (_layer17431) then {
+	_item18656 = createVehicle ["EX3B_AV35B_F",[511.872,530.686,0],[],0,"CAN_COLLIDE"];
+	_this = _item18656;
+	_objects pushback _this;
+	_objectIDs pushback 18656;
+	_this setPosWorld [511.872,530.69,11.1475];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [9,"USAF_MISSILE_2Rnd_AIM120_F22"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
+	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
+	_this enableSimulation false;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+};
+
+private _item18657 = objNull;
+if (_layer17431) then {
+	_item18657 = createVehicle ["rhsusf_CH53E_USMC_GAU21",[491.395,631.421,0],[],0,"CAN_COLLIDE"];
+	_this = _item18657;
+	_objects pushback _this;
+	_objectIDs pushback 18657;
+	_this setPosWorld [491.395,631.424,12.9173];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"rhsusf_ANALE39_CMFlare_Chaff_Magazine_x2"];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[4]],[[],[]],[[""ToolKit"",""ItemGPS"",""ItemRadio""],[1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	[_this, 16] call ace_cargo_fnc_setSpace;
+	_this setVariable ['rhs_decalNumber_type', "USMCGrey"];[_this,[['Number', cCH53NumberPlaces, "USMCGrey"]]] call rhsusf_fnc_decalsInit;
+	if( -1 >= 0)then{[_this, [['Number', cCH53NumberPlaces, _this getVariable ['rhs_decalNumber_type','USMCGrey'], -1] ] ] call rhsusf_fnc_decalsInit};
+	_this animate ['ramp_bottom',0];
+	[_this,0,true] call rhsusf_fnc_ch53_fold;
+};
+
+private _item18658 = objNull;
+if (_layer17431) then {
+	_item18658 = createVehicle ["rhsusf_CH53E_USMC_GAU21",[482.967,674.077,0],[],0,"CAN_COLLIDE"];
+	_this = _item18658;
+	_objects pushback _this;
+	_objectIDs pushback 18658;
+	_this setPosWorld [482.967,674.08,12.9173];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setPylonLoadout [1,"rhsusf_ANALE39_CMFlare_Chaff_Magazine_x2"];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[4]],[[],[]],[[""ToolKit"",""ItemGPS"",""ItemRadio""],[1,1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	[_this, 16] call ace_cargo_fnc_setSpace;
+	_this setVariable ['rhs_decalNumber_type', "USMCGrey"];[_this,[['Number', cCH53NumberPlaces, "USMCGrey"]]] call rhsusf_fnc_decalsInit;
+	if( -1 >= 0)then{[_this, [['Number', cCH53NumberPlaces, _this getVariable ['rhs_decalNumber_type','USMCGrey'], -1] ] ] call rhsusf_fnc_decalsInit};
+	_this animate ['ramp_bottom',0];
+	[_this,0,true] call rhsusf_fnc_ch53_fold;
+};
+
+private _item18648 = objNull;
+if (_layer17431) then {
+	_item18648 = createVehicle ["vtx_MH60M_DAP_MLASS",[286.68,617.926,0],[],0,"CAN_COLLIDE"];
+	_this = _item18648;
+	_objects pushback _this;
+	_objectIDs pushback 18648;
+	_this setPosWorld [286.676,617.857,10.1743];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this setPylonLoadout [1,"VTX_M230_Chaingun_L_AP"];
+	_this setPylonLoadout [2,"VTX_M230_Chaingun_R_AP"];
+	_this setPylonLoadout [3,""];
+	_this setPylonLoadout [4,""];
+	_this setPylonLoadout [5,""];
+	_this setPylonLoadout [6,""];
+	_this setPylonLoadout [7,""];
+	_this setPylonLoadout [8,""];
+	_this setPylonLoadout [9,""];
+	_this setPylonLoadout [10,""];
+	_this setPylonLoadout [11,""];
+	_this setPylonLoadout [12,""];
+	_this setPylonLoadout [13,""];
+	_this setPylonLoadout [14,""];
+	_this setPylonLoadout [15,""];
+	_this setPylonLoadout [16,""];
+	_this setPylonLoadout [17,""];
+	_this setPylonLoadout [18,""];
+	_this setPylonLoadout [19,""];
+	_this setPylonLoadout [20,""];
+	_this setPylonLoadout [21,""];
+	_this setPylonLoadout [22,""];
+	_this setPylonLoadout [23,""];
+	_this setPylonLoadout [24,""];
+	_this setPylonLoadout [25,""];
+	_this setPylonLoadout [26,""];
+	_this setPylonLoadout [27,""];
+	_this setPylonLoadout [28,""];
+	_this setPylonLoadout [29,""];
+	_this setPylonLoadout [30,""];
+	_this setPylonLoadout [31,""];
+	_this setPylonLoadout [32,""];
+	_this setPylonLoadout [33,""];
+	_this setPylonLoadout [34,""];
+	_this setPylonLoadout [35,""];
+	_this setPylonLoadout [36,""];
+	_this setPylonLoadout [37,""];
+	_this setPylonLoadout [38,""];
+	_this setPylonLoadout [39,""];
+	_this setPylonLoadout [40,""];
+	_this setPylonLoadout [41,""];
+	_this setPylonLoadout [42,""];
+	_this setPylonLoadout [43,""];
+	_this setPylonLoadout [44,""];
+	_this setPylonLoadout [45,""];
+	_this setPylonLoadout [46,""];
+	_this setPylonLoadout [47,""];
+	_this setPylonLoadout [48,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [49,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [50,""];
+	_this enableSimulation false;
+	_this allowdamage false;
+	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""SmokeShellGreen"",""SmokeShell"",""DemoCharge_Remote_Mag""],[2,2,1]],[[""ToolKit"",""ACE_microDAGR""],[1,2]],[[""B_AssaultPack_rgr""],[2]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReceiveRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+	[_this, 8] call ace_cargo_fnc_setSpace;
+	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	[_this, "01"] call vtx_uh60_misc_fnc_setDoorNumbers;
+	_this setObjectTextureGlobal [19, "a3\ui_f\data\IGUI\Cfg\Targeting\Empty_ca.paa"];
+};
+
+private _item18649 = objNull;
+if (_layer17431) then {
+	_item18649 = createVehicle ["vtx_MH60M_DAP_MLASS",[277.469,646.307,0],[],0,"CAN_COLLIDE"];
+	_this = _item18649;
+	_objects pushback _this;
+	_objectIDs pushback 18649;
+	_this setPosWorld [277.465,646.238,10.1743];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this setPylonLoadout [1,"VTX_M230_Chaingun_L_AP"];
+	_this setPylonLoadout [2,"VTX_M230_Chaingun_R_AP"];
+	_this setPylonLoadout [3,""];
+	_this setPylonLoadout [4,""];
+	_this setPylonLoadout [5,""];
+	_this setPylonLoadout [6,""];
+	_this setPylonLoadout [7,""];
+	_this setPylonLoadout [8,""];
+	_this setPylonLoadout [9,""];
+	_this setPylonLoadout [10,""];
+	_this setPylonLoadout [11,""];
+	_this setPylonLoadout [12,""];
+	_this setPylonLoadout [13,""];
+	_this setPylonLoadout [14,""];
+	_this setPylonLoadout [15,""];
+	_this setPylonLoadout [16,""];
+	_this setPylonLoadout [17,""];
+	_this setPylonLoadout [18,""];
+	_this setPylonLoadout [19,""];
+	_this setPylonLoadout [20,""];
+	_this setPylonLoadout [21,""];
+	_this setPylonLoadout [22,""];
+	_this setPylonLoadout [23,""];
+	_this setPylonLoadout [24,""];
+	_this setPylonLoadout [25,""];
+	_this setPylonLoadout [26,""];
+	_this setPylonLoadout [27,""];
+	_this setPylonLoadout [28,""];
+	_this setPylonLoadout [29,""];
+	_this setPylonLoadout [30,""];
+	_this setPylonLoadout [31,""];
+	_this setPylonLoadout [32,""];
+	_this setPylonLoadout [33,""];
+	_this setPylonLoadout [34,""];
+	_this setPylonLoadout [35,""];
+	_this setPylonLoadout [36,""];
+	_this setPylonLoadout [37,""];
+	_this setPylonLoadout [38,""];
+	_this setPylonLoadout [39,""];
+	_this setPylonLoadout [40,""];
+	_this setPylonLoadout [41,""];
+	_this setPylonLoadout [42,""];
+	_this setPylonLoadout [43,""];
+	_this setPylonLoadout [44,""];
+	_this setPylonLoadout [45,""];
+	_this setPylonLoadout [46,""];
+	_this setPylonLoadout [47,""];
+	_this setPylonLoadout [48,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [49,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [50,""];
+	_this enableSimulation false;
+	_this allowdamage false;
+	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""SmokeShellGreen"",""SmokeShell"",""DemoCharge_Remote_Mag""],[2,2,1]],[[""ToolKit"",""ACE_microDAGR""],[1,2]],[[""B_AssaultPack_rgr""],[2]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReceiveRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+	[_this, 8] call ace_cargo_fnc_setSpace;
+	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	[_this, "02"] call vtx_uh60_misc_fnc_setDoorNumbers;
+	_this setObjectTextureGlobal [19, "a3\ui_f\data\IGUI\Cfg\Targeting\Empty_ca.paa"];
+};
+
+private _item18650 = objNull;
+if (_layer17431) then {
+	_item18650 = createVehicle ["vtx_MH60M_DAP_MLASS",[275.214,668.938,0],[],0,"CAN_COLLIDE"];
+	_this = _item18650;
+	_objects pushback _this;
+	_objectIDs pushback 18650;
+	_this setPosWorld [275.21,668.869,10.1743];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this setPylonLoadout [1,"VTX_M230_Chaingun_L_AP"];
+	_this setPylonLoadout [2,"VTX_M230_Chaingun_R_AP"];
+	_this setPylonLoadout [3,""];
+	_this setPylonLoadout [4,""];
+	_this setPylonLoadout [5,""];
+	_this setPylonLoadout [6,""];
+	_this setPylonLoadout [7,""];
+	_this setPylonLoadout [8,""];
+	_this setPylonLoadout [9,""];
+	_this setPylonLoadout [10,""];
+	_this setPylonLoadout [11,""];
+	_this setPylonLoadout [12,""];
+	_this setPylonLoadout [13,""];
+	_this setPylonLoadout [14,""];
+	_this setPylonLoadout [15,""];
+	_this setPylonLoadout [16,""];
+	_this setPylonLoadout [17,""];
+	_this setPylonLoadout [18,""];
+	_this setPylonLoadout [19,""];
+	_this setPylonLoadout [20,""];
+	_this setPylonLoadout [21,""];
+	_this setPylonLoadout [22,""];
+	_this setPylonLoadout [23,""];
+	_this setPylonLoadout [24,""];
+	_this setPylonLoadout [25,""];
+	_this setPylonLoadout [26,""];
+	_this setPylonLoadout [27,""];
+	_this setPylonLoadout [28,""];
+	_this setPylonLoadout [29,""];
+	_this setPylonLoadout [30,""];
+	_this setPylonLoadout [31,""];
+	_this setPylonLoadout [32,""];
+	_this setPylonLoadout [33,""];
+	_this setPylonLoadout [34,""];
+	_this setPylonLoadout [35,""];
+	_this setPylonLoadout [36,""];
+	_this setPylonLoadout [37,""];
+	_this setPylonLoadout [38,""];
+	_this setPylonLoadout [39,""];
+	_this setPylonLoadout [40,""];
+	_this setPylonLoadout [41,""];
+	_this setPylonLoadout [42,""];
+	_this setPylonLoadout [43,""];
+	_this setPylonLoadout [44,""];
+	_this setPylonLoadout [45,""];
+	_this setPylonLoadout [46,""];
+	_this setPylonLoadout [47,""];
+	_this setPylonLoadout [48,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [49,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [50,""];
+	_this enableSimulation false;
+	_this allowdamage false;
+	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""SmokeShellGreen"",""SmokeShell"",""DemoCharge_Remote_Mag""],[2,2,1]],[[""ToolKit"",""ACE_microDAGR""],[1,2]],[[""B_AssaultPack_rgr""],[2]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReceiveRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+	[_this, 8] call ace_cargo_fnc_setSpace;
+	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	[_this, "03"] call vtx_uh60_misc_fnc_setDoorNumbers;
+	_this setObjectTextureGlobal [19, "a3\ui_f\data\IGUI\Cfg\Targeting\Empty_ca.paa"];
+};
+
+private _item18651 = objNull;
+if (_layer17431) then {
+	_item18651 = createVehicle ["vtx_MH60M_DAP_MLASS",[271.108,693.372,0],[],0,"CAN_COLLIDE"];
+	_this = _item18651;
+	_objects pushback _this;
+	_objectIDs pushback 18651;
+	_this setPosWorld [271.104,693.303,10.1743];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this setPylonLoadout [1,"VTX_M230_Chaingun_L_AP"];
+	_this setPylonLoadout [2,"VTX_M230_Chaingun_R_AP"];
+	_this setPylonLoadout [3,""];
+	_this setPylonLoadout [4,""];
+	_this setPylonLoadout [5,""];
+	_this setPylonLoadout [6,""];
+	_this setPylonLoadout [7,""];
+	_this setPylonLoadout [8,""];
+	_this setPylonLoadout [9,""];
+	_this setPylonLoadout [10,""];
+	_this setPylonLoadout [11,""];
+	_this setPylonLoadout [12,""];
+	_this setPylonLoadout [13,""];
+	_this setPylonLoadout [14,""];
+	_this setPylonLoadout [15,""];
+	_this setPylonLoadout [16,""];
+	_this setPylonLoadout [17,""];
+	_this setPylonLoadout [18,""];
+	_this setPylonLoadout [19,""];
+	_this setPylonLoadout [20,""];
+	_this setPylonLoadout [21,""];
+	_this setPylonLoadout [22,""];
+	_this setPylonLoadout [23,""];
+	_this setPylonLoadout [24,""];
+	_this setPylonLoadout [25,""];
+	_this setPylonLoadout [26,""];
+	_this setPylonLoadout [27,""];
+	_this setPylonLoadout [28,""];
+	_this setPylonLoadout [29,""];
+	_this setPylonLoadout [30,""];
+	_this setPylonLoadout [31,""];
+	_this setPylonLoadout [32,""];
+	_this setPylonLoadout [33,""];
+	_this setPylonLoadout [34,""];
+	_this setPylonLoadout [35,""];
+	_this setPylonLoadout [36,""];
+	_this setPylonLoadout [37,""];
+	_this setPylonLoadout [38,""];
+	_this setPylonLoadout [39,""];
+	_this setPylonLoadout [40,""];
+	_this setPylonLoadout [41,""];
+	_this setPylonLoadout [42,""];
+	_this setPylonLoadout [43,""];
+	_this setPylonLoadout [44,""];
+	_this setPylonLoadout [45,""];
+	_this setPylonLoadout [46,""];
+	_this setPylonLoadout [47,""];
+	_this setPylonLoadout [48,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [49,"VTX_PylonRack_M261_M229"];
+	_this setPylonLoadout [50,""];
+	_this enableSimulation false;
+	_this allowdamage false;
+	[_this,"[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""SmokeShellGreen"",""SmokeShell"",""DemoCharge_Remote_Mag""],[2,2,1]],[[""ToolKit"",""ACE_microDAGR""],[1,2]],[[""B_AssaultPack_rgr""],[2]]],false]"] call bis_fnc_initAmmoBox;
+	_this setVehicleReportRemoteTargets true;
+	_this setVehicleReceiveRemoteTargets true;
+	_this setVehicleReportOwnPosition true;
+	[_this, 8] call ace_cargo_fnc_setSpace;
+	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	[_this, "04"] call vtx_uh60_misc_fnc_setDoorNumbers;
+	_this setObjectTextureGlobal [19, "a3\ui_f\data\IGUI\Cfg\Targeting\Empty_ca.paa"];
+};
+
+private _item18659 = objNull;
+if (_layer17431) then {
+	_item18659 = createVehicle ["UK3CB_B_MTVR_Reammo_USMC_WDL",[475.527,718.708,0],[],0,"CAN_COLLIDE"];
+	_this = _item18659;
+	_objects pushback _this;
+	_objectIDs pushback 18659;
+	_this setPosWorld [475.527,718.708,10.6869];
+	_this setVectorDirAndUp [[1,-4.37114e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (1200 != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, 1200] call ace_rearm_fnc_makeSource};
+	_this setVariable ['s',1];
+	[_this, 20] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item18663 = objNull;
+if (_layer17431) then {
+	_item18663 = createVehicle ["UK3CB_B_MTVR_Reammo_USMC_WDL",[475.889,724.891,0],[],0,"CAN_COLLIDE"];
+	_this = _item18663;
+	_objects pushback _this;
+	_objectIDs pushback 18663;
+	_this setPosWorld [475.889,724.891,10.6869];
+	_this setVectorDirAndUp [[1,-4.37114e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (1200 != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, 1200] call ace_rearm_fnc_makeSource};
+	_this setVariable ['s',1];
+	[_this, 20] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item18660 = objNull;
+if (_layer17431) then {
+	_item18660 = createVehicle ["UK3CB_B_MTVR_Refuel_USMC_WDL",[480.52,739.899,0],[],0,"CAN_COLLIDE"];
+	_this = _item18660;
+	_objects pushback _this;
+	_objectIDs pushback 18660;
+	_this setPosWorld [480.52,739.899,10.6869];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (3000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 3000] call ace_refuel_fnc_makeSource};
+	if ([0.38,-3.17,-0.7] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[0.38,-3.17,-0.7]], true]};
+	_this setVariable ['s',1];
+	[_this, 6] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item18664 = objNull;
+if (_layer17431) then {
+	_item18664 = createVehicle ["UK3CB_B_MTVR_Refuel_USMC_WDL",[479.782,745.625,0],[],0,"CAN_COLLIDE"];
+	_this = _item18664;
+	_objects pushback _this;
+	_objectIDs pushback 18664;
+	_this setPosWorld [479.782,745.625,10.6869];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[2]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (3000 != (if (isNumber (configOf _this >> "ace_refuel_fuelCargo")) then {getNumber (configOf _this >> "ace_refuel_fuelCargo")} else {-1})) then {[_this, 3000] call ace_refuel_fnc_makeSource};
+	if ([0.38,-3.17,-0.7] isNotEqualTo (if (isArray (configOf _this >> "ace_refuel_hooks")) then {getArray (configOf _this >> "ace_refuel_hooks") select 0} else {[0, 0, 0]})) then {_this setVariable ['s', [[0.38,-3.17,-0.7]], true]};
+	_this setVariable ['s',1];
+	[_this, 6] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item18661 = objNull;
+if (_layer17431) then {
+	_item18661 = createVehicle ["UK3CB_B_MTVR_Repair_USMC_WDL",[463.376,736.686,0],[],0,"CAN_COLLIDE"];
+	_this = _item18661;
+	_objects pushback _this;
+	_objectIDs pushback 18661;
+	_this setPosWorld [463.376,736.686,10.6869];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (1 != (if (isNumber (configOf _this >> "ace_repair_canRepair")) then {getNumber (configOf _this >> "ace_repair_canRepair")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['s', 1, true]};
+	_this setVariable ['s',1];
+	[_this, 12] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item18662 = objNull;
+if (_layer17431) then {
+	_item18662 = createVehicle ["UK3CB_B_MTVR_Repair_USMC_WDL",[463.726,731.962,0],[],0,"CAN_COLLIDE"];
+	_this = _item18662;
+	_objects pushback _this;
+	_objectIDs pushback 18662;
+	_this setPosWorld [463.726,731.962,10.6869];
+	_this setVectorDirAndUp [[-1,1.19249e-008,0],[0,0,1]];
+	_this enableSimulation false;
+	[_this,"[[[[""FirstAidKit""],[1]],[[],[]],[[""ACE_rope12""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
+	if (1 != (if (isNumber (configOf _this >> "ace_repair_canRepair")) then {getNumber (configOf _this >> "ace_repair_canRepair")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['s', 1, true]};
+	_this setVariable ['s',1];
+	[_this, 12] call ace_cargo_fnc_setSpace;
+
+};
+
+private _item15653 = "";
+if (_layer17431) then {
+	_item15653 = createMarker ["marker_farpwhisky",[371.742,611.451,0]];
+	_this = _item15653;
+	_markers pushback _this;
+	_markerIDs pushback 15653;
+	_this setMarkerType "b_service";
+	_this setMarkerText "FARP Whisky";
+	_this setMarkerShape "ICON";
+	if (([0,0,0] # 0 isNotEqualTo 0) || ([0,0,0] # 1 isNotEqualTo 0)) then {[_this, [0,0,0] # 0, [0,0,0] # 1] spawn BIS_fnc_blinkMarker};
+};
 
 
 
@@ -17988,4 +18510,116 @@ if (!isNull _item18789 && !isNull _item18788) then {_item18789 moveInTurret [_it
 	if !(isnull _item18838) then {
 		this = _item18838;
 		this disableAI 'PATH';
+	};
+	if !(isnull _item18653) then {
+		this = _item18653;
+		this setPosATL [-4506.46, 5667.67, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18654) then {
+		this = _item18654;
+		this setPosATL [-4508.31, 5703.31, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18655) then {
+		this = _item18655;
+		this setPosATL [-4510.74, 5745.81, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18656) then {
+		this = _item18656;
+		this setPosATL [-4513.04, 5786.94, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18657) then {
+		this = _item18657;
+		this setPosATL [-4494.76, 5838.63, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18658) then {
+		this = _item18658;
+		this setPosATL [-4496.47, 5873.84, 42.3];
+this setDir 0;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18648) then {
+		this = _item18648;
+		this setPosATL [-4490.83, 5707.12, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18649) then {
+		this = _item18649;
+		this setPosATL [-4489.66, 5689.46, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18650) then {
+		this = _item18650;
+		this setPosATL [-4488.72, 5671.49, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18651) then {
+		this = _item18651;
+		this setPosATL [-4488.37, 5651.47, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18659) then {
+		this = _item18659;
+		this setPosATL [-4521.3, 5713.85, 42.3];
+this setDir 90;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18663) then {
+		this = _item18663;
+		this setPosATL [-4522.6, 5719.65, 42.3];
+this setDir 90;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18660) then {
+		this = _item18660;
+		this setPosATL [-4473.74, 5665.3, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18664) then {
+		this = _item18664;
+		this setPosATL [-4472.64, 5672.46, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18661) then {
+		this = _item18661;
+		this setPosATL [-4490.25, 5807.82, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
+	};
+	if !(isnull _item18662) then {
+		this = _item18662;
+		this setPosATL [-4490.53, 5813.96, 42.3];
+this setDir 270;
+this enableSimulation true;
+this allowDamage true;
 	};
