@@ -320,6 +320,6 @@ if ((side player != sideLogic) && (hasInterface)) then {
 
 // ["_bombDelay","_bomberclass","_numberofplanes","_bombType","_bomblocation","_direction","_amount","_distance","_spawndist","_spawnalt"];
 
-[20, "uns_F4B_BMB", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 4, 50, 5000, 150] spawn ROOT_fnc_carpetBombing;
+[20, "uns_F4B_BMB", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 4, 50, 5000, 125] spawn ROOT_fnc_carpetBombing;
 mapclick_pos = [0,0,0];
 
