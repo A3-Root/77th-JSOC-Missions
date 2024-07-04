@@ -54,7 +54,7 @@ mapclick_pos = [0,0,0];
             JSOC_FPSDiagActive = true;
             while {true} do 
             {
-                player setVariable ["JSOC_PlayerFPS", floor diag_fps, true];
+                player setVariable ["JSOC_PlayerFPS", floor diag_fps, remoteExecutedOwner];
                 sleep 1;
             };
         };

@@ -21,30 +21,6 @@ mapclick_pos = [0,0,0];
 
 
 
-private _indforunits = allUnits select { side _x == independent };
-{
-    removeAllWeapons _x;
-    removeAllItems _x;
-    removeAllAssignedItems _x;
-} forEach _indforunits;
-
-
-
-private _indforunits = allUnits select { side _x == independent };
-{
-    _x enableAI "PATH";
-    _x addMagazineGlobal "rhsgref_30rnd_556x45_m21";
-    _x addWeaponGlobal "rhs_weap_m21a";
-    _x addMagazines ["rhsgref_30rnd_556x45_m21", 5];
-    _x reload [];
-    (group _x) setCombatMode "RED";
-} forEach _indforunits;
-
-
-
-
-
-
 
 
 
@@ -135,37 +111,6 @@ addMissionEventHandler ["Draw3D", {
 
 
 
-
-
-//   ______   __        ________   ______   __    __        __    __  _______  
-//  /      \ |  \      |        \ /      \ |  \  |  \      |  \  |  \|       \ 
-// |  $$$$$$\| $$      | $$$$$$$$|  $$$$$$\| $$\ | $$      | $$  | $$| $$$$$$$\
-// | $$   \$$| $$      | $$__    | $$__| $$| $$$\| $$      | $$  | $$| $$__/ $$
-// | $$      | $$      | $$  \   | $$    $$| $$$$\ $$      | $$  | $$| $$    $$
-// | $$   __ | $$      | $$$$$   | $$$$$$$$| $$\$$ $$      | $$  | $$| $$$$$$$ 
-// | $$__/  \| $$_____ | $$_____ | $$  | $$| $$ \$$$$      | $$__/ $$| $$      
-//  \$$    $$| $$     \| $$     \| $$  | $$| $$  \$$$       \$$    $$| $$      
-//   \$$$$$$  \$$$$$$$$ \$$$$$$$$ \$$   \$$ \$$   \$$        \$$$$$$  \$$      
-
-
-{
-	if !(isNull _x) then { deleteVehicle _x; };
-} foreach gulag_interior;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //   ______    ______   _______   _______   ________  ________        _______   __    __  __    __ 
 //  /      \  /      \ |       \ |       \ |        \|        \      |       \ |  \  |  \|  \  |  \
 // |  $$$$$$\|  $$$$$$\| $$$$$$$\| $$$$$$$\| $$$$$$$$ \$$$$$$$$      | $$$$$$$\| $$  | $$| $$\ | $$
@@ -178,11 +123,10 @@ addMissionEventHandler ["Draw3D", {
 
 
 ROOT_fnc_carpetBombing = {
-	params [["_bomberclass", "usaf_kc135"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100],["_spawndist", 5000],["_spawnalt", 1000]];
+	params [["_bombDelay", 25], ["_bomberclass", "usaf_kc135"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100],["_spawndist", 5000],["_spawnalt", 1000]];
 	if (_bomblocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
 	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid Bomb Class"};
 	if (!isClass (configFile >> "CfgVehicles" >> _bomberclass)) exitWith {systemchat "Invalid Bomber Class"};
-	_spawnalt = 1000;
 	for "_i" from 1 to _numberofplanes do {
 		_spawnposendx = ((_bomblocation select 0)) + _spawndist * sin(_direction);
 		_spawnposendy = ((_bomblocation select 1)) + _spawndist * cos(_direction);
@@ -194,7 +138,7 @@ ROOT_fnc_carpetBombing = {
 		uiSleep 0.5;
 		_spawnalt = _spawnalt + 25;
 	};
-	uiSleep 25;
+	uiSleep _bombDelay;
 	_firstImpactPos = (_bomblocation getPos [(_distance / 2),_direction + 180]) vectorAdd [0,0,200];
 	_posincrement = _distance / _amount;
 	_randomsound = selectRandom ["BattlefieldJet1_3D","BattlefieldJet2_3D","BattlefieldJet3_3D"];
@@ -223,7 +167,7 @@ ROOT_fnc_carpetBombing = {
 			deletevehicle _helper;
 		};
 	};
-	sleep 10;
+	uiSleep 5;
 	true
 };
 
@@ -328,6 +272,40 @@ if ((side player != sideLogic) && (hasInterface)) then {
 
 
 
+
+
+
+
+
+
+[] spawn {
+	{
+		_x doMove [(8395.808 + random 50), (-5701.82 + random 50), (120 + random [-20, 0, 20])];
+		uiSleep 3;
+	} forEach evac_helo;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //  __    __   ______   __    __        ________  __    __  ________   ______  
 // |  \  |  \ /      \ |  \  |  \      |        \|  \  |  \|        \ /      \ 
 // | $$\ | $$|  $$$$$$\| $$\ | $$      | $$$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$\
@@ -339,42 +317,9 @@ if ((side player != sideLogic) && (hasInterface)) then {
 //  \$$   \$$  \$$$$$$  \$$   \$$       \$$$$$$$$ \$$   \$$ \$$$$$$$$  \$$$$$$ 
 
 
-["CREATE", 0, [5128.81,6535.72,0]] spawn ROOT_fnc_rocketAIOModule;
-["LAUNCH", 0] spawn ROOT_fnc_rocketAIOModule;
-["LAND", 0, [5128.81,6535.72,0]] spawn ROOT_fnc_rocketAIOModule;
 
+// ["_bombDelay","_bomberclass","_numberofplanes","_bombType","_bomblocation","_direction","_amount","_distance","_spawndist","_spawnalt"];
 
-
-
-// Altis Runway
-["LAND", 0, [15070.9, 16862.1,0]] spawn ROOT_fnc_rocketAIOModule;
-
-
-
-
-comment "Dropsite Victor";
-["LAND", 0, [9012.796, 616.186, 0]] spawn ROOT_fnc_rocketAIOModule;
-
-comment "Dropsite Alpha";
-["LAND", 0, [9954.423, 5602.701, 0]] spawn ROOT_fnc_rocketAIOModule;
-
-comment "Dropsite Uniform";
-["LAND", 0, [5281.178, 4738.698, 0]] spawn ROOT_fnc_rocketAIOModule;
-
-
-
-
-
-
-
-
-
-
-
-["usaf_kc135", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 25, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
-mapclick_pos = [0,0,0];
-
-
-["usaf_kc135", 2, "Bo_Mk82_MI08", [5113.78,6346.48,0], 0, 32, 1500, 5000, 1000] spawn ROOT_fnc_carpetBombing;
+[20, "uns_F4B_BMB", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 4, 50, 5000, 150] spawn ROOT_fnc_carpetBombing;
 mapclick_pos = [0,0,0];
 

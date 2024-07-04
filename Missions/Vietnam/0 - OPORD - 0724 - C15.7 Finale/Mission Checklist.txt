@@ -1,0 +1,253 @@
+// DO NOT CRASH THE SERVER
+
+1. Make INDFOR Friendly to BLUFOR and Hostile to OPFOR
+2. Make FSBs damaged (artillery them to make it look like a warzone)
+3. Setup base defense AI (Nui Dat Airbase)
+4. Add fortifications / trenchlines around FSBs (MOST IMPORTANTLY NEAR WILLIAM)
+5. Add civilians in the area (MOST IMPORTANTLY NEAR WILLIAM)
+6. Set time to 07:30 AM (normal acceleration) and Date to November 29 1972
+7. Add ambient helicopters and planes flying towards USS Eisenhower
+8. @Airbase Romeo - Add more helicopters landing and taking off with soldiers and civilians to USS Eisenhower.
+9. Add more aircrew and civilians in USS Eisenhower.
+10. Profit
+
+
+
+
+
+
+
+=== [[[ Verbal Briefing ]]]  === 
+
+
+
+
+Please people, stay seated! Welcome to Laghisola! I'm Andrew Ryan from the ISA and I'll be running this operation. Before we begin, please exercise yourself with the current state of affairs in this region from this news article you should receive directly in your tabs.... now! <<< EXECUTE LOCAL NEWS >>> The Russians and the Grozovians have cozied up a lot over the past few years... so cozy that the Russians basically gave this island up to the Grozovians in exchange for resource rights, mutual military collaboration, and bi-lateral defense agreement. Using their powerful-friends, the Grozovian government decided to launch a full fledged 'ethinic cleansing' against the local population, throwing the nation into a civil war. This has led to an humanitarian crisis, with a bit of UN intervention to help stabilize the region. Unfortunately, an American journalist reporting on these incidents got caught in the crossfire and went missing, presumed to be 'kidnapped' by the Grozovian Armed Forces along with 4 UN Officers and you are here to rescue them all. Atleast, thats how we are projecting and will continue to project the story. The real reason you are here for is that 2 months ago, the brightest and greatest minds in the United States launched six of our latest experimental project "AERIS", which stands for Autonomous Experimental Reconnaissance and Intelligence System. Its a system used to provide realtime intelligence and stealth payload delivery on American interests without them ever knowing about it. To put it bluntly and clearly, its a goddamn stealth rocket with very low fingerprint of being detected. Now the problem is, 3 of the "AERIS" seems to have malfunctioned and due to an engineering error, the latitudes and longitutes were mixed up, causing them to land here. We sent a 4-man covert team posing as 'UN Officers' with necessary equipment to try and divert the landing process, but we lost contact with them as soon as they confirmed and relayed the accurate landing positions in the island. With time running out, we've decided to intervene in the island militarily to ensure the safety and integrity of the project from the Grozovian government and by proxy, Russia. Our intel also indicates that the Grozovian Armed Forces are gearing up for a battle though, its not confirmed, they are likely preparing against our intervention.
+
+The intervention team was able to accurately estimate the landing times of each spacecraft codenamed 'Uniform', 'Alpha', and 'Victor' respectively. 'Victor' would be the first craft landing at its dropsite in less than 20 minutes from now. As per our satellite intelligence, the island has some manned and autonomous defenses, but is mostly guarded by infantry and is the easiest site to secure compared to the other two. The island is also home to the central prison where rebel PoWs are held. We believe that the Journalist and our undercover team are kept in that prison. We've marked Point of Interest Omega, which we believe is housing our prisoners. There are also other prisoners that may aid us by taking up arms should you free them from their cells by blowing up POI Sierra.
+
+The second craft to land would be at dropsite 'Alpha'. DZ Alpha is a heavy resource area with plenty of oil fields and minerals that recently saw skirmishes from the rebels. Seeing this, the GAF have mobilized additional men, equipment, and defenses in the area. Expect strong resistance. The spacecraft is estimated to land in about 30 minutes from now.
+
+The third and final craft would be landing south of the GAF HQ Airbase. The Airbase houses the central GAF command and their most capable men and assets. Expect fierce resistance in this region. We anticipate the GAF to utilize and throw everything at their disposal to try and hinder your progress. The time for the landing is unclear but I'll let you know as soon as our emergency sensors goes online when it reaches the methosphere.
+
+Remember, the GAF forces are well trained and have mobilized in mass numbers with their recent annexation of this island. Expect strong resistance. While your priority objectives are to secure the dropsites and by proxy the rockets, please, try to rescue the American Journalist and the UN Officers when you find them. Do keep an eye out for potential intel in this region.
+
+You are authorized to use lethal force and ignore any collateral damage anywhere except for the town of Esperan which is under UN control for this operation. The full might of the US Airforce is at your disposal including the ability to call in 8x B-52 Bombers (in pairs of 2) for bombing run in the region. (Do keep the airspace secured.) I recommend having atleast one CAP / Multirole in the air at all times. We also expect Russian QRFs and combat air patrols to interdict our operation.
+
+Your initial insertion will be aided by a network disruption of all GAF anti-air / targeting stations, meaning, you should be able to touch down relatively safely before the GAF sends in their QRFs. You could also chose the 'American' route by utilizing the raptors for a SEAD/DEAD mission followed by your infil.
+
+Please, if you have any questions, nows the time to ask.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Spawn
+_this setPosATL [6612.962, 7324.843, 0];
+
+Supply
+_this setPosATL [6596.843, 7336.048, 0];
+_this setPosATL [6594.33, 7335.993, 0];
+_this setPosATL [6592.056, 7336.242, 0];
+
+
+
+Orange
+_this setPosATL [6598.975, 7335.915, 0];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consider this briefing for a vietnam mission we did earlier for an ARMA 3 milsim unit called 77th JSOC
+
+-------------------------
+November 5th, 1972
+Phoc Tuy Province, Vietnam
+
+FSB Grey has been our refuge for the past fortnight. With each passing day, the NVA forces tighten their grip, escalating the toll of lives sacrificed to defend this territory. Recognizing the futility of further resistance, the US Army has decided to initiate a comprehensive evacuation plan, extending from FSB Grey to all regions north of Phoc Tuy Province.
+
+As the tides of battle shift, the NVA forces steadily advance, signaling the nearing conclusion of this prolonged standoff. In the northern regions, the Viet Cong has built up an extensive cadre and political organization that has reached into every town and village north of XA BINH BA. The roads are considered dangerous, subject to ambush and should only be passable with a heavy escort. The Viet Cong has established bases in the nearby mountains and jungles which will cause some trouble for the US troops returning from FSB Grey. Our company will be the last group of friendly forces to return to Nui Dat
+
+
+
+
+1.a. Area of Interest
+
+Northern regions of Phoc Tuy Province.
+
+On the South Eastern coast of Vietnam, the province of Phoc Tuy is located a short distance from the capital of Saigon, in a spacious plain dominated by a large fortified airbase constructed by the 1st Australian Task Force (1 ATF). It is a major supply base for the region and is essential to provide support to activities in the local region. The northern regions of Phuc Toy are mostly isolated villages with access from dirt roads that go from south to north. These villages are surrounded by dense forest and are currently under VC control.
+
+
+
+1.b. Area of Operations
+
+
+1.b.(1) Terrain: Dense forest, Dirt roads suited for vehicular transportation, sporadic clearings with open area villages, open area farmland, sporadic lakes and rivers to the west.
+
+
+1.b.(2) Weather: Early Morning Hours, Light Fog, 26°C, Moderate to heavy rainfall
+
+
+
+1.b.(3) Overview Map:
+
+
+<Image of the Map>
+
+
+1.c. Hostile Forces
+
+1.c.(1) North Vietnamese Army (NVA)
+Frontline North Vietnamese military forces, operating in organized and traditional units, typically conducting "conventional" warfare and attempting to capture territory and fortify positions that can be used to conduct operations to attack nearby Allied units.
+
+1.c.(2) Viet Cong (VC)
+The guerilla arm of the North Vietnamese war front, the Viet Cong guerillas utilize unconventional warfare to conduct hit and run attacks on allied positions, ambush and disrupt supply and essential functions of Allied military and South Vietnamese government organizations and otherwise attempt to hinder and harm all means of South Vietnam and allied forces continuing to conduct the war.
+
+
+
+1.d. Friendly Forces
+
+1.d. (1) Army of the Republic of Vietnam (ARVN)
+South Vietnamese military forces, typically equipped with American style rifles and uniforms, ARVN troops are trained in American maneuvers and are generally very reliable in the field. Due to the nature of the conflict ARVN forces are less likely to take prisoners and more likely to not be taken prisoner themselves. Very few instances of ARVN troops being turned to support NVA and Viet Cong forces have been reported
+
+1.d. (2) Montagnard Indigenous Forces
+Local Indigenous forces, the Montagnards are common to the mountainous interior of Vietnam, and are typically local tribes that are known to be hostile to the Viet Cong and NVA forces due to their harsh treatment of these disparate and isolated tribes.
+
+1.e. Attachments and Detachments
+
+1.e(1)SMAR
+
+SMAR will be attached to the infantry and command elements at the discretion of Hydra
+
+1.e.(2)SOAR
+
+Due to the high volume of US troops involved in the retreat SOAR assets will not be available for this operation. Our SOAR assets will be utilized by the USMC 2nd Battalion, 7th Marines.
+
+
+2. Command, Tasks and Combat Support.
+
+
+2.a. Command.
+
+2.a.(1) Company HQ will be operating under the callsign Hydra. Hydra will be coordinating operations on the ground and will be deploying alongside the platoons at Hydra’s discretion.
+
+2.a.(2) Tasks:
+Hydra will be in charge of the operation designating which platoon controls the convoy and which platoon will be disembarking on the convoy stops.
+
+
+
+2.b Combat Support and Equipment
+
+2.b.(1) Available SOAR assets:
+
+No SOAR assets will be available for this operation. SOAR members will be under the command of Hydra
+
+2.b.(2) Infantry Equipment:
+
+Authorized Equipment
+
+
+2.c Tasks
+
+2.c.(1) Tasks
+
+    Gather supplies and trucks from FBS Grey
+
+    Convoy towards Nui Dat Airbase taking the safest marked route
+
+    Stop at the local village to destroy VC supplies and rations
+
+    Rescue any US POWs found at the villages
+
+
+
+
+2.c.(2) Debrief
+
+Upon conclusion of appropriate operations, units will be regrouped and reprovisioned at Nui Dat Airbase or otherwise at the discretion of Company HQ until our next operational period.
+-------------------------
+
+
+
+
+
+
+Now, we want to have a follow up mission from the one above with the following changes to the briefing:
+
+- The NVA is becoming more and more aggressive, with the attack on the convoy last mission showcasing their determination and courage in confronting us directly in combat.
+- Thanks to the escort from FSB Melisa, we arrived at Nui Dat Airbase finally, though with mass casualties and losses of equipment.
+- We will start from Nui Dat Airbase for this operation.
+- There's being general / overall retreat order called out by CENTCOM HQ therefore we are evacuating the region.
+- We will be the second to last unit evacuated from the region.
+- The North Vietnamese Army (NVA) is utilizing this opportunity to strike our forward bases with their full force.
+- The Armed Republic of Vietnamese Army (ARVN) has redeployed their men in this region, taking over our sectors and base defenses while we evacuate.
+- We will leave the stability of this region in the hands of the ARVN who we've trained so far.
+- SOAR will be utilized in this operation to transport troops, supplies, and to assist in the evacuation protocol. They will have access to the following aircrafts:
+-- CH-53D Sea Stallion
+-- CH-47A Chinook
+-- UH-1D Iroquois
+-- CH-34 Choctaw (M60)
+- Hydra will also have direct line to call in friendly F-4B Phantoms for close air support.
+- The NVA has deployed more of their armored units and aircrafts. They've not entered the region yet but will likely so in the next hour or two. Evacuation of units before their main assault force is necessary.
+
+These will be the tasks/objectives (in order of the execution):
+
+- Hold Nu Dat Airbase until all US Personnel have been evacuated out and been replaced by the ARVN.
+- Fallback to Airbase Romeo and continue holding the airbase until final evacuation to USS Eisenhower.
+- Locate and Evacuate the 4 Mission Critical Personnel codenamed "Oliver", "John", "Richard", and "William".
+- Rescue / Evacuate US Army personnel from FSB Scobie, FSB Cook, FSB Elaine.
+- Evacuate / Retreat back to USS Eisenhower for debrief.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
