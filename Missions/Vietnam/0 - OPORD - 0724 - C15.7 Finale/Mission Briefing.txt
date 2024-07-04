@@ -29,9 +29,9 @@
 November 29th, 1972
 Phoc Tuy Province, Vietnam
 
-FSB Grey has been our refuge for the past fortnight. With each passing day, the NVA forces tighten their grip, escalating the toll of lives sacrificed to defend this territory. Recognizing the futility of further resistance, the US Army has decided to initiate a comprehensive evacuation plan, extending from FSB Grey to all regions north of Phoc Tuy Province.
+In the wake of our recent operation, the NVA's aggression has intensified. The attack on our convoy during the last mission underscored their determination and audacity. Despite the escort from FSB Melisa, we reached Nui Dat Airbase with significant casualties and equipment losses. MACV HQ has now issued a general retreat order, necessitating the evacuation of the entire region.
 
-As the tides of battle shift, the NVA forces steadily advance, signaling the nearing conclusion of this prolonged standoff. In the northern regions, the Viet Cong has built up an extensive cadre and political organization that has reached into every town and village north of XA BINH BA. The roads are considered dangerous, subject to ambush and should only be passable with a heavy escort. The Viet Cong has established bases in the nearby mountains and jungles which will cause some trouble for the US troops returning from FSB Grey. Our company will be the last group of friendly forces to return to Nui Dat
+We will commence this operation from Nui Dat Airbase. The ARVN forces will assume control of our sectors and base defenses as we withdraw. It is crucial that we ensure a stable handover to the ARVN, whom we have trained rigorously. Our unit will be the penultimate to evacuate, as the NVA gears up for a major assault.
 
 
 
@@ -54,14 +54,14 @@ On the South Eastern coast of Vietnam, the province of Phoc Tuy is located a sho
 [b]1.b.(1) Terrain:[/b] Dense forest, Dirt roads suited for vehicular transportation, sporadic clearings with open area villages, open area farmland, sporadic lakes and rivers to the west.
 
 
-[b]1.b.(2) Weather:[/b] Early Morning Hours, Light Fog, 26°C, Moderate to heavy rainfall
+[b]1.b.(2) Weather:[/b] Early Morning Hours, No Fog, 26°C, Clear sky.
 
 
 
 [b]1.b.(3) Overview Map:[/b]
 
 
-[img]https://i.imgur.com/DPXj4gN.png[/img]
+[align=center][url=https://ibb.co/PYY3gq8][img]https://i.ibb.co/SxxWBFp/20240704012831-1.jpg[/img][/url][/align]
 
 
 [b]1.c. Hostile Forces[/b]
@@ -86,21 +86,22 @@ Local Indigenous forces, the Montagnards are common to the mountainous interior 
 
 [b]1.e(1)SMAR[/b]
 
-SMAR will be attached to the infantry and command elements at the discretion of Hydra
+SMAR will be attached to the infantry and command elements at the discretion of Hydra.
 
 [b]1.e.(2)SOAR[/b]
 
-Due to the high volume of US troops involved in the retreat SOAR assets will not be available for this operation. Our SOAR assets will be utilized by the USMC 2nd Battalion, 7th Marines.
+Available for transport, CAS, and evacuation operations, crucial for rapid response.
 
 
 [b][align=left][size=150][u]2. Command, Tasks and Combat Support.[/u][/size][/align][/b]
 
 [b]2.a. Command.[/b]
 
-[b]2.a.(1)[/b] Company HQ will be operating under the callsign Hydra. Hydra will be coordinating operations on the ground and will be deploying alongside the platoons at Hydra’s discretion.
+[b]2.a.(1)[/b] Company HQ will be operating under the callsign Hydra. Hydra will be coordinating operations on the ground and will be deploying alongside the platoons at their discretion.
 
 [b]2.a.(2)[/b] Tasks:
-Hydra will be in charge of the operation designating which platoon controls the convoy and which platoon will be disembarking on the convoy stops.
+Hydra will be in charge of the operation designating which platoon secures the airfield (if need be) and which platoon assists in evacuation of other friendly support sites.
+Hydra will also be provided a direct line to call in friendly F-4B Phantoms for close air support.
 
 
 
@@ -108,31 +109,36 @@ Hydra will be in charge of the operation designating which platoon controls the 
 
 [b] 2.b.(1)[/b] Available SOAR assets:
 
-No SOAR assets will be available for this operation. SOAR members will be under the command of Hydra
+[list]CH-53D Sea Stallion[/list]
+[list]CH-47A Chinook[/list]
+[list]UH-1D Iroquois[/list]
+[list]CH-34 Choctaw (M60)[/list]
+
 
 [b] 2.b.(2)[/b] Infantry Equipment:
 
-[url=https://sites.google.com/view/loadoutsof77thjsoc/vietnam?authuser=0]Authorized Equipment[/url]
+[url=https://sites.google.com/view/loadoutsof77thjsoc/vietnam?authuser=0]Standard Authorized Equipment[/url]
 
 
 [b] 2.c Tasks[/b]
 
 [b]2.c.(1)[/b] Tasks
 
-[list]Gather supplies and trucks from FBS Grey[/list]
+[list]Hold Nui Dat Airbase - Secure the airbase until all US personnel are evacuated and ARVN forces have taken over the defenses.[/list]
 
-[list]Convoy towards Nui Dat Airbase taking the safest marked route[/list]
+[list]Fallback to Airbase Romeo - Maintain control of Airbase Romeo until the final evacuation phase to the USS Eisenhower.[/list]
 
-[list]Stop at the local village to destroy VC supplies and rations[/list]
+[list]Locate and Evacuate Mission Critical Personnel - Codenames: Oliver, John, Richard, and William. These individuals are vital to our operations and must be extracted safely.[/list]
 
-[list]Rescue any US POWs found at the villages[/list]
+[list]Rescue/Evacuate US Army Personnel from FSBs - FSB Scobie, FSB Cook, and FSB Elaine.[/list]
 
+[list]Final Evacuation to USS Eisenhower - Retreat to the USS Eisenhower for debrief and regrouping.[/list]
 
 
 
 [b]2.c.(2)[/b] Debrief
 
-Upon conclusion of appropriate operations, units will be regrouped and reprovisioned at Nui Dat Airbase or otherwise at the discretion of Company HQ until our next operational period.
+Debrief will be held at USS Eisenhower.
 
 
 [size=150]From: Military Assistance Command, Vietnam[/size]
