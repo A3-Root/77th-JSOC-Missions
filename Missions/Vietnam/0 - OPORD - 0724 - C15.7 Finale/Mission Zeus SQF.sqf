@@ -13421,15 +13421,15 @@ if (!isNull _item1630 && !isNull _item1631) then {_item1630 moveInDriver _item16
 	};
 	if !(isnull _item1112) then {
 		this = _item1112;
-		this setDamage 1;
+		
 	};
 	if !(isnull _item1118) then {
 		this = _item1118;
-		this setDamage 1;
+		
 	};
 	if !(isnull _item1136) then {
 		this = _item1136;
-		this setDamage 1;
+		
 	};
 	if !(isnull _item1313) then {
 		this = _item1313;
