@@ -61,7 +61,8 @@ On the South Eastern coast of Vietnam, the province of Phoc Tuy is located a sho
 [b]1.b.(3) Overview Map:[/b]
 
 
-[align=center][url=https://ibb.co/PYY3gq8][img]https://i.ibb.co/SxxWBFp/20240704012831-1.jpg[/img][/url][/align]
+[align=center][url=https://ibb.co/5F6DLyK][img]https://i.ibb.co/6BmhFxX/20240706131518-1.jpg[/img][/url]
+[url=https://ibb.co/BgZ1f9F][img]https://i.ibb.co/YtkrNxw/20240706132930-1.jpg[/img][/url][/align]
 
 
 [b]1.c. Hostile Forces[/b]
@@ -109,15 +110,16 @@ Hydra will also be provided a direct line to call in friendly F-4B Phantoms for 
 
 [b] 2.b.(1)[/b] Available SOAR assets:
 
-[list]CH-53D Sea Stallion[/list]
+[list]ACH-47A Guns-a-Go-Go[/list]
 [list]CH-47A Chinook[/list]
-[list]UH-1D Iroquois[/list]
+[list]CH-53D Sea Stallion[/list]
 [list]CH-34 Choctaw (M60)[/list]
+[list]UH-1D Iroquois[/list]
 
 
 [b] 2.b.(2)[/b] Infantry Equipment:
 
-[url=https://sites.google.com/view/loadoutsof77thjsoc/vietnam?authuser=0]Standard Authorized Equipment[/url]
+[url=https://sites.google.com/view/77th-kb-logistics-loadouts/vietnam?authuser=0]Standard Authorized Equipment[/url]
 
 
 [b] 2.c Tasks[/b]
@@ -130,7 +132,9 @@ Hydra will also be provided a direct line to call in friendly F-4B Phantoms for 
 
 [list]Locate and Evacuate Mission Critical Personnel - Codenames: Oliver, John, Richard, and William. These individuals are vital to our operations and must be extracted safely.[/list]
 
-[list]Rescue/Evacuate US Army Personnel from FSBs - FSB Scobie, FSB Cook, and FSB Elaine.[/list]
+[list]Rescue/Evacuate US Army Personnel from FSB Cook.[/list]
+
+[list]Rescue/Evacuate US Army Personnel from Defense Lines 'Burgerstop' and 'Sandwich' and Fallback Line 'Omaha'.[/list]
 
 [list]Final Evacuation to USS Eisenhower - Retreat to the USS Eisenhower for debrief and regrouping.[/list]
 
