@@ -278,13 +278,6 @@ if ((side player != sideLogic) && (hasInterface)) then {
 
 
 
-[] spawn {
-	{
-		_x doMove [(8395.808 + random 50), (-5701.82 + random 50), (120 + random [-20, 0, 20])];
-		uiSleep 3;
-	} forEach evac_helo;
-};
-
 
 
 
@@ -323,3 +316,10 @@ if ((side player != sideLogic) && (hasInterface)) then {
 [20, "uns_F4B_BMB", 2, "Bo_Mk82_MI08", mapclick_pos, 0, 4, 50, 5000, 125] spawn ROOT_fnc_carpetBombing;
 mapclick_pos = [0,0,0];
 
+
+[] spawn {
+	{
+		_x doMove [(8395.808 + random 50), (-5701.82 + random 50), (120 + random [-20, 0, 20])];
+		uiSleep 3;
+	} forEach evac_helo;
+};

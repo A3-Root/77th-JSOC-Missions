@@ -40,11 +40,11 @@ Locate and evacuate four Embassy personnel that are mission-critical with the co
 
 Most importantly, we have lost communications with the security team escoring John and Richard. Their lives may be at stake. Locating and recovering them is of the highest priority.
 
-Moreover, we are also tasked to rescue and evacuate US Army personnel from FSB Scobie, FSB Cook, and FSB Elaine. These bases are under threat, and we need to bring our people back safely.
+Moreover, we are also tasked to rescue and evacuate US Army personnel from FSB Cook, Defense Lines Burgerstop, Sandwich and Fallback Line Omaha. We've got intel that the NVA will likely conduct preliminary skirmishes in these positions.
 
-Evacuate to the USS Eisenhower for debriefing and further instructions. This marks the end of our mission here.
+And finally, evacuate to the USS Eisenhower for debriefing and further instructions.
 
-We have SOAR support for this operation. The available aircraft include CH-53D Sea Stallions, CH-47A Chinooks, UH-1D Iroquois, and CH-34 Choctaws. Hydra will have direct access to F-4B Phantoms for close air support if needed. Use them as needed.
+We have SOAR support for this operation. The available aircraft include ACH-47 Guns a Go Go, CH-53D Sea Stallions, CH-47A Chinooks, CH-34 Choctaws, and UH-1D Iroquois. Hydra will have direct access to F-4B Phantoms for close air support if needed. Use them as needed.
 
 The NVA has deployed more armored units and aircraft, and they are expected to launch a full assault soon. We must complete our objectives and evacuate before their main force arrives.
 
