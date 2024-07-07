@@ -66,17 +66,17 @@ I'll take any questions now!
 
 
 Spawn
-_this setPosATL [6612.962, 7324.843, 0];
+_this setPosATL [6612.962, 7324.843, 0.8];
 
 Supply
-_this setPosATL [6596.843, 7336.048, 0];
-_this setPosATL [6594.33, 7335.993, 0];
+_this setPosATL [6596.843, 7336.048, 0.5];
+_this setPosATL [6594.33, 7335.993, 0.5];
 _this setPosATL [6592.056, 7336.242, 0];
 
 
 
 Orange
-_this setPosATL [6598.975, 7335.915, 0];
+_this setPosATL [6598.975, 7335.915, 0.5];
 
 
 
