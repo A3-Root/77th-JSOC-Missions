@@ -1,0 +1,414 @@
+- Hide Terrain @ No Fly Zone
+- Delete the CSG except for spawn and ammo
+- Run Zeus SQF
+- Move spawn box to new position ---- 
+_this setPosATL [9268.37,19436.5,0];
+_this setPosATL [9261.16,19432.1,0];
+_this setPosATL [9261.22,19434.3,0];
+_this setPosATL [9261.33,19436.5,0];
+_this setPosATL [9261.41,19438.8,0];
+_this setPosATL [9261.51,19441.4,0];
+- Change hostages side to civilian
+- Delete MG at Villa Basement
+- Capture / ziptie hostages
+- Confirm faces / identities of MCI
+- Adjust date and time = 30 May 2015, 1300
+- Setup RP / LZ for Objectives
+- Setup Intel
+- Set operation name
+- Exec MCI Images
+- Exec News Feed (Diary Entry)
+
+
+==================== Intel @ CID ====================
+
+Intel #1:
+Pickup Police Report
+Unusual Cartel Activities
+The report highlights a sudden and uncharacteristic increase in cartel activities in the region, raising suspicions of third-party involvement. Lt. Gonzales and Sgt. Alarcone have initiated a covert investigation to uncover the true nature of this escalation, with concerns about external influences, funding, and control over cartel operations.
+
+Intel #2:
+Download Intel
+Cartel Communication Intercept
+Intercepted communications between cartel members reveal their association with a group referred to as "The Benefactors." These unknown benefactors are supplying the cartels with advanced weaponry, tactical expertise, and financial resources. The intel strongly suggests a secretive and substantial partnership between the cartels and The Benefactors, hinting at possible external control.
+
+Intel #3:
+Pickup Official Correspondence
+Reinforcement Request Denied
+A communication exchange reveals that the governor has denied a request for additional reinforcements at local bases. The decision is attributed to a lack of evidence to support the request, raising questions about the governor's priorities and intentions.
+
+Intel #4:
+Pickup Police Report
+Missing Armory Supplies
+This police report details the mysterious disappearance of a significant quantity of arms and ammunition from a local armory, suggesting complicity from within the security forces. The intel indicates a concerning level of corruption and cooperation with the cartel.
+
+==================== Intel @ FOB ====================
+
+Intel #1:
+Download Intel
+Cartel Reinforcement Plans
+Intercepted radio communications reveal the cartels' plans to reinforce their positions for coordinated attacks on unspecified strategic locations. The communications suggest a high degree of coordination, with specific roles assigned to different cartel factions. External guidance on military strategy is strongly implied.
+
+Intel #2:
+Extract Audio Transcript
+Cartel Leader's Loyalty
+The audio transcript captures a conversation between a cartel leader and an unidentified individual. The leader expresses allegiance to "The Benefactors" and discusses the sudden influx of resources. The conversation alludes to a larger conspiracy to destabilize the region, with the cartels as instruments for an undisclosed agenda.
+
+==================== Intel @ Silvio ====================
+
+Intel #1:
+Download Financial Records
+Cartel's Illicit Financial Network
+These financial records unveil the intricate web of illegal financial transactions supporting the cartels. The records point to connections with offshore accounts and money laundering schemes. The volume of funds involved suggests high-level corruption and collusion within the region, including potential involvement from the governor and other officials.
+
+==================== Intel @ Manuel Diaz ====================
+
+Intel #1:
+Decrypt Text Communications
+Governor's Complicity
+A decrypted message from Daniel Kouba reveals his involvement in diverting troops and supplies from the bases. The intention is to provide minimal resistance during an imminent takeover by the cartels. The message explicitly mentions sparing officers in the camp, with the fear of provoking military action from the President of Mexico. This suggests the governor's complicity in the cartel's assault on the Mexican bases.
+
+==================== Intel @ Cartel Sites ====================
+
+Intel #1:
+Decrypt Text Communications
+Targeted Hit List
+The cartel message contains a list of names and locations, believed to be potential targets for elimination. Among the names are prominent law enforcement officers, investigative journalists, and rival cartel leaders.
+
+Intel #2:
+Pickup Audio Recording
+Cartel Audio Recording
+An informant's audio recording captures a conversation between an individual identified as a high-ranking member of the cartel and a government official, heavily implied to be the governor. The conversation reveals a collusion arrangement, discussing how state resources, including personnel and equipment, were intentionally withdrawn or reallocated to facilitate the cartel's attacks on the Mexican bases.
+
+Intel #3:
+Pickup Cartel Videotape
+Cartel's Tactical Training Camp
+Footage exposes a hidden cartel training camp deep within the region. The footage shows cartel members engaging in military-style drills and receiving instructions from an unidentified, highly skilled military trainer. The intel suggests external influence in the cartel's military capabilities.
+
+Intel #4:
+Intercept Cartel Radio Traffic
+Preparations for Large-Scale Assault
+Intercepted cartel radio traffic indicates ongoing preparations for a large-scale assault on multiple Mexican military bases. The messages mention the acquisition of heavy weaponry and explosives, along with a timeline for the impending attacks. The intel underscores the imminent danger and the need for swift intervention.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[url=https://ibb.co/g4Bs8Vy][img]https://i.ibb.co/QD1sVd9/20231020-Mission-Dossier-docx-Word-108.png[/img][/url]
+[url=https://ibb.co/RHxgg2z][img]https://i.ibb.co/Qm2JJ9r/20231019160920-1.png[/img][/url]
+[url=https://ibb.co/JFnHdt8][img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img][/url]
+[url=https://ibb.co/K63MctB][img]https://i.ibb.co/p29t6HN/20231019204647-1.jpg[/img][/url]
+
+
+
+https://ibb.co/g4Bs8Vy
+https://ibb.co/RHxgg2z
+https://ibb.co/JFnHdt8
+https://ibb.co/K63MctB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verbal Briefing:
+
+[ // Picture In Picture Advisory // ]
+
+Good afternoon Ladies and Gentlemen, Welcome to Sanagasta!
+
+36 hours ago, the POTUS met with Presidente Sanchez and has jointly designated Drug Cartels as Terrorist Organization. He is intending to show the American people his new stance towards 'War on Drugs' next week. However, he wants to present the American people some concrete action already taken to prove his commitment. As such, we are being deployed here to cause eliminate the senior leadership of the Sonora Cartel and disrupt their operations in the region.
+
+However, about 12 hours ago, the Sonora Cartel launched a surprise offensive against the Mexican Federale bases in this region resulting in them taking over two FOBs and the Central Investigation base and loss of many Federales. This level of attack, coordination, and courage was never expected from the cartel proving that they are an adversary we shouldn't underestimate and a threat we must control.
+
+Our objectives are simple. We have identified two Lieutenants pulling the shots in the region. First is Manuel 'Gatekeeper' Diaz - He handles the Security and Weapons of the cartel. The screen to my left is how he looks like. We can either capture him or kill him. The second is Silvio 'Borat' - He handles the finance and logistics of the cartel in the region. It is VITAL that we apprehend him to extract information of all the cartel activities and network both home and abroad. Both of these targets are well guarded so expect resistance.
+
+Next we have to secure the two FOBs and CID bases lost and rescue any federale found. Try to find last collected intel and relay any you find so we can act further before the cartels launch their second wave of assault.
+
+A no-fly zone has been enacted on the town to the south east of us for operational security.
+
+SOAR will assist you in recon, transport and cas using the 6x Blackhawks and 3x Reaper drones.
+
+With the recent attack, the cartel has bolstered its firepower, manning field AA trucks, police apcs, some T34s and some BTRs. An early reconnaissance and asset destruction is critical before Deltas can deploy next to these sites.
+
+Extra Flashbangs are approved and recommended.
+
+I'll take your questions now.
+
+
+* Q & A *
+
+Over to the Mission Commander.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_90_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_117_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_110_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_11_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_102_co.paa
+
+\a3\missions_f_aow\data\img\artwork\canvas\showcase_aow_picture_12_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_07_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_21_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_45_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_72_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_05_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_86_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_70_co.paa 
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_50_co.paa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Manuel "Gatekeeper" Diaz // mci_manueldiaz
+Face = Martinez
+if (!local this) exitWith {};
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "UK3CB_NAP_B_U_Officer_Uniform_GRN_BLK";
+this addHeadgear "UK3CB_H_Civ_Beret";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+[this,"WhiteHead_10",""] call BIS_fnc_setIdentity;
+
+
+
+Silvio "Borat" // mci_silvio
+Face = Mavros
+if (!local this) exitWith {};
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this forceAddUniform "U_O_ParamilitaryUniform_F";
+this addHeadgear "H_StrawHat";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+[this,"Mavros",""] call BIS_fnc_setIdentity;
+
+
+
+Alfred 'Thresh' Hakim // mci_ceo
+Face = Homewood
+if (!local this) exitWith {};
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this addWeapon "rhsusf_weap_glock17g4";
+this addHandgunItem "rhsusf_mag_17Rnd_9x19_JHP";
+this forceAddUniform "UK3CB_ION_O_U_CEO_SUIT_01";
+this addVest "UK3CB_V_Invisible";
+this addWeapon "Binocular";
+this addHeadgear "UK3CB_H_Earpiece";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "ItemGPS";
+[this,"WhiteHead_10",""] call BIS_fnc_setIdentity;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_90_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_117_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_110_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_11_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_102_co.paa
+
+\a3\missions_f_aow\data\img\artwork\canvas\showcase_aow_picture_12_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_07_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_21_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_45_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_72_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_05_co.paa
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_86_co.paa
+
+\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_70_co.paa 
+
+\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_50_co.paa
+
+
+
+if (side player != sideLogic) then {     
+ 
+	disableSerialization; 
+	[ 
+		[ 
+			["title","Is Mexico the new Iraq?"], 
+			["meta",["Katherine Bishop",[2015,05,20,11,25],"CET"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_82_co.paa","1"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_93_co.paa","2"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_77_co.paa","3"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_90_co.paa","4"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_117_co.paa","5"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_110_co.paa","6"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_108_co.paa","7"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_102_co.paa","8"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\canvas\showcase_aow_picture_12_co.paa","9"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_46_co.paa","10"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_07_co.paa","11"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_21_co.paa","12"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_72_co.paa","13"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_05_co.paa","14"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_86_co.paa","15"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_70_co.paa","16"]], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_50_co.paa","17"]], 
+			["textlocked", "As the U.S. government deliberates its next move, the people of Altis face an uncertain future, hoping for a resolution that will bring an end to the violence and bloodshed that has plagued their homeland. Whether or not military action will be the answer to their prayers remains to be seen, but the situation in the fictional scenario of Altis has certainly captured the attention of the gaming community, highlighting the broader issues of international security and the challenges posed by drug cartels."], 
+			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
+		],findDisplay 46,true
+	] call bis_fnc_showAANArticle;  
+}; 
