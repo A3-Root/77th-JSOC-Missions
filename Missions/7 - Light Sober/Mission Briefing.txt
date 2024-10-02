@@ -3,13 +3,13 @@
 [align=center][s]----------------------------------------------------------------------------------------------------[/s][/align]
 
 
-[align=center][size=300][color=#FFD700][font=Arial]Operation "Rogue Dagger" [/font][/color][/size][/align]
+[align=center][size=300][color=#FFD700][font=Arial]Operation "Light Sober" [/font][/color][/size][/align]
 
 
 [align=center][s]----------------------------------------------------------------------------------------------------[/s][/align]
 
 
-[align=right][size=150][font=Arial]Classification: NOFORN // TS // SCI // REL TO MX
+[align=right][size=150][font=Arial]Classification: NOFORN // TS // SCI
 Location: Sanaghasta, Mexico
 Date: May 30, 2015
 Time: 1300 Zulu
