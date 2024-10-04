@@ -412,3 +412,31 @@ if (side player != sideLogic) then {
 		],findDisplay 46,true
 	] call bis_fnc_showAANArticle;  
 }; 
+
+
+
+
+
+
+
+
+
+
+
+
+Safehouse - 528 Objects & 138 AI
+
+
+
+
+
+
+
+Large Pelter
+Blue Laser Cannon
+Truck T-80
+MLRS T-80
+Underground
+Research Base (Main)
+Rescue x2
+Airbase
