@@ -168,3 +168,21 @@ if (side player != sideLogic) then {
 
 // Global Exec
 // ["featureCamera", cameventhandler] call CBA_fnc_removePlayerEventHandler;
+
+
+
+this addAction [
+	"Enter", {
+		1 cutText [
+			"", "BLACK OUT", 1
+		];	  
+		sleep 2;
+		player setPosASL (getPosASL UG_Entrance_A);   
+		player setDir 180;  
+		sleep 0.5;    
+		1 cutText [
+			"", "BLACK IN", 1
+		];
+	},
+	nil, 1.5, true, true, "", "true", 5, false, "", ""
+]; 
