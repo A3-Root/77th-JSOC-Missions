@@ -5,13 +5,14 @@
 params [["_layerWhiteList",[],[[]]],["_layerBlacklist",[],[[]]],["_posCenter",[0,0,0],[[]]],["_dir",0,[0]],["_idBlacklist",[],[[]]]];
 private _allWhitelisted = _layerWhiteList isEqualTo [];
 private _layerRoot = (_allWhitelisted || {true in _layerWhiteList}) && {!(true in _layerBlackList)};
-private _layer11589 = (_allWhitelisted || {"stock_1" in _layerWhiteList}) && {!("stock_1" in _layerBlackList)};
-private _layer11588 = (_allWhitelisted || {"stock" in _layerWhiteList}) && {!("stock" in _layerBlackList)};
-private _layer11593 = (_allWhitelisted || {"stock" in _layerWhiteList}) && {!("stock" in _layerBlackList)};
-private _layer10971 = (_allWhitelisted || {"all other structures" in _layerWhiteList}) && {!("all other structures" in _layerBlackList)};
+private _layer12304 = (_allWhitelisted || {"enemy" in _layerWhiteList}) && {!("enemy" in _layerBlackList)};
+private _layer12602 = (_allWhitelisted || {"command point vic" in _layerWhiteList}) && {!("command point vic" in _layerBlackList)};
+private _layer12601 = (_allWhitelisted || {"command vehicle" in _layerWhiteList}) && {!("command vehicle" in _layerBlackList)};
+private _layer12630 = (_allWhitelisted || {"shipping container command" in _layerWhiteList}) && {!("shipping container command" in _layerBlackList)};
+private _layer12669 = (_allWhitelisted || {"mine utilities" in _layerWhiteList}) && {!("mine utilities" in _layerBlackList)};
 private _layer10960 = (_allWhitelisted || {"teleporter do not delete" in _layerWhiteList}) && {!("teleporter do not delete" in _layerBlackList)};
-private _layer10958 = (_allWhitelisted || {"[l] very big mine_1" in _layerWhiteList}) && {!("[l] very big mine_1" in _layerBlackList)};
-private _layer10957 = (_allWhitelisted || {"[l] very big mine" in _layerWhiteList}) && {!("[l] very big mine" in _layerBlackList)};
+private _layer12297 = (_allWhitelisted || {"base platform" in _layerWhiteList}) && {!("base platform" in _layerBlackList)};
+private _layer10971 = (_allWhitelisted || {"all other structures" in _layerWhiteList}) && {!("all other structures" in _layerBlackList)};
 private _layer11585 = (_allWhitelisted || {"big mine smaller" in _layerWhiteList}) && {!("big mine smaller" in _layerBlackList)};
 
 
@@ -26,12 +27,1140 @@ private _markerIDs = [];
 private _groups = [];
 private _groupIDs = [];
 
-private _item11590 = grpNull;
-if (_layer11589 && _layer11588 && _layer11593) then {
-	_item11590 = createGroup west;
-	_this = _item11590;
+private _item12431 = grpNull;
+if (_layer12304) then {
+	_item12431 = createGroup east;
+	_this = _item12431;
 	_groups pushback _this;
-	_groupIDs pushback 11590;
+	_groupIDs pushback 12431;
+};
+
+private _item12433 = grpNull;
+if (_layer12304) then {
+	_item12433 = createGroup east;
+	_this = _item12433;
+	_groups pushback _this;
+	_groupIDs pushback 12433;
+};
+
+private _item12435 = grpNull;
+if (_layer12304) then {
+	_item12435 = createGroup east;
+	_this = _item12435;
+	_groups pushback _this;
+	_groupIDs pushback 12435;
+};
+
+private _item12437 = grpNull;
+if (_layer12304) then {
+	_item12437 = createGroup east;
+	_this = _item12437;
+	_groups pushback _this;
+	_groupIDs pushback 12437;
+};
+
+private _item12441 = grpNull;
+if (_layer12304) then {
+	_item12441 = createGroup east;
+	_this = _item12441;
+	_groups pushback _this;
+	_groupIDs pushback 12441;
+};
+
+private _item12443 = grpNull;
+if (_layer12304) then {
+	_item12443 = createGroup east;
+	_this = _item12443;
+	_groups pushback _this;
+	_groupIDs pushback 12443;
+};
+
+private _item12447 = grpNull;
+if (_layer12304) then {
+	_item12447 = createGroup east;
+	_this = _item12447;
+	_groups pushback _this;
+	_groupIDs pushback 12447;
+};
+
+private _item12449 = grpNull;
+if (_layer12304) then {
+	_item12449 = createGroup east;
+	_this = _item12449;
+	_groups pushback _this;
+	_groupIDs pushback 12449;
+};
+
+private _item12452 = grpNull;
+if (_layer12304) then {
+	_item12452 = createGroup east;
+	_this = _item12452;
+	_groups pushback _this;
+	_groupIDs pushback 12452;
+};
+
+private _item12454 = grpNull;
+if (_layer12304) then {
+	_item12454 = createGroup east;
+	_this = _item12454;
+	_groups pushback _this;
+	_groupIDs pushback 12454;
+};
+
+private _item12456 = grpNull;
+if (_layer12304) then {
+	_item12456 = createGroup east;
+	_this = _item12456;
+	_groups pushback _this;
+	_groupIDs pushback 12456;
+};
+
+private _item12459 = grpNull;
+if (_layer12304) then {
+	_item12459 = createGroup east;
+	_this = _item12459;
+	_groups pushback _this;
+	_groupIDs pushback 12459;
+};
+
+private _item12461 = grpNull;
+if (_layer12304) then {
+	_item12461 = createGroup east;
+	_this = _item12461;
+	_groups pushback _this;
+	_groupIDs pushback 12461;
+};
+
+private _item12463 = grpNull;
+if (_layer12304) then {
+	_item12463 = createGroup east;
+	_this = _item12463;
+	_groups pushback _this;
+	_groupIDs pushback 12463;
+};
+
+private _item12465 = grpNull;
+if (_layer12304) then {
+	_item12465 = createGroup east;
+	_this = _item12465;
+	_groups pushback _this;
+	_groupIDs pushback 12465;
+};
+
+private _item12467 = grpNull;
+if (_layer12304) then {
+	_item12467 = createGroup east;
+	_this = _item12467;
+	_groups pushback _this;
+	_groupIDs pushback 12467;
+};
+
+private _item12469 = grpNull;
+if (_layer12304) then {
+	_item12469 = createGroup east;
+	_this = _item12469;
+	_groups pushback _this;
+	_groupIDs pushback 12469;
+};
+
+private _item12471 = grpNull;
+if (_layer12304) then {
+	_item12471 = createGroup east;
+	_this = _item12471;
+	_groups pushback _this;
+	_groupIDs pushback 12471;
+};
+
+private _item12473 = grpNull;
+if (_layer12304) then {
+	_item12473 = createGroup east;
+	_this = _item12473;
+	_groups pushback _this;
+	_groupIDs pushback 12473;
+};
+
+private _item12478 = grpNull;
+if (_layer12304) then {
+	_item12478 = createGroup east;
+	_this = _item12478;
+	_groups pushback _this;
+	_groupIDs pushback 12478;
+};
+
+private _item12484 = grpNull;
+if (_layer12304) then {
+	_item12484 = createGroup east;
+	_this = _item12484;
+	_groups pushback _this;
+	_groupIDs pushback 12484;
+};
+
+private _item12486 = grpNull;
+if (_layer12304) then {
+	_item12486 = createGroup east;
+	_this = _item12486;
+	_groups pushback _this;
+	_groupIDs pushback 12486;
+};
+
+private _item12488 = grpNull;
+if (_layer12304) then {
+	_item12488 = createGroup east;
+	_this = _item12488;
+	_groups pushback _this;
+	_groupIDs pushback 12488;
+};
+
+private _item12490 = grpNull;
+if (_layer12304) then {
+	_item12490 = createGroup east;
+	_this = _item12490;
+	_groups pushback _this;
+	_groupIDs pushback 12490;
+};
+
+private _item12494 = grpNull;
+if (_layer12304) then {
+	_item12494 = createGroup east;
+	_this = _item12494;
+	_groups pushback _this;
+	_groupIDs pushback 12494;
+};
+
+private _item12496 = grpNull;
+if (_layer12304) then {
+	_item12496 = createGroup east;
+	_this = _item12496;
+	_groups pushback _this;
+	_groupIDs pushback 12496;
+};
+
+private _item12502 = grpNull;
+if (_layer12304) then {
+	_item12502 = createGroup east;
+	_this = _item12502;
+	_groups pushback _this;
+	_groupIDs pushback 12502;
+};
+
+private _item12505 = grpNull;
+if (_layer12304) then {
+	_item12505 = createGroup east;
+	_this = _item12505;
+	_groups pushback _this;
+	_groupIDs pushback 12505;
+};
+
+private _item12507 = grpNull;
+if (_layer12304) then {
+	_item12507 = createGroup east;
+	_this = _item12507;
+	_groups pushback _this;
+	_groupIDs pushback 12507;
+};
+
+private _item12509 = grpNull;
+if (_layer12304) then {
+	_item12509 = createGroup east;
+	_this = _item12509;
+	_groups pushback _this;
+	_groupIDs pushback 12509;
+};
+
+private _item12535 = grpNull;
+if (_layer12304) then {
+	_item12535 = createGroup east;
+	_this = _item12535;
+	_groups pushback _this;
+	_groupIDs pushback 12535;
+};
+
+private _item12537 = grpNull;
+if (_layer12304) then {
+	_item12537 = createGroup east;
+	_this = _item12537;
+	_groups pushback _this;
+	_groupIDs pushback 12537;
+};
+
+private _item12539 = grpNull;
+if (_layer12304) then {
+	_item12539 = createGroup east;
+	_this = _item12539;
+	_groups pushback _this;
+	_groupIDs pushback 12539;
+};
+
+private _item12541 = grpNull;
+if (_layer12304) then {
+	_item12541 = createGroup east;
+	_this = _item12541;
+	_groups pushback _this;
+	_groupIDs pushback 12541;
+};
+
+private _item12543 = grpNull;
+if (_layer12304) then {
+	_item12543 = createGroup east;
+	_this = _item12543;
+	_groups pushback _this;
+	_groupIDs pushback 12543;
+};
+
+private _item12545 = grpNull;
+if (_layer12304) then {
+	_item12545 = createGroup east;
+	_this = _item12545;
+	_groups pushback _this;
+	_groupIDs pushback 12545;
+};
+
+private _item12549 = grpNull;
+if (_layer12304) then {
+	_item12549 = createGroup east;
+	_this = _item12549;
+	_groups pushback _this;
+	_groupIDs pushback 12549;
+};
+
+private _item12551 = grpNull;
+if (_layer12304) then {
+	_item12551 = createGroup east;
+	_this = _item12551;
+	_groups pushback _this;
+	_groupIDs pushback 12551;
+};
+
+private _item12553 = grpNull;
+if (_layer12304) then {
+	_item12553 = createGroup east;
+	_this = _item12553;
+	_groups pushback _this;
+	_groupIDs pushback 12553;
+};
+
+private _item12555 = grpNull;
+if (_layer12304) then {
+	_item12555 = createGroup east;
+	_this = _item12555;
+	_groups pushback _this;
+	_groupIDs pushback 12555;
+};
+
+private _item12557 = grpNull;
+if (_layer12304) then {
+	_item12557 = createGroup east;
+	_this = _item12557;
+	_groups pushback _this;
+	_groupIDs pushback 12557;
+};
+
+private _item12559 = grpNull;
+if (_layer12304) then {
+	_item12559 = createGroup east;
+	_this = _item12559;
+	_groups pushback _this;
+	_groupIDs pushback 12559;
+};
+
+private _item12561 = grpNull;
+if (_layer12304) then {
+	_item12561 = createGroup east;
+	_this = _item12561;
+	_groups pushback _this;
+	_groupIDs pushback 12561;
+};
+
+private _item12568 = grpNull;
+if (_layer12304) then {
+	_item12568 = createGroup east;
+	_this = _item12568;
+	_groups pushback _this;
+	_groupIDs pushback 12568;
+};
+
+private _item12571 = grpNull;
+if (_layer12304) then {
+	_item12571 = createGroup east;
+	_this = _item12571;
+	_groups pushback _this;
+	_groupIDs pushback 12571;
+};
+
+private _item12573 = grpNull;
+if (_layer12304) then {
+	_item12573 = createGroup east;
+	_this = _item12573;
+	_groups pushback _this;
+	_groupIDs pushback 12573;
+};
+
+private _item12575 = grpNull;
+if (_layer12304) then {
+	_item12575 = createGroup east;
+	_this = _item12575;
+	_groups pushback _this;
+	_groupIDs pushback 12575;
+};
+
+private _item12577 = grpNull;
+if (_layer12304) then {
+	_item12577 = createGroup east;
+	_this = _item12577;
+	_groups pushback _this;
+	_groupIDs pushback 12577;
+};
+
+private _item12579 = grpNull;
+if (_layer12304) then {
+	_item12579 = createGroup east;
+	_this = _item12579;
+	_groups pushback _this;
+	_groupIDs pushback 12579;
+};
+
+private _item12581 = grpNull;
+if (_layer12304) then {
+	_item12581 = createGroup east;
+	_this = _item12581;
+	_groups pushback _this;
+	_groupIDs pushback 12581;
+};
+
+private _item12583 = grpNull;
+if (_layer12304) then {
+	_item12583 = createGroup east;
+	_this = _item12583;
+	_groups pushback _this;
+	_groupIDs pushback 12583;
+};
+
+private _item12585 = grpNull;
+if (_layer12304) then {
+	_item12585 = createGroup east;
+	_this = _item12585;
+	_groups pushback _this;
+	_groupIDs pushback 12585;
+};
+
+private _item12587 = grpNull;
+if (_layer12304) then {
+	_item12587 = createGroup east;
+	_this = _item12587;
+	_groups pushback _this;
+	_groupIDs pushback 12587;
+};
+
+private _item12589 = grpNull;
+if (_layer12304) then {
+	_item12589 = createGroup east;
+	_this = _item12589;
+	_groups pushback _this;
+	_groupIDs pushback 12589;
+};
+
+private _item12593 = grpNull;
+if (_layer12304) then {
+	_item12593 = createGroup east;
+	_this = _item12593;
+	_groups pushback _this;
+	_groupIDs pushback 12593;
+};
+
+private _item12595 = grpNull;
+if (_layer12304) then {
+	_item12595 = createGroup east;
+	_this = _item12595;
+	_groups pushback _this;
+	_groupIDs pushback 12595;
+};
+
+private _item12597 = grpNull;
+if (_layer12304) then {
+	_item12597 = createGroup east;
+	_this = _item12597;
+	_groups pushback _this;
+	_groupIDs pushback 12597;
+};
+
+private _item12599 = grpNull;
+if (_layer12304) then {
+	_item12599 = createGroup east;
+	_this = _item12599;
+	_groups pushback _this;
+	_groupIDs pushback 12599;
+};
+
+private _item12655 = grpNull;
+if (_layer12304) then {
+	_item12655 = createGroup east;
+	_this = _item12655;
+	_groups pushback _this;
+	_groupIDs pushback 12655;
+};
+
+private _item12657 = grpNull;
+if (_layer12304) then {
+	_item12657 = createGroup east;
+	_this = _item12657;
+	_groups pushback _this;
+	_groupIDs pushback 12657;
+};
+
+private _item12659 = grpNull;
+if (_layer12304) then {
+	_item12659 = createGroup east;
+	_this = _item12659;
+	_groups pushback _this;
+	_groupIDs pushback 12659;
+};
+
+private _item12663 = grpNull;
+if (_layer12304) then {
+	_item12663 = createGroup east;
+	_this = _item12663;
+	_groups pushback _this;
+	_groupIDs pushback 12663;
+};
+
+private _item12680 = grpNull;
+if (_layer12304) then {
+	_item12680 = createGroup east;
+	_this = _item12680;
+	_groups pushback _this;
+	_groupIDs pushback 12680;
+};
+
+private _item12682 = grpNull;
+if (_layer12304) then {
+	_item12682 = createGroup east;
+	_this = _item12682;
+	_groups pushback _this;
+	_groupIDs pushback 12682;
+};
+
+private _item12684 = grpNull;
+if (_layer12304) then {
+	_item12684 = createGroup east;
+	_this = _item12684;
+	_groups pushback _this;
+	_groupIDs pushback 12684;
+};
+
+private _item12686 = grpNull;
+if (_layer12304) then {
+	_item12686 = createGroup east;
+	_this = _item12686;
+	_groups pushback _this;
+	_groupIDs pushback 12686;
+};
+
+private _item12688 = grpNull;
+if (_layer12304) then {
+	_item12688 = createGroup east;
+	_this = _item12688;
+	_groups pushback _this;
+	_groupIDs pushback 12688;
+};
+
+private _item12696 = grpNull;
+if (_layer12304) then {
+	_item12696 = createGroup east;
+	_this = _item12696;
+	_groups pushback _this;
+	_groupIDs pushback 12696;
+};
+
+private _item12694 = grpNull;
+if (_layer12304) then {
+	_item12694 = createGroup east;
+	_this = _item12694;
+	_groups pushback _this;
+	_groupIDs pushback 12694;
+};
+
+private _item12698 = grpNull;
+if (_layer12304) then {
+	_item12698 = createGroup east;
+	_this = _item12698;
+	_groups pushback _this;
+	_groupIDs pushback 12698;
+};
+
+private _item12700 = grpNull;
+if (_layer12304) then {
+	_item12700 = createGroup east;
+	_this = _item12700;
+	_groups pushback _this;
+	_groupIDs pushback 12700;
+};
+
+private _item12702 = grpNull;
+if (_layer12304) then {
+	_item12702 = createGroup east;
+	_this = _item12702;
+	_groups pushback _this;
+	_groupIDs pushback 12702;
+};
+
+private _item12704 = grpNull;
+if (_layer12304) then {
+	_item12704 = createGroup east;
+	_this = _item12704;
+	_groups pushback _this;
+	_groupIDs pushback 12704;
+};
+
+private _item12706 = grpNull;
+if (_layer12304) then {
+	_item12706 = createGroup east;
+	_this = _item12706;
+	_groups pushback _this;
+	_groupIDs pushback 12706;
+};
+
+private _item12708 = grpNull;
+if (_layer12304) then {
+	_item12708 = createGroup east;
+	_this = _item12708;
+	_groups pushback _this;
+	_groupIDs pushback 12708;
+};
+
+private _item12710 = grpNull;
+if (_layer12304) then {
+	_item12710 = createGroup east;
+	_this = _item12710;
+	_groups pushback _this;
+	_groupIDs pushback 12710;
+};
+
+private _item12712 = grpNull;
+if (_layer12304) then {
+	_item12712 = createGroup east;
+	_this = _item12712;
+	_groups pushback _this;
+	_groupIDs pushback 12712;
+};
+
+private _item12714 = grpNull;
+if (_layer12304) then {
+	_item12714 = createGroup east;
+	_this = _item12714;
+	_groups pushback _this;
+	_groupIDs pushback 12714;
+};
+
+private _item12717 = grpNull;
+if (_layer12304) then {
+	_item12717 = createGroup east;
+	_this = _item12717;
+	_groups pushback _this;
+	_groupIDs pushback 12717;
+};
+
+private _item12719 = grpNull;
+if (_layer12304) then {
+	_item12719 = createGroup east;
+	_this = _item12719;
+	_groups pushback _this;
+	_groupIDs pushback 12719;
+};
+
+private _item12721 = grpNull;
+if (_layer12304) then {
+	_item12721 = createGroup east;
+	_this = _item12721;
+	_groups pushback _this;
+	_groupIDs pushback 12721;
+};
+
+private _item12723 = grpNull;
+if (_layer12304) then {
+	_item12723 = createGroup east;
+	_this = _item12723;
+	_groups pushback _this;
+	_groupIDs pushback 12723;
+};
+
+private _item12725 = grpNull;
+if (_layer12304) then {
+	_item12725 = createGroup east;
+	_this = _item12725;
+	_groups pushback _this;
+	_groupIDs pushback 12725;
+};
+
+private _item12727 = grpNull;
+if (_layer12304) then {
+	_item12727 = createGroup east;
+	_this = _item12727;
+	_groups pushback _this;
+	_groupIDs pushback 12727;
+};
+
+private _item12729 = grpNull;
+if (_layer12304) then {
+	_item12729 = createGroup east;
+	_this = _item12729;
+	_groups pushback _this;
+	_groupIDs pushback 12729;
+};
+
+private _item12731 = grpNull;
+if (_layer12304) then {
+	_item12731 = createGroup east;
+	_this = _item12731;
+	_groups pushback _this;
+	_groupIDs pushback 12731;
+};
+
+private _item12733 = grpNull;
+if (_layer12304) then {
+	_item12733 = createGroup east;
+	_this = _item12733;
+	_groups pushback _this;
+	_groupIDs pushback 12733;
+};
+
+private _item12735 = grpNull;
+if (_layer12304) then {
+	_item12735 = createGroup east;
+	_this = _item12735;
+	_groups pushback _this;
+	_groupIDs pushback 12735;
+};
+
+private _item12737 = grpNull;
+if (_layer12304) then {
+	_item12737 = createGroup east;
+	_this = _item12737;
+	_groups pushback _this;
+	_groupIDs pushback 12737;
+};
+
+private _item12739 = grpNull;
+if (_layer12304) then {
+	_item12739 = createGroup east;
+	_this = _item12739;
+	_groups pushback _this;
+	_groupIDs pushback 12739;
+};
+
+private _item12741 = grpNull;
+if (_layer12304) then {
+	_item12741 = createGroup east;
+	_this = _item12741;
+	_groups pushback _this;
+	_groupIDs pushback 12741;
+};
+
+private _item12743 = grpNull;
+if (_layer12304) then {
+	_item12743 = createGroup east;
+	_this = _item12743;
+	_groups pushback _this;
+	_groupIDs pushback 12743;
+};
+
+private _item12745 = grpNull;
+if (_layer12304) then {
+	_item12745 = createGroup east;
+	_this = _item12745;
+	_groups pushback _this;
+	_groupIDs pushback 12745;
+};
+
+private _item12747 = grpNull;
+if (_layer12304) then {
+	_item12747 = createGroup east;
+	_this = _item12747;
+	_groups pushback _this;
+	_groupIDs pushback 12747;
+};
+
+private _item12751 = grpNull;
+if (_layer12304) then {
+	_item12751 = createGroup east;
+	_this = _item12751;
+	_groups pushback _this;
+	_groupIDs pushback 12751;
+};
+
+private _item12753 = grpNull;
+if (_layer12304) then {
+	_item12753 = createGroup east;
+	_this = _item12753;
+	_groups pushback _this;
+	_groupIDs pushback 12753;
+};
+
+private _item12755 = grpNull;
+if (_layer12304) then {
+	_item12755 = createGroup east;
+	_this = _item12755;
+	_groups pushback _this;
+	_groupIDs pushback 12755;
+};
+
+private _item12757 = grpNull;
+if (_layer12304) then {
+	_item12757 = createGroup east;
+	_this = _item12757;
+	_groups pushback _this;
+	_groupIDs pushback 12757;
+};
+
+private _item12759 = grpNull;
+if (_layer12304) then {
+	_item12759 = createGroup east;
+	_this = _item12759;
+	_groups pushback _this;
+	_groupIDs pushback 12759;
+};
+
+private _item12761 = grpNull;
+if (_layer12304) then {
+	_item12761 = createGroup east;
+	_this = _item12761;
+	_groups pushback _this;
+	_groupIDs pushback 12761;
+};
+
+private _item12763 = grpNull;
+if (_layer12304) then {
+	_item12763 = createGroup east;
+	_this = _item12763;
+	_groups pushback _this;
+	_groupIDs pushback 12763;
+};
+
+private _item12765 = grpNull;
+if (_layer12304) then {
+	_item12765 = createGroup east;
+	_this = _item12765;
+	_groups pushback _this;
+	_groupIDs pushback 12765;
+};
+
+private _item12767 = grpNull;
+if (_layer12304) then {
+	_item12767 = createGroup east;
+	_this = _item12767;
+	_groups pushback _this;
+	_groupIDs pushback 12767;
+};
+
+private _item12769 = grpNull;
+if (_layer12304) then {
+	_item12769 = createGroup east;
+	_this = _item12769;
+	_groups pushback _this;
+	_groupIDs pushback 12769;
+};
+
+private _item12771 = grpNull;
+if (_layer12304) then {
+	_item12771 = createGroup east;
+	_this = _item12771;
+	_groups pushback _this;
+	_groupIDs pushback 12771;
+};
+
+private _item12773 = grpNull;
+if (_layer12304) then {
+	_item12773 = createGroup east;
+	_this = _item12773;
+	_groups pushback _this;
+	_groupIDs pushback 12773;
+};
+
+private _item12775 = grpNull;
+if (_layer12304) then {
+	_item12775 = createGroup east;
+	_this = _item12775;
+	_groups pushback _this;
+	_groupIDs pushback 12775;
+};
+
+private _item12777 = grpNull;
+if (_layer12304) then {
+	_item12777 = createGroup east;
+	_this = _item12777;
+	_groups pushback _this;
+	_groupIDs pushback 12777;
+};
+
+private _item12779 = grpNull;
+if (_layer12304) then {
+	_item12779 = createGroup east;
+	_this = _item12779;
+	_groups pushback _this;
+	_groupIDs pushback 12779;
+};
+
+private _item12781 = grpNull;
+if (_layer12304) then {
+	_item12781 = createGroup east;
+	_this = _item12781;
+	_groups pushback _this;
+	_groupIDs pushback 12781;
+};
+
+private _item12783 = grpNull;
+if (_layer12304) then {
+	_item12783 = createGroup east;
+	_this = _item12783;
+	_groups pushback _this;
+	_groupIDs pushback 12783;
+};
+
+private _item12785 = grpNull;
+if (_layer12304) then {
+	_item12785 = createGroup east;
+	_this = _item12785;
+	_groups pushback _this;
+	_groupIDs pushback 12785;
+};
+
+private _item12787 = grpNull;
+if (_layer12304) then {
+	_item12787 = createGroup east;
+	_this = _item12787;
+	_groups pushback _this;
+	_groupIDs pushback 12787;
+};
+
+private _item12789 = grpNull;
+if (_layer12304) then {
+	_item12789 = createGroup east;
+	_this = _item12789;
+	_groups pushback _this;
+	_groupIDs pushback 12789;
+};
+
+private _item12791 = grpNull;
+if (_layer12304) then {
+	_item12791 = createGroup east;
+	_this = _item12791;
+	_groups pushback _this;
+	_groupIDs pushback 12791;
+};
+
+private _item12793 = grpNull;
+if (_layer12304) then {
+	_item12793 = createGroup east;
+	_this = _item12793;
+	_groups pushback _this;
+	_groupIDs pushback 12793;
+};
+
+private _item12795 = grpNull;
+if (_layer12304) then {
+	_item12795 = createGroup east;
+	_this = _item12795;
+	_groups pushback _this;
+	_groupIDs pushback 12795;
+};
+
+private _item12797 = grpNull;
+if (_layer12304) then {
+	_item12797 = createGroup east;
+	_this = _item12797;
+	_groups pushback _this;
+	_groupIDs pushback 12797;
+};
+
+private _item12799 = grpNull;
+if (_layer12304) then {
+	_item12799 = createGroup east;
+	_this = _item12799;
+	_groups pushback _this;
+	_groupIDs pushback 12799;
+};
+
+private _item12801 = grpNull;
+if (_layer12304) then {
+	_item12801 = createGroup east;
+	_this = _item12801;
+	_groups pushback _this;
+	_groupIDs pushback 12801;
+};
+
+private _item12803 = grpNull;
+if (_layer12304) then {
+	_item12803 = createGroup east;
+	_this = _item12803;
+	_groups pushback _this;
+	_groupIDs pushback 12803;
+};
+
+private _item12805 = grpNull;
+if (_layer12304) then {
+	_item12805 = createGroup east;
+	_this = _item12805;
+	_groups pushback _this;
+	_groupIDs pushback 12805;
+};
+
+private _item12807 = grpNull;
+if (_layer12304) then {
+	_item12807 = createGroup east;
+	_this = _item12807;
+	_groups pushback _this;
+	_groupIDs pushback 12807;
+};
+
+private _item12809 = grpNull;
+if (_layer12304) then {
+	_item12809 = createGroup east;
+	_this = _item12809;
+	_groups pushback _this;
+	_groupIDs pushback 12809;
+};
+
+private _item12811 = grpNull;
+if (_layer12304) then {
+	_item12811 = createGroup east;
+	_this = _item12811;
+	_groups pushback _this;
+	_groupIDs pushback 12811;
+};
+
+private _item12813 = grpNull;
+if (_layer12304) then {
+	_item12813 = createGroup east;
+	_this = _item12813;
+	_groups pushback _this;
+	_groupIDs pushback 12813;
+};
+
+private _item12815 = grpNull;
+if (_layer12304) then {
+	_item12815 = createGroup east;
+	_this = _item12815;
+	_groups pushback _this;
+	_groupIDs pushback 12815;
+};
+
+private _item12819 = grpNull;
+if (_layer12304) then {
+	_item12819 = createGroup east;
+	_this = _item12819;
+	_groups pushback _this;
+	_groupIDs pushback 12819;
+};
+
+private _item12821 = grpNull;
+if (_layer12304) then {
+	_item12821 = createGroup east;
+	_this = _item12821;
+	_groups pushback _this;
+	_groupIDs pushback 12821;
+};
+
+private _item12823 = grpNull;
+if (_layer12304) then {
+	_item12823 = createGroup east;
+	_this = _item12823;
+	_groups pushback _this;
+	_groupIDs pushback 12823;
+};
+
+private _item12829 = grpNull;
+if (_layer12304) then {
+	_item12829 = createGroup east;
+	_this = _item12829;
+	_groups pushback _this;
+	_groupIDs pushback 12829;
+};
+
+private _item12831 = grpNull;
+if (_layer12304) then {
+	_item12831 = createGroup east;
+	_this = _item12831;
+	_groups pushback _this;
+	_groupIDs pushback 12831;
+};
+
+private _item12833 = grpNull;
+if (_layer12304) then {
+	_item12833 = createGroup east;
+	_this = _item12833;
+	_groups pushback _this;
+	_groupIDs pushback 12833;
+};
+
+private _item12835 = grpNull;
+if (_layer12304) then {
+	_item12835 = createGroup east;
+	_this = _item12835;
+	_groups pushback _this;
+	_groupIDs pushback 12835;
+};
+
+private _item12837 = grpNull;
+if (_layer12304) then {
+	_item12837 = createGroup east;
+	_this = _item12837;
+	_groups pushback _this;
+	_groupIDs pushback 12837;
+};
+
+private _item12839 = grpNull;
+if (_layer12304) then {
+	_item12839 = createGroup east;
+	_this = _item12839;
+	_groups pushback _this;
+	_groupIDs pushback 12839;
+};
+
+private _item12841 = grpNull;
+if (_layer12304) then {
+	_item12841 = createGroup east;
+	_this = _item12841;
+	_groups pushback _this;
+	_groupIDs pushback 12841;
+};
+
+private _item12843 = grpNull;
+if (_layer12304) then {
+	_item12843 = createGroup east;
+	_this = _item12843;
+	_groups pushback _this;
+	_groupIDs pushback 12843;
+};
+
+private _item12845 = grpNull;
+if (_layer12304) then {
+	_item12845 = createGroup east;
+	_this = _item12845;
+	_groups pushback _this;
+	_groupIDs pushback 12845;
+};
+
+private _item12847 = grpNull;
+if (_layer12304) then {
+	_item12847 = createGroup east;
+	_this = _item12847;
+	_groups pushback _this;
+	_groupIDs pushback 12847;
+};
+
+private _item12849 = grpNull;
+if (_layer12304) then {
+	_item12849 = createGroup east;
+	_this = _item12849;
+	_groups pushback _this;
+	_groupIDs pushback 12849;
+};
+
+private _item12851 = grpNull;
+if (_layer12304) then {
+	_item12851 = createGroup east;
+	_this = _item12851;
+	_groups pushback _this;
+	_groupIDs pushback 12851;
 };
 
 
@@ -40,148 +1169,8 @@ if (_layer11589 && _layer11588 && _layer11593) then {
 private _objects = [];
 private _objectIDs = [];
 
-private _item10961 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10961 = createVehicle ["Land_InvisibleBarrier_F",[1480.7,474.841,149.332],[],0,"CAN_COLLIDE"];
-	_this = _item10961;
-	_objects pushback _this;
-	_objectIDs pushback 10961;
-	_this setPosWorld [1480.7,474.841,91.9522];
-	_this setVectorDirAndUp [[-0.922939,-0.384947,0],[0,0,1]];
-	UG_Entrance_A = _this;
-	_this setVehicleVarName "UG_Entrance_A";
-	_this setVehicleAmmo 0.881227;
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10962 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10962 = createVehicle ["Land_HelipadEmpty_F",[1478.75,475.282,148.087],[],0,"CAN_COLLIDE"];
-	_this = _item10962;
-	_objects pushback _this;
-	_objectIDs pushback 10962;
-	_this setPosWorld [1478.75,475.282,90.7072];
-	_this setVectorDirAndUp [[0.945163,0.326599,0],[0,0,1]];
-	UG_Entrance_A_Pos = _this;
-	_this setVehicleVarName "UG_Entrance_A_Pos";
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10963 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10963 = createVehicle ["Land_Factory_Tunnel_F",[1406.36,366.099,148.076],[],0,"CAN_COLLIDE"];
-	_this = _item10963;
-	_objects pushback _this;
-	_objectIDs pushback 10963;
-	_this setPosWorld [1406.36,366.099,93.0254];
-	_this setVectorDirAndUp [[0.927886,0.372864,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10964 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10964 = createVehicle ["Land_Factory_Tunnel_F",[1352.31,329.083,154.527],[],0,"CAN_COLLIDE"];
-	_this = _item10964;
-	_objects pushback _this;
-	_objectIDs pushback 10964;
-	_this setPosWorld [1352.31,329.083,99.4765];
-	_this setVectorDirAndUp [[-0.428943,0.903332,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10965 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10965 = createVehicle ["Land_InvisibleBarrier_F",[1536.31,383.692,148.087],[],0,"CAN_COLLIDE"];
-	_this = _item10965;
-	_objects pushback _this;
-	_objectIDs pushback 10965;
-	_this setPosWorld [1536.31,383.692,90.7072];
-	_this setVectorDirAndUp [[-0.922939,-0.384947,0],[0,0,1]];
-	UG_Entrance_B = _this;
-	_this setVehicleVarName "UG_Entrance_B";
-	_this setVehicleAmmo 0.881227;
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10966 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10966 = createVehicle ["Land_InvisibleBarrier_F",[1398.31,362.801,149.178],[],0,"CAN_COLLIDE"];
-	_this = _item10966;
-	_objects pushback _this;
-	_objectIDs pushback 10966;
-	_this setPosWorld [1398.31,362.801,91.7978];
-	_this setVectorDirAndUp [[-0.922939,-0.384947,0],[0,0,1]];
-	UG_Exit_A = _this;
-	_this setVehicleVarName "UG_Exit_A";
-	_this setVehicleAmmo 0.881227;
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10967 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10967 = createVehicle ["Land_InvisibleBarrier_F",[1355.64,321.829,155.808],[],0,"CAN_COLLIDE"];
-	_this = _item10967;
-	_objects pushback _this;
-	_objectIDs pushback 10967;
-	_this setPosWorld [1355.64,321.829,98.4275];
-	_this setVectorDirAndUp [[0.421298,-0.906922,0],[0,0,1]];
-	UG_Exit_B = _this;
-	_this setVehicleVarName "UG_Exit_B";
-	_this setVehicleAmmo 0.881227;
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10968 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10968 = createVehicle ["Land_HelipadEmpty_F",[1535.04,384.44,148.087],[],0,"CAN_COLLIDE"];
-	_this = _item10968;
-	_objects pushback _this;
-	_objectIDs pushback 10968;
-	_this setPosWorld [1535.04,384.44,90.7072];
-	_this setVectorDirAndUp [[0.945163,0.326599,0],[0,0,1]];
-	UG_Entrance_B_Pos = _this;
-	_this setVehicleVarName "UG_Entrance_B_Pos";
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10969 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10969 = createVehicle ["Land_HelipadEmpty_F",[1394.9,361.59,148.454],[],0,"CAN_COLLIDE"];
-	_this = _item10969;
-	_objects pushback _this;
-	_objectIDs pushback 10969;
-	_this setPosWorld [1394.9,361.59,91.0743];
-	_this setVectorDirAndUp [[0.945163,0.326599,0],[0,0,1]];
-	UG_Exit_A_Pos = _this;
-	_this setVehicleVarName "UG_Exit_A_Pos";
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item10970 = objNull;
-if (_layer10960 && _layer10958 && _layer10957 && _layer11585) then {
-	_item10970 = createVehicle ["Land_HelipadEmpty_F",[1356.66,320.675,155.017],[],0,"CAN_COLLIDE"];
-	_this = _item10970;
-	_objects pushback _this;
-	_objectIDs pushback 10970;
-	_this setPosWorld [1356.66,320.675,97.6366];
-	_this setVectorDirAndUp [[-0.363878,0.931446,0],[0,0,1]];
-	UG_Exit_B_Pos = _this;
-	_this setVehicleVarName "UG_Exit_B_Pos";
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item10972 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10972 = createVehicle ["Land_Excavator_01_wreck_F",[1299.41,407.432,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item10972;
 	_objects pushback _this;
@@ -193,7 +1182,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10973 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10973 = createVehicle ["Land_Excavator_01_wreck_F",[1203.87,381.913,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item10973;
 	_objects pushback _this;
@@ -205,7 +1194,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10974 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10974 = createVehicle ["Sign_Arrow_Large_Yellow_F",[1435.38,460.248,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item10974;
 	_objects pushback _this;
@@ -218,7 +1207,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10975 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10975 = createVehicle ["Sign_Arrow_Large_Yellow_F",[1435.82,458.855,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item10975;
 	_objects pushback _this;
@@ -231,7 +1220,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10976 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10976 = createSimpleObject ["Land_BakedBeans_F",[1353.08,355.917,91.5607]];
 	_this = _item10976;
 	_objects pushback _this;
@@ -243,7 +1232,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10977 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10977 = createSimpleObject ["Land_Basket_F",[1186.36,380.083,96.52]];
 	_this = _item10977;
 	_objects pushback _this;
@@ -255,7 +1244,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10978 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10978 = createVehicle ["Land_SharpStone_02",[1390.91,364.696,148.098],[],0,"CAN_COLLIDE"];
 	_this = _item10978;
 	_objects pushback _this;
@@ -267,7 +1256,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10979 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10979 = createVehicle ["Land_SharpStone_02",[1390.91,364.696,149.665],[],0,"CAN_COLLIDE"];
 	_this = _item10979;
 	_objects pushback _this;
@@ -279,7 +1268,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10980 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10980 = createVehicle ["Land_SharpStone_02",[1372.94,327.614,147.529],[],0,"CAN_COLLIDE"];
 	_this = _item10980;
 	_objects pushback _this;
@@ -291,7 +1280,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10981 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10981 = createVehicle ["Land_SharpStone_02",[1385.82,300.379,150.139],[],0,"CAN_COLLIDE"];
 	_this = _item10981;
 	_objects pushback _this;
@@ -303,7 +1292,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10982 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10982 = createVehicle ["Land_SharpStone_02",[1395.71,285.912,147.713],[],0,"CAN_COLLIDE"];
 	_this = _item10982;
 	_objects pushback _this;
@@ -315,7 +1304,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10983 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10983 = createVehicle ["Land_SharpStone_02",[1396.05,285.704,150.053],[],0,"CAN_COLLIDE"];
 	_this = _item10983;
 	_objects pushback _this;
@@ -327,7 +1316,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10984 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10984 = createVehicle ["Land_SharpStone_02",[1397.81,284.207,151.639],[],0,"CAN_COLLIDE"];
 	_this = _item10984;
 	_objects pushback _this;
@@ -339,7 +1328,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10985 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10985 = createVehicle ["Land_SharpStone_02",[1399.55,283.202,151.751],[],0,"CAN_COLLIDE"];
 	_this = _item10985;
 	_objects pushback _this;
@@ -351,7 +1340,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10986 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10986 = createVehicle ["Land_SharpStone_02",[1389.6,300.491,152.11],[],0,"CAN_COLLIDE"];
 	_this = _item10986;
 	_objects pushback _this;
@@ -363,7 +1352,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10987 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10987 = createVehicle ["Land_SharpStone_02",[1391.24,301.729,151.893],[],0,"CAN_COLLIDE"];
 	_this = _item10987;
 	_objects pushback _this;
@@ -375,7 +1364,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10988 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10988 = createVehicle ["Land_SharpStone_02",[1392.21,303.485,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item10988;
 	_objects pushback _this;
@@ -387,7 +1376,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10989 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10989 = createVehicle ["Land_SharpStone_02",[1396.49,286.237,148.163],[],0,"CAN_COLLIDE"];
 	_this = _item10989;
 	_objects pushback _this;
@@ -399,7 +1388,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10990 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10990 = createVehicle ["Land_SharpStone_02",[1387.07,298.882,149.982],[],0,"CAN_COLLIDE"];
 	_this = _item10990;
 	_objects pushback _this;
@@ -411,7 +1400,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10991 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10991 = createVehicle ["Land_SharpStone_02",[1396.97,357.874,148.13],[],0,"CAN_COLLIDE"];
 	_this = _item10991;
 	_objects pushback _this;
@@ -423,7 +1412,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10992 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10992 = createVehicle ["Land_SharpStone_02",[1398.54,358.991,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item10992;
 	_objects pushback _this;
@@ -435,7 +1424,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10993 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10993 = createVehicle ["Land_Limestone_01_02_F",[1324.25,277.713,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item10993;
 	_objects pushback _this;
@@ -447,7 +1436,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10994 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10994 = createVehicle ["Land_Limestone_01_02_F",[1296.74,260.095,151.23],[],0,"CAN_COLLIDE"];
 	_this = _item10994;
 	_objects pushback _this;
@@ -459,7 +1448,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10995 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10995 = createVehicle ["Land_Limestone_01_02_F",[1326.06,274.901,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item10995;
 	_objects pushback _this;
@@ -471,7 +1460,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10996 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10996 = createVehicle ["Land_Limestone_01_02_F",[1330.71,282.235,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item10996;
 	_objects pushback _this;
@@ -483,7 +1472,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10997 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10997 = createVehicle ["Land_Limestone_01_02_F",[1323.06,296.562,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item10997;
 	_objects pushback _this;
@@ -495,7 +1484,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10998 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10998 = createVehicle ["Land_PaperBox_closed_F",[1236.64,356.827,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item10998;
 	_objects pushback _this;
@@ -508,7 +1497,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item10999 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item10999 = createSimpleObject ["Land_PaperBox_01_open_water_F",[1290.53,394.028,90.6907]];
 	_this = _item10999;
 	_objects pushback _this;
@@ -521,7 +1510,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11000 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11000 = createSimpleObject ["Land_PaperBox_01_open_water_F",[1420.36,281.408,90.6961]];
 	_this = _item11000;
 	_objects pushback _this;
@@ -534,7 +1523,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11001 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11001 = createSimpleObject ["Land_PaperBox_01_open_water_F",[1200.5,401.599,93.3082]];
 	_this = _item11001;
 	_objects pushback _this;
@@ -547,8 +1536,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11002 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11002 = createVehicle ["Land_Campfire_F",[1377.96,331.234,148.076],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11002 = createVehicle ["Land_Campfire_F",[1377.96,331.234,148.326],[],0,"CAN_COLLIDE"];
 	_this = _item11002;
 	_objects pushback _this;
 	_objectIDs pushback 11002;
@@ -558,8 +1547,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11003 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11003 = createVehicle ["Land_Campfire_F",[1310.05,412.544,148.068],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11003 = createVehicle ["Land_Campfire_F",[1310.05,412.544,148.318],[],0,"CAN_COLLIDE"];
 	_this = _item11003;
 	_objects pushback _this;
 	_objectIDs pushback 11003;
@@ -569,8 +1558,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11004 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11004 = createVehicle ["Land_Campfire_F",[1244.99,384.043,148.048],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11004 = createVehicle ["Land_Campfire_F",[1244.99,384.043,148.298],[],0,"CAN_COLLIDE"];
 	_this = _item11004;
 	_objects pushback _this;
 	_objectIDs pushback 11004;
@@ -580,7 +1569,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11005 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11005 = createSimpleObject ["Land_CampingChair_V2_F",[1183.94,379.317,91.0283]];
 	_this = _item11005;
 	_objects pushback _this;
@@ -592,7 +1581,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11006 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11006 = createSimpleObject ["Land_CampingChair_V2_F",[1183.6,380.376,91.0283]];
 	_this = _item11006;
 	_objects pushback _this;
@@ -604,7 +1593,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11007 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11007 = createSimpleObject ["Land_CampingChair_V2_F",[1195.4,399.695,93.3295]];
 	_this = _item11007;
 	_objects pushback _this;
@@ -616,7 +1605,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11008 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11008 = createSimpleObject ["Land_CampingChair_V2_F",[1196.48,399.965,93.3295]];
 	_this = _item11008;
 	_objects pushback _this;
@@ -628,7 +1617,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11009 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11009 = createSimpleObject ["Land_CampingChair_V2_white_F",[1360.08,341.873,90.6962]];
 	_this = _item11009;
 	_objects pushback _this;
@@ -640,7 +1629,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11010 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11010 = createSimpleObject ["Land_CampingChair_V2_white_F",[1362.66,342.275,90.6962]];
 	_this = _item11010;
 	_objects pushback _this;
@@ -652,7 +1641,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11011 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11011 = createSimpleObject ["Land_CampingChair_V2_white_F",[1361.95,341.221,90.6962]];
 	_this = _item11011;
 	_objects pushback _this;
@@ -663,249 +1652,9 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11012 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11012 = createVehicle ["Land_Camping_Light_F",[1385.22,356.545,148.076],[],0,"CAN_COLLIDE"];
-	_this = _item11012;
-	_objects pushback _this;
-	_objectIDs pushback 11012;
-	_this setPosWorld [1385.22,356.545,90.8148];
-	_this setVectorDirAndUp [[0.961533,0.274689,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11013 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11013 = createVehicle ["Land_Camping_Light_F",[1378.25,355.106,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11013;
-	_objects pushback _this;
-	_objectIDs pushback 11013;
-	_this setPosWorld [1378.25,355.106,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11014 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11014 = createVehicle ["Land_Camping_Light_F",[1381.49,350.038,149.012],[],0,"CAN_COLLIDE"];
-	_this = _item11014;
-	_objects pushback _this;
-	_objectIDs pushback 11014;
-	_this setPosWorld [1381.49,350.038,91.7503];
-	_this setVectorDirAndUp [[0.981485,-0.191538,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11015 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11015 = createVehicle ["Land_Camping_Light_F",[1378.37,326.115,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11015;
-	_objects pushback _this;
-	_objectIDs pushback 11015;
-	_this setPosWorld [1378.37,326.115,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11016 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11016 = createVehicle ["Land_Camping_Light_F",[1385.73,312.042,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11016;
-	_objects pushback _this;
-	_objectIDs pushback 11016;
-	_this setPosWorld [1385.73,312.042,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11017 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11017 = createVehicle ["Land_Camping_Light_F",[1392.25,297.24,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11017;
-	_objects pushback _this;
-	_objectIDs pushback 11017;
-	_this setPosWorld [1392.25,297.24,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11018 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11018 = createVehicle ["Land_Camping_Light_F",[1399.31,285.624,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11018;
-	_objects pushback _this;
-	_objectIDs pushback 11018;
-	_this setPosWorld [1399.31,285.624,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11019 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11019 = createVehicle ["Land_Camping_Light_F",[1411.95,264.677,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11019;
-	_objects pushback _this;
-	_objectIDs pushback 11019;
-	_this setPosWorld [1411.95,264.677,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11020 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11020 = createVehicle ["Land_Camping_Light_F",[1325.54,298.273,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11020;
-	_objects pushback _this;
-	_objectIDs pushback 11020;
-	_this setPosWorld [1325.54,298.273,90.8175];
-	_this setVectorDirAndUp [[0.995433,0.0954594,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11021 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11021 = createVehicle ["Land_Camping_Light_F",[1328.71,294.283,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11021;
-	_objects pushback _this;
-	_objectIDs pushback 11021;
-	_this setPosWorld [1328.71,294.283,90.8175];
-	_this setVectorDirAndUp [[0.995433,0.0954594,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11022 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11022 = createVehicle ["Land_Camping_Light_F",[1331.82,296.63,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11022;
-	_objects pushback _this;
-	_objectIDs pushback 11022;
-	_this setPosWorld [1331.82,296.63,90.8175];
-	_this setVectorDirAndUp [[0.995433,0.0954594,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11023 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11023 = createVehicle ["Land_Camping_Light_F",[1338.81,301.638,148.183],[],0,"CAN_COLLIDE"];
-	_this = _item11023;
-	_objects pushback _this;
-	_objectIDs pushback 11023;
-	_this setPosWorld [1338.81,301.638,90.922];
-	_this setVectorDirAndUp [[0.865589,0.0830078,0.493828],[-0.347262,-0.611009,0.711391]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11024 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11024 = createVehicle ["Land_Camping_Light_F",[1393.72,280.289,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11024;
-	_objects pushback _this;
-	_objectIDs pushback 11024;
-	_this setPosWorld [1393.72,280.289,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11025 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11025 = createVehicle ["Land_Camping_Light_F",[1356.65,344.476,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11025;
-	_objects pushback _this;
-	_objectIDs pushback 11025;
-	_this setPosWorld [1356.65,344.476,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11026 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11026 = createVehicle ["Land_Camping_Light_F",[1349.55,368.276,149.396],[],0,"CAN_COLLIDE"];
-	_this = _item11026;
-	_objects pushback _this;
-	_objectIDs pushback 11026;
-	_this setPosWorld [1349.55,368.276,92.1349];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11027 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11027 = createVehicle ["Land_Camping_Light_F",[1342.21,384.326,148.076],[],0,"CAN_COLLIDE"];
-	_this = _item11027;
-	_objects pushback _this;
-	_objectIDs pushback 11027;
-	_this setPosWorld [1342.21,384.326,90.8148];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11028 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11028 = createVehicle ["Land_Camping_Light_F",[1316.35,413.684,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11028;
-	_objects pushback _this;
-	_objectIDs pushback 11028;
-	_this setPosWorld [1316.35,413.684,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11029 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11029 = createVehicle ["Land_Camping_Light_F",[1297.2,402.541,148.079],[],0,"CAN_COLLIDE"];
-	_this = _item11029;
-	_objects pushback _this;
-	_objectIDs pushback 11029;
-	_this setPosWorld [1297.2,402.541,90.8175];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11030 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11030 = createVehicle ["Land_Camping_Light_F",[1242.21,376.61,148.505],[],0,"CAN_COLLIDE"];
-	_this = _item11030;
-	_objects pushback _this;
-	_objectIDs pushback 11030;
-	_this setPosWorld [1242.21,376.61,91.2636];
-	_this setVectorDirAndUp [[0.917674,0.397331,0.00114472],[0.00160247,-0.00658203,0.999977]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
-private _item11031 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11031 = createVehicle ["Land_Camping_Light_off_F",[1314,253.507,148.062],[],0,"CAN_COLLIDE"];
-	_this = _item11031;
-	_objects pushback _this;
-	_objectIDs pushback 11031;
-	_this setPosWorld [1314,253.507,90.8008];
-	_this setVectorDirAndUp [[0.845622,0.533782,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
 private _item11032 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11032 = createSimpleObject ["Land_CampingTable_F",[1183.18,379.627,91.0283]];
+if (_layer10971 && _layer11585) then {
+	_item11032 = createSimpleObject ["Land_CampingTable_F",[1183.18,379.627,91.4398]];
 	_this = _item11032;
 	_objects pushback _this;
 	_objectIDs pushback 11032;
@@ -916,8 +1665,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11033 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11033 = createSimpleObject ["Land_CampingTable_F",[1195.76,400.44,93.3295]];
+if (_layer10971 && _layer11585) then {
+	_item11033 = createSimpleObject ["Land_CampingTable_F",[1195.76,400.44,93.741]];
 	_this = _item11033;
 	_objects pushback _this;
 	_objectIDs pushback 11033;
@@ -928,8 +1677,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11034 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11034 = createSimpleObject ["Land_CampingTable_white_F",[1418.2,280.764,90.7056]];
+if (_layer10971 && _layer11585) then {
+	_item11034 = createSimpleObject ["Land_CampingTable_white_F",[1418.2,280.764,91.1171]];
 	_this = _item11034;
 	_objects pushback _this;
 	_objectIDs pushback 11034;
@@ -940,8 +1689,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11035 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11035 = createSimpleObject ["Land_CampingTable_white_F",[1361.03,342.16,90.6961]];
+if (_layer10971 && _layer11585) then {
+	_item11035 = createSimpleObject ["Land_CampingTable_white_F",[1361.03,342.16,91.1077]];
 	_this = _item11035;
 	_objects pushback _this;
 	_objectIDs pushback 11035;
@@ -952,7 +1701,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11036 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11036 = createSimpleObject ["Land_PaperBox_01_small_closed_brown_food_F",[1299.42,395.408,91.9413]];
 	_this = _item11036;
 	_objects pushback _this;
@@ -965,7 +1714,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11037 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11037 = createSimpleObject ["Land_PaperBox_01_small_closed_brown_food_F",[1417.2,278.352,90.6962]];
 	_this = _item11037;
 	_objects pushback _this;
@@ -978,7 +1727,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11038 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11038 = createSimpleObject ["Land_PaperBox_01_small_closed_white_med_F",[1352.09,345.622,90.6962]];
 	_this = _item11038;
 	_objects pushback _this;
@@ -991,7 +1740,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11039 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11039 = createSimpleObject ["Land_PaperBox_01_small_closed_white_IDAP_F",[1356.03,339.542,92.1781]];
 	_this = _item11039;
 	_objects pushback _this;
@@ -1004,7 +1753,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11040 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11040 = createSimpleObject ["Land_PaperBox_01_small_closed_white_IDAP_F",[1352.92,345.603,90.6962]];
 	_this = _item11040;
 	_objects pushback _this;
@@ -1017,21 +1766,22 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11041 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11041 = createSimpleObject ["Land_Cargo40_military_green_F",[1298.68,392.211,90.6962]];
+if (_layer10971 && _layer11585) then {
+	_item11041 = createSimpleObject ["Land_Cargo40_military_green_F",[1298.68,392.211,90.696]];
 	_this = _item11041;
 	_objects pushback _this;
 	_objectIDs pushback 11041;
-	_this setPosWorld [1298.68,392.211,92.0245];
-	_this setVectorDirAndUp [[-0.677709,0.735331,0],[0,0,1]];
+	_this setPosWorld [1298.68,392.211,92.0243];
+	_this setVectorDirAndUp [[-0.677711,0.735329,0],[0,0,1]];
 	_this enableSimulation false;
 	_this allowdamage false;;
+	['init',_this,[10,0,0]] call bis_fnc_3DENAttributeDoorStates;;
 	[_this, 100] call ace_cargo_fnc_setSize;
 	if (false) then {_this spawn expEden_fnc_randomizeCargo};
 };
 
 private _item11042 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11042 = createSimpleObject ["Land_Cargo20_military_green_F",[1193.54,367.429,90.6961]];
 	_this = _item11042;
 	_objects pushback _this;
@@ -1045,7 +1795,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11043 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11043 = createSimpleObject ["Land_Cargo20_military_green_F",[1192.93,363.876,93.5225]];
 	_this = _item11043;
 	_objects pushback _this;
@@ -1059,7 +1809,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11044 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11044 = createSimpleObject ["Land_Cargo20_military_green_F",[1193.95,362.711,90.6961]];
 	_this = _item11044;
 	_objects pushback _this;
@@ -1073,7 +1823,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11045 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11045 = createSimpleObject ["Land_Cargo20_orange_F",[1190.28,365.397,90.6961]];
 	_this = _item11045;
 	_objects pushback _this;
@@ -1087,7 +1837,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11046 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11046 = createSimpleObject ["CargoNet_01_box_F",[1234.62,357.775,90.6962]];
 	_this = _item11046;
 	_objects pushback _this;
@@ -1100,7 +1850,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11047 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11047 = createSimpleObject ["CargoNet_01_box_F",[1242.6,355.316,90.6007]];
 	_this = _item11047;
 	_objects pushback _this;
@@ -1113,7 +1863,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11048 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11048 = createSimpleObject ["Land_FoodSacks_01_cargo_brown_idap_F",[1200.46,374.727,90.6961]];
 	_this = _item11048;
 	_objects pushback _this;
@@ -1126,7 +1876,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11049 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11049 = createSimpleObject ["B_CargoNet_01_ammo_F",[1232.32,358.233,90.6961]];
 	_this = _item11049;
 	_objects pushback _this;
@@ -1139,7 +1889,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11050 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11050 = createSimpleObject ["Land_CerealsBox_F",[1351.64,355.859,91.5607]];
 	_this = _item11050;
 	_objects pushback _this;
@@ -1151,7 +1901,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11051 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11051 = createSimpleObject ["Land_ChairWood_F",[1352.96,354.451,90.6961]];
 	_this = _item11051;
 	_objects pushback _this;
@@ -1163,7 +1913,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11052 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11052 = createVehicle ["Land_SharpRock_apart",[1399.89,355.037,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11052;
 	_objects pushback _this;
@@ -1175,7 +1925,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11053 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11053 = createVehicle ["Land_CratesShabby_F",[1196.01,397.235,156.181],[],0,"CAN_COLLIDE"];
 	_this = _item11053;
 	_objects pushback _this;
@@ -1187,7 +1937,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11054 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11054 = createVehicle ["Land_CratesWooden_F",[1356.49,339.689,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11054;
 	_objects pushback _this;
@@ -1199,7 +1949,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11055 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11055 = createVehicle ["Land_CratesWooden_F",[1352.05,343.93,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11055;
 	_objects pushback _this;
@@ -1211,7 +1961,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11056 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11056 = createVehicle ["Land_CratesWooden_F",[1363.37,272.913,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11056;
 	_objects pushback _this;
@@ -1223,7 +1973,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11057 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11057 = createVehicle ["Land_CratesWooden_F",[1366.48,271.466,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11057;
 	_objects pushback _this;
@@ -1235,7 +1985,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11058 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11058 = createSimpleObject ["Land_FMradio_F",[1352.15,356.137,91.5607]];
 	_this = _item11058;
 	_objects pushback _this;
@@ -1249,7 +1999,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11059 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11059 = createSimpleObject ["Land_FoodSack_01_full_brown_F",[1363.96,279.698,91.3452]];
 	_this = _item11059;
 	_objects pushback _this;
@@ -1262,7 +2012,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11060 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11060 = createSimpleObject ["Land_FoodSack_01_dmg_white_idap_F",[1351.47,355.436,91.5607]];
 	_this = _item11060;
 	_objects pushback _this;
@@ -1274,7 +2024,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11061 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11061 = createVehicle ["Land_Fortress_01_bricks_v1_F",[1305.63,396.52,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11061;
 	_objects pushback _this;
@@ -1285,32 +2035,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11062 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11062 = createVehicle ["Land_Wreck_Truck_F",[1253.13,368.128,148.059],[],0,"CAN_COLLIDE"];
-	_this = _item11062;
-	_objects pushback _this;
-	_objectIDs pushback 11062;
-	_this setPosWorld [1253.13,368.128,91.9734];
-	_this setVectorDirAndUp [[-0.102645,0.994718,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11063 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11063 = createVehicle ["Land_Wreck_Truck_F",[1255.47,376.404,148.059],[],0,"CAN_COLLIDE"];
-	_this = _item11063;
-	_objects pushback _this;
-	_objectIDs pushback 11063;
-	_this setPosWorld [1255.47,376.404,91.9734];
-	_this setVectorDirAndUp [[-0.993219,-0.116259,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item11064 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11064 = createVehicle ["land_gameprooffence_01_l_gate_f",[1308.06,254.409,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11064;
 	_objects pushback _this;
@@ -1323,7 +2049,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11065 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11065 = createVehicle ["Land_Decal_Garbage_01_F",[1357.98,356.575,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11065;
 	_objects pushback _this;
@@ -1335,7 +2061,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11066 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11066 = createVehicle ["Land_Decal_Garbage_01_F",[1358.17,354.48,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11066;
 	_objects pushback _this;
@@ -1347,7 +2073,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11067 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11067 = createSimpleObject ["Land_Hammer_F",[1383.93,352.938,91.6507]];
 	_this = _item11067;
 	_objects pushback _this;
@@ -1358,20 +2084,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11068 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11068 = createVehicle ["Land_Wreck_Hunter_F",[1234.41,373.511,148.056],[],0,"CAN_COLLIDE"];
-	_this = _item11068;
-	_objects pushback _this;
-	_objectIDs pushback 11068;
-	_this setPosWorld [1234.41,373.511,92.567];
-	_this setVectorDirAndUp [[-0.999993,0.00383568,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item11069 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11069 = createSimpleObject ["B_Slingload_01_Ammo_F",[1248.16,386.506,90.6991]];
 	_this = _item11069;
 	_objects pushback _this;
@@ -1385,7 +2099,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11070 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11070 = createSimpleObject ["B_Slingload_01_Cargo_F",[1200.17,370.926,90.6961]];
 	_this = _item11070;
 	_objects pushback _this;
@@ -1397,20 +2111,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	[_this, 50] call ace_cargo_fnc_setSize;
 };
 
-private _item11071 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11071 = createVehicle ["Lantern_01_green_F",[1409.06,279.911,148.076],[],0,"CAN_COLLIDE"];
-	_this = _item11071;
-	_objects pushback _this;
-	_objectIDs pushback 11071;
-	_this setPosWorld [1409.06,279.911,90.8511];
-	_this setVectorDirAndUp [[0.917675,0.397332,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item11072 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11072 = createVehicle ["Land_Small_Stone_01_F",[1235.4,383.044,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11072;
 	_objects pushback _this;
@@ -1422,7 +2124,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11073 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11073 = createVehicle ["Land_Small_Stone_01_F",[1239.12,383.058,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11073;
 	_objects pushback _this;
@@ -1434,7 +2136,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11074 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11074 = createVehicle ["Land_Small_Stone_01_F",[1236.95,376.072,148.048],[],0,"CAN_COLLIDE"];
 	_this = _item11074;
 	_objects pushback _this;
@@ -1446,7 +2148,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11075 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11075 = createVehicle ["Land_Small_Stone_01_F",[1238.86,374.034,148.067],[],0,"CAN_COLLIDE"];
 	_this = _item11075;
 	_objects pushback _this;
@@ -1458,7 +2160,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11076 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11076 = createVehicle ["Land_LavaStoneCluster_large_F",[1324.68,264.298,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item11076;
 	_objects pushback _this;
@@ -1470,7 +2172,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11077 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11077 = createVehicle ["Land_Excavator_01_abandoned_F",[1261.63,373.409,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11077;
 	_objects pushback _this;
@@ -1482,7 +2184,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11078 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11078 = createVehicle ["Land_SharpRock_wallH",[1387.81,373.583,145.41],[],0,"CAN_COLLIDE"];
 	_this = _item11078;
 	_objects pushback _this;
@@ -1494,7 +2196,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11079 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11079 = createVehicle ["Land_SharpRock_wallH",[1407.41,351.244,138.986],[],0,"CAN_COLLIDE"];
 	_this = _item11079;
 	_objects pushback _this;
@@ -1506,7 +2208,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11080 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11080 = createVehicle ["Land_SharpRock_wallH",[1330.39,316.19,138.5],[],0,"CAN_COLLIDE"];
 	_this = _item11080;
 	_objects pushback _this;
@@ -1518,7 +2220,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11081 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11081 = createVehicle ["Land_SharpRock_wallH",[1372.52,307.819,138.066],[],0,"CAN_COLLIDE"];
 	_this = _item11081;
 	_objects pushback _this;
@@ -1530,7 +2232,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11082 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11082 = createVehicle ["Land_SharpRock_wallH",[1401.68,336.301,156.862],[],0,"CAN_COLLIDE"];
 	_this = _item11082;
 	_objects pushback _this;
@@ -1542,7 +2244,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11083 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11083 = createVehicle ["Land_SharpRock_wallH",[1322.18,236.143,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11083;
 	_objects pushback _this;
@@ -1554,7 +2256,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11084 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11084 = createVehicle ["Land_SharpRock_wallH",[1395.73,316.874,137.197],[],0,"CAN_COLLIDE"];
 	_this = _item11084;
 	_objects pushback _this;
@@ -1566,7 +2268,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11085 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11085 = createVehicle ["Land_SharpRock_wallH",[1315.88,303.306,140.184],[],0,"CAN_COLLIDE"];
 	_this = _item11085;
 	_objects pushback _this;
@@ -1578,7 +2280,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11086 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11086 = createVehicle ["Land_SharpRock_wallH",[1368.17,361.984,156.369],[],0,"CAN_COLLIDE"];
 	_this = _item11086;
 	_objects pushback _this;
@@ -1590,7 +2292,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11087 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11087 = createVehicle ["Land_SharpRock_wallH",[1325.99,296.177,153.45],[],0,"CAN_COLLIDE"];
 	_this = _item11087;
 	_objects pushback _this;
@@ -1602,7 +2304,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11088 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11088 = createVehicle ["Land_SharpRock_wallH",[1404.44,246.572,140.569],[],0,"CAN_COLLIDE"];
 	_this = _item11088;
 	_objects pushback _this;
@@ -1614,7 +2316,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11089 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11089 = createVehicle ["Land_SharpRock_wallH",[1389.45,293.509,155.608],[],0,"CAN_COLLIDE"];
 	_this = _item11089;
 	_objects pushback _this;
@@ -1626,7 +2328,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11090 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11090 = createVehicle ["Land_SharpRock_wallH",[1405.96,265.658,153.988],[],0,"CAN_COLLIDE"];
 	_this = _item11090;
 	_objects pushback _this;
@@ -1638,7 +2340,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11091 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11091 = createVehicle ["Land_SharpRock_wallH",[1420.16,273.601,154.537],[],0,"CAN_COLLIDE"];
 	_this = _item11091;
 	_objects pushback _this;
@@ -1650,7 +2352,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11092 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11092 = createVehicle ["Land_SharpRock_wallH",[1435.39,273.762,137.419],[],0,"CAN_COLLIDE"];
 	_this = _item11092;
 	_objects pushback _this;
@@ -1662,7 +2364,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11093 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11093 = createVehicle ["Land_SharpRock_wallH",[1353.5,391.82,139.351],[],0,"CAN_COLLIDE"];
 	_this = _item11093;
 	_objects pushback _this;
@@ -1674,7 +2376,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11094 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11094 = createVehicle ["Land_SharpRock_wallH",[1326.61,367.162,145.519],[],0,"CAN_COLLIDE"];
 	_this = _item11094;
 	_objects pushback _this;
@@ -1686,7 +2388,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11095 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11095 = createVehicle ["Land_SharpRock_wallH",[1326.44,380.044,144.608],[],0,"CAN_COLLIDE"];
 	_this = _item11095;
 	_objects pushback _this;
@@ -1698,7 +2400,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11096 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11096 = createVehicle ["Land_SharpRock_wallH",[1289.72,363.936,146.755],[],0,"CAN_COLLIDE"];
 	_this = _item11096;
 	_objects pushback _this;
@@ -1710,7 +2412,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11097 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11097 = createVehicle ["Land_SharpRock_wallH",[1339.52,437.671,142.823],[],0,"CAN_COLLIDE"];
 	_this = _item11097;
 	_objects pushback _this;
@@ -1722,7 +2424,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11098 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11098 = createVehicle ["Land_SharpRock_wallH",[1300.42,431.469,141.417],[],0,"CAN_COLLIDE"];
 	_this = _item11098;
 	_objects pushback _this;
@@ -1734,7 +2436,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11099 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11099 = createVehicle ["Land_SharpRock_wallH",[1348.51,370.807,156.458],[],0,"CAN_COLLIDE"];
 	_this = _item11099;
 	_objects pushback _this;
@@ -1746,7 +2448,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11100 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11100 = createVehicle ["Land_SharpRock_wallH",[1326.16,409.416,158.141],[],0,"CAN_COLLIDE"];
 	_this = _item11100;
 	_objects pushback _this;
@@ -1758,7 +2460,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11101 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11101 = createVehicle ["Land_SharpRock_wallH",[1223.84,413.895,140.401],[],0,"CAN_COLLIDE"];
 	_this = _item11101;
 	_objects pushback _this;
@@ -1770,7 +2472,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11102 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11102 = createVehicle ["Land_SharpRock_wallH",[1165.74,394.68,144.016],[],0,"CAN_COLLIDE"];
 	_this = _item11102;
 	_objects pushback _this;
@@ -1782,7 +2484,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11103 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11103 = createVehicle ["Land_SharpRock_wallH",[1169.22,415.66,143.827],[],0,"CAN_COLLIDE"];
 	_this = _item11103;
 	_objects pushback _this;
@@ -1794,7 +2496,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11104 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11104 = createVehicle ["Land_SharpRock_wallH",[1234.15,451.836,142.131],[],0,"CAN_COLLIDE"];
 	_this = _item11104;
 	_objects pushback _this;
@@ -1806,7 +2508,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11105 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11105 = createVehicle ["Land_SharpRock_wallH",[1225.33,348.956,166.679],[],0,"CAN_COLLIDE"];
 	_this = _item11105;
 	_objects pushback _this;
@@ -1818,7 +2520,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11106 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11106 = createVehicle ["Land_SharpRock_wallH",[1237.34,352.815,165.617],[],0,"CAN_COLLIDE"];
 	_this = _item11106;
 	_objects pushback _this;
@@ -1830,7 +2532,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11107 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11107 = createVehicle ["Land_SharpRock_wallH",[1248.84,361.254,165.081],[],0,"CAN_COLLIDE"];
 	_this = _item11107;
 	_objects pushback _this;
@@ -1842,7 +2544,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11108 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11108 = createVehicle ["Land_SharpRock_wallH",[1261.94,370.752,161.906],[],0,"CAN_COLLIDE"];
 	_this = _item11108;
 	_objects pushback _this;
@@ -1854,7 +2556,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11109 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11109 = createVehicle ["Land_SharpRock_wallH",[1273.24,375.798,162.036],[],0,"CAN_COLLIDE"];
 	_this = _item11109;
 	_objects pushback _this;
@@ -1866,7 +2568,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11110 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11110 = createVehicle ["Land_SharpRock_wallH",[1175.52,439.342,142.84],[],0,"CAN_COLLIDE"];
 	_this = _item11110;
 	_objects pushback _this;
@@ -1878,7 +2580,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11111 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11111 = createVehicle ["Land_SharpRock_wallH",[1229.62,395.169,165.6],[],0,"CAN_COLLIDE"];
 	_this = _item11111;
 	_objects pushback _this;
@@ -1890,7 +2592,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11112 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11112 = createVehicle ["Land_SharpRock_wallH",[1219.48,389.275,166.084],[],0,"CAN_COLLIDE"];
 	_this = _item11112;
 	_objects pushback _this;
@@ -1902,7 +2604,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11113 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11113 = createVehicle ["Land_SharpRock_wallH",[1209.69,375.761,158.124],[],0,"CAN_COLLIDE"];
 	_this = _item11113;
 	_objects pushback _this;
@@ -1914,7 +2616,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11114 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11114 = createVehicle ["Land_SharpRock_wallH",[1194.58,375.394,162.235],[],0,"CAN_COLLIDE"];
 	_this = _item11114;
 	_objects pushback _this;
@@ -1926,7 +2628,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11115 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11115 = createVehicle ["Land_SharpRock_wallH",[1186.69,369.558,160.665],[],0,"CAN_COLLIDE"];
 	_this = _item11115;
 	_objects pushback _this;
@@ -1938,7 +2640,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11116 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11116 = createVehicle ["Land_SharpRock_wallH",[1213.78,419.669,159.853],[],0,"CAN_COLLIDE"];
 	_this = _item11116;
 	_objects pushback _this;
@@ -1950,7 +2652,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11117 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11117 = createVehicle ["Land_SharpRock_wallH",[1202.43,416.471,160.256],[],0,"CAN_COLLIDE"];
 	_this = _item11117;
 	_objects pushback _this;
@@ -1962,7 +2664,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11118 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11118 = createVehicle ["Land_SharpRock_wallH",[1195.67,423.32,162.804],[],0,"CAN_COLLIDE"];
 	_this = _item11118;
 	_objects pushback _this;
@@ -1974,7 +2676,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11119 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11119 = createVehicle ["Land_SharpRock_wallH",[1226.04,415.126,151.114],[],0,"CAN_COLLIDE"];
 	_this = _item11119;
 	_objects pushback _this;
@@ -1986,7 +2688,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11120 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11120 = createVehicle ["Land_SharpRock_wallH",[1375.56,252.471,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11120;
 	_objects pushback _this;
@@ -1998,7 +2700,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11121 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11121 = createVehicle ["Land_SharpRock_wallH",[1364,258.965,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11121;
 	_objects pushback _this;
@@ -2010,7 +2712,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11122 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11122 = createVehicle ["Land_SharpRock_wallH",[1342.84,271.738,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11122;
 	_objects pushback _this;
@@ -2022,7 +2724,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11123 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11123 = createVehicle ["Land_SharpRock_wallH",[1341.15,313.606,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11123;
 	_objects pushback _this;
@@ -2034,7 +2736,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11124 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11124 = createVehicle ["Land_SharpRock_wallH",[1335.39,303.856,152.473],[],0,"CAN_COLLIDE"];
 	_this = _item11124;
 	_objects pushback _this;
@@ -2046,7 +2748,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11125 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11125 = createVehicle ["Land_SharpRock_wallH",[1351.12,315.781,159.718],[],0,"CAN_COLLIDE"];
 	_this = _item11125;
 	_objects pushback _this;
@@ -2058,7 +2760,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11126 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11126 = createVehicle ["Land_SharpRock_wallH",[1361.1,275.005,154.808],[],0,"CAN_COLLIDE"];
 	_this = _item11126;
 	_objects pushback _this;
@@ -2070,7 +2772,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11127 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11127 = createVehicle ["Land_SharpRock_wallH",[1365.33,276.851,157.91],[],0,"CAN_COLLIDE"];
 	_this = _item11127;
 	_objects pushback _this;
@@ -2082,7 +2784,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11128 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11128 = createVehicle ["Land_SharpRock_wallH",[1363.89,316.352,163.317],[],0,"CAN_COLLIDE"];
 	_this = _item11128;
 	_objects pushback _this;
@@ -2094,7 +2796,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11129 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11129 = createVehicle ["Land_SharpRock_wallH",[1318.52,345.68,156.744],[],0,"CAN_COLLIDE"];
 	_this = _item11129;
 	_objects pushback _this;
@@ -2106,7 +2808,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11130 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11130 = createVehicle ["Land_SharpRock_wallH",[1332.54,263.921,146.907],[],0,"CAN_COLLIDE"];
 	_this = _item11130;
 	_objects pushback _this;
@@ -2118,7 +2820,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11131 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11131 = createVehicle ["Land_SharpRock_wallH",[1163.1,376.479,161.087],[],0,"CAN_COLLIDE"];
 	_this = _item11131;
 	_objects pushback _this;
@@ -2130,7 +2832,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11132 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11132 = createVehicle ["Land_SharpRock_wallH",[1323.9,276.432,154.912],[],0,"CAN_COLLIDE"];
 	_this = _item11132;
 	_objects pushback _this;
@@ -2142,7 +2844,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11133 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11133 = createVehicle ["Land_SharpStone_01",[1328.63,320.569,158.619],[],0,"CAN_COLLIDE"];
 	_this = _item11133;
 	_objects pushback _this;
@@ -2154,7 +2856,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11134 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11134 = createVehicle ["Land_SharpStone_01",[1355,348.787,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11134;
 	_objects pushback _this;
@@ -2166,7 +2868,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11135 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11135 = createVehicle ["Land_SharpStone_01",[1363.98,342.325,147.299],[],0,"CAN_COLLIDE"];
 	_this = _item11135;
 	_objects pushback _this;
@@ -2178,7 +2880,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11136 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11136 = createVehicle ["Land_SharpStone_01",[1316.54,243.188,147.821],[],0,"CAN_COLLIDE"];
 	_this = _item11136;
 	_objects pushback _this;
@@ -2190,7 +2892,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11137 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11137 = createVehicle ["Land_SharpStone_01",[1340.83,297.815,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11137;
 	_objects pushback _this;
@@ -2202,7 +2904,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11138 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11138 = createVehicle ["Land_SharpStone_01",[1338.48,303.178,148.181],[],0,"CAN_COLLIDE"];
 	_this = _item11138;
 	_objects pushback _this;
@@ -2214,7 +2916,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11139 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11139 = createVehicle ["Land_SharpStone_01",[1339.05,296.854,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11139;
 	_objects pushback _this;
@@ -2226,7 +2928,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11140 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11140 = createVehicle ["Land_SharpStone_01",[1347.59,301.196,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11140;
 	_objects pushback _this;
@@ -2238,7 +2940,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11141 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11141 = createVehicle ["Land_SharpStone_01",[1345.45,300.139,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11141;
 	_objects pushback _this;
@@ -2250,7 +2952,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11142 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11142 = createVehicle ["Land_Mine_01_minecart_F",[1389.57,362.351,148.079],[],0,"CAN_COLLIDE"];
 	_this = _item11142;
 	_objects pushback _this;
@@ -2262,7 +2964,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11143 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11143 = createVehicle ["Land_Mine_01_minecart_F",[1387.15,361.086,148.079],[],0,"CAN_COLLIDE"];
 	_this = _item11143;
 	_objects pushback _this;
@@ -2274,7 +2976,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11144 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11144 = createVehicle ["Land_Mine_01_minecart_F",[1353.94,341.4,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11144;
 	_objects pushback _this;
@@ -2286,7 +2988,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11145 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11145 = createVehicle ["Land_Mine_01_minecart_F",[1352.29,340.576,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11145;
 	_objects pushback _this;
@@ -2298,7 +3000,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11146 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11146 = createVehicle ["Land_Mine_01_minecart_F",[1370.06,344.776,147.964],[],0,"CAN_COLLIDE"];
 	_this = _item11146;
 	_objects pushback _this;
@@ -2310,7 +3012,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11147 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11147 = createVehicle ["Land_Mine_01_minecart_F",[1364.04,350.541,147.991],[],0,"CAN_COLLIDE"];
 	_this = _item11147;
 	_objects pushback _this;
@@ -2322,7 +3024,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11148 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11148 = createVehicle ["Land_Mine_01_minecart_F",[1350.42,342.028,148.043],[],0,"CAN_COLLIDE"];
 	_this = _item11148;
 	_objects pushback _this;
@@ -2334,7 +3036,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11149 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11149 = createVehicle ["Land_Mine_01_minecart_F",[1412.54,272.769,147.958],[],0,"CAN_COLLIDE"];
 	_this = _item11149;
 	_objects pushback _this;
@@ -2346,7 +3048,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11150 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11150 = createVehicle ["Land_Mine_01_minecart_F",[1414.82,277.931,147.931],[],0,"CAN_COLLIDE"];
 	_this = _item11150;
 	_objects pushback _this;
@@ -2358,7 +3060,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11151 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11151 = createVehicle ["Land_Mine_01_minecart_F",[1335.88,388.468,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11151;
 	_objects pushback _this;
@@ -2370,7 +3072,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11152 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11152 = createVehicle ["Land_Mine_01_minecart_F",[1350.8,360.317,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11152;
 	_objects pushback _this;
@@ -2382,7 +3084,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11153 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11153 = createVehicle ["Land_Mine_01_minecart_F",[1339.47,392.352,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11153;
 	_objects pushback _this;
@@ -2394,7 +3096,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11154 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11154 = createVehicle ["Land_Mine_01_minecart_F",[1389.6,356.408,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11154;
 	_objects pushback _this;
@@ -2406,7 +3108,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11155 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11155 = createVehicle ["Land_Mine_01_minecart_F",[1397.18,283.644,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11155;
 	_objects pushback _this;
@@ -2418,7 +3120,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11156 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11156 = createVehicle ["Land_Mine_01_minecart_F",[1321.46,415.78,148.316],[],0,"CAN_COLLIDE"];
 	_this = _item11156;
 	_objects pushback _this;
@@ -2430,7 +3132,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11157 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11157 = createVehicle ["Land_Mine_01_minecart_F",[1313.93,417.144,148.269],[],0,"CAN_COLLIDE"];
 	_this = _item11157;
 	_objects pushback _this;
@@ -2442,7 +3144,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11158 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11158 = createVehicle ["Land_Mine_01_minecart_F",[1312.29,417.403,148.303],[],0,"CAN_COLLIDE"];
 	_this = _item11158;
 	_objects pushback _this;
@@ -2454,7 +3156,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11159 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11159 = createVehicle ["Land_Mine_01_minecart_F",[1310.68,417.672,148.298],[],0,"CAN_COLLIDE"];
 	_this = _item11159;
 	_objects pushback _this;
@@ -2466,7 +3168,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11160 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11160 = createVehicle ["Land_Mine_01_minecart_F",[1309.06,417.948,148.282],[],0,"CAN_COLLIDE"];
 	_this = _item11160;
 	_objects pushback _this;
@@ -2478,7 +3180,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11161 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11161 = createVehicle ["Land_Mine_01_conveyor_10m_F",[1224.76,382.052,149.759],[],0,"CAN_COLLIDE"];
 	_this = _item11161;
 	_objects pushback _this;
@@ -2490,7 +3192,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11162 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11162 = createVehicle ["Land_Mine_01_conveyor_10m_F",[1221.99,391.226,149.959],[],0,"CAN_COLLIDE"];
 	_this = _item11162;
 	_objects pushback _this;
@@ -2502,7 +3204,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11163 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11163 = createVehicle ["Land_Mine_01_conveyor_10m_F",[1216.7,399.178,150.03],[],0,"CAN_COLLIDE"];
 	_this = _item11163;
 	_objects pushback _this;
@@ -2514,7 +3216,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11164 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11164 = createVehicle ["Land_Mine_01_conveyor_10m_F",[1211.37,407.179,150.032],[],0,"CAN_COLLIDE"];
 	_this = _item11164;
 	_objects pushback _this;
@@ -2526,7 +3228,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11165 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11165 = createVehicle ["Land_Mine_01_conveyor_10m_F",[1206.79,413.786,150.016],[],0,"CAN_COLLIDE"];
 	_this = _item11165;
 	_objects pushback _this;
@@ -2538,7 +3240,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11166 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11166 = createVehicle ["Land_Mine_01_conveyor_end_F",[1182.36,402.778,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11166;
 	_objects pushback _this;
@@ -2550,7 +3252,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11167 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11167 = createVehicle ["Land_Mine_01_heap_F",[1305.68,289.466,148.889],[],0,"CAN_COLLIDE"];
 	_this = _item11167;
 	_objects pushback _this;
@@ -2562,7 +3264,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11168 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11168 = createVehicle ["Land_Mine_01_heap_F",[1398.82,241.809,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11168;
 	_objects pushback _this;
@@ -2574,7 +3276,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11169 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11169 = createVehicle ["Land_Mine_01_heap_F",[1336.66,429.753,149.43],[],0,"CAN_COLLIDE"];
 	_this = _item11169;
 	_objects pushback _this;
@@ -2586,7 +3288,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11170 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11170 = createVehicle ["Land_Mine_01_heap_F",[1285.31,409.129,148.924],[],0,"CAN_COLLIDE"];
 	_this = _item11170;
 	_objects pushback _this;
@@ -2598,7 +3300,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11171 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11171 = createVehicle ["Land_Mine_01_heap_F",[1268.48,402.727,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11171;
 	_objects pushback _this;
@@ -2610,7 +3312,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11172 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11172 = createVehicle ["Land_Mine_01_hopper_silo_F",[1195.5,418.168,148.048],[],0,"CAN_COLLIDE"];
 	_this = _item11172;
 	_objects pushback _this;
@@ -2622,7 +3324,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11173 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11173 = createVehicle ["Land_Mine_01_rail_track_F",[1362.67,345.086,148.079],[],0,"CAN_COLLIDE"];
 	_this = _item11173;
 	_objects pushback _this;
@@ -2634,7 +3336,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11174 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11174 = createVehicle ["Land_Mine_01_rail_track_F",[1353.62,341.167,148.102],[],0,"CAN_COLLIDE"];
 	_this = _item11174;
 	_objects pushback _this;
@@ -2646,7 +3348,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11175 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11175 = createVehicle ["Land_Mine_01_rail_track_F",[1415.36,272.328,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11175;
 	_objects pushback _this;
@@ -2658,7 +3360,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11176 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11176 = createVehicle ["Land_Mine_01_rail_track_F",[1342.48,378.363,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11176;
 	_objects pushback _this;
@@ -2670,7 +3372,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11177 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11177 = createVehicle ["Land_Mine_01_rail_track_F",[1338.33,387.308,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11177;
 	_objects pushback _this;
@@ -2682,7 +3384,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11178 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11178 = createVehicle ["Land_Mine_01_rail_track_F",[1346.56,369.528,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11178;
 	_objects pushback _this;
@@ -2694,7 +3396,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11179 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11179 = createVehicle ["Land_Mine_01_rail_track_F",[1391.34,276.646,148.154],[],0,"CAN_COLLIDE"];
 	_this = _item11179;
 	_objects pushback _this;
@@ -2706,7 +3408,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11180 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11180 = createVehicle ["Land_Mine_01_rail_track_F",[1383.65,273.313,148.167],[],0,"CAN_COLLIDE"];
 	_this = _item11180;
 	_objects pushback _this;
@@ -2718,7 +3420,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11181 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11181 = createVehicle ["Land_Mine_01_rail_track_F",[1375.8,269.908,148.181],[],0,"CAN_COLLIDE"];
 	_this = _item11181;
 	_objects pushback _this;
@@ -2730,7 +3432,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11182 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11182 = createVehicle ["Land_Mine_01_rail_track_F",[1334.26,396.187,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11182;
 	_objects pushback _this;
@@ -2742,7 +3444,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11183 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11183 = createVehicle ["Land_Mine_01_rail_track_F",[1330.34,404.9,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11183;
 	_objects pushback _this;
@@ -2754,7 +3456,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11184 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11184 = createVehicle ["Land_Mine_01_rail_track_F",[1305.64,413.626,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11184;
 	_objects pushback _this;
@@ -2766,7 +3468,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11185 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11185 = createVehicle ["Land_Mine_01_rail_track_F",[1296.67,410.209,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11185;
 	_objects pushback _this;
@@ -2778,7 +3480,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11186 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11186 = createVehicle ["Land_Mine_01_rail_track_F",[1228.23,362.606,148.312],[],0,"CAN_COLLIDE"];
 	_this = _item11186;
 	_objects pushback _this;
@@ -2790,7 +3492,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11187 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11187 = createVehicle ["Land_Mine_01_rail_track_F",[1236.37,368.188,148.311],[],0,"CAN_COLLIDE"];
 	_this = _item11187;
 	_objects pushback _this;
@@ -2802,7 +3504,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11188 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11188 = createVehicle ["Land_Mine_01_rail_track_F",[1244.48,373.739,148.311],[],0,"CAN_COLLIDE"];
 	_this = _item11188;
 	_objects pushback _this;
@@ -2814,7 +3516,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11189 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11189 = createVehicle ["Land_Mine_01_rail_track_F",[1252.64,379.339,148.313],[],0,"CAN_COLLIDE"];
 	_this = _item11189;
 	_objects pushback _this;
@@ -2826,7 +3528,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11190 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11190 = createVehicle ["Land_Mine_01_rail_track_F",[1260.83,384.939,148.314],[],0,"CAN_COLLIDE"];
 	_this = _item11190;
 	_objects pushback _this;
@@ -2838,7 +3540,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11191 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11191 = createVehicle ["Land_Mine_01_rail_track_end_F",[1367.84,347.271,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11191;
 	_objects pushback _this;
@@ -2850,7 +3552,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11192 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11192 = createVehicle ["Land_Mine_01_rail_track_end_F",[1411.39,267.841,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11192;
 	_objects pushback _this;
@@ -2862,7 +3564,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11193 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11193 = createVehicle ["Land_Mine_01_rail_track_end_F",[1419.31,276.463,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11193;
 	_objects pushback _this;
@@ -2874,7 +3576,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11194 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11194 = createVehicle ["Land_Mine_01_rail_track_end_F",[1396.36,278.838,147.992],[],0,"CAN_COLLIDE"];
 	_this = _item11194;
 	_objects pushback _this;
@@ -2886,7 +3588,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11195 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11195 = createVehicle ["Land_Mine_01_rail_track_end_F",[1372.26,268.409,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11195;
 	_objects pushback _this;
@@ -2898,7 +3600,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11196 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11196 = createVehicle ["Land_Mine_01_rail_track_end_F",[1305.65,415.029,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11196;
 	_objects pushback _this;
@@ -2910,7 +3612,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11197 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11197 = createVehicle ["Land_Mine_01_rail_track_end_F",[1306.58,418.524,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11197;
 	_objects pushback _this;
@@ -2922,7 +3624,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11198 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11198 = createVehicle ["Land_Mine_01_rail_track_end_F",[1314.46,421.203,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11198;
 	_objects pushback _this;
@@ -2934,7 +3636,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11199 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11199 = createVehicle ["Land_Mine_01_rail_track_end_F",[1323.98,419.18,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11199;
 	_objects pushback _this;
@@ -2946,7 +3648,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11200 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11200 = createVehicle ["Land_Mine_01_rail_track_end_F",[1348.87,364.511,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11200;
 	_objects pushback _this;
@@ -2958,7 +3660,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11201 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11201 = createVehicle ["Land_Mine_01_rail_track_switch_F",[1324.67,413.214,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11201;
 	_objects pushback _this;
@@ -2970,7 +3672,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11202 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11202 = createVehicle ["Land_Mine_01_rail_track_switch_F",[1317.87,416.384,148.134],[],0,"CAN_COLLIDE"];
 	_this = _item11202;
 	_objects pushback _this;
@@ -2982,7 +3684,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11203 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11203 = createVehicle ["Land_Mine_01_rail_track_switch_F",[1311.64,415.757,148.132],[],0,"CAN_COLLIDE"];
 	_this = _item11203;
 	_objects pushback _this;
@@ -2994,7 +3696,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11204 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11204 = createVehicle ["Land_Bunker_01_HQ_F",[1262.66,339.975,148.594],[],0,"CAN_COLLIDE"];
 	_this = _item11204;
 	_objects pushback _this;
@@ -3006,7 +3708,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11205 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11205 = createSimpleObject ["Land_MoneyBills_01_stack_F",[1383.74,351.131,90.8963]];
 	_this = _item11205;
 	_objects pushback _this;
@@ -3018,7 +3720,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11206 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11206 = createSimpleObject ["Land_Mustard_01_F",[1317.71,261.815,91.6651]];
 	_this = _item11206;
 	_objects pushback _this;
@@ -3030,7 +3732,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11207 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11207 = createSimpleObject ["Land_Mustard_01_F",[1316.77,257.547,91.6651]];
 	_this = _item11207;
 	_objects pushback _this;
@@ -3042,7 +3744,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11208 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11208 = createSimpleObject ["Land_Tableware_01_stackOfNapkins_F",[1317.98,261.88,91.6649]];
 	_this = _item11208;
 	_objects pushback _this;
@@ -3054,7 +3756,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11209 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11209 = createSimpleObject ["Land_Tableware_01_stackOfNapkins_F",[1317.19,257.371,91.6653]];
 	_this = _item11209;
 	_objects pushback _this;
@@ -3065,32 +3767,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11210 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11210 = createVehicle ["Land_PierWooden_02_ladder_F",[1358.8,314.891,148.778],[],0,"CAN_COLLIDE"];
-	_this = _item11210;
-	_objects pushback _this;
-	_objectIDs pushback 11210;
-	_this setPosWorld [1358.8,314.891,74.0603];
-	_this setVectorDirAndUp [[0.0732905,-0.997311,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11211 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11211 = createVehicle ["Land_PierWooden_02_ladder_F",[1358.39,317.186,152.238],[],0,"CAN_COLLIDE"];
-	_this = _item11211;
-	_objects pushback _this;
-	_objectIDs pushback 11211;
-	_this setPosWorld [1358.39,317.186,77.5208];
-	_this setVectorDirAndUp [[0.0732905,-0.997311,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item11212 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11212 = createVehicle ["Land_SY_01_stockpile_02_F",[1343.25,329.295,154.722],[],0,"CAN_COLLIDE"];
 	_this = _item11212;
 	_objects pushback _this;
@@ -3102,7 +3780,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11213 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11213 = createVehicle ["Land_SY_01_stockpile_02_F",[1360.27,257.461,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11213;
 	_objects pushback _this;
@@ -3114,7 +3792,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11214 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11214 = createVehicle ["Land_Pallet_MilBoxes_F",[1181.71,384.283,148.367],[],0,"CAN_COLLIDE"];
 	_this = _item11214;
 	_objects pushback _this;
@@ -3126,7 +3804,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11215 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11215 = createSimpleObject ["Land_PalletTrolley_01_khaki_F",[1359.56,276.977,90.6961]];
 	_this = _item11215;
 	_objects pushback _this;
@@ -3138,7 +3816,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11216 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11216 = createSimpleObject ["Land_WoodenTable_02_large_F",[1316.97,257.147,90.6961]];
 	_this = _item11216;
 	_objects pushback _this;
@@ -3150,7 +3828,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11217 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11217 = createSimpleObject ["Land_WoodenTable_02_large_F",[1317.67,261.463,90.6961]];
 	_this = _item11217;
 	_objects pushback _this;
@@ -3162,8 +3840,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11218 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11218 = createSimpleObject ["Land_Money_F",[1383.86,351.29,91.6308]];
+if (_layer10971 && _layer11585) then {
+	_item11218 = createSimpleObject ["Land_Money_F",[1383.86,351.29,91.6663]];
 	_this = _item11218;
 	_objects pushback _this;
 	_objectIDs pushback 11218;
@@ -3174,7 +3852,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11219 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11219 = createVehicle ["Land_Plank_01_4m_F",[1196.16,369.517,150.736],[],0,"CAN_COLLIDE"];
 	_this = _item11219;
 	_objects pushback _this;
@@ -3186,7 +3864,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11220 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11220 = createVehicle ["Land_Plank_01_8m_F",[1204.78,374.926,149.315],[],0,"CAN_COLLIDE"];
 	_this = _item11220;
 	_objects pushback _this;
@@ -3198,7 +3876,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11221 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11221 = createVehicle ["land_shed_12_f",[1342.45,371.072,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11221;
 	_objects pushback _this;
@@ -3210,7 +3888,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11222 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11222 = createVehicle ["land_shed_12_f",[1384.66,355.058,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11222;
 	_objects pushback _this;
@@ -3222,7 +3900,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11223 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11223 = createSimpleObject ["Land_EngineCrane_01_F",[1358.93,300.872,90.6961]];
 	_this = _item11223;
 	_objects pushback _this;
@@ -3234,7 +3912,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11224 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11224 = createSimpleObject ["Land_Portable_generator_F",[1353.75,356.259,90.6961]];
 	_this = _item11224;
 	_objects pushback _this;
@@ -3246,7 +3924,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11225 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11225 = createVehicle ["Land_PortableLight_double_F",[1209.75,405.59,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11225;
 	_objects pushback _this;
@@ -3258,7 +3936,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11226 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11226 = createVehicle ["Land_PortableLight_double_F",[1321.37,420.813,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11226;
 	_objects pushback _this;
@@ -3270,7 +3948,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11227 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11227 = createSimpleObject ["Land_PortableLongRangeRadio_F",[1353.28,355.667,91.5607]];
 	_this = _item11227;
 	_objects pushback _this;
@@ -3282,7 +3960,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11228 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11228 = createSimpleObject ["Land_PressureWasher_01_F",[1362.68,274.743,90.6962]];
 	_this = _item11228;
 	_objects pushback _this;
@@ -3294,7 +3972,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11229 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11229 = createSimpleObject ["Land_PressureWasher_01_F",[1359.37,305.045,90.7056]];
 	_this = _item11229;
 	_objects pushback _this;
@@ -3306,8 +3984,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11230 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11230 = createVehicle ["TapeSign_F",[1259.84,356.76,148.056],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11230 = createVehicle ["TapeSign_F",[1259.84,356.76,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11230;
 	_objects pushback _this;
 	_objectIDs pushback 11230;
@@ -3318,8 +3996,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11231 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11231 = createVehicle ["TapeSign_F",[1256.61,356.787,148.056],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11231 = createVehicle ["TapeSign_F",[1256.61,356.787,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11231;
 	_objects pushback _this;
 	_objectIDs pushback 11231;
@@ -3330,8 +4008,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11232 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11232 = createVehicle ["TapeSign_F",[1253.11,356.318,148.056],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11232 = createVehicle ["TapeSign_F",[1253.11,356.318,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11232;
 	_objects pushback _this;
 	_objectIDs pushback 11232;
@@ -3342,8 +4020,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11233 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11233 = createVehicle ["TapeSign_F",[1250.37,354.871,148.056],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11233 = createVehicle ["TapeSign_F",[1250.37,354.871,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11233;
 	_objects pushback _this;
 	_objectIDs pushback 11233;
@@ -3354,8 +4032,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11234 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11234 = createVehicle ["TapeSign_F",[1247.85,352.738,148.056],[],0,"CAN_COLLIDE"];
+if (_layer10971 && _layer11585) then {
+	_item11234 = createVehicle ["TapeSign_F",[1247.85,352.738,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11234;
 	_objects pushback _this;
 	_objectIDs pushback 11234;
@@ -3366,7 +4044,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11235 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11235 = createVehicle ["Land_SM_01_reservoirTower_F",[1268.82,375.065,134.433],[],0,"CAN_COLLIDE"];
 	_this = _item11235;
 	_objects pushback _this;
@@ -3378,7 +4056,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11236 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11236 = createSimpleObject ["Land_Rope_01_F",[1383.73,351.474,90.9008]];
 	_this = _item11236;
 	_objects pushback _this;
@@ -3390,7 +4068,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11237 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11237 = createSimpleObject ["Land_Rope_01_F",[1384.03,351.284,90.8935]];
 	_this = _item11237;
 	_objects pushback _this;
@@ -3402,7 +4080,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11238 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11238 = createVehicle ["Land_SharpRock_spike",[1262.61,328.935,163.862],[],0,"CAN_COLLIDE"];
 	_this = _item11238;
 	_objects pushback _this;
@@ -3414,7 +4092,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11239 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11239 = createSimpleObject ["Land_PortableCabinet_01_7drawers_black_F",[1351.38,354.505,90.6962]];
 	_this = _item11239;
 	_objects pushback _this;
@@ -3436,1204 +4114,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_drawers.sqf'};
 };
 
-private _item11240 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11240 = createVehicle ["Land_PortableLight_02_double_yellow_F",[1316.88,245.238,148.077],[],0,"CAN_COLLIDE"];
-	_this = _item11240;
-	_objects pushback _this;
-	_objectIDs pushback 11240;
-	_this setPosWorld [1316.88,245.238,91.6351];
-	_this setVectorDirAndUp [[0.656074,-0.754696,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-	_this animateSource ['Light_1_pitch_source',0,true];
-	_this animateSource ['Light_1_yaw_source',0,true];
-	_this animateSource ['Light_1_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_1',0];;
-	_this animateSource ['Light_2_pitch_source',0,true];
-	_this animateSource ['Light_2_yaw_source',0,true];
-	_this animateSource ['Light_2_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_2',0];;
-};
-
-private _item11241 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11241 = createVehicle ["Land_PortableLight_02_quad_yellow_F",[1252.07,346.798,148.059],[],0,"CAN_COLLIDE"];
-	_this = _item11241;
-	_objects pushback _this;
-	_objectIDs pushback 11241;
-	_this setPosWorld [1252.07,346.798,91.6366];
-	_this setVectorDirAndUp [[0.212002,-0.977269,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-	_this animateSource ['Light_1_pitch_source',0,true];
-	_this animateSource ['Light_1_yaw_source',0,true];
-	_this animateSource ['Light_1_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_1',0];;
-	_this animateSource ['Light_2_pitch_source',0,true];
-	_this animateSource ['Light_2_yaw_source',0,true];
-	_this animateSource ['Light_2_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_2',0];;
-	_this animateSource ['Light_3_pitch_source',0,true];
-	_this animateSource ['Light_3_yaw_source',0,true];
-	_this animateSource ['Light_3_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_3',0];;
-	_this animateSource ['Light_4_pitch_source',0,true];
-	_this animateSource ['Light_4_yaw_source',0,true];
-	_this animateSource ['Light_4_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_4',0];;
-};
-
-private _item11242 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11242 = createVehicle ["Land_PortableLight_02_quad_yellow_F",[1240.33,354.841,149.976],[],0,"CAN_COLLIDE"];
-	_this = _item11242;
-	_objects pushback _this;
-	_objectIDs pushback 11242;
-	_this setPosWorld [1240.33,354.841,93.5542];
-	_this setVectorDirAndUp [[-0.588746,-0.808318,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-	_this animateSource ['Light_1_pitch_source',0,true];
-	_this animateSource ['Light_1_yaw_source',0,true];
-	_this animateSource ['Light_1_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_1',0];;
-	_this animateSource ['Light_2_pitch_source',0,true];
-	_this animateSource ['Light_2_yaw_source',0,true];
-	_this animateSource ['Light_2_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_2',0];;
-	_this animateSource ['Light_3_pitch_source',0,true];
-	_this animateSource ['Light_3_yaw_source',0,true];
-	_this animateSource ['Light_3_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_3',0];;
-	_this animateSource ['Light_4_pitch_source',0,true];
-	_this animateSource ['Light_4_yaw_source',0,true];
-	_this animateSource ['Light_4_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_4',0];;
-};
-
-private _item11243 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11243 = createVehicle ["Land_PortableLight_02_quad_yellow_F",[1225.6,371.679,149.974],[],0,"CAN_COLLIDE"];
-	_this = _item11243;
-	_objects pushback _this;
-	_objectIDs pushback 11243;
-	_this setPosWorld [1225.6,371.679,93.5521];
-	_this setVectorDirAndUp [[-0.983577,0.18049,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-	_this animateSource ['Light_1_pitch_source',0,true];
-	_this animateSource ['Light_1_yaw_source',0,true];
-	_this animateSource ['Light_1_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_1',0];;
-	_this animateSource ['Light_2_pitch_source',0,true];
-	_this animateSource ['Light_2_yaw_source',0,true];
-	_this animateSource ['Light_2_extend_source',1,true];
-	_this setHitpointDamage ['Hit_Light_2',0];;
-	_this animateSource ['Light_3_pitch_source',0,true];
-	_this animateSource ['Light_3_yaw_source',0,true];
-	_this animateSource ['Light_3_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_3',0];;
-	_this animateSource ['Light_4_pitch_source',0,true];
-	_this animateSource ['Light_4_yaw_source',0,true];
-	_this animateSource ['Light_4_extend_source',0,true];
-	_this setHitpointDamage ['Hit_Light_4',0];;
-};
-
-private _item11244 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11244 = createVehicle ["Land_BagFence_01_end_green_F",[1190.94,374.08,145.982],[],0,"CAN_COLLIDE"];
-	_this = _item11244;
-	_objects pushback _this;
-	_objectIDs pushback 11244;
-	_this setPosWorld [1190.94,374.08,89.0317];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11245 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11245 = createVehicle ["Land_BagFence_01_end_green_F",[1191.42,381.272,148.421],[],0,"CAN_COLLIDE"];
-	_this = _item11245;
-	_objects pushback _this;
-	_objectIDs pushback 11245;
-	_this setPosWorld [1191.42,381.272,91.4707];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11246 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11246 = createVehicle ["Land_BagFence_01_end_green_F",[1190.99,373.968,151.407],[],0,"CAN_COLLIDE"];
-	_this = _item11246;
-	_objects pushback _this;
-	_objectIDs pushback 11246;
-	_this setPosWorld [1190.99,373.968,94.4568];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11247 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11247 = createVehicle ["Land_BagFence_01_end_green_F",[1189.71,393.063,148.283],[],0,"CAN_COLLIDE"];
-	_this = _item11247;
-	_objects pushback _this;
-	_objectIDs pushback 11247;
-	_this setPosWorld [1189.71,393.063,91.3329];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11248 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11248 = createVehicle ["Land_BagFence_01_end_green_F",[1196.86,392.103,150.722],[],0,"CAN_COLLIDE"];
-	_this = _item11248;
-	_objects pushback _this;
-	_objectIDs pushback 11248;
-	_this setPosWorld [1196.86,392.103,93.7719];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11249 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11249 = createVehicle ["Land_BagFence_01_end_green_F",[1189.6,393.019,153.708],[],0,"CAN_COLLIDE"];
-	_this = _item11249;
-	_objects pushback _this;
-	_objectIDs pushback 11249;
-	_this setPosWorld [1189.6,393.019,96.758];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11250 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11250 = createVehicle ["Land_BagFence_01_long_green_F",[1184.99,389.539,148.41],[],0,"CAN_COLLIDE"];
-	_this = _item11250;
-	_objects pushback _this;
-	_objectIDs pushback 11250;
-	_this setPosWorld [1184.99,389.539,91.4671];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11251 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11251 = createVehicle ["Land_BagFence_01_long_green_F",[1179.62,389.056,148.38],[],0,"CAN_COLLIDE"];
-	_this = _item11251;
-	_objects pushback _this;
-	_objectIDs pushback 11251;
-	_this setPosWorld [1179.62,389.056,91.4377];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11252 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11252 = createVehicle ["Land_BagFence_01_long_green_F",[1183.16,390.429,148.391],[],0,"CAN_COLLIDE"];
-	_this = _item11252;
-	_objects pushback _this;
-	_objectIDs pushback 11252;
-	_this setPosWorld [1183.16,390.429,91.4486];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11253 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11253 = createVehicle ["Land_BagFence_01_long_green_F",[1184.98,389.704,153.821],[],0,"CAN_COLLIDE"];
-	_this = _item11253;
-	_objects pushback _this;
-	_objectIDs pushback 11253;
-	_this setPosWorld [1184.98,389.704,96.8782];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11254 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11254 = createVehicle ["Land_BagFence_01_long_green_F",[1177.21,386.4,153.802],[],0,"CAN_COLLIDE"];
-	_this = _item11254;
-	_objects pushback _this;
-	_objectIDs pushback 11254;
-	_this setPosWorld [1177.21,386.4,96.8595];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11255 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11255 = createVehicle ["Land_BagFence_01_long_green_F",[1177.84,388.326,153.794],[],0,"CAN_COLLIDE"];
-	_this = _item11255;
-	_objects pushback _this;
-	_objectIDs pushback 11255;
-	_this setPosWorld [1177.84,388.326,96.8509];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11256 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11256 = createVehicle ["Land_BagFence_01_long_green_F",[1183.08,390.442,153.792],[],0,"CAN_COLLIDE"];
-	_this = _item11256;
-	_objects pushback _this;
-	_objectIDs pushback 11256;
-	_this setPosWorld [1183.08,390.442,96.8496];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11257 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11257 = createVehicle ["Land_BagFence_01_long_green_F",[1180.37,389.329,153.784],[],0,"CAN_COLLIDE"];
-	_this = _item11257;
-	_objects pushback _this;
-	_objectIDs pushback 11257;
-	_this setPosWorld [1180.37,389.329,96.8416];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11258 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11258 = createVehicle ["Land_BagFence_01_long_green_F",[1190.05,376.811,153.823],[],0,"CAN_COLLIDE"];
-	_this = _item11258;
-	_objects pushback _this;
-	_objectIDs pushback 11258;
-	_this setPosWorld [1190.05,376.811,96.8802];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11259 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11259 = createVehicle ["Land_BagFence_01_long_green_F",[1181.61,375.683,153.751],[],0,"CAN_COLLIDE"];
-	_this = _item11259;
-	_objects pushback _this;
-	_objectIDs pushback 11259;
-	_this setPosWorld [1181.61,375.683,96.8079];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11260 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11260 = createVehicle ["Land_BagFence_01_long_green_F",[1187.11,373.987,153.78],[],0,"CAN_COLLIDE"];
-	_this = _item11260;
-	_objects pushback _this;
-	_objectIDs pushback 11260;
-	_this setPosWorld [1187.11,373.987,96.8376];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11261 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11261 = createVehicle ["Land_BagFence_01_long_green_F",[1189.4,374.913,153.817],[],0,"CAN_COLLIDE"];
-	_this = _item11261;
-	_objects pushback _this;
-	_objectIDs pushback 11261;
-	_this setPosWorld [1189.4,374.913,96.8746];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11262 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11262 = createVehicle ["Land_BagFence_01_long_green_F",[1178.3,383.729,153.749],[],0,"CAN_COLLIDE"];
-	_this = _item11262;
-	_objects pushback _this;
-	_objectIDs pushback 11262;
-	_this setPosWorld [1178.3,383.729,96.8059];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11263 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11263 = createVehicle ["Land_BagFence_01_long_green_F",[1179.36,381.079,153.773],[],0,"CAN_COLLIDE"];
-	_this = _item11263;
-	_objects pushback _this;
-	_objectIDs pushback 11263;
-	_this setPosWorld [1179.36,381.079,96.8307];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11264 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11264 = createVehicle ["Land_BagFence_01_long_green_F",[1182.49,373.497,153.74],[],0,"CAN_COLLIDE"];
-	_this = _item11264;
-	_objects pushback _this;
-	_objectIDs pushback 11264;
-	_this setPosWorld [1182.49,373.497,96.797];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11265 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11265 = createVehicle ["Land_BagFence_01_long_green_F",[1187.98,382.252,153.829],[],0,"CAN_COLLIDE"];
-	_this = _item11265;
-	_objects pushback _this;
-	_objectIDs pushback 11265;
-	_this setPosWorld [1187.98,382.252,96.8865];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11266 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11266 = createVehicle ["Land_BagFence_01_long_green_F",[1186.07,386.881,148.384],[],0,"CAN_COLLIDE"];
-	_this = _item11266;
-	_objects pushback _this;
-	_objectIDs pushback 11266;
-	_this setPosWorld [1186.07,386.881,91.4411];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11267 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11267 = createVehicle ["Land_BagFence_01_long_green_F",[1184.44,372.885,153.803],[],0,"CAN_COLLIDE"];
-	_this = _item11267;
-	_objects pushback _this;
-	_objectIDs pushback 11267;
-	_this setPosWorld [1184.44,372.885,96.8599];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11268 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11268 = createVehicle ["Land_BagFence_01_long_green_F",[1186.91,384.858,153.841],[],0,"CAN_COLLIDE"];
-	_this = _item11268;
-	_objects pushback _this;
-	_objectIDs pushback 11268;
-	_this setPosWorld [1186.91,384.858,96.8985];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11269 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11269 = createVehicle ["Land_BagFence_01_long_green_F",[1185.86,387.469,153.836],[],0,"CAN_COLLIDE"];
-	_this = _item11269;
-	_objects pushback _this;
-	_objectIDs pushback 11269;
-	_this setPosWorld [1185.86,387.469,96.8933];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11270 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11270 = createVehicle ["Land_BagFence_01_long_green_F",[1185,371.75,148.375],[],0,"CAN_COLLIDE"];
-	_this = _item11270;
-	_objects pushback _this;
-	_objectIDs pushback 11270;
-	_this setPosWorld [1185,371.75,91.4324];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11271 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11271 = createVehicle ["Land_BagFence_01_long_green_F",[1188.22,381.585,148.332],[],0,"CAN_COLLIDE"];
-	_this = _item11271;
-	_objects pushback _this;
-	_objectIDs pushback 11271;
-	_this setPosWorld [1188.22,381.585,91.3895];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11272 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11272 = createVehicle ["Land_BagFence_01_long_green_F",[1189.41,371.976,148.415],[],0,"CAN_COLLIDE"];
-	_this = _item11272;
-	_objects pushback _this;
-	_objectIDs pushback 11272;
-	_this setPosWorld [1189.41,371.976,91.4724];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11273 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11273 = createVehicle ["Land_BagFence_01_long_green_F",[1191.17,374.21,148.41],[],0,"CAN_COLLIDE"];
-	_this = _item11273;
-	_objects pushback _this;
-	_objectIDs pushback 11273;
-	_this setPosWorld [1191.17,374.21,91.4676];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11274 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11274 = createVehicle ["Land_BagFence_01_long_green_F",[1190.16,376.676,148.411],[],0,"CAN_COLLIDE"];
-	_this = _item11274;
-	_objects pushback _this;
-	_objectIDs pushback 11274;
-	_this setPosWorld [1190.16,376.676,91.4679];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11275 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11275 = createVehicle ["Land_BagFence_01_long_green_F",[1187.12,384.227,148.348],[],0,"CAN_COLLIDE"];
-	_this = _item11275;
-	_objects pushback _this;
-	_objectIDs pushback 11275;
-	_this setPosWorld [1187.12,384.227,91.405];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11276 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11276 = createVehicle ["Land_BagFence_01_long_green_F",[1190.58,380.235,153.776],[],0,"CAN_COLLIDE"];
-	_this = _item11276;
-	_objects pushback _this;
-	_objectIDs pushback 11276;
-	_this setPosWorld [1190.58,380.235,96.8335];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11277 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11277 = createVehicle ["Land_BagFence_01_long_green_F",[1190.11,380.717,148.398],[],0,"CAN_COLLIDE"];
-	_this = _item11277;
-	_objects pushback _this;
-	_objectIDs pushback 11277;
-	_this setPosWorld [1190.11,380.717,91.4556];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11278 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11278 = createVehicle ["Land_BagFence_01_long_green_F",[1192.52,373.078,151.402],[],0,"CAN_COLLIDE"];
-	_this = _item11278;
-	_objects pushback _this;
-	_objectIDs pushback 11278;
-	_this setPosWorld [1192.52,373.078,94.4593];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11279 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11279 = createVehicle ["Land_BagFence_01_long_green_F",[1180.48,378.381,153.764],[],0,"CAN_COLLIDE"];
-	_this = _item11279;
-	_objects pushback _this;
-	_objectIDs pushback 11279;
-	_this setPosWorld [1180.48,378.381,96.8213];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11280 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11280 = createVehicle ["Land_BagFence_01_long_green_F",[1186.76,370.911,148.393],[],0,"CAN_COLLIDE"];
-	_this = _item11280;
-	_objects pushback _this;
-	_objectIDs pushback 11280;
-	_this setPosWorld [1186.76,370.911,91.4506];
-	_this setVectorDirAndUp [[-0.373727,0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11281 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11281 = createVehicle ["Land_BagFence_01_long_green_F",[1205.53,397.982,150.711],[],0,"CAN_COLLIDE"];
-	_this = _item11281;
-	_objects pushback _this;
-	_objectIDs pushback 11281;
-	_this setPosWorld [1205.53,397.982,93.7683];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11282 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11282 = createVehicle ["Land_BagFence_01_long_green_F",[1205.4,403.374,150.682],[],0,"CAN_COLLIDE"];
-	_this = _item11282;
-	_objects pushback _this;
-	_objectIDs pushback 11282;
-	_this setPosWorld [1205.4,403.374,93.7389];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11283 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11283 = createVehicle ["Land_BagFence_01_long_green_F",[1206.54,399.75,150.692],[],0,"CAN_COLLIDE"];
-	_this = _item11283;
-	_objects pushback _this;
-	_objectIDs pushback 11283;
-	_this setPosWorld [1206.54,399.75,93.7497];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11284 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11284 = createVehicle ["Land_BagFence_01_long_green_F",[1205.7,397.984,156.122],[],0,"CAN_COLLIDE"];
-	_this = _item11284;
-	_objects pushback _this;
-	_objectIDs pushback 11284;
-	_this setPosWorld [1205.7,397.984,99.1794];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11285 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11285 = createVehicle ["Land_BagFence_01_long_green_F",[1202.91,405.948,156.103],[],0,"CAN_COLLIDE"];
-	_this = _item11285;
-	_objects pushback _this;
-	_objectIDs pushback 11285;
-	_this setPosWorld [1202.91,405.948,99.1607];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11286 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11286 = createVehicle ["Land_BagFence_01_long_green_F",[1204.79,405.192,156.095],[],0,"CAN_COLLIDE"];
-	_this = _item11286;
-	_objects pushback _this;
-	_objectIDs pushback 11286;
-	_this setPosWorld [1204.79,405.192,99.1521];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11287 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11287 = createVehicle ["Land_BagFence_01_long_green_F",[1206.56,399.828,156.094],[],0,"CAN_COLLIDE"];
-	_this = _item11287;
-	_objects pushback _this;
-	_objectIDs pushback 11287;
-	_this setPosWorld [1206.56,399.828,99.1508];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11288 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11288 = createVehicle ["Land_BagFence_01_long_green_F",[1205.63,402.607,156.085],[],0,"CAN_COLLIDE"];
-	_this = _item11288;
-	_objects pushback _this;
-	_objectIDs pushback 11288;
-	_this setPosWorld [1205.63,402.607,99.1428];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11289 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11289 = createVehicle ["Land_BagFence_01_long_green_F",[1192.5,393.773,156.124],[],0,"CAN_COLLIDE"];
-	_this = _item11289;
-	_objects pushback _this;
-	_objectIDs pushback 11289;
-	_this setPosWorld [1192.5,393.773,99.1814];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11290 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11290 = createVehicle ["Land_BagFence_01_long_green_F",[1191.93,402.268,156.052],[],0,"CAN_COLLIDE"];
-	_this = _item11290;
-	_objects pushback _this;
-	_objectIDs pushback 11290;
-	_this setPosWorld [1191.93,402.268,99.109];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11291 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11291 = createVehicle ["Land_BagFence_01_long_green_F",[1189.87,396.891,156.081],[],0,"CAN_COLLIDE"];
-	_this = _item11291;
-	_objects pushback _this;
-	_objectIDs pushback 11291;
-	_this setPosWorld [1189.87,396.891,99.1387];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11292 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11292 = createVehicle ["Land_BagFence_01_long_green_F",[1190.65,394.543,156.118],[],0,"CAN_COLLIDE"];
-	_this = _item11292;
-	_objects pushback _this;
-	_objectIDs pushback 11292;
-	_this setPosWorld [1190.65,394.543,99.1758];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11293 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11293 = createVehicle ["Land_BagFence_01_long_green_F",[1200.17,405.041,156.05],[],0,"CAN_COLLIDE"];
-	_this = _item11293;
-	_objects pushback _this;
-	_objectIDs pushback 11293;
-	_this setPosWorld [1200.17,405.041,99.1071];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11294 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11294 = createVehicle ["Land_BagFence_01_long_green_F",[1197.46,404.158,156.075],[],0,"CAN_COLLIDE"];
-	_this = _item11294;
-	_objects pushback _this;
-	_objectIDs pushback 11294;
-	_this setPosWorld [1197.46,404.158,99.1319];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11295 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11295 = createVehicle ["Land_BagFence_01_long_green_F",[1189.69,401.526,156.041],[],0,"CAN_COLLIDE"];
-	_this = _item11295;
-	_objects pushback _this;
-	_objectIDs pushback 11295;
-	_this setPosWorld [1189.69,401.526,99.0982];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11296 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11296 = createVehicle ["Land_BagFence_01_long_green_F",[1198.06,395.478,156.13],[],0,"CAN_COLLIDE"];
-	_this = _item11296;
-	_objects pushback _this;
-	_objectIDs pushback 11296;
-	_this setPosWorld [1198.06,395.478,99.1877];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11297 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11297 = createVehicle ["Land_BagFence_01_long_green_F",[1202.81,397.079,150.685],[],0,"CAN_COLLIDE"];
-	_this = _item11297;
-	_objects pushback _this;
-	_objectIDs pushback 11297;
-	_this setPosWorld [1202.81,397.079,93.7423];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11298 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11298 = createVehicle ["Land_BagFence_01_long_green_F",[1188.95,399.62,156.104],[],0,"CAN_COLLIDE"];
-	_this = _item11298;
-	_objects pushback _this;
-	_objectIDs pushback 11298;
-	_this setPosWorld [1188.95,399.62,99.1611];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11299 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11299 = createVehicle ["Land_BagFence_01_long_green_F",[1200.73,396.374,156.142],[],0,"CAN_COLLIDE"];
-	_this = _item11299;
-	_objects pushback _this;
-	_objectIDs pushback 11299;
-	_this setPosWorld [1200.73,396.374,99.1997];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11300 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11300 = createVehicle ["Land_BagFence_01_long_green_F",[1203.41,397.253,156.137],[],0,"CAN_COLLIDE"];
-	_this = _item11300;
-	_objects pushback _this;
-	_objectIDs pushback 11300;
-	_this setPosWorld [1203.41,397.253,99.1945];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11301 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11301 = createVehicle ["Land_BagFence_01_long_green_F",[1187.78,399.142,150.676],[],0,"CAN_COLLIDE"];
-	_this = _item11301;
-	_objects pushback _this;
-	_objectIDs pushback 11301;
-	_this setPosWorld [1187.78,399.142,93.7335];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11302 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11302 = createVehicle ["Land_BagFence_01_long_green_F",[1197.38,395.283,150.633],[],0,"CAN_COLLIDE"];
-	_this = _item11302;
-	_objects pushback _this;
-	_objectIDs pushback 11302;
-	_this setPosWorld [1197.38,395.283,93.6907];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11303 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11303 = createVehicle ["Land_BagFence_01_long_green_F",[1187.71,394.727,150.716],[],0,"CAN_COLLIDE"];
-	_this = _item11303;
-	_objects pushback _this;
-	_objectIDs pushback 11303;
-	_this setPosWorld [1187.71,394.727,93.7736];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11304 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11304 = createVehicle ["Land_BagFence_01_long_green_F",[1189.83,392.82,150.711],[],0,"CAN_COLLIDE"];
-	_this = _item11304;
-	_objects pushback _this;
-	_objectIDs pushback 11304;
-	_this setPosWorld [1189.83,392.82,93.7688];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11305 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11305 = createVehicle ["Land_BagFence_01_long_green_F",[1192.35,393.667,150.712],[],0,"CAN_COLLIDE"];
-	_this = _item11305;
-	_objects pushback _this;
-	_objectIDs pushback 11305;
-	_this setPosWorld [1192.35,393.667,93.769];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11306 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11306 = createVehicle ["Land_BagFence_01_long_green_F",[1200.09,396.198,150.649],[],0,"CAN_COLLIDE"];
-	_this = _item11306;
-	_objects pushback _this;
-	_objectIDs pushback 11306;
-	_this setPosWorld [1200.09,396.198,93.7061];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11307 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11307 = createVehicle ["Land_BagFence_01_long_green_F",[1195.88,393.011,156.077],[],0,"CAN_COLLIDE"];
-	_this = _item11307;
-	_objects pushback _this;
-	_objectIDs pushback 11307;
-	_this setPosWorld [1195.88,393.011,99.1347];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11308 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11308 = createVehicle ["Land_BagFence_01_long_green_F",[1188.63,391.538,148.265],[],0,"CAN_COLLIDE"];
-	_this = _item11308;
-	_objects pushback _this;
-	_objectIDs pushback 11308;
-	_this setPosWorld [1188.63,391.538,91.3222];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11309 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11309 = createVehicle ["Land_BagFence_01_long_green_F",[1196.39,393.446,150.699],[],0,"CAN_COLLIDE"];
-	_this = _item11309;
-	_objects pushback _this;
-	_objectIDs pushback 11309;
-	_this setPosWorld [1196.39,393.446,93.7568];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11310 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11310 = createVehicle ["Land_BagFence_01_long_green_F",[1188.61,391.545,153.703],[],0,"CAN_COLLIDE"];
-	_this = _item11310;
-	_objects pushback _this;
-	_objectIDs pushback 11310;
-	_this setPosWorld [1188.61,391.545,96.7605];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11311 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11311 = createVehicle ["Land_BagFence_01_long_green_F",[1194.69,403.211,156.065],[],0,"CAN_COLLIDE"];
-	_this = _item11311;
-	_objects pushback _this;
-	_objectIDs pushback 11311;
-	_this setPosWorld [1194.69,403.211,99.1225];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11312 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11312 = createVehicle ["Land_BagFence_01_long_green_F",[1186.83,397.44,150.695],[],0,"CAN_COLLIDE"];
-	_this = _item11312;
-	_objects pushback _this;
-	_objectIDs pushback 11312;
-	_this setPosWorld [1186.83,397.44,93.7518];
-	_this setVectorDirAndUp [[0.950098,0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11313 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11313 = createVehicle ["Land_BagFence_01_short_green_F",[1181.33,389.736,148.426],[],0,"CAN_COLLIDE"];
-	_this = _item11313;
-	_objects pushback _this;
-	_objectIDs pushback 11313;
-	_this setPosWorld [1181.33,389.736,91.4788];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11314 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11314 = createVehicle ["Land_BagFence_01_short_green_F",[1178.53,387.728,148.403],[],0,"CAN_COLLIDE"];
-	_this = _item11314;
-	_objects pushback _this;
-	_objectIDs pushback 11314;
-	_this setPosWorld [1178.53,387.728,91.4562];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11315 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11315 = createVehicle ["Land_BagFence_01_short_green_F",[1189.33,381.392,153.752],[],0,"CAN_COLLIDE"];
-	_this = _item11315;
-	_objects pushback _this;
-	_objectIDs pushback 11315;
-	_this setPosWorld [1189.33,381.392,96.8047];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11316 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11316 = createVehicle ["Land_BagFence_01_short_green_F",[1191.04,373.129,151.382],[],0,"CAN_COLLIDE"];
-	_this = _item11316;
-	_objects pushback _this;
-	_objectIDs pushback 11316;
-	_this setPosWorld [1191.04,373.129,94.4352];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11317 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11317 = createVehicle ["Land_BagFence_01_short_green_F",[1194.55,374.763,151.419],[],0,"CAN_COLLIDE"];
-	_this = _item11317;
-	_objects pushback _this;
-	_objectIDs pushback 11317;
-	_this setPosWorld [1194.55,374.763,94.4712];
-	_this setVectorDirAndUp [[-0.927539,-0.373726,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11318 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11318 = createVehicle ["Land_BagFence_01_short_green_F",[1192.19,380.806,148.376],[],0,"CAN_COLLIDE"];
-	_this = _item11318;
-	_objects pushback _this;
-	_objectIDs pushback 11318;
-	_this setPosWorld [1192.19,380.806,91.4292];
-	_this setVectorDirAndUp [[0.927539,0.373727,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11319 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11319 = createVehicle ["Land_BagFence_01_short_green_F",[1194.11,373.696,151.423],[],0,"CAN_COLLIDE"];
-	_this = _item11319;
-	_objects pushback _this;
-	_objectIDs pushback 11319;
-	_this setPosWorld [1194.11,373.696,94.4756];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11320 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11320 = createVehicle ["Land_BagFence_01_short_green_F",[1190.98,372.596,148.419],[],0,"CAN_COLLIDE"];
-	_this = _item11320;
-	_objects pushback _this;
-	_objectIDs pushback 11320;
-	_this setPosWorld [1190.98,372.596,91.4717];
-	_this setVectorDirAndUp [[0.373727,-0.927539,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11321 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11321 = createVehicle ["Land_BagFence_01_short_green_F",[1205.97,401.619,150.727],[],0,"CAN_COLLIDE"];
-	_this = _item11321;
-	_objects pushback _this;
-	_objectIDs pushback 11321;
-	_this setPosWorld [1205.97,401.619,93.78];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11322 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11322 = createVehicle ["Land_BagFence_01_short_green_F",[1204.15,404.541,150.705],[],0,"CAN_COLLIDE"];
-	_this = _item11322;
-	_objects pushback _this;
-	_objectIDs pushback 11322;
-	_this setPosWorld [1204.15,404.541,93.7574];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11323 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11323 = createVehicle ["Land_BagFence_01_short_green_F",[1197.11,394.181,156.053],[],0,"CAN_COLLIDE"];
-	_this = _item11323;
-	_objects pushback _this;
-	_objectIDs pushback 11323;
-	_this setPosWorld [1197.11,394.181,99.1059];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11324 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11324 = createVehicle ["Land_BagFence_01_short_green_F",[1190.13,389.396,148.265],[],0,"CAN_COLLIDE"];
-	_this = _item11324;
-	_objects pushback _this;
-	_objectIDs pushback 11324;
-	_this setPosWorld [1190.13,389.396,91.3176];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11325 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11325 = createVehicle ["Land_BagFence_01_short_green_F",[1188.76,393.021,153.684],[],0,"CAN_COLLIDE"];
-	_this = _item11325;
-	_objects pushback _this;
-	_objectIDs pushback 11325;
-	_this setPosWorld [1188.76,393.021,96.7364];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11326 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11326 = createVehicle ["Land_BagFence_01_short_green_F",[1189.09,389.906,148.286],[],0,"CAN_COLLIDE"];
-	_this = _item11326;
-	_objects pushback _this;
-	_objectIDs pushback 11326;
-	_this setPosWorld [1189.09,389.906,91.3385];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11327 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11327 = createVehicle ["Land_BagFence_01_short_green_F",[1188.89,393.06,148.245],[],0,"CAN_COLLIDE"];
-	_this = _item11327;
-	_objects pushback _this;
-	_objectIDs pushback 11327;
-	_this setPosWorld [1188.89,393.06,91.2981];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11328 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11328 = createVehicle ["Land_BagFence_01_short_green_F",[1190.16,389.416,153.72],[],0,"CAN_COLLIDE"];
-	_this = _item11328;
-	_objects pushback _this;
-	_objectIDs pushback 11328;
-	_this setPosWorld [1190.16,389.416,96.7724];
-	_this setVectorDirAndUp [[-0.311953,0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11329 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11329 = createVehicle ["Land_BagFence_01_short_green_F",[1196.34,391.373,150.678],[],0,"CAN_COLLIDE"];
-	_this = _item11329;
-	_objects pushback _this;
-	_objectIDs pushback 11329;
-	_this setPosWorld [1196.34,391.373,93.7304];
-	_this setVectorDirAndUp [[0.311953,-0.950098,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11330 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11330 = createVehicle ["Land_BagFence_01_short_green_F",[1189.12,389.924,153.724],[],0,"CAN_COLLIDE"];
-	_this = _item11330;
-	_objects pushback _this;
-	_objectIDs pushback 11330;
-	_this setPosWorld [1189.12,389.924,96.7768];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11331 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11331 = createVehicle ["Land_BagFence_01_short_green_F",[1188.23,393.118,150.72],[],0,"CAN_COLLIDE"];
-	_this = _item11331;
-	_objects pushback _this;
-	_objectIDs pushback 11331;
-	_this setPosWorld [1188.23,393.118,93.7729];
-	_this setVectorDirAndUp [[-0.950098,-0.311953,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11332 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11332 = createVehicle ["Land_BagFence_01_short_green_F",[1200.78,372.118,150.674],[],0,"CAN_COLLIDE"];
-	_this = _item11332;
-	_objects pushback _this;
-	_objectIDs pushback 11332;
-	_this setPosWorld [1200.78,372.118,93.7262];
-	_this setVectorDirAndUp [[-0.34722,0.937784,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11333 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11333 = createVehicle ["Land_BagFence_01_short_green_F",[1199.12,371.673,150.674],[],0,"CAN_COLLIDE"];
-	_this = _item11333;
-	_objects pushback _this;
-	_objectIDs pushback 11333;
-	_this setPosWorld [1199.12,371.673,93.7262];
-	_this setVectorDirAndUp [[-0.34722,0.937784,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
-private _item11334 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11334 = createVehicle ["Land_BagFence_01_short_green_F",[1197.82,371.178,150.674],[],0,"CAN_COLLIDE"];
-	_this = _item11334;
-	_objects pushback _this;
-	_objectIDs pushback 11334;
-	_this setPosWorld [1197.82,371.178,93.7262];
-	_this setVectorDirAndUp [[-0.34722,0.937784,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-};
-
 private _item11335 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11335 = createVehicle ["Land_sign_noentry_small_en_pl_F",[1251.24,343.368,148.048],[],0,"CAN_COLLIDE"];
 	_this = _item11335;
 	_objects pushback _this;
@@ -4645,7 +4127,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11336 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11336 = createVehicle ["Land_Sign_MinesTall_F",[1261.31,390.702,148.048],[],0,"CAN_COLLIDE"];
 	_this = _item11336;
 	_objects pushback _this;
@@ -4659,7 +4141,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11337 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11337 = createSimpleObject ["Land_HumanSkull_F",[1379.39,330.248,90.654]];
 	_this = _item11337;
 	_objects pushback _this;
@@ -4671,7 +4153,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11338 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11338 = createVehicle ["Land_Slums01_8m",[1256.62,353.984,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11338;
 	_objects pushback _this;
@@ -4683,7 +4165,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11339 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11339 = createVehicle ["Land_Slums01_8m",[1250.34,350.592,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11339;
 	_objects pushback _this;
@@ -4695,7 +4177,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11340 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11340 = createVehicle ["Land_Slum_House01_F",[1405.4,279.274,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11340;
 	_objects pushback _this;
@@ -4707,7 +4189,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11341 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11341 = createVehicle ["Land_Slum_House01_F",[1407.7,282.696,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11341;
 	_objects pushback _this;
@@ -4719,7 +4201,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11342 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11342 = createVehicle ["Land_Slum_House01_ruins_F",[1217.03,380.486,148.718],[],0,"CAN_COLLIDE"];
 	_this = _item11342;
 	_objects pushback _this;
@@ -4731,7 +4213,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11343 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11343 = createVehicle ["Land_Slum_House01_ruins_F",[1227.52,388.6,148.354],[],0,"CAN_COLLIDE"];
 	_this = _item11343;
 	_objects pushback _this;
@@ -4743,7 +4225,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11344 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11344 = createVehicle ["Land_Slum_House01_ruins_F",[1276.34,379.086,148.061],[],0,"CAN_COLLIDE"];
 	_this = _item11344;
 	_objects pushback _this;
@@ -4755,7 +4237,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11345 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11345 = createVehicle ["Land_cargo_addon01_V2_F",[1293.91,391.332,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11345;
 	_objects pushback _this;
@@ -4767,7 +4249,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11346 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11346 = createVehicle ["Land_SlumWall_01_s_2m_F",[1393,298.471,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11346;
 	_objects pushback _this;
@@ -4779,7 +4261,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11347 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11347 = createVehicle ["Land_SlumWall_01_s_2m_F",[1390.45,296.351,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11347;
 	_objects pushback _this;
@@ -4791,7 +4273,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11348 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11348 = createVehicle ["Land_SlumWall_01_s_2m_F",[1383.21,270.785,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11348;
 	_objects pushback _this;
@@ -4803,7 +4285,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11349 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11349 = createVehicle ["Land_SlumWall_01_s_2m_F",[1381.86,318.217,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11349;
 	_objects pushback _this;
@@ -4815,7 +4297,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11350 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11350 = createVehicle ["Land_SlumWall_01_s_2m_F",[1345.89,362.25,148.079],[],0,"CAN_COLLIDE"];
 	_this = _item11350;
 	_objects pushback _this;
@@ -4827,7 +4309,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11351 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11351 = createVehicle ["Land_SlumWall_01_s_2m_F",[1350.34,370.543,148.09],[],0,"CAN_COLLIDE"];
 	_this = _item11351;
 	_objects pushback _this;
@@ -4839,7 +4321,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11352 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11352 = createVehicle ["Land_SlumWall_01_s_2m_F",[1371.84,274.179,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11352;
 	_objects pushback _this;
@@ -4851,7 +4333,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11353 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11353 = createVehicle ["Land_SlumWall_01_s_2m_F",[1362.76,279.982,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11353;
 	_objects pushback _this;
@@ -4863,7 +4345,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11354 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11354 = createVehicle ["Land_SlumWall_01_s_2m_F",[1363.99,278.933,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11354;
 	_objects pushback _this;
@@ -4875,7 +4357,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11355 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11355 = createVehicle ["Land_SlumWall_01_s_4m_F",[1380.59,327.355,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11355;
 	_objects pushback _this;
@@ -4887,7 +4369,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11356 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11356 = createVehicle ["Land_SlumWall_01_s_4m_F",[1325.16,406.066,148.068],[],0,"CAN_COLLIDE"];
 	_this = _item11356;
 	_objects pushback _this;
@@ -4899,7 +4381,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11357 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11357 = createVehicle ["Land_SlumWall_01_s_4m_F",[1278.56,387.867,148.073],[],0,"CAN_COLLIDE"];
 	_this = _item11357;
 	_objects pushback _this;
@@ -4911,7 +4393,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11358 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11358 = createVehicle ["Land_SlumWall_01_s_4m_F",[1278.55,387.866,149.01],[],0,"CAN_COLLIDE"];
 	_this = _item11358;
 	_objects pushback _this;
@@ -4923,7 +4405,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11359 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11359 = createVehicle ["Land_SlumWall_01_s_4m_F",[1344.49,380.884,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11359;
 	_objects pushback _this;
@@ -4935,7 +4417,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11360 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11360 = createVehicle ["Land_SlumWall_01_s_4m_F",[1344.48,380.939,148.902],[],0,"CAN_COLLIDE"];
 	_this = _item11360;
 	_objects pushback _this;
@@ -4947,7 +4429,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11361 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11361 = createVehicle ["Land_SlumWall_01_s_4m_F",[1352.22,356.434,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11361;
 	_objects pushback _this;
@@ -4959,7 +4441,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11362 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11362 = createVehicle ["Land_SlumWall_01_s_4m_F",[1350.42,355.626,148.888],[],0,"CAN_COLLIDE"];
 	_this = _item11362;
 	_objects pushback _this;
@@ -4971,7 +4453,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11363 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11363 = createVehicle ["Land_SharpStone_03",[1305.67,254.945,157.629],[],0,"CAN_COLLIDE"];
 	_this = _item11363;
 	_objects pushback _this;
@@ -4983,7 +4465,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11364 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11364 = createVehicle ["Land_SharpStone_03",[1309.76,239.363,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11364;
 	_objects pushback _this;
@@ -4995,7 +4477,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11365 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11365 = createVehicle ["Land_SharpStone_03",[1264.74,348.008,148.048],[],0,"CAN_COLLIDE"];
 	_this = _item11365;
 	_objects pushback _this;
@@ -5007,7 +4489,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11366 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11366 = createVehicle ["Land_SharpStone_03",[1265.2,347.448,148.781],[],0,"CAN_COLLIDE"];
 	_this = _item11366;
 	_objects pushback _this;
@@ -5019,7 +4501,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11367 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11367 = createVehicle ["Land_SharpStone_03",[1266.69,348.126,149.293],[],0,"CAN_COLLIDE"];
 	_this = _item11367;
 	_objects pushback _this;
@@ -5031,7 +4513,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11368 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11368 = createVehicle ["Land_SharpStone_03",[1266.12,347.856,148.287],[],0,"CAN_COLLIDE"];
 	_this = _item11368;
 	_objects pushback _this;
@@ -5043,7 +4525,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11369 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11369 = createVehicle ["Land_Cliff_stone_medium_F",[1330.53,289.733,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11369;
 	_objects pushback _this;
@@ -5055,7 +4537,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11370 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11370 = createVehicle ["Land_spp_Transformer_F",[1290.62,384.469,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11370;
 	_objects pushback _this;
@@ -5067,7 +4549,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11371 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11371 = createSimpleObject ["Land_Pallets_stack_F",[1357.65,276.977,90.6962]];
 	_this = _item11371;
 	_objects pushback _this;
@@ -5079,7 +4561,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11372 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11372 = createSimpleObject ["Land_Pallets_stack_F",[1357.6,276.919,91.5761]];
 	_this = _item11372;
 	_objects pushback _this;
@@ -5091,7 +4573,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11373 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11373 = createSimpleObject ["Land_Pallets_stack_F",[1183.78,383.829,91.0416]];
 	_this = _item11373;
 	_objects pushback _this;
@@ -5103,7 +4585,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11374 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11374 = createSimpleObject ["Land_Pallets_stack_F",[1199.91,399.566,93.3428]];
 	_this = _item11374;
 	_objects pushback _this;
@@ -5115,7 +4597,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11375 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11375 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1187.1,367.665,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11375;
 	_objects pushback _this;
@@ -5127,7 +4609,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11376 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11376 = createVehicle ["Land_SCF_01_crystallizer_F",[1182.59,379.353,139.85],[],0,"CAN_COLLIDE"];
 	_this = _item11376;
 	_objects pushback _this;
@@ -5139,7 +4621,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11377 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11377 = createVehicle ["Land_SCF_01_crystallizer_F",[1195.52,401.041,142.151],[],0,"CAN_COLLIDE"];
 	_this = _item11377;
 	_objects pushback _this;
@@ -5151,7 +4633,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11378 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11378 = createVehicle ["Land_SCF_01_warehouse_F",[1221.25,347.91,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11378;
 	_objects pushback _this;
@@ -5163,8 +4645,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11379 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11379 = createSimpleObject ["B_supplyCrate_F",[1292.68,394.804,90.6961]];
+if (_layer10971 && _layer11585) then {
+	_item11379 = createSimpleObject ["B_supplyCrate_F",[1292.68,394.804,90.6962]];
 	_this = _item11379;
 	_objects pushback _this;
 	_objectIDs pushback 11379;
@@ -5176,7 +4658,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11380 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11380 = createVehicle ["Land_SharpRock_wallV",[1242.73,341.453,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11380;
 	_objects pushback _this;
@@ -5188,7 +4670,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11381 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11381 = createVehicle ["Land_SharpRock_wallV",[1293.46,360.973,137.207],[],0,"CAN_COLLIDE"];
 	_this = _item11381;
 	_objects pushback _this;
@@ -5200,7 +4682,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11382 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11382 = createVehicle ["Land_SharpRock_wallV",[1266.48,428.668,137.874],[],0,"CAN_COLLIDE"];
 	_this = _item11382;
 	_objects pushback _this;
@@ -5212,7 +4694,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11383 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11383 = createVehicle ["Land_SharpRock_wallV",[1381.66,346.716,145.303],[],0,"CAN_COLLIDE"];
 	_this = _item11383;
 	_objects pushback _this;
@@ -5224,7 +4706,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11384 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11384 = createVehicle ["Land_SharpRock_wallV",[1303.5,393.047,153.06],[],0,"CAN_COLLIDE"];
 	_this = _item11384;
 	_objects pushback _this;
@@ -5236,7 +4718,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11385 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11385 = createVehicle ["Land_SharpRock_wallV",[1232.77,441.793,152.855],[],0,"CAN_COLLIDE"];
 	_this = _item11385;
 	_objects pushback _this;
@@ -5248,7 +4730,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11386 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11386 = createVehicle ["Land_Small_Stone_02_F",[1358.41,341.279,147.982],[],0,"CAN_COLLIDE"];
 	_this = _item11386;
 	_objects pushback _this;
@@ -5260,7 +4742,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11387 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11387 = createVehicle ["Land_Small_Stone_02_F",[1354.61,346.59,148.161],[],0,"CAN_COLLIDE"];
 	_this = _item11387;
 	_objects pushback _this;
@@ -5272,7 +4754,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11388 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11388 = createVehicle ["Land_Small_Stone_02_F",[1389.54,277.785,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11388;
 	_objects pushback _this;
@@ -5284,7 +4766,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11389 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11389 = createVehicle ["Land_Small_Stone_02_F",[1382.99,310.235,147.234],[],0,"CAN_COLLIDE"];
 	_this = _item11389;
 	_objects pushback _this;
@@ -5296,7 +4778,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11390 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11390 = createVehicle ["Land_Small_Stone_02_F",[1383.3,268.97,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11390;
 	_objects pushback _this;
@@ -5308,7 +4790,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11391 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11391 = createSimpleObject ["Land_ToiletBox_F",[1387.88,307.378,90.6961]];
 	_this = _item11391;
 	_objects pushback _this;
@@ -5320,7 +4802,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11392 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11392 = createSimpleObject ["Land_ToolTrolley_02_F",[1363.55,306.966,90.6962]];
 	_this = _item11392;
 	_objects pushback _this;
@@ -5332,7 +4814,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11393 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11393 = createSimpleObject ["Land_ToolTrolley_02_F",[1363.45,308.93,90.6962]];
 	_this = _item11393;
 	_objects pushback _this;
@@ -5344,7 +4826,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11394 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11394 = createSimpleObject ["Land_Trophy_01_gold_F",[1360.2,319.428,99.2761]];
 	_this = _item11394;
 	_objects pushback _this;
@@ -5356,7 +4838,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11395 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11395 = createSimpleObject ["Box_C_IDAP_UAV_06_medical_F",[1360.95,341.626,91.5117]];
 	_this = _item11395;
 	_objects pushback _this;
@@ -5369,7 +4851,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11396 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11396 = createSimpleObject ["Land_WaterBottle_01_stack_F",[1298.91,395.165,90.6961]];
 	_this = _item11396;
 	_objects pushback _this;
@@ -5382,7 +4864,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11397 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11397 = createSimpleObject ["Land_WaterBottle_01_stack_F",[1296.98,400.299,90.6962]];
 	_this = _item11397;
 	_objects pushback _this;
@@ -5395,7 +4877,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11398 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11398 = createSimpleObject ["Land_WaterBottle_01_stack_F",[1420.32,279.819,90.6961]];
 	_this = _item11398;
 	_objects pushback _this;
@@ -5408,7 +4890,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11399 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11399 = createSimpleObject ["WaterPump_01_sand_F",[1363.27,304.781,90.6961]];
 	_this = _item11399;
 	_objects pushback _this;
@@ -5421,7 +4903,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11400 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11400 = createSimpleObject ["Land_WaterTank_F",[1356.09,308.011,90.6961]];
 	_this = _item11400;
 	_objects pushback _this;
@@ -5434,7 +4916,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11401 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11401 = createSimpleObject ["Land_WeldingTrolley_01_F",[1363.26,310.732,90.6962]];
 	_this = _item11401;
 	_objects pushback _this;
@@ -5446,7 +4928,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11402 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11402 = createSimpleObject ["Land_MobileScafolding_01_F",[1307.19,408.996,90.6961]];
 	_this = _item11402;
 	_objects pushback _this;
@@ -5458,7 +4940,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11403 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11403 = createSimpleObject ["Land_WoodenBox_F",[1384.26,355.921,90.6961]];
 	_this = _item11403;
 	_objects pushback _this;
@@ -5471,7 +4953,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11404 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11404 = createSimpleObject ["Land_WoodenBox_F",[1372.36,334.761,90.6961]];
 	_this = _item11404;
 	_objects pushback _this;
@@ -5484,7 +4966,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11405 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11405 = createSimpleObject ["Land_WoodenBox_F",[1311.63,412.016,90.6881]];
 	_this = _item11405;
 	_objects pushback _this;
@@ -5497,7 +4979,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11406 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11406 = createSimpleObject ["Land_WoodenBox_F",[1309.35,411.009,90.6881]];
 	_this = _item11406;
 	_objects pushback _this;
@@ -5510,7 +4992,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11407 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11407 = createSimpleObject ["Land_WoodenBox_F",[1243.35,384.092,90.6881]];
 	_this = _item11407;
 	_objects pushback _this;
@@ -5523,7 +5005,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11408 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11408 = createSimpleObject ["Land_WoodenBox_F",[1245.23,385.72,90.6881]];
 	_this = _item11408;
 	_objects pushback _this;
@@ -5536,7 +5018,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11409 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11409 = createSimpleObject ["Land_WoodenCounter_01_F",[1383.87,352.103,90.6961]];
 	_this = _item11409;
 	_objects pushback _this;
@@ -5548,7 +5030,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11410 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11410 = createSimpleObject ["Land_WoodenCounter_01_F",[1380.74,349.265,90.6961]];
 	_this = _item11410;
 	_objects pushback _this;
@@ -5560,7 +5042,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11411 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11411 = createSimpleObject ["Land_WoodenCounter_01_F",[1390.75,357.259,90.6988]];
 	_this = _item11411;
 	_objects pushback _this;
@@ -5572,7 +5054,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11412 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11412 = createSimpleObject ["Land_WoodenCrate_01_F",[1295,398.132,91.9758]];
 	_this = _item11412;
 	_objects pushback _this;
@@ -5585,7 +5067,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11413 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11413 = createSimpleObject ["Land_WoodenCrate_01_F",[1294.91,397.547,92.6188]];
 	_this = _item11413;
 	_objects pushback _this;
@@ -5598,7 +5080,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11414 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11414 = createSimpleObject ["Land_WoodenCrate_01_F",[1382.7,270.378,90.6351]];
 	_this = _item11414;
 	_objects pushback _this;
@@ -5611,7 +5093,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11415 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11415 = createSimpleObject ["Land_WoodenCrate_01_F",[1382.73,270.485,91.2987]];
 	_this = _item11415;
 	_objects pushback _this;
@@ -5624,7 +5106,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11416 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11416 = createSimpleObject ["Land_WoodenCrate_01_F",[1417.65,269.035,90.6961]];
 	_this = _item11416;
 	_objects pushback _this;
@@ -5637,7 +5119,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11417 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11417 = createSimpleObject ["Land_WoodenCrate_01_F",[1417.53,268.993,91.4045]];
 	_this = _item11417;
 	_objects pushback _this;
@@ -5650,7 +5132,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11418 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11418 = createSimpleObject ["Land_WoodenCrate_01_F",[1325.73,406.977,90.6881]];
 	_this = _item11418;
 	_objects pushback _this;
@@ -5663,7 +5145,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11419 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11419 = createSimpleObject ["Land_WoodenCrate_01_F",[1363.65,279.806,90.6961]];
 	_this = _item11419;
 	_objects pushback _this;
@@ -5676,7 +5158,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11420 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11420 = createSimpleObject ["Land_WoodenCrate_01_F",[1242.31,364.362,91.9758]];
 	_this = _item11420;
 	_objects pushback _this;
@@ -5689,7 +5171,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11421 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11421 = createSimpleObject ["Land_WoodenCrate_01_F",[1366.02,271.801,91.4152]];
 	_this = _item11421;
 	_objects pushback _this;
@@ -5702,7 +5184,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11422 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11422 = createSimpleObject ["Land_WoodenCrate_01_F",[1361.55,288.396,90.6961]];
 	_this = _item11422;
 	_objects pushback _this;
@@ -5715,7 +5197,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11423 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11423 = createVehicle ["Land_WoodenCrate_01_stack_x3_F",[1418.79,278.064,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11423;
 	_objects pushback _this;
@@ -5727,7 +5209,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11424 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11424 = createVehicle ["Land_WoodenCrate_01_stack_x3_F",[1345.34,363.156,148.054],[],0,"CAN_COLLIDE"];
 	_this = _item11424;
 	_objects pushback _this;
@@ -5739,7 +5221,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11425 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11425 = createVehicle ["Land_WoodenCrate_01_stack_x3_F",[1350.91,369.657,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11425;
 	_objects pushback _this;
@@ -5751,7 +5233,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11426 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11426 = createVehicle ["Land_WoodenCrate_01_stack_x3_F",[1190.61,397.941,150.681],[],0,"CAN_COLLIDE"];
 	_this = _item11426;
 	_objects pushback _this;
@@ -5763,7 +5245,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11427 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11427 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1294.37,397.507,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11427;
 	_objects pushback _this;
@@ -5775,7 +5257,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11428 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11428 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1295.72,398.584,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11428;
 	_objects pushback _this;
@@ -5787,7 +5269,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11429 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11429 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1291.81,395.158,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11429;
 	_objects pushback _this;
@@ -5799,7 +5281,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11430 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11430 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1381.71,326.583,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11430;
 	_objects pushback _this;
@@ -5811,7 +5293,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11431 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11431 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1380.24,318.292,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11431;
 	_objects pushback _this;
@@ -5823,7 +5305,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11432 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11432 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1416.87,277.97,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11432;
 	_objects pushback _this;
@@ -5835,7 +5317,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11433 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11433 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1411.78,262.784,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11433;
 	_objects pushback _this;
@@ -5847,7 +5329,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11434 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11434 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1412.2,285.436,148.078],[],0,"CAN_COLLIDE"];
 	_this = _item11434;
 	_objects pushback _this;
@@ -5859,7 +5341,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11435 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11435 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1346.9,363.751,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11435;
 	_objects pushback _this;
@@ -5871,7 +5353,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11436 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11436 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1349.64,369.061,148.09],[],0,"CAN_COLLIDE"];
 	_this = _item11436;
 	_objects pushback _this;
@@ -5883,7 +5365,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11437 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11437 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1323.89,406.399,148.068],[],0,"CAN_COLLIDE"];
 	_this = _item11437;
 	_objects pushback _this;
@@ -5895,7 +5377,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11438 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11438 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1259.49,391.331,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11438;
 	_objects pushback _this;
@@ -5907,7 +5389,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11439 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11439 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1261.51,362.309,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11439;
 	_objects pushback _this;
@@ -5919,7 +5401,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11440 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11440 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1229.05,384.768,148.164],[],0,"CAN_COLLIDE"];
 	_this = _item11440;
 	_objects pushback _this;
@@ -5931,7 +5413,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11441 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11441 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1256.34,365.788,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11441;
 	_objects pushback _this;
@@ -5943,7 +5425,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11442 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11442 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1244.89,358.24,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11442;
 	_objects pushback _this;
@@ -5955,7 +5437,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11443 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11443 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1242.88,363.697,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11443;
 	_objects pushback _this;
@@ -5967,7 +5449,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11444 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11444 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1241.78,365.016,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11444;
 	_objects pushback _this;
@@ -5979,7 +5461,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11445 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11445 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1240.23,354.759,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11445;
 	_objects pushback _this;
@@ -5991,7 +5473,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11446 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11446 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1263.89,346.911,148.067],[],0,"CAN_COLLIDE"];
 	_this = _item11446;
 	_objects pushback _this;
@@ -6003,7 +5485,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11447 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11447 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1225.67,371.353,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11447;
 	_objects pushback _this;
@@ -6015,7 +5497,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11448 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11448 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1230.03,370.041,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11448;
 	_objects pushback _this;
@@ -6027,7 +5509,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11449 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11449 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1242.01,382.87,148.059],[],0,"CAN_COLLIDE"];
 	_this = _item11449;
 	_objects pushback _this;
@@ -6039,7 +5521,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11450 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11450 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1299.5,417.706,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11450;
 	_objects pushback _this;
@@ -6051,7 +5533,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11451 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11451 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1301.01,416.957,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11451;
 	_objects pushback _this;
@@ -6063,7 +5545,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11452 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11452 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1304.2,419.747,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11452;
 	_objects pushback _this;
@@ -6075,7 +5557,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11453 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11453 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1302.49,417.939,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11453;
 	_objects pushback _this;
@@ -6087,7 +5569,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11454 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11454 = createVehicle ["Land_WoodenCrate_01_stack_x5_F",[1186.01,374.658,148.38],[],0,"CAN_COLLIDE"];
 	_this = _item11454;
 	_objects pushback _this;
@@ -6099,7 +5581,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11455 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11455 = createSimpleObject ["Land_Workbench_01_F",[1357.16,310.529,90.6961]];
 	_this = _item11455;
 	_objects pushback _this;
@@ -6111,7 +5593,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11456 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11456 = createVehicle ["Land_Limestone_01_02_F",[1330.96,286.257,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11456;
 	_objects pushback _this;
@@ -6123,7 +5605,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11457 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11457 = createVehicle ["Land_Limestone_01_02_F",[1332.81,290.14,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11457;
 	_objects pushback _this;
@@ -6135,7 +5617,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11458 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11458 = createVehicle ["Land_Limestone_01_02_F",[1331.14,289.275,148.414],[],0,"CAN_COLLIDE"];
 	_this = _item11458;
 	_objects pushback _this;
@@ -6147,7 +5629,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11459 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11459 = createVehicle ["Land_Limestone_01_02_F",[1330.76,286.598,148.446],[],0,"CAN_COLLIDE"];
 	_this = _item11459;
 	_objects pushback _this;
@@ -6159,7 +5641,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11460 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11460 = createVehicle ["Land_Limestone_01_02_F",[1332.91,289.995,150.141],[],0,"CAN_COLLIDE"];
 	_this = _item11460;
 	_objects pushback _this;
@@ -6171,7 +5653,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11461 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11461 = createVehicle ["Land_Limestone_01_02_F",[1331.29,288.359,149.931],[],0,"CAN_COLLIDE"];
 	_this = _item11461;
 	_objects pushback _this;
@@ -6183,7 +5665,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11462 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11462 = createVehicle ["Land_SharpStone_01",[1341.46,303.079,148.592],[],0,"CAN_COLLIDE"];
 	_this = _item11462;
 	_objects pushback _this;
@@ -6195,7 +5677,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11463 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11463 = createVehicle ["Land_SharpStone_01",[1340.05,302.74,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11463;
 	_objects pushback _this;
@@ -6207,7 +5689,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11464 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11464 = createVehicle ["Land_SharpStone_01",[1338.93,301.046,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11464;
 	_objects pushback _this;
@@ -6219,7 +5701,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11465 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11465 = createVehicle ["Land_SlumWall_01_s_2m_F",[1210.2,392.146,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11465;
 	_objects pushback _this;
@@ -6231,7 +5713,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11466 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11466 = createVehicle ["Land_SlumWall_01_s_2m_F",[1210.18,395.501,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11466;
 	_objects pushback _this;
@@ -6243,7 +5725,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11467 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11467 = createVehicle ["Land_SlumWall_01_s_2m_F",[1207.36,393.79,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11467;
 	_objects pushback _this;
@@ -6255,7 +5737,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11468 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11468 = createVehicle ["Land_SlumWall_01_s_2m_F",[1207.62,397.25,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11468;
 	_objects pushback _this;
@@ -6267,7 +5749,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11469 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11469 = createVehicle ["Land_Small_Stone_01_F",[1207.73,385.27,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11469;
 	_objects pushback _this;
@@ -6279,7 +5761,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11470 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11470 = createVehicle ["Land_SharpRock_wallH",[1339.9,366.809,164.336],[],0,"CAN_COLLIDE"];
 	_this = _item11470;
 	_objects pushback _this;
@@ -6291,7 +5773,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11471 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11471 = createSimpleObject ["Land_WoodenTable_large_F",[1352.41,355.791,90.6961]];
 	_this = _item11471;
 	_objects pushback _this;
@@ -6303,7 +5785,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11472 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11472 = createVehicle ["Land_Limestone_01_spike_F",[1306.38,270.912,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11472;
 	_objects pushback _this;
@@ -6315,7 +5797,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11473 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11473 = createVehicle ["Land_SharpRock_wallV",[1267.64,319.331,153.04],[],0,"CAN_COLLIDE"];
 	_this = _item11473;
 	_objects pushback _this;
@@ -6326,20 +5808,8 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11474 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
-	_item11474 = createVehicle ["Land_Camping_Light_off_F",[1310.6,247.168,148.062],[],0,"CAN_COLLIDE"];
-	_this = _item11474;
-	_objects pushback _this;
-	_objectIDs pushback 11474;
-	_this setPosWorld [1310.6,247.168,90.8008];
-	_this setVectorDirAndUp [[0.845622,0.533782,0],[0,0,1]];
-	_this allowdamage false;;
-	[_this, 0.2] call ace_cargo_fnc_setSize;
-};
-
 private _item11475 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11475 = createSimpleObject ["Land_Mustard_01_F",[1313.52,250.367,91.6651]];
 	_this = _item11475;
 	_objects pushback _this;
@@ -6351,7 +5821,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11476 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11476 = createSimpleObject ["Land_Tableware_01_stackOfNapkins_F",[1313.27,250.742,91.6653]];
 	_this = _item11476;
 	_objects pushback _this;
@@ -6363,7 +5833,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11477 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11477 = createSimpleObject ["Land_WoodenTable_02_large_F",[1313.58,250.809,90.6961]];
 	_this = _item11477;
 	_objects pushback _this;
@@ -6375,7 +5845,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11478 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11478 = createVehicle ["Land_SharpRock_wallH",[1325.52,316.188,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11478;
 	_objects pushback _this;
@@ -6387,7 +5857,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11479 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11479 = createVehicle ["Land_cargo_addon01_V2_F",[1296.82,393.946,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11479;
 	_objects pushback _this;
@@ -6399,7 +5869,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11480 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11480 = createVehicle ["Land_cargo_addon01_V2_F",[1299.75,396.758,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11480;
 	_objects pushback _this;
@@ -6411,7 +5881,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11481 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11481 = createVehicle ["Land_SY_01_stockpile_02_F",[1278.61,359.716,148.071],[],0,"CAN_COLLIDE"];
 	_this = _item11481;
 	_objects pushback _this;
@@ -6423,7 +5893,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11482 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11482 = createSimpleObject ["Land_WoodenBox_F",[1373.5,331.739,90.6961]];
 	_this = _item11482;
 	_objects pushback _this;
@@ -6436,7 +5906,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11483 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11483 = createVehicle ["Land_cargo_addon01_V2_F",[1342.47,384.593,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11483;
 	_objects pushback _this;
@@ -6448,7 +5918,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11484 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11484 = createVehicle ["Land_SlumWall_01_s_2m_F",[1395.42,289.567,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11484;
 	_objects pushback _this;
@@ -6460,7 +5930,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11485 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11485 = createVehicle ["Land_SlumWall_01_s_2m_F",[1396.55,282.922,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11485;
 	_objects pushback _this;
@@ -6472,7 +5942,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11486 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11486 = createSimpleObject ["Land_ChairWood_F",[1356.47,349.894,90.6961]];
 	_this = _item11486;
 	_objects pushback _this;
@@ -6484,7 +5954,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11487 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11487 = createSimpleObject ["Land_GarbageBarrel_02_F",[1360.73,354.358,90.6961]];
 	_this = _item11487;
 	_objects pushback _this;
@@ -6496,7 +5966,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11488 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11488 = createSimpleObject ["Land_GarbageBarrel_02_F",[1360.6,353.815,90.6961]];
 	_this = _item11488;
 	_objects pushback _this;
@@ -6508,7 +5978,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11489 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11489 = createSimpleObject ["Land_GarbageBarrel_02_F",[1360.98,353.14,90.6961]];
 	_this = _item11489;
 	_objects pushback _this;
@@ -6520,7 +5990,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11490 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11490 = createSimpleObject ["Land_GarbageBarrel_02_F",[1361.48,352.436,90.6961]];
 	_this = _item11490;
 	_objects pushback _this;
@@ -6532,7 +6002,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11491 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11491 = createSimpleObject ["Land_GarbageBarrel_02_F",[1361.11,351.75,90.6961]];
 	_this = _item11491;
 	_objects pushback _this;
@@ -6544,7 +6014,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11492 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11492 = createSimpleObject ["Land_GarbageBarrel_02_F",[1360.37,351.491,90.6961]];
 	_this = _item11492;
 	_objects pushback _this;
@@ -6556,7 +6026,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11493 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11493 = createVehicle ["Land_Cages_F",[1304.41,255.4,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11493;
 	_objects pushback _this;
@@ -6568,7 +6038,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11494 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11494 = createVehicle ["Land_Cages_F",[1304.02,257.107,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11494;
 	_objects pushback _this;
@@ -6580,7 +6050,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11495 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11495 = createVehicle ["Land_Cages_F",[1303.63,258.623,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11495;
 	_objects pushback _this;
@@ -6592,7 +6062,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11496 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11496 = createVehicle ["Land_Cages_F",[1304.15,256.261,148.777],[],0,"CAN_COLLIDE"];
 	_this = _item11496;
 	_objects pushback _this;
@@ -6604,7 +6074,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11497 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11497 = createVehicle ["Land_CrabCages_F",[1307.84,251.232,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11497;
 	_objects pushback _this;
@@ -6616,7 +6086,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11498 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11498 = createVehicle ["Land_Lavaboulder_02_F",[1372.96,322.562,150.043],[],0,"CAN_COLLIDE"];
 	_this = _item11498;
 	_objects pushback _this;
@@ -6628,7 +6098,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11499 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11499 = createVehicle ["Land_Plank_01_4m_F",[1312.5,258.978,148.452],[],0,"CAN_COLLIDE"];
 	_this = _item11499;
 	_objects pushback _this;
@@ -6640,7 +6110,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11500 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11500 = createVehicle ["Land_Plank_01_4m_F",[1310.06,256.178,148.501],[],0,"CAN_COLLIDE"];
 	_this = _item11500;
 	_objects pushback _this;
@@ -6652,7 +6122,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11501 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11501 = createVehicle ["Land_Plank_01_4m_F",[1312.45,258.926,149.175],[],0,"CAN_COLLIDE"];
 	_this = _item11501;
 	_objects pushback _this;
@@ -6664,7 +6134,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11502 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11502 = createVehicle ["Land_Plank_01_4m_F",[1312.41,258.881,149.924],[],0,"CAN_COLLIDE"];
 	_this = _item11502;
 	_objects pushback _this;
@@ -6676,7 +6146,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11503 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11503 = createVehicle ["Land_Plank_01_4m_F",[1312.36,258.831,150.684],[],0,"CAN_COLLIDE"];
 	_this = _item11503;
 	_objects pushback _this;
@@ -6688,7 +6158,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11504 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11504 = createVehicle ["Land_Plank_01_4m_F",[1310,256.137,149.205],[],0,"CAN_COLLIDE"];
 	_this = _item11504;
 	_objects pushback _this;
@@ -6700,7 +6170,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11505 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11505 = createVehicle ["Land_Plank_01_4m_F",[1309.94,256.079,149.935],[],0,"CAN_COLLIDE"];
 	_this = _item11505;
 	_objects pushback _this;
@@ -6712,7 +6182,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11506 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11506 = createVehicle ["Land_Plank_01_4m_F",[1309.97,256,150.669],[],0,"CAN_COLLIDE"];
 	_this = _item11506;
 	_objects pushback _this;
@@ -6724,7 +6194,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11507 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11507 = createVehicle ["Land_Plank_01_4m_F",[1305.81,253.061,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11507;
 	_objects pushback _this;
@@ -6736,7 +6206,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11508 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11508 = createVehicle ["Land_Plank_01_4m_F",[1305.74,253.037,148.78],[],0,"CAN_COLLIDE"];
 	_this = _item11508;
 	_objects pushback _this;
@@ -6748,7 +6218,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11509 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11509 = createVehicle ["Land_Plank_01_4m_F",[1305.67,252.993,149.51],[],0,"CAN_COLLIDE"];
 	_this = _item11509;
 	_objects pushback _this;
@@ -6760,7 +6230,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11510 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11510 = createVehicle ["Land_Plank_01_4m_F",[1305.68,252.91,150.243],[],0,"CAN_COLLIDE"];
 	_this = _item11510;
 	_objects pushback _this;
@@ -6772,7 +6242,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11511 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11511 = createVehicle ["Land_Plank_01_4m_F",[1306.75,253.756,150.792],[],0,"CAN_COLLIDE"];
 	_this = _item11511;
 	_objects pushback _this;
@@ -6784,7 +6254,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11512 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11512 = createVehicle ["Land_Slum_House02_F",[1376.65,352.407,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11512;
 	_objects pushback _this;
@@ -6796,7 +6266,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11513 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11513 = createVehicle ["Land_Slum_House03_F",[1358.4,354.499,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11513;
 	_objects pushback _this;
@@ -6808,7 +6278,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11514 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11514 = createVehicle ["Land_cargo_house_slum_F",[1374.12,344.449,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11514;
 	_objects pushback _this;
@@ -6820,7 +6290,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11515 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11515 = createVehicle ["Land_Slum_House01_ruins_F",[1328.77,398.951,148.374],[],0,"CAN_COLLIDE"];
 	_this = _item11515;
 	_objects pushback _this;
@@ -6832,7 +6302,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11516 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11516 = createVehicle ["Land_cargo_addon01_V2_F",[1344.38,373.31,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11516;
 	_objects pushback _this;
@@ -6844,7 +6314,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11517 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11517 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1248.99,367.817,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11517;
 	_objects pushback _this;
@@ -6856,7 +6326,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11518 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11518 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1245.22,365.467,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11518;
 	_objects pushback _this;
@@ -6868,7 +6338,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11519 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11519 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1248.96,367.837,149.598],[],0,"CAN_COLLIDE"];
 	_this = _item11519;
 	_objects pushback _this;
@@ -6880,7 +6350,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11520 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11520 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1247.67,369.641,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11520;
 	_objects pushback _this;
@@ -6892,7 +6362,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11521 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11521 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1243.9,367.291,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11521;
 	_objects pushback _this;
@@ -6904,7 +6374,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11522 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11522 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1243.87,367.311,149.598],[],0,"CAN_COLLIDE"];
 	_this = _item11522;
 	_objects pushback _this;
@@ -6916,7 +6386,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11523 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11523 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1250.19,365.943,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11523;
 	_objects pushback _this;
@@ -6928,7 +6398,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11524 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11524 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1246.41,363.594,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11524;
 	_objects pushback _this;
@@ -6940,7 +6410,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11525 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11525 = createVehicle ["Land_WoodenPlanks_01_pine_F",[1246.38,363.614,149.598],[],0,"CAN_COLLIDE"];
 	_this = _item11525;
 	_objects pushback _this;
@@ -6952,7 +6422,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11526 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11526 = createVehicle ["Land_WoodenPlanks_01_F",[1225.1,377.744,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11526;
 	_objects pushback _this;
@@ -6964,7 +6434,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11527 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11527 = createVehicle ["Land_WoodenPlanks_01_F",[1226.02,375.92,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11527;
 	_objects pushback _this;
@@ -6976,7 +6446,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11528 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11528 = createVehicle ["Land_WoodenPlanks_01_F",[1226.83,374.006,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11528;
 	_objects pushback _this;
@@ -6988,7 +6458,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11529 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11529 = createVehicle ["Land_WoodenPlanks_01_F",[1226.18,375.851,149.287],[],0,"CAN_COLLIDE"];
 	_this = _item11529;
 	_objects pushback _this;
@@ -7000,7 +6470,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11530 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11530 = createVehicle ["Land_SlumWall_01_s_4m_F",[1243.12,380.431,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11530;
 	_objects pushback _this;
@@ -7012,7 +6482,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11531 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11531 = createVehicle ["Land_SlumWall_01_s_4m_F",[1243.12,380.444,148.851],[],0,"CAN_COLLIDE"];
 	_this = _item11531;
 	_objects pushback _this;
@@ -7024,7 +6494,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11532 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11532 = createVehicle ["Land_Plank_01_8m_F",[1261.84,390.33,149.191],[],0,"CAN_COLLIDE"];
 	_this = _item11532;
 	_objects pushback _this;
@@ -7036,7 +6506,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11533 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11533 = createSimpleObject ["Land_WoodenBox_F",[1247.59,384.297,90.6961]];
 	_this = _item11533;
 	_objects pushback _this;
@@ -7049,7 +6519,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11534 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11534 = createSimpleObject ["Land_WoodenBox_F",[1247.99,381.658,90.6961]];
 	_this = _item11534;
 	_objects pushback _this;
@@ -7062,7 +6532,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11535 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11535 = createVehicle ["Land_Limestone_01_02_F",[1340.77,396.237,148.648],[],0,"CAN_COLLIDE"];
 	_this = _item11535;
 	_objects pushback _this;
@@ -7074,7 +6544,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11536 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11536 = createVehicle ["Land_Limestone_01_02_F",[1335.91,407.296,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11536;
 	_objects pushback _this;
@@ -7086,7 +6556,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11537 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11537 = createVehicle ["Land_Limestone_01_02_F",[1338.27,407.621,152.24],[],0,"CAN_COLLIDE"];
 	_this = _item11537;
 	_objects pushback _this;
@@ -7098,7 +6568,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11538 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11538 = createVehicle ["Land_Limestone_01_02_F",[1335.97,425.017,154.43],[],0,"CAN_COLLIDE"];
 	_this = _item11538;
 	_objects pushback _this;
@@ -7110,7 +6580,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11539 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11539 = createSimpleObject ["Land_Matches_F",[1309.39,261,91.5607]];
 	_this = _item11539;
 	_objects pushback _this;
@@ -7122,7 +6592,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11540 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11540 = createSimpleObject ["Land_CanisterFuel_White_F",[1310.97,259.749,91.5607]];
 	_this = _item11540;
 	_objects pushback _this;
@@ -7135,7 +6605,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11541 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11541 = createSimpleObject ["Land_CargoBox_V1_F",[1272.26,373.263,90.6961]];
 	_this = _item11541;
 	_objects pushback _this;
@@ -7148,7 +6618,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11542 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11542 = createSimpleObject ["Land_Cargo20_grey_F",[1250.91,387.512,93.2531]];
 	_this = _item11542;
 	_objects pushback _this;
@@ -7162,7 +6632,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11543 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11543 = createSimpleObject ["Land_Cargo10_cyan_F",[1237.35,362.692,90.6961]];
 	_this = _item11543;
 	_objects pushback _this;
@@ -7176,7 +6646,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11544 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11544 = createSimpleObject ["Land_Cargo10_sand_F",[1263.63,360.184,90.6961]];
 	_this = _item11544;
 	_objects pushback _this;
@@ -7190,7 +6660,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11545 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11545 = createSimpleObject ["Land_ChairWood_F",[1310.44,257.69,90.6961]];
 	_this = _item11545;
 	_objects pushback _this;
@@ -7202,7 +6672,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11546 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11546 = createSimpleObject ["Land_ChairWood_F",[1308.71,258.706,90.6961]];
 	_this = _item11546;
 	_objects pushback _this;
@@ -7214,7 +6684,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11547 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11547 = createSimpleObject ["Land_GasTank_01_khaki_F",[1311.29,259.313,90.6961]];
 	_this = _item11547;
 	_objects pushback _this;
@@ -7226,7 +6696,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11548 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11548 = createSimpleObject ["Land_Gloves_F",[1309.86,259.629,91.5607]];
 	_this = _item11548;
 	_objects pushback _this;
@@ -7238,7 +6708,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11549 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11549 = createSimpleObject ["Land_MetalWire_F",[1310.85,259.064,91.5607]];
 	_this = _item11549;
 	_objects pushback _this;
@@ -7250,7 +6720,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11550 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11550 = createSimpleObject ["Land_MetalWire_F",[1311.02,258.719,91.5607]];
 	_this = _item11550;
 	_objects pushback _this;
@@ -7262,7 +6732,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11551 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11551 = createSimpleObject ["Land_MetalWire_F",[1311.37,259.102,91.5607]];
 	_this = _item11551;
 	_objects pushback _this;
@@ -7274,7 +6744,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11552 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11552 = createSimpleObject ["Land_MultiMeter_F",[1309.43,260.424,91.5607]];
 	_this = _item11552;
 	_objects pushback _this;
@@ -7286,7 +6756,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11553 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11553 = createSimpleObject ["Land_PlasticBucket_01_closed_F",[1308.96,261.026,90.6962]];
 	_this = _item11553;
 	_objects pushback _this;
@@ -7298,7 +6768,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11554 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11554 = createSimpleObject ["Land_PortableWeatherStation_01_olive_F",[1305.66,262.078,90.6961]];
 	_this = _item11554;
 	_objects pushback _this;
@@ -7310,7 +6780,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11555 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11555 = createSimpleObject ["Land_Saw_F",[1310.99,259.369,91.5607]];
 	_this = _item11555;
 	_objects pushback _this;
@@ -7322,7 +6792,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11556 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11556 = createVehicle ["Land_cargo_house_slum_F",[1258.27,387.676,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11556;
 	_objects pushback _this;
@@ -7334,7 +6804,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11557 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11557 = createVehicle ["Land_cargo_house_slum_F",[1255.72,386.725,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11557;
 	_objects pushback _this;
@@ -7346,7 +6816,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11558 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11558 = createVehicle ["Land_cargo_house_slum_F",[1253.22,385.818,148.056],[],0,"CAN_COLLIDE"];
 	_this = _item11558;
 	_objects pushback _this;
@@ -7358,7 +6828,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11559 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11559 = createSimpleObject ["Land_Meter3m_F",[1308.8,255.92,91.6654]];
 	_this = _item11559;
 	_objects pushback _this;
@@ -7370,7 +6840,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11560 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11560 = createSimpleObject ["Land_ToolTrolley_02_F",[1308.72,255.802,90.6962]];
 	_this = _item11560;
 	_objects pushback _this;
@@ -7382,7 +6852,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11561 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11561 = createSimpleObject ["Land_WeldingTrolley_01_F",[1304.2,260.027,90.6961]];
 	_this = _item11561;
 	_objects pushback _this;
@@ -7394,7 +6864,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11562 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11562 = createSimpleObject ["Land_GasTank_02_F",[1304.21,261.903,90.6962]];
 	_this = _item11562;
 	_objects pushback _this;
@@ -7406,7 +6876,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11563 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11563 = createSimpleObject ["Land_GasTank_02_F",[1304.01,261.526,90.6962]];
 	_this = _item11563;
 	_objects pushback _this;
@@ -7418,7 +6888,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11564 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11564 = createSimpleObject ["Land_GasTank_02_F",[1304.45,261.505,90.6962]];
 	_this = _item11564;
 	_objects pushback _this;
@@ -7430,7 +6900,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11565 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11565 = createSimpleObject ["Land_WoodenTable_large_F",[1310.72,259.378,90.6961]];
 	_this = _item11565;
 	_objects pushback _this;
@@ -7442,7 +6912,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11566 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11566 = createSimpleObject ["Land_WoodenTable_large_F",[1309.15,260.913,90.6961]];
 	_this = _item11566;
 	_objects pushback _this;
@@ -7454,7 +6924,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11567 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11567 = createVehicle ["Land_Mine_01_heap_F",[1303.61,232.541,148.076],[],0,"CAN_COLLIDE"];
 	_this = _item11567;
 	_objects pushback _this;
@@ -7466,7 +6936,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11568 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11568 = createVehicle ["Land_SharpStone_02",[1396.86,253.353,155.068],[],0,"CAN_COLLIDE"];
 	_this = _item11568;
 	_objects pushback _this;
@@ -7478,7 +6948,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11569 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11569 = createVehicle ["Land_SharpStone_02",[1395.82,254.278,155.389],[],0,"CAN_COLLIDE"];
 	_this = _item11569;
 	_objects pushback _this;
@@ -7490,7 +6960,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11570 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11570 = createVehicle ["Land_SharpStone_02",[1397.54,256.142,156.065],[],0,"CAN_COLLIDE"];
 	_this = _item11570;
 	_objects pushback _this;
@@ -7502,7 +6972,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11571 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11571 = createVehicle ["Land_SharpStone_02",[1191.22,467.327,153.349],[],0,"CAN_COLLIDE"];
 	_this = _item11571;
 	_objects pushback _this;
@@ -7514,7 +6984,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11572 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11572 = createVehicle ["Land_Slum_House01_F",[1406.84,261.588,148.087],[],0,"CAN_COLLIDE"];
 	_this = _item11572;
 	_objects pushback _this;
@@ -7526,7 +6996,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11573 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11573 = createVehicle ["Land_Plank_01_4m_F",[1312.55,261.872,150.594],[],0,"CAN_COLLIDE"];
 	_this = _item11573;
 	_objects pushback _this;
@@ -7538,7 +7008,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11574 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11574 = createVehicle ["Land_Plank_01_4m_F",[1312.58,261.99,149.171],[],0,"CAN_COLLIDE"];
 	_this = _item11574;
 	_objects pushback _this;
@@ -7550,7 +7020,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11575 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11575 = createVehicle ["Land_Plank_01_4m_F",[1312.58,261.836,149.848],[],0,"CAN_COLLIDE"];
 	_this = _item11575;
 	_objects pushback _this;
@@ -7562,7 +7032,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11576 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11576 = createVehicle ["Land_Plank_01_4m_F",[1312.49,262.007,148.375],[],0,"CAN_COLLIDE"];
 	_this = _item11576;
 	_objects pushback _this;
@@ -7574,7 +7044,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11577 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11577 = createVehicle ["Land_SharpRock_wallH",[1431.53,244.267,155.283],[],0,"CAN_COLLIDE"];
 	_this = _item11577;
 	_objects pushback _this;
@@ -7586,7 +7056,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11578 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11578 = createVehicle ["Land_SharpRock_wallH",[1431.01,379.316,157.061],[],0,"CAN_COLLIDE"];
 	_this = _item11578;
 	_objects pushback _this;
@@ -7598,7 +7068,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11579 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11579 = createVehicle ["Land_SharpRock_wallH",[1293.11,249.801,136.123],[],0,"CAN_COLLIDE"];
 	_this = _item11579;
 	_objects pushback _this;
@@ -7610,7 +7080,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11580 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11580 = createVehicle ["Land_SharpRock_wallH",[1303.98,249.799,154.037],[],0,"CAN_COLLIDE"];
 	_this = _item11580;
 	_objects pushback _this;
@@ -7622,7 +7092,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11581 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11581 = createVehicle ["Land_SharpRock_wallH",[1331.49,418.001,161.172],[],0,"CAN_COLLIDE"];
 	_this = _item11581;
 	_objects pushback _this;
@@ -7634,7 +7104,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11582 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11582 = createVehicle ["Land_SharpRock_wallH",[1288.34,415.508,158.434],[],0,"CAN_COLLIDE"];
 	_this = _item11582;
 	_objects pushback _this;
@@ -7646,7 +7116,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11583 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11583 = createVehicle ["Land_SharpRock_wallH",[1199.14,467.043,148.067],[],0,"CAN_COLLIDE"];
 	_this = _item11583;
 	_objects pushback _this;
@@ -7658,7 +7128,7 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 };
 
 private _item11584 = objNull;
-if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
+if (_layer10971 && _layer11585) then {
 	_item11584 = createVehicle ["Land_SharpRock_wallH",[1183.14,343.818,148.067],[],0,"CAN_COLLIDE"];
 	_this = _item11584;
 	_objects pushback _this;
@@ -7669,154 +7139,4334 @@ if (_layer10971 && _layer10958 && _layer10957 && _layer11585) then {
 	_this allowdamage false;;
 };
 
-private _item11591 = objNull;
-if (_layer11589 && _layer11588 && _layer11593) then {
-	_item11591 = _item11590 createUnit ["jsoc_VSM_Multicam_Crye_Uniform",[6044.92,1452.74,-15.3667],[],0,"CAN_COLLIDE"];
-	_item11590 selectLeader _item11591;
-	_this = _item11591;
+private _item12348 = objNull;
+if (_layer10971 && _layer11585) then {
+	_item12348 = createVehicle ["Land_SharpRock_wallH",[1343.05,422.049,156.73],[],0,"CAN_COLLIDE"];
+	_this = _item12348;
 	_objects pushback _this;
-	_objectIDs pushback 11591;
-	_this setPosWorld [6044.92,1452.79,2.88477];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setUnitLoadout [["uk3cb_auga3_gl_blk","Tier1_SandmanS_Black","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552",["rhs_mag_30Rnd_556x45_M855A1_PMAG",30],["rhs_mag_M441_HE",1],""],[],["hlc_pistol_P226R_357Combat","Tier1_Octane9","hlc_acc_DBALPL","HLC_optic_VTAC",["hlc_12Rnd_357SIG_B_P226",12],[],""],["VSM_Multicam_Camo",[["ItemcTabHCam",1],["ACE_fieldDressing",20],["ACE_IR_Strobe_Item",1],["ACE_Flashlight_XL50",1],["ACE_tourniquet",4],["ACE_EarPlugs",2],["ACE_morphine",5],["ACE_epinephrine",5],["ACRE_PRC343",1]]],["tfa_v_mmac_teamleader_belt_mc",[["ACE_salineIV_500",2],["ACE_CableTie",4],["ACE_MapTools",1],["ItemcTab",1],["ACE_SpraypaintBlue",1],["hlc_12Rnd_357SIG_B_P226",2,12],["rhs_mag_30Rnd_556x45_M855A1_PMAG",8,30],["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",2,30]]],["VSM_Multicam_Backpack_Kitbag",[["ACE_HuntIR_monitor",1],["ACRE_PRC117F",1],["ACRE_PRC152",1],["rhs_mag_M441_HE",5,1],["rhs_mag_m713_Red",2,1],["rhs_mag_m714_White",2,1],["ACE_HuntIR_M203",5,1],["rhs_mag_m67",2,1],["SmokeShellBlue",1,1],["SmokeShellRed",1,1],["Chemlight_blue",2,1],["SmokeShell",2,1],["ACE_M14",2,1]]],"VSM_OPS_multicam","T_HoodTanBlk",["Laserdesignator","","","",[],[],""],["ItemMap","B_UavTerminal","","ItemCompass","ACE_Altimeter","A3_GPNVG18_REC_F"]];
-	_this setname "Michael MacDonald";;
-	_this setface "WhiteHead_19";;
-	_this setpitch 1.03;;
-	z1 = _this;
-	_this setVehicleVarName "z1";
-	selectPlayer _this;
-	addSwitchableUnit _this;
+	_objectIDs pushback 12348;
+	_this setPosWorld [1343.05,422.049,109.236];
+	_this setVectorDirAndUp [[0,0.997151,0.075431],[-0.0798684,-0.07519,0.993966]];
+	_this enableSimulation false;
 	_this allowdamage false;;
-	_this enablestamina false;;
+};
+
+private _item11619 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item11619 = createVehicle ["Land_Podesta_10",[1435.89,463.735,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item11619;
+	_objects pushback _this;
+	_objectIDs pushback 11619;
+	_this setPosWorld [1435.89,463.735,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item11621 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item11621 = createVehicle ["Land_Podesta_10",[1435.89,406.844,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item11621;
+	_objects pushback _this;
+	_objectIDs pushback 11621;
+	_this setPosWorld [1435.89,406.844,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item11622 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item11622 = createVehicle ["Land_Podesta_10",[1375.89,463.423,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item11622;
+	_objects pushback _this;
+	_objectIDs pushback 11622;
+	_this setPosWorld [1375.89,463.423,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item11624 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item11624 = createVehicle ["Land_Podesta_10",[1315.89,463.915,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item11624;
+	_objects pushback _this;
+	_objectIDs pushback 11624;
+	_this setPosWorld [1315.89,463.915,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item11625 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item11625 = createVehicle ["Land_Podesta_10",[1255.89,464.107,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item11625;
+	_objects pushback _this;
+	_objectIDs pushback 11625;
+	_this setPosWorld [1255.89,464.107,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12256 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12256 = createVehicle ["Land_Podesta_10",[1195.89,464.861,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12256;
+	_objects pushback _this;
+	_objectIDs pushback 12256;
+	_this setPosWorld [1195.89,464.861,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12257 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12257 = createVehicle ["Land_Podesta_10",[1135.89,464.985,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12257;
+	_objects pushback _this;
+	_objectIDs pushback 12257;
+	_this setPosWorld [1135.89,464.985,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12258 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12258 = createVehicle ["Land_Podesta_10",[1435.89,347.491,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12258;
+	_objects pushback _this;
+	_objectIDs pushback 12258;
+	_this setPosWorld [1435.89,347.491,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12259 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12259 = createVehicle ["Land_Podesta_10",[1435.89,291.534,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12259;
+	_objects pushback _this;
+	_objectIDs pushback 12259;
+	_this setPosWorld [1435.89,291.534,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12260 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12260 = createVehicle ["Land_Podesta_10",[1435.89,233.411,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12260;
+	_objects pushback _this;
+	_objectIDs pushback 12260;
+	_this setPosWorld [1435.89,233.411,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12261 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12261 = createVehicle ["Land_Podesta_10",[1375.89,406.789,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12261;
+	_objects pushback _this;
+	_objectIDs pushback 12261;
+	_this setPosWorld [1375.89,406.789,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12278 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12278 = createVehicle ["Land_Podesta_10",[1375.89,347.904,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12278;
+	_objects pushback _this;
+	_objectIDs pushback 12278;
+	_this setPosWorld [1375.89,347.904,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12279 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12279 = createVehicle ["Land_Podesta_10",[1375.89,291.843,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12279;
+	_objects pushback _this;
+	_objectIDs pushback 12279;
+	_this setPosWorld [1375.89,291.843,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12280 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12280 = createVehicle ["Land_Podesta_10",[1375.89,233.668,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12280;
+	_objects pushback _this;
+	_objectIDs pushback 12280;
+	_this setPosWorld [1375.89,233.668,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12281 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12281 = createVehicle ["Land_Podesta_10",[1315.89,407.283,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12281;
+	_objects pushback _this;
+	_objectIDs pushback 12281;
+	_this setPosWorld [1315.89,407.283,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12282 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12282 = createVehicle ["Land_Podesta_10",[1315.89,349.333,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12282;
+	_objects pushback _this;
+	_objectIDs pushback 12282;
+	_this setPosWorld [1315.89,349.333,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12283 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12283 = createVehicle ["Land_Podesta_10",[1315.89,292.949,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12283;
+	_objects pushback _this;
+	_objectIDs pushback 12283;
+	_this setPosWorld [1315.89,292.949,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12284 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12284 = createVehicle ["Land_Podesta_10",[1315.89,234.723,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12284;
+	_objects pushback _this;
+	_objectIDs pushback 12284;
+	_this setPosWorld [1315.89,234.723,89.9874];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12285 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12285 = createVehicle ["Land_Podesta_10",[1255.89,407.79,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12285;
+	_objects pushback _this;
+	_objectIDs pushback 12285;
+	_this setPosWorld [1255.89,407.79,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12286 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12286 = createVehicle ["Land_Podesta_10",[1255.89,349.958,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12286;
+	_objects pushback _this;
+	_objectIDs pushback 12286;
+	_this setPosWorld [1255.89,349.958,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12287 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12287 = createVehicle ["Land_Podesta_10",[1255.89,293.485,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12287;
+	_objects pushback _this;
+	_objectIDs pushback 12287;
+	_this setPosWorld [1255.89,293.485,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12288 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12288 = createVehicle ["Land_Podesta_10",[1255.89,235.214,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12288;
+	_objects pushback _this;
+	_objectIDs pushback 12288;
+	_this setPosWorld [1255.89,235.214,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12289 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12289 = createVehicle ["Land_Podesta_10",[1195.89,408.434,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12289;
+	_objects pushback _this;
+	_objectIDs pushback 12289;
+	_this setPosWorld [1195.89,408.434,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12290 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12290 = createVehicle ["Land_Podesta_10",[1195.96,348.664,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12290;
+	_objects pushback _this;
+	_objectIDs pushback 12290;
+	_this setPosWorld [1195.96,348.664,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12291 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12291 = createVehicle ["Land_Podesta_10",[1195.89,294.333,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12291;
+	_objects pushback _this;
+	_objectIDs pushback 12291;
+	_this setPosWorld [1195.89,294.333,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12292 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12292 = createVehicle ["Land_Podesta_10",[1195.89,235.587,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12292;
+	_objects pushback _this;
+	_objectIDs pushback 12292;
+	_this setPosWorld [1195.89,235.587,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12293 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12293 = createVehicle ["Land_Podesta_10",[1135.99,351.5,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12293;
+	_objects pushback _this;
+	_objectIDs pushback 12293;
+	_this setPosWorld [1135.99,351.5,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12294 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12294 = createVehicle ["Land_Podesta_10",[1135.89,408.452,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12294;
+	_objects pushback _this;
+	_objectIDs pushback 12294;
+	_this setPosWorld [1135.89,408.452,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12295 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12295 = createVehicle ["Land_Podesta_10",[1137,294.372,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12295;
+	_objects pushback _this;
+	_objectIDs pushback 12295;
+	_this setPosWorld [1137,294.372,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item12296 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item12296 = createVehicle ["Land_Podesta_10",[1137.01,235.829,147.448],[],0,"CAN_COLLIDE"];
+	_this = _item12296;
+	_objects pushback _this;
+	_objectIDs pushback 12296;
+	_this setPosWorld [1137.01,235.829,90.0074];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this allowdamage false;;
+};
+
+private _item10961 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10961 = createVehicle ["Land_InvisibleBarrier_F",[5996.53,8436.54,1.17478],[],0,"CAN_COLLIDE"];
+	_this = _item10961;
+	_objects pushback _this;
+	_objectIDs pushback 10961;
+	_this setPosWorld [5996.53,8436.54,75.0676];
+	_this setVectorDirAndUp [[-0.017126,0.999853,0],[0,0,1]];
+	UG_Entrance_A = _this;
+	_this setVehicleVarName "UG_Entrance_A";
+	_this setVehicleAmmo 0.881227;
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10962 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10962 = createVehicle ["Land_HelipadEmpty_F",[5996.12,8439.26,0.46489],[],0,"CAN_COLLIDE"];
+	_this = _item10962;
+	_objects pushback _this;
+	_objectIDs pushback 10962;
+	_this setPosWorld [5996.12,8439.26,74.0364];
+	_this setVectorDirAndUp [[0.945163,0.326599,0],[0,0,1]];
+	UG_Entrance_A_Pos = _this;
+	_this setVehicleVarName "UG_Entrance_A_Pos";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10963 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10963 = createVehicle ["Land_Factory_Tunnel_F",[1406.36,366.099,148.076],[],0,"CAN_COLLIDE"];
+	_this = _item10963;
+	_objects pushback _this;
+	_objectIDs pushback 10963;
+	_this setPosWorld [1406.36,366.099,93.0254];
+	_this setVectorDirAndUp [[0.927886,0.372864,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10964 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10964 = createVehicle ["Land_Factory_Tunnel_F",[1352.31,329.083,154.527],[],0,"CAN_COLLIDE"];
+	_this = _item10964;
+	_objects pushback _this;
+	_objectIDs pushback 10964;
+	_this setPosWorld [1352.31,329.083,99.4765];
+	_this setVectorDirAndUp [[-0.428943,0.903332,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10965 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10965 = createVehicle ["Land_InvisibleBarrier_F",[3312.23,7970.42,0.982544],[],0,"CAN_COLLIDE"];
+	_this = _item10965;
+	_objects pushback _this;
+	_objectIDs pushback 10965;
+	_this setPosWorld [3312.23,7970.42,257.689];
+	_this setVectorDirAndUp [[-0.0584401,0.998291,0],[0,0,1]];
+	UG_Entrance_B = _this;
+	_this setVehicleVarName "UG_Entrance_B";
+	_this setVehicleAmmo 0.881227;
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10966 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10966 = createVehicle ["Land_InvisibleBarrier_F",[1398.31,362.801,149.178],[],0,"CAN_COLLIDE"];
+	_this = _item10966;
+	_objects pushback _this;
+	_objectIDs pushback 10966;
+	_this setPosWorld [1398.31,362.801,91.7978];
+	_this setVectorDirAndUp [[-0.922939,-0.384947,0],[0,0,1]];
+	UG_Exit_A = _this;
+	_this setVehicleVarName "UG_Exit_A";
+	_this setVehicleAmmo 0.881227;
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10967 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10967 = createVehicle ["Land_InvisibleBarrier_F",[1355.64,321.829,155.808],[],0,"CAN_COLLIDE"];
+	_this = _item10967;
+	_objects pushback _this;
+	_objectIDs pushback 10967;
+	_this setPosWorld [1355.64,321.829,98.4275];
+	_this setVectorDirAndUp [[0.421298,-0.906922,0],[0,0,1]];
+	UG_Exit_B = _this;
+	_this setVehicleVarName "UG_Exit_B";
+	_this setVehicleAmmo 0.881227;
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10968 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10968 = createVehicle ["Land_HelipadEmpty_F",[3312.14,7974.02,0.358612],[],0,"CAN_COLLIDE"];
+	_this = _item10968;
+	_objects pushback _this;
+	_objectIDs pushback 10968;
+	_this setPosWorld [3312.14,7974.02,257.036];
+	_this setVectorDirAndUp [[0.945166,0.326591,0],[0,0,1]];
+	UG_Entrance_B_Pos = _this;
+	_this setVehicleVarName "UG_Entrance_B_Pos";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10969 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10969 = createVehicle ["Land_HelipadEmpty_F",[1394.9,361.59,148.454],[],0,"CAN_COLLIDE"];
+	_this = _item10969;
+	_objects pushback _this;
+	_objectIDs pushback 10969;
+	_this setPosWorld [1394.9,361.59,91.0743];
+	_this setVectorDirAndUp [[0.945163,0.326599,0],[0,0,1]];
+	UG_Exit_A_Pos = _this;
+	_this setVehicleVarName "UG_Exit_A_Pos";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item10970 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item10970 = createVehicle ["Land_HelipadEmpty_F",[1356.66,320.675,155.017],[],0,"CAN_COLLIDE"];
+	_this = _item10970;
+	_objects pushback _this;
+	_objectIDs pushback 10970;
+	_this setPosWorld [1356.66,320.675,97.6366];
+	_this setVectorDirAndUp [[-0.363878,0.931446,0],[0,0,1]];
+	UG_Exit_B_Pos = _this;
+	_this setVehicleVarName "UG_Exit_B_Pos";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12302 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item12302 = createVehicle ["Land_Factory_Tunnel_F",[5996.48,8427.88,-2.81022],[],0,"CAN_COLLIDE"];
+	_this = _item12302;
+	_objects pushback _this;
+	_objectIDs pushback 12302;
+	_this setPosWorld [5996.48,8427.88,76.2521];
+	_this setVectorDirAndUp [[0.0351368,-0.999382,0],[0,0,1]];
+};
+
+private _item12303 = objNull;
+if (_layer10960 && _layer11585) then {
+	_item12303 = createVehicle ["Land_Factory_Tunnel_F",[3312.72,7962.55,-0.570496],[],0,"CAN_COLLIDE"];
+	_this = _item12303;
+	_objects pushback _this;
+	_objectIDs pushback 12303;
+	_this setPosWorld [3312.72,7962.55,258.917];
+	_this setVectorDirAndUp [[0.0589581,-0.99826,0],[0,0,1]];
+};
+
+private _item12665 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12665 = createVehicle ["Land_Dome_Small_WIP2_F",[1234.95,429.992,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12665;
+	_objects pushback _this;
+	_objectIDs pushback 12665;
+	_this setPosWorld [1234.95,429.992,96.9371];
+	_this setVectorDirAndUp [[0.528771,-0.848765,0],[0,0,1]];
+};
+
+private _item12522 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12522 = createVehicle ["land_ibr_floor2",[1355.14,315.531,152.482],[],0,"CAN_COLLIDE"];
+	_this = _item12522;
+	_objects pushback _this;
+	_objectIDs pushback 12522;
+	_this setPosWorld [1355.14,315.531,95.895];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+};
+
+private _item12528 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12528 = createVehicle ["land_ibr_floor2",[1357.2,315.177,149.132],[],0,"CAN_COLLIDE"];
+	_this = _item12528;
+	_objects pushback _this;
+	_objectIDs pushback 12528;
+	_this setPosWorld [1357.2,315.177,92.5447];
+	_this setVectorDirAndUp [[0,1,0],[0.999755,0,0.0221444]];
+};
+
+private _item12532 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12532 = createVehicle ["land_ibr_floor2",[1360.28,315.157,147.869],[],0,"CAN_COLLIDE"];
+	_this = _item12532;
+	_objects pushback _this;
+	_objectIDs pushback 12532;
+	_this setPosWorld [1360.28,315.157,91.2819];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+};
+
+private _item12529 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12529 = createVehicle ["Land_GH_Stairs_F",[1358.86,315.837,150.375],[],0,"CAN_COLLIDE"];
+	_this = _item12529;
+	_objects pushback _this;
+	_objectIDs pushback 12529;
+	_this setPosWorld [1358.86,315.837,94.4971];
+	_this setVectorDirAndUp [[0.357946,-0.933742,0],[0,0,1]];
+};
+
+private _item12533 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12533 = createVehicle ["Land_GH_Stairs_F",[1360.05,312.721,147.651],[],0,"CAN_COLLIDE"];
+	_this = _item12533;
+	_objects pushback _this;
+	_objectIDs pushback 12533;
+	_this setPosWorld [1360.05,312.721,91.7735];
+	_this setVectorDirAndUp [[0.357946,-0.933742,0],[0,0,1]];
+};
+
+private _item12667 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12667 = createVehicle ["Land_VR_Target_MBT_01_cannon_F",[1232.62,430.468,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12667;
+	_objects pushback _this;
+	_objectIDs pushback 12667;
+	_this setPosWorld [1232.62,430.468,92.9177];
+	_this setVectorDirAndUp [[-0.930425,-0.366482,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12671 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12671 = createVehicle ["VR_Crew_passanger_13",[1244.69,427.518,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12671;
+	_objects pushback _this;
+	_objectIDs pushback 12671;
+	_this setPosWorld [1244.69,427.518,91.6463];
+	_this setVectorDirAndUp [[0.921138,0.389236,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12672 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12672 = createVehicle ["VR_Crew_passanger_13",[1244.17,428.737,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12672;
+	_objects pushback _this;
+	_objectIDs pushback 12672;
+	_this setPosWorld [1244.17,428.737,91.6463];
+	_this setVectorDirAndUp [[0.921138,0.389236,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12673 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12673 = createVehicle ["VR_Crew_passanger_13",[1243.33,429.737,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12673;
+	_objects pushback _this;
+	_objectIDs pushback 12673;
+	_this setPosWorld [1243.33,429.737,91.6463];
+	_this setVectorDirAndUp [[0.921138,0.389236,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12675 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12675 = createVehicle ["VR_Crew_driver_15",[1235.26,422.698,149.805],[],0,"CAN_COLLIDE"];
+	_this = _item12675;
+	_objects pushback _this;
+	_objectIDs pushback 12675;
+	_this setPosWorld [1235.26,422.698,92.7094];
+	_this setVectorDirAndUp [[-0.605927,-0.79552,0],[0,0,1]];
+};
+
+private _item12679 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12679 = createVehicle ["DeconShower_02_F",[1243.37,416.418,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12679;
+	_objects pushback _this;
+	_objectIDs pushback 12679;
+	_this setPosWorld [1243.37,416.418,94.197];
+	_this setVectorDirAndUp [[0.49932,-0.866418,0],[0,0,1]];
+	_this allowdamage false;;
+	if(false isEqualTo true)then{[_this,5.4,4,2,true] spawn bin_fnc_deconShowerAnimLarge;}else{[_this] spawn bin_fnc_deconShowerAnimStop};;
+	if(false isEqualTo true)then{_this setVariable ['bin_deconshower_disableAction',true]}else{_this setVariable ['bin_deconshower_disableAction',false]};;
+};
+
+private _item12716 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12716 = createVehicle ["DeconShower_02_F",[1240.83,420.324,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12716;
+	_objects pushback _this;
+	_objectIDs pushback 12716;
+	_this setPosWorld [1240.83,420.324,94.1968];
+	_this setVectorDirAndUp [[0.49932,-0.866418,0],[0,0,1]];
+	_this allowdamage false;;
+	if(false isEqualTo true)then{[_this,5.4,4,2,true] spawn bin_fnc_deconShowerAnimLarge;}else{[_this] spawn bin_fnc_deconShowerAnimStop};;
+	if(false isEqualTo true)then{_this setVariable ['bin_deconshower_disableAction',true]}else{_this setVariable ['bin_deconshower_disableAction',false]};;
+};
+
+private _item12676 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12676 = createVehicle ["GalleryDioramaUnit_01_Vrana_F",[1235.07,422.821,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12676;
+	_objects pushback _this;
+	_objectIDs pushback 12676;
+	_this setPosWorld [1235.07,422.821,91.3389];
+	_this setVectorDirAndUp [[0.578592,-0.815617,0],[0,0,1]];
+	_this animateSource ['Rotation',1e6-1,0];
+	_this setObjectTextureGlobal [0,"a3\props_f_aow\civilian\gallery\data\screen_co.paa"];
+	_this setObjectMaterialGlobal [0,"a3\props_f_aow\civilian\gallery\data\screen.rvmat"];
+	_this setObjectTextureGlobal [1,"#(argb,8,8,3)color(0.4665,0.5215,0.8905,1.0,co)"];
+	_this setObjectMaterialGlobal [1,"a3\props_f_aow\civilian\gallery\data\diorama_base_unit_light_purple.rvmat"];
+};
+
+private _item12677 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12677 = createVehicle ["radar_panel_flat",[1232.17,424.123,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12677;
+	_objects pushback _this;
+	_objectIDs pushback 12677;
+	_this setPosWorld [1232.15,424.335,90.7118];
+	_this setVectorDirAndUp [[-0.695982,-0.718059,0],[0,0,1]];
+};
+
+private _item12678 = objNull;
+if (_layer12669 && _layer11585) then {
+	_item12678 = createVehicle ["radar_rack",[1231.56,425.249,148.072],[],0,"CAN_COLLIDE"];
+	_this = _item12678;
+	_objects pushback _this;
+	_objectIDs pushback 12678;
+	_this setPosWorld [1231.57,425.249,90.7118];
+	_this setVectorDirAndUp [[-0.669079,-0.743191,0],[0,0,1]];
+};
+
+private _item12631 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12631 = createVehicle ["Land_Router_01_olive_F",[1303.13,395.042,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12631;
+	_objects pushback _this;
+	_objectIDs pushback 12631;
+	_this setPosWorld [1303.13,395.042,91.9195];
+	_this setVectorDirAndUp [[0.7665,-0.642244,0],[0,0,1]];
+	Router1 = _this;
+	_this setVehicleVarName "Router1";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12632 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12632 = createVehicle ["Land_PortableCabinet_01_4drawers_olive_F",[1301.32,393.39,149.193],[],0,"CAN_COLLIDE"];
+	_this = _item12632;
+	_objects pushback _this;
+	_objectIDs pushback 12632;
+	_this setPosWorld [1301.32,393.39,92.2307];
+	_this setVectorDirAndUp [[0.691849,-0.722043,0],[0,0,1]];
+	Cabinet1 = _this;
+	_this setVehicleVarName "Cabinet1";
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this animate ['Drawer_1_move_source',0,true];
+	_this animate ['Drawer_2_move_source',0,true];
+	_this animate ['Drawer_3_move_source',0,true];
+	_this animate ['Drawer_4_move_source',0,true];
+	_this animate ['Drawer_1_hide_source',0,true];
+	_this animate ['Drawer_2_hide_source',0,true];
+	_this animate ['Drawer_3_hide_source',0,true];
+	_this animate ['Drawer_4_hide_source',0,true];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_drawers.sqf'};
+};
+
+private _item12633 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12633 = createVehicle ["Land_PortableCabinet_01_7drawers_olive_F",[1300.91,393.002,149.193],[],0,"CAN_COLLIDE"];
+	_this = _item12633;
+	_objects pushback _this;
+	_objectIDs pushback 12633;
+	_this setPosWorld [1300.91,393.002,92.2307];
+	_this setVectorDirAndUp [[0.706658,-0.707556,0],[0,0,1]];
+	Cabinet2 = _this;
+	_this setVehicleVarName "Cabinet2";
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this animate ['Drawer_2_move_source',0,true];
+	_this animate ['Drawer_3_move_source',0,true];
+	_this animate ['Drawer_4_move_source',0,true];
+	_this animate ['Drawer_5_move_source',0,true];
+	_this animate ['Drawer_6_move_source',0,true];
+	_this animate ['Drawer_2_hide_source',0,true];
+	_this animate ['Drawer_3_hide_source',0,true];
+	_this animate ['Drawer_4_hide_source',0,true];
+	_this animate ['Drawer_5_hide_source',0,true];
+	_this animate ['Drawer_6_hide_source',0,true];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_drawers.sqf'};
+};
+
+private _item12634 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12634 = createVehicle ["Land_PortableCabinet_01_bookcase_olive_F",[1300.41,392.648,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12634;
+	_objects pushback _this;
+	_objectIDs pushback 12634;
+	_this setPosWorld [1300.41,392.648,92.2217];
+	_this setVectorDirAndUp [[0.189637,-0.981854,0],[0,0,1]];
+	Cabinet3 = _this;
+	_this setVehicleVarName "Cabinet3";
+	[_this,"[[[[],[]],[[],[]],[[],[]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this setObjectTextureGlobal [1,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [2,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [3,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [4,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [5,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [6,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [7,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [8,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	_this setObjectTextureGlobal [9,"a3\props_f_enoch\military\camps\data\portablecabinet_01_books_co.paa"];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_books.sqf'};
+};
+
+private _item12635 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12635 = createVehicle ["cnr_base_obj",[1303.44,395.276,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12635;
+	_objects pushback _this;
+	_objectIDs pushback 12635;
+	_this setPosWorld [1303.44,395.276,92.1107];
+	_this setVectorDirAndUp [[-0.999651,0.0264213,0],[0,0,1]];
+	Radio1 = _this;
+	_this setVehicleVarName "Radio1";
+	_this enableSimulation false;
+};
+
+private _item12636 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12636 = createVehicle ["Land_PCSet_01_keyboard_F",[1302.81,395.756,149.188],[],0,"CAN_COLLIDE"];
+	_this = _item12636;
+	_objects pushback _this;
+	_objectIDs pushback 12636;
+	_this setPosWorld [1302.81,395.756,91.8157];
+	_this setVectorDirAndUp [[0.80179,0.597606,0],[0,0,1]];
+	Key1 = _this;
+	_this setVehicleVarName "Key1";
+	_this enableSimulation false;
+};
+
+private _item12637 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12637 = createVehicle ["Land_PCSet_01_mousepad_F",[1303.06,395.395,149.193],[],0,"CAN_COLLIDE"];
+	_this = _item12637;
+	_objects pushback _this;
+	_objectIDs pushback 12637;
+	_this setPosWorld [1303.06,395.395,91.8164];
+	_this setVectorDirAndUp [[-0.632119,0.774872,0],[0,0,1]];
+	Pad1 = _this;
+	_this setVehicleVarName "Pad1";
+	_this enableSimulation false;
+};
+
+private _item12638 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12638 = createVehicle ["Land_PCSet_01_mouse_F",[1303.03,395.393,149.203],[],0,"CAN_COLLIDE"];
+	_this = _item12638;
+	_objects pushback _this;
+	_objectIDs pushback 12638;
+	_this setPosWorld [1303.03,395.393,91.848];
+	_this setVectorDirAndUp [[0.613505,0.789691,0],[0,0,1]];
+	Mouse1 = _this;
+	_this setVehicleVarName "Mouse1";
+	_this enableSimulation false;
+};
+
+private _item12639 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12639 = createVehicle ["Land_IPPhone_01_olive_F",[1301.49,393.882,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12639;
+	_objects pushback _this;
+	_objectIDs pushback 12639;
+	_this setPosWorld [1301.49,393.882,91.8402];
+	_this setVectorDirAndUp [[0.692592,-0.72133,0],[0,0,1]];
+	Phone1 = _this;
+	_this setVehicleVarName "Phone1";
+	_this enableSimulation false;
+	_this setObjectTextureGlobal [1,""];
+	if (false) then {_this setVariable ['expEden_IPPhoneCall_enable', true, isServer]};
+};
+
+private _item12640 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12640 = createVehicle ["Land_Router_01_olive_F",[1302.35,394.31,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12640;
+	_objects pushback _this;
+	_objectIDs pushback 12640;
+	_this setPosWorld [1302.35,394.31,91.9195];
+	_this setVectorDirAndUp [[0.7665,-0.642244,0],[0,0,1]];
+	Router2 = _this;
+	_this setVehicleVarName "Router2";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12641 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12641 = createVehicle ["Land_MobilePhone_smart_F",[1300.44,393.032,149.196],[],0,"CAN_COLLIDE"];
+	_this = _item12641;
+	_objects pushback _this;
+	_objectIDs pushback 12641;
+	_this setPosWorld [1300.44,393.032,91.8202];
+	_this setVectorDirAndUp [[-0.784967,0.619538,0],[0,0,1]];
+	Phone2 = _this;
+	_this setVehicleVarName "Phone2";
+	_this enableSimulation false;
+	_this setObjectTextureGlobal [0,"a3\structures_f\items\electronics\data\electronics_screens_mobilephone_smart_co.paa"];
+};
+
+private _item12642 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12642 = createVehicle ["Land_CampingChair_V1_F",[1301.56,395.293,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12642;
+	_objects pushback _this;
+	_objectIDs pushback 12642;
+	_this setPosWorld [1301.56,395.293,91.4247];
+	_this setVectorDirAndUp [[-0.892546,0.450955,0],[0,0,1]];
+	Chair1 = _this;
+	_this setVehicleVarName "Chair1";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12643 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12643 = createVehicle ["Land_CampingChair_V1_F",[1300.96,394.207,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12643;
+	_objects pushback _this;
+	_objectIDs pushback 12643;
+	_this setPosWorld [1300.96,394.207,91.4244];
+	_this setVectorDirAndUp [[-0.771998,0.635625,0],[0,0,1]];
+	Chair2 = _this;
+	_this setVehicleVarName "Chair2";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12644 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12644 = createVehicle ["Land_Laptop_03_olive_F",[1302.15,396.552,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12644;
+	_objects pushback _this;
+	_objectIDs pushback 12644;
+	_this setPosWorld [1302.15,396.552,91.9712];
+	_this setVectorDirAndUp [[0.344108,0.93893,0],[0,0,1]];
+	Sat1 = _this;
+	_this setVehicleVarName "Sat1";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	_this setObjectTextureGlobal [1,""];
+};
+
+private _item12645 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12645 = createVehicle ["Land_TripodScreen_01_large_F",[1303.63,396.677,148.356],[],0,"CAN_COLLIDE"];
+	_this = _item12645;
+	_objects pushback _this;
+	_objectIDs pushback 12645;
+	_this setPosWorld [1303.31,396.403,91.9299];
+	_this setVectorDirAndUp [[-0.73707,-0.675817,0],[0,0,1]];
+	Screen1 = _this;
+	_this setVehicleVarName "Screen1";
+	_this allowdamage false;;
+	_this setObjectTextureGlobal [0,""];
+};
+
+private _item12646 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12646 = createVehicle ["Land_MultiScreenComputer_01_olive_F",[1302.76,394.746,149.193],[],0,"CAN_COLLIDE"];
+	_this = _item12646;
+	_objects pushback _this;
+	_objectIDs pushback 12646;
+	_this setPosWorld [1302.76,394.746,92.0629];
+	_this setVectorDirAndUp [[0.70002,-0.714123,0],[0,0,1]];
+	Monitor1 = _this;
+	_this setVehicleVarName "Monitor1";
+	_this allowdamage false;;
+	_this setObjectTextureGlobal [1,"#(argb,512,512,1)r2t(piprendertg1,1)"];
+	_this setObjectTextureGlobal [2,"#(argb,512,512,1)r2t(piprendertg2,1)"];
+	_this setObjectTextureGlobal [3,"#(argb,512,512,1)r2t(piprendertg3,1)"];
+};
+
+private _item12647 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12647 = createVehicle ["Land_MultiScreenComputer_01_olive_F",[1301.98,393.97,149.184],[],0,"CAN_COLLIDE"];
+	_this = _item12647;
+	_objects pushback _this;
+	_objectIDs pushback 12647;
+	_this setPosWorld [1301.98,393.97,92.0539];
+	_this setVectorDirAndUp [[0.58389,-0.811833,0],[0,0,1]];
+	Monitor2 = _this;
+	_this setVehicleVarName "Monitor2";
+	_this allowdamage false;;
+	_this setObjectTextureGlobal [1,"#(argb,512,512,1)r2t(piprendertg4,1)"];
+	_this setObjectTextureGlobal [2,"#(argb,512,512,1)r2t(piprendertg5,1)"];
+	_this setObjectTextureGlobal [3,"#(argb,512,512,1)r2t(piprendertg6,1)"];
+};
+
+private _item12648 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12648 = createVehicle ["Land_PortableDesk_01_olive_F",[1302.9,395.925,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12648;
+	_objects pushback _this;
+	_objectIDs pushback 12648;
+	_this setPosWorld [1302.9,395.925,91.3607];
+	_this setVectorDirAndUp [[0.721779,0.692124,0],[0,0,1]];
+	Desk1 = _this;
+	_this setVehicleVarName "Desk1";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_4_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_5_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_6_move_source',0,true]};
+	_this animate ['Lid_1_hide_source',1,true];
+	_this animate ['Lid_2_hide_source',1,true];
+	_this animate ['Wing_L_hide_source',0,true];
+	_this animate ['Wing_R_hide_source',1,true];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_desks.sqf'};
+};
+
+private _item12649 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12649 = createVehicle ["Land_PortableDesk_01_olive_F",[1302.78,394.862,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12649;
+	_objects pushback _this;
+	_objectIDs pushback 12649;
+	_this setPosWorld [1302.78,394.862,91.3607];
+	_this setVectorDirAndUp [[-0.67601,0.736892,0],[0,0,1]];
+	Desk2 = _this;
+	_this setVehicleVarName "Desk2";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_4_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_5_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_6_move_source',0,true]};
+	_this animate ['Lid_1_hide_source',1,true];
+	_this animate ['Lid_2_hide_source',1,true];
+	_this animate ['Wing_L_hide_source',0,true];
+	_this animate ['Wing_R_hide_source',0,true];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_desks.sqf'};
+};
+
+private _item12650 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12650 = createVehicle ["Land_PortableDesk_01_olive_F",[1300.94,393.241,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12650;
+	_objects pushback _this;
+	_objectIDs pushback 12650;
+	_this setPosWorld [1300.94,393.241,91.3607];
+	_this setVectorDirAndUp [[-0.67601,0.736892,0],[0,0,1]];
+	Desk3 = _this;
+	_this setVehicleVarName "Desk3";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	[_this,"[[[[""GEN_ROLANDSPECIAL""],[2]],[[""rhsusf_mag_17Rnd_9x19_JHP""],[5]],[[""TFA_Laserdesignator_TI"",""UMI_Land_Tablet_Rugged_F"",""UMI_Land_Portable_HDD_F"",""USP_GPNVG18""],[2,1,2,4]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_1_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_2_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_3_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_4_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_5_move_source',0,true]};
+	if(_this animationSourcePhase 'Lid_2_hide_source' > 0)then{_this animate ['Drawer_6_move_source',0,true]};
+	_this animate ['Lid_1_hide_source',1,true];
+	_this animate ['Lid_2_hide_source',1,true];
+	_this animate ['Wing_L_hide_source',0,true];
+	_this animate ['Wing_R_hide_source',0,true];
+	if (false) then {_this call compile preprocessFileLineNumbers '\A3\Props_F_Globe\Military\Camps\scripts\randomize_desks.sqf'};
+};
+
+private _item12651 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12651 = createVehicle ["Land_MapBoard_01_Wall_F",[1300.93,395.809,149.101],[],0,"CAN_COLLIDE"];
+	_this = _item12651;
+	_objects pushback _this;
+	_objectIDs pushback 12651;
+	_this setPosWorld [1300.93,395.809,92.2723];
+	_this setVectorDirAndUp [[-0.670085,0.742285,0],[0,0,1]];
+	WhiteB = _this;
+	_this setVehicleVarName "WhiteB";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	_this setObjectTextureGlobal [0,"a3\structures_f\civ\infoboards\data\mapboard_default_co.paa"];
+	_this setObjectMaterialGlobal [0,""];
+};
+
+private _item12652 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12652 = createVehicle ["Land_PortableGenerator_01_F",[1300,393.076,148.297],[],0,"CAN_COLLIDE"];
+	_this = _item12652;
+	_objects pushback _this;
+	_objectIDs pushback 12652;
+	_this setPosWorld [1300,393.076,91.2924];
+	_this setVectorDirAndUp [[0.741465,0.670991,0],[0,0,1]];
+	Gen = _this;
+	_this setVehicleVarName "Gen";
+	_this enableSimulation false;
+	_this allowdamage false;;
+};
+
+private _item12653 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12653 = createVehicle ["Land_PortableServer_01_olive_F",[1302.24,396.407,148.329],[],0,"CAN_COLLIDE"];
+	_this = _item12653;
+	_objects pushback _this;
+	_objectIDs pushback 12653;
+	_this setPosWorld [1302.24,396.407,91.1218];
+	_this setVectorDirAndUp [[0.741465,0.670991,0],[0,0,1]];
+	ServerA1 = _this;
+	_this setVehicleVarName "ServerA1";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	_this animateSource ['Lights_Off_Source',0,true];
+	_this animateSource ['Server_Move_Source',0,true];
+	_this animateSource ['Server_Hide_Source',0,true];
+};
+
+private _item12654 = objNull;
+if (_layer12602 && _layer12601 && _layer12630 && _layer11585) then {
+	_item12654 = createVehicle ["Land_PortableServer_01_olive_F",[1302.24,396.401,148.676],[],0,"CAN_COLLIDE"];
+	_this = _item12654;
+	_objects pushback _this;
+	_objectIDs pushback 12654;
+	_this setPosWorld [1302.24,396.401,91.4688];
+	_this setVectorDirAndUp [[0.741465,0.670991,0],[0,0,1]];
+	ServerA2 = _this;
+	_this setVehicleVarName "ServerA2";
+	_this enableSimulation false;
+	_this allowdamage false;;
+	_this animateSource ['Lights_Off_Source',0,true];
+	_this animateSource ['Server_Move_Source',0,true];
+	_this animateSource ['Server_Hide_Source',0,true];
+};
+
+private _item12432 = objNull;
+if (_layer12304) then {
+	_item12432 = _item12431 createUnit ["UK3CB_CSAT_S_O_CBRN",[1381.98,351.755,148.072],[],0,"CAN_COLLIDE"];
+	_item12431 selectLeader _item12432;
+	_this = _item12432;
+	_objects pushback _this;
+	_objectIDs pushback 12432;
+	_this setPosWorld [1381.98,351.805,90.6934];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "German Titov";;
+	_this setface "WhiteHead_04";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
 	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12434 = objNull;
+if (_layer12304) then {
+	_item12434 = _item12433 createUnit ["UK3CB_CSAT_S_O_CBRN",[1385.31,353.438,148.072],[],0,"CAN_COLLIDE"];
+	_item12433 selectLeader _item12434;
+	_this = _item12434;
+	_objects pushback _this;
+	_objectIDs pushback 12434;
+	_this setPosWorld [1385.31,353.488,90.6934];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Oleg Pushkin";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12436 = objNull;
+if (_layer12304) then {
+	_item12436 = _item12435 createUnit ["UK3CB_CSAT_S_O_CBRN",[1377.83,354.023,148.306],[],0,"CAN_COLLIDE"];
+	_item12435 selectLeader _item12436;
+	_this = _item12436;
+	_objects pushback _this;
+	_objectIDs pushback 12436;
+	_this setPosWorld [1377.83,354.073,90.9276];
+	_this setVectorDirAndUp [[0.680525,-0.732725,0],[0,0,1]];
+	_this setname "Boris Rogozhkin";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12438 = objNull;
+if (_layer12304) then {
+	_item12438 = _item12437 createUnit ["UK3CB_CSAT_S_O_CBRN",[1376.55,353.008,148.306],[],0,"CAN_COLLIDE"];
+	_item12437 selectLeader _item12438;
+	_this = _item12438;
+	_objects pushback _this;
+	_objectIDs pushback 12438;
+	_this setPosWorld [1376.55,353.058,90.9276];
+	_this setVectorDirAndUp [[0.231644,0.972801,0],[0,0,1]];
+	_this setname "Valery Naryshkin";;
+	_this setface "WhiteHead_03";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12442 = objNull;
+if (_layer12304) then {
+	_item12442 = _item12441 createUnit ["UK3CB_CSAT_S_O_CBRN",[1372.98,355.347,148.072],[],0,"CAN_COLLIDE"];
+	_item12441 selectLeader _item12442;
+	_this = _item12442;
+	_objects pushback _this;
+	_objectIDs pushback 12442;
+	_this setPosWorld [1372.98,355.397,90.6933];
+	_this setVectorDirAndUp [[0.0406262,-0.999174,0],[0,0,1]];
+	_this setname "Ivan Gusakov";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12444 = objNull;
+if (_layer12304) then {
+	_item12444 = _item12443 createUnit ["UK3CB_CSAT_S_O_CBRN",[1375.89,346.446,148.242],[],0,"CAN_COLLIDE"];
+	_item12443 selectLeader _item12444;
+	_this = _item12444;
+	_objects pushback _this;
+	_objectIDs pushback 12444;
+	_this setPosWorld [1375.89,346.496,90.8634];
+	_this setVectorDirAndUp [[-0.48056,0.876962,0],[0,0,1]];
+	_this setname "Grigoriy Krasko";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 1.04;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12448 = objNull;
+if (_layer12304) then {
+	_item12448 = _item12447 createUnit ["UK3CB_CSAT_S_O_SF_MG",[1362.69,350.39,148.072],[],0,"CAN_COLLIDE"];
+	_item12447 selectLeader _item12448;
+	_this = _item12448;
+	_objects pushback _this;
+	_objectIDs pushback 12448;
+	_this setPosWorld [1362.69,350.44,90.6934];
+	_this setVectorDirAndUp [[0.998396,0.0566232,0],[0,0,1]];
+	_this setname "Vadim Tokarev";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "RHS_Male02RUS";;
+	_this setpitch 1;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12451 = objNull;
+if (_layer12304) then {
+	_item12451 = _item12449 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1353.02,339.468,148.065],[],0,"CAN_COLLIDE"];
+	_item12449 selectLeader _item12451;
+	_this = _item12451;
+	_objects pushback _this;
+	_objectIDs pushback 12451;
+	_this setPosWorld [1352.57,337.66,90.6538];
+	_this setVectorDirAndUp [[0.643955,0.765063,0],[0,0,1]];
+	_this setname "Lev Medvedev";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.966263;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12453 = objNull;
+if (_layer12304) then {
+	_item12453 = _item12452 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[1374.73,335.827,148.072],[],0,"CAN_COLLIDE"];
+	_item12452 selectLeader _item12453;
+	_this = _item12453;
+	_objects pushback _this;
+	_objectIDs pushback 12453;
+	_this setPosWorld [1374.73,335.877,90.6934];
+	_this setVectorDirAndUp [[-0.947059,0.321059,0],[0,0,1]];
+	_this setname "Stepan Fisenko";;
+	_this setface "WhiteHead_05";;
+	_this setspeaker "RHS_Male03RUS";;
+	_this setpitch 0.96;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12455 = objNull;
+if (_layer12304) then {
+	_item12455 = _item12454 createUnit ["UK3CB_CSAT_S_O_SF_RIF_2",[1381.09,328.271,148.072],[],0,"CAN_COLLIDE"];
+	_item12454 selectLeader _item12455;
+	_this = _item12455;
+	_objects pushback _this;
+	_objectIDs pushback 12455;
+	_this setPosWorld [1381.09,328.321,90.6934];
+	_this setVectorDirAndUp [[-0.979512,-0.201386,0],[0,0,1]];
+	_this setname "Mikhail Komarov";;
+	_this setface "WhiteHead_01";;
+	_this setspeaker "RHS_Male02RUS";;
+	_this setpitch 0.96;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12458 = objNull;
+if (_layer12304) then {
+	_item12458 = _item12456 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1385.48,314.222,149.683],[],0,"CAN_COLLIDE"];
+	_item12456 selectLeader _item12458;
+	_this = _item12458;
+	_objects pushback _this;
+	_objectIDs pushback 12458;
+	_this setPosWorld [1385.53,313.579,90.6389];
+	_this setVectorDirAndUp [[-0.468698,0.883359,0],[0,0,1]];
+	_this setname "Daniil Golovko";;
+	_this setface "WhiteHead_15";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.04975;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12460 = objNull;
+if (_layer12304) then {
+	_item12460 = _item12459 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1382.66,325.547,148.072],[],0,"CAN_COLLIDE"];
+	_item12459 selectLeader _item12460;
+	_this = _item12460;
+	_objects pushback _this;
+	_objectIDs pushback 12460;
+	_this setPosWorld [1382.66,325.597,90.6934];
+	_this setVectorDirAndUp [[-0.971586,-0.236686,0],[0,0,1]];
+	_this setUnitLoadout [["sgun_M4_F","","acc_flashlight_pistol","rhs_acc_1p87",["8Rnd_12Gauge_Slug",8],[],""],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["UK3CB_CSAT_S_O_U_CombatUniform",[["8Rnd_12Gauge_Slug",3,8]]],["UK3CB_CSAT_S_O_V_Carrier_Rig_Light",[["8Rnd_12Gauge_Slug",10,8]]],["UK3CB_CSAT_S_O_B_ASS",[["8Rnd_12Gauge_Slug",8,8]]],"UK3CB_CSAT_S_O_H_6b27m","",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
+	_this setname "Igor Sudakov";;
+	_this setface "WhiteHead_13";;
+	_this setspeaker "RHS_Male05RUS";;
+	_this setpitch 0.99;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12462 = objNull;
+if (_layer12304) then {
+	_item12462 = _item12461 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1375.59,343.536,148.072],[],0,"CAN_COLLIDE"];
+	_item12461 selectLeader _item12462;
+	_this = _item12462;
+	_objects pushback _this;
+	_objectIDs pushback 12462;
+	_this setPosWorld [1375.59,343.586,90.6933];
+	_this setVectorDirAndUp [[-0.635008,-0.772506,0],[0,0,1]];
+	_this setUnitLoadout [["sgun_M4_F","","acc_flashlight_pistol","rhs_acc_1p87",["8Rnd_12Gauge_Slug",8],[],""],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["UK3CB_CSAT_S_O_U_CombatUniform",[["8Rnd_12Gauge_Slug",3,8]]],["UK3CB_CSAT_S_O_V_Carrier_Rig_Light",[["8Rnd_12Gauge_Slug",10,8]]],["UK3CB_CSAT_S_O_B_ASS",[["8Rnd_12Gauge_Slug",8,8]]],"UK3CB_CSAT_S_O_H_6b27m","",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
+	_this setname "Leonid Timoshenko";;
+	_this setface "WhiteHead_18";;
+	_this setspeaker "RHS_Male05RUS";;
+	_this setpitch 0.99;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12464 = objNull;
+if (_layer12304) then {
+	_item12464 = _item12463 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1381.5,317.109,148.072],[],0,"CAN_COLLIDE"];
+	_item12463 selectLeader _item12464;
+	_this = _item12464;
+	_objects pushback _this;
+	_objectIDs pushback 12464;
+	_this setPosWorld [1381.5,317.159,90.6934];
+	_this setVectorDirAndUp [[0.845849,0.533423,0],[0,0,1]];
+	_this setUnitLoadout [["sgun_M4_F","","acc_flashlight_pistol","rhs_acc_1p87",["8Rnd_12Gauge_Slug",8],[],""],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["UK3CB_CSAT_S_O_U_CombatUniform",[["8Rnd_12Gauge_Slug",3,8]]],["UK3CB_CSAT_S_O_V_Carrier_Rig_Light",[["8Rnd_12Gauge_Slug",10,8]]],["UK3CB_CSAT_S_O_B_ASS",[["8Rnd_12Gauge_Slug",8,8]]],"UK3CB_CSAT_S_O_H_6b27m","",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
+	_this setname "Yuri Mikoyan";;
+	_this setface "WhiteHead_09";;
+	_this setspeaker "RHS_Male05RUS";;
+	_this setpitch 0.99;;
+	_this setUnitPos "DOWN";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12466 = objNull;
+if (_layer12304) then {
+	_item12466 = _item12465 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1392.64,301.23,148.072],[],0,"CAN_COLLIDE"];
+	_item12465 selectLeader _item12466;
+	_this = _item12466;
+	_objects pushback _this;
+	_objectIDs pushback 12466;
+	_this setPosWorld [1392.64,301.28,90.6933];
+	_this setVectorDirAndUp [[-0.971586,-0.236686,0],[0,0,1]];
+	_this setUnitLoadout [["sgun_M4_F","","acc_flashlight_pistol","rhs_acc_1p87",["8Rnd_12Gauge_Slug",8],[],""],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["UK3CB_CSAT_S_O_U_CombatUniform",[["8Rnd_12Gauge_Slug",3,8]]],["UK3CB_CSAT_S_O_V_Carrier_Rig_Light",[["8Rnd_12Gauge_Slug",10,8]]],["UK3CB_CSAT_S_O_B_ASS",[["8Rnd_12Gauge_Slug",8,8]]],"UK3CB_CSAT_S_O_H_6b27m","",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
+	_this setname "Dimitri Baranov";;
+	_this setface "WhiteHead_21";;
+	_this setspeaker "RHS_Male05RUS";;
+	_this setpitch 0.99;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12468 = objNull;
+if (_layer12304) then {
+	_item12468 = _item12467 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1389.06,306.558,148.152],[],0,"CAN_COLLIDE"];
+	_item12467 selectLeader _item12468;
+	_this = _item12468;
+	_objects pushback _this;
+	_objectIDs pushback 12468;
+	_this setPosWorld [1389.06,306.608,90.7735];
+	_this setVectorDirAndUp [[-0.971586,-0.236686,0],[0,0,1]];
+	_this setUnitLoadout [["sgun_M4_F","","acc_flashlight_pistol","rhs_acc_1p87",["8Rnd_12Gauge_Slug",8],[],""],[],["rhs_weap_makarov_pm","","","",["rhs_mag_9x18_8_57N181S",8],[],""],["UK3CB_CSAT_S_O_U_CombatUniform",[["8Rnd_12Gauge_Slug",3,8]]],["UK3CB_CSAT_S_O_V_Carrier_Rig_Light",[["8Rnd_12Gauge_Slug",10,8]]],["UK3CB_CSAT_S_O_B_ASS",[["8Rnd_12Gauge_Slug",8,8]]],"UK3CB_CSAT_S_O_H_6b27m","",[],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""]];
+	_this setname "Dimitri Popov";;
+	_this setface "WhiteHead_07";;
+	_this setspeaker "RHS_Male05RUS";;
+	_this setpitch 0.99;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12470 = objNull;
+if (_layer12304) then {
+	_item12470 = _item12469 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1382.73,310.841,148.072],[],0,"CAN_COLLIDE"];
+	_item12469 selectLeader _item12470;
+	_this = _item12470;
+	_objects pushback _this;
+	_objectIDs pushback 12470;
+	_this setPosWorld [1382.73,310.891,90.6933];
+	_this setVectorDirAndUp [[0.706556,0.707657,0],[0,0,1]];
+	_this setname "Anatoli Pushkin";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.969523;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12472 = objNull;
+if (_layer12304) then {
+	_item12472 = _item12471 createUnit ["UK3CB_CSAT_S_O_SPOT",[1392.87,295.507,148.072],[],0,"CAN_COLLIDE"];
+	_item12471 selectLeader _item12472;
+	_this = _item12472;
+	_objects pushback _this;
+	_objectIDs pushback 12472;
+	_this setPosWorld [1392.87,295.557,90.6933];
+	_this setVectorDirAndUp [[-0.628758,0.777601,0],[0,0,1]];
+	_this setname "Timofey Zverev";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.98282;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12474 = objNull;
+if (_layer12304) then {
+	_item12474 = _item12473 createUnit ["UK3CB_CSAT_S_O_MG",[1391.35,294.56,148.072],[],0,"CAN_COLLIDE"];
+	_item12473 selectLeader _item12474;
+	_this = _item12474;
+	_objects pushback _this;
+	_objectIDs pushback 12474;
+	_this setPosWorld [1391.35,294.61,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vasil Kamenev";;
+	_this setface "WhiteHead_20";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.993147;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12480 = objNull;
+if (_layer12304) then {
+	_item12480 = _item12478 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1406.45,269.078,150.145],[],0,"CAN_COLLIDE"];
+	_item12478 selectLeader _item12480;
+	_this = _item12480;
+	_objects pushback _this;
+	_objectIDs pushback 12480;
+	_this setPosWorld [1423.41,271.164,90.8043];
+	_this setVectorDirAndUp [[-0.709517,0.704688,0],[0,0,1]];
+	_this setname "Roman Babchenko";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.957327;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12485 = objNull;
+if (_layer12304) then {
+	_item12485 = _item12484 createUnit ["UK3CB_CSAT_S_O_SF_MD",[1406.51,283.216,148.072],[],0,"CAN_COLLIDE"];
+	_item12484 selectLeader _item12485;
+	_this = _item12485;
+	_objects pushback _this;
+	_objectIDs pushback 12485;
+	_this setPosWorld [1406.51,283.266,90.6933];
+	_this setVectorDirAndUp [[-0.996479,0.0838448,0],[0,0,1]];
+	_this setname "Konstantin Kuznetsov";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.005;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12487 = objNull;
+if (_layer12304) then {
+	_item12487 = _item12486 createUnit ["UK3CB_CSAT_S_O_CBRN",[1403.61,279.429,148.072],[],0,"CAN_COLLIDE"];
+	_item12486 selectLeader _item12487;
+	_this = _item12487;
+	_objects pushback _this;
+	_objectIDs pushback 12487;
+	_this setPosWorld [1403.61,279.479,90.6933];
+	_this setVectorDirAndUp [[-0.813086,0.582144,0],[0,0,1]];
+	_this setname "Fyodor Dobryakov";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.993217;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12489 = objNull;
+if (_layer12304) then {
+	_item12489 = _item12488 createUnit ["UK3CB_CSAT_S_O_CBRN",[1404.73,271.72,148.072],[],0,"CAN_COLLIDE"];
+	_item12488 selectLeader _item12489;
+	_this = _item12489;
+	_objects pushback _this;
+	_objectIDs pushback 12489;
+	_this setPosWorld [1404.73,271.77,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yevgeniy Soloveychik";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.00426;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12491 = objNull;
+if (_layer12304) then {
+	_item12491 = _item12490 createUnit ["UK3CB_CSAT_S_O_FIELD_OFF",[1408.35,266.747,148.078],[],0,"CAN_COLLIDE"];
+	_item12490 selectLeader _item12491;
+	_this = _item12491;
+	_objects pushback _this;
+	_objectIDs pushback 12491;
+	_this setPosWorld [1408.35,266.797,90.6996];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fedor Nikolayev";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.986967;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12495 = objNull;
+if (_layer12304) then {
+	_item12495 = _item12494 createUnit ["UK3CB_CSAT_S_O_ENG",[1411.31,282.645,148.126],[],0,"CAN_COLLIDE"];
+	_item12494 selectLeader _item12495;
+	_this = _item12495;
+	_objects pushback _this;
+	_objectIDs pushback 12495;
+	_this setPosWorld [1411.31,282.695,90.7473];
+	_this setVectorDirAndUp [[-0.166198,-0.986092,0],[0,0,1]];
+	_this setname "Sergei Tolstoy";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.958811;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12497 = objNull;
+if (_layer12304) then {
+	_item12497 = _item12496 createUnit ["UK3CB_CSAT_S_O_JNR_OFF",[1419.88,284.758,148.072],[],0,"CAN_COLLIDE"];
+	_item12496 selectLeader _item12497;
+	_this = _item12497;
+	_objects pushback _this;
+	_objectIDs pushback 12497;
+	_this setPosWorld [1419.88,284.808,90.6933];
+	_this setVectorDirAndUp [[-0.340864,-0.940113,0],[0,0,1]];
+	_this setname "Maksim Borichev";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.04071;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12504 = objNull;
+if (_layer12304) then {
+	_item12504 = _item12502 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1385.01,271.8,149.378],[],0,"CAN_COLLIDE"];
+	_item12502 selectLeader _item12504;
+	_this = _item12504;
+	_objects pushback _this;
+	_objectIDs pushback 12504;
+	_this setPosWorld [1384.45,271.784,90.7057];
+	_this setVectorDirAndUp [[0.883225,0.46895,0],[0,0,1]];
+	_this setname "Oleg Bakunin";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.967145;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12506 = objNull;
+if (_layer12304) then {
+	_item12506 = _item12505 createUnit ["UK3CB_CSAT_S_O_CBRN",[1360.96,275.787,148.072],[],0,"CAN_COLLIDE"];
+	_item12505 selectLeader _item12506;
+	_this = _item12506;
+	_objects pushback _this;
+	_objectIDs pushback 12506;
+	_this setPosWorld [1360.96,275.837,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Kuzma Antonov";;
+	_this setface "WhiteHead_09";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.02736;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12508 = objNull;
+if (_layer12304) then {
+	_item12508 = _item12507 createUnit ["UK3CB_CSAT_S_O_ENG",[1360.82,279.405,148.072],[],0,"CAN_COLLIDE"];
+	_item12507 selectLeader _item12508;
+	_this = _item12508;
+	_objects pushback _this;
+	_objectIDs pushback 12508;
+	_this setPosWorld [1360.82,279.455,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Kuzma Petrov";;
+	_this setface "WhiteHead_20";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.0197;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12510 = objNull;
+if (_layer12304) then {
+	_item12510 = _item12509 createUnit ["UK3CB_CSAT_S_O_DEM",[1374.34,284.546,148.072],[],0,"CAN_COLLIDE"];
+	_item12509 selectLeader _item12510;
+	_this = _item12510;
+	_objects pushback _this;
+	_objectIDs pushback 12510;
+	_this setPosWorld [1374.34,284.596,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fedor Tokarev";;
+	_this setface "WhiteHead_08";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.979344;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12536 = objNull;
+if (_layer12304) then {
+	_item12536 = _item12535 createUnit ["UK3CB_CSAT_S_O_SF_SL",[1358.32,287.885,148.072],[],0,"CAN_COLLIDE"];
+	_item12535 selectLeader _item12536;
+	_this = _item12536;
+	_objects pushback _this;
+	_objectIDs pushback 12536;
+	_this setPosWorld [1358.32,287.935,90.6933];
+	_this setVectorDirAndUp [[0.852746,0.522326,0],[0,0,1]];
+	_this setname "Stepan Borichev";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.01233;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12538 = objNull;
+if (_layer12304) then {
+	_item12538 = _item12537 createUnit ["UK3CB_CSAT_S_O_MG",[1349.85,304.176,148.072],[],0,"CAN_COLLIDE"];
+	_item12537 selectLeader _item12538;
+	_this = _item12538;
+	_objects pushback _this;
+	_objectIDs pushback 12538;
+	_this setPosWorld [1349.85,304.226,90.6933];
+	_this setVectorDirAndUp [[0.954206,0.299151,0],[0,0,1]];
+	_this setname "Ilya Ivanov";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.974903;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12540 = objNull;
+if (_layer12304) then {
+	_item12540 = _item12539 createUnit ["UK3CB_CSAT_S_O_RIF_2",[1334.97,298.146,148.072],[],0,"CAN_COLLIDE"];
+	_item12539 selectLeader _item12540;
+	_this = _item12540;
+	_objects pushback _this;
+	_objectIDs pushback 12540;
+	_this setPosWorld [1334.97,298.196,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Valentin Kuznetsov";;
+	_this setface "WhiteHead_15";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.980784;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12542 = objNull;
+if (_layer12304) then {
+	_item12542 = _item12541 createUnit ["UK3CB_CSAT_S_O_RADIO",[1334.67,295.616,148.072],[],0,"CAN_COLLIDE"];
+	_item12541 selectLeader _item12542;
+	_this = _item12542;
+	_objects pushback _this;
+	_objectIDs pushback 12542;
+	_this setPosWorld [1334.67,295.666,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Oleg Babchenko";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.02349;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12544 = objNull;
+if (_layer12304) then {
+	_item12544 = _item12543 createUnit ["UK3CB_CSAT_S_O_UAV_Bombs",[1327.78,290.857,148.072],[],0,"CAN_COLLIDE"];
+	_item12543 selectLeader _item12544;
+	_this = _item12544;
+	_objects pushback _this;
+	_objectIDs pushback 12544;
+	_this setPosWorld [1327.78,290.907,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vadim Malyukov";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.963614;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12546 = objNull;
+if (_layer12304) then {
+	_item12546 = _item12545 createUnit ["UK3CB_CSAT_S_O_SPOT",[1328.24,279.322,148.072],[],0,"CAN_COLLIDE"];
+	_item12545 selectLeader _item12546;
+	_this = _item12546;
+	_objects pushback _this;
+	_objectIDs pushback 12546;
+	_this setPosWorld [1328.24,279.372,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Andrey Turchinsky";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.983946;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12550 = objNull;
+if (_layer12304) then {
+	_item12550 = _item12549 createUnit ["UK3CB_CSAT_S_O_ENG",[1321.86,274.355,148.072],[],0,"CAN_COLLIDE"];
+	_item12549 selectLeader _item12550;
+	_this = _item12550;
+	_objects pushback _this;
+	_objectIDs pushback 12550;
+	_this setPosWorld [1321.86,274.405,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fedor Soloveychik";;
+	_this setface "WhiteHead_05";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 1.0288;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12552 = objNull;
+if (_layer12304) then {
+	_item12552 = _item12551 createUnit ["UK3CB_CSAT_S_O_AR",[1315.09,262.254,148.072],[],0,"CAN_COLLIDE"];
+	_item12551 selectLeader _item12552;
+	_this = _item12552;
+	_objects pushback _this;
+	_objectIDs pushback 12552;
+	_this setPosWorld [1315.09,262.304,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Arkadiy Yakushkin";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.959482;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12554 = objNull;
+if (_layer12304) then {
+	_item12554 = _item12553 createUnit ["UK3CB_CSAT_S_O_DEM",[1319.42,261.849,148.072],[],0,"CAN_COLLIDE"];
+	_item12553 selectLeader _item12554;
+	_this = _item12554;
+	_objects pushback _this;
+	_objectIDs pushback 12554;
+	_this setPosWorld [1319.42,261.899,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yuri Kubasov";;
+	_this setface "WhiteHead_21";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.00479;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12556 = objNull;
+if (_layer12304) then {
+	_item12556 = _item12555 createUnit ["UK3CB_CSAT_S_O_CBRN",[1312.54,253.988,148.072],[],0,"CAN_COLLIDE"];
+	_item12555 selectLeader _item12556;
+	_this = _item12556;
+	_objects pushback _this;
+	_objectIDs pushback 12556;
+	_this setPosWorld [1312.54,254.038,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Sergei Sarafanov";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.994755;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12558 = objNull;
+if (_layer12304) then {
+	_item12558 = _item12557 createUnit ["UK3CB_CSAT_S_O_CBRN",[1316.7,251.576,148.072],[],0,"CAN_COLLIDE"];
+	_item12557 selectLeader _item12558;
+	_this = _item12558;
+	_objects pushback _this;
+	_objectIDs pushback 12558;
+	_this setPosWorld [1316.7,251.626,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Dimitri Titov";;
+	_this setface "WhiteHead_07";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.973435;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12560 = objNull;
+if (_layer12304) then {
+	_item12560 = _item12559 createUnit ["UK3CB_CSAT_S_O_CBRN",[1306.27,260.071,148.072],[],0,"CAN_COLLIDE"];
+	_item12559 selectLeader _item12560;
+	_this = _item12560;
+	_objects pushback _this;
+	_objectIDs pushback 12560;
+	_this setPosWorld [1306.27,260.121,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Ilya Zykov";;
+	_this setface "WhiteHead_21";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.988542;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12562 = objNull;
+if (_layer12304) then {
+	_item12562 = _item12561 createUnit ["UK3CB_CSAT_S_O_ENG",[1305.72,256.985,148.072],[],0,"CAN_COLLIDE"];
+	_item12561 selectLeader _item12562;
+	_this = _item12562;
+	_objects pushback _this;
+	_objectIDs pushback 12562;
+	_this setPosWorld [1305.72,257.035,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vasil Petrov";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 1.00355;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12570 = objNull;
+if (_layer12304) then {
+	_item12570 = _item12568 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1352.47,358.406,149.75],[],0,"CAN_COLLIDE"];
+	_item12568 selectLeader _item12570;
+	_this = _item12570;
+	_objects pushback _this;
+	_objectIDs pushback 12570;
+	_this setPosWorld [1352.4,359.046,90.6791];
+	_this setVectorDirAndUp [[0.634437,-0.772975,0],[0,0,1]];
+	_this setname "Daniil Zubov";;
+	_this setface "WhiteHead_10";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.974973;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12572 = objNull;
+if (_layer12304) then {
+	_item12572 = _item12571 createUnit ["UK3CB_CSAT_S_O_RADIO",[1345.49,365.142,148.072],[],0,"CAN_COLLIDE"];
+	_item12571 selectLeader _item12572;
+	_this = _item12572;
+	_objects pushback _this;
+	_objectIDs pushback 12572;
+	_this setPosWorld [1345.49,365.192,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Igor Krasko";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.00874;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12574 = objNull;
+if (_layer12304) then {
+	_item12574 = _item12573 createUnit ["UK3CB_CSAT_S_O_RIF_2",[1348.99,371.186,148.072],[],0,"CAN_COLLIDE"];
+	_item12573 selectLeader _item12574;
+	_this = _item12574;
+	_objects pushback _this;
+	_objectIDs pushback 12574;
+	_this setPosWorld [1348.99,371.236,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Sergei Ivanov";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.04528;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12576 = objNull;
+if (_layer12304) then {
+	_item12576 = _item12575 createUnit ["UK3CB_CSAT_S_O_MG",[1341.83,372.054,148.072],[],0,"CAN_COLLIDE"];
+	_item12575 selectLeader _item12576;
+	_this = _item12576;
+	_objects pushback _this;
+	_objectIDs pushback 12576;
+	_this setPosWorld [1341.83,372.104,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Konstantin Soloveychik";;
+	_this setface "WhiteHead_15";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 1.02263;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12578 = objNull;
+if (_layer12304) then {
+	_item12578 = _item12577 createUnit ["UK3CB_CSAT_S_O_SNI",[1352.16,375.849,151.739],[],0,"CAN_COLLIDE"];
+	_item12577 selectLeader _item12578;
+	_this = _item12578;
+	_objects pushback _this;
+	_objectIDs pushback 12578;
+	_this setPosWorld [1352.16,375.899,94.3604];
+	_this setVectorDirAndUp [[-0.357113,-0.934061,0],[0,0,1]];
+	_this setname "Nikita Doronin";;
+	_this setface "WhiteHead_03";;
+	_this setspeaker "RHS_Male01RUS";;
+	_this setpitch 1.02;;
+	_this setUnitPos "MIDDLE";
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12580 = objNull;
+if (_layer12304) then {
+	_item12580 = _item12579 createUnit ["UK3CB_CSAT_S_O_GL",[1344.32,381.479,148.115],[],0,"CAN_COLLIDE"];
+	_item12579 selectLeader _item12580;
+	_this = _item12580;
+	_objects pushback _this;
+	_objectIDs pushback 12580;
+	_this setPosWorld [1344.32,381.529,90.7362];
+	_this setVectorDirAndUp [[-0.944785,-0.327691,0],[0,0,1]];
+	_this setname "Kiril Zykov";;
+	_this setface "WhiteHead_01";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 1.01163;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12582 = objNull;
+if (_layer12304) then {
+	_item12582 = _item12581 createUnit ["UK3CB_CSAT_S_O_CBRN",[1339.4,375.929,148.072],[],0,"CAN_COLLIDE"];
+	_item12581 selectLeader _item12582;
+	_this = _item12582;
+	_objects pushback _this;
+	_objectIDs pushback 12582;
+	_this setPosWorld [1339.4,375.979,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Viktor Alekseev";;
+	_this setface "WhiteHead_05";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.998973;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12584 = objNull;
+if (_layer12304) then {
+	_item12584 = _item12583 createUnit ["UK3CB_CSAT_S_O_CBRN",[1343.67,389.677,148.072],[],0,"CAN_COLLIDE"];
+	_item12583 selectLeader _item12584;
+	_this = _item12584;
+	_objects pushback _this;
+	_objectIDs pushback 12584;
+	_this setPosWorld [1343.67,389.727,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vitaly Baranov";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.987315;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12586 = objNull;
+if (_layer12304) then {
+	_item12586 = _item12585 createUnit ["UK3CB_CSAT_S_O_AR",[1333.02,387.611,148.072],[],0,"CAN_COLLIDE"];
+	_item12585 selectLeader _item12586;
+	_this = _item12586;
+	_objects pushback _this;
+	_objectIDs pushback 12586;
+	_this setPosWorld [1333.02,387.661,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Konstantin Sharapov";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.958908;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12588 = objNull;
+if (_layer12304) then {
+	_item12588 = _item12587 createUnit ["UK3CB_CSAT_S_O_AR",[1318.94,421.336,148.072],[],0,"CAN_COLLIDE"];
+	_item12587 selectLeader _item12588;
+	_this = _item12588;
+	_objects pushback _this;
+	_objectIDs pushback 12588;
+	_this setPosWorld [1318.94,421.386,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vyacheslav Beregovoi";;
+	_this setface "WhiteHead_05";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.966108;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12590 = objNull;
+if (_layer12304) then {
+	_item12590 = _item12589 createUnit ["UK3CB_CSAT_S_O_CBRN",[1322.18,418.401,148.072],[],0,"CAN_COLLIDE"];
+	_item12589 selectLeader _item12590;
+	_this = _item12590;
+	_objects pushback _this;
+	_objectIDs pushback 12590;
+	_this setPosWorld [1322.18,418.451,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Leonid Potapenko";;
+	_this setface "WhiteHead_14";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.976673;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12594 = objNull;
+if (_layer12304) then {
+	_item12594 = _item12593 createUnit ["UK3CB_CSAT_S_O_MK",[1320.46,411.816,148.072],[],0,"CAN_COLLIDE"];
+	_item12593 selectLeader _item12594;
+	_this = _item12594;
+	_objects pushback _this;
+	_objectIDs pushback 12594;
+	_this setPosWorld [1320.46,411.866,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Nikita Zhitkov";;
+	_this setface "WhiteHead_04";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.987352;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12596 = objNull;
+if (_layer12304) then {
+	_item12596 = _item12595 createUnit ["UK3CB_CSAT_S_O_JNR_OFF",[1300.56,414.566,148.072],[],0,"CAN_COLLIDE"];
+	_item12595 selectLeader _item12596;
+	_this = _item12596;
+	_objects pushback _this;
+	_objectIDs pushback 12596;
+	_this setPosWorld [1300.56,414.616,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Maksim Doronin";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.989625;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12598 = objNull;
+if (_layer12304) then {
+	_item12598 = _item12597 createUnit ["UK3CB_CSAT_S_O_RADIO",[1304.87,410.157,148.072],[],0,"CAN_COLLIDE"];
+	_item12597 selectLeader _item12598;
+	_this = _item12598;
+	_objects pushback _this;
+	_objectIDs pushback 12598;
+	_this setPosWorld [1304.87,410.207,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Egor Gorbunov";;
+	_this setface "WhiteHead_14";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.993471;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12600 = objNull;
+if (_layer12304) then {
+	_item12600 = _item12599 createUnit ["UK3CB_CSAT_S_O_OFF",[1299.05,393.064,148.283],[],0,"CAN_COLLIDE"];
+	_item12599 selectLeader _item12600;
+	_this = _item12600;
+	_objects pushback _this;
+	_objectIDs pushback 12600;
+	_this setPosWorld [1299.05,393.114,90.9041];
+	_this setVectorDirAndUp [[-0.64387,-0.765135,0],[0,0,1]];
+	_this setname "Ruslan Romanov";;
+	_this setface "WhiteHead_07";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.04972;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12656 = objNull;
+if (_layer12304) then {
+	_item12656 = _item12655 createUnit ["UK3CB_CSAT_S_O_SF_SL",[1301.72,398.66,148.072],[],0,"CAN_COLLIDE"];
+	_item12655 selectLeader _item12656;
+	_this = _item12656;
+	_objects pushback _this;
+	_objectIDs pushback 12656;
+	_this setPosWorld [1301.72,398.71,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Timofey Petrov";;
+	_this setface "WhiteHead_05";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.0142;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12658 = objNull;
+if (_layer12304) then {
+	_item12658 = _item12657 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[1298.11,391.227,148.221],[],0,"CAN_COLLIDE"];
+	_item12657 selectLeader _item12658;
+	_this = _item12658;
+	_objects pushback _this;
+	_objectIDs pushback 12658;
+	_this setPosWorld [1298.11,391.276,90.8424];
+	_this setVectorDirAndUp [[-0.763142,-0.646231,0],[0,0,1]];
+	_this setname "Pavel Kirygin";;
+	_this setface "WhiteHead_08";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.01895;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12660 = objNull;
+if (_layer12304) then {
+	_item12660 = _item12659 createUnit ["UK3CB_CSAT_S_O_CBRN",[1296.56,391.059,148.221],[],0,"CAN_COLLIDE"];
+	_item12659 selectLeader _item12660;
+	_this = _item12660;
+	_objects pushback _this;
+	_objectIDs pushback 12660;
+	_this setPosWorld [1296.56,391.109,90.8424];
+	_this setVectorDirAndUp [[-0.649076,-0.760724,0],[0,0,1]];
+	_this setname "Anatoli Zhegalov";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.02107;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12664 = objNull;
+if (_layer12304) then {
+	_item12664 = _item12663 createUnit ["UK3CB_CSAT_S_O_DEM",[1293.06,392.85,148.072],[],0,"CAN_COLLIDE"];
+	_item12663 selectLeader _item12664;
+	_this = _item12664;
+	_objects pushback _this;
+	_objectIDs pushback 12664;
+	_this setPosWorld [1293.06,392.9,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Oleg Gorbunov";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.00924;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12681 = objNull;
+if (_layer12304) then {
+	_item12681 = _item12680 createUnit ["UK3CB_CSAT_S_O_OFF",[1237.49,425.219,148.072],[],0,"CAN_COLLIDE"];
+	_item12680 selectLeader _item12681;
+	_this = _item12681;
+	_objects pushback _this;
+	_objectIDs pushback 12681;
+	_this setPosWorld [1237.49,425.269,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yevgeniy Borodin";;
+	_this setface "WhiteHead_01";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.978336;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12683 = objNull;
+if (_layer12304) then {
+	_item12683 = _item12682 createUnit ["O_T_Scientist_Unarmed_F",[1239.72,427.275,148.072],[],0,"CAN_COLLIDE"];
+	_item12682 selectLeader _item12683;
+	_this = _item12683;
+	_objects pushback _this;
+	_objectIDs pushback 12683;
+	_this setPosWorld [1239.72,427.325,90.7133];
+	_this setVectorDirAndUp [[-0.372591,-0.927996,0],[0,0,1]];
+	_this setname "Zhen Shi";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.980964;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
 	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
 	_this setVariable ['ACE_isEOD', false, true];
 	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
 	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
 };
 
-private _item11594 = objNull;
-if (_layerRoot) then {
-	_item11594 = createSimpleObject ["Land_InfoStand_V2_F",[1533.92,382.726,90.518]];
-	_this = _item11594;
+private _item12685 = objNull;
+if (_layer12304) then {
+	_item12685 = _item12684 createUnit ["UK3CB_CSAT_S_O_FIELD_OFF",[1244.65,408.302,148.072],[],0,"CAN_COLLIDE"];
+	_item12684 selectLeader _item12685;
+	_this = _item12685;
 	_objects pushback _this;
-	_objectIDs pushback 11594;
-	_this setPosWorld [1533.92,382.726,91.1063];
+	_objectIDs pushback 12685;
+	_this setPosWorld [1244.65,408.352,90.7133];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this enableSimulation false;
-	_this allowdamage false;;
-	_this setObjectTextureGlobal [0,""];
+	_this setname "Vladimir Tolstoy";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.96247;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11595 = objNull;
-if (_layerRoot) then {
-	_item11595 = createSimpleObject ["Land_InfoStand_V2_F",[1477.35,477.107,90.769]];
-	_this = _item11595;
+private _item12687 = objNull;
+if (_layer12304) then {
+	_item12687 = _item12686 createUnit ["UK3CB_CSAT_S_O_MG",[1247.89,410.665,148.072],[],0,"CAN_COLLIDE"];
+	_item12686 selectLeader _item12687;
+	_this = _item12687;
 	_objects pushback _this;
-	_objectIDs pushback 11595;
-	_this setPosWorld [1477.35,477.107,91.3573];
+	_objectIDs pushback 12687;
+	_this setPosWorld [1247.89,410.715,90.7133];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this enableSimulation false;
-	_this setObjectTextureGlobal [0,""];
+	_this setname "Ivan Pashinin";;
+	_this setface "WhiteHead_12";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.961304;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11619 = objNull;
-if (_layerRoot) then {
-	_item11619 = createVehicle ["Land_Podesta_10",[1435.89,485.276,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item11619;
+private _item12689 = objNull;
+if (_layer12304) then {
+	_item12689 = _item12688 createUnit ["UK3CB_CSAT_S_O_MD",[1249.86,411.451,148.072],[],0,"CAN_COLLIDE"];
+	_item12688 selectLeader _item12689;
+	_this = _item12689;
 	_objects pushback _this;
-	_objectIDs pushback 11619;
-	_this setPosWorld [1435.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12689;
+	_this setPosWorld [1249.86,411.501,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vyacheslav Malyukov";;
+	_this setface "WhiteHead_06";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.01253;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11620 = objNull;
-if (_layerRoot) then {
-	_item11620 = createVehicle ["Land_Podesta_10",[1498.78,485.485,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item11620;
+private _item12697 = objNull;
+if (_layer12304) then {
+	_item12697 = _item12696 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[1257,388.439,150.661],[],0,"CAN_COLLIDE"];
+	_item12696 selectLeader _item12697;
+	_this = _item12697;
 	_objects pushback _this;
-	_objectIDs pushback 11620;
-	_this setPosWorld [1498.78,485.485,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12697;
+	_this setPosWorld [1257,388.489,93.3026];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vasili Tokarev";;
+	_this setface "WhiteHead_20";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.00747;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11621 = objNull;
-if (_layerRoot) then {
-	_item11621 = createVehicle ["Land_Podesta_10",[1498.69,416.491,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item11621;
+private _item12695 = objNull;
+if (_layer12304) then {
+	_item12695 = _item12694 createUnit ["UK3CB_CSAT_S_O_SF_SNI",[1252.91,387.588,153.248],[],0,"CAN_COLLIDE"];
+	_item12694 selectLeader _item12695;
+	_this = _item12695;
 	_objects pushback _this;
-	_objectIDs pushback 11621;
-	_this setPosWorld [1498.69,416.491,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12695;
+	_this setPosWorld [1252.91,387.638,95.8896];
+	_this setVectorDirAndUp [[0.935215,0.354079,0],[0,0,1]];
+	_this setname "Aleksander Mamayev";;
+	_this setface "WhiteHead_14";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.03317;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11622 = objNull;
-if (_layerRoot) then {
-	_item11622 = createVehicle ["Land_Podesta_10",[1375.89,485.276,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item11622;
+private _item12699 = objNull;
+if (_layer12304) then {
+	_item12699 = _item12698 createUnit ["UK3CB_CSAT_S_O_CBRN",[1245.96,424.322,148.072],[],0,"CAN_COLLIDE"];
+	_item12698 selectLeader _item12699;
+	_this = _item12699;
 	_objects pushback _this;
-	_objectIDs pushback 11622;
-	_this setPosWorld [1375.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12699;
+	_this setPosWorld [1245.96,424.372,90.7133];
+	_this setVectorDirAndUp [[-0.944821,0.327588,0],[0,0,1]];
+	_this setname "Leonid Vasilyev";;
+	_this setface "WhiteHead_19";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.04187;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11624 = objNull;
-if (_layerRoot) then {
-	_item11624 = createVehicle ["Land_Podesta_10",[1315.89,485.276,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item11624;
+private _item12701 = objNull;
+if (_layer12304) then {
+	_item12701 = _item12700 createUnit ["UK3CB_CSAT_S_O_ENG",[1259.3,351.134,148.072],[],0,"CAN_COLLIDE"];
+	_item12700 selectLeader _item12701;
+	_this = _item12701;
 	_objects pushback _this;
-	_objectIDs pushback 11624;
-	_this setPosWorld [1315.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12701;
+	_this setPosWorld [1259.3,351.184,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vyacheslav Borichev";;
+	_this setface "WhiteHead_03";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.97353;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item11625 = objNull;
-if (_layerRoot) then {
-	_item11625 = createVehicle ["Land_Podesta_10",[1255.89,485.276,147.328],[],0,"CAN_COLLIDE"];
-	_this = _item11625;
+private _item12703 = objNull;
+if (_layer12304) then {
+	_item12703 = _item12702 createUnit ["UK3CB_CSAT_S_O_STATIC_GUN_M2",[1256.63,347.951,148.072],[],0,"CAN_COLLIDE"];
+	_item12702 selectLeader _item12703;
+	_this = _item12703;
 	_objects pushback _this;
-	_objectIDs pushback 11625;
-	_this setPosWorld [1255.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12703;
+	_this setPosWorld [1256.63,348.001,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Leonid Kamenev";;
+	_this setface "WhiteHead_15";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.967215;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item12256 = objNull;
-if (_layerRoot) then {
-	_item12256 = createVehicle ["Land_Podesta_10",[1195.89,485.276,147.328],[],0,"CAN_COLLIDE"];
-	_this = _item12256;
+private _item12705 = objNull;
+if (_layer12304) then {
+	_item12705 = _item12704 createUnit ["UK3CB_CSAT_S_O_CBRN",[1238.21,366.535,148.072],[],0,"CAN_COLLIDE"];
+	_item12704 selectLeader _item12705;
+	_this = _item12705;
 	_objects pushback _this;
-	_objectIDs pushback 12256;
-	_this setPosWorld [1195.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12705;
+	_this setPosWorld [1238.21,366.585,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Maksim Blagonravov";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.997441;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item12257 = objNull;
-if (_layerRoot) then {
-	_item12257 = createVehicle ["Land_Podesta_10",[1135.89,485.276,147.328],[],0,"CAN_COLLIDE"];
-	_this = _item12257;
+private _item12707 = objNull;
+if (_layer12304) then {
+	_item12707 = _item12706 createUnit ["UK3CB_CSAT_S_O_AR",[1233.43,373.047,148.072],[],0,"CAN_COLLIDE"];
+	_item12706 selectLeader _item12707;
+	_this = _item12707;
 	_objects pushback _this;
-	_objectIDs pushback 12257;
-	_this setPosWorld [1135.89,485.276,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12707;
+	_this setPosWorld [1233.43,373.097,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Vasil Bakunin";;
+	_this setface "WhiteHead_11";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.02636;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
 };
 
-private _item12258 = objNull;
-if (_layerRoot) then {
-	_item12258 = createVehicle ["Land_Podesta_10",[1498.69,347.491,147.348],[],0,"CAN_COLLIDE"];
-	_this = _item12258;
+private _item12709 = objNull;
+if (_layer12304) then {
+	_item12709 = _item12708 createUnit ["UK3CB_CSAT_S_O_STATIC_TRI_METIS",[1217.71,368.348,148.072],[],0,"CAN_COLLIDE"];
+	_item12708 selectLeader _item12709;
+	_this = _item12709;
 	_objects pushback _this;
-	_objectIDs pushback 12258;
-	_this setPosWorld [1498.69,347.491,89.8874];
-	_this setVectorDirAndUp [[0,7,0],[0,0,7]];
-	_this allowdamage false;;
+	_objectIDs pushback 12709;
+	_this setPosWorld [1217.71,368.398,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Grigoriy Baranov";;
+	_this setface "WhiteHead_10";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.04541;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12711 = objNull;
+if (_layer12304) then {
+	_item12711 = _item12710 createUnit ["UK3CB_CSAT_S_O_STATIC_TRI_AGS30",[1209.22,372.996,148.078],[],0,"CAN_COLLIDE"];
+	_item12710 selectLeader _item12711;
+	_this = _item12711;
+	_objects pushback _this;
+	_objectIDs pushback 12711;
+	_this setPosWorld [1209.22,373.046,90.7197];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Timofey Gusakov";;
+	_this setface "WhiteHead_16";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.02982;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12713 = objNull;
+if (_layer12304) then {
+	_item12713 = _item12712 createUnit ["UK3CB_CSAT_S_O_STATIC_TRI_KORNET",[1211.14,389.196,148.072],[],0,"CAN_COLLIDE"];
+	_item12712 selectLeader _item12713;
+	_this = _item12713;
+	_objects pushback _this;
+	_objectIDs pushback 12713;
+	_this setPosWorld [1211.14,389.246,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Aleksander Privalov";;
+	_this setface "WhiteHead_08";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.993544;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12715 = objNull;
+if (_layer12304) then {
+	_item12715 = _item12714 createUnit ["UK3CB_CSAT_S_O_AR",[1278.01,386.791,148.084],[],0,"CAN_COLLIDE"];
+	_item12714 selectLeader _item12715;
+	_this = _item12715;
+	_objects pushback _this;
+	_objectIDs pushback 12715;
+	_this setPosWorld [1278.01,386.841,90.7133];
+	_this setVectorDirAndUp [[-0.700195,0.713951,0],[0,0,1]];
+	_this setname "Valery Yakushkin";;
+	_this setface "WhiteHead_21";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 1.04413;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12718 = objNull;
+if (_layer12304) then {
+	_item12718 = _item12717 createUnit ["UK3CB_CSAT_S_O_LMG",[1235.95,426.718,148.072],[],0,"CAN_COLLIDE"];
+	_item12717 selectLeader _item12718;
+	_this = _item12718;
+	_objects pushback _this;
+	_objectIDs pushback 12718;
+	_this setPosWorld [1235.95,426.768,90.7133];
+	_this setVectorDirAndUp [[0.947019,-0.321178,0],[0,0,1]];
+	_this setname "Valentin Lermontov";;
+	_this setface "WhiteHead_14";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.01731;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12720 = objNull;
+if (_layer12304) then {
+	_item12720 = _item12719 createUnit ["UK3CB_CSAT_S_O_AR",[1258.52,387.756,148.222],[],0,"CAN_COLLIDE"];
+	_item12719 selectLeader _item12720;
+	_this = _item12720;
+	_objects pushback _this;
+	_objectIDs pushback 12720;
+	_this setPosWorld [1258.52,387.806,90.8633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Andrey Smirnov";;
+	_this setface "WhiteHead_12";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.00147;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12722 = objNull;
+if (_layer12304) then {
+	_item12722 = _item12721 createUnit ["UK3CB_CSAT_S_O_MK",[1255.5,387.858,148.222],[],0,"CAN_COLLIDE"];
+	_item12721 selectLeader _item12722;
+	_this = _item12722;
+	_objects pushback _this;
+	_objectIDs pushback 12722;
+	_this setPosWorld [1255.5,387.908,90.8633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Aleksander Sharapov";;
+	_this setface "WhiteHead_13";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.964841;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12724 = objNull;
+if (_layer12304) then {
+	_item12724 = _item12723 createUnit ["UK3CB_CSAT_S_O_MD",[1253.09,386.789,148.222],[],0,"CAN_COLLIDE"];
+	_item12723 selectLeader _item12724;
+	_this = _item12724;
+	_objects pushback _this;
+	_objectIDs pushback 12724;
+	_this setPosWorld [1253.09,386.839,90.8633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Alyosha Malyukov";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.988343;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12726 = objNull;
+if (_layer12304) then {
+	_item12726 = _item12725 createUnit ["UK3CB_CSAT_S_O_RADIO",[1245.53,380.713,148.072],[],0,"CAN_COLLIDE"];
+	_item12725 selectLeader _item12726;
+	_this = _item12726;
+	_objects pushback _this;
+	_objectIDs pushback 12726;
+	_this setPosWorld [1245.53,380.763,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Valentin Pecharov";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.9964;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12728 = objNull;
+if (_layer12304) then {
+	_item12728 = _item12727 createUnit ["UK3CB_CSAT_S_O_SL",[1245.96,379.083,148.072],[],0,"CAN_COLLIDE"];
+	_item12727 selectLeader _item12728;
+	_this = _item12728;
+	_objects pushback _this;
+	_objectIDs pushback 12728;
+	_this setPosWorld [1245.96,379.133,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Abram Zhitkov";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.98133;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12730 = objNull;
+if (_layer12304) then {
+	_item12730 = _item12729 createUnit ["UK3CB_CSAT_S_O_SF_RIF_2",[1228.26,366.332,148.072],[],0,"CAN_COLLIDE"];
+	_item12729 selectLeader _item12730;
+	_this = _item12730;
+	_objects pushback _this;
+	_objectIDs pushback 12730;
+	_this setPosWorld [1228.26,366.382,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fedor Zhitkov";;
+	_this setface "WhiteHead_12";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.979914;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12732 = objNull;
+if (_layer12304) then {
+	_item12732 = _item12731 createUnit ["UK3CB_CSAT_S_O_SF_SPOT",[1225.34,382.876,148.072],[],0,"CAN_COLLIDE"];
+	_item12731 selectLeader _item12732;
+	_this = _item12732;
+	_objects pushback _this;
+	_objectIDs pushback 12732;
+	_this setPosWorld [1225.34,382.926,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fyodor Sarafanov";;
+	_this setface "WhiteHead_17";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.982881;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12734 = objNull;
+if (_layer12304) then {
+	_item12734 = _item12733 createUnit ["UK3CB_CSAT_S_O_SF_SNI",[1214.31,385.317,148.072],[],0,"CAN_COLLIDE"];
+	_item12733 selectLeader _item12734;
+	_this = _item12734;
+	_objects pushback _this;
+	_objectIDs pushback 12734;
+	_this setPosWorld [1214.31,385.367,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Nikolay Bulgakov";;
+	_this setface "WhiteHead_08";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 0.95593;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12736 = objNull;
+if (_layer12304) then {
+	_item12736 = _item12735 createUnit ["UK3CB_CSAT_S_O_SF_GL",[1201.96,391.347,148.072],[],0,"CAN_COLLIDE"];
+	_item12735 selectLeader _item12736;
+	_this = _item12736;
+	_objects pushback _this;
+	_objectIDs pushback 12736;
+	_this setPosWorld [1201.96,391.397,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yevgeniy Timoshenko";;
+	_this setface "WhiteHead_19";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.01699;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12738 = objNull;
+if (_layer12304) then {
+	_item12738 = _item12737 createUnit ["UK3CB_CSAT_S_O_SF_ENG",[1194.18,389.028,148.072],[],0,"CAN_COLLIDE"];
+	_item12737 selectLeader _item12738;
+	_this = _item12738;
+	_objects pushback _this;
+	_objectIDs pushback 12738;
+	_this setPosWorld [1194.18,389.078,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Egor Zhegalov";;
+	_this setface "WhiteHead_10";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 0.981718;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12740 = objNull;
+if (_layer12304) then {
+	_item12740 = _item12739 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[1196.84,398.841,150.765],[],0,"CAN_COLLIDE"];
+	_item12739 selectLeader _item12740;
+	_this = _item12740;
+	_objects pushback _this;
+	_objectIDs pushback 12740;
+	_this setPosWorld [1196.84,398.891,93.4062];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Dimitri Shcherbakov";;
+	_this setface "WhiteHead_14";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.95564;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12742 = objNull;
+if (_layer12304) then {
+	_item12742 = _item12741 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[1193.87,396.144,150.765],[],0,"CAN_COLLIDE"];
+	_item12741 selectLeader _item12742;
+	_this = _item12742;
+	_objects pushback _this;
+	_objectIDs pushback 12742;
+	_this setPosWorld [1193.87,396.194,93.4062];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "German Ivanov";;
+	_this setface "WhiteHead_03";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 0.958863;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12744 = objNull;
+if (_layer12304) then {
+	_item12744 = _item12743 createUnit ["UK3CB_CSAT_S_O_SF_AR",[1186.94,381.701,153.909],[],0,"CAN_COLLIDE"];
+	_item12743 selectLeader _item12744;
+	_this = _item12744;
+	_objects pushback _this;
+	_objectIDs pushback 12744;
+	_this setPosWorld [1186.94,381.751,96.55];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Konstantin Sudakov";;
+	_this setface "WhiteHead_09";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.04034;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12746 = objNull;
+if (_layer12304) then {
+	_item12746 = _item12745 createUnit ["UK3CB_CSAT_S_O_SF_ENG",[1188.56,378.365,153.909],[],0,"CAN_COLLIDE"];
+	_item12745 selectLeader _item12746;
+	_this = _item12746;
+	_objects pushback _this;
+	_objectIDs pushback 12746;
+	_this setPosWorld [1188.56,378.415,96.55];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Timofey Popov";;
+	_this setface "WhiteHead_13";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.0296;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', true, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12748 = objNull;
+if (_layer12304) then {
+	_item12748 = _item12747 createUnit ["UK3CB_CSAT_S_O_TL",[1183.27,388.653,153.909],[],0,"CAN_COLLIDE"];
+	_item12747 selectLeader _item12748;
+	_this = _item12748;
+	_objects pushback _this;
+	_objectIDs pushback 12748;
+	_this setPosWorld [1183.27,388.703,96.5502];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Anatoli Zhukov";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.03325;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12752 = objNull;
+if (_layer12304) then {
+	_item12752 = _item12751 createUnit ["UK3CB_CSAT_S_O_SL",[1192.23,429.309,148.072],[],0,"CAN_COLLIDE"];
+	_item12751 selectLeader _item12752;
+	_this = _item12752;
+	_objects pushback _this;
+	_objectIDs pushback 12752;
+	_this setPosWorld [1192.23,429.359,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fyodor Derevenko";;
+	_this setface "WhiteHead_04";;
+	_this setspeaker "rhs_male04rus";;
+	_this setpitch 1.00318;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12754 = objNull;
+if (_layer12304) then {
+	_item12754 = _item12753 createUnit ["UK3CB_CSAT_S_O_RIF_2",[1195.7,430.955,148.072],[],0,"CAN_COLLIDE"];
+	_item12753 selectLeader _item12754;
+	_this = _item12754;
+	_objects pushback _this;
+	_objectIDs pushback 12754;
+	_this setPosWorld [1195.7,431.005,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Ivan Kubasov";;
+	_this setface "WhiteHead_02";;
+	_this setspeaker "rhs_male02rus";;
+	_this setpitch 1.01535;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12457 = objNull;
+if (_layer12304) then {
+	_item12457 = createVehicle ["UK3CB_CSAT_S_O_DSHKM",[1385.48,314.222,148.072],[],0,"FLY"];
+	_this = _item12457;
+	_objects pushback _this;
+	_objectIDs pushback 12457;
+	_this setPosWorld [1385.48,314.222,92.3028];
+	_this setVectorDirAndUp [[-0.468698,0.883359,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
+	[_this, 2] call ace_cargo_fnc_setSize;
+	_this setTurretLimits [ [0], -180, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, 180, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, -20, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, 60 ];
+	_this enableWeaponDisassembly true;;
+	if (false isEqualTo true) then {_this call expEden_fnc_turretAttach};
+};
+
+private _item12756 = objNull;
+if (_layer12304) then {
+	_item12756 = _item12755 createUnit ["UK3CB_CSAT_S_O_RADIO",[1195.33,417.504,148.072],[],0,"CAN_COLLIDE"];
+	_item12755 selectLeader _item12756;
+	_this = _item12756;
+	_objects pushback _this;
+	_objectIDs pushback 12756;
+	_this setPosWorld [1195.33,417.554,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Leonid Sudakov";;
+	_this setface "WhiteHead_10";;
+	_this setspeaker "rhs_male03rus";;
+	_this setpitch 0.958206;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12758 = objNull;
+if (_layer12304) then {
+	_item12758 = _item12757 createUnit ["UK3CB_CSAT_S_O_SNI",[1202.24,408.425,155.177],[],0,"CAN_COLLIDE"];
+	_item12757 selectLeader _item12758;
+	_this = _item12758;
+	_objects pushback _this;
+	_objectIDs pushback 12758;
+	_this setPosWorld [1202.24,408.475,97.8188];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Kiril Petrov";;
+	_this setface "LivonianHead_6";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 1.00288;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12760 = objNull;
+if (_layer12304) then {
+	_item12760 = _item12759 createUnit ["UK3CB_CSAT_S_O_SNI",[1193.2,363.767,153.518],[],0,"CAN_COLLIDE"];
+	_item12759 selectLeader _item12760;
+	_this = _item12760;
+	_objects pushback _this;
+	_objectIDs pushback 12760;
+	_this setPosWorld [1193.2,363.817,96.159];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Aleksander Titov";;
+	_this setface "WhiteHead_15";;
+	_this setspeaker "rhs_male05rus";;
+	_this setpitch 0.95791;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12762 = objNull;
+if (_layer12304) then {
+	_item12762 = _item12761 createUnit ["UK3CB_CSAT_S_O_RIF_1",[1202.69,371.155,150.623],[],0,"CAN_COLLIDE"];
+	_item12761 selectLeader _item12762;
+	_this = _item12762;
+	_objects pushback _this;
+	_objectIDs pushback 12762;
+	_this setPosWorld [1202.69,371.205,93.2648];
+	_this setVectorDirAndUp [[0.960104,0.279642,0],[0,0,1]];
+	_this setname "Aleksei Petrov";;
+	_this setface "WhiteHead_13";;
+	_this setspeaker "rhs_male01rus";;
+	_this setpitch 1.03218;;
+	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_loadout; };;
+	if !(true) then { _this call uk3cb_factions_common_fnc_disable_randomize; };;
+	if (false) then { _this call uk3cb_factions_common_fnc_force_loadout; };;
+};
+
+private _item12764 = objNull;
+if (_layer12304) then {
+	_item12764 = _item12763 createUnit ["O_T_Scientist_F",[1210.54,399.116,148.072],[],0,"CAN_COLLIDE"];
+	_item12763 selectLeader _item12764;
+	_this = _item12764;
+	_objects pushback _this;
+	_objectIDs pushback 12764;
+	_this setPosWorld [1210.54,399.166,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Xiaobo Tang";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.0173;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12766 = objNull;
+if (_layer12304) then {
+	_item12766 = _item12765 createUnit ["O_T_Scientist_F",[1218.26,387.868,148.072],[],0,"CAN_COLLIDE"];
+	_item12765 selectLeader _item12766;
+	_this = _item12766;
+	_objects pushback _this;
+	_objectIDs pushback 12766;
+	_this setPosWorld [1218.26,387.918,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Wen Lam";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male01chi";;
+	_this setpitch 0.99246;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12768 = objNull;
+if (_layer12304) then {
+	_item12768 = _item12767 createUnit ["O_T_Scientist_Unarmed_F",[1198.26,377.242,148.072],[],0,"CAN_COLLIDE"];
+	_item12767 selectLeader _item12768;
+	_this = _item12768;
+	_objects pushback _this;
+	_objectIDs pushback 12768;
+	_this setPosWorld [1198.26,377.292,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Shun Hsiang";;
+	_this setface "AsianHead_A3_03";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.01647;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12770 = objNull;
+if (_layer12304) then {
+	_item12770 = _item12769 createUnit ["O_T_Scientist_Unarmed_F",[1203.26,357.892,148.072],[],0,"CAN_COLLIDE"];
+	_item12769 selectLeader _item12770;
+	_this = _item12770;
+	_objects pushback _this;
+	_objectIDs pushback 12770;
+	_this setPosWorld [1203.26,357.942,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Weiyuan Pun";;
+	_this setface "AsianHead_A3_05";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.02487;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12772 = objNull;
+if (_layer12304) then {
+	_item12772 = _item12771 createUnit ["O_T_Scientist_Unarmed_F",[1211.32,368.362,148.072],[],0,"CAN_COLLIDE"];
+	_item12771 selectLeader _item12772;
+	_this = _item12772;
+	_objects pushback _this;
+	_objectIDs pushback 12772;
+	_this setPosWorld [1211.32,368.412,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Zixin Jun";;
+	_this setface "AsianHead_A3_03";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.01899;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12774 = objNull;
+if (_layer12304) then {
+	_item12774 = _item12773 createUnit ["O_T_Scientist_Unarmed_F",[1244.66,378.329,148.072],[],0,"CAN_COLLIDE"];
+	_item12773 selectLeader _item12774;
+	_this = _item12774;
+	_objects pushback _this;
+	_objectIDs pushback 12774;
+	_this setPosWorld [1244.66,378.379,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Xing Meng";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.98809;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12776 = objNull;
+if (_layer12304) then {
+	_item12776 = _item12775 createUnit ["O_T_Scientist_Unarmed_F",[1250.28,372.485,148.072],[],0,"CAN_COLLIDE"];
+	_item12775 selectLeader _item12776;
+	_this = _item12776;
+	_objects pushback _this;
+	_objectIDs pushback 12776;
+	_this setPosWorld [1250.28,372.535,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Nianzu Chao";;
+	_this setface "AsianHead_A3_05";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.955869;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12778 = objNull;
+if (_layer12304) then {
+	_item12778 = _item12777 createUnit ["O_T_Scientist_Unarmed_F",[1265.4,383.214,148.072],[],0,"CAN_COLLIDE"];
+	_item12777 selectLeader _item12778;
+	_this = _item12778;
+	_objects pushback _this;
+	_objectIDs pushback 12778;
+	_this setPosWorld [1265.4,383.264,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Liu Chui";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.95524;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12780 = objNull;
+if (_layer12304) then {
+	_item12780 = _item12779 createUnit ["O_T_Scientist_Unarmed_F",[1246.82,407.959,148.072],[],0,"CAN_COLLIDE"];
+	_item12779 selectLeader _item12780;
+	_this = _item12780;
+	_objects pushback _this;
+	_objectIDs pushback 12780;
+	_this setPosWorld [1246.82,408.009,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yang Wong";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.03748;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12782 = objNull;
+if (_layer12304) then {
+	_item12782 = _item12781 createUnit ["O_T_Scientist_Unarmed_F",[1241.14,425.129,148.072],[],0,"CAN_COLLIDE"];
+	_item12781 selectLeader _item12782;
+	_this = _item12782;
+	_objects pushback _this;
+	_objectIDs pushback 12782;
+	_this setPosWorld [1241.14,425.179,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Bo Meng";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.04385;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12784 = objNull;
+if (_layer12304) then {
+	_item12784 = _item12783 createUnit ["O_T_Scientist_Unarmed_F",[1240.43,433.135,148.072],[],0,"CAN_COLLIDE"];
+	_item12783 selectLeader _item12784;
+	_this = _item12784;
+	_objects pushback _this;
+	_objectIDs pushback 12784;
+	_this setPosWorld [1240.43,433.185,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Weimin Lam";;
+	_this setface "AsianHead_A3_05";;
+	_this setspeaker "male01chi";;
+	_this setpitch 1.02291;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12786 = objNull;
+if (_layer12304) then {
+	_item12786 = _item12785 createUnit ["O_T_Scientist_Unarmed_F",[1233.2,426.092,148.072],[],0,"CAN_COLLIDE"];
+	_item12785 selectLeader _item12786;
+	_this = _item12786;
+	_objects pushback _this;
+	_objectIDs pushback 12786;
+	_this setPosWorld [1233.2,426.142,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Ru Lung";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.00717;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12788 = objNull;
+if (_layer12304) then {
+	_item12788 = _item12787 createUnit ["O_T_Scientist_Unarmed_F",[1274.04,386.365,148.072],[],0,"CAN_COLLIDE"];
+	_item12787 selectLeader _item12788;
+	_this = _item12788;
+	_objects pushback _this;
+	_objectIDs pushback 12788;
+	_this setPosWorld [1274.04,386.415,90.7133];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Zhong Chen";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.04301;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12790 = objNull;
+if (_layer12304) then {
+	_item12790 = _item12789 createUnit ["O_T_Scientist_Unarmed_F",[1291.86,398.993,148.072],[],0,"CAN_COLLIDE"];
+	_item12789 selectLeader _item12790;
+	_this = _item12790;
+	_objects pushback _this;
+	_objectIDs pushback 12790;
+	_this setPosWorld [1291.86,399.043,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Ai Lianjie";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.987275;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12792 = objNull;
+if (_layer12304) then {
+	_item12792 = _item12791 createUnit ["O_T_Scientist_Unarmed_F",[1290.89,389.827,148.072],[],0,"CAN_COLLIDE"];
+	_item12791 selectLeader _item12792;
+	_this = _item12792;
+	_objects pushback _this;
+	_objectIDs pushback 12792;
+	_this setPosWorld [1290.89,389.877,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Rong Hou";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.00708;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12794 = objNull;
+if (_layer12304) then {
+	_item12794 = _item12793 createUnit ["O_T_Scientist_Unarmed_F",[1297.23,414.682,148.072],[],0,"CAN_COLLIDE"];
+	_item12793 selectLeader _item12794;
+	_this = _item12794;
+	_objects pushback _this;
+	_objectIDs pushback 12794;
+	_this setPosWorld [1297.23,414.732,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Tao Chen";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.02703;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12796 = objNull;
+if (_layer12304) then {
+	_item12796 = _item12795 createUnit ["O_T_Scientist_Unarmed_F",[1314.62,413.934,148.072],[],0,"CAN_COLLIDE"];
+	_item12795 selectLeader _item12796;
+	_this = _item12796;
+	_objects pushback _this;
+	_objectIDs pushback 12796;
+	_this setPosWorld [1314.62,413.984,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Nianzu Tuan";;
+	_this setface "AsianHead_A3_07";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.02815;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12798 = objNull;
+if (_layer12304) then {
+	_item12798 = _item12797 createUnit ["O_T_Scientist_Unarmed_F",[1316.77,423.547,148.072],[],0,"CAN_COLLIDE"];
+	_item12797 selectLeader _item12798;
+	_this = _item12798;
+	_objects pushback _this;
+	_objectIDs pushback 12798;
+	_this setPosWorld [1316.77,423.597,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Qiu Chou";;
+	_this setface "AsianHead_A3_07";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.997682;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12800 = objNull;
+if (_layer12304) then {
+	_item12800 = _item12799 createUnit ["O_T_Scientist_Unarmed_F",[1334.39,403.498,148.072],[],0,"CAN_COLLIDE"];
+	_item12799 selectLeader _item12800;
+	_this = _item12800;
+	_objects pushback _this;
+	_objectIDs pushback 12800;
+	_this setPosWorld [1334.39,403.548,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Yang Jin";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male01chi";;
+	_this setpitch 1.0057;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12802 = objNull;
+if (_layer12304) then {
+	_item12802 = _item12801 createUnit ["O_T_Scientist_Unarmed_F",[1340.67,388.219,148.072],[],0,"CAN_COLLIDE"];
+	_item12801 selectLeader _item12802;
+	_this = _item12802;
+	_objects pushback _this;
+	_objectIDs pushback 12802;
+	_this setPosWorld [1340.67,388.269,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Hai Lianjie";;
+	_this setface "AsianHead_A3_03";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.01305;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12804 = objNull;
+if (_layer12304) then {
+	_item12804 = _item12803 createUnit ["O_T_Scientist_Unarmed_F",[1336.84,383.107,148.072],[],0,"CAN_COLLIDE"];
+	_item12803 selectLeader _item12804;
+	_this = _item12804;
+	_objects pushback _this;
+	_objectIDs pushback 12804;
+	_this setPosWorld [1336.84,383.157,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Xianliang Chen";;
+	_this setface "AsianHead_A3_05";;
+	_this setspeaker "male01chi";;
+	_this setpitch 0.970145;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12806 = objNull;
+if (_layer12304) then {
+	_item12806 = _item12805 createUnit ["O_T_Scientist_Unarmed_F",[1351.85,362.286,148.072],[],0,"CAN_COLLIDE"];
+	_item12805 selectLeader _item12806;
+	_this = _item12806;
+	_objects pushback _this;
+	_objectIDs pushback 12806;
+	_this setPosWorld [1351.85,362.336,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Qi Lu";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.00716;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12808 = objNull;
+if (_layer12304) then {
+	_item12808 = _item12807 createUnit ["O_T_Scientist_Unarmed_F",[1358.05,350.134,148.072],[],0,"CAN_COLLIDE"];
+	_item12807 selectLeader _item12808;
+	_this = _item12808;
+	_objects pushback _this;
+	_objectIDs pushback 12808;
+	_this setPosWorld [1358.05,350.184,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Weiyuan Lianjie";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.03421;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12810 = objNull;
+if (_layer12304) then {
+	_item12810 = _item12809 createUnit ["O_T_Scientist_Unarmed_F",[1364.97,343.213,148.072],[],0,"CAN_COLLIDE"];
+	_item12809 selectLeader _item12810;
+	_this = _item12810;
+	_objects pushback _this;
+	_objectIDs pushback 12810;
+	_this setPosWorld [1364.97,343.263,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Zixin Jyu";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.951117;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12812 = objNull;
+if (_layer12304) then {
+	_item12812 = _item12811 createUnit ["O_T_Scientist_Unarmed_F",[1388.32,359.226,148.072],[],0,"CAN_COLLIDE"];
+	_item12811 selectLeader _item12812;
+	_this = _item12812;
+	_objects pushback _this;
+	_objectIDs pushback 12812;
+	_this setPosWorld [1388.32,359.276,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Weiyuan Pun";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.998625;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12814 = objNull;
+if (_layer12304) then {
+	_item12814 = _item12813 createUnit ["O_T_Scientist_Unarmed_F",[1375.2,331.328,148.072],[],0,"CAN_COLLIDE"];
+	_item12813 selectLeader _item12814;
+	_this = _item12814;
+	_objects pushback _this;
+	_objectIDs pushback 12814;
+	_this setPosWorld [1375.2,331.378,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Shirong Jyu";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.0425;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12816 = objNull;
+if (_layer12304) then {
+	_item12816 = _item12815 createUnit ["O_T_Scientist_Unarmed_F",[1385.41,317.44,148.072],[],0,"CAN_COLLIDE"];
+	_item12815 selectLeader _item12816;
+	_this = _item12816;
+	_objects pushback _this;
+	_objectIDs pushback 12816;
+	_this setPosWorld [1385.41,317.49,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Hai Meng";;
+	_this setface "AsianHead_A3_03";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.01194;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12820 = objNull;
+if (_layer12304) then {
+	_item12820 = _item12819 createUnit ["O_T_Scientist_Unarmed_F",[1386.63,305.658,148.072],[],0,"CAN_COLLIDE"];
+	_item12819 selectLeader _item12820;
+	_this = _item12820;
+	_objects pushback _this;
+	_objectIDs pushback 12820;
+	_this setPosWorld [1386.63,305.708,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Tengfei Yeung";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male01chi";;
+	_this setpitch 0.968686;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12822 = objNull;
+if (_layer12304) then {
+	_item12822 = _item12821 createUnit ["O_T_Scientist_Unarmed_F",[1396.47,291.011,148.072],[],0,"CAN_COLLIDE"];
+	_item12821 selectLeader _item12822;
+	_this = _item12822;
+	_objects pushback _this;
+	_objectIDs pushback 12822;
+	_this setPosWorld [1396.47,291.061,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Tingfeng Mao";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.03176;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12824 = objNull;
+if (_layer12304) then {
+	_item12824 = _item12823 createUnit ["O_T_Scientist_Unarmed_F",[1399.48,280.269,148.072],[],0,"CAN_COLLIDE"];
+	_item12823 selectLeader _item12824;
+	_this = _item12824;
+	_objects pushback _this;
+	_objectIDs pushback 12824;
+	_this setPosWorld [1399.48,280.319,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Tingfeng Wu";;
+	_this setface "AsianHead_A3_07";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.974934;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12830 = objNull;
+if (_layer12304) then {
+	_item12830 = _item12829 createUnit ["O_T_Scientist_Unarmed_F",[1405.41,275.451,148.072],[],0,"CAN_COLLIDE"];
+	_item12829 selectLeader _item12830;
+	_this = _item12830;
+	_objects pushback _this;
+	_objectIDs pushback 12830;
+	_this setPosWorld [1405.41,275.501,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Da Mao";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.96496;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12832 = objNull;
+if (_layer12304) then {
+	_item12832 = _item12831 createUnit ["O_T_Scientist_Unarmed_F",[1412.21,268.849,148.177],[],0,"CAN_COLLIDE"];
+	_item12831 selectLeader _item12832;
+	_this = _item12832;
+	_objects pushback _this;
+	_objectIDs pushback 12832;
+	_this setPosWorld [1412.21,268.899,90.7986];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Shun Wong";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.01989;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12834 = objNull;
+if (_layer12304) then {
+	_item12834 = _item12833 createUnit ["O_T_Scientist_Unarmed_F",[1371.03,272.522,148.072],[],0,"CAN_COLLIDE"];
+	_item12833 selectLeader _item12834;
+	_this = _item12834;
+	_objects pushback _this;
+	_objectIDs pushback 12834;
+	_this setPosWorld [1371.03,272.572,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fu Mao";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.03247;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12836 = objNull;
+if (_layer12304) then {
+	_item12836 = _item12835 createUnit ["O_T_Scientist_Unarmed_F",[1368.92,289.025,148.072],[],0,"CAN_COLLIDE"];
+	_item12835 selectLeader _item12836;
+	_this = _item12836;
+	_objects pushback _this;
+	_objectIDs pushback 12836;
+	_this setPosWorld [1368.92,289.075,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Weimin Guo";;
+	_this setface "AsianHead_A3_07";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.04898;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12838 = objNull;
+if (_layer12304) then {
+	_item12838 = _item12837 createUnit ["O_T_Scientist_Unarmed_F",[1361.21,306.787,148.072],[],0,"CAN_COLLIDE"];
+	_item12837 selectLeader _item12838;
+	_this = _item12838;
+	_objects pushback _this;
+	_objectIDs pushback 12838;
+	_this setPosWorld [1361.21,306.837,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Xin Lu";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.960196;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12840 = objNull;
+if (_layer12304) then {
+	_item12840 = _item12839 createUnit ["O_T_Scientist_Unarmed_F",[1357.46,304.555,148.072],[],0,"CAN_COLLIDE"];
+	_item12839 selectLeader _item12840;
+	_this = _item12840;
+	_objects pushback _this;
+	_objectIDs pushback 12840;
+	_this setPosWorld [1357.46,304.605,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Fu Mao";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male03chi";;
+	_this setpitch 1.00084;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12842 = objNull;
+if (_layer12304) then {
+	_item12842 = _item12841 createUnit ["O_T_Scientist_Unarmed_F",[1317.51,264.907,148.072],[],0,"CAN_COLLIDE"];
+	_item12841 selectLeader _item12842;
+	_this = _item12842;
+	_objects pushback _this;
+	_objectIDs pushback 12842;
+	_this setPosWorld [1317.51,264.957,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Chao Tou";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.957074;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12844 = objNull;
+if (_layer12304) then {
+	_item12844 = _item12843 createUnit ["O_T_Scientist_Unarmed_F",[1314.41,259.147,148.072],[],0,"CAN_COLLIDE"];
+	_item12843 selectLeader _item12844;
+	_this = _item12844;
+	_objects pushback _this;
+	_objectIDs pushback 12844;
+	_this setPosWorld [1314.41,259.197,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Niu Han";;
+	_this setface "AsianHead_A3_01";;
+	_this setspeaker "male02chi";;
+	_this setpitch 1.01507;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12846 = objNull;
+if (_layer12304) then {
+	_item12846 = _item12845 createUnit ["O_T_Scientist_Unarmed_F",[1315.81,252.782,148.072],[],0,"CAN_COLLIDE"];
+	_item12845 selectLeader _item12846;
+	_this = _item12846;
+	_objects pushback _this;
+	_objectIDs pushback 12846;
+	_this setPosWorld [1315.81,252.832,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Rong Jyu";;
+	_this setface "AsianHead_A3_07";;
+	_this setspeaker "male01chi";;
+	_this setpitch 1.04671;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12848 = objNull;
+if (_layer12304) then {
+	_item12848 = _item12847 createUnit ["O_T_Scientist_Unarmed_F",[1314.87,247.026,148.072],[],0,"CAN_COLLIDE"];
+	_item12847 selectLeader _item12848;
+	_this = _item12848;
+	_objects pushback _this;
+	_objectIDs pushback 12848;
+	_this setPosWorld [1314.87,247.076,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Xiang Chou";;
+	_this setface "AsianHead_A3_06";;
+	_this setspeaker "male03chi";;
+	_this setpitch 0.991609;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12850 = objNull;
+if (_layer12304) then {
+	_item12850 = _item12849 createUnit ["O_T_Scientist_Unarmed_F",[1306.02,258.921,148.072],[],0,"CAN_COLLIDE"];
+	_item12849 selectLeader _item12850;
+	_this = _item12850;
+	_objects pushback _this;
+	_objectIDs pushback 12850;
+	_this setPosWorld [1306.02,258.971,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Shen Jun";;
+	_this setface "AsianHead_A3_04";;
+	_this setspeaker "male02chi";;
+	_this setpitch 0.957401;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12852 = objNull;
+if (_layer12304) then {
+	_item12852 = _item12851 createUnit ["O_T_Scientist_Unarmed_F",[1301.43,260.714,148.072],[],0,"CAN_COLLIDE"];
+	_item12851 selectLeader _item12852;
+	_this = _item12852;
+	_objects pushback _this;
+	_objectIDs pushback 12852;
+	_this setPosWorld [1301.43,260.764,90.6933];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setname "Nianzu Pun";;
+	_this setface "AsianHead_A3_02";;
+	_this setspeaker "male01chi";;
+	_this setpitch 1.0445;;
+	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
+	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
+	_this setVariable ['ACE_isEOD', false, true];
+	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
+	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
+};
+
+private _item12569 = objNull;
+if (_layer12304) then {
+	_item12569 = createVehicle ["UK3CB_CSAT_S_O_M2_TriPod",[1352.47,358.406,148.072],[],0,"FLY"];
+	_this = _item12569;
+	_objects pushback _this;
+	_objectIDs pushback 12569;
+	_this setPosWorld [1352.47,358.406,92.3705];
+	_this setVectorDirAndUp [[0.634437,-0.772975,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
+	[_this, 2] call ace_cargo_fnc_setSize;
+	_this setTurretLimits [ [0], -180, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, 180, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, -20, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, 70 ];
+	_this enableWeaponDisassembly true;;
+	if (false isEqualTo true) then {_this call expEden_fnc_turretAttach};
+};
+
+private _item12503 = objNull;
+if (_layer12304) then {
+	_item12503 = createVehicle ["UK3CB_CSAT_S_O_NSV",[1385.01,271.8,148.072],[],0,"FLY"];
+	_this = _item12503;
+	_objects pushback _this;
+	_objectIDs pushback 12503;
+	_this setPosWorld [1385.01,271.8,91.9984];
+	_this setVectorDirAndUp [[0.883225,0.46895,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
+	[_this, 2] call ace_cargo_fnc_setSize;
+	_this setTurretLimits [ [0], -30, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, 30, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, -15, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, 15 ];
+	_this enableWeaponDisassembly true;;
+	if (false isEqualTo true) then {_this call expEden_fnc_turretAttach};
+};
+
+private _item12450 = objNull;
+if (_layer12304) then {
+	_item12450 = createVehicle ["UK3CB_CSAT_S_O_PKM_High",[1353.27,337.525,148.072],[],0,"FLY"];
+	_this = _item12450;
+	_objects pushback _this;
+	_objectIDs pushback 12450;
+	_this setPosWorld [1353.05,338.221,90.6846];
+	_this setVectorDirAndUp [[0.643955,0.765063,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
+	[_this, 2] call ace_cargo_fnc_setSize;
+	_this setTurretLimits [ [0], -180, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, 180, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, -20, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, 40 ];
+	_this enableWeaponDisassembly true;;
+	if (false isEqualTo true) then {_this call expEden_fnc_turretAttach};
+};
+
+private _item12479 = objNull;
+if (_layer12304) then {
+	_item12479 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[1424.1,270.77,148.228],[],0,"FLY"];
+	_this = _item12479;
+	_objects pushback _this;
+	_objectIDs pushback 12479;
+	_this setPosWorld [1424.1,270.77,92.0483];
+	_this setVectorDirAndUp [[-0.709517,0.704688,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
+	[_this, 2] call ace_cargo_fnc_setSize;
+	_this setTurretLimits [ [0], -65, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, 65, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, -3, (_this getTurretLimits [0])#3 ];
+	_this setTurretLimits [ [0], (_this getTurretLimits [0])#0, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, 20 ];
+	_this enableWeaponDisassembly true;;
+	if (false isEqualTo true) then {_this call expEden_fnc_turretAttach};
 };
 
 
@@ -7828,10 +11478,715 @@ private _triggerIDs = [];
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Group attributes (applied only once group units exist)
-_this = _item11590;
+_this = _item12431;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
 	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-1"];                            } else {                                [_this, "Alpha 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12433;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-2"];                            } else {                                [_this, "Alpha 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12435;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-3"];                            } else {                                [_this, "Alpha 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12437;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-4"];                            } else {                                [_this, "Alpha 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12441;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-5"];                            } else {                                [_this, "Alpha 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12443;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-6"];                            } else {                                [_this, "Alpha 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12447;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-1"];                            } else {                                [_this, "Alpha 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12449;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-2"];                            } else {                                [_this, "Alpha 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12452;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-3"];                            } else {                                [_this, "Alpha 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12454;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-4"];                            } else {                                [_this, "Alpha 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12456;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-5"];                            } else {                                [_this, "Alpha 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12459;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-6"];                            } else {                                [_this, "Alpha 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12461;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-1"];                            } else {                                [_this, "Alpha 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12463;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-2"];                            } else {                                [_this, "Alpha 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12465;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-3"];                            } else {                                [_this, "Alpha 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12467;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-4"];                            } else {                                [_this, "Alpha 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12469;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-5"];                            } else {                                [_this, "Alpha 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12471;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-6"];                            } else {                                [_this, "Alpha 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12473;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-1"];                            } else {                                [_this, "Alpha 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12478;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-2"];                            } else {                                [_this, "Alpha 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12484;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-3"];                            } else {                                [_this, "Alpha 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12486;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-4"];                            } else {                                [_this, "Alpha 4-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12488;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-5"];                            } else {                                [_this, "Alpha 4-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12490;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-6"];                            } else {                                [_this, "Alpha 4-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12494;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-1"];                            } else {                                [_this, "Bravo 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12496;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-2"];                            } else {                                [_this, "Bravo 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12502;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-3"];                            } else {                                [_this, "Bravo 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12505;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-4"];                            } else {                                [_this, "Bravo 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12507;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-5"];                            } else {                                [_this, "Bravo 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12509;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-6"];                            } else {                                [_this, "Bravo 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12535;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-1"];                            } else {                                [_this, "Bravo 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12537;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-2"];                            } else {                                [_this, "Bravo 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12539;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-3"];                            } else {                                [_this, "Bravo 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12541;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-4"];                            } else {                                [_this, "Bravo 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12543;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-5"];                            } else {                                [_this, "Bravo 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12545;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-6"];                            } else {                                [_this, "Bravo 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12549;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-1"];                            } else {                                [_this, "Bravo 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12551;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-2"];                            } else {                                [_this, "Bravo 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12553;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-3"];                            } else {                                [_this, "Bravo 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12555;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-4"];                            } else {                                [_this, "Bravo 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12557;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-5"];                            } else {                                [_this, "Bravo 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12559;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-6"];                            } else {                                [_this, "Bravo 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12561;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-1"];                            } else {                                [_this, "Bravo 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12568;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-2"];                            } else {                                [_this, "Bravo 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12571;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-3"];                            } else {                                [_this, "Bravo 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12573;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-4"];                            } else {                                [_this, "Bravo 4-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12575;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-5"];                            } else {                                [_this, "Bravo 4-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12577;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-6"];                            } else {                                [_this, "Bravo 4-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12579;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-1"];                            } else {                                [_this, "Charlie 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12581;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-2"];                            } else {                                [_this, "Charlie 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12583;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-3"];                            } else {                                [_this, "Charlie 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12585;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-4"];                            } else {                                [_this, "Charlie 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12587;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-5"];                            } else {                                [_this, "Charlie 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12589;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-6"];                            } else {                                [_this, "Charlie 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12593;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-1"];                            } else {                                [_this, "Charlie 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12595;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-2"];                            } else {                                [_this, "Charlie 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12597;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-3"];                            } else {                                [_this, "Charlie 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12599;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-4"];                            } else {                                [_this, "Charlie 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12655;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-5"];                            } else {                                [_this, "Charlie 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12657;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-6"];                            } else {                                [_this, "Charlie 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12659;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-1"];                            } else {                                [_this, "Charlie 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12663;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-2"];                            } else {                                [_this, "Charlie 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12680;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-3"];                            } else {                                [_this, "Charlie 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12682;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-4"];                            } else {                                [_this, "Charlie 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12684;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-5"];                            } else {                                [_this, "Charlie 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12686;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-6"];                            } else {                                [_this, "Charlie 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12688;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-1"];                            } else {                                [_this, "Charlie 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12696;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-2"];                            } else {                                [_this, "Charlie 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12694;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-3"];                            } else {                                [_this, "Charlie 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12698;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-4"];                            } else {                                [_this, "Charlie 4-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12700;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-5"];                            } else {                                [_this, "Charlie 4-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12702;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-6"];                            } else {                                [_this, "Charlie 4-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12704;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-1"];                            } else {                                [_this, "Delta 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12706;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-2"];                            } else {                                [_this, "Delta 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12708;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-3"];                            } else {                                [_this, "Delta 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12710;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-4"];                            } else {                                [_this, "Delta 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12712;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-5"];                            } else {                                [_this, "Delta 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12714;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-6"];                            } else {                                [_this, "Delta 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12717;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-1"];                            } else {                                [_this, "Delta 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12719;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-2"];                            } else {                                [_this, "Delta 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12721;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-3"];                            } else {                                [_this, "Delta 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12723;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-4"];                            } else {                                [_this, "Delta 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12725;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-5"];                            } else {                                [_this, "Delta 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12727;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 2-6"];                            } else {                                [_this, "Delta 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12729;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-1"];                            } else {                                [_this, "Delta 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12731;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-2"];                            } else {                                [_this, "Delta 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12733;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-3"];                            } else {                                [_this, "Delta 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12735;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-4"];                            } else {                                [_this, "Delta 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12737;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-5"];                            } else {                                [_this, "Delta 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12739;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 3-6"];                            } else {                                [_this, "Delta 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12741;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-1"];                            } else {                                [_this, "Delta 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12743;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-2"];                            } else {                                [_this, "Delta 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12745;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-3"];                            } else {                                [_this, "Delta 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12747;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-4"];                            } else {                                [_this, "Delta 4-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12751;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-5"];                            } else {                                [_this, "Delta 4-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12753;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 4-6"];                            } else {                                [_this, "Delta 4-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12755;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-1"];                            } else {                                [_this, "Echo 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12757;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-2"];                            } else {                                [_this, "Echo 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12759;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-3"];                            } else {                                [_this, "Echo 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12761;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-4"];                            } else {                                [_this, "Echo 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12763;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-5"];                            } else {                                [_this, "Echo 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12765;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-6"];                            } else {                                [_this, "Echo 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12767;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-1"];                            } else {                                [_this, "Echo 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12769;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-2"];                            } else {                                [_this, "Echo 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12771;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-3"];                            } else {                                [_this, "Echo 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12773;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-4"];                            } else {                                [_this, "Echo 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12775;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-5"];                            } else {                                [_this, "Echo 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12777;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-6"];                            } else {                                [_this, "Echo 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12779;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-1"];                            } else {                                [_this, "Echo 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12781;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-2"];                            } else {                                [_this, "Echo 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12783;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-3"];                            } else {                                [_this, "Echo 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12785;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-4"];                            } else {                                [_this, "Echo 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12787;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-5"];                            } else {                                [_this, "Echo 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12789;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-6"];                            } else {                                [_this, "Echo 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12791;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-1"];                            } else {                                [_this, "Echo 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12793;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-2"];                            } else {                                [_this, "Echo 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12795;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-3"];                            } else {                                [_this, "Echo 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12797;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-4"];                            } else {                                [_this, "Echo 4-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12799;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-5"];                            } else {                                [_this, "Echo 4-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12801;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-6"];                            } else {                                [_this, "Echo 4-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12803;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-1"];                            } else {                                [_this, "Foxtrot 1-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12805;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-2"];                            } else {                                [_this, "Foxtrot 1-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12807;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-3"];                            } else {                                [_this, "Foxtrot 1-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12809;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-4"];                            } else {                                [_this, "Foxtrot 1-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12811;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-5"];                            } else {                                [_this, "Foxtrot 1-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12813;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-6"];                            } else {                                [_this, "Foxtrot 1-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12815;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-1"];                            } else {                                [_this, "Foxtrot 2-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12819;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-2"];                            } else {                                [_this, "Foxtrot 2-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12821;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-3"];                            } else {                                [_this, "Foxtrot 2-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12823;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-4"];                            } else {                                [_this, "Foxtrot 2-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12829;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-5"];                            } else {                                [_this, "Foxtrot 2-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12831;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-6"];                            } else {                                [_this, "Foxtrot 2-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12833;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-1"];                            } else {                                [_this, "Foxtrot 3-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12835;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-2"];                            } else {                                [_this, "Foxtrot 3-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12837;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-3"];                            } else {                                [_this, "Foxtrot 3-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12839;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-4"];                            } else {                                [_this, "Foxtrot 3-4"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12841;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-5"];                            } else {                                [_this, "Foxtrot 3-5"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12843;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-6"];                            } else {                                [_this, "Foxtrot 3-6"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12845;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-1"];                            } else {                                [_this, "Foxtrot 4-1"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12847;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-2"];                            } else {                                [_this, "Foxtrot 4-2"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12849;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-3"];                            } else {                                [_this, "Foxtrot 4-3"] call CBA_fnc_setCallsign;                            };;
+};
+_this = _item12851;
+if !(units _this isEqualTo []) then {
+	[_this,0] setWaypointPosition [position leader _this,0];
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-4"];                            } else {                                [_this, "Foxtrot 4-4"] call CBA_fnc_setCallsign;                            };;
 };
 
 
@@ -7846,36 +12201,27 @@ private _waypointIDs = [];
 private _logics = [];
 private _logicIDs = [];
 
-private _item11592 = objNull;
-if (_layer11588 && _layer11593) then {
-	_item11592 = (group (missionNamespace getvariable ["BIS_functions_mainscope",objnull])) createUnit ["ModuleCurator_F",[1552.91,414.524,149.043],[],0,"CAN_COLLIDE"];
-	_this = _item11592;
-	_logics pushback _this;
-	_logicIDs pushback 11592;
-	_this setPosWorld [1552.91,414.524,91.6633];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setVariable ['Owner',"z1",true];;
-	_this setVariable ['Name',"",true];;
-	_this setVariable ['Addons',3,true];;
-	_this setVariable ['Forced',0,true];;
-	_this setvariable ["BIS_fnc_initModules_disableAutoActivation",true];
-};
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Layers
-if (_layer11589) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Stock_1",[[_item11591],[]]];};
-if (_layer11588) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Stock",[[_item11591,_item11592],[]]];};
-if (_layer11593) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Stock",[[_item11591,_item11592],[]]];};
-if (_layer10971) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_All other Structures",[[_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11012,_item11013,_item11014,_item11015,_item11016,_item11017,_item11018,_item11019,_item11020,_item11021,_item11022,_item11023,_item11024,_item11025,_item11026,_item11027,_item11028,_item11029,_item11030,_item11031,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11062,_item11063,_item11064,_item11065,_item11066,_item11067,_item11068,_item11069,_item11070,_item11071,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11210,_item11211,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11240,_item11241,_item11242,_item11243,_item11244,_item11245,_item11246,_item11247,_item11248,_item11249,_item11250,_item11251,_item11252,_item11253,_item11254,_item11255,_item11256,_item11257,_item11258,_item11259,_item11260,_item11261,_item11262,_item11263,_item11264,_item11265,_item11266,_item11267,_item11268,_item11269,_item11270,_item11271,_item11272,_item11273,_item11274,_item11275,_item11276,_item11277,_item11278,_item11279,_item11280,_item11281,_item11282,_item11283,_item11284,_item11285,_item11286,_item11287,_item11288,_item11289,_item11290,_item11291,_item11292,_item11293,_item11294,_item11295,_item11296,_item11297,_item11298,_item11299,_item11300,_item11301,_item11302,_item11303,_item11304,_item11305,_item11306,_item11307,_item11308,_item11309,_item11310,_item11311,_item11312,_item11313,_item11314,_item11315,_item11316,_item11317,_item11318,_item11319,_item11320,_item11321,_item11322,_item11323,_item11324,_item11325,_item11326,_item11327,_item11328,_item11329,_item11330,_item11331,_item11332,_item11333,_item11334,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11474,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584],[]]];};
-if (_layer10960) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Teleporter Do not Delete",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970],[]]];};
-if (_layer10958) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_[L] Very big Mine_1",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11012,_item11013,_item11014,_item11015,_item11016,_item11017,_item11018,_item11019,_item11020,_item11021,_item11022,_item11023,_item11024,_item11025,_item11026,_item11027,_item11028,_item11029,_item11030,_item11031,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11062,_item11063,_item11064,_item11065,_item11066,_item11067,_item11068,_item11069,_item11070,_item11071,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11210,_item11211,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11240,_item11241,_item11242,_item11243,_item11244,_item11245,_item11246,_item11247,_item11248,_item11249,_item11250,_item11251,_item11252,_item11253,_item11254,_item11255,_item11256,_item11257,_item11258,_item11259,_item11260,_item11261,_item11262,_item11263,_item11264,_item11265,_item11266,_item11267,_item11268,_item11269,_item11270,_item11271,_item11272,_item11273,_item11274,_item11275,_item11276,_item11277,_item11278,_item11279,_item11280,_item11281,_item11282,_item11283,_item11284,_item11285,_item11286,_item11287,_item11288,_item11289,_item11290,_item11291,_item11292,_item11293,_item11294,_item11295,_item11296,_item11297,_item11298,_item11299,_item11300,_item11301,_item11302,_item11303,_item11304,_item11305,_item11306,_item11307,_item11308,_item11309,_item11310,_item11311,_item11312,_item11313,_item11314,_item11315,_item11316,_item11317,_item11318,_item11319,_item11320,_item11321,_item11322,_item11323,_item11324,_item11325,_item11326,_item11327,_item11328,_item11329,_item11330,_item11331,_item11332,_item11333,_item11334,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11474,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584],[]]];};
-if (_layer10957) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_[L] Very Big Mine",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11012,_item11013,_item11014,_item11015,_item11016,_item11017,_item11018,_item11019,_item11020,_item11021,_item11022,_item11023,_item11024,_item11025,_item11026,_item11027,_item11028,_item11029,_item11030,_item11031,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11062,_item11063,_item11064,_item11065,_item11066,_item11067,_item11068,_item11069,_item11070,_item11071,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11210,_item11211,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11240,_item11241,_item11242,_item11243,_item11244,_item11245,_item11246,_item11247,_item11248,_item11249,_item11250,_item11251,_item11252,_item11253,_item11254,_item11255,_item11256,_item11257,_item11258,_item11259,_item11260,_item11261,_item11262,_item11263,_item11264,_item11265,_item11266,_item11267,_item11268,_item11269,_item11270,_item11271,_item11272,_item11273,_item11274,_item11275,_item11276,_item11277,_item11278,_item11279,_item11280,_item11281,_item11282,_item11283,_item11284,_item11285,_item11286,_item11287,_item11288,_item11289,_item11290,_item11291,_item11292,_item11293,_item11294,_item11295,_item11296,_item11297,_item11298,_item11299,_item11300,_item11301,_item11302,_item11303,_item11304,_item11305,_item11306,_item11307,_item11308,_item11309,_item11310,_item11311,_item11312,_item11313,_item11314,_item11315,_item11316,_item11317,_item11318,_item11319,_item11320,_item11321,_item11322,_item11323,_item11324,_item11325,_item11326,_item11327,_item11328,_item11329,_item11330,_item11331,_item11332,_item11333,_item11334,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11474,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584],[]]];};
-if (_layer11585) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Big Mine Smaller",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11012,_item11013,_item11014,_item11015,_item11016,_item11017,_item11018,_item11019,_item11020,_item11021,_item11022,_item11023,_item11024,_item11025,_item11026,_item11027,_item11028,_item11029,_item11030,_item11031,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11062,_item11063,_item11064,_item11065,_item11066,_item11067,_item11068,_item11069,_item11070,_item11071,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11210,_item11211,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11240,_item11241,_item11242,_item11243,_item11244,_item11245,_item11246,_item11247,_item11248,_item11249,_item11250,_item11251,_item11252,_item11253,_item11254,_item11255,_item11256,_item11257,_item11258,_item11259,_item11260,_item11261,_item11262,_item11263,_item11264,_item11265,_item11266,_item11267,_item11268,_item11269,_item11270,_item11271,_item11272,_item11273,_item11274,_item11275,_item11276,_item11277,_item11278,_item11279,_item11280,_item11281,_item11282,_item11283,_item11284,_item11285,_item11286,_item11287,_item11288,_item11289,_item11290,_item11291,_item11292,_item11293,_item11294,_item11295,_item11296,_item11297,_item11298,_item11299,_item11300,_item11301,_item11302,_item11303,_item11304,_item11305,_item11306,_item11307,_item11308,_item11309,_item11310,_item11311,_item11312,_item11313,_item11314,_item11315,_item11316,_item11317,_item11318,_item11319,_item11320,_item11321,_item11322,_item11323,_item11324,_item11325,_item11326,_item11327,_item11328,_item11329,_item11330,_item11331,_item11332,_item11333,_item11334,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11474,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584],[]]];};
+if (_layer12304) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item12432,_item12434,_item12436,_item12438,_item12442,_item12444,_item12448,_item12451,_item12453,_item12455,_item12458,_item12460,_item12462,_item12464,_item12466,_item12468,_item12470,_item12472,_item12474,_item12480,_item12485,_item12487,_item12489,_item12491,_item12495,_item12497,_item12504,_item12506,_item12508,_item12510,_item12536,_item12538,_item12540,_item12542,_item12544,_item12546,_item12550,_item12552,_item12554,_item12556,_item12558,_item12560,_item12562,_item12570,_item12572,_item12574,_item12576,_item12578,_item12580,_item12582,_item12584,_item12586,_item12588,_item12590,_item12594,_item12596,_item12598,_item12600,_item12656,_item12658,_item12660,_item12664,_item12681,_item12683,_item12685,_item12687,_item12689,_item12697,_item12695,_item12699,_item12701,_item12703,_item12705,_item12707,_item12709,_item12711,_item12713,_item12715,_item12718,_item12720,_item12722,_item12724,_item12726,_item12728,_item12730,_item12732,_item12734,_item12736,_item12738,_item12740,_item12742,_item12744,_item12746,_item12748,_item12752,_item12754,_item12457,_item12756,_item12758,_item12760,_item12762,_item12764,_item12766,_item12768,_item12770,_item12772,_item12774,_item12776,_item12778,_item12780,_item12782,_item12784,_item12786,_item12788,_item12790,_item12792,_item12794,_item12796,_item12798,_item12800,_item12802,_item12804,_item12806,_item12808,_item12810,_item12812,_item12814,_item12816,_item12820,_item12822,_item12824,_item12830,_item12832,_item12834,_item12836,_item12838,_item12840,_item12842,_item12844,_item12846,_item12848,_item12850,_item12852,_item12569,_item12503,_item12450,_item12479],[]]];};
+if (_layer12602) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Command Point Vic",[[_item12631,_item12632,_item12633,_item12634,_item12635,_item12636,_item12637,_item12638,_item12639,_item12640,_item12641,_item12642,_item12643,_item12644,_item12645,_item12646,_item12647,_item12648,_item12649,_item12650,_item12651,_item12652,_item12653,_item12654],[]]];};
+if (_layer12601) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Command Vehicle",[[_item12631,_item12632,_item12633,_item12634,_item12635,_item12636,_item12637,_item12638,_item12639,_item12640,_item12641,_item12642,_item12643,_item12644,_item12645,_item12646,_item12647,_item12648,_item12649,_item12650,_item12651,_item12652,_item12653,_item12654],[]]];};
+if (_layer12630) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Shipping Container Command",[[_item12631,_item12632,_item12633,_item12634,_item12635,_item12636,_item12637,_item12638,_item12639,_item12640,_item12641,_item12642,_item12643,_item12644,_item12645,_item12646,_item12647,_item12648,_item12649,_item12650,_item12651,_item12652,_item12653,_item12654],[]]];};
+if (_layer12669) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Mine Utilities",[[_item12665,_item12522,_item12528,_item12532,_item12529,_item12533,_item12667,_item12671,_item12672,_item12673,_item12675,_item12679,_item12716,_item12676,_item12677,_item12678],[]]];};
+if (_layer10960) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Teleporter Do not Delete",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item12302,_item12303],[]]];};
+if (_layer12297) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Base Platform",[[_item11619,_item11621,_item11622,_item11624,_item11625,_item12256,_item12257,_item12258,_item12259,_item12260,_item12261,_item12278,_item12279,_item12280,_item12281,_item12282,_item12283,_item12284,_item12285,_item12286,_item12287,_item12288,_item12289,_item12290,_item12291,_item12292,_item12293,_item12294,_item12295,_item12296],[]]];};
+if (_layer10971) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_All other Structures",[[_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11064,_item11065,_item11066,_item11067,_item11069,_item11070,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584,_item12348],[]]];};
+if (_layer11585) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Big Mine Smaller",[[_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11064,_item11065,_item11066,_item11067,_item11069,_item11070,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584,_item12348,_item11619,_item11621,_item11622,_item11624,_item11625,_item12256,_item12257,_item12258,_item12259,_item12260,_item12261,_item12278,_item12279,_item12280,_item12281,_item12282,_item12283,_item12284,_item12285,_item12286,_item12287,_item12288,_item12289,_item12290,_item12291,_item12292,_item12293,_item12294,_item12295,_item12296,_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item12302,_item12303,_item12665,_item12522,_item12528,_item12532,_item12529,_item12533,_item12667,_item12671,_item12672,_item12673,_item12675,_item12679,_item12716,_item12676,_item12677,_item12678,_item12631,_item12632,_item12633,_item12634,_item12635,_item12636,_item12637,_item12638,_item12639,_item12640,_item12641,_item12642,_item12643,_item12644,_item12645,_item12646,_item12647,_item12648,_item12649,_item12650,_item12651,_item12652,_item12653,_item12654],[]]];};
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Crews
+if (!isNull _item12458 && !isNull _item12457) then {_item12458 moveInTurret [_item12457,[0]];};
+if (!isNull _item12570 && !isNull _item12569) then {_item12570 moveInTurret [_item12569,[0]];};
+if (!isNull _item12504 && !isNull _item12503) then {_item12504 moveInTurret [_item12503,[0]];};
+if (!isNull _item12451 && !isNull _item12450) then {_item12451 moveInTurret [_item12450,[0]];};
+if (!isNull _item12480 && !isNull _item12479) then {_item12480 moveInTurret [_item12479,[0]];};
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -7889,98 +12235,6 @@ if (_layer11585) then {missionNamespace setVariable ["Operation%20Aperture%20Inv
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Inits (executed only once all entities exist; isNil used to ensure non-scheduled environment)
 isNil {
-	if !(isnull _item10961) then {
-		this = _item10961;
-		publicVariable "UG_Entrance_A";
-this addAction [ 
- "Enter", { 
-  1 cutText [ 
-   "", "BLACK OUT", 1 
-  ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Exit_A_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
-  1 cutText [ 
-   "", "BLACK IN", 1 
-  ]; 
- }, 
- nil, 1.5, true, true, "", "true", 5, false, "", "" 
-]; ;
-	};
-	if !(isnull _item10962) then {
-		this = _item10962;
-		publicVariable "UG_Entrance_A_Pos";;
-	};
-	if !(isnull _item10965) then {
-		this = _item10965;
-		publicVariable "UG_Entrance_B";
-this addAction [ 
- "Enter", { 
-  1 cutText [ 
-   "", "BLACK OUT", 1 
-  ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Exit_B_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
-  1 cutText [ 
-   "", "BLACK IN", 1 
-  ]; 
- }, 
- nil, 1.5, true, true, "", "true", 5, false, "", "" 
-]; ;
-	};
-	if !(isnull _item10966) then {
-		this = _item10966;
-		publicVariable "UG_Exit_A";
-this addAction [ 
- "Enter", { 
-  1 cutText [ 
-   "", "BLACK OUT", 1 
-  ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Entrance_A_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
-  1 cutText [ 
-   "", "BLACK IN", 1 
-  ]; 
- }, 
- nil, 1.5, true, true, "", "true", 5, false, "", "" 
-]; ;
-	};
-	if !(isnull _item10967) then {
-		this = _item10967;
-		publicVariable "UG_Exit_B";
-this addAction [ 
- "Enter", { 
-  1 cutText [ 
-   "", "BLACK OUT", 1 
-  ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Entrance_B_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
-  1 cutText [ 
-   "", "BLACK IN", 1 
-  ]; 
- }, 
- nil, 1.5, true, true, "", "true", 5, false, "", "" 
-]; ;
-	};
-	if !(isnull _item10968) then {
-		this = _item10968;
-		publicVariable "UG_Entrance_B_Pos";;
-	};
-	if !(isnull _item10969) then {
-		this = _item10969;
-		publicVariable "UG_Exit_A_Pos";;
-	};
-	if !(isnull _item10970) then {
-		this = _item10970;
-		publicVariable "UG_Exit_B_Pos";;
-	};
 	if !(isnull _item10972) then {
 		this = _item10972;
 		ug_cleanup pushBack this;;
@@ -8141,86 +12395,6 @@ this addAction [
 		this = _item11011;
 		ug_cleanup pushBack this;;
 	};
-	if !(isnull _item11012) then {
-		this = _item11012;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11013) then {
-		this = _item11013;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11014) then {
-		this = _item11014;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11015) then {
-		this = _item11015;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11016) then {
-		this = _item11016;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11017) then {
-		this = _item11017;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11018) then {
-		this = _item11018;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11019) then {
-		this = _item11019;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11020) then {
-		this = _item11020;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11021) then {
-		this = _item11021;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11022) then {
-		this = _item11022;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11023) then {
-		this = _item11023;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11024) then {
-		this = _item11024;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11025) then {
-		this = _item11025;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11026) then {
-		this = _item11026;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11027) then {
-		this = _item11027;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11028) then {
-		this = _item11028;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11029) then {
-		this = _item11029;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11030) then {
-		this = _item11030;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11031) then {
-		this = _item11031;
-		ug_cleanup pushBack this;;
-	};
 	if !(isnull _item11032) then {
 		this = _item11032;
 		ug_cleanup pushBack this;;
@@ -8341,14 +12515,6 @@ this addAction [
 		this = _item11061;
 		ug_cleanup pushBack this;;
 	};
-	if !(isnull _item11062) then {
-		this = _item11062;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11063) then {
-		this = _item11063;
-		ug_cleanup pushBack this;;
-	};
 	if !(isnull _item11064) then {
 		this = _item11064;
 		ug_cleanup pushBack this;;
@@ -8365,20 +12531,12 @@ this addAction [
 		this = _item11067;
 		ug_cleanup pushBack this;;
 	};
-	if !(isnull _item11068) then {
-		this = _item11068;
-		ug_cleanup pushBack this;;
-	};
 	if !(isnull _item11069) then {
 		this = _item11069;
 		ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11070) then {
 		this = _item11070;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11071) then {
-		this = _item11071;
 		ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11072) then {
@@ -8403,6 +12561,226 @@ this addAction [
 	};
 	if !(isnull _item11077) then {
 		this = _item11077;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11078) then {
+		this = _item11078;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11079) then {
+		this = _item11079;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11080) then {
+		this = _item11080;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11081) then {
+		this = _item11081;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11082) then {
+		this = _item11082;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11083) then {
+		this = _item11083;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11084) then {
+		this = _item11084;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11085) then {
+		this = _item11085;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11086) then {
+		this = _item11086;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11087) then {
+		this = _item11087;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11088) then {
+		this = _item11088;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11089) then {
+		this = _item11089;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11090) then {
+		this = _item11090;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11091) then {
+		this = _item11091;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11092) then {
+		this = _item11092;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11093) then {
+		this = _item11093;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11094) then {
+		this = _item11094;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11095) then {
+		this = _item11095;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11096) then {
+		this = _item11096;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11097) then {
+		this = _item11097;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11098) then {
+		this = _item11098;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11099) then {
+		this = _item11099;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11100) then {
+		this = _item11100;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11101) then {
+		this = _item11101;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11102) then {
+		this = _item11102;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11103) then {
+		this = _item11103;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11104) then {
+		this = _item11104;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11105) then {
+		this = _item11105;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11106) then {
+		this = _item11106;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11107) then {
+		this = _item11107;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11108) then {
+		this = _item11108;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11109) then {
+		this = _item11109;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11110) then {
+		this = _item11110;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11111) then {
+		this = _item11111;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11112) then {
+		this = _item11112;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11113) then {
+		this = _item11113;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11114) then {
+		this = _item11114;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11115) then {
+		this = _item11115;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11116) then {
+		this = _item11116;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11117) then {
+		this = _item11117;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11118) then {
+		this = _item11118;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11119) then {
+		this = _item11119;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11120) then {
+		this = _item11120;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11121) then {
+		this = _item11121;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11122) then {
+		this = _item11122;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11123) then {
+		this = _item11123;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11124) then {
+		this = _item11124;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11125) then {
+		this = _item11125;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11126) then {
+		this = _item11126;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11127) then {
+		this = _item11127;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11128) then {
+		this = _item11128;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11129) then {
+		this = _item11129;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11130) then {
+		this = _item11130;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11131) then {
+		this = _item11131;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11132) then {
+		this = _item11132;
 		ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11133) then {
@@ -8713,14 +13091,6 @@ this addAction [
 		this = _item11209;
 		ug_cleanup pushBack this;;
 	};
-	if !(isnull _item11210) then {
-		this = _item11210;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11211) then {
-		this = _item11211;
-		ug_cleanup pushBack this;;
-	};
 	if !(isnull _item11212) then {
 		this = _item11212;
 		ug_cleanup pushBack this;;
@@ -8831,386 +13201,6 @@ this addAction [
 	};
 	if !(isnull _item11239) then {
 		this = _item11239;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11240) then {
-		this = _item11240;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11241) then {
-		this = _item11241;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11242) then {
-		this = _item11242;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11243) then {
-		this = _item11243;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11244) then {
-		this = _item11244;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11245) then {
-		this = _item11245;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11246) then {
-		this = _item11246;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11247) then {
-		this = _item11247;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11248) then {
-		this = _item11248;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11249) then {
-		this = _item11249;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11250) then {
-		this = _item11250;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11251) then {
-		this = _item11251;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11252) then {
-		this = _item11252;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11253) then {
-		this = _item11253;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11254) then {
-		this = _item11254;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11255) then {
-		this = _item11255;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11256) then {
-		this = _item11256;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11257) then {
-		this = _item11257;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11258) then {
-		this = _item11258;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11259) then {
-		this = _item11259;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11260) then {
-		this = _item11260;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11261) then {
-		this = _item11261;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11262) then {
-		this = _item11262;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11263) then {
-		this = _item11263;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11264) then {
-		this = _item11264;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11265) then {
-		this = _item11265;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11266) then {
-		this = _item11266;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11267) then {
-		this = _item11267;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11268) then {
-		this = _item11268;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11269) then {
-		this = _item11269;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11270) then {
-		this = _item11270;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11271) then {
-		this = _item11271;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11272) then {
-		this = _item11272;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11273) then {
-		this = _item11273;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11274) then {
-		this = _item11274;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11275) then {
-		this = _item11275;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11276) then {
-		this = _item11276;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11277) then {
-		this = _item11277;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11278) then {
-		this = _item11278;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11279) then {
-		this = _item11279;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11280) then {
-		this = _item11280;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11281) then {
-		this = _item11281;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11282) then {
-		this = _item11282;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11283) then {
-		this = _item11283;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11284) then {
-		this = _item11284;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11285) then {
-		this = _item11285;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11286) then {
-		this = _item11286;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11287) then {
-		this = _item11287;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11288) then {
-		this = _item11288;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11289) then {
-		this = _item11289;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11290) then {
-		this = _item11290;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11291) then {
-		this = _item11291;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11292) then {
-		this = _item11292;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11293) then {
-		this = _item11293;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11294) then {
-		this = _item11294;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11295) then {
-		this = _item11295;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11296) then {
-		this = _item11296;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11297) then {
-		this = _item11297;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11298) then {
-		this = _item11298;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11299) then {
-		this = _item11299;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11300) then {
-		this = _item11300;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11301) then {
-		this = _item11301;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11302) then {
-		this = _item11302;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11303) then {
-		this = _item11303;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11304) then {
-		this = _item11304;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11305) then {
-		this = _item11305;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11306) then {
-		this = _item11306;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11307) then {
-		this = _item11307;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11308) then {
-		this = _item11308;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11309) then {
-		this = _item11309;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11310) then {
-		this = _item11310;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11311) then {
-		this = _item11311;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11312) then {
-		this = _item11312;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11313) then {
-		this = _item11313;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11314) then {
-		this = _item11314;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11315) then {
-		this = _item11315;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11316) then {
-		this = _item11316;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11317) then {
-		this = _item11317;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11318) then {
-		this = _item11318;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11319) then {
-		this = _item11319;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11320) then {
-		this = _item11320;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11321) then {
-		this = _item11321;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11322) then {
-		this = _item11322;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11323) then {
-		this = _item11323;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11324) then {
-		this = _item11324;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11325) then {
-		this = _item11325;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11326) then {
-		this = _item11326;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11327) then {
-		this = _item11327;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11328) then {
-		this = _item11328;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11329) then {
-		this = _item11329;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11330) then {
-		this = _item11330;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11331) then {
-		this = _item11331;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11332) then {
-		this = _item11332;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11333) then {
-		this = _item11333;
-		ug_cleanup pushBack this;;
-	};
-	if !(isnull _item11334) then {
-		this = _item11334;
 		ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11335) then {
@@ -9753,6 +13743,10 @@ this addAction [
 		this = _item11469;
 		ug_cleanup pushBack this;;
 	};
+	if !(isnull _item11470) then {
+		this = _item11470;
+		ug_cleanup pushBack this;;
+	};
 	if !(isnull _item11471) then {
 		this = _item11471;
 		ug_cleanup pushBack this;;
@@ -9765,10 +13759,6 @@ this addAction [
 		this = _item11473;
 		ug_cleanup pushBack this;;
 	};
-	if !(isnull _item11474) then {
-		this = _item11474;
-		ug_cleanup pushBack this;;
-	};
 	if !(isnull _item11475) then {
 		this = _item11475;
 		ug_cleanup pushBack this;;
@@ -9779,6 +13769,10 @@ this addAction [
 	};
 	if !(isnull _item11477) then {
 		this = _item11477;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11478) then {
+		this = _item11478;
 		ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11479) then {
@@ -10173,48 +14167,830 @@ this addAction [
 		this = _item11576;
 		ug_cleanup pushBack this;;
 	};
+	if !(isnull _item11577) then {
+		this = _item11577;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11578) then {
+		this = _item11578;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11579) then {
+		this = _item11579;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11580) then {
+		this = _item11580;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11581) then {
+		this = _item11581;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11582) then {
+		this = _item11582;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11583) then {
+		this = _item11583;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item11584) then {
+		this = _item11584;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12348) then {
+		this = _item12348;
+		ug_cleanup pushBack this;;
+	};
 	if !(isnull _item11619) then {
 		this = _item11619;
-		this setObjectScale 7;;
-	};
-	if !(isnull _item11620) then {
-		this = _item11620;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11621) then {
 		this = _item11621;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11622) then {
 		this = _item11622;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11624) then {
 		this = _item11624;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item11625) then {
 		this = _item11625;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item12256) then {
 		this = _item12256;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item12257) then {
 		this = _item12257;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
 	};
 	if !(isnull _item12258) then {
 		this = _item12258;
-		this setObjectScale 7;;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12259) then {
+		this = _item12259;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12260) then {
+		this = _item12260;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12261) then {
+		this = _item12261;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12278) then {
+		this = _item12278;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12279) then {
+		this = _item12279;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12280) then {
+		this = _item12280;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12281) then {
+		this = _item12281;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12282) then {
+		this = _item12282;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12283) then {
+		this = _item12283;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12284) then {
+		this = _item12284;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12285) then {
+		this = _item12285;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12286) then {
+		this = _item12286;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12287) then {
+		this = _item12287;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12288) then {
+		this = _item12288;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12289) then {
+		this = _item12289;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12290) then {
+		this = _item12290;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12291) then {
+		this = _item12291;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12292) then {
+		this = _item12292;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12293) then {
+		this = _item12293;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12294) then {
+		this = _item12294;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12295) then {
+		this = _item12295;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12296) then {
+		this = _item12296;
+		this setObjectScale 6;
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item10961) then {
+		this = _item10961;
+		publicVariable "UG_Entrance_A";
+this addAction [ 
+ "Enter", { 
+  1 cutText [ 
+   "", "BLACK OUT", 1 
+  ];    
+  sleep 2; 
+  player setPosASL (getPosASL UG_Exit_A_Pos);    
+  player setDir 180;   
+  sleep 0.5;     
+  1 cutText [ 
+   "", "BLACK IN", 1 
+  ]; 
+ }, 
+ nil, 1.5, true, true, "", "true", 5, false, "", "" 
+]; ;
+	};
+	if !(isnull _item10962) then {
+		this = _item10962;
+		publicVariable "UG_Entrance_A_Pos";;
+	};
+	if !(isnull _item10965) then {
+		this = _item10965;
+		publicVariable "UG_Entrance_B";
+this addAction [ 
+ "Enter", { 
+  1 cutText [ 
+   "", "BLACK OUT", 1 
+  ];    
+  sleep 2; 
+  player setPosASL (getPosASL UG_Exit_B_Pos);    
+  player setDir 180;   
+  sleep 0.5;     
+  1 cutText [ 
+   "", "BLACK IN", 1 
+  ]; 
+ }, 
+ nil, 1.5, true, true, "", "true", 5, false, "", "" 
+]; ;
+	};
+	if !(isnull _item10966) then {
+		this = _item10966;
+		publicVariable "UG_Exit_A";
+this addAction [ 
+ "Enter", { 
+  1 cutText [ 
+   "", "BLACK OUT", 1 
+  ];    
+  sleep 2; 
+  player setPosASL (getPosASL UG_Entrance_A_Pos);    
+  player setDir 180;   
+  sleep 0.5;     
+  1 cutText [ 
+   "", "BLACK IN", 1 
+  ]; 
+ }, 
+ nil, 1.5, true, true, "", "true", 5, false, "", "" 
+]; ;
+	};
+	if !(isnull _item10967) then {
+		this = _item10967;
+		publicVariable "UG_Exit_B";
+this addAction [ 
+ "Enter", { 
+  1 cutText [ 
+   "", "BLACK OUT", 1 
+  ];    
+  sleep 2; 
+  player setPosASL (getPosASL UG_Entrance_B_Pos);    
+  player setDir 180;   
+  sleep 0.5;     
+  1 cutText [ 
+   "", "BLACK IN", 1 
+  ]; 
+ }, 
+ nil, 1.5, true, true, "", "true", 5, false, "", "" 
+]; ;
+	};
+	if !(isnull _item10968) then {
+		this = _item10968;
+		publicVariable "UG_Entrance_B_Pos";;
+	};
+	if !(isnull _item10969) then {
+		this = _item10969;
+		publicVariable "UG_Exit_A_Pos";;
+	};
+	if !(isnull _item10970) then {
+		this = _item10970;
+		publicVariable "UG_Exit_B_Pos";;
+	};
+	if !(isnull _item12665) then {
+		this = _item12665;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12522) then {
+		this = _item12522;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12528) then {
+		this = _item12528;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12532) then {
+		this = _item12532;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12529) then {
+		this = _item12529;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12533) then {
+		this = _item12533;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12667) then {
+		this = _item12667;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12671) then {
+		this = _item12671;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12672) then {
+		this = _item12672;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12673) then {
+		this = _item12673;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12675) then {
+		this = _item12675;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12679) then {
+		this = _item12679;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12716) then {
+		this = _item12716;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12676) then {
+		this = _item12676;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12677) then {
+		this = _item12677;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12678) then {
+		this = _item12678;
+		ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12631) then {
+		this = _item12631;
+		call{this attachTo [Command,[0.939453,2.94604,-0.1148443]]; this setDir 90;};
+	};
+	if !(isnull _item12632) then {
+		this = _item12632;
+		call{this attachTo [Command,[0.94873,0.494873,0.162033]]; this setDir 90;};
+	};
+	if !(isnull _item12633) then {
+		this = _item12633;
+		call{this attachTo [Command,[0.961426,-0.0700684,0.162033]]; this setDir 90;};
+	};
+	if !(isnull _item12634) then {
+		this = _item12634;
+		call{this attachTo [Command,[0.891602,-0.675049,0.162033]]; this setDir 115;};
+	};
+	if !(isnull _item12635) then {
+		this = _item12635;
+		call{this attachTo [Command,[0.97168,3.33105,0.070118]]; this setDir 215;};
+ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12636) then {
+		this = _item12636;
+		call{this attachTo [Command,[0.242676,3.17236,-0.2148443]]; this setDir 360;};
+	};
+	if !(isnull _item12637) then {
+		this = _item12637;
+		call{this attachTo [Command,[0.632813,3.1333,-0.2248443]]; this setDir 90;};
+	};
+	if !(isnull _item12638) then {
+		this = _item12638;
+		call{this attachTo [Command,[0.614746,3.10962,-0.2048443]]; this setDir 360;};
+	};
+	if !(isnull _item12639) then {
+		this = _item12639;
+		call{this attachTo [Command,[0.697754,0.950928,-0.1987242]]; this setDir 90;};
+	};
+	if !(isnull _item12640) then {
+		this = _item12640;
+		call{this attachTo [Command,[0.960449,1.87891,-0.1148443]]; this setDir 90;};
+	};
+	if !(isnull _item12641) then {
+		this = _item12641;
+		call{this attachTo [Command,[0.628418,-0.393066,-0.2378882]]; this setDir 270;};
+	};
+	if !(isnull _item12642) then {
+		this = _item12642;
+		call{this attachTo [Command,[-0.29834,1.95239,-0.664931]]; this setDir 240;}; ug_cleanup pushBack this;;
+	};
+	if !(isnull _item12643) then {
+		this = _item12643;
+		call{this attachTo [Command,[0.105469,0.779541,-0.664931]]; this setDir 270;};
+	};
+	if !(isnull _item12644) then {
+		this = _item12644;
+		call{this attachTo [Command,[-0.834473,3.23608,-0.08]]; this setDir 330;};
+	};
+	if !(isnull _item12645) then {
+		this = _item12645;
+		call{this attachTo [Command,[0.050293,3.99194,-0.0507817]]; this setDir 180;};
+	};
+	if !(isnull _item12646) then {
+		this = _item12646;
+		call{this attachTo [Command,[0.910156,2.44434,0]]; this setDir 90;};
+	};
+	if !(isnull _item12647) then {
+		this = _item12647;
+		call{this attachTo [Command,[0.960449,1.37207,0]]; this setDir 90;};
+	};
+	if !(isnull _item12648) then {
+		this = _item12648;
+		call{this attachTo [Command,[0.133301,3.37109,-0.680059]]; this setDir 360;};
+	};
+	if !(isnull _item12649) then {
+		this = _item12649;
+		call{this attachTo [Command,[0.838867,2.56689,-0.680059]]; this setDir 90;};
+	};
+	if !(isnull _item12650) then {
+		this = _item12650;
+		call{this attachTo [Command,[0.861328,0.125,-0.680059]]; this setDir 90;};
+	};
+	if !(isnull _item12651) then {
+		this = _item12651;
+		call{this attachTo [Command,[-1.10303,1.83105,0.263123]]; this setDir 270;};
+	};
+	if !(isnull _item12652) then {
+		this = _item12652;
+		call{this attachTo [Command,[0.296387,-0.695557,-0.805454]]; this setDir 360;};
+	};
+	if !(isnull _item12653) then {
+		this = _item12653;
+		call{this attachTo [Command,[-0.66748,3.20459,-0.928198]]; this setDir 360;};
+	};
+	if !(isnull _item12654) then {
+		this = _item12654;
+		call{this attachTo [Command,[-0.66748,3.20459,-0.6088198]]; this setDir 360;};
+	};
+	if !(isnull _item12432) then {
+		this = _item12432;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12434) then {
+		this = _item12434;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12436) then {
+		this = _item12436;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12438) then {
+		this = _item12438;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12442) then {
+		this = _item12442;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12444) then {
+		this = _item12444;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12448) then {
+		this = _item12448;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12453) then {
+		this = _item12453;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12455) then {
+		this = _item12455;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12460) then {
+		this = _item12460;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12462) then {
+		this = _item12462;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12464) then {
+		this = _item12464;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12466) then {
+		this = _item12466;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12468) then {
+		this = _item12468;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12470) then {
+		this = _item12470;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12472) then {
+		this = _item12472;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12474) then {
+		this = _item12474;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12485) then {
+		this = _item12485;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12487) then {
+		this = _item12487;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12489) then {
+		this = _item12489;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12491) then {
+		this = _item12491;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12495) then {
+		this = _item12495;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12497) then {
+		this = _item12497;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12506) then {
+		this = _item12506;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12508) then {
+		this = _item12508;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12510) then {
+		this = _item12510;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12536) then {
+		this = _item12536;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12538) then {
+		this = _item12538;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12540) then {
+		this = _item12540;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12542) then {
+		this = _item12542;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12544) then {
+		this = _item12544;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12546) then {
+		this = _item12546;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12550) then {
+		this = _item12550;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12552) then {
+		this = _item12552;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12554) then {
+		this = _item12554;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12556) then {
+		this = _item12556;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12558) then {
+		this = _item12558;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12560) then {
+		this = _item12560;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12562) then {
+		this = _item12562;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12572) then {
+		this = _item12572;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12574) then {
+		this = _item12574;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12576) then {
+		this = _item12576;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12578) then {
+		this = _item12578;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12580) then {
+		this = _item12580;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12582) then {
+		this = _item12582;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12584) then {
+		this = _item12584;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12586) then {
+		this = _item12586;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12588) then {
+		this = _item12588;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12590) then {
+		this = _item12590;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12594) then {
+		this = _item12594;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12596) then {
+		this = _item12596;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12598) then {
+		this = _item12598;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12600) then {
+		this = _item12600;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12656) then {
+		this = _item12656;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12658) then {
+		this = _item12658;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12660) then {
+		this = _item12660;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12664) then {
+		this = _item12664;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12681) then {
+		this = _item12681;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12683) then {
+		this = _item12683;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12685) then {
+		this = _item12685;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12687) then {
+		this = _item12687;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12689) then {
+		this = _item12689;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12697) then {
+		this = _item12697;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12695) then {
+		this = _item12695;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12699) then {
+		this = _item12699;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12701) then {
+		this = _item12701;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12703) then {
+		this = _item12703;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12705) then {
+		this = _item12705;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12707) then {
+		this = _item12707;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12709) then {
+		this = _item12709;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12711) then {
+		this = _item12711;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12713) then {
+		this = _item12713;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12715) then {
+		this = _item12715;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12718) then {
+		this = _item12718;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12720) then {
+		this = _item12720;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12722) then {
+		this = _item12722;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12724) then {
+		this = _item12724;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12726) then {
+		this = _item12726;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12728) then {
+		this = _item12728;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12730) then {
+		this = _item12730;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12732) then {
+		this = _item12732;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12734) then {
+		this = _item12734;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12736) then {
+		this = _item12736;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12738) then {
+		this = _item12738;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12740) then {
+		this = _item12740;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12742) then {
+		this = _item12742;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12744) then {
+		this = _item12744;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12746) then {
+		this = _item12746;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12748) then {
+		this = _item12748;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12752) then {
+		this = _item12752;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12754) then {
+		this = _item12754;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12756) then {
+		this = _item12756;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12758) then {
+		this = _item12758;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12760) then {
+		this = _item12760;
+		this disableAI "PATH";;
+	};
+	if !(isnull _item12762) then {
+		this = _item12762;
+		this disableAI "PATH";;
 	};
 };
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Module activations (only once everything is spawned and connected)
-if !(isNull _item11592) then {_item11592 setvariable ["BIS_fnc_initModules_activate",true];};
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
