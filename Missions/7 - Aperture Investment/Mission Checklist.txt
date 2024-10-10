@@ -424,10 +424,32 @@ if (side player != sideLogic) then {
 
 
 
-Safehouse - 528 Objects & 138 AI
+Safehouse Stats
+552 Objects
+135 AI
+9 Vehicles
+149 Simple Objects
+6 Groups
+22 Layers
 
 
+UG Stats
+796 Objects
+224 AI
+1 Vehicles
+136 Simple Objects
+77 Groups
+12 Layers
 
+
+Main Stats
+275 Objects
+217 AI
+27 Vehicles
+13 Simple Objects
+51 Groups
+10 Markers
+15 Layers
 
 
 
@@ -446,3 +468,7 @@ Asylum VIP
 - Abbas Khalili
 - Face Thibaud
 - TanoanHead_A3_08
+
+
+Radar Panels = radarpanel_1
+Radar Panels = radarpanel_2
