@@ -31,7 +31,11 @@ Time: 1300 Zulu
 
 
 [align=justify] 
-The 77th Joint Special Operations Command (JSOC) is currently deployed within Mexico as part of a high-priority mission aimed at countering the Sonora Cartel, which has been designated as a Terrorist Organization by the President of the United States. Our mission objectives are to initiate a decisive assault against the cartel, targeting its leadership, disrupting its operations, and unveiling critical information regarding its supply chain, strategic capabilities, and financial networks. The success of this mission will serve as a visible demonstration of our nation's commitment to combating this threat, with the aim of reassuring the American people.
+The Canton Protocol Strategic Alliance Treaty (CSAT) has recently quadrupled its military installations, personnel, and investments on the island of Abramia in the Mediterranean Sea. The Isla Abramia government, sympathetic to CSAT, has welcomed this expansion with open arms. Given the island's proximity to Europe, CSAT's increased presence poses a significant strategic threat, enabling potential offensive operations against NATO and its allies.
+
+Intelligence reports indicate large shipments of construction materials and vehicles arriving in the region. However, no significant facilities have been identified, raising suspicions of a covert project referenced in intercepted communications as "Nabat Chubi". The nature and purpose of this project remain unknown.
+
+Believing that the project is the codeword to house WMDs, NATO has authorized a military intervention to uncover CSAT's activities and liberate Isla Abramia. The 77th JSOC will be deployed first to locate and extract Mission Critical Individuals, gather intelligence and strike initial blow to the enemy before the 22nd Marine Expeditionary Force (MEF) arrives to assume control of the invasion.
 [/align]
 
 
@@ -47,10 +51,16 @@ The 77th Joint Special Operations Command (JSOC) is currently deployed within Me
 [align=center][color=#FFD700][size=150][font=Arial][u]Mission Critical Individuals[/u][/font][/size][/color][/align] 
 
 [align=left] 
-1. [b]Manuel "Gatekeeper" Diaz[/b]: - Lieutenant, Arms and Security
+1. [b]Major Abbas "Kebab" Khalili[/b]: Head Intelligence, Isla Abramia
 [img]https://i.ibb.co/Qm2JJ9r/20231019160920-1.png[/img]
 
-2.  [b]Silvio "Borat"[/b] - Lieutenant, Finance and Logistics
+2.  [b]Dr. "Xian Ghu"[/b] - Head Scientist, Unknown Project "Nabat Chubi"
+[img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
+
+3.  [b]Major Phuc "Mein" Diaz[/b] - Logistics, Isla Abramia
+[img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
+
+4.  [b]Captain Yu "Shurley" Aho[/b] - Researcher, Unknown Project "Nabat Chubi"
 [img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
 
 
@@ -68,33 +78,32 @@ The 77th Joint Special Operations Command (JSOC) is currently deployed within Me
 
 [align=left] 
 [b]1. Helicopter Insertion[/b]
-Deltas will be inserted into the AO via UH-60M Blackhawk (EWS). It is imperative that we avoid the No-Fly zone.
+ - Deltas will be inserted into the AO via H-60M Blackhawk (DAP).
 
-[b]2. Capture/Kill "Gatekeeper"[/b]
-- Our mission includes the capture or elimination of HVT "Gatekeeper," a pivotal figure within the cartel's leadership.
-- If killed, bring proof of body back to base.
+[b]2. Secure Stage Point "Concord"[/b]
+- Delta teams will seize control of an offshore military island designated as "Stage Point Concord," intended to serve as the Forward Operating Base (FOB) for the 22nd MEF.
 
-[b]3. Capture "Borat"[/b]
-- Apprehend "Borat," a high-ranking member of the cartel, to interrogate, study, and disrupt their operations.
+[b]3. Capture "Kebab"[/b]
+- Delta teams will infiltrate the old mental asylum turned stronghold to capture Abbas Khalili.
+- Note: Khalili employs 2-3 body doubles. He is an avid smoker, a trait not shared by his doubles.
 
-[b]4. Secure Mexican FOBs [/b]
-- Assault and secure two FOBs.
-- Rescue and Assist any Federale found.
+[b]4. Neutralize Airfield "Victor"[/b]
+- Assault and secure Airfield "Victor".
 
-[b]5. Secure Mexican CID[/b]
-- Assault and secure the CID Base.
+[b]5. Investigate Research Base "November"[/b]
+- Assault and secure the Research Base "November".
 - Seize all available intelligence found.
 
-[b]6. Disrupt Cartel Smuggling Post[/b]
-- Assault Cartel's private airstrip.
+[b]6. Investigate Point of Interests[/b]
+- Investigate Point of Interest site "Mike".
+- Investigate Point of Interest site "Kilo".
+- Investigate Point of Interest site "Lima".
+- Investigate Point of Interest site "Juliet".
 - Neutralize all enemy forces in the area.
-- Burn / Destroy all cartel products in the area.
+- Burn / Destroy all enemy supplies, vehicles, outposts in the area.
 
-[b]7. Investigate Cartel Activity[/b]
-- Collect any intelligence materials found during the operation and act on the information.
-
-[b]8. Rescue Mexican Federales[/b]
-A critical humanitarian aspect of our mission involves rescuing Mexican Federal Police officers who may have been held captive by the cartel. [/align]
+[b]7. Extract Key Personnel[/b]
+- Locate and extract key researchers, leaders, commanding officers, and secure any vital intelligence related to CSAT's secret project.[/align]
 
 
 [align=center]
@@ -111,20 +120,25 @@ A critical humanitarian aspect of our mission involves rescuing Mexican Federal 
 
 [align=left] 
 For this operation, SOAR will be provided with:
-- 6x UH-60M Blackhawk (EWS) 
-- 3x MQ-9 Reaper
+- 6x MH-60M Blackhawk (DAP) 
+- 8x Lockheed Martin F-35B Lightning II (STOVL)
+- 4x Boeing MH-47G Chinook (Assault)
 
-[b]1. Transportation[/b]
-SOAR crew can be expected to provide necessary transportation to the Delta's as needed.
+To accomplish the following tasks:
+[b]1. Suppression / Destruction of Enemy Air Defences (SEAD/DEAD)[/b]
+- Neutralize hostile air defence systems to ensure safe passage for Deltas to infiltrate and exfiltrate from the AO.
 
-[b]2. Reconnaissance  / Fire Support[/b]
-Provide reconnaissance of cartel movements, fortifications, and fire support as required during the operation. Maintain a high level of coordination to maximize operational effectiveness.
+[b]2. Transportation[/b]
+- SOAR crew can be expected to provide necessary transportation to the Delta's as needed.
 
-[b]3. Hostile Asset Destruction[/b]
-Neutralize hostile assets to prevent further influence, growth, and expansion of the cartel forces in the region.
+[b]3. Reconnaissance  / Fire Support[/b]
+- Provide reconnaissance of CSAT movements, fortifications, and fire support as required during the operation. Maintain a high level of coordination to maximize operational effectiveness.
+
+[b]4. Maintain Air Superiority[/b]
+- Conduct air patrols to deter and engage enemy aircraft, ensuring control of the airspace.
 
 [b]5. Extraction / Evacuation[/b]
-Assist Deltas in evacuation and RTB.[/align]
+- Assist Deltas in evacuation and extraction.[/align]
 
 
 [align=center]
@@ -155,7 +169,6 @@ Assist Deltas in evacuation and RTB.[/align]
  
 
 - Deltas will be using standard operational equipment.
-- Extra Flashbangs approved and recommended.
 
 
 [align=center]
@@ -170,7 +183,11 @@ Assist Deltas in evacuation and RTB.[/align]
 [align=center][color=#FFD700][size=150][font=Arial][u]Additional Information[/u][/font][/size][/color][/align]
  
 
-With the recent unprecedented attack by the cartels against the Mexican Federales resulting in the loss of 2 FOBs and the Central Intelligence Division base, the Sonora Cartel is more capable than ever bolstering AA Trucks, Rockets, and Federale APCs. They are also seen using T-34 tanks. To reduce civilian panic and maintain OPSEC, a No-Fly Zone has been setup around the region’s populated center/city. Civilians, though minimal, confirmed to be present in the AO. The cartel is known for its ability to mass mobilize manpower and resources so expect heavy resistance and CQBs.
+Isla Abramia hosts approximately 600,000 residents. The populace largely supports the CSAT-aligned government, rendering the environment highly hostile. While civilian casualties must be minimized, anticipate potential resistance or interference from local inhabitants sympathetic to CSAT forces.
+
+Enemy forces are expected to be well-equipped with advanced CSAT technology, including potential use of unmanned systems and electronic warfare capabilities. Maintain heightened awareness for any unconventional threats.
+
+Intercepted communications suggest the development of a secret CSAT project on the island. Intelligence indicates this could involve advanced weaponry or technology that may shift the regional balance of power. Securing information on this project is of paramount importance.
 
 [align=center]
 
