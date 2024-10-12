@@ -172,12 +172,12 @@ if (side player != sideLogic) then {
 
 
 this addAction [
-	"Enter", {
+	"Enter Inside", {
 		1 cutText [
 			"", "BLACK OUT", 1
 		];	  
 		sleep 2;
-		player setPosASL (getPosASL UG_Entrance_A);   
+		player setPosASL (getPosASL shipint_exit);   
 		player setDir 180;  
 		sleep 0.5;    
 		1 cutText [
@@ -197,7 +197,30 @@ this addAction [
 
 
 
+_nearbyunits = ((getPosATL dangerzone_marker) nearEntities [["Air"], (800 + 5)]) inAreaArray [(getPosATL dangerzone_marker), (400 * 2), (400 * 2), 0, false, (3000)];
 
+{
+	_vehicle = _x;
+	_damage = random (0.6);
+	_vichitpoints = getAllHitPointsDamage _vehicle; _vichitpoints = _vichitpoints select 0;
+	{
+		_damage = random (0.6);
+		_vehicle setHitPointDamage [_x, (_vehicle getHitPointDamage _x) + _damage];
+	} foreach _vichitpoints;
+	_vehicle setHitPointDamage ["HitLight",1]; 
+	_vehicle setHitPointDamage ["#light_l",1];
+	_vehicle setHitPointDamage ["#light_r",1];
+	_vehicle setHitPointDamage ["#light_l_flare",1];
+	_vehicle setHitPointDamage ["#light_r_flare",1];
+	_vehicle setHitPointDamage ["#light_1_hitpoint",1];
+	_vehicle setHitPointDamage ["light_1_hitpoint",1];
+	_vehicle setHitPointDamage ["#light_2_hitpoint",1];
+	_vehicle setHitPointDamage ["light_2_hitpoint",1];
+	_vehicle setHitPointDamage ["light_l",1]; 
+	_vehicle setHitPointDamage ["light_r",1]; 
+	_vehicle setHitPointDamage ["light_l2",1]; 
+	_vehicle setHitPointDamage ["light_r2",1];
+} foreach _nearbyunits;
 
 
 
@@ -229,3 +252,9 @@ if (go_down == false) then {
 
 
 
+[this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded."] call zen_modules_fnc_addIntelAction;
+
+
+
+
+// Ship Intel not displaying (perhaps too long)

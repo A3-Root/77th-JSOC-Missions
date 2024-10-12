@@ -87,14 +87,17 @@ Believing that the project is the codeword to house WMDs, NATO has authorized a 
 - Delta teams will infiltrate the old mental asylum turned stronghold to capture Abbas Khalili.
 - Note: Khalili employs 2-3 body doubles. He is an avid smoker, a trait not shared by his doubles.
 
-[b]4. Neutralize Airfield "Victor"[/b]
+[b]4. Neutralize & Secure Airfield "Victor"[/b]
 - Assault and secure Airfield "Victor".
 
 [b]5. Investigate Research Base "November"[/b]
 - Assault and secure the Research Base "November".
 - Seize all available intelligence found.
 
-[b]6. Investigate Point of Interests[/b]
+[b]6. Destroy Radar Station "Webb"[/b]
+- Destroy Radar Station "Webb".
+
+[b]7. Investigate Point of Interests[/b]
 - Investigate Point of Interest site "Mike".
 - Investigate Point of Interest site "Kilo".
 - Investigate Point of Interest site "Lima".
@@ -102,7 +105,7 @@ Believing that the project is the codeword to house WMDs, NATO has authorized a 
 - Neutralize all enemy forces in the area.
 - Burn / Destroy all enemy supplies, vehicles, outposts in the area.
 
-[b]7. Extract Key Personnel[/b]
+[b]8. Extract Key Personnel[/b]
 - Locate and extract key researchers, leaders, commanding officers, and secure any vital intelligence related to CSAT's secret project.[/align]
 
 
@@ -182,8 +185,6 @@ To accomplish the following tasks:
 
 [align=center][color=#FFD700][size=150][font=Arial][u]Additional Information[/u][/font][/size][/color][/align]
  
-
-Isla Abramia hosts approximately 600,000 residents. The populace largely supports the CSAT-aligned government, rendering the environment highly hostile. While civilian casualties must be minimized, anticipate potential resistance or interference from local inhabitants sympathetic to CSAT forces.
 
 Enemy forces are expected to be well-equipped with advanced CSAT technology, including potential use of unmanned systems and electronic warfare capabilities. Maintain heightened awareness for any unconventional threats.
 
