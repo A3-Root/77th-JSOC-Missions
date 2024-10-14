@@ -56,10 +56,10 @@ if (side player != sideLogic) then {
 			["text","Isla Abramia, a jewel in the Mediterranean known for its stunning coastlines and vibrant culture, has recently found itself at the center of international intrigue. The Canton Protocol Strategic Alliance Treaty (CSAT) has dramatically increased its presence on the island, stirring both local and global curiosity."], 
 			["box",["a3\structures_f_argo\commercial\billboards\data\advertisements\bill_ionbase_co.paa","ION Autonomous Systems Division! Get your Autonomous Drones today!"]], 
 			["text","Over the past few months, residents have observed a noticeable uptick in military operations. CSAT has quadrupled its installations and personnel, turning quiet coastal towns into bustling hubs of activity. Large shipments of construction materials and vehicles have been arriving under heavy security, but official explanations remain vague. 'We have seen convoys moving at odd hours and areas cordoned off without notice' says Sofia Petrova, a local journalist.The secrecy is unsettling for many of us who call Abramia home."], 
-			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_21_co.paa","Increased US troop presence along the Mexican border to combat illegal entry and smuggling."]], 
-			["text","U.S. officials, have grown increasingly alarmed by the proliferation of narco-terrorist groups and the humanitarian crisis that has unfolded in Sanagasta. Sources within the U.S. State Department report that military intervention is now a real consideration, as the government grapples with the question of how to stem the tide of violence and instability."], 
-			["text","President Jackson has convened a high-level meeting with top military and intelligence officials to explore the potential avenues for intervention. While no official decision has been made, discussions have reportedly included the possibility of deploying U.S. military forces to assist the local government in Sanagasta in dismantling the powerful Sonora cartel network that has gripped both the nations."], 
-			["image",["\a3\missions_f_aow\data\img\artwork\portrait\showcase_aow_picture_79_co.paa","Read Here: IDAP's Global Awareness Program launches next week."]],
+			["image",["\a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_123_co.paa","Picture of a CSAT convoy being escorted by Abramian Troops."]], 
+			["text","The Abramian government has openly embraced CSAT's expanded role. Officials tout the economic benefits and strengthened security ties. 'Our partnership with CSAT brings unprecedented opportunities for growth and stability,' stated Minister of Foreign Affairs, Luis Fernandez. However, some critics argue that the government's enthusiasm overlooks potential risks. 'We're aligning ourselves closely with a major power without fully understanding the implications,' warns political analyst Marco De Luca."], 
+			["text","Abramia's strategic location near Europe makes it a significant point of interest for global powers. Neighboring countries are reportedly monitoring the situation closely, wary of potential shifts in the regional balance of power. 'NATO members are undoubtedly keeping an eye on developments,' says defense correspondent Tom Richardson. 'Any significant military build-up in this area could have broader implications for Mediterranean security.'"], 
+			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_28_co.paa","CSAT units performing military exercises in the Northern Hills."]],
 			["box",["\rhsafrf\addons\rhs_decals\data\labels\army\un_logow03_ca.paa","UNSC to hold an interim session on Global Food Security!"]], 
 			["text","Critics of the proposed intervention argue that such actions could lead to a protracted conflict with uncertain outcomes. They emphasize the importance of seeking diplomatic solutions, focusing on drug reform, and addressing the root causes of cartel violence. However, proponents of military intervention stress that the deteriorating situation demands immediate action to protect the lives and stability of Sanagasta, highlighting the potential security threat that narco-terrorism poses to the United States and the surrounding regions."], 
 			["textlocked", "As the U.S. government deliberates its next move, the people of Sanagasta face an uncertain future, hoping for a resolution that will bring an end to the violence and bloodshed that has plagued their homeland. Whether or not military action will be the answer to their prayers remains to be seen, but the situation at Sanagasta has certainly captured the attention of the U.S. government, highlighting the broader issues of international security and the challenges posed by drug cartels."], 
@@ -68,7 +68,28 @@ if (side player != sideLogic) then {
 	] call bis_fnc_showAANArticle;  
 }; 
 
+/*
+Regional Implications
+Abramia's strategic location near Europe makes it a significant point of interest for global powers. Neighboring countries are reportedly monitoring the situation closely, wary of potential shifts in the regional balance of power. 'NATO members are undoubtedly keeping an eye on developments,' says defense correspondent Tom Richardson. 'Any significant military build-up in this area could have broader implications for Mediterranean security.'
 
+Local Perspectives
+The island's residents are divided. While some welcome the economic boost from CSAT's investments, others are apprehensive about the sudden changes. 'I've never seen so many soldiers and vehicles,' remarks fisherman Alejandro Ruiz. 'It feels like our peaceful island is becoming something else entirely.'
+
+Community groups have started organizing meetings to discuss the impact on daily life and the environment. Concerns over restricted access to traditional fishing areas and increased pollution are common topics.
+
+International Silence
+So far, there has been little official comment from international bodies. The United Nations and NATO have not released statements regarding CSAT's activities on Abramia.
+
+'This silence could be strategic patience or a sign of behind-the-scenes diplomacy,' suggests Dr. Smith. 'It's hard to say at this point.'
+
+What Lies Ahead?
+As Abramia continues to transform under CSAT's influence, the world watches with a mix of interest and concern. The true nature of 'Nabat Chubi' remains a mystery, fueling further speculation.
+
+For now, life on the island balances between the familiar and the uncertain. Residents carry on with their daily routines, even as the hum of military equipment becomes part of the backdrop.
+
+'We just hope that whatever is happening leads to positive outcomes for our community,' says local teacher Maria Gonzales. 'Abramia has a rich history, and we want to ensure a bright future as well.'
+
+*/
 
 
 
@@ -241,34 +262,3 @@ this addAction [
 
 
 
-/*
-Government's Warm Reception
-The Abramian government has openly embraced CSAT's expanded role. Officials tout the economic benefits and strengthened security ties. 'Our partnership with CSAT brings unprecedented opportunities for growth and stability,' stated Minister of Foreign Affairs, Luis Fernandez.
-
-However, some critics argue that the government's enthusiasm overlooks potential risks. 'We're aligning ourselves closely with a major power without fully understanding the implications,' warns political analyst Marco De Luca.
-
-Regional Implications
-Abramia's strategic location near Europe makes it a significant point of interest for global powers. Neighboring countries are reportedly monitoring the situation closely, wary of potential shifts in the regional balance of power.
-
-"NATO members are undoubtedly keeping an eye on developments," says defense correspondent Tom Richardson. "Any significant military build-up in this area could have broader implications for Mediterranean security."
-
-Local Perspectives
-The island's residents are divided. While some welcome the economic boost from CSAT's investments, others are apprehensive about the sudden changes.
-
-"I've never seen so many soldiers and vehicles," remarks fisherman Alejandro Ruiz. "It feels like our peaceful island is becoming something else entirely."
-
-Community groups have started organizing meetings to discuss the impact on daily life and the environment. Concerns over restricted access to traditional fishing areas and increased pollution are common topics.
-
-International Silence
-So far, there has been little official comment from international bodies. The United Nations and NATO have not released statements regarding CSAT's activities on Abramia.
-
-"This silence could be strategic patience or a sign of behind-the-scenes diplomacy," suggests Dr. Smith. "It's hard to say at this point."
-
-What Lies Ahead?
-As Abramia continues to transform under CSAT's influence, the world watches with a mix of interest and concern. The true nature of "Nabat Chubi" remains a mystery, fueling further speculation.
-
-For now, life on the island balances between the familiar and the uncertain. Residents carry on with their daily routines, even as the hum of military equipment becomes part of the backdrop.
-
-"We just hope that whatever is happening leads to positive outcomes for our community," says local teacher Maria Gonzales. "Abramia has a rich history, and we want to ensure a bright future as well."
-
-*/
