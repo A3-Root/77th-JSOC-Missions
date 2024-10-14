@@ -102,11 +102,16 @@ if (side player != sideLogic) then {
 			["image",["a3\structures_f_enoch\furniture\decoration\wallboards\picture_c\data\picture_c01_co.paa","63"]],
 			["image",["a3\props_f_orange\items\documents\data\wallet_picture_co.paa","64"]],
 			["image",["a3\structures_f_enoch\furniture\decoration\wallboards\picture_c_02\data\picture_c02_co.paa","65"]],
-			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_20_co.paa","66"]],
-			["image",["a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_65_co.paa","67"]],
-			["image",["ca\misc\data\icons\picture_money_ca.paa","68"]],
+			["image",["ca\misc\data\icons\picture_money_ca.paa","66"]],
+			["image",["a3\missions_f_aow\data\img\artwork\landscape\showcase_aow_picture_16_co.paa","67"]],
+			["image",["a3\missions_f_kart\data\img\timetrials_karts_overview_ca.paa","68"]],
+			["image",["a3\structures_f_argo\commercial\billboards\data\advertisements\bill_ionbase_co.paa","69"]],
+			["image",["a3\structures_f_argo\commercial\billboards\data\advertisements\bill_chevre_co.paa","70"]],
+			["image",["ca\misc\data\billboard_nogova_co.paa","71"]],
+			["image",["a3\props_f_oldman\items\documents\data\credit_card_01_ca.paa","72"]],
 			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
 		],findDisplay 46,true
 	] call bis_fnc_showAANArticle;  
 }; 
+
 

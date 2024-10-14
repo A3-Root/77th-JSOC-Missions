@@ -10,8 +10,8 @@
 
 
 [align=right][size=150][font=Arial]Classification: NOFORN // TS // SCI
-Location: Sanaghasta, Mexico
-Date: May 30, 2015
+Location: Isla Abramia, Mediterranean
+Date: October 20, 2024
 Time: 1300 Zulu
 [/font][/size][/align]
 
@@ -54,14 +54,11 @@ Believing that the project is the codeword to house WMDs, NATO has authorized a 
 1. [b]Major Abbas "Kebab" Khalili[/b]: Head Intelligence, Isla Abramia
 [img]https://i.ibb.co/Qm2JJ9r/20231019160920-1.png[/img]
 
-2.  [b]Dr. "Xian Ghu"[/b] - Head Scientist, Unknown Project "Nabat Chubi"
-[img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
+2.  [b]Dr. "Xian Ghu"[/b] - Head Scientist, Project "Nabat Chubi"
 
 3.  [b]Major Phuc "Mein" Diaz[/b] - Logistics, Isla Abramia
-[img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
 
-4.  [b]Captain Yu "Shurley" Aho[/b] - Researcher, Unknown Project "Nabat Chubi"
-[img]https://i.ibb.co/bR1X3mY/20231019162434-1.jpg[/img]
+4.  [b]Captain Yu "Shurley" Aho[/b] - Researcher, Project "Nabat Chubi"
 
 
 [align=center]
@@ -124,8 +121,9 @@ Believing that the project is the codeword to house WMDs, NATO has authorized a 
 [align=left] 
 For this operation, SOAR will be provided with:
 - 6x MH-60M Blackhawk (DAP) 
-- 8x Lockheed Martin F-35B Lightning II (STOVL)
-- 4x Boeing MH-47G Chinook (Assault)
+- 6x Lockheed Martin F-35B Lightning II (Heavy)
+- 2x Lockheed Martin F-35B Lightning II (Stealth)
+- 4x Boeing MH-47G Chinook (Side Guns)
 
 To accomplish the following tasks:
 [b]1. Suppression / Destruction of Enemy Air Defences (SEAD/DEAD)[/b]
