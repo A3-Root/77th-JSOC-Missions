@@ -109,6 +109,20 @@ if (side player != sideLogic) then {
 			["image",["a3\structures_f_argo\commercial\billboards\data\advertisements\bill_chevre_co.paa","70"]],
 			["image",["ca\misc\data\billboard_nogova_co.paa","71"]],
 			["image",["a3\props_f_oldman\items\documents\data\credit_card_01_ca.paa","72"]],
+			["image",["a3\missions_f_epa\data\img\a_m03_overview_ca.paa","73"]],
+			["image",["a3\missions_f\data\img\hints\firesupport\512_short_00007.paa","73"]],
+			["image",["a3\missions_f_oldman\data\img\hints\restricted_ca.paa","74"]],
+			["image",["a3\missions_f_oldman\data\img\tooltip\sm_i_team_ca.paa","75"]],
+			["image",["a3\missions_f_oldman\data\img\tooltip\t_sq_t_transportplaneaccess_tooltip.paa","76"]],
+			["image",["a3\missions_f_oldman\data\img\phonecontacts\doctorcontact.paa","77"]],
+			["image",["a3\missions_f_orange\data\img\orange_compositions\c4\c4_06_co.paa","78"]],
+			["image",["a3\missions_f_orange\data\img\faction_idap\info_ihl3_co.paa","79"]],
+			["image",["a3\missions_f_orange\data\img\aan\aan_3_1_co.paa","80"]],
+			["image",["a3\missions_f_tank\data\img\t01_intro_04_ca.paa","81"]],
+			["image",["a3\missions_f_tank\data\img\t03_outro_06a_ca.paa","82"]],
+			["image",["z\vtx\addons\uh60_missions\vtx_groundsupport01.altis\vtx_groundsupport01_overview_ca.paa","83"]],
+			["image",["ca\misc\data\c0_missbr_03_ca.paa","84"]],
+			["image",["ca\misc\data\c0_missbr_04_ca.paa","85"]],
 			["author",["\a3\Missions_F_Orange\Data\Img\avatar_journalist_ca.paa","Katherine Bishop is our Senior Reporter on Military and Politics. Currently, she is touring and reporting on various conflict zones around the world as part of the UNSC War Report project."]] 
 		],findDisplay 46,true
 	] call bis_fnc_showAANArticle;  

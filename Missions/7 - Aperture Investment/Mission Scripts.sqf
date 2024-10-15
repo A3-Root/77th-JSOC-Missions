@@ -224,5 +224,3 @@ addMissionEventHandler ["Draw3D", {
 
 
 
-
-

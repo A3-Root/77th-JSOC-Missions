@@ -6643,333 +6643,615 @@ if (_layer10971 && _layer11585) then {
 	_this setVectorDirAndUp [[0.428597,-0.903496,0],[0,0,1]];
 };
 
-private _item11619 = objNull;
+private _item13435 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item11619 = createVehicle ["Land_Podesta_10",[1435.89,463.735,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item11619;
+	_item13435 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,463.735,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13435;
 	_objects pushback _this;
-	_objectIDs pushback 11619;
-	_this setPosWorld [1435.89,463.735,89.9874];
+	_objectIDs pushback 13435;
+	_this setPosWorld [1435.89,463.735,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item11621 = objNull;
+private _item13443 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item11621 = createVehicle ["Land_Podesta_10",[1435.89,406.844,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item11621;
+	_item13443 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,291.534,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13443;
 	_objects pushback _this;
-	_objectIDs pushback 11621;
-	_this setPosWorld [1435.89,406.844,89.9874];
+	_objectIDs pushback 13443;
+	_this setPosWorld [1435.89,291.534,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item11622 = objNull;
+private _item13446 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item11622 = createVehicle ["Land_Podesta_10",[1375.89,463.423,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item11622;
+	_item13446 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,347.904,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13446;
 	_objects pushback _this;
-	_objectIDs pushback 11622;
-	_this setPosWorld [1375.89,463.423,89.9874];
+	_objectIDs pushback 13446;
+	_this setPosWorld [1375.89,347.904,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item11624 = objNull;
+private _item13447 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item11624 = createVehicle ["Land_Podesta_10",[1315.89,463.915,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item11624;
+	_item13447 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,291.843,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13447;
 	_objects pushback _this;
-	_objectIDs pushback 11624;
-	_this setPosWorld [1315.89,463.915,89.9874];
+	_objectIDs pushback 13447;
+	_this setPosWorld [1375.89,291.843,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item11625 = objNull;
+private _item13449 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item11625 = createVehicle ["Land_Podesta_10",[1255.89,464.107,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item11625;
+	_item13449 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,407.283,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13449;
 	_objects pushback _this;
-	_objectIDs pushback 11625;
-	_this setPosWorld [1255.89,464.107,90.0074];
+	_objectIDs pushback 13449;
+	_this setPosWorld [1315.89,407.283,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12256 = objNull;
+private _item13450 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12256 = createVehicle ["Land_Podesta_10",[1195.89,464.861,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12256;
+	_item13450 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,349.333,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13450;
 	_objects pushback _this;
-	_objectIDs pushback 12256;
-	_this setPosWorld [1195.89,464.861,90.0074];
+	_objectIDs pushback 13450;
+	_this setPosWorld [1315.89,349.333,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12257 = objNull;
+private _item13451 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12257 = createVehicle ["Land_Podesta_10",[1135.89,464.985,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12257;
+	_item13451 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,292.949,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13451;
 	_objects pushback _this;
-	_objectIDs pushback 12257;
-	_this setPosWorld [1135.89,464.985,90.0074];
+	_objectIDs pushback 13451;
+	_this setPosWorld [1315.89,292.949,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12258 = objNull;
+private _item13452 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12258 = createVehicle ["Land_Podesta_10",[1435.89,347.491,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12258;
+	_item13452 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,234.723,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13452;
 	_objects pushback _this;
-	_objectIDs pushback 12258;
-	_this setPosWorld [1435.89,347.491,89.9874];
+	_objectIDs pushback 13452;
+	_this setPosWorld [1315.89,234.723,90.6652];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12259 = objNull;
+private _item13453 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12259 = createVehicle ["Land_Podesta_10",[1435.89,291.534,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12259;
+	_item13453 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,407.79,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13453;
 	_objects pushback _this;
-	_objectIDs pushback 12259;
-	_this setPosWorld [1435.89,291.534,89.9874];
+	_objectIDs pushback 13453;
+	_this setPosWorld [1255.89,407.79,90.6852];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12260 = objNull;
+private _item13454 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12260 = createVehicle ["Land_Podesta_10",[1435.89,233.411,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12260;
+	_item13454 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,349.958,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13454;
 	_objects pushback _this;
-	_objectIDs pushback 12260;
-	_this setPosWorld [1435.89,233.411,89.9874];
+	_objectIDs pushback 13454;
+	_this setPosWorld [1255.89,349.958,90.6852];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12261 = objNull;
+private _item13457 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12261 = createVehicle ["Land_Podesta_10",[1375.89,406.789,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12261;
+	_item13457 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.89,408.434,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13457;
 	_objects pushback _this;
-	_objectIDs pushback 12261;
-	_this setPosWorld [1375.89,406.789,89.9874];
+	_objectIDs pushback 13457;
+	_this setPosWorld [1195.89,408.434,90.6852];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12278 = objNull;
+private _item13458 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12278 = createVehicle ["Land_Podesta_10",[1375.89,347.904,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12278;
+	_item13458 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.96,348.664,148.066],[],0,"CAN_COLLIDE"];
+	_this = _item13458;
 	_objects pushback _this;
-	_objectIDs pushback 12278;
-	_this setPosWorld [1375.89,347.904,89.9874];
+	_objectIDs pushback 13458;
+	_this setPosWorld [1195.96,348.664,90.6852];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12279 = objNull;
+private _item13502 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12279 = createVehicle ["Land_Podesta_10",[1375.89,291.843,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12279;
+	_item13502 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1406.12,347.387,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13502;
 	_objects pushback _this;
-	_objectIDs pushback 12279;
-	_this setPosWorld [1375.89,291.843,89.9874];
+	_objectIDs pushback 13502;
+	_this setPosWorld [1406.12,347.387,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12280 = objNull;
+private _item13503 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12280 = createVehicle ["Land_Podesta_10",[1375.89,233.668,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12280;
+	_item13503 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1406.12,291.43,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13503;
 	_objects pushback _this;
-	_objectIDs pushback 12280;
-	_this setPosWorld [1375.89,233.668,89.9874];
+	_objectIDs pushback 13503;
+	_this setPosWorld [1406.12,291.43,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12281 = objNull;
+private _item13504 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12281 = createVehicle ["Land_Podesta_10",[1315.89,407.283,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12281;
+	_item13504 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1406.12,233.307,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13504;
 	_objects pushback _this;
-	_objectIDs pushback 12281;
-	_this setPosWorld [1315.89,407.283,89.9874];
+	_objectIDs pushback 13504;
+	_this setPosWorld [1406.12,233.307,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12282 = objNull;
+private _item13505 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12282 = createVehicle ["Land_Podesta_10",[1315.89,349.333,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12282;
+	_item13505 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1346.12,406.685,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13505;
 	_objects pushback _this;
-	_objectIDs pushback 12282;
-	_this setPosWorld [1315.89,349.333,89.9874];
+	_objectIDs pushback 13505;
+	_this setPosWorld [1346.12,406.685,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12283 = objNull;
+private _item13506 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12283 = createVehicle ["Land_Podesta_10",[1315.89,292.949,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12283;
+	_item13506 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1346.12,347.8,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13506;
 	_objects pushback _this;
-	_objectIDs pushback 12283;
-	_this setPosWorld [1315.89,292.949,89.9874];
+	_objectIDs pushback 13506;
+	_this setPosWorld [1346.12,347.8,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12284 = objNull;
+private _item13507 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12284 = createVehicle ["Land_Podesta_10",[1315.89,234.723,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12284;
+	_item13507 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1346.12,291.739,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13507;
 	_objects pushback _this;
-	_objectIDs pushback 12284;
-	_this setPosWorld [1315.89,234.723,89.9874];
+	_objectIDs pushback 13507;
+	_this setPosWorld [1346.12,291.739,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12285 = objNull;
+private _item13509 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12285 = createVehicle ["Land_Podesta_10",[1255.89,407.79,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12285;
+	_item13509 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1286.12,407.18,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13509;
 	_objects pushback _this;
-	_objectIDs pushback 12285;
-	_this setPosWorld [1255.89,407.79,90.0074];
+	_objectIDs pushback 13509;
+	_this setPosWorld [1286.12,407.18,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12286 = objNull;
+private _item13510 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12286 = createVehicle ["Land_Podesta_10",[1255.89,349.958,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12286;
+	_item13510 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1286.12,349.23,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13510;
 	_objects pushback _this;
-	_objectIDs pushback 12286;
-	_this setPosWorld [1255.89,349.958,90.0074];
+	_objectIDs pushback 13510;
+	_this setPosWorld [1286.12,349.23,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12287 = objNull;
+private _item13511 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12287 = createVehicle ["Land_Podesta_10",[1255.89,293.485,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12287;
+	_item13511 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1286.12,292.845,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13511;
 	_objects pushback _this;
-	_objectIDs pushback 12287;
-	_this setPosWorld [1255.89,293.485,90.0074];
+	_objectIDs pushback 13511;
+	_this setPosWorld [1286.12,292.845,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12288 = objNull;
+private _item13512 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12288 = createVehicle ["Land_Podesta_10",[1255.89,235.214,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12288;
+	_item13512 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1286.12,234.619,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13512;
 	_objects pushback _this;
-	_objectIDs pushback 12288;
-	_this setPosWorld [1255.89,235.214,90.0074];
+	_objectIDs pushback 13512;
+	_this setPosWorld [1286.12,234.619,90.6485];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12289 = objNull;
+private _item13513 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12289 = createVehicle ["Land_Podesta_10",[1195.89,408.434,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12289;
+	_item13513 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1226.12,407.686,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13513;
 	_objects pushback _this;
-	_objectIDs pushback 12289;
-	_this setPosWorld [1195.89,408.434,90.0074];
+	_objectIDs pushback 13513;
+	_this setPosWorld [1226.12,407.686,90.6685];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12290 = objNull;
+private _item13514 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12290 = createVehicle ["Land_Podesta_10",[1195.96,348.664,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12290;
+	_item13514 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1226.12,349.854,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13514;
 	_objects pushback _this;
-	_objectIDs pushback 12290;
-	_this setPosWorld [1195.96,348.664,90.0074];
+	_objectIDs pushback 13514;
+	_this setPosWorld [1226.12,349.854,90.6685];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12291 = objNull;
+private _item13517 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12291 = createVehicle ["Land_Podesta_10",[1195.89,294.333,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12291;
+	_item13517 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1166.12,408.33,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13517;
 	_objects pushback _this;
-	_objectIDs pushback 12291;
-	_this setPosWorld [1195.89,294.333,90.0074];
+	_objectIDs pushback 13517;
+	_this setPosWorld [1166.12,408.33,90.6685];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12292 = objNull;
+private _item13518 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12292 = createVehicle ["Land_Podesta_10",[1195.89,235.587,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12292;
+	_item13518 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1166.19,348.561,148.049],[],0,"CAN_COLLIDE"];
+	_this = _item13518;
 	_objects pushback _this;
-	_objectIDs pushback 12292;
-	_this setPosWorld [1195.89,235.587,90.0074];
+	_objectIDs pushback 13518;
+	_this setPosWorld [1166.19,348.561,90.6685];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12293 = objNull;
+private _item13534 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12293 = createVehicle ["Land_Podesta_10",[1135.99,351.5,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12293;
+	_item13534 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.86,262.911,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13534;
 	_objects pushback _this;
-	_objectIDs pushback 12293;
-	_this setPosWorld [1135.99,351.5,90.0074];
+	_objectIDs pushback 13534;
+	_this setPosWorld [1435.86,262.911,90.6449];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12294 = objNull;
+private _item13536 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12294 = createVehicle ["Land_Podesta_10",[1135.89,408.452,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12294;
+	_item13536 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.86,377.405,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13536;
 	_objects pushback _this;
-	_objectIDs pushback 12294;
-	_this setPosWorld [1135.89,408.452,90.0074];
+	_objectIDs pushback 13536;
+	_this setPosWorld [1375.86,377.405,90.6449];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12295 = objNull;
+private _item13537 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12295 = createVehicle ["Land_Podesta_10",[1137,294.372,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12295;
+	_item13537 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.86,321.344,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13537;
 	_objects pushback _this;
-	_objectIDs pushback 12295;
-	_this setPosWorld [1137,294.372,90.0074];
+	_objectIDs pushback 13537;
+	_this setPosWorld [1375.86,321.344,90.6449];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
-private _item12296 = objNull;
+private _item13538 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item12296 = createVehicle ["Land_Podesta_10",[1137.01,235.829,147.448],[],0,"CAN_COLLIDE"];
-	_this = _item12296;
+	_item13538 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.86,263.169,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13538;
 	_objects pushback _this;
-	_objectIDs pushback 12296;
-	_this setPosWorld [1137.01,235.829,90.0074];
+	_objectIDs pushback 13538;
+	_this setPosWorld [1375.86,263.169,90.6449];
 	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13539 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13539 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.86,436.784,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13539;
+	_objects pushback _this;
+	_objectIDs pushback 13539;
+	_this setPosWorld [1315.86,436.784,90.6449];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13540 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13540 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.86,378.834,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13540;
+	_objects pushback _this;
+	_objectIDs pushback 13540;
+	_this setPosWorld [1315.86,378.834,90.6449];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13541 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13541 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.86,322.45,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13541;
+	_objects pushback _this;
+	_objectIDs pushback 13541;
+	_this setPosWorld [1315.86,322.45,90.6449];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13542 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13542 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.86,264.224,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13542;
+	_objects pushback _this;
+	_objectIDs pushback 13542;
+	_this setPosWorld [1315.86,264.224,90.6449];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13543 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13543 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.86,437.291,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13543;
+	_objects pushback _this;
+	_objectIDs pushback 13543;
+	_this setPosWorld [1255.86,437.291,90.6649];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13544 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13544 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.86,379.459,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13544;
+	_objects pushback _this;
+	_objectIDs pushback 13544;
+	_this setPosWorld [1255.86,379.459,90.6649];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13547 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13547 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.86,437.935,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13547;
+	_objects pushback _this;
+	_objectIDs pushback 13547;
+	_this setPosWorld [1195.86,437.935,90.6649];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13548 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13548 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.93,378.165,148.046],[],0,"CAN_COLLIDE"];
+	_this = _item13548;
+	_objects pushback _this;
+	_objectIDs pushback 13548;
+	_this setPosWorld [1195.93,378.165,90.6649];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13562 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13562 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1405.47,376.982,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13562;
+	_objects pushback _this;
+	_objectIDs pushback 13562;
+	_this setPosWorld [1405.47,376.982,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13563 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13563 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1405.47,321.025,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13563;
+	_objects pushback _this;
+	_objectIDs pushback 13563;
+	_this setPosWorld [1405.47,321.025,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13564 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13564 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1405.47,262.902,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13564;
+	_objects pushback _this;
+	_objectIDs pushback 13564;
+	_this setPosWorld [1405.47,262.902,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13565 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13565 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1345.47,436.28,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13565;
+	_objects pushback _this;
+	_objectIDs pushback 13565;
+	_this setPosWorld [1345.47,436.28,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13566 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13566 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1345.47,377.395,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13566;
+	_objects pushback _this;
+	_objectIDs pushback 13566;
+	_this setPosWorld [1345.47,377.395,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13567 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13567 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1345.47,321.334,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13567;
+	_objects pushback _this;
+	_objectIDs pushback 13567;
+	_this setPosWorld [1345.47,321.334,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13568 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13568 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1345.47,263.159,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13568;
+	_objects pushback _this;
+	_objectIDs pushback 13568;
+	_this setPosWorld [1345.47,263.159,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13569 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13569 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1285.47,436.774,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13569;
+	_objects pushback _this;
+	_objectIDs pushback 13569;
+	_this setPosWorld [1285.47,436.774,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13570 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13570 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1285.47,378.824,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13570;
+	_objects pushback _this;
+	_objectIDs pushback 13570;
+	_this setPosWorld [1285.47,378.824,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13572 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13572 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1285.47,264.214,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13572;
+	_objects pushback _this;
+	_objectIDs pushback 13572;
+	_this setPosWorld [1285.47,264.214,90.6433];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13573 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13573 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1225.47,437.281,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13573;
+	_objects pushback _this;
+	_objectIDs pushback 13573;
+	_this setPosWorld [1225.47,437.281,90.6633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13574 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13574 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1225.47,379.449,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13574;
+	_objects pushback _this;
+	_objectIDs pushback 13574;
+	_this setPosWorld [1225.47,379.449,90.6633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
+	_this allowdamage false;
+};
+
+private _item13578 = objNull;
+if (_layer12297 && _layer11585) then {
+	_item13578 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1165.54,378.156,148.044],[],0,"CAN_COLLIDE"];
+	_this = _item13578;
+	_objects pushback _this;
+	_objectIDs pushback 13578;
+	_this setPosWorld [1165.54,378.156,90.6633];
+	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this enableSimulation false;
 	_this allowdamage false;
 };
 
@@ -12881,23 +13163,6 @@ private _logicIDs = [];
 
 
 
-
-if (_layer13048) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13054,_item13050,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
-if (_layer13047) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Other POI",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13054,_item13050,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
-if (_layer12918) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item12867,_item12870,_item12873,_item12876,_item12877,_item12878,_item12894,_item12895,_item12900,_item12869,_item12899,_item12893,_item12866,_item12872,_item12875,_item12931,_item12948,_item12950,_item12933,_item12952,_item12954,_item12956,_item12958,_item12960,_item12962,_item12964,_item12966,_item12983,_item12984,_item12936,_item12937,_item12938,_item12986,_item12987,_item12989,_item12990,_item12992,_item12993,_item12935,_item12996,_item12995,_item13025,_item13026,_item13029,_item13030,_item13024,_item13028],[]]];};
-if (_layer12919) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_POI Kilo",[[_item12905,_item12907,_item12908,_item12914,_item12911,_item12910,_item12913,_item12909,_item12912,_item12896,_item12916,_item12915,_item12901,_item12902,_item12917,_item12867,_item12870,_item12873,_item12876,_item12877,_item12878,_item12894,_item12895,_item12900,_item12869,_item12899,_item12893,_item12866,_item12872,_item12875,_item12931,_item12948,_item12950,_item12933,_item12952,_item12954,_item12956,_item12958,_item12960,_item12962,_item12964,_item12966,_item12983,_item12984,_item12936,_item12937,_item12938,_item12986,_item12987,_item12989,_item12990,_item12992,_item12993,_item12935,_item12996,_item12995,_item13025,_item13026,_item13029,_item13030,_item13024,_item13028,_item12922,_item12923,_item12920,_item12926,_item12924],[]]];};
-if (_layer12855) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Defences",[[_item12504,_item12503,_item12480,_item12479,_item12458,_item12457,_item12451,_item12450,_item12570,_item12569],[]]];};
-if (_layer12854) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Scientist",[[_item12683,_item12764,_item12766,_item12768,_item12770,_item12772,_item12774,_item12776,_item12778,_item12780,_item12782,_item12784,_item12786,_item12788,_item12790,_item12792,_item12794,_item12796,_item12798,_item12800,_item12802,_item12804,_item12806,_item12808,_item12810,_item12812,_item12814,_item12816,_item12820,_item12822,_item12824,_item12830,_item12832,_item12834,_item12836,_item12838,_item12840,_item12842,_item12844,_item12846,_item12848,_item12850,_item12852],[]]];};
-if (_layer12304) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item12681,_item12448,_item12472,_item12474,_item12485,_item12491,_item12495,_item12497,_item12508,_item12510,_item12536,_item12538,_item12542,_item12544,_item12546,_item12550,_item12554,_item12562,_item12572,_item12576,_item12578,_item12580,_item12594,_item12596,_item12598,_item12656,_item12664,_item12685,_item12432,_item12434,_item12436,_item12438,_item12442,_item12444,_item12453,_item12455,_item12460,_item12462,_item12464,_item12466,_item12468,_item12470,_item12487,_item12489,_item12506,_item12540,_item12552,_item12556,_item12558,_item12560,_item12574,_item12582,_item12584,_item12586,_item12588,_item12590,_item12697,_item12699,_item12705,_item12707,_item12715,_item12720,_item12730,_item12740,_item12744,_item12754,_item12762,_item12687,_item12689,_item12695,_item12701,_item12703,_item12709,_item12711,_item12713,_item12718,_item12722,_item12724,_item12726,_item12728,_item12732,_item12734,_item12736,_item12738,_item12742,_item12746,_item12748,_item12752,_item12756,_item12758,_item12760,_item12683,_item12764,_item12766,_item12768,_item12770,_item12772,_item12774,_item12776,_item12778,_item12780,_item12782,_item12784,_item12786,_item12788,_item12790,_item12792,_item12794,_item12796,_item12798,_item12800,_item12802,_item12804,_item12806,_item12808,_item12810,_item12812,_item12814,_item12816,_item12820,_item12822,_item12824,_item12830,_item12832,_item12834,_item12836,_item12838,_item12840,_item12842,_item12844,_item12846,_item12848,_item12850,_item12852,_item12504,_item12503,_item12480,_item12479,_item12458,_item12457,_item12451,_item12450,_item12570,_item12569],[]]];};
-if (_layer12669) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Mine Utilities",[[_item12665,_item12522,_item12528,_item12532,_item12529,_item12533,_item12667,_item12671,_item12672,_item12673,_item12675,_item12679,_item12716,_item12676,_item12677,_item12678],[]]];};
-if (_layer10960) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Teleporter Do not Delete",[[_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item12303,_item12856,_item12857],[]]];};
-if (_layer12297) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Base Platform",[[_item11619,_item11621,_item11622,_item11624,_item11625,_item12256,_item12257,_item12258,_item12259,_item12260,_item12261,_item12278,_item12279,_item12280,_item12281,_item12282,_item12283,_item12284,_item12285,_item12286,_item12287,_item12288,_item12289,_item12290,_item12291,_item12292,_item12293,_item12294,_item12295,_item12296],[]]];};
-if (_layer10971) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_All other Structures",[[_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11064,_item11065,_item11066,_item11067,_item11069,_item11070,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584,_item12348,_item12853],[]]];};
-if (_layer11585) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Big Mine Smaller",[[_item10972,_item10973,_item10974,_item10975,_item10976,_item10977,_item10978,_item10979,_item10980,_item10981,_item10982,_item10983,_item10984,_item10985,_item10986,_item10987,_item10988,_item10989,_item10990,_item10991,_item10992,_item10993,_item10994,_item10995,_item10996,_item10997,_item10998,_item10999,_item11000,_item11001,_item11002,_item11003,_item11004,_item11005,_item11006,_item11007,_item11008,_item11009,_item11010,_item11011,_item11032,_item11033,_item11034,_item11035,_item11036,_item11037,_item11038,_item11039,_item11040,_item11041,_item11042,_item11043,_item11044,_item11045,_item11046,_item11047,_item11048,_item11049,_item11050,_item11051,_item11052,_item11053,_item11054,_item11055,_item11056,_item11057,_item11058,_item11059,_item11060,_item11061,_item11064,_item11065,_item11066,_item11067,_item11069,_item11070,_item11072,_item11073,_item11074,_item11075,_item11076,_item11077,_item11078,_item11079,_item11080,_item11081,_item11082,_item11083,_item11084,_item11085,_item11086,_item11087,_item11088,_item11089,_item11090,_item11091,_item11092,_item11093,_item11094,_item11095,_item11096,_item11097,_item11098,_item11099,_item11100,_item11101,_item11102,_item11103,_item11104,_item11105,_item11106,_item11107,_item11108,_item11109,_item11110,_item11111,_item11112,_item11113,_item11114,_item11115,_item11116,_item11117,_item11118,_item11119,_item11120,_item11121,_item11122,_item11123,_item11124,_item11125,_item11126,_item11127,_item11128,_item11129,_item11130,_item11131,_item11132,_item11133,_item11134,_item11135,_item11136,_item11137,_item11138,_item11139,_item11140,_item11141,_item11142,_item11143,_item11144,_item11145,_item11146,_item11147,_item11148,_item11149,_item11150,_item11151,_item11152,_item11153,_item11154,_item11155,_item11156,_item11157,_item11158,_item11159,_item11160,_item11161,_item11162,_item11163,_item11164,_item11165,_item11166,_item11167,_item11168,_item11169,_item11170,_item11171,_item11172,_item11173,_item11174,_item11175,_item11176,_item11177,_item11178,_item11179,_item11180,_item11181,_item11182,_item11183,_item11184,_item11185,_item11186,_item11187,_item11188,_item11189,_item11190,_item11191,_item11192,_item11193,_item11194,_item11195,_item11196,_item11197,_item11198,_item11199,_item11200,_item11201,_item11202,_item11203,_item11204,_item11205,_item11206,_item11207,_item11208,_item11209,_item11212,_item11213,_item11214,_item11215,_item11216,_item11217,_item11218,_item11219,_item11220,_item11221,_item11222,_item11223,_item11224,_item11225,_item11226,_item11227,_item11228,_item11229,_item11230,_item11231,_item11232,_item11233,_item11234,_item11235,_item11236,_item11237,_item11238,_item11239,_item11335,_item11336,_item11337,_item11338,_item11339,_item11340,_item11341,_item11342,_item11343,_item11344,_item11345,_item11346,_item11347,_item11348,_item11349,_item11350,_item11351,_item11352,_item11353,_item11354,_item11355,_item11356,_item11357,_item11358,_item11359,_item11360,_item11361,_item11362,_item11363,_item11364,_item11365,_item11366,_item11367,_item11368,_item11369,_item11370,_item11371,_item11372,_item11373,_item11374,_item11375,_item11376,_item11377,_item11378,_item11379,_item11380,_item11381,_item11382,_item11383,_item11384,_item11385,_item11386,_item11387,_item11388,_item11389,_item11390,_item11391,_item11392,_item11393,_item11394,_item11395,_item11396,_item11397,_item11398,_item11399,_item11400,_item11401,_item11402,_item11403,_item11404,_item11405,_item11406,_item11407,_item11408,_item11409,_item11410,_item11411,_item11412,_item11413,_item11414,_item11415,_item11416,_item11417,_item11418,_item11419,_item11420,_item11421,_item11422,_item11423,_item11424,_item11425,_item11426,_item11427,_item11428,_item11429,_item11430,_item11431,_item11432,_item11433,_item11434,_item11435,_item11436,_item11437,_item11438,_item11439,_item11440,_item11441,_item11442,_item11443,_item11444,_item11445,_item11446,_item11447,_item11448,_item11449,_item11450,_item11451,_item11452,_item11453,_item11454,_item11455,_item11456,_item11457,_item11458,_item11459,_item11460,_item11461,_item11462,_item11463,_item11464,_item11465,_item11466,_item11467,_item11468,_item11469,_item11470,_item11471,_item11472,_item11473,_item11475,_item11476,_item11477,_item11478,_item11479,_item11480,_item11481,_item11482,_item11483,_item11484,_item11485,_item11486,_item11487,_item11488,_item11489,_item11490,_item11491,_item11492,_item11493,_item11494,_item11495,_item11496,_item11497,_item11498,_item11499,_item11500,_item11501,_item11502,_item11503,_item11504,_item11505,_item11506,_item11507,_item11508,_item11509,_item11510,_item11511,_item11512,_item11513,_item11514,_item11515,_item11516,_item11517,_item11518,_item11519,_item11520,_item11521,_item11522,_item11523,_item11524,_item11525,_item11526,_item11527,_item11528,_item11529,_item11530,_item11531,_item11532,_item11533,_item11534,_item11535,_item11536,_item11537,_item11538,_item11539,_item11540,_item11541,_item11542,_item11543,_item11544,_item11545,_item11546,_item11547,_item11548,_item11549,_item11550,_item11551,_item11552,_item11553,_item11554,_item11555,_item11556,_item11557,_item11558,_item11559,_item11560,_item11561,_item11562,_item11563,_item11564,_item11565,_item11566,_item11567,_item11568,_item11569,_item11570,_item11571,_item11572,_item11573,_item11574,_item11575,_item11576,_item11577,_item11578,_item11579,_item11580,_item11581,_item11582,_item11583,_item11584,_item12348,_item12853,_item11619,_item11621,_item11622,_item11624,_item11625,_item12256,_item12257,_item12258,_item12259,_item12260,_item12261,_item12278,_item12279,_item12280,_item12281,_item12282,_item12283,_item12284,_item12285,_item12286,_item12287,_item12288,_item12289,_item12290,_item12291,_item12292,_item12293,_item12294,_item12295,_item12296,_item10961,_item10962,_item10963,_item10964,_item10965,_item10966,_item10967,_item10968,_item10969,_item10970,_item12303,_item12856,_item12857,_item12665,_item12522,_item12528,_item12532,_item12529,_item12533,_item12667,_item12671,_item12672,_item12673,_item12675,_item12679,_item12716,_item12676,_item12677,_item12678],[]]];};
-
-
-
-
 if (!isNull _item12504 && !isNull _item12503) then {_item12504 moveInTurret [_item12503,[0]];};
 if (!isNull _item12480 && !isNull _item12479) then {_item12480 moveInTurret [_item12479,[0]];};
 if (!isNull _item12458 && !isNull _item12457) then {_item12458 moveInTurret [_item12457,[0]];};
@@ -14910,155 +15175,260 @@ if (!isNull _item13079 && !isNull _item13080) then {_item13079 moveInTurret [_it
 		this = _item12348;
 		ug_cleanup pushBack this;
 	};
-	if !(isnull _item11619) then {
-		this = _item11619;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13435) then {
+		this = _item13435;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item11621) then {
-		this = _item11621;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13443) then {
+		this = _item13443;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item11622) then {
-		this = _item11622;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13446) then {
+		this = _item13446;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item11624) then {
-		this = _item11624;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13447) then {
+		this = _item13447;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item11625) then {
-		this = _item11625;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13449) then {
+		this = _item13449;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12256) then {
-		this = _item12256;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13450) then {
+		this = _item13450;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12257) then {
-		this = _item12257;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13451) then {
+		this = _item13451;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12258) then {
-		this = _item12258;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13452) then {
+		this = _item13452;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12259) then {
-		this = _item12259;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13453) then {
+		this = _item13453;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12260) then {
-		this = _item12260;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13454) then {
+		this = _item13454;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12261) then {
-		this = _item12261;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13457) then {
+		this = _item13457;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12278) then {
-		this = _item12278;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13458) then {
+		this = _item13458;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12279) then {
-		this = _item12279;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13502) then {
+		this = _item13502;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12280) then {
-		this = _item12280;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13503) then {
+		this = _item13503;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12281) then {
-		this = _item12281;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13504) then {
+		this = _item13504;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12282) then {
-		this = _item12282;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13505) then {
+		this = _item13505;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12283) then {
-		this = _item12283;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13506) then {
+		this = _item13506;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12284) then {
-		this = _item12284;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13507) then {
+		this = _item13507;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12285) then {
-		this = _item12285;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13509) then {
+		this = _item13509;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12286) then {
-		this = _item12286;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13510) then {
+		this = _item13510;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12287) then {
-		this = _item12287;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13511) then {
+		this = _item13511;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12288) then {
-		this = _item12288;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13512) then {
+		this = _item13512;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12289) then {
-		this = _item12289;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13513) then {
+		this = _item13513;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12290) then {
-		this = _item12290;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13514) then {
+		this = _item13514;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12291) then {
-		this = _item12291;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13517) then {
+		this = _item13517;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12292) then {
-		this = _item12292;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13518) then {
+		this = _item13518;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12293) then {
-		this = _item12293;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13534) then {
+		this = _item13534;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12294) then {
-		this = _item12294;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13536) then {
+		this = _item13536;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12295) then {
-		this = _item12295;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13537) then {
+		this = _item13537;
+		ug_cleanup pushBack this;
+
 	};
-	if !(isnull _item12296) then {
-		this = _item12296;
-		this setObjectScale 6;
-ug_cleanup pushBack this;
+	if !(isnull _item13538) then {
+		this = _item13538;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13539) then {
+		this = _item13539;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13540) then {
+		this = _item13540;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13541) then {
+		this = _item13541;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13542) then {
+		this = _item13542;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13543) then {
+		this = _item13543;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13544) then {
+		this = _item13544;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13547) then {
+		this = _item13547;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13548) then {
+		this = _item13548;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13562) then {
+		this = _item13562;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13563) then {
+		this = _item13563;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13564) then {
+		this = _item13564;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13565) then {
+		this = _item13565;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13566) then {
+		this = _item13566;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13567) then {
+		this = _item13567;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13568) then {
+		this = _item13568;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13569) then {
+		this = _item13569;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13570) then {
+		this = _item13570;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13572) then {
+		this = _item13572;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13573) then {
+		this = _item13573;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13574) then {
+		this = _item13574;
+		ug_cleanup pushBack this;
+
+	};
+	if !(isnull _item13578) then {
+		this = _item13578;
+		ug_cleanup pushBack this;
+
 	};
 	if !(isnull _item10961) then {
 		this = _item10961;
@@ -15814,6 +16184,5 @@ publicVariable "radarpanel_2";
 		this = _item13072;
 		this disableAI "PATH";
 	};
-
 
 publicVariable "ug_cleanup";

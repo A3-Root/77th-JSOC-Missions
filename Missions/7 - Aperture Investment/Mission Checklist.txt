@@ -18,60 +18,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[url=https://ibb.co/qCVFpN7][img]https://i.ibb.co/gdhFJSm/20241015-Mission-Dossier-docx-Word-289.png[/img][/url]
-
-
-[url=https://ibb.co/DQQfd52][img]https://i.ibb.co/tDDpR8r/20241015084639-1.jpg[/img][/url]
-[url=https://ibb.co/JzQLpMT][img]https://i.ibb.co/kh1nDWT/20241015082229-1.jpg[/img][/url]
-
-
-[url=https://ibb.co/ctkJZTk][img]https://i.ibb.co/6brYTsr/20241015103914-1.png[/img][/url]
-[url=https://ibb.co/Htmmv1N][img]https://i.ibb.co/48BBy9s/20241015104037-1.png[/img][/url]
-[url=https://ibb.co/mD7fGrq][img]https://i.ibb.co/Wx1m6Ny/20241015104055-1.jpg[/img][/url]
-[url=https://ibb.co/JcYy1cX][img]https://i.ibb.co/GdZt6dg/20241015104131-1.jpg[/img][/url]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Verbal Briefing:
 
 Alright! Lets get started!
@@ -108,12 +54,36 @@ Over to the Mission Commander.
 
 
 
+Asylum VIP
+- Abbas Khalili
+- Face Thibaud
+- TanoanHead_A3_08
+[[[],[],[],["UK3CB_CSAT_M_O_U_Officer",[["ACE_EarPlugs",1],["ACE_quikclot",2],["ACE_elasticBandage",1],["ACE_packingBandage",1],["ACE_tourniquet",1],["ACE_splint",1],["ACE_morphine",1],["ACE_epinephrine",1],["ACE_adenosine",1],["SmokeShellOrange",1,1],["UK3CB_PC9_ZOAF_9_12Rnd",2,12]]],[],[],"UK3CB_CSAT_BEL_H_Beret","G_Aviator",["Hate_Smartphone","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ChemicalDetector_01_watch_F","murshun_cigs_cig0_nv"]],[["ace_arsenal_insignia","UK3CB_CSAT_Manticore_Insignia"],["aceax_textureOptions",[]]]]
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+[url=https://ibb.co/qCVFpN7][img]https://i.ibb.co/gdhFJSm/20241015-Mission-Dossier-docx-Word-289.png[/img][/url]
+
+
+[url=https://ibb.co/DQQfd52][img]https://i.ibb.co/tDDpR8r/20241015084639-1.jpg[/img][/url]
+[url=https://ibb.co/JzQLpMT][img]https://i.ibb.co/kh1nDWT/20241015082229-1.jpg[/img][/url]
+
+
+[url=https://ibb.co/ctkJZTk][img]https://i.ibb.co/6brYTsr/20241015103914-1.png[/img][/url]
+[url=https://ibb.co/Htmmv1N][img]https://i.ibb.co/48BBy9s/20241015104037-1.png[/img][/url]
+[url=https://ibb.co/mD7fGrq][img]https://i.ibb.co/Wx1m6Ny/20241015104055-1.jpg[/img][/url]
+[url=https://ibb.co/JcYy1cX][img]https://i.ibb.co/GdZt6dg/20241015104131-1.jpg[/img][/url]
 
 
 
@@ -142,32 +112,18 @@ UG Stats
 
 
 Main Stats
-637 Objects
-440 AI
+555 Objects
+366 AI
 66 Vehicles
 29 Simple Objects
-81 Groups
+67 Groups
 17 Markers
-33 Layers
+32 Layers
 
 
 
 
-Large Pelter
-Blue Laser Cannon
-Truck T-80
-MLRS T-80
-Underground
-Research Base (Main)
-Rescue x2
-Airbase
 
-
-Asylum VIP
-- Abbas Khalili
-- Face Thibaud
-- TanoanHead_A3_08
-[[[],[],[],["UK3CB_CSAT_M_O_U_Officer",[["ACE_EarPlugs",1],["ACE_quikclot",2],["ACE_elasticBandage",1],["ACE_packingBandage",1],["ACE_tourniquet",1],["ACE_splint",1],["ACE_morphine",1],["ACE_epinephrine",1],["ACE_adenosine",1],["SmokeShellOrange",1,1],["UK3CB_PC9_ZOAF_9_12Rnd",2,12]]],[],[],"UK3CB_CSAT_BEL_H_Beret","G_Aviator",["Hate_Smartphone","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ChemicalDetector_01_watch_F","murshun_cigs_cig0_nv"]],[["ace_arsenal_insignia","UK3CB_CSAT_Manticore_Insignia"],["aceax_textureOptions",[]]]]
 
 
 
@@ -277,3 +233,193 @@ this addAction [
 
 [this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded."] call zen_modules_fnc_addIntelAction;
 
+
+
+
+
+_currunit = _this select 0;
+_createposition = (getposATL _currunit);
+private _posATL = _createposition;
+private _ps1 = "#particlesource" createVehicleLocal _posATL;
+_ps1 setParticleParams [
+	["\A3\Data_F\ParticleEffects\Universal\Universal", 16, 7, 16, 1], "", "Billboard",
+	1, 8, [0, 0, 0], [0, 0, 2.5], 0, 10, 7.9, 0.066, [4, 12, 20],
+	[[0, 0, 0, 0], [0.05, 0.05, 0.05, 1], [0.05, 0.05, 0.05, 1], [0.05, 0.05, 0.05, 1], [0.1, 0.1, 0.1, 0.5], [0.125, 0.125, 0.125, 0]],
+	[0.25], 1, 0, "", "", _ps1];
+_ps1 setParticleRandom [0, [0.25, 0.25, 0], [0.2, 0.2, 0], 0, 0.25, [0, 0, 0, 0.1], 0, 0];
+_ps1 setDropInterval 0.2;
+private _ps2 = "#particlesource" createVehicleLocal _posATL;
+_ps2 setParticleParams [
+	["\A3\Data_F\ParticleEffects\Universal\Universal", 16, 10, 32], "", "Billboard",
+	1, 1, [0, 0, 0], [0, 0, 0.5], 0, 1, 1, 3, [0.5,1.5],
+	[[1,1,1,0.4], [1,1,1,0.2], [1,1,1,0]],
+	[0.25,1], 1, 1, "", "", _ps2];
+_ps2 setParticleRandom [0.2, [0.5, 0.5, 0.25], [0.125, 0.125, 0.125], 0.2, 0.2, [0, 0, 0, 0], 0, 0];
+_ps2 setDropInterval 0.05;
+private _ps3 = "#particlesource" createVehicleLocal _posATL;
+_ps3 setParticleParams [
+	"\A3\Data_F\ParticleEffects\Pstone\Pstone", "", "SpaceObject",
+	1, 10, [0, 0, 30], [0, 0, -2], 1, 10, 1, 0.2, [2, 2],
+	[[1, 1, 1 ,1]],
+	[0, 1], 1, 0, "", "", _ps3];
+_ps3 setParticleRandom [0, [10, 10, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0, 0];
+_ps3 setDropInterval 0.04;
+private _ps4 = "#particlesource" createVehicleLocal _posATL;
+_ps4 setParticleParams [
+	["\A3\Data_F\ParticleEffects\Universal\Universal", 16, 7, 1, 1], "", "Billboard",
+	1, 5, [0, 0, 1], [0, 0, 1.5], 0, 1, 1, 0.5, [1.75,2,3,4.5],
+	[[1,1,1,0], [1,1,1,0.5], [1,1,1,0.4], [1,1,1,0.2], [1,1,1,0]],
+	[0.5,0.5], 0, 0, "", "", _ps4];
+_ps4 setParticleRandom [0.5, [1, 1, 0.4], [0, 0, 0.5], 0, 0.125, [0, 0, 0, 0], rad 30, 0];
+_ps4 setDropInterval 0.1;
+[1] spawn BIS_fnc_earthquake;
+enableCamShake true;
+addCamShake [5, 10, 25];
+[_createposition, _ps1, _ps2, _currunit, _ps3, _ps4] spawn {
+	params ["_createposition", "_ps1", "_ps2", "_currunit", "_ps3", "_ps4"];
+	_tmpgrp = createGroup east;
+	_demon = _tmpgrp createUnit["O_Lartanian_Priest_F", _createposition, [],0,"CAN_COLLIDE"];
+	_demon hideObject true;
+	_demon disableAI "ALL";
+	playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_01.wss", _demon]; 
+	uiSleep 2; 
+	playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_03.wss", _demon]; 
+	uiSleep 1; 
+	playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_06.wss", _demon];
+	deleteVehicle _currunit; 
+	removeAllWeapons _demon;
+	removeAllItems _demon;
+	removeAllAssignedItems _demon;
+	removeUniform _demon;
+	removeVest _demon;
+	removeBackpack _demon;
+	removeHeadgear _demon;
+	removeGoggles _demon;
+	_demon addWeapon "UK3CB_MG3_Railed";
+	_demon addPrimaryWeaponItem "rhs_acc_1p87";
+	_demon addPrimaryWeaponItem "Tier1_250Rnd_762x51_Belt_M80";
+	_demon addWeapon "SPP_1_base_F";
+	_demon addHandgunItem "4Rnd_45x395_R";
+	_demon forceAddUniform "U_O_Lartanian_Priest_F";
+	_demon addVest "UK3CB_TKP_O_V_6b23_ml_BLK";
+	_demon addBackpack "jsoc_InvsibleZeusBag";
+	_demon addItemToUniform "ACE_fieldDressing";
+	_demon addItemToUniform "ACE_packingBandage";
+	_demon addItemToUniform "ACE_morphine";
+	_demon addItemToUniform "ACE_tourniquet";
+	_demon addItemToUniform "ACE_HandFlare_Green";
+	for "_i" from 1 to 7 do {_demon addItemToBackpack "Tier1_250Rnd_762x51_Belt_M80";};
+	_demon addHeadgear "lar_headp";
+	_demon linkItem "ItemMap";
+	_demon linkItem "ItemCompass";
+	_demon linkItem "ItemWatch";
+	_demon linkItem "ItemRadio";
+	_demon linkItem "ItemGPS";
+	_demon enablefatigue false;
+	_demon hideObject false;
+	_demon enableAI "ALL";
+	uiSleep 2;
+	deleteVehicle _ps1;
+	deleteVehicle _ps2;
+	deleteVehicle _ps3;
+	deleteVehicle _ps4;
+	demon1_dmg_total = 0;
+	demon1_dmg_increase = 1/100;
+	publicVariable "demon1_dmg_total";
+	publicVariable "demon1_dmg_increase";
+	_demon removeAllEventHandlers "Hit";
+	_demon removeAllEventHandlers "HandleDamage";
+	_demon addEventHandler ["HandleDamage", { 
+		params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint", "_directHit", "_context"]; 
+		demon1_dmg_total = demon1_dmg_total + demon1_dmg_increase;
+		if (demon1_dmg_total > 4) then 
+		{
+			_unit setDamage 1
+		};
+		_unit setDamage 0;
+	}];
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_this removeAllEventHandlers "HandleDamage";
+_this addEventHandler ["HandleDamage", { 
+    params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint", "_directHit", "_context"]; 
+    private _rockettypes = ["rhs_rpg7v2_pg7vl", "rhs_rpg7v2_pg7vr", "rhs_rpg7v2_pg7vl_penetrator", "rhs_rpg7v2_pg7vr_penetrator", "rhs_ammo_spall"];
+    private _previousDamage = [_unit getHit _selection, damage _unit] select (_selection isEqualTo ""); 
+    private _newDamage = _damage - _previousDamage;
+    private _nowdmg = (_previousDamage + _newDamage * 0.5);   
+    if (_projectile in _rockettypes) then { 
+        _nowdmg = (_previousDamage + _newDamage * 0.5); 
+        _nowdmg;
+    } else { 
+        _nowdmg = (_previousDamage + _newDamage * 0.8);
+        _nowdmg;
+    };
+    _nowdmg;
+}];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hp_demon = 1/400;
+_demon setVariable ["demon_dmg_total", 0];
+_demon setVariable ["demon_dmg_increase", _hp_demon];
+_demon removeAllEventHandlers "hit";
+_demon addEventHandler ["Hit", {
+    _unit=_this#0;
+    _demon_curr_dmg = (_unit getVariable "demon_dmg_total") + (_unit getVariable "demon_dmg_increase");
+	_unit setVariable ["demon_dmg_total", _demon_curr_dmg];
+	if ((_unit getVariable "demon_dmg_total") > 1) then 
+	{
+        _unit setDamage 1
+    };
+}];
+_demon removeAllEventHandlers "Handledamage";
+_demon addEventHandler ["Handledamage", {0}];
+
+
+
+
+
+[_this] spawn { 
+params ["_unit"]; 
+playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_01.wss", _unit]; 
+uiSleep 2; 
+playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_03.wss", _unit]; 
+uiSleep 1; 
+playsound3D ["a3\sounds_f_orange\missionsfx\pastambiences\idaphospitaltent\orange_idaphospitaltent_pain_06.wss", _unit]; 
+};

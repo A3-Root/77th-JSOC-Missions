@@ -1,6 +1,6 @@
 // Export of 'Operation: Aperture Investment' by [Pfc.] Root on 15 October 2024
 
-ship_interior = [];
+
 
 
 private _allWhitelisted = true;
@@ -8,7 +8,6 @@ private _layerRoot = true;
 private _layer7229 = true;
 private _layer7187 = true;
 private _layer5064 = true;
-private _layer5005 = true;
 private _layer5006 = true;
 private _layer4950 = true;
 private _layer4919 = true;
@@ -696,118 +695,6 @@ if (_layer5006 && _layer4966 && _layer1793) then {
 	_this = _item7156;
 	_groups pushback _this;
 	_groupIDs pushback 7156;
-};
-
-private _item6818 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6818 = createGroup east;
-	_this = _item6818;
-	_groups pushback _this;
-	_groupIDs pushback 6818;
-};
-
-private _item6827 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6827 = createGroup east;
-	_this = _item6827;
-	_groups pushback _this;
-	_groupIDs pushback 6827;
-};
-
-private _item6836 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6836 = createGroup east;
-	_this = _item6836;
-	_groups pushback _this;
-	_groupIDs pushback 6836;
-};
-
-private _item6845 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6845 = createGroup east;
-	_this = _item6845;
-	_groups pushback _this;
-	_groupIDs pushback 6845;
-};
-
-private _item6854 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6854 = createGroup east;
-	_this = _item6854;
-	_groups pushback _this;
-	_groupIDs pushback 6854;
-};
-
-private _item6864 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6864 = createGroup east;
-	_this = _item6864;
-	_groups pushback _this;
-	_groupIDs pushback 6864;
-};
-
-private _item6876 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6876 = createGroup east;
-	_this = _item6876;
-	_groups pushback _this;
-	_groupIDs pushback 6876;
-};
-
-private _item6888 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6888 = createGroup east;
-	_this = _item6888;
-	_groups pushback _this;
-	_groupIDs pushback 6888;
-};
-
-private _item6895 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6895 = createGroup east;
-	_this = _item6895;
-	_groups pushback _this;
-	_groupIDs pushback 6895;
-};
-
-private _item6899 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6899 = createGroup east;
-	_this = _item6899;
-	_groups pushback _this;
-	_groupIDs pushback 6899;
-};
-
-private _item6914 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item6914 = createGroup east;
-	_this = _item6914;
-	_groups pushback _this;
-	_groupIDs pushback 6914;
-};
-
-private _item7178 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item7178 = createGroup east;
-	_this = _item7178;
-	_groups pushback _this;
-	_groupIDs pushback 7178;
-};
-
-private _item7181 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item7181 = createGroup east;
-	_this = _item7181;
-	_groups pushback _this;
-	_groupIDs pushback 7181;
-};
-
-private _item7184 = grpNull;
-if (_layer5005 && _layer1793) then {
-	_item7184 = createGroup east;
-	_this = _item7184;
-	_groups pushback _this;
-	_groupIDs pushback 7184;
 };
 
 private _item6921 = grpNull;
@@ -8061,7 +7948,7 @@ if (_layer4999 && _layer1793) then {
 
 private _item5061 = objNull;
 if (_layer4999 && _layer1793) then {
-	_item5061 = createVehicle ["Land_Laptop_device_F",[4201.77,7456.06,3.54843],[],0,"CAN_COLLIDE"];
+	_item5061 = createVehicle ["Land_Laptop_device_F",[4201.77,7456.05,3.39755],[],0,"CAN_COLLIDE"];
 	_this = _item5061;
 	_objects pushback _this;
 	_objectIDs pushback 5061;
@@ -8098,7 +7985,7 @@ if (_layer4941 && _layer4966 && _layer1793) then {
 
 private _item4944 = objNull;
 if (_layer4941 && _layer4966 && _layer1793) then {
-	_item4944 = createVehicle ["Land_Laptop_unfolded_F",[3393.17,2302.04,6.57852],[],0,"CAN_COLLIDE"];
+	_item4944 = createVehicle ["Land_Laptop_unfolded_F",[3393.17,2302.01,6.42634],[],0,"CAN_COLLIDE"];
 	_this = _item4944;
 	_objects pushback _this;
 	_objectIDs pushback 4944;
@@ -8542,6 +8429,16 @@ if (_layer4950 && _layer4966 && _layer1793) then {
 	_this setVectorDirAndUp [[0,0.99995,-0.0100006],[-0.00799352,0.0100003,0.999918]];
 	_this enableSimulation false;
 	_this allowdamage false;
+};
+
+private _item7273 = objNull;
+if (_layer4950 && _layer4966 && _layer1793) then {
+	_item7273 = createVehicle ["Land_CncWall4_F",[3416.83,2302.07,4.4951],[],0,"CAN_COLLIDE"];
+	_this = _item7273;
+	_objects pushback _this;
+	_objectIDs pushback 7273;
+	_this setPosWorld [3416.83,2302.07,21.3816];
+	_this setVectorDirAndUp [[-0.610463,0.792045,0],[0,0,1]];
 };
 
 private _item4978 = objNull;
@@ -10099,1716 +9996,6 @@ if (_layer5006 && _layer4966 && _layer1793) then {
 
 };
 
-private _item6819 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6819 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_SL",[3980.22,7399.74,0],[],0,"CAN_COLLIDE"];
-	_item6818 selectLeader _item6819;
-	_this = _item6819;
-	_objects pushback _this;
-	_objectIDs pushback 6819;
-	_this setPosWorld [3980.22,7399.79,260.762];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vyacheslav Sudakov";
-	_this setface "WhiteHead_13";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.96706;
-	_this setRank "SERGEANT";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6820 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6820 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3985.22,7394.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6820;
-	_objects pushback _this;
-	_objectIDs pushback 6820;
-	_this setPosWorld [3985.22,7394.79,260.788];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Arkadiy Potapenko";
-	_this setface "WhiteHead_16";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.997295;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6821 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6821 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_MD",[3975.22,7394.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6821;
-	_objects pushback _this;
-	_objectIDs pushback 6821;
-	_this setPosWorld [3975.22,7394.79,260.761];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Pavel Pecharov";
-	_this setface "WhiteHead_21";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.04823;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6822 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6822 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3990.22,7389.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6822;
-	_objects pushback _this;
-	_objectIDs pushback 6822;
-	_this setPosWorld [3990.22,7389.79,260.938];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Nikita Turchinsky";
-	_this setface "WhiteHead_19";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.9921;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6823 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6823 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[3970.22,7389.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6823;
-	_objects pushback _this;
-	_objectIDs pushback 6823;
-	_this setPosWorld [3970.22,7389.79,260.761];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Kiril Mikoyan";
-	_this setface "WhiteHead_15";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 1.04613;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6824 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6824 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3995.22,7384.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6824;
-	_objects pushback _this;
-	_objectIDs pushback 6824;
-	_this setPosWorld [3995.22,7384.79,261.074];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Fyodor Bychkov";
-	_this setface "WhiteHead_14";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.970283;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6825 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6825 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3965.22,7384.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6825;
-	_objects pushback _this;
-	_objectIDs pushback 6825;
-	_this setPosWorld [3965.22,7384.79,260.761];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Dimitri Baranov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 1.01066;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6826 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6826 = _item6818 createUnit ["UK3CB_CSAT_S_O_SF_MK",[4000.22,7379.74,0],[],0,"CAN_COLLIDE"];
-	_this = _item6826;
-	_objects pushback _this;
-	_objectIDs pushback 6826;
-	_this setPosWorld [4000.22,7379.79,261.138];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Oleg Yagudin";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.01369;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6828 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6828 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_SL",[3929.45,7345.36,0],[],0,"CAN_COLLIDE"];
-	_item6827 selectLeader _item6828;
-	_this = _item6828;
-	_objects pushback _this;
-	_objectIDs pushback 6828;
-	_this setPosWorld [3929.45,7345.41,260.932];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Konstantin Zhukov";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.988255;
-	_this setRank "SERGEANT";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6829 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6829 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3934.45,7340.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6829;
-	_objects pushback _this;
-	_objectIDs pushback 6829;
-	_this setPosWorld [3934.45,7340.41,260.763];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Nikita Putin";
-	_this setface "WhiteHead_14";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.979615;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6830 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6830 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_MD",[3924.45,7340.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6830;
-	_objects pushback _this;
-	_objectIDs pushback 6830;
-	_this setPosWorld [3924.45,7340.41,260.026];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yuri Morozov";
-	_this setface "WhiteHead_21";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.988523;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6831 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6831 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3939.45,7335.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6831;
-	_objects pushback _this;
-	_objectIDs pushback 6831;
-	_this setPosWorld [3939.45,7335.41,260.539];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Andrey Zykov";
-	_this setface "WhiteHead_20";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.989625;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6832 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6832 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[3919.45,7335.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6832;
-	_objects pushback _this;
-	_objectIDs pushback 6832;
-	_this setPosWorld [3919.45,7335.41,259.498];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Kiril Vasilyev";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.952524;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6833 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6833 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3944.45,7330.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6833;
-	_objects pushback _this;
-	_objectIDs pushback 6833;
-	_this setPosWorld [3944.45,7330.41,260.333];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Arkadiy Kuznetsov";
-	_this setface "WhiteHead_13";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.02239;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6834 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6834 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3914.45,7330.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6834;
-	_objects pushback _this;
-	_objectIDs pushback 6834;
-	_this setPosWorld [3914.45,7330.41,259.118];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vadim Medvedev";
-	_this setface "WhiteHead_15";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.964624;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6835 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6835 = _item6827 createUnit ["UK3CB_CSAT_S_O_SF_MK",[3949.45,7325.36,0],[],0,"CAN_COLLIDE"];
-	_this = _item6835;
-	_objects pushback _this;
-	_objectIDs pushback 6835;
-	_this setPosWorld [3949.45,7325.41,260.315];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "German Borodin";
-	_this setface "WhiteHead_12";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 0.951471;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6837 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6837 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_SL",[4005.79,7486.52,0],[],0,"CAN_COLLIDE"];
-	_item6836 selectLeader _item6837;
-	_this = _item6837;
-	_objects pushback _this;
-	_objectIDs pushback 6837;
-	_this setPosWorld [4005.79,7486.57,261.62];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Grigoriy Timoshenko";
-	_this setface "WhiteHead_14";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.03179;
-	_this setRank "SERGEANT";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6838 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6838 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_AR",[4010.79,7481.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6838;
-	_objects pushback _this;
-	_objectIDs pushback 6838;
-	_this setPosWorld [4010.79,7481.57,261.659];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasili Vorobiev";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.971732;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6839 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6839 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_MD",[4000.79,7481.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6839;
-	_objects pushback _this;
-	_objectIDs pushback 6839;
-	_this setPosWorld [4000.79,7481.57,261.361];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Alyosha Tokarev";
-	_this setface "WhiteHead_01";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.993587;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6840 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6840 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[4015.79,7476.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6840;
-	_objects pushback _this;
-	_objectIDs pushback 6840;
-	_this setPosWorld [4015.79,7476.57,261.617];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Stepan Glebov";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 1.04314;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6841 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6841 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[3995.79,7476.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6841;
-	_objects pushback _this;
-	_objectIDs pushback 6841;
-	_this setPosWorld [3995.79,7476.57,261.315];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Stepan Zverev";
-	_this setface "WhiteHead_13";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.997111;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6842 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6842 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_TL",[4020.79,7471.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6842;
-	_objects pushback _this;
-	_objectIDs pushback 6842;
-	_this setPosWorld [4020.79,7471.57,261.754];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Daniil Yagudin";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.02879;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6843 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6843 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3990.79,7471.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6843;
-	_objects pushback _this;
-	_objectIDs pushback 6843;
-	_this setPosWorld [3990.79,7471.57,261.168];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Boris Pushkin";
-	_this setface "LivonianHead_6";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.980479;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6844 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6844 = _item6836 createUnit ["UK3CB_CSAT_S_O_SF_MK",[4025.79,7466.52,0],[],0,"CAN_COLLIDE"];
-	_this = _item6844;
-	_objects pushback _this;
-	_objectIDs pushback 6844;
-	_this setPosWorld [4025.79,7466.57,261.955];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasili Alekseev";
-	_this setface "WhiteHead_03";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 0.98852;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6846 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6846 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_SL",[3873.02,7477,-3.05176e-05],[],0,"CAN_COLLIDE"];
-	_item6845 selectLeader _item6846;
-	_this = _item6846;
-	_objects pushback _this;
-	_objectIDs pushback 6846;
-	_this setPosWorld [3873.02,7477.05,259.438];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Valentin Zhegalov";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.964551;
-	_this setRank "SERGEANT";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6847 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6847 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3878.02,7472,-3.05176e-05],[],0,"CAN_COLLIDE"];
-	_this = _item6847;
-	_objects pushback _this;
-	_objectIDs pushback 6847;
-	_this setPosWorld [3878.02,7472.05,259.327];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Abram Shcherbakov";
-	_this setface "WhiteHead_19";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.982185;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6848 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6848 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_MD",[3868.02,7472,0],[],0,"CAN_COLLIDE"];
-	_this = _item6848;
-	_objects pushback _this;
-	_objectIDs pushback 6848;
-	_this setPosWorld [3868.02,7472.05,259.346];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Egor Borodin";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 1.02017;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6849 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6849 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3883.02,7467,0],[],0,"CAN_COLLIDE"];
-	_this = _item6849;
-	_objects pushback _this;
-	_objectIDs pushback 6849;
-	_this setPosWorld [3883.02,7467.05,259.291];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Daniil Yefremov";
-	_this setface "WhiteHead_11";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.960346;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6850 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6850 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[3863.02,7467,0],[],0,"CAN_COLLIDE"];
-	_this = _item6850;
-	_objects pushback _this;
-	_objectIDs pushback 6850;
-	_this setPosWorld [3863.02,7467.05,259.268];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Filip Putin";
-	_this setface "WhiteHead_08";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.955921;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6851 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6851 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3888.02,7462,0],[],0,"CAN_COLLIDE"];
-	_this = _item6851;
-	_objects pushback _this;
-	_objectIDs pushback 6851;
-	_this setPosWorld [3888.02,7462.05,259.43];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasil Khrushchev";
-	_this setface "WhiteHead_16";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 1.00203;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6852 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6852 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3858.02,7462,0],[],0,"CAN_COLLIDE"];
-	_this = _item6852;
-	_objects pushback _this;
-	_objectIDs pushback 6852;
-	_this setPosWorld [3858.02,7462.05,259.171];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Konstantin Zubov";
-	_this setface "WhiteHead_09";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.02302;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6853 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6853 = _item6845 createUnit ["UK3CB_CSAT_S_O_SF_MK",[3893.02,7457,3.05176e-05],[],0,"CAN_COLLIDE"];
-	_this = _item6853;
-	_objects pushback _this;
-	_objectIDs pushback 6853;
-	_this setPosWorld [3893.02,7457.05,259.702];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Maksim Golovko";
-	_this setface "WhiteHead_16";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.00589;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6855 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6855 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_SL",[3876.37,7345.77,0],[],0,"CAN_COLLIDE"];
-	_item6854 selectLeader _item6855;
-	_this = _item6855;
-	_objects pushback _this;
-	_objectIDs pushback 6855;
-	_this setPosWorld [3876.37,7345.82,257.948];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Sergei Rogozhkin";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.04875;
-	_this setRank "SERGEANT";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6856 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6856 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3881.37,7340.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6856;
-	_objects pushback _this;
-	_objectIDs pushback 6856;
-	_this setPosWorld [3881.37,7340.82,258.122];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Anatoli Krasko";
-	_this setface "WhiteHead_05";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.976728;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6857 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6857 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_MD",[3871.37,7340.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6857;
-	_objects pushback _this;
-	_objectIDs pushback 6857;
-	_this setPosWorld [3871.37,7340.82,257.736];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Kiril Borichev";
-	_this setface "LivonianHead_6";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.01323;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6858 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6858 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3886.37,7335.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6858;
-	_objects pushback _this;
-	_objectIDs pushback 6858;
-	_this setPosWorld [3886.37,7335.82,258.157];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Alyosha Dobryakov";
-	_this setface "WhiteHead_06";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.960117;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6859 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6859 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[3866.37,7335.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6859;
-	_objects pushback _this;
-	_objectIDs pushback 6859;
-	_this setPosWorld [3866.37,7335.82,257.466];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yuri Sarafanov";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.967603;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6860 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6860 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3891.37,7330.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6860;
-	_objects pushback _this;
-	_objectIDs pushback 6860;
-	_this setPosWorld [3891.37,7330.82,258.202];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Daniil Zubov";
-	_this setface "WhiteHead_13";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.03136;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6861 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6861 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3861.37,7330.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6861;
-	_objects pushback _this;
-	_objectIDs pushback 6861;
-	_this setPosWorld [3861.37,7330.82,257.056];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Lev Mikoyan";
-	_this setface "WhiteHead_01";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.996232;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6862 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6862 = _item6854 createUnit ["UK3CB_CSAT_S_O_SF_MK",[3896.37,7325.77,0],[],0,"CAN_COLLIDE"];
-	_this = _item6862;
-	_objects pushback _this;
-	_objectIDs pushback 6862;
-	_this setPosWorld [3896.37,7325.82,257.907];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Aleksander Golovko";
-	_this setface "WhiteHead_09";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.959757;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6866 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6866 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_RIF_2",[3888.71,7397.12,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6866;
-	_objects pushback _this;
-	_objectIDs pushback 6866;
-	_this setPosWorld [3888.71,7397.17,261.713];
-	_this setVectorDirAndUp [[-0.246613,-0.969114,0],[0,0,1]];
-	_this setname "Fyodor Komarov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 1.04092;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6867 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6867 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_RIF_2",[3893.17,7394.03,0.701172],[],0,"CAN_COLLIDE"];
-	_item6864 selectLeader _item6867;
-	_this = _item6867;
-	_objects pushback _this;
-	_objectIDs pushback 6867;
-	_this setPosWorld [3893.17,7394.08,261.713];
-	_this setVectorDirAndUp [[0.859648,0.510886,0],[0,0,1]];
-	_this setname "Stepan Mamayev";
-	_this setface "WhiteHead_06";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.00374;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6868 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6868 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_SPOT",[3887.72,7400.38,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6868;
-	_objects pushback _this;
-	_objectIDs pushback 6868;
-	_this setPosWorld [3887.72,7400.43,261.713];
-	_this setVectorDirAndUp [[-0.246613,-0.969114,0],[0,0,1]];
-	_this setname "Konstantin Glebov";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.958151;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6869 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6869 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_ENG",[3869.4,7413.1,0.658813],[],0,"CAN_COLLIDE"];
-	_this = _item6869;
-	_objects pushback _this;
-	_objectIDs pushback 6869;
-	_this setPosWorld [3869.4,7413.15,261.713];
-	_this setVectorDirAndUp [[0.510886,-0.859649,0],[0,0,1]];
-	_this setname "Vadim Mikoyan";
-	_this setface "WhiteHead_19";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 1.04044;
-	if !(1 == ([0, 1] select (_this getUnitTrait 'engineer')) || {1 == -1}) then {_this setVariable ['s', 1, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6870 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6870 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3886.14,7385.67,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6870;
-	_objects pushback _this;
-	_objectIDs pushback 6870;
-	_this setPosWorld [3886.14,7385.72,261.713];
-	_this setVectorDirAndUp [[-0.510886,0.859649,0],[0,0,1]];
-	_this setname "Kiril Afanasyev";
-	_this setface "WhiteHead_14";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.04314;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6871 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6871 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3869.74,7401.91,0.699097],[],0,"CAN_COLLIDE"];
-	_this = _item6871;
-	_objects pushback _this;
-	_objectIDs pushback 6871;
-	_this setPosWorld [3869.74,7401.96,261.713];
-	_this setVectorDirAndUp [[-0.510886,0.859649,0],[0,0,1]];
-	_this setname "Anatoli Blagonravov";
-	_this setface "WhiteHead_16";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.965329;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6872 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6872 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_GL",[3875,7396.69,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6872;
-	_objects pushback _this;
-	_objectIDs pushback 6872;
-	_this setPosWorld [3875,7396.74,261.713];
-	_this setVectorDirAndUp [[0.859648,0.510886,0],[0,0,1]];
-	_this setname "Vladimir Sharapov";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.958026;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6873 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6873 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_MD",[3876.07,7394.56,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6873;
-	_objects pushback _this;
-	_objectIDs pushback 6873;
-	_this setPosWorld [3876.07,7394.61,261.713];
-	_this setVectorDirAndUp [[0.859648,0.510886,0],[0,0,1]];
-	_this setname "Fedor Potapenko";
-	_this setface "WhiteHead_21";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.03345;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6874 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6874 = _item6864 createUnit ["UK3CB_CSAT_S_O_SF_GL",[3893.7,7391.87,0.701172],[],0,"CAN_COLLIDE"];
-	_this = _item6874;
-	_objects pushback _this;
-	_objectIDs pushback 6874;
-	_this setPosWorld [3893.7,7391.92,261.713];
-	_this setVectorDirAndUp [[-0.859649,-0.510886,0],[0,0,1]];
-	_this setname "Lev Alekseev";
-	_this setface "WhiteHead_08";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 1.02368;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6878 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6878 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3939.83,7455.19,3.41373],[],0,"CAN_COLLIDE"];
-	_this = _item6878;
-	_objects pushback _this;
-	_objectIDs pushback 6878;
-	_this setPosWorld [3939.83,7455.24,264.481];
-	_this setVectorDirAndUp [[-0.853934,-0.520381,0],[0,0,1]];
-	_this setname "Maksim Bychkov";
-	_this setface "WhiteHead_17";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.951727;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6879 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6879 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_AA",[3941.84,7443.9,3.62119],[],0,"CAN_COLLIDE"];
-	_item6876 selectLeader _item6879;
-	_this = _item6879;
-	_objects pushback _this;
-	_objectIDs pushback 6879;
-	_this setPosWorld [3941.84,7443.95,264.481];
-	_this setVectorDirAndUp [[-0.971788,0.235858,0],[0,0,1]];
-	_this setname "German Rogozhkin";
-	_this setface "WhiteHead_16";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.99771;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6880 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6880 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3948.19,7451.95,3.40918],[],0,"CAN_COLLIDE"];
-	_this = _item6880;
-	_objects pushback _this;
-	_objectIDs pushback 6880;
-	_this setPosWorld [3948.19,7452,264.481];
-	_this setVectorDirAndUp [[-0.971788,0.235858,0],[0,0,1]];
-	_this setname "Pavel Yefremov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.03464;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6881 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6881 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_AR",[3948.15,7452.13,1.53262],[],0,"CAN_COLLIDE"];
-	_this = _item6881;
-	_objects pushback _this;
-	_objectIDs pushback 6881;
-	_this setPosWorld [3948.15,7452.18,262.604];
-	_this setVectorDirAndUp [[-0.520381,0.853934,0],[0,0,1]];
-	_this setname "Kiril Popov";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.04872;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6882 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6882 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_AA_ASST",[3939.13,7444.63,3.5979],[],0,"CAN_COLLIDE"];
-	_this = _item6882;
-	_objects pushback _this;
-	_objectIDs pushback 6882;
-	_this setPosWorld [3939.13,7444.68,264.481];
-	_this setVectorDirAndUp [[-0.971788,0.235858,0],[0,0,1]];
-	_this setname "Viktor Provodnikov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.01126;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6883 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6883 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_LAT",[3942.12,7443.65,1.41864],[],0,"CAN_COLLIDE"];
-	_this = _item6883;
-	_objects pushback _this;
-	_objectIDs pushback 6883;
-	_this setPosWorld [3942.12,7443.7,262.273];
-	_this setVectorDirAndUp [[-0.853934,-0.520381,0],[0,0,1]];
-	_this setname "Vasil Fisenko";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.04596;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6884 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6884 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_AA",[3936.2,7449.16,3.44122],[],0,"CAN_COLLIDE"];
-	_this = _item6884;
-	_objects pushback _this;
-	_objectIDs pushback 6884;
-	_this setPosWorld [3936.2,7449.21,264.481];
-	_this setVectorDirAndUp [[-0.520381,0.853934,0],[0,0,1]];
-	_this setname "Vadim Smirnov";
-	_this setface "WhiteHead_14";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.966764;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6885 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6885 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_RIF_2",[3941.59,7456.26,1.29135],[],0,"CAN_COLLIDE"];
-	_this = _item6885;
-	_objects pushback _this;
-	_objectIDs pushback 6885;
-	_this setPosWorld [3941.59,7456.31,262.338];
-	_this setVectorDirAndUp [[0.520382,-0.853934,0],[0,0,1]];
-	_this setname "Alyosha Soloveychik";
-	_this setface "WhiteHead_21";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.02002;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6886 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6886 = _item6876 createUnit ["UK3CB_CSAT_S_O_SF_MK",[3935.45,7447.44,1.57928],[],0,"CAN_COLLIDE"];
-	_this = _item6886;
-	_objects pushback _this;
-	_objectIDs pushback 6886;
-	_this setPosWorld [3935.45,7447.49,262.575];
-	_this setVectorDirAndUp [[-0.520381,0.853934,0],[0,0,1]];
-	_this setname "Pyotr Litvinov";
-	_this setface "WhiteHead_10";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.958127;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6890 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6890 = _item6888 createUnit ["UK3CB_CSAT_S_O_SF_SL",[3995.81,7381.14,3.435],[],0,"CAN_COLLIDE"];
-	_this = _item6890;
-	_objects pushback _this;
-	_objectIDs pushback 6890;
-	_this setPosWorld [3995.81,7381.19,264.516];
-	_this setVectorDirAndUp [[0.863386,0.504544,0],[0,0,1]];
-	_this setname "Pavel Kuznetsov";
-	_this setface "WhiteHead_18";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 1.00702;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6891 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6891 = _item6888 createUnit ["UK3CB_CSAT_S_O_SF_MK",[3998.38,7369.11,3.32864],[],0,"CAN_COLLIDE"];
-	_item6888 selectLeader _item6891;
-	_this = _item6891;
-	_objects pushback _this;
-	_objectIDs pushback 6891;
-	_this setPosWorld [3998.38,7369.16,264.516];
-	_this setVectorDirAndUp [[0.504544,-0.863386,0],[0,0,1]];
-	_this setname "Fyodor Ivanov";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 0.958261;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6892 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6892 = _item6888 createUnit ["UK3CB_CSAT_S_O_SF_MD",[4001.78,7377.4,3.32651],[],0,"CAN_COLLIDE"];
-	_this = _item6892;
-	_objects pushback _this;
-	_objectIDs pushback 6892;
-	_this setPosWorld [4001.78,7377.45,264.516];
-	_this setVectorDirAndUp [[0.967273,-0.25374,0],[0,0,1]];
-	_this setname "Leonid Glebov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male05rus";
-	_this setpitch 1.0194;
-	_this setUnitPos "DOWN";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (1 != -1 && {1 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 1, true]};
-
-
-
-};
-
-private _item6893 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6893 = _item6888 createUnit ["UK3CB_CSAT_S_O_SF_GL",[3994.11,7381.92,1.55646],[],0,"CAN_COLLIDE"];
-	_this = _item6893;
-	_objects pushback _this;
-	_objectIDs pushback 6893;
-	_this setPosWorld [3994.11,7381.97,262.61];
-	_this setVectorDirAndUp [[-0.967273,0.25374,0],[0,0,1]];
-	_this setname "Daniil Akulov";
-	_this setface "WhiteHead_01";
-	_this setspeaker "rhs_male04rus";
-	_this setpitch 0.980808;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6897 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6897 = _item6895 createUnit ["UK3CB_CSAT_S_O_SF_DEM",[3983.07,7375.66,0.880768],[],0,"CAN_COLLIDE"];
-	_item6895 selectLeader _item6897;
-	_this = _item6897;
-	_objects pushback _this;
-	_objectIDs pushback 6897;
-	_this setPosWorld [3983.07,7375.71,261.794];
-	_this setVectorDirAndUp [[0.879743,0.47545,0],[0,0,1]];
-	_this setname "Mikhail Medvedev";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.984895;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', true, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6901 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6901 = _item6899 createUnit ["UK3CB_CSAT_S_O_SF_MG",[3976.3,7345.4,0.517517],[],0,"CAN_COLLIDE"];
-	_this = _item6901;
-	_objects pushback _this;
-	_objectIDs pushback 6901;
-	_this setPosWorld [3976.3,7345.45,261.931];
-	_this setVectorDirAndUp [[-0.765191,0.643804,0],[0,0,1]];
-	_this setname "Aleksei Bulgakov";
-	_this setface "WhiteHead_03";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 1.00883;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6902 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6902 = _item6899 createUnit ["UK3CB_CSAT_S_O_SF_TL",[3978.41,7347.71,0.554718],[],0,"CAN_COLLIDE"];
-	_item6899 selectLeader _item6902;
-	_this = _item6902;
-	_objects pushback _this;
-	_objectIDs pushback 6902;
-	_this setPosWorld [3978.41,7347.76,261.931];
-	_this setVectorDirAndUp [[-0.996309,-0.0858341,0],[0,0,1]];
-	_this setname "Daniil Smirnov";
-	_this setface "WhiteHead_09";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 0.994621;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6903 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6903 = _item6899 createUnit ["UK3CB_CSAT_S_O_SF_MG",[3978.7,7349.65,0.660217],[],0,"CAN_COLLIDE"];
-	_this = _item6903;
-	_objects pushback _this;
-	_objectIDs pushback 6903;
-	_this setPosWorld [3978.7,7349.7,261.931];
-	_this setVectorDirAndUp [[-0.643803,-0.765191,0],[0,0,1]];
-	_this setname "Stepan Vorobiev";
-	_this setface "WhiteHead_07";
-	_this setspeaker "rhs_male03rus";
-	_this setpitch 1.02028;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6916 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6916 = _item6914 createUnit ["UK3CB_CSAT_S_O_SF_AT",[3986.15,7342.1,0.525543],[],0,"CAN_COLLIDE"];
-	_this = _item6916;
-	_objects pushback _this;
-	_objectIDs pushback 6916;
-	_this setPosWorld [3986.15,7342.15,262.274];
-	_this setVectorDirAndUp [[0.147982,0.98899,0],[0,0,1]];
-	_this setname "Vladimir Krasko";
-	_this setface "WhiteHead_06";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.981303;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item6917 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item6917 = _item6914 createUnit ["UK3CB_CSAT_S_O_SF_HAT",[3986.06,7347.86,0.490997],[],0,"CAN_COLLIDE"];
-	_item6914 selectLeader _item6917;
-	_this = _item6917;
-	_objects pushback _this;
-	_objectIDs pushback 6917;
-	_this setPosWorld [3986.06,7347.91,261.988];
-	_this setVectorDirAndUp [[0.147982,0.98899,0],[0,0,1]];
-	_this setname "Kiril Glebov";
-	_this setface "WhiteHead_02";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.966044;
-	_this setUnitPos "MIDDLE";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7179 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7179 = _item7178 createUnit ["UK3CB_CSAT_S_O_TL",[4426.88,7340.72,0],[],0,"CAN_COLLIDE"];
-	_item7178 selectLeader _item7179;
-	_this = _item7179;
-	_objects pushback _this;
-	_objectIDs pushback 7179;
-	_this setPosWorld [4426.88,7340.77,338.301];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Igor Zhukov";
-	_this setface "WhiteHead_10";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.959137;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7180 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7180 = _item7178 createUnit ["UK3CB_CSAT_S_O_RIF_1",[4431.88,7335.72,0],[],0,"CAN_COLLIDE"];
-	_this = _item7180;
-	_objects pushback _this;
-	_objectIDs pushback 7180;
-	_this setPosWorld [4431.88,7335.77,338.36];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Vasili Pushkin";
-	_this setface "WhiteHead_06";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 0.998946;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7182 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7182 = _item7181 createUnit ["UK3CB_CSAT_S_O_TL",[4450.21,7354.67,0],[],0,"CAN_COLLIDE"];
-	_item7181 selectLeader _item7182;
-	_this = _item7182;
-	_objects pushback _this;
-	_objectIDs pushback 7182;
-	_this setPosWorld [4450.21,7354.72,338.984];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Nikolay Dobryakov";
-	_this setface "WhiteHead_19";
-	_this setspeaker "rhs_male01rus";
-	_this setpitch 0.966144;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7183 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7183 = _item7181 createUnit ["UK3CB_CSAT_S_O_RIF_1",[4455.21,7349.67,0],[],0,"CAN_COLLIDE"];
-	_this = _item7183;
-	_objects pushback _this;
-	_objectIDs pushback 7183;
-	_this setPosWorld [4455.21,7349.72,337.031];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Semyon Blagonravov";
-	_this setface "WhiteHead_04";
-	_this setspeaker "rhs_male02rus";
-	_this setpitch 1.01295;
-	_this setSkill 0.4;
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7185 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7185 = _item7184 createUnit ["UK3CB_CSAT_S_O_SF_SNI_GHILLIE",[4391.16,7450.25,0],[],0,"CAN_COLLIDE"];
-	_item7184 selectLeader _item7185;
-	_this = _item7185;
-	_objects pushback _this;
-	_objectIDs pushback 7185;
-	_this setPosWorld [4391.16,7450.3,325.176];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Nikita Borodin";
-	_this setface "WhiteHead_14";
-	_this setspeaker "RHS_Male05RUS";
-	_this setpitch 0.99;
-	_this setRank "SERGEANT";
-	_this setUnitPos "DOWN";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
-private _item7186 = objNull;
-if (_layer5005 && _layer1793) then {
-	_item7186 = _item7184 createUnit ["UK3CB_CSAT_S_O_SF_SPOT_GHILLIE",[4396.16,7445.25,0],[],0,"CAN_COLLIDE"];
-	_this = _item7186;
-	_objects pushback _this;
-	_objectIDs pushback 7186;
-	_this setPosWorld [4396.16,7445.3,325.695];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	_this setname "Yevgeniy Yeltsin";
-	_this setface "WhiteHead_05";
-	_this setspeaker "RHS_Male03RUS";
-	_this setpitch 1.01;
-	_this setSkill 0.45;
-	_this setRank "CORPORAL";
-	_this setUnitPos "DOWN";
-	if !(0 == ([0, 1] select (_this getUnitTrait 'engineer')) || {0 == -1}) then {_this setVariable ['s', 0, true]};
-	_this setVariable ["ace_advanced_fatigue_performanceFactor", 1, true];
-	_this setVariable ['ACE_isEOD', false, true];
-	if (0 >= 0.1) then {_this setVariable ["ace_medical_damageThreshold", 0, true]};
-	if (0 != -1 && {0 != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable ["ace_medical_medicClass", 0, true]};
-
-
-
-};
-
 private _item6923 = objNull;
 if (_layer5064 && _layer1793) then {
 	_item6923 = _item6921 createUnit ["UK3CB_CSAT_S_O_CREW",[3903.41,7369.11,-3.05176e-05],[],0,"CAN_COLLIDE"];
@@ -12345,16 +10532,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7188;
 	_this setPosWorld [4485.76,3018.11,16.0575];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12369,16 +10556,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7189;
 	_this setPosWorld [4478.61,3050.73,15.9859];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12393,16 +10580,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7190;
 	_this setPosWorld [4449.36,3052.37,15.9279];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12417,16 +10604,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7191;
 	_this setPosWorld [4394.6,3052.92,15.7268];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12441,16 +10628,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7192;
 	_this setPosWorld [4422.68,3050.54,15.8635];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12465,16 +10652,16 @@ if (_layer7187) then {
 	_objectIDs pushback 7193;
 	_this setPosWorld [4368.83,3053.21,15.7692];
 	_this setVectorDirAndUp [[0,0.999992,0.00399666],[0,-0.00399666,0.999992]];
-	_this setPylonLoadout [1,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [2,"USAF_MISSILE_1Rnd_AIM9X"];
-	_this setPylonLoadout [3,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [4,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [5,"USAF_PylonRack_1Rnd_AIM120"];
-	_this setPylonLoadout [6,"USAF_PylonRack_1Rnd_AIM120"];
+	_this setPylonLoadout [1,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [2,"USAF_Missile_1Rnd_AIM120"];
+	_this setPylonLoadout [3,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [4,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [5,"USAF_PylonRack_2Rnd_AARGMER"];
+	_this setPylonLoadout [6,"USAF_PylonRack_2Rnd_AARGMER"];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
-	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [10,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [11,"EX3B_PylonWeapon_220Rnd_25mm_API_shells"];
 	_this setFuelConsumptionCoef 1;
 	_this setVehicleReportRemoteTargets true;
@@ -12497,7 +10684,7 @@ if (_layer7187) then {
 	_this setPylonLoadout [6,""];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
-	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [9,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
 	_this setPylonLoadout [11,""];
 	_this setPylonLoadout [12,"EX3B_PylonWeapon_180Rnd_20mm_API_HE_shells"];
@@ -12522,7 +10709,7 @@ if (_layer7187) then {
 	_this setPylonLoadout [6,""];
 	_this setPylonLoadout [7,"USAF_Missile_1Rnd_AIM120"];
 	_this setPylonLoadout [8,"USAF_Missile_1Rnd_AIM120"];
-	_this setPylonLoadout [9,"USAF_PylonRack_4Rnd_GBU53"];
+	_this setPylonLoadout [9,"USAF_MISSILE_2Rnd_AIM120_F22"];
 	_this setPylonLoadout [10,"USAF_PylonRack_4Rnd_GBU53"];
 	_this setPylonLoadout [11,""];
 	_this setPylonLoadout [12,"EX3B_PylonWeapon_180Rnd_20mm_API_HE_shells"];
@@ -12595,7 +10782,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "01"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -12664,7 +10851,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "02"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -12733,7 +10920,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "03"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -12802,7 +10989,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "04"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -12871,7 +11058,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "05"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -12940,7 +11127,7 @@ if (_layer7187) then {
 	_this setVehicleReceiveRemoteTargets true;
 	_this setVehicleReportOwnPosition true;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (true) then {[_this] call ace_fastroping_fnc_equipFRIES};
+	if (false) then {[_this] call ace_fastroping_fnc_equipFRIES};
 	[_this, "06"] call vtx_uh60_misc_fnc_setDoorNumbers;
 	_this setObjectTextureGlobal [19, ""];
 };
@@ -13139,114 +11326,6 @@ if (_layer7187) then {
 	_this setVariable ['s',1];
 	[_this, 12] call ace_cargo_fnc_setSpace;
 
-};
-
-private _item7220 = objNull;
-if (_layer7187) then {
-	_item7220 = createVehicle ["jsoc_supply_explosive",[4262.43,3051.1,0],[],0,"CAN_COLLIDE"];
-	_this = _item7220;
-	_objects pushback _this;
-	_objectIDs pushback 7220;
-	_this setPosWorld [4262.43,3051.1,12.4241];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[""ACE_VMM3""],[2]],[[""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""ACE_M14"",""ClaymoreDirectionalMine_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag""],[25,10,20,20,20,20,20]],[[""ToolKit"",""ACE_wirecutter"",""ACE_EntrenchingTool"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_M26_Clacker""],[2,2,2,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
-};
-
-private _item7223 = objNull;
-if (_layer7187) then {
-	_item7223 = createVehicle ["jsoc_supply_explosive",[4262.22,3044.83,0.00500011],[],0,"CAN_COLLIDE"];
-	_this = _item7223;
-	_objects pushback _this;
-	_objectIDs pushback 7223;
-	_this setPosWorld [4262.22,3044.83,12.4291];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[""ACE_VMM3""],[2]],[[""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""ACE_M14"",""ClaymoreDirectionalMine_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag""],[25,10,20,20,20,20,20]],[[""ToolKit"",""ACE_wirecutter"",""ACE_EntrenchingTool"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_M26_Clacker""],[2,2,2,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
-};
-
-private _item7226 = objNull;
-if (_layer7187) then {
-	_item7226 = createVehicle ["jsoc_supply_explosive",[4262,3037.85,0.0179996],[],0,"CAN_COLLIDE"];
-	_this = _item7226;
-	_objects pushback _this;
-	_objectIDs pushback 7226;
-	_this setPosWorld [4262.01,3037.86,12.4432];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[""ACE_VMM3""],[2]],[[""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""ACE_M14"",""ClaymoreDirectionalMine_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag""],[25,10,20,20,20,20,20]],[[""ToolKit"",""ACE_wirecutter"",""ACE_EntrenchingTool"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_M26_Clacker""],[2,2,2,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
-};
-
-private _item7218 = objNull;
-if (_layer7187) then {
-	_item7218 = createVehicle ["jsoc_supply_large",[4279.75,3050.83,0],[],0,"CAN_COLLIDE"];
-	_this = _item7218;
-	_objects pushback _this;
-	_objectIDs pushback 7218;
-	_this setPosWorld [4279.75,3050.83,13.0134];
-	_this setVectorDirAndUp [[0,1,0],[0.00399666,0,0.999992]];
-	[_this,"[[[[""rhs_weap_m4_carryhandle"",""rhsusf_weap_glock17g4"",""rhs_weap_M136"",""launch_NLAW_F"",""ACE_VMM3""],[2,2,6,2,1]],[[""rhsusf_mag_17Rnd_9x19_FMJ"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""jsoc_20rnd_762x51_M118LR_blk"",""rhs_mag_M441_HE"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET"",""rhs_mag_m714_White"",""rhs_mag_m713_Red"",""1Rnd_SmokeBlue_Grenade_shell"",""rhs_mag_m661_green"",""rhs_mag_M583A1_white"",""rhs_mag_m662_red"",""rhs_mag_mk84"",""rhs_mag_m67"",""SmokeShellRed"",""SmokeShellGreen"",""SmokeShellBlue"",""SmokeShell"",""Chemlight_blue"",""ACE_M14"",""ACE_HuntIR_M203"",""ACE_HandFlare_Green"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""Laserbatteries""],[20,30,100,15,50,20,20,20,20,20,20,20,20,20,30,20,20,20,40,50,20,10,10,20,5,20,2]],[[""ToolKit"",""ACE_wirecutter"",""ACE_IR_Strobe_Item"",""ACE_Flashlight_MX991"",""ACE_EntrenchingTool"",""ACE_EarPlugs"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_CableTie"",""ACRE_PRC343"",""ACRE_PRC152"",""ACRE_PRC117F""],[2,2,10,2,2,2,2,2,30,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag"",""ACE_TacticalLadder_Pack""],[2,2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 6] call ace_cargo_fnc_setSize;
-};
-
-private _item7221 = objNull;
-if (_layer7187) then {
-	_item7221 = createVehicle ["jsoc_supply_large",[4279.54,3044.56,0.00199986],[],0,"CAN_COLLIDE"];
-	_this = _item7221;
-	_objects pushback _this;
-	_objectIDs pushback 7221;
-	_this setPosWorld [4279.54,3044.56,13.018];
-	_this setVectorDirAndUp [[0,1,0],[0.00399666,0,0.999992]];
-	[_this,"[[[[""rhs_weap_m4_carryhandle"",""rhsusf_weap_glock17g4"",""rhs_weap_M136"",""launch_NLAW_F"",""ACE_VMM3""],[2,2,6,2,1]],[[""rhsusf_mag_17Rnd_9x19_FMJ"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""jsoc_20rnd_762x51_M118LR_blk"",""rhs_mag_M441_HE"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET"",""rhs_mag_m714_White"",""rhs_mag_m713_Red"",""1Rnd_SmokeBlue_Grenade_shell"",""rhs_mag_m661_green"",""rhs_mag_M583A1_white"",""rhs_mag_m662_red"",""rhs_mag_mk84"",""rhs_mag_m67"",""SmokeShellRed"",""SmokeShellGreen"",""SmokeShellBlue"",""SmokeShell"",""Chemlight_blue"",""ACE_M14"",""ACE_HuntIR_M203"",""ACE_HandFlare_Green"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""Laserbatteries""],[20,30,100,15,50,20,20,20,20,20,20,20,20,20,30,20,20,20,40,50,20,10,10,20,5,20,2]],[[""ToolKit"",""ACE_wirecutter"",""ACE_IR_Strobe_Item"",""ACE_Flashlight_MX991"",""ACE_EntrenchingTool"",""ACE_EarPlugs"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_CableTie"",""ACRE_PRC343"",""ACRE_PRC152"",""ACRE_PRC117F""],[2,2,10,2,2,2,2,2,30,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag"",""ACE_TacticalLadder_Pack""],[2,2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 6] call ace_cargo_fnc_setSize;
-};
-
-private _item7224 = objNull;
-if (_layer7187) then {
-	_item7224 = createVehicle ["jsoc_supply_large",[4279.33,3037.59,0],[],0,"CAN_COLLIDE"];
-	_this = _item7224;
-	_objects pushback _this;
-	_objectIDs pushback 7224;
-	_this setPosWorld [4279.33,3037.59,13.0324];
-	_this setVectorDirAndUp [[0,1,0],[0.00399666,0,0.999992]];
-	[_this,"[[[[""rhs_weap_m4_carryhandle"",""rhsusf_weap_glock17g4"",""rhs_weap_M136"",""launch_NLAW_F"",""ACE_VMM3""],[2,2,6,2,1]],[[""rhsusf_mag_17Rnd_9x19_FMJ"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""jsoc_20rnd_762x51_M118LR_blk"",""rhs_mag_M441_HE"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET"",""rhs_mag_m714_White"",""rhs_mag_m713_Red"",""1Rnd_SmokeBlue_Grenade_shell"",""rhs_mag_m661_green"",""rhs_mag_M583A1_white"",""rhs_mag_m662_red"",""rhs_mag_mk84"",""rhs_mag_m67"",""SmokeShellRed"",""SmokeShellGreen"",""SmokeShellBlue"",""SmokeShell"",""Chemlight_blue"",""ACE_M14"",""ACE_HuntIR_M203"",""ACE_HandFlare_Green"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag"",""AMP_Breaching_Charge_Mag"",""Laserbatteries""],[20,30,100,15,50,20,20,20,20,20,20,20,20,20,30,20,20,20,40,50,20,10,10,20,5,20,2]],[[""ToolKit"",""ACE_wirecutter"",""ACE_IR_Strobe_Item"",""ACE_Flashlight_MX991"",""ACE_EntrenchingTool"",""ACE_EarPlugs"",""ACE_DefusalKit"",""ACE_Clacker"",""ACE_CableTie"",""ACRE_PRC343"",""ACRE_PRC152"",""ACRE_PRC117F""],[2,2,10,2,2,2,2,2,30,2,2,2]],[[""VSM_Multicam_Backpack_Kitbag"",""VSM_OGA_OD_Backpack_Kitbag"",""ACE_TacticalLadder_Pack""],[2,2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 6] call ace_cargo_fnc_setSize;
-};
-
-private _item7219 = objNull;
-if (_layer7187) then {
-	_item7219 = createVehicle ["jsoc_supply_medical",[4270.21,3050.89,0],[],0,"CAN_COLLIDE"];
-	_this = _item7219;
-	_objects pushback _this;
-	_objectIDs pushback 7219;
-	_this setPosWorld [4270.21,3050.89,12.14];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[""ACE_painkillers""],[25]],[[""adv_aceCPR_AED"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_epinephrine"",""ACE_adenosine"",""ACE_morphine"",""ACE_salineIV_500"",""ACE_salineIV"",""ACE_tourniquet"",""ACE_personalAidKit"",""ACE_bodyBag""],[2,250,100,100,30,30,30,30,10,10,20,10]],[[""jsoc_Kitbag_MED_od"",""jsoc_Kitbag_MED_multicam""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
-};
-
-private _item7222 = objNull;
-if (_layer7187) then {
-	_item7222 = createVehicle ["jsoc_supply_medical",[4270,3044.62,0.00500011],[],0,"CAN_COLLIDE"];
-	_this = _item7222;
-	_objects pushback _this;
-	_objectIDs pushback 7222;
-	_this setPosWorld [4270,3044.62,12.145];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[""ACE_painkillers""],[25]],[[""adv_aceCPR_AED"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_epinephrine"",""ACE_adenosine"",""ACE_morphine"",""ACE_salineIV_500"",""ACE_salineIV"",""ACE_tourniquet"",""ACE_personalAidKit"",""ACE_bodyBag""],[2,250,100,100,30,30,30,30,10,10,20,10]],[[""jsoc_Kitbag_MED_od"",""jsoc_Kitbag_MED_multicam""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
-};
-
-private _item7225 = objNull;
-if (_layer7187) then {
-	_item7225 = createVehicle ["jsoc_supply_medical",[4269.78,3037.65,0.0190001],[],0,"CAN_COLLIDE"];
-	_this = _item7225;
-	_objects pushback _this;
-	_objectIDs pushback 7225;
-	_this setPosWorld [4269.78,3037.65,12.159];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
-	[_this,"[[[[],[]],[[""ACE_painkillers""],[25]],[[""adv_aceCPR_AED"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_epinephrine"",""ACE_adenosine"",""ACE_morphine"",""ACE_salineIV_500"",""ACE_salineIV"",""ACE_tourniquet"",""ACE_personalAidKit"",""ACE_bodyBag""],[2,250,100,100,30,30,30,30,10,10,20,10]],[[""jsoc_Kitbag_MED_od"",""jsoc_Kitbag_MED_multicam""],[2,2]]],false]"] call bis_fnc_initAmmoBox;
-	[_this, 1] call ace_cargo_fnc_setSize;
 };
 
 private _item7231 = objNull;
@@ -13767,7 +11846,7 @@ if (_layer7229) then {
 
 private _item7266 = objNull;
 if (_layer7229) then {
-	_item7266 = createVehicle ["UK3CB_CSAT_S_O_ZsuTank",[5665.26,9045.7,7.62939e-05],[],0,"CAN_COLLIDE"];
+	_item7266 = createVehicle ["UK3CB_CSAT_S_O_ZsuTank",[5665.26,9045.7,6.86646e-05],[],0,"CAN_COLLIDE"];
 	_this = _item7266;
 	_objects pushback _this;
 	_objectIDs pushback 7266;
@@ -14060,76 +12139,6 @@ if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
 	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-5"];                            } else {                                [_this, "Charlie 1-5"] call CBA_fnc_setCallsign;                            };
 };
-_this = _item6818;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-6"];                            } else {                                [_this, "Charlie 1-6"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6827;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-1"];                            } else {                                [_this, "Charlie 2-1"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6836;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-2"];                            } else {                                [_this, "Charlie 2-2"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6845;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-3"];                            } else {                                [_this, "Charlie 2-3"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6854;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-4"];                            } else {                                [_this, "Charlie 2-4"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6864;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-5"];                            } else {                                [_this, "Charlie 2-5"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6876;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-6"];                            } else {                                [_this, "Charlie 2-6"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6888;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-1"];                            } else {                                [_this, "Charlie 3-1"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6895;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-2"];                            } else {                                [_this, "Charlie 3-2"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6899;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-3"];                            } else {                                [_this, "Charlie 3-3"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item6914;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-4"];                            } else {                                [_this, "Charlie 3-4"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item7178;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-5"];                            } else {                                [_this, "Charlie 3-5"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item7181;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-6"];                            } else {                                [_this, "Charlie 3-6"] call CBA_fnc_setCallsign;                            };
-};
-_this = _item7184;
-if !(units _this isEqualTo []) then {
-	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-1"];                            } else {                                [_this, "Charlie 4-1"] call CBA_fnc_setCallsign;                            };
-};
 _this = _item6921;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
@@ -14212,16 +12221,15 @@ private _logicIDs = [];
 
 
 if (_layer7229) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_SAM",[[_item7231,_item7232,_item7233,_item7234,_item7237,_item7238,_item7239,_item7245,_item7246,_item7247,_item7250,_item7251,_item7252,_item7255,_item7256,_item7257,_item7254,_item7236,_item7244,_item7241,_item7249,_item7267,_item7268,_item7269,_item7266],[]]];};
-if (_layer7187) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Spawn",[[_item7200,_item7201,_item7202,_item7203,_item7188,_item7189,_item7190,_item7191,_item7192,_item7193,_item7216,_item7217,_item7194,_item7195,_item7196,_item7197,_item7198,_item7199,_item7204,_item7207,_item7210,_item7213,_item7205,_item7208,_item7211,_item7214,_item7206,_item7209,_item7212,_item7215,_item7220,_item7223,_item7226,_item7218,_item7221,_item7224,_item7219,_item7222,_item7225],[]]];};
+if (_layer7187) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Spawn",[[_item7200,_item7201,_item7202,_item7203,_item7188,_item7189,_item7190,_item7191,_item7192,_item7193,_item7216,_item7217,_item7194,_item7195,_item7196,_item7197,_item7198,_item7199,_item7204,_item7207,_item7210,_item7213,_item7205,_item7208,_item7211,_item7214,_item7206,_item7209,_item7212,_item7215],[]]];};
 if (_layer5064) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Vehicles",[[_item6923,_item6924,_item6925,_item6928,_item6929,_item6932,_item6933,_item6934,_item6937,_item6938,_item6939,_item6942,_item6943,_item6946,_item6947,_item6941,_item6931,_item6922,_item6945,_item6927,_item6936],[]]];};
-if (_layer5005) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Infantry",[[_item6819,_item6820,_item6821,_item6822,_item6823,_item6824,_item6825,_item6826,_item6828,_item6829,_item6830,_item6831,_item6832,_item6833,_item6834,_item6835,_item6837,_item6838,_item6839,_item6840,_item6841,_item6842,_item6843,_item6844,_item6846,_item6847,_item6848,_item6849,_item6850,_item6851,_item6852,_item6853,_item6855,_item6856,_item6857,_item6858,_item6859,_item6860,_item6861,_item6862,_item6866,_item6867,_item6868,_item6869,_item6870,_item6871,_item6872,_item6873,_item6874,_item6878,_item6879,_item6880,_item6881,_item6882,_item6883,_item6884,_item6885,_item6886,_item6890,_item6891,_item6892,_item6893,_item6897,_item6901,_item6902,_item6903,_item6916,_item6917,_item7179,_item7180,_item7182,_item7183,_item7185,_item7186],[]]];};
 if (_layer5006) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Enemies",[[_item7073,_item6949,_item6951,_item6953,_item6965,_item6959,_item6961,_item6963,_item6967,_item6969,_item6971,_item6973,_item6975,_item6977,_item6979,_item6981,_item6983,_item6985,_item6987,_item6989,_item6991,_item6993,_item6995,_item6997,_item6999,_item7001,_item7003,_item7005,_item7007,_item7009,_item7011,_item7013,_item7015,_item7017,_item7019,_item7021,_item7023,_item7025,_item7027,_item7029,_item7031,_item7033,_item7035,_item7037,_item7039,_item7041,_item7043,_item7081,_item7079,_item7051,_item7053,_item7055,_item7057,_item7059,_item7061,_item7063,_item7065,_item7067,_item7069,_item7071,_item7075,_item7077,_item7083,_item7085,_item7157,_item7151,_item7153,_item7155,_item7171,_item7173,_item7175,_item7177],[]]];};
-if (_layer4950) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Walls_1",[[_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051],[]]];};
+if (_layer4950) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Walls_1",[[_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051,_item7273],[]]];};
 if (_layer4919) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Rooms",[[_item4920,_item4921,_item4922,_item4923,_item4924,_item4925,_item4926,_item4927],[]]];};
 if (_layer4941) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Objects_1",[[_item4942,_item4943,_item4944,_item4945,_item4946,_item4947,_item4948,_item4949,_item4965],[]]];};
-if (_layer4966) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Ship Interior",[[_item4942,_item4943,_item4944,_item4945,_item4946,_item4947,_item4948,_item4949,_item4965,_item4920,_item4921,_item4922,_item4923,_item4924,_item4925,_item4926,_item4927,_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051,_item4978,_item7073,_item6949,_item6951,_item6953,_item6965,_item6959,_item6961,_item6963,_item6967,_item6969,_item6971,_item6973,_item6975,_item6977,_item6979,_item6981,_item6983,_item6985,_item6987,_item6989,_item6991,_item6993,_item6995,_item6997,_item6999,_item7001,_item7003,_item7005,_item7007,_item7009,_item7011,_item7013,_item7015,_item7017,_item7019,_item7021,_item7023,_item7025,_item7027,_item7029,_item7031,_item7033,_item7035,_item7037,_item7039,_item7041,_item7043,_item7081,_item7079,_item7051,_item7053,_item7055,_item7057,_item7059,_item7061,_item7063,_item7065,_item7067,_item7069,_item7071,_item7075,_item7077,_item7083,_item7085,_item7157,_item7151,_item7153,_item7155,_item7171,_item7173,_item7175,_item7177],[]]];};
+if (_layer4966) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Ship Interior",[[_item4942,_item4943,_item4944,_item4945,_item4946,_item4947,_item4948,_item4949,_item4965,_item4920,_item4921,_item4922,_item4923,_item4924,_item4925,_item4926,_item4927,_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051,_item7273,_item4978,_item7073,_item6949,_item6951,_item6953,_item6965,_item6959,_item6961,_item6963,_item6967,_item6969,_item6971,_item6973,_item6975,_item6977,_item6979,_item6981,_item6983,_item6985,_item6987,_item6989,_item6991,_item6993,_item6995,_item6997,_item6999,_item7001,_item7003,_item7005,_item7007,_item7009,_item7011,_item7013,_item7015,_item7017,_item7019,_item7021,_item7023,_item7025,_item7027,_item7029,_item7031,_item7033,_item7035,_item7037,_item7039,_item7041,_item7043,_item7081,_item7079,_item7051,_item7053,_item7055,_item7057,_item7059,_item7061,_item7063,_item7065,_item7067,_item7069,_item7071,_item7075,_item7077,_item7083,_item7085,_item7157,_item7151,_item7153,_item7155,_item7171,_item7173,_item7175,_item7177],[]]];};
 if (_layer4999) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Objects",[[_item4985,_item4991,_item4992,_item4993,_item4994,_item4996,_item4997,_item4988,_item4979,_item4982,_item4998,_item5000,_item5003,_item5007,_item5024,_item5025,_item5029,_item5028,_item5022,_item5026,_item5027,_item5043,_item5042,_item5037,_item5035,_item5034,_item5036,_item5039,_item5041,_item5052,_item5058,_item5057,_item5060,_item5059,_item5061],[]]];};
-if (_layer1793) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_November",[[_item4985,_item4991,_item4992,_item4993,_item4994,_item4996,_item4997,_item4988,_item4979,_item4982,_item4998,_item5000,_item5003,_item5007,_item5024,_item5025,_item5029,_item5028,_item5022,_item5026,_item5027,_item5043,_item5042,_item5037,_item5035,_item5034,_item5036,_item5039,_item5041,_item5052,_item5058,_item5057,_item5060,_item5059,_item5061,_item4942,_item4943,_item4944,_item4945,_item4946,_item4947,_item4948,_item4949,_item4965,_item4920,_item4921,_item4922,_item4923,_item4924,_item4925,_item4926,_item4927,_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051,_item4978,_item7073,_item6949,_item6951,_item6953,_item6965,_item6959,_item6961,_item6963,_item6967,_item6969,_item6971,_item6973,_item6975,_item6977,_item6979,_item6981,_item6983,_item6985,_item6987,_item6989,_item6991,_item6993,_item6995,_item6997,_item6999,_item7001,_item7003,_item7005,_item7007,_item7009,_item7011,_item7013,_item7015,_item7017,_item7019,_item7021,_item7023,_item7025,_item7027,_item7029,_item7031,_item7033,_item7035,_item7037,_item7039,_item7041,_item7043,_item7081,_item7079,_item7051,_item7053,_item7055,_item7057,_item7059,_item7061,_item7063,_item7065,_item7067,_item7069,_item7071,_item7075,_item7077,_item7083,_item7085,_item7157,_item7151,_item7153,_item7155,_item7171,_item7173,_item7175,_item7177,_item6819,_item6820,_item6821,_item6822,_item6823,_item6824,_item6825,_item6826,_item6828,_item6829,_item6830,_item6831,_item6832,_item6833,_item6834,_item6835,_item6837,_item6838,_item6839,_item6840,_item6841,_item6842,_item6843,_item6844,_item6846,_item6847,_item6848,_item6849,_item6850,_item6851,_item6852,_item6853,_item6855,_item6856,_item6857,_item6858,_item6859,_item6860,_item6861,_item6862,_item6866,_item6867,_item6868,_item6869,_item6870,_item6871,_item6872,_item6873,_item6874,_item6878,_item6879,_item6880,_item6881,_item6882,_item6883,_item6884,_item6885,_item6886,_item6890,_item6891,_item6892,_item6893,_item6897,_item6901,_item6902,_item6903,_item6916,_item6917,_item7179,_item7180,_item7182,_item7183,_item7185,_item7186,_item6923,_item6924,_item6925,_item6928,_item6929,_item6932,_item6933,_item6934,_item6937,_item6938,_item6939,_item6942,_item6943,_item6946,_item6947,_item6941,_item6931,_item6922,_item6945,_item6927,_item6936],[]]];};
+if (_layer1793) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_November",[[_item4985,_item4991,_item4992,_item4993,_item4994,_item4996,_item4997,_item4988,_item4979,_item4982,_item4998,_item5000,_item5003,_item5007,_item5024,_item5025,_item5029,_item5028,_item5022,_item5026,_item5027,_item5043,_item5042,_item5037,_item5035,_item5034,_item5036,_item5039,_item5041,_item5052,_item5058,_item5057,_item5060,_item5059,_item5061,_item4942,_item4943,_item4944,_item4945,_item4946,_item4947,_item4948,_item4949,_item4965,_item4920,_item4921,_item4922,_item4923,_item4924,_item4925,_item4926,_item4927,_item4951,_item4952,_item4953,_item4954,_item4955,_item4956,_item4957,_item4959,_item4961,_item4962,_item4963,_item4964,_item4969,_item4971,_item4972,_item4940,_item4973,_item4975,_item4976,_item4977,_item5008,_item5050,_item5051,_item7273,_item4978,_item7073,_item6949,_item6951,_item6953,_item6965,_item6959,_item6961,_item6963,_item6967,_item6969,_item6971,_item6973,_item6975,_item6977,_item6979,_item6981,_item6983,_item6985,_item6987,_item6989,_item6991,_item6993,_item6995,_item6997,_item6999,_item7001,_item7003,_item7005,_item7007,_item7009,_item7011,_item7013,_item7015,_item7017,_item7019,_item7021,_item7023,_item7025,_item7027,_item7029,_item7031,_item7033,_item7035,_item7037,_item7039,_item7041,_item7043,_item7081,_item7079,_item7051,_item7053,_item7055,_item7057,_item7059,_item7061,_item7063,_item7065,_item7067,_item7069,_item7071,_item7075,_item7077,_item7083,_item7085,_item7157,_item7151,_item7153,_item7155,_item7171,_item7173,_item7175,_item7177,_item6923,_item6924,_item6925,_item6928,_item6929,_item6932,_item6933,_item6934,_item6937,_item6938,_item6939,_item6942,_item6943,_item6946,_item6947,_item6941,_item6931,_item6922,_item6945,_item6927,_item6936],[]]];};
 if (_layer6785) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Objects",[[_item6751,_item6781,_item6780,_item6779,_item5443,_item6782,_item5442,_item6786,_item6787,_item6788,_item6790,_item6791],[]]];};
 if (_layer3327) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_Zamak 2.8 T-100 turret",[[_item3326,_item3325],[]]];};
 if (_layer1888) then {missionNamespace setVariable ["Operation%20Aperture%20Investment_CSAT T-140 (MLRS)_1",[[_item1890,_item1891,_item1892,_item1894,_item1895,_item1896,_item1898],[]]];};
@@ -15181,6 +13189,10 @@ ship_interior pushBack this;
 		this setObjectScale 2;
 ship_interior pushBack this;
 	};
+	if !(isnull _item7273) then {
+		this = _item7273;
+		ship_interior pushBack this;
+	};
 	if !(isnull _item4978) then {
 		this = _item4978;
 		ship_interior pushBack this;
@@ -15473,118 +13485,6 @@ ship_interior pushBack this;
 		this = _item7177;
 		this disableAI "PATH";
 	};
-	if !(isnull _item6866) then {
-		this = _item6866;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6867) then {
-		this = _item6867;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6868) then {
-		this = _item6868;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6869) then {
-		this = _item6869;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6870) then {
-		this = _item6870;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6871) then {
-		this = _item6871;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6872) then {
-		this = _item6872;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6873) then {
-		this = _item6873;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6874) then {
-		this = _item6874;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6878) then {
-		this = _item6878;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6879) then {
-		this = _item6879;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6880) then {
-		this = _item6880;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6881) then {
-		this = _item6881;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6882) then {
-		this = _item6882;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6883) then {
-		this = _item6883;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6884) then {
-		this = _item6884;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6885) then {
-		this = _item6885;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6886) then {
-		this = _item6886;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6890) then {
-		this = _item6890;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6891) then {
-		this = _item6891;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6892) then {
-		this = _item6892;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6893) then {
-		this = _item6893;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6897) then {
-		this = _item6897;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6901) then {
-		this = _item6901;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6902) then {
-		this = _item6902;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6903) then {
-		this = _item6903;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6916) then {
-		this = _item6916;
-		this disableAI 'PATH';
-	};
-	if !(isnull _item6917) then {
-		this = _item6917;
-		this disableAI 'PATH';
-	};
 	if !(isnull _item7200) then {
 		this = _item7200;
 		this setPosASL [14008.4,4123.51,18.0353];
@@ -15735,41 +13635,3 @@ this setDir 93.178;
 		this setPosASL [14246.9,4702.11,24.0539];
 this setDir 93.178;
 	};
-	if !(isnull _item7220) then {
-		this = _item7220;
-		this setPosASL [14018,4149.56,18.0368];
-	};
-	if !(isnull _item7223) then {
-		this = _item7223;
-		this setPosASL [14021.2,4149.63,18.0368];
-	};
-	if !(isnull _item7226) then {
-		this = _item7226;
-		this setPosASL [14024.3,4149.79,18.0368];
-	};
-	if !(isnull _item7218) then {
-		this = _item7218;
-		this setPosASL [14018.8,4158.02,18.0366];
-	};
-	if !(isnull _item7221) then {
-		this = _item7221;
-		this setPosASL [14021.8,4157.86,18.0368];
-	};
-	if !(isnull _item7224) then {
-		this = _item7224;
-		this setPosASL [14024.8,4157.76,18.0368];
-	};
-	if !(isnull _item7219) then {
-		this = _item7219;
-		this setPosASL [14018.2,4153.25,18.0368];
-	};
-	if !(isnull _item7222) then {
-		this = _item7222;
-		this setPosASL [14021.2,4153.36,18.0368];
-	};
-	if !(isnull _item7225) then {
-		this = _item7225;
-		this setPosASL [14024.2,4153.4,18.0368];
-	};
-
-publicVariable "ship_interior";
