@@ -1,7 +1,8 @@
 - Hide Terrain @ Research Overview Site
 - Delete the CSG except for spawn, ammo, and carrier
 - Run Zeus SQF
-- Confirm faces / identities of MCI (Make changes if needed for unknown mci)
+- Apply ACE Loadout change to MCI and Confirm face and names
+- Modify names of MCI body doubles
 - Adjust date and time = 20 October 2024, 1300
 - Setup RP / LZ for Objectives
 - Set operation name
@@ -43,18 +44,17 @@
 
 
 
+[url=https://ibb.co/qCVFpN7][img]https://i.ibb.co/gdhFJSm/20241015-Mission-Dossier-docx-Word-289.png[/img][/url]
 
 
 [url=https://ibb.co/DQQfd52][img]https://i.ibb.co/tDDpR8r/20241015084639-1.jpg[/img][/url]
 [url=https://ibb.co/JzQLpMT][img]https://i.ibb.co/kh1nDWT/20241015082229-1.jpg[/img][/url]
 
 
-
-https://ibb.co/DQQfd52
-https://ibb.co/JzQLpMT
-
-
-
+[url=https://ibb.co/ctkJZTk][img]https://i.ibb.co/6brYTsr/20241015103914-1.png[/img][/url]
+[url=https://ibb.co/Htmmv1N][img]https://i.ibb.co/48BBy9s/20241015104037-1.png[/img][/url]
+[url=https://ibb.co/mD7fGrq][img]https://i.ibb.co/Wx1m6Ny/20241015104055-1.jpg[/img][/url]
+[url=https://ibb.co/JcYy1cX][img]https://i.ibb.co/GdZt6dg/20241015104131-1.jpg[/img][/url]
 
 
 
