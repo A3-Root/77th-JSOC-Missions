@@ -1,4 +1,4 @@
-// Export of 'Operation: Aperture Investment (Underground)' by [Pfc.] Root on v0.9
+// Export of 'Operation: Aperture Investment (Underground)' by [Pfc.] Root on 15 October 2024
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Init
@@ -1020,7 +1020,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11002 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11002 = createVehicle ["Land_Campfire_F",[1377.96,331.234,148.076],[],0,"CAN_COLLIDE"];
+	_item11002 = createVehicle ["Land_Campfire_F",[1377.96,331.234,148.326],[],0,"CAN_COLLIDE"];
 	_this = _item11002;
 	_objects pushback _this;
 	_objectIDs pushback 11002;
@@ -1031,7 +1031,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11003 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11003 = createVehicle ["Land_Campfire_F",[1310.05,412.544,148.068],[],0,"CAN_COLLIDE"];
+	_item11003 = createVehicle ["Land_Campfire_F",[1310.05,412.544,148.318],[],0,"CAN_COLLIDE"];
 	_this = _item11003;
 	_objects pushback _this;
 	_objectIDs pushback 11003;
@@ -1042,7 +1042,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11004 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11004 = createVehicle ["Land_Campfire_F",[1244.99,384.043,148.048],[],0,"CAN_COLLIDE"];
+	_item11004 = createVehicle ["Land_Campfire_F",[1244.99,384.043,148.298],[],0,"CAN_COLLIDE"];
 	_this = _item11004;
 	_objects pushback _this;
 	_objectIDs pushback 11004;
@@ -1137,7 +1137,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11032 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11032 = createSimpleObject ["Land_CampingTable_F",[1183.18,379.627,91.0283]];
+	_item11032 = createSimpleObject ["Land_CampingTable_F",[1183.18,379.627,91.4398]];
 	_this = _item11032;
 	_objects pushback _this;
 	_objectIDs pushback 11032;
@@ -1149,7 +1149,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11033 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11033 = createSimpleObject ["Land_CampingTable_F",[1195.76,400.44,93.3295]];
+	_item11033 = createSimpleObject ["Land_CampingTable_F",[1195.76,400.44,93.741]];
 	_this = _item11033;
 	_objects pushback _this;
 	_objectIDs pushback 11033;
@@ -1161,7 +1161,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11034 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11034 = createSimpleObject ["Land_CampingTable_white_F",[1418.2,280.764,90.7056]];
+	_item11034 = createSimpleObject ["Land_CampingTable_white_F",[1418.2,280.764,91.1171]];
 	_this = _item11034;
 	_objects pushback _this;
 	_objectIDs pushback 11034;
@@ -1173,7 +1173,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11035 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11035 = createSimpleObject ["Land_CampingTable_white_F",[1361.03,342.16,90.6961]];
+	_item11035 = createSimpleObject ["Land_CampingTable_white_F",[1361.03,342.16,91.1077]];
 	_this = _item11035;
 	_objects pushback _this;
 	_objectIDs pushback 11035;
@@ -3324,7 +3324,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11218 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11218 = createSimpleObject ["Land_Money_F",[1383.86,351.29,91.6308]];
+	_item11218 = createSimpleObject ["Land_Money_F",[1383.86,351.29,91.6663]];
 	_this = _item11218;
 	_objects pushback _this;
 	_objectIDs pushback 11218;
@@ -3468,7 +3468,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11230 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11230 = createVehicle ["TapeSign_F",[1259.84,356.76,148.056],[],0,"CAN_COLLIDE"];
+	_item11230 = createVehicle ["TapeSign_F",[1259.84,356.76,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11230;
 	_objects pushback _this;
 	_objectIDs pushback 11230;
@@ -3480,7 +3480,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11231 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11231 = createVehicle ["TapeSign_F",[1256.61,356.787,148.056],[],0,"CAN_COLLIDE"];
+	_item11231 = createVehicle ["TapeSign_F",[1256.61,356.787,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11231;
 	_objects pushback _this;
 	_objectIDs pushback 11231;
@@ -3492,7 +3492,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11232 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11232 = createVehicle ["TapeSign_F",[1253.11,356.318,148.056],[],0,"CAN_COLLIDE"];
+	_item11232 = createVehicle ["TapeSign_F",[1253.11,356.318,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11232;
 	_objects pushback _this;
 	_objectIDs pushback 11232;
@@ -3504,7 +3504,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11233 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11233 = createVehicle ["TapeSign_F",[1250.37,354.871,148.056],[],0,"CAN_COLLIDE"];
+	_item11233 = createVehicle ["TapeSign_F",[1250.37,354.871,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11233;
 	_objects pushback _this;
 	_objectIDs pushback 11233;
@@ -3516,7 +3516,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item11234 = objNull;
 if (_layer10971 && _layer11585) then {
-	_item11234 = createVehicle ["TapeSign_F",[1247.85,352.738,148.056],[],0,"CAN_COLLIDE"];
+	_item11234 = createVehicle ["TapeSign_F",[1247.85,352.738,148.424],[],0,"CAN_COLLIDE"];
 	_this = _item11234;
 	_objects pushback _this;
 	_objectIDs pushback 11234;
@@ -7131,7 +7131,7 @@ if (_layer10960 && _layer11585) then {
 	_objects pushback _this;
 	_objectIDs pushback 12856;
 	_this setPosWorld [6047.86,8584.39,74.7833];
-	_this setVectorDirAndUp [[-0.497661,0.867371,0],[0,0,1]];
+	_this setVectorDirAndUp [[-0.497661,0.867372,0],[0,0,1]];
 };
 
 private _item12857 = objNull;
@@ -10530,14 +10530,18 @@ if (_layer12919) then {
 
 private _item12896 = objNull;
 if (_layer12919) then {
-	_item12896 = createSimpleObject ["UK3CB_CSAT_S_O_Tigr_STS",[6038.3,8573.19,73.78]];
+	_item12896 = createVehicle ["UK3CB_CSAT_S_O_Tigr_STS",[6038.3,8573.19,0.0299988],[],0,"CAN_COLLIDE"];
 	_this = _item12896;
 	_objects pushback _this;
 	_objectIDs pushback 12896;
 	_this setPosWorld [6038.3,8573.19,75.9742];
 	_this setVectorDirAndUp [[0.467881,-0.883791,0],[0,0,1]];
+	_this setFuelConsumptionCoef 1;;
 	_this enableSimulation false;
 	_this allowdamage false;;
+	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
+	_this setVariable ['s',1];;
+	[_this, 4] call ace_cargo_fnc_setSpace;
 	if !(true) then { _this call UK3CB_Factions_Vehicles_fnc_disable_randomize; };;
 	_this setVariable ['rhs_decalNumber_type', "Default"];[_this,[['Number', cDecalsTigr4NumberPlaces, "Default"]]] call rhs_fnc_decalsInit;
 	if( -1 >= 0)then{[_this,[['Number', cDecalsTigr4NumberPlaces, _this getVariable ['rhs_decalNumber_type','LicensePlate'], -1]]] call rhs_fnc_decalsInit};;
@@ -10621,13 +10625,13 @@ if (_layer12919) then {
 
 private _item12867 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12867 = _item12865 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6072.38,8509.29,0],[],0,"CAN_COLLIDE"];
+	_item12867 = _item12865 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6076.06,8508.8,1.21937],[],0,"CAN_COLLIDE"];
 	_item12865 selectLeader _item12867;
 	_this = _item12867;
 	_objects pushback _this;
 	_objectIDs pushback 12867;
 	_this setPosWorld [6072.58,8508.53,73.7652];
-	_this setVectorDirAndUp [[0,0.998061,0.0622462],[-0.191912,-0.0610892,0.979509]];
+	_this setVectorDirAndUp [[0.0169284,-0.997518,0.0683472],[-0.146405,0.0651473,0.987077]];
 	_this setname "Valentin Shcherbakov";;
 	_this setface "WhiteHead_11";;
 	_this setspeaker "rhs_male02rus";;
@@ -10644,13 +10648,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12870 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12870 = _item12868 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6045.65,8565.37,7.38],[],0,"CAN_COLLIDE"];
+	_item12870 = _item12868 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6042.51,8563.47,8.99711],[],0,"CAN_COLLIDE"];
 	_item12868 selectLeader _item12870;
 	_this = _item12870;
 	_objects pushback _this;
 	_objectIDs pushback 12870;
 	_this setPosWorld [6045.61,8566.01,81.077];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.455583,-0.890193,0],[0,0,1]];
 	_this setname "Fedor Khrushchev";;
 	_this setface "WhiteHead_06";;
 	_this setspeaker "rhs_male05rus";;
@@ -10667,7 +10671,7 @@ if (_layer12918 && _layer12919) then {
 
 private _item12873 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12873 = _item12871 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6042.34,8573.01,7.38],[],0,"CAN_COLLIDE"];
+	_item12873 = _item12871 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6051.12,8569.9,8.72958],[],0,"CAN_COLLIDE"];
 	_item12871 selectLeader _item12873;
 	_this = _item12873;
 	_objects pushback _this;
@@ -10695,7 +10699,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 12876;
 	_this setPosWorld [6047.44,8570.69,74.5418];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.454706,-0.890642,0],[0,0,1]];
 	_this setname "Valery Morozov";;
 	_this setface "WhiteHead_13";;
 	_this setspeaker "rhs_male05rus";;
@@ -10712,12 +10716,12 @@ if (_layer12918 && _layer12919) then {
 
 private _item12877 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12877 = _item12874 createUnit ["UK3CB_CSAT_S_O_CREW",[6047.22,8571.11,0.0299988],[],0,"CAN_COLLIDE"];
+	_item12877 = _item12874 createUnit ["UK3CB_CSAT_S_O_CREW",[6047.22,8571.11,2.25916],[],0,"CAN_COLLIDE"];
 	_this = _item12877;
 	_objects pushback _this;
 	_objectIDs pushback 12877;
 	_this setPosWorld [6046.99,8572.76,76.0433];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.454706,-0.890642,0],[0,0,1]];
 	_this setname "Vitaly Borichev";;
 	_this setface "WhiteHead_09";;
 	_this setspeaker "rhs_male03rus";;
@@ -10734,13 +10738,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12878 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12878 = _item12874 createUnit ["UK3CB_CSAT_S_O_CREW",[6047.22,8571.11,0.0299988],[],0,"CAN_COLLIDE"];
+	_item12878 = _item12874 createUnit ["UK3CB_CSAT_S_O_CREW",[6047.22,8571.11,2.25916],[],0,"CAN_COLLIDE"];
 	_item12874 selectLeader _item12878;
 	_this = _item12878;
 	_objects pushback _this;
 	_objectIDs pushback 12878;
 	_this setPosWorld [6046.01,8572.15,76.1275];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.454706,-0.890642,0],[0,0,1]];
 	_this setname "Mikhail Provodnikov";;
 	_this setface "WhiteHead_03";;
 	_this setspeaker "rhs_male04rus";;
@@ -10757,12 +10761,12 @@ if (_layer12918 && _layer12919) then {
 
 private _item12894 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12894 = _item12892 createUnit ["UK3CB_CSAT_S_O_CREW",[6042.57,8566.03,0.0299988],[],0,"CAN_COLLIDE"];
+	_item12894 = _item12892 createUnit ["UK3CB_CSAT_S_O_CREW",[6040.51,8565.62,0.0299988],[],0,"CAN_COLLIDE"];
 	_this = _item12894;
 	_objects pushback _this;
 	_objectIDs pushback 12894;
 	_this setPosWorld [6042.78,8566.2,75.2697];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.461393,-0.887196,0],[0,0,1]];
 	_this setname "Semyon Turchinsky";;
 	_this setface "WhiteHead_21";;
 	_this setspeaker "rhs_male02rus";;
@@ -10779,13 +10783,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12895 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12895 = _item12892 createUnit ["UK3CB_CSAT_S_O_CREW",[6042.57,8566.03,0.0299988],[],0,"CAN_COLLIDE"];
+	_item12895 = _item12892 createUnit ["UK3CB_CSAT_S_O_CREW",[6040.51,8565.62,2.58685],[],0,"CAN_COLLIDE"];
 	_item12892 selectLeader _item12895;
 	_this = _item12895;
 	_objects pushback _this;
 	_objectIDs pushback 12895;
 	_this setPosWorld [6042.44,8567.02,75.3443];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.461393,-0.887196,0],[0,0,1]];
 	_this setname "Fedor Petrov";;
 	_this setface "WhiteHead_09";;
 	_this setspeaker "rhs_male03rus";;
@@ -10802,13 +10806,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12900 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12900 = _item12898 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6054.75,8569.83,0.0299988],[],0,"CAN_COLLIDE"];
+	_item12900 = _item12898 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6051.09,8580.59,1.32495],[],0,"CAN_COLLIDE"];
 	_item12898 selectLeader _item12900;
 	_this = _item12900;
 	_objects pushback _this;
 	_objectIDs pushback 12900;
 	_this setPosWorld [6054.84,8569.26,73.7721];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[-0.4388,0.898585,0],[0,0,1]];
 	_this setname "Nikita Timoshenko";;
 	_this setface "LivonianHead_6";;
 	_this setspeaker "rhs_male03rus";;
@@ -10878,7 +10882,7 @@ if (_layer12918 && _layer12919) then {
 
 private _item12866 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12866 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[6072.38,8509.29,0],[],0,"CAN_COLLIDE"];
+	_item12866 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[6072.36,8509.29,-0.000160217],[],0,"CAN_COLLIDE"];
 	_this = _item12866;
 	_objects pushback _this;
 	_objectIDs pushback 12866;
@@ -11243,7 +11247,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 12936;
 	_this setPosWorld [6058.55,8519.23,72.5916];
-	_this setVectorDirAndUp [[0,0.993786,-0.111305],[-0.00600007,0.111303,0.993768]];
+	_this setVectorDirAndUp [[0.229564,-0.967092,0.109701],[-0.00600007,0.111303,0.993768]];
 	_this setname "Nikolay Blagonravov";;
 	_this setface "WhiteHead_19";;
 	_this setspeaker "rhs_male02rus";;
@@ -11260,12 +11264,12 @@ if (_layer12918 && _layer12919) then {
 
 private _item12937 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12937 = _item12934 createUnit ["UK3CB_CSAT_S_O_CREW",[6057.9,8520.63,5.34058e-05],[],0,"CAN_COLLIDE"];
+	_item12937 = _item12934 createUnit ["UK3CB_CSAT_S_O_CREW",[6057.88,8520.89,2.35079],[],0,"CAN_COLLIDE"];
 	_this = _item12937;
 	_objects pushback _this;
 	_objectIDs pushback 12937;
 	_this setPosWorld [6057.97,8519.27,72.716];
-	_this setVectorDirAndUp [[0,0.993786,-0.111305],[-0.00600007,0.111303,0.993768]];
+	_this setVectorDirAndUp [[0.229564,-0.967092,0.109701],[-0.00600007,0.111303,0.993768]];
 	_this setname "Kiril Sarafanov";;
 	_this setface "WhiteHead_01";;
 	_this setspeaker "rhs_male02rus";;
@@ -11282,13 +11286,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12938 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12938 = _item12934 createUnit ["UK3CB_CSAT_S_O_CREW",[6057.9,8520.63,5.34058e-05],[],0,"CAN_COLLIDE"];
+	_item12938 = _item12934 createUnit ["UK3CB_CSAT_S_O_CREW",[6057.88,8520.89,2.35079],[],0,"CAN_COLLIDE"];
 	_item12934 selectLeader _item12938;
 	_this = _item12938;
 	_objects pushback _this;
 	_objectIDs pushback 12938;
 	_this setPosWorld [6058.15,8520.73,72.6006];
-	_this setVectorDirAndUp [[0,0.993786,-0.111305],[-0.00600007,0.111303,0.993768]];
+	_this setVectorDirAndUp [[0.229564,-0.967092,0.109701],[-0.00600007,0.111303,0.993768]];
 	_this setname "Nikita Kuznetsov";;
 	_this setface "WhiteHead_19";;
 	_this setspeaker "rhs_male04rus";;
@@ -11472,13 +11476,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item12996 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item12996 = _item12994 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6051.49,8568.59,7.38],[],0,"CAN_COLLIDE"];
+	_item12996 = _item12994 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6051.49,8568.59,8.35775],[],0,"CAN_COLLIDE"];
 	_item12994 selectLeader _item12996;
 	_this = _item12996;
 	_objects pushback _this;
 	_objectIDs pushback 12996;
 	_this setPosWorld [6051.87,8569.14,81.1077];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.106987,-0.99426,0],[0,0,1]];
 	_this setname "Kiril Kubasov";;
 	_this setface "WhiteHead_17";;
 	_this setspeaker "rhs_male03rus";;
@@ -11518,7 +11522,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 13025;
 	_this setPosWorld [6073.75,8530.83,73.264];
-	_this setVectorDirAndUp [[0,0.997696,-0.0678434],[-0.199884,0.0664743,0.977562]];
+	_this setVectorDirAndUp [[-0.0550169,-0.996883,0.0565387],[-0.199884,0.0664743,0.977562]];
 	_this setname "Filip Turchinsky";;
 	_this setface "WhiteHead_04";;
 	_this setspeaker "rhs_male01rus";;
@@ -11535,13 +11539,13 @@ if (_layer12918 && _layer12919) then {
 
 private _item13026 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item13026 = _item13023 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6073.39,8531.23,-1.52588e-05],[],0,"CAN_COLLIDE"];
+	_item13026 = _item13023 createUnit ["UK3CB_CSAT_S_O_RIF_1",[6072.95,8531.38,2.24432],[],0,"CAN_COLLIDE"];
 	_item13023 selectLeader _item13026;
 	_this = _item13026;
 	_objects pushback _this;
 	_objectIDs pushback 13026;
 	_this setPosWorld [6073.46,8532.08,73.1841];
-	_this setVectorDirAndUp [[0,0.997696,-0.0678434],[-0.199884,0.0664743,0.977562]];
+	_this setVectorDirAndUp [[-0.0550169,-0.996883,0.0565387],[-0.199884,0.0664743,0.977562]];
 	_this setname "Valentin Maksimov";;
 	_this setface "WhiteHead_04";;
 	_this setspeaker "rhs_male04rus";;
@@ -11564,7 +11568,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 13029;
 	_this setPosWorld [6155.9,8181.04,38.7752];
-	_this setVectorDirAndUp [[0,0.999968,0.0080009],[0.0299852,-0.0079973,0.999518]];
+	_this setVectorDirAndUp [[0.215198,-0.976466,-0.0142684],[0.029985,-0.00799699,0.999518]];
 	_this setname "Vasil Komarov";;
 	_this setface "WhiteHead_17";;
 	_this setspeaker "rhs_male02rus";;
@@ -11581,12 +11585,12 @@ if (_layer12918 && _layer12919) then {
 
 private _item13030 = objNull;
 if (_layer12918 && _layer12919) then {
-	_item13030 = _item13027 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[6155.53,8181.74,-1.52588e-05],[],0,"CAN_COLLIDE"];
+	_item13030 = _item13027 createUnit ["UK3CB_CSAT_S_O_SF_RIF_1",[6155.58,8181.73,1.73064],[],0,"CAN_COLLIDE"];
 	_this = _item13030;
 	_objects pushback _this;
 	_objectIDs pushback 13030;
 	_this setPosWorld [6155.63,8182.27,38.7918];
-	_this setVectorDirAndUp [[0,0.999968,0.0080009],[0.0299852,-0.0079973,0.999518]];
+	_this setVectorDirAndUp [[0.215198,-0.976466,-0.0142684],[0.029985,-0.00799699,0.999518]];
 	_this setname "Daniil Pushkin";;
 	_this setface "WhiteHead_18";;
 	_this setspeaker "rhs_male05rus";;
@@ -11608,7 +11612,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 13024;
 	_this setPosWorld [6072.95,8531.38,74.1026];
-	_this setVectorDirAndUp [[-0.0550168,-0.996883,0.0565388],[-0.199884,0.0664743,0.977562]];
+	_this setVectorDirAndUp [[-0.0550169,-0.996883,0.0565387],[-0.199884,0.0664743,0.977562]];
 	_this setFuelConsumptionCoef 1;;
 	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
 	_this setVariable ['s',1];;
@@ -11633,7 +11637,7 @@ if (_layer12918 && _layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 13028;
 	_this setPosWorld [6155.58,8181.73,39.4669];
-	_this setVectorDirAndUp [[0.215198,-0.976466,-0.0142687],[0.0299852,-0.0079973,0.999518]];
+	_this setVectorDirAndUp [[0.215198,-0.976466,-0.0142684],[0.029985,-0.00799699,0.999518]];
 	_this setFuelConsumptionCoef 1;;
 	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
 	_this setVariable ['s',1];;
@@ -11648,7 +11652,7 @@ if (_layer12919) then {
 	_objects pushback _this;
 	_objectIDs pushback 12922;
 	_this setPosWorld [6035.54,8561.13,74.3088];
-	_this setVectorDirAndUp [[-0.490084,0.871675,0],[0,0,1]];
+	_this setVectorDirAndUp [[-0.490083,0.871676,0],[0,0,1]];
 	_this enableSimulation false;
 	_this allowdamage false;;
 	[_this, 6] call ace_cargo_fnc_setSize;
@@ -11715,7 +11719,7 @@ if (_layer13048 && _layer13047) then {
 	_objects pushback _this;
 	_objectIDs pushback 13036;
 	_this setPosWorld [3348.1,8023.51,257.893];
-	_this setVectorDirAndUp [[0,0.999992,0.00399675],[-0.00399675,-0.00399671,0.999984]];
+	_this setVectorDirAndUp [[-0.306889,0.951742,0.00257725],[-0.00399675,-0.00399663,0.999984]];
 	_this setname "Sergei Derevenko";;
 	_this setface "WhiteHead_16";;
 	_this setspeaker "rhs_male01rus";;
@@ -11732,12 +11736,12 @@ if (_layer13048 && _layer13047) then {
 
 private _item13037 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13037 = _item13034 createUnit ["UK3CB_CSAT_S_O_CREW",[3348.89,8022.02,0],[],0,"CAN_COLLIDE"];
+	_item13037 = _item13034 createUnit ["UK3CB_CSAT_S_O_CREW",[3348.88,8022.01,2.33618],[],0,"CAN_COLLIDE"];
 	_this = _item13037;
 	_objects pushback _this;
 	_objectIDs pushback 13037;
 	_this setPosWorld [3348.68,8023.52,258.027];
-	_this setVectorDirAndUp [[0,0.999992,0.00399675],[-0.00399675,-0.00399671,0.999984]];
+	_this setVectorDirAndUp [[-0.306889,0.951742,0.00257725],[-0.00399675,-0.00399663,0.999984]];
 	_this setname "Oleg Vorobiev";;
 	_this setface "WhiteHead_16";;
 	_this setspeaker "rhs_male03rus";;
@@ -11754,13 +11758,13 @@ if (_layer13048 && _layer13047) then {
 
 private _item13038 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13038 = _item13034 createUnit ["UK3CB_CSAT_S_O_CREW",[3348.89,8022.02,0],[],0,"CAN_COLLIDE"];
+	_item13038 = _item13034 createUnit ["UK3CB_CSAT_S_O_CREW",[3348.88,8022.01,2.33618],[],0,"CAN_COLLIDE"];
 	_item13034 selectLeader _item13038;
 	_this = _item13038;
 	_objects pushback _this;
 	_objectIDs pushback 13038;
 	_this setPosWorld [3348.62,8022.05,258.068];
-	_this setVectorDirAndUp [[0,0.999992,0.00399675],[-0.00399675,-0.00399671,0.999984]];
+	_this setVectorDirAndUp [[-0.306889,0.951742,0.00257725],[-0.00399675,-0.00399663,0.999984]];
 	_this setname "Abram Produnov";;
 	_this setface "WhiteHead_06";;
 	_this setspeaker "rhs_male04rus";;
@@ -11782,7 +11786,7 @@ if (_layer13048 && _layer13047) then {
 	_objects pushback _this;
 	_objectIDs pushback 13041;
 	_this setPosWorld [3299.7,8009.41,258.15];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.188768,0.982022,0],[0,0,1]];
 	_this setname "Semyon Pashinin";;
 	_this setface "WhiteHead_13";;
 	_this setspeaker "rhs_male03rus";;
@@ -11799,13 +11803,13 @@ if (_layer13048 && _layer13047) then {
 
 private _item13042 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13042 = _item13039 createUnit ["UK3CB_CSAT_S_O_CREW",[3299.97,8009.42,0],[],0,"CAN_COLLIDE"];
+	_item13042 = _item13039 createUnit ["UK3CB_CSAT_S_O_CREW",[3299.97,8009.42,2.55685],[],0,"CAN_COLLIDE"];
 	_item13039 selectLeader _item13042;
 	_this = _item13042;
 	_objects pushback _this;
 	_objectIDs pushback 13042;
 	_this setPosWorld [3299.46,8008.56,258.224];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.188768,0.982022,0],[0,0,1]];
 	_this setname "Valery Derevenko";;
 	_this setface "WhiteHead_04";;
 	_this setspeaker "rhs_male02rus";;
@@ -11827,7 +11831,7 @@ if (_layer13048 && _layer13047) then {
 	_objects pushback _this;
 	_objectIDs pushback 13045;
 	_this setPosWorld [3331.07,7994.75,256.67];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.0375425,0.999295,0],[0,0,1]];
 	_this setname "Mikhail Romanov";;
 	_this setface "WhiteHead_01";;
 	_this setspeaker "rhs_male03rus";;
@@ -11844,13 +11848,13 @@ if (_layer13048 && _layer13047) then {
 
 private _item13046 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13046 = _item13043 createUnit ["UK3CB_CSAT_S_O_CREW",[3331.47,7993.2,0],[],0,"CAN_COLLIDE"];
+	_item13046 = _item13043 createUnit ["UK3CB_CSAT_S_O_CREW",[3331.47,7993.2,1.64755],[],0,"CAN_COLLIDE"];
 	_item13043 selectLeader _item13046;
 	_this = _item13046;
 	_objects pushback _this;
 	_objectIDs pushback 13046;
 	_this setPosWorld [3331.07,7993.33,257.076];
-	_this setVectorDirAndUp [[0,1,0],[0,0,1]];
+	_this setVectorDirAndUp [[0.0375425,0.999295,0],[0,0,1]];
 	_this setname "Andrey Smirnov";;
 	_this setface "WhiteHead_08";;
 	_this setspeaker "rhs_male03rus";;
@@ -11872,7 +11876,7 @@ if (_layer13048 && _layer13047) then {
 	_objects pushback _this;
 	_objectIDs pushback 13035;
 	_this setPosWorld [3348.88,8022.01,259.01];
-	_this setVectorDirAndUp [[-0.306889,0.951742,0.00257732],[-0.00399675,-0.00399671,0.999984]];
+	_this setVectorDirAndUp [[-0.306889,0.951742,0.00257725],[-0.00399675,-0.00399663,0.999984]];
 	_this setFuelConsumptionCoef 1;;
 	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit"",""ACE_rope12""],[1,1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;;
 	_this setVariable ['s',1];;
@@ -12130,13 +12134,13 @@ if (_layer13048 && _layer13047) then {
 
 private _item13077 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13077 = _item13075 createUnit ["UK3CB_CSAT_S_O_RIF_1",[3292.63,8030.71,0],[],0,"CAN_COLLIDE"];
+	_item13077 = _item13075 createUnit ["UK3CB_CSAT_S_O_RIF_1",[3299.59,7989.15,1.20074],[],0,"CAN_COLLIDE"];
 	_item13075 selectLeader _item13077;
 	_this = _item13077;
 	_objects pushback _this;
 	_objectIDs pushback 13077;
 	_this setPosWorld [3292.47,8031.34,256.104];
-	_this setVectorDirAndUp [[0,0.997465,0.0711619],[0.0331411,-0.0711228,0.996917]];
+	_this setVectorDirAndUp [[0.0954582,0.988536,-0.116977],[0.023991,0.115195,0.993053]];
 	_this setname "Igor Bakunin";;
 	_this setface "WhiteHead_07";;
 	_this setspeaker "rhs_male03rus";;
@@ -12153,13 +12157,13 @@ if (_layer13048 && _layer13047) then {
 
 private _item13079 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13079 = _item13078 createUnit ["UK3CB_CSAT_S_O_RIF_1",[3261.53,8205.54,0],[],0,"CAN_COLLIDE"];
+	_item13079 = _item13078 createUnit ["UK3CB_CSAT_S_O_RIF_1",[3346.09,7987.24,1.5748],[],0,"CAN_COLLIDE"];
 	_item13078 selectLeader _item13079;
 	_this = _item13079;
 	_objects pushback _this;
 	_objectIDs pushback 13079;
 	_this setPosWorld [3261.42,8206.29,237.949];
-	_this setVectorDirAndUp [[0.0954582,0.988536,-0.116977],[0.023991,0.115195,0.993053]];
+	_this setVectorDirAndUp [[0.0954673,0.995256,-0.0187399],[-0.0196065,0.0207023,0.999593]];
 	_this setname "Sergei Sarafanov";;
 	_this setface "WhiteHead_17";;
 	_this setspeaker "rhs_male05rus";;
@@ -12435,12 +12439,12 @@ if (_layer13048 && _layer13047) then {
 
 private _item13076 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13076 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[3292.63,8030.71,0],[],0,"CAN_COLLIDE"];
+	_item13076 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[3292.6,8030.57,-0.00839233],[],0,"CAN_COLLIDE"];
 	_this = _item13076;
 	_objects pushback _this;
 	_objectIDs pushback 13076;
 	_this setPosWorld [3292.63,8030.71,257.426];
-	_this setVectorDirAndUp [[0.0954582,0.988536,-0.116977],[0.0239912,0.115195,0.993053]];
+	_this setVectorDirAndUp [[0.0954582,0.988536,-0.116977],[0.023991,0.115195,0.993053]];
 	_this setFuelConsumptionCoef 1;;
 	[_this, 2] call ace_cargo_fnc_setSize;
 	_this setTurretLimits [ [0], -65, (_this getTurretLimits [0])#1, (_this getTurretLimits [0])#2, (_this getTurretLimits [0])#3 ];
@@ -12453,7 +12457,7 @@ if (_layer13048 && _layer13047) then {
 
 private _item13080 = objNull;
 if (_layer13048 && _layer13047) then {
-	_item13080 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[3261.53,8205.54,0],[],0,"CAN_COLLIDE"];
+	_item13080 = createVehicle ["UK3CB_CSAT_S_O_PKM_nest",[3261.55,8205.51,-0.000518799],[],0,"CAN_COLLIDE"];
 	_this = _item13080;
 	_objects pushback _this;
 	_objectIDs pushback 13080;
@@ -12481,387 +12485,387 @@ private _triggerIDs = [];
 _this = _item12680;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-3"];                            } else {                                [_this, "Charlie 3-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-1"];                            } else {                                [_this, "Alpha 1-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12682;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-4"];                            } else {                                [_this, "Charlie 3-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-2"];                            } else {                                [_this, "Alpha 1-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12763;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-5"];                            } else {                                [_this, "Echo 1-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-3"];                            } else {                                [_this, "Alpha 1-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12765;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 1-6"];                            } else {                                [_this, "Echo 1-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-4"];                            } else {                                [_this, "Alpha 1-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12767;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-1"];                            } else {                                [_this, "Echo 2-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-5"];                            } else {                                [_this, "Alpha 1-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12769;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-2"];                            } else {                                [_this, "Echo 2-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-6"];                            } else {                                [_this, "Alpha 1-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12771;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-3"];                            } else {                                [_this, "Echo 2-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-1"];                            } else {                                [_this, "Alpha 2-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12773;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-4"];                            } else {                                [_this, "Echo 2-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-2"];                            } else {                                [_this, "Alpha 2-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12775;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-5"];                            } else {                                [_this, "Echo 2-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-3"];                            } else {                                [_this, "Alpha 2-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12777;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 2-6"];                            } else {                                [_this, "Echo 2-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-4"];                            } else {                                [_this, "Alpha 2-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12779;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-1"];                            } else {                                [_this, "Echo 3-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-5"];                            } else {                                [_this, "Alpha 2-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12781;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-2"];                            } else {                                [_this, "Echo 3-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-6"];                            } else {                                [_this, "Alpha 2-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12783;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-3"];                            } else {                                [_this, "Echo 3-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-1"];                            } else {                                [_this, "Alpha 3-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12785;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-4"];                            } else {                                [_this, "Echo 3-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-2"];                            } else {                                [_this, "Alpha 3-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12787;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-5"];                            } else {                                [_this, "Echo 3-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-3"];                            } else {                                [_this, "Alpha 3-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12789;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 3-6"];                            } else {                                [_this, "Echo 3-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-4"];                            } else {                                [_this, "Alpha 3-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12791;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-1"];                            } else {                                [_this, "Echo 4-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-5"];                            } else {                                [_this, "Alpha 3-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12793;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-2"];                            } else {                                [_this, "Echo 4-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-6"];                            } else {                                [_this, "Alpha 3-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12795;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-3"];                            } else {                                [_this, "Echo 4-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-1"];                            } else {                                [_this, "Alpha 4-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12797;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-4"];                            } else {                                [_this, "Echo 4-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-2"];                            } else {                                [_this, "Alpha 4-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12799;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-5"];                            } else {                                [_this, "Echo 4-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-3"];                            } else {                                [_this, "Alpha 4-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12801;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Echo 4-6"];                            } else {                                [_this, "Echo 4-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-4"];                            } else {                                [_this, "Alpha 4-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12803;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-1"];                            } else {                                [_this, "Foxtrot 1-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-5"];                            } else {                                [_this, "Alpha 4-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12805;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-2"];                            } else {                                [_this, "Foxtrot 1-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-6"];                            } else {                                [_this, "Alpha 4-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12807;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-3"];                            } else {                                [_this, "Foxtrot 1-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-1"];                            } else {                                [_this, "Bravo 1-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12809;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-4"];                            } else {                                [_this, "Foxtrot 1-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-2"];                            } else {                                [_this, "Bravo 1-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12811;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-5"];                            } else {                                [_this, "Foxtrot 1-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-3"];                            } else {                                [_this, "Bravo 1-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12813;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 1-6"];                            } else {                                [_this, "Foxtrot 1-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-4"];                            } else {                                [_this, "Bravo 1-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12815;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-1"];                            } else {                                [_this, "Foxtrot 2-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-5"];                            } else {                                [_this, "Bravo 1-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12819;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-2"];                            } else {                                [_this, "Foxtrot 2-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-6"];                            } else {                                [_this, "Bravo 1-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12821;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-3"];                            } else {                                [_this, "Foxtrot 2-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-1"];                            } else {                                [_this, "Bravo 2-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12823;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-4"];                            } else {                                [_this, "Foxtrot 2-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-2"];                            } else {                                [_this, "Bravo 2-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12829;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-5"];                            } else {                                [_this, "Foxtrot 2-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-3"];                            } else {                                [_this, "Bravo 2-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12831;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 2-6"];                            } else {                                [_this, "Foxtrot 2-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-4"];                            } else {                                [_this, "Bravo 2-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12833;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-1"];                            } else {                                [_this, "Foxtrot 3-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-5"];                            } else {                                [_this, "Bravo 2-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12835;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-2"];                            } else {                                [_this, "Foxtrot 3-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-6"];                            } else {                                [_this, "Bravo 2-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12837;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-3"];                            } else {                                [_this, "Foxtrot 3-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-1"];                            } else {                                [_this, "Bravo 3-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12839;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-4"];                            } else {                                [_this, "Foxtrot 3-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-2"];                            } else {                                [_this, "Bravo 3-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12841;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-5"];                            } else {                                [_this, "Foxtrot 3-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-3"];                            } else {                                [_this, "Bravo 3-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12843;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 3-6"];                            } else {                                [_this, "Foxtrot 3-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-4"];                            } else {                                [_this, "Bravo 3-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12845;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-1"];                            } else {                                [_this, "Foxtrot 4-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-5"];                            } else {                                [_this, "Bravo 3-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12847;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-2"];                            } else {                                [_this, "Foxtrot 4-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 3-6"];                            } else {                                [_this, "Bravo 3-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12849;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-3"];                            } else {                                [_this, "Foxtrot 4-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-1"];                            } else {                                [_this, "Bravo 4-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12851;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Foxtrot 4-4"];                            } else {                                [_this, "Foxtrot 4-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-2"];                            } else {                                [_this, "Bravo 4-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12502;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-3"];                            } else {                                [_this, "Bravo 1-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-3"];                            } else {                                [_this, "Bravo 4-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12478;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-2"];                            } else {                                [_this, "Alpha 4-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-4"];                            } else {                                [_this, "Bravo 4-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12456;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-5"];                            } else {                                [_this, "Alpha 2-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-5"];                            } else {                                [_this, "Bravo 4-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12449;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-2"];                            } else {                                [_this, "Alpha 2-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-6"];                            } else {                                [_this, "Bravo 4-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12568;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 4-2"];                            } else {                                [_this, "Bravo 4-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-1"];                            } else {                                [_this, "Charlie 1-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12865;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-1"];                            } else {                                [_this, "Alpha 1-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-2"];                            } else {                                [_this, "Charlie 1-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12868;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-2"];                            } else {                                [_this, "Alpha 1-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-3"];                            } else {                                [_this, "Charlie 1-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12871;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-3"];                            } else {                                [_this, "Alpha 1-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-4"];                            } else {                                [_this, "Charlie 1-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12874;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-4"];                            } else {                                [_this, "Alpha 1-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-5"];                            } else {                                [_this, "Charlie 1-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12892;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-5"];                            } else {                                [_this, "Alpha 1-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 1-6"];                            } else {                                [_this, "Charlie 1-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12898;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 1-6"];                            } else {                                [_this, "Alpha 1-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-1"];                            } else {                                [_this, "Charlie 2-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12930;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-1"];                            } else {                                [_this, "Alpha 2-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-2"];                            } else {                                [_this, "Charlie 2-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12982;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-3"];                            } else {                                [_this, "Alpha 2-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-3"];                            } else {                                [_this, "Charlie 2-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12934;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-4"];                            } else {                                [_this, "Alpha 2-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-4"];                            } else {                                [_this, "Charlie 2-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12985;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 2-6"];                            } else {                                [_this, "Alpha 2-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-5"];                            } else {                                [_this, "Charlie 2-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12988;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-1"];                            } else {                                [_this, "Alpha 3-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 2-6"];                            } else {                                [_this, "Charlie 2-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12991;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-2"];                            } else {                                [_this, "Alpha 3-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-1"];                            } else {                                [_this, "Charlie 3-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item12994;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-3"];                            } else {                                [_this, "Alpha 3-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-2"];                            } else {                                [_this, "Charlie 3-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13023;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-4"];                            } else {                                [_this, "Alpha 3-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-3"];                            } else {                                [_this, "Charlie 3-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13027;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-5"];                            } else {                                [_this, "Alpha 3-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-4"];                            } else {                                [_this, "Charlie 3-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13034;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 3-6"];                            } else {                                [_this, "Alpha 3-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-5"];                            } else {                                [_this, "Charlie 3-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13039;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-1"];                            } else {                                [_this, "Alpha 4-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 3-6"];                            } else {                                [_this, "Charlie 3-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13043;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-3"];                            } else {                                [_this, "Alpha 4-3"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-1"];                            } else {                                [_this, "Charlie 4-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13049;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-4"];                            } else {                                [_this, "Alpha 4-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-2"];                            } else {                                [_this, "Charlie 4-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13056;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-5"];                            } else {                                [_this, "Alpha 4-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-3"];                            } else {                                [_this, "Charlie 4-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13059;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Alpha 4-6"];                            } else {                                [_this, "Alpha 4-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-4"];                            } else {                                [_this, "Charlie 4-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13075;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-1"];                            } else {                                [_this, "Bravo 1-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-5"];                            } else {                                [_this, "Charlie 4-5"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13078;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-2"];                            } else {                                [_this, "Bravo 1-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Charlie 4-6"];                            } else {                                [_this, "Charlie 4-6"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13073;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-4"];                            } else {                                [_this, "Bravo 1-4"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-1"];                            } else {                                [_this, "Delta 1-1"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13081;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-5"];                            } else {                                [_this, "Bravo 1-5"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-2"];                            } else {                                [_this, "Delta 1-2"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13084;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 1-6"];                            } else {                                [_this, "Bravo 1-6"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-3"];                            } else {                                [_this, "Delta 1-3"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13087;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-1"];                            } else {                                [_this, "Bravo 2-1"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-4"];                            } else {                                [_this, "Delta 1-4"] call CBA_fnc_setCallsign;                            };;
 };
 _this = _item13090;
 if !(units _this isEqualTo []) then {
 	[_this,0] setWaypointPosition [position leader _this,0];
-	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Bravo 2-2"];                            } else {                                [_this, "Bravo 2-2"] call CBA_fnc_setCallsign;                            };;
+	                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID ["Delta 1-5"];                            } else {                                [_this, "Delta 1-5"] call CBA_fnc_setCallsign;                            };;
 };
 
 
@@ -12879,8 +12883,8 @@ private _logicIDs = [];
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Layers
-if (_layer13048) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13050,_item13054,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
-if (_layer13047) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Other POI",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13050,_item13054,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
+if (_layer13048) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13054,_item13050,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
+if (_layer13047) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Other POI",[[_item13036,_item13037,_item13038,_item13041,_item13042,_item13045,_item13046,_item13035,_item13044,_item13040,_item13054,_item13050,_item13057,_item13058,_item13060,_item13061,_item13062,_item13063,_item13077,_item13079,_item13074,_item13070,_item13072,_item13082,_item13083,_item13085,_item13086,_item13088,_item13089,_item13091,_item13092,_item13076,_item13080],[]]];};
 if (_layer12918) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Enemy",[[_item12867,_item12870,_item12873,_item12876,_item12877,_item12878,_item12894,_item12895,_item12900,_item12869,_item12899,_item12893,_item12866,_item12872,_item12875,_item12931,_item12948,_item12950,_item12933,_item12952,_item12954,_item12956,_item12958,_item12960,_item12962,_item12964,_item12966,_item12983,_item12984,_item12936,_item12937,_item12938,_item12986,_item12987,_item12989,_item12990,_item12992,_item12993,_item12935,_item12996,_item12995,_item13025,_item13026,_item13029,_item13030,_item13024,_item13028],[]]];};
 if (_layer12919) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_POI Kilo",[[_item12905,_item12907,_item12908,_item12914,_item12911,_item12910,_item12913,_item12909,_item12912,_item12896,_item12916,_item12915,_item12901,_item12902,_item12917,_item12867,_item12870,_item12873,_item12876,_item12877,_item12878,_item12894,_item12895,_item12900,_item12869,_item12899,_item12893,_item12866,_item12872,_item12875,_item12931,_item12948,_item12950,_item12933,_item12952,_item12954,_item12956,_item12958,_item12960,_item12962,_item12964,_item12966,_item12983,_item12984,_item12936,_item12937,_item12938,_item12986,_item12987,_item12989,_item12990,_item12992,_item12993,_item12935,_item12996,_item12995,_item13025,_item13026,_item13029,_item13030,_item13024,_item13028,_item12922,_item12923,_item12920,_item12926,_item12924],[]]];};
 if (_layer12855) then {missionNamespace setVariable ["Operation%20Aperture%20Investment%20UG_Defences",[[_item12504,_item12503,_item12480,_item12479,_item12458,_item12457,_item12451,_item12450,_item12570,_item12569],[]]];};

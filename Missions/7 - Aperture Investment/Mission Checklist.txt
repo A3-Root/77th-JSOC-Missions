@@ -75,9 +75,7 @@ https://ibb.co/K63MctB
 
 Verbal Briefing:
 
-[ // Picture In Picture Advisory // ]
-
-Good afternoon Ladies and Gentlemen, Welcome to Sanagasta!
+Alright! Lets get started!
 
 36 hours ago, the POTUS met with Presidente Sanchez and has jointly designated Drug Cartels as Terrorist Organization. He is intending to show the American people his new stance towards 'War on Drugs' next week. However, he wants to present the American people some concrete action already taken to prove his commitment. As such, we are being deployed here to cause eliminate the senior leadership of the Sonora Cartel and disrupt their operations in the region.
 
@@ -145,13 +143,13 @@ UG Stats
 
 
 Main Stats
-275 Objects
-217 AI
-27 Vehicles
-13 Simple Objects
-51 Groups
-10 Markers
-15 Layers
+637 Objects
+440 AI
+66 Vehicles
+29 Simple Objects
+81 Groups
+17 Markers
+33 Layers
 
 
 
@@ -170,6 +168,11 @@ Asylum VIP
 - Abbas Khalili
 - Face Thibaud
 - TanoanHead_A3_08
+[[[],[],[],["UK3CB_CSAT_M_O_U_Officer",[["ACE_EarPlugs",1],["ACE_quikclot",2],["ACE_elasticBandage",1],["ACE_packingBandage",1],["ACE_tourniquet",1],["ACE_splint",1],["ACE_morphine",1],["ACE_epinephrine",1],["ACE_adenosine",1],["SmokeShellOrange",1,1],["UK3CB_PC9_ZOAF_9_12Rnd",2,12]]],[],[],"UK3CB_CSAT_BEL_H_Beret","G_Aviator",["Hate_Smartphone","","","",[],[],""],["ItemMap","ItemGPS","ItemRadio","ItemCompass","ChemicalDetector_01_watch_F","murshun_cigs_cig0_nv"]],[["ace_arsenal_insignia","UK3CB_CSAT_Manticore_Insignia"],["aceax_textureOptions",[]]]]
+
+
+
+
 
 
 Radar Panels = radarpanel_1
@@ -178,11 +181,6 @@ Radar Panels = radarpanel_2
 
 
 
-
-
-selected_object = (get3DENSelected "object" select 0);
-object_gridpos = getPosASL selected_object;
-copyToClipboard str (object_gridpos);
 
 
 
@@ -241,3 +239,42 @@ Supplies
 [14018,4149.56,18.0368];
 [14021.2,4149.63,18.0368];
 [14024.3,4149.79,18.0368];
+
+
+
+
+this addAction [
+	"Enter Inside", {
+		1 cutText [
+			"", "BLACK OUT", 1
+		];	  
+		sleep 2;
+		player setPosASL (getPosASL shipint_exit);   
+		player setDir 180;  
+		sleep 0.5;    
+		1 cutText [
+			"", "BLACK IN", 1
+		];
+	},
+	nil, 1.5, true, true, "", "true", 5, false, "", ""
+]; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded."] call zen_modules_fnc_addIntelAction;
+

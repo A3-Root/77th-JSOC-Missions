@@ -151,7 +151,7 @@ To accomplish the following tasks:
 [/align]
 
 
-[align=center][color=#FFD700][size=150][font=Arial][u]Region Map[/u][/font][/size][/color][/align]
+[align=center][color=#FFD700][size=150][font=Arial][u]Operation Map[/u][/font][/size][/color][/align]
  
 
 [align=center][img]https://i.ibb.co/p29t6HN/20231019204647-1.jpg[/img][/align]
