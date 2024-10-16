@@ -74,7 +74,7 @@ if (side player != sideLogic) then {
 			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_28_co.paa","CSAT units performing military exercises in the Northern Hills."]],
 			["box",["\rhsafrf\addons\rhs_decals\data\labels\army\un_logow03_ca.paa","UNSC to hold an interim session on Global Food Security (Again)!"]], 
 			["textlocked", "As Abramia continues to transform under CSAT's influence, the world watches with a mix of interest and concern. For now, life on the island balances between the familiar and the uncertain. Residents carry on with their daily routines, even as the hum of military equipment becomes part of the backdrop. 'We just hope that whatever is happening leads to positive outcomes for our community,' says local teacher Maria Gonzales. 'Abramia has a rich history, and we want to ensure a bright future as well.'"],
-			["image",["ca\misc\data\billboard_nogova_co.paa","[Sponsored Ad] Milan 'Morby' D's MegaKoncert '02 is available on all major streaming platforms."]], 
+			["image",["ca\misc\data\billboard_nogova_co.paa","[Sponsored Ad] Milan Dax's Mega Kon cert '02 is available on all major streaming platforms."]], 
 			["box",["a3\props_f_oldman\items\documents\data\credit_card_01_ca.paa","Can the owner of this card contact us please?"]], 
 			["textbold","French Troops Surrender During Training Exercise Due to Old Habits!"], 
 			["image",["\a3\missions_f_aow\data\img\artwork\standard\showcase_aow_picture_103_co.paa"," Cmdr. Goliat pays respects at the Tomb of the Unknown Soldier after accidentally surrendering during a military exercise."]], 
