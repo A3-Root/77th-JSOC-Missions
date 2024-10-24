@@ -17,6 +17,7 @@ private _layer11585 = true;
 
 
 ug_cleanup = [];
+ship_interior = [];
 
 private _markers = [];
 private _markerIDs = [];
@@ -6251,7 +6252,7 @@ if (_layer10971 && _layer11585) then {
 
 private _item13435 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13435 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,463.735,148.066],[],0,"CAN_COLLIDE"];
+	_item13435 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,463.735,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13435;
 	_objects pushback _this;
 	_objectIDs pushback 13435;
@@ -6263,7 +6264,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13443 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13443 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,291.534,148.066],[],0,"CAN_COLLIDE"];
+	_item13443 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1435.89,291.534,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13443;
 	_objects pushback _this;
 	_objectIDs pushback 13443;
@@ -6275,7 +6276,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13446 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13446 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,347.904,148.066],[],0,"CAN_COLLIDE"];
+	_item13446 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,347.904,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13446;
 	_objects pushback _this;
 	_objectIDs pushback 13446;
@@ -6287,7 +6288,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13447 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13447 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,291.843,148.066],[],0,"CAN_COLLIDE"];
+	_item13447 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1375.89,291.843,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13447;
 	_objects pushback _this;
 	_objectIDs pushback 13447;
@@ -6299,7 +6300,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13449 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13449 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,407.283,148.066],[],0,"CAN_COLLIDE"];
+	_item13449 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,407.283,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13449;
 	_objects pushback _this;
 	_objectIDs pushback 13449;
@@ -6311,7 +6312,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13450 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13450 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,349.333,148.066],[],0,"CAN_COLLIDE"];
+	_item13450 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,349.333,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13450;
 	_objects pushback _this;
 	_objectIDs pushback 13450;
@@ -6323,7 +6324,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13451 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13451 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,292.949,148.066],[],0,"CAN_COLLIDE"];
+	_item13451 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,292.949,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13451;
 	_objects pushback _this;
 	_objectIDs pushback 13451;
@@ -6335,7 +6336,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13452 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13452 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,234.723,148.066],[],0,"CAN_COLLIDE"];
+	_item13452 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1315.89,234.723,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13452;
 	_objects pushback _this;
 	_objectIDs pushback 13452;
@@ -6347,7 +6348,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13453 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13453 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,407.79,148.066],[],0,"CAN_COLLIDE"];
+	_item13453 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,407.79,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13453;
 	_objects pushback _this;
 	_objectIDs pushback 13453;
@@ -6359,7 +6360,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13454 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13454 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,349.958,148.066],[],0,"CAN_COLLIDE"];
+	_item13454 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1255.89,349.958,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13454;
 	_objects pushback _this;
 	_objectIDs pushback 13454;
@@ -6371,7 +6372,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13457 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13457 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.89,408.434,148.066],[],0,"CAN_COLLIDE"];
+	_item13457 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.89,408.434,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13457;
 	_objects pushback _this;
 	_objectIDs pushback 13457;
@@ -6383,7 +6384,7 @@ if (_layer12297 && _layer11585) then {
 
 private _item13458 = objNull;
 if (_layer12297 && _layer11585) then {
-	_item13458 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.96,348.664,148.066],[],0,"CAN_COLLIDE"];
+	_item13458 = createVehicle ["Land_CobblestoneSquare_01_32m_F",[1195.96,348.664,90.7],[],0,"CAN_COLLIDE"];
 	_this = _item13458;
 	_objects pushback _this;
 	_objectIDs pushback 13458;
@@ -7673,7 +7674,7 @@ if (_layer12918 && _layer12919) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item12866 = objNull;
@@ -8738,7 +8739,7 @@ if (_layer13048 && _layer13047) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item13054 = objNull;
@@ -11443,270 +11444,271 @@ if (!isNull _item13079 && !isNull _item13080) then {_item13079 moveInTurret [_it
 	if !(isnull _item13435) then {
 		this = _item13435;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13443) then {
 		this = _item13443;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13446) then {
 		this = _item13446;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13447) then {
 		this = _item13447;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13449) then {
 		this = _item13449;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13450) then {
 		this = _item13450;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13451) then {
 		this = _item13451;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13452) then {
 		this = _item13452;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13453) then {
 		this = _item13453;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13454) then {
 		this = _item13454;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13457) then {
 		this = _item13457;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13458) then {
 		this = _item13458;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13502) then {
 		this = _item13502;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13503) then {
 		this = _item13503;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13504) then {
 		this = _item13504;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13505) then {
 		this = _item13505;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13506) then {
 		this = _item13506;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13507) then {
 		this = _item13507;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13509) then {
 		this = _item13509;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13510) then {
 		this = _item13510;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13511) then {
 		this = _item13511;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13512) then {
 		this = _item13512;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13513) then {
 		this = _item13513;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13514) then {
 		this = _item13514;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13517) then {
 		this = _item13517;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13518) then {
 		this = _item13518;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13534) then {
 		this = _item13534;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13536) then {
 		this = _item13536;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13537) then {
 		this = _item13537;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13538) then {
 		this = _item13538;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13539) then {
 		this = _item13539;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13540) then {
 		this = _item13540;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13541) then {
 		this = _item13541;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13542) then {
 		this = _item13542;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13543) then {
 		this = _item13543;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13544) then {
 		this = _item13544;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13547) then {
 		this = _item13547;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13548) then {
 		this = _item13548;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13562) then {
 		this = _item13562;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13563) then {
 		this = _item13563;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13564) then {
 		this = _item13564;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13565) then {
 		this = _item13565;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13566) then {
 		this = _item13566;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13567) then {
 		this = _item13567;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13568) then {
 		this = _item13568;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13569) then {
 		this = _item13569;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13570) then {
 		this = _item13570;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13572) then {
 		this = _item13572;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13573) then {
 		this = _item13573;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13574) then {
 		this = _item13574;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item13578) then {
 		this = _item13578;
 		ug_cleanup pushBack this;
-this setPosASL [(getPosASL this select 0), (getPosASL this select 1), 148.066];
+this setPosASL [(getPosASL this select 0), (getPosASL this select 1), (90.675 + random[-0.001, 0.002, 0.005])];
 	};
 	if !(isnull _item10961) then {
 		this = _item10961;
 		publicVariable "UG_Entrance_A";
 this addAction [ 
  "Enter", { 
+  params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Exit_A_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL UG_Exit_A_Pos);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11722,14 +11724,15 @@ this addAction [
 		this = _item10965;
 		publicVariable "UG_Entrance_B";
 this addAction [ 
- "Enter", { 
+ "Enter", {
+	params ["_target", "_caller", "_actionId", "_arguments"]; 
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Exit_B_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL UG_Exit_B_Pos);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11742,13 +11745,14 @@ this addAction [
 		publicVariable "UG_Exit_A";
 this addAction [ 
  "Enter", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Entrance_A_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL UG_Entrance_A_Pos);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11761,13 +11765,14 @@ this addAction [
 		publicVariable "UG_Exit_B";
 this addAction [ 
  "Enter", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL UG_Entrance_B_Pos);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL UG_Entrance_B_Pos);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11912,6 +11917,7 @@ this addAction [
 
 
 publicVariable "ug_cleanup";
+publicVariable "ship_interior";
 
 
 

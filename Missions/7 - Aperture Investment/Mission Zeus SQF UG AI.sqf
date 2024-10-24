@@ -4323,7 +4323,6 @@ if (!isNull _item12570 && !isNull _item12569) then {_item12570 moveInTurret [_it
 		this = _item12852;
 		this disableAI "PATH";
 	};
-};
 
 
 

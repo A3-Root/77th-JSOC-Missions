@@ -1020,7 +1020,7 @@ if (_layer1111 && _layer1091) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item1033 = objNull;
@@ -3534,7 +3534,7 @@ if (_layer1203 && _layer1202) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item1199 = objNull;
@@ -3565,7 +3565,7 @@ if (_layer1203 && _layer1202) then {
 	_this setFuelConsumptionCoef 1;
 	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item1176 = objNull;
@@ -3581,7 +3581,7 @@ if (_layer1203 && _layer1202) then {
 	_this setFuelConsumptionCoef 1;
 	[_this,"[[[[],[]],[[],[]],[[""FirstAidKit""],[1]],[[],[]]],false]"] call bis_fnc_initAmmoBox;
 	[_this, 8] call ace_cargo_fnc_setSpace;
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item1181 = objNull;
@@ -5038,7 +5038,7 @@ if (_layer1461 && _layer1460) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item5068 = objNull;
@@ -6065,7 +6065,7 @@ if (_layer1583 && _layer1580) then {
 	_this setVariable ['s',1];
 	[_this, 6] call ace_cargo_fnc_setSpace;
 
-	if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };
+	
 };
 
 private _item1864 = objNull;
@@ -10976,14 +10976,15 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 	if !(isnull _item5022) then {
 		this = _item5022;
 		this addAction [ 
- "Enter Inside", { 
+ "Enter Inside", {
+	params ["_target", "_caller", "_actionId", "_arguments"]; 
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_exit);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_exit);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -10996,13 +10997,14 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5026;
 		this addAction [ 
  "Enter Inside", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_ent);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_ent);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11019,13 +11021,14 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5042;
 		this addAction [ 
  "Enter Inside", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_exit_1);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_exit_1);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11042,13 +11045,14 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5041;
 		this addAction [ 
  "Enter Inside", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_ent_1);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_ent_1);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11061,13 +11065,14 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5058;
 		this addAction [ 
  "Enter Inside", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_exit_2);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_exit_2);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11088,13 +11093,14 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5059;
 		this addAction [ 
  "Enter Inside", { 
+	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
    "", "BLACK OUT", 1 
   ];    
-  sleep 2; 
-  player setPosASL (getPosASL shipint_ent_2);    
-  player setDir 180;   
-  sleep 0.5;     
+  uiSleep 2; 
+  _caller setPosASL (getPosASL shipint_ent_2);    
+  _caller setDir 180;   
+  uiSleep 0.5;     
   1 cutText [ 
    "", "BLACK IN", 1 
   ]; 
@@ -11107,6 +11113,7 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		this = _item5061;
 		[this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded. Last Accessed from ** 90 **"] call zen_modules_fnc_addIntelAction; 
 this addAction [ 
+	
  "Change Targeting Mode to East", { 
   lasertarget_mode = "EAST"; 
   publicVariable "lasertarget_mode"; 
