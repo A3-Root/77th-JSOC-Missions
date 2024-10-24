@@ -1,6 +1,7 @@
 - Hide Terrain @ Research Overview Site
 - Delete the CSG except for spawn, ammo, and carrier
-- Run Zeus SQF
+- Run Mission Zeus SQF
+- Run Mission Zeus SQF UG
 - Apply ACE Loadout change to MCI and Confirm face and names
 - Modify names of MCI body doubles
 - Adjust date and time = 20 October 2024, 1300
@@ -132,10 +133,6 @@ Main Stats
 
 Radar Panels = radarpanel_1
 Radar Panels = radarpanel_2
-
-
-
-
 
 
 
