@@ -16,8 +16,8 @@
 
 
 
-- Setup Laser Pulse Cannon at November
-- Setup Large Pelter at Juliet
+- Setup Laser Pulse Cannon at November (Just use composition for now but ensure "ROOT_cannoncrew pushBackUnique _this" is executed in the init field)
+- Setup Large Pelter at Juliet (Same as above, but with ROOT_peltercrew)
 - Run Mission Zeus SQF UG AI and Research AI
 
 
@@ -28,26 +28,40 @@
 
 Verbal Briefing:
 
-Alright! Lets get started!
+Please, everyone, take a seat! Welcome to Isla Abramia. I'm Mr. Lynch from ISA, and I'll be overseeing this mission.
 
-36 hours ago, the POTUS met with Presidente Sanchez and has jointly designated Drug Cartels as Terrorist Organization. He is intending to show the American people his new stance towards 'War on Drugs' next week. However, he wants to present the American people some concrete action already taken to prove his commitment. As such, we are being deployed here to cause eliminate the senior leadership of the Sonora Cartel and disrupt their operations in the region.
+As many of you are aware, the situation on Isla Abramia has escalated dramatically. CSAT has quadrupled its military presence on the island, with the full backing of the local government. This sudden expansion is a significant concern for NATO, given the island's strategic location near Europe.
 
-However, about 12 hours ago, the Sonora Cartel launched a surprise offensive against the Mexican Federale bases in this region resulting in them taking over two FOBs and the Central Investigation base and loss of many Federales. This level of attack, coordination, and courage was never expected from the cartel proving that they are an adversary we shouldn't underestimate and a threat we must control.
+Recent events have emboldened CSAT to push further into the region. During a joint training exercise yesterday, there was an incident, meant to be taken as a joke, that they perceived as a sign of weakness among NATO forces. They've taken this opportunity to strengthen their foothold, and we cannot allow that to go unchallenged.
 
-Our objectives are simple. We have identified two Lieutenants pulling the shots in the region. First is Manuel 'Gatekeeper' Diaz - He handles the Security and Weapons of the cartel. The screen to my left is how he looks like. We can either capture him or kill him. The second is Silvio 'Borat' - He handles the finance and logistics of the cartel in the region. It is VITAL that we apprehend him to extract information of all the cartel activities and network both home and abroad. Both of these targets are well guarded so expect resistance.
+Our intelligence reports large shipments of construction materials and vehicles arriving on the island, yet no major facilities have been identified. Intercepted communications mention a secret project called 'Nabat Chubi.' While we don't have details on this project's nature, it's clear that CSAT is up to something that could shift the balance of power in the region and we belive it to be a Weapon of Mass Destruction.
 
-Next we have to secure the two FOBs and CID bases lost and rescue any federale found. Try to find last collected intel and relay any you find so we can act further before the cartels launch their second wave of assault.
+Our mission is straightforward but critical. We need to uncover what 'Nabat Chubi' entails and prepare the ground for the 22nd Marine Expeditionary Force to take control of the island.
 
-A no-fly zone has been enacted on the town to the south east of us for operational security.
+First, we'll have to deal with their SAM sites. Their locations change everyday to evade our satellite detection. Lucky for us, we were able to intercept communication and with the help of drones and satteliet, pintpoint the exact locations of these SAM sites. We do not know about their overall capability, for the time being, these intel reports should suffice to support our entry. 
 
-SOAR will assist you in recon, transport and cas using the 6x Blackhawks and 3x Reaper drones.
+Then We'll be inserting via UH-60M Blackhawk helicopters equipped with Electronic Warfare Systems to evade enemy detection. Once on the ground, our first priority is to secure Stage Point 'Concord,' an offshore military island that will serve as the forward operating base for the 22nd MEF.
 
-With the recent attack, the cartel has bolstered its firepower, manning field AA trucks, police apcs, some T34s and some BTRs. An early reconnaissance and asset destruction is critical before Deltas can deploy next to these sites.
+Next, we aim to capture Major Abbas 'Kebab' Khalili, the head of intelligence for Isla Abramia. He's located in a fortified old mental asylum. Be cautious—he uses multiple body doubles. Remember, the real Khalili is an avid smoker; his doubles are not.
 
-Extra Flashbangs are approved and recommended.
+We will then neutralize and secure Airfield 'Victor' to disrupt their air operations. Investigating Research Base 'November' is crucial—we believe it's linked to 'Nabat Chubi.' Secure any intelligence you find there.
+
+Destroying Radar Station 'Webb' is also on our list to blind their communications and early warning ability against the 22nd MEF. Additionally, we have several points of interest—'Juliet,' 'Kilo,' 'Lima,' and 'Mike'—that require investigation. These sites may hold valuable intel or resources related to CSAT's secret project. Clear any enemy forces and eliminate their supplies and equipment.
+
+Finally, we're tasked with locating and extracting key personnel:
+
+Dr. Xian Ghu – Head Scientist of 'Nabat Chubi.'
+Major Phuc 'Mein' Diaz – Logistics Officer for Isla Abramia.
+Captain Yu 'Shurley' Aho – Researcher on the project.
+
+
+These individuals possess critical information that could help us understand and counter CSAT's plans.
+
+Be prepared for advanced enemy technology, including unmanned systems and electronic warfare capabilities. Expect heavy resistance. Supplies and ammunitions are preppared and can be dispatched at will to your locations.
+
+You're authorized to engage armed enemy combatants. Civilians are limited to the Southern-Central part of the island. As such, a no-fly zone has been implemented in these region.
 
 I'll take your questions now.
-
 
 * Q & A *
 
