@@ -38,7 +38,8 @@ private _layer1111 = true;
 private _layer1091 = true;
 
 
-
+ROOT_peltercrew = [];
+ROOT_cannoncrew = [];
 
 private _markers = [];
 private _markerIDs = [];
@@ -11114,23 +11115,29 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 		[this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded. Last Accessed from ** 90 **"] call zen_modules_fnc_addIntelAction; 
 this addAction [ 
 	
- "Change Targeting Mode to East", { 
+ "Change Laser Targeting Mode to NATO", { 
   lasertarget_mode = "EAST"; 
-  publicVariable "lasertarget_mode"; 
+  _tmpgroup = createGroup [east, true];
+  ROOT_cannoncrew joinSilent _tmpgroup;
+  "LASER TARGET-MODE = NATO" remoteExec ["hintSilent", allCurators]; 
  }, 
  nil, 1.5, true, true, "", "true", 5, false, "", "" 
 ];  
 this addAction [ 
- "Change Targeting Mode to West", { 
+ "Change Laser Targeting Mode to CSAT", { 
   lasertarget_mode = "WEST"; 
-  publicVariable "lasertarget_mode"; 
+  _tmpgroup = createGroup [west, true];
+  ROOT_cannoncrew joinSilent _tmpgroup;
+  "LASER TARGET-MODE = CSAT" remoteExec ["hintSilent", allCurators]; 
  }, 
  nil, 1.5, true, true, "", "true", 5, false, "", "" 
 ]; 
 this addAction [ 
- "Change Targeting Mode to All", { 
+ "Activate Laser Free-fire", { 
   lasertarget_mode = "ALL"; 
-  publicVariable "lasertarget_mode"; 
+  _tmpgroup = createGroup [civilian, true];
+  ROOT_cannoncrew joinSilent _tmpgroup;
+  "LASER TARGET-MODE = ALL" remoteExec ["hintSilent", allCurators]; 
  }, 
  nil, 1.5, true, true, "", "true", 5, false, "", "" 
 ];
@@ -11453,7 +11460,8 @@ this setDir 180.523;
 
 
 
-
+publicVariable "ROOT_peltercrew";
+publicVariable "ROOT_cannoncrew";
 
 
 

@@ -3,15 +3,22 @@
 - Run Mission Zeus SQF
 - Run Mission Zeus SQF UG
 - Apply ACE Loadout change to MCI and Confirm face and names
-- Modify names of MCI body doubles
+- Modify names of MCI body doubles (Abass Kalily // Kebab Khalili // Abbas Kebab)
 - Adjust date and time = 20 October 2024, 1300
 - Setup RP / LZ for Objectives
 - Set operation name
 - Exec News Feed (Diary Entry)
 - Exec FPS View
-- Setup Laser Pulse Cannon
-- Setup Large Pelter
-- Setup Ambience (if needed)
+- Add some MkV and RHICCs as backup transport
+
+
+
+
+
+
+- Setup Laser Pulse Cannon at November
+- Setup Large Pelter at Juliet
+- Run Mission Zeus SQF UG AI and Research AI
 
 
 

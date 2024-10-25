@@ -17,7 +17,7 @@ private _layer11585 = true;
 
 
 ug_cleanup = [];
-ship_interior = [];
+
 
 private _markers = [];
 private _markerIDs = [];
@@ -11917,7 +11917,7 @@ this addAction [
 
 
 publicVariable "ug_cleanup";
-publicVariable "ship_interior";
+
 
 
 
