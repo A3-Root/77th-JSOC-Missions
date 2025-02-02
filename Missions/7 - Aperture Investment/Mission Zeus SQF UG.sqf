@@ -11852,7 +11852,7 @@ this addAction [
 	if !(isnull _item12678) then {
 		this = _item12678;
 		ug_cleanup pushBack this;
-[this, 2, false, 0, "Decrypt Transfer Logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Partially Decrypted Technology Transfer Logs", "*** Last Transfer successfully completed by 'Dan Druff'. Coordniates: ######, North-East Coastline of Isla Abramia."] call zen_modules_fnc_addIntelAction;
+[this, 2, false, 0, "Decrypt Transfer Logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Partially Decrypted Technology Transfer Logs", "*** Last Transfer successfully completed by 'Dan Druff'. Coordniates: 099097 North-East Coastline of Isla Abramia."] call zen_modules_fnc_addIntelAction;
 	};
 	if !(isnull _item12931) then {
 		this = _item12931;

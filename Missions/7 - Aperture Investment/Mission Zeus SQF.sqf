@@ -10734,11 +10734,11 @@ if (!isNull _item7269 && !isNull _item7266) then {_item7269 moveInTurret [_item7
 	};
 	if !(isnull _item1432) then {
 		this = _item1432;
-		[this, 2, false, 0, "Attempt to decrypt communication logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Partial Decrypted Communications", "******* Nice. I will arrange covert delivery as requested. Will ********** stay ********* safehouse **** You have my grid coordinates."] call zen_modules_fnc_addIntelAction;
+		[_this, 2, false, 0, "Attempt to decrypt communication logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Partial Decrypted Communications", "******* Nice. I will arrange covert delivery as requested. Will ********** stay ********* safehouse **** You have my grid coordinates."] call zen_modules_fnc_addIntelAction;
 	};
 	if !(isnull _item1431) then {
 		this = _item1431;
-		[this, 2, false, 0, "Extract Logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Extract Combat Logs", "Combat logs indicate an active test performed during the last 2 hours in the island of !@(#YAINSD(*!@TGB)"] call zen_modules_fnc_addIntelAction;
+		[_this, 2, false, 0, "Extract Logs", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Extract Combat Logs", "Combat logs indicate an active test performed during the last 2 hours in the island of !@(#YAINSD(*!@TGB)"] call zen_modules_fnc_addIntelAction;
 	};
 	if !(isnull _item1130) then {
 		this = _item1130;
@@ -10996,7 +10996,7 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 	};
 	if !(isnull _item5026) then {
 		this = _item5026;
-		this addAction [ 
+		_this addAction [ 
  "Enter Inside", { 
 	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
@@ -11092,7 +11092,7 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 	};
 	if !(isnull _item5059) then {
 		this = _item5059;
-		this addAction [ 
+		_this addAction [ 
  "Enter Inside", { 
 	params ["_target", "_caller", "_actionId", "_arguments"];
   1 cutText [ 
@@ -11112,8 +11112,8 @@ dzialo lockDriver true;    this setObjectScale 0.6;                             
 	};
 	if !(isnull _item5061) then {
 		this = _item5061;
-		[this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded. Last Accessed from ** 90 **"] call zen_modules_fnc_addIntelAction; 
-this addAction [ 
+		[_this, 2, false, 0, "Download Research Data", ["OMIntelGrabPC_01", "OMIntelGrabPC_02", "OMIntelGrabPC_03"], 10, "Encrypted Research Data", "Research Data 'Project Nabat Chubi' downloaded. Last Accessed from ** 90 **"] call zen_modules_fnc_addIntelAction; 
+_this addAction [ 
 	
  "Change Laser Targeting Mode to NATO", { 
   lasertarget_mode = "EAST"; 
@@ -11123,7 +11123,7 @@ this addAction [
  }, 
  nil, 1.5, true, true, "", "true", 5, false, "", "" 
 ];  
-this addAction [ 
+_this addAction [ 
  "Change Laser Targeting Mode to CSAT", { 
   lasertarget_mode = "WEST"; 
   _tmpgroup = createGroup [west, true];
@@ -11132,7 +11132,7 @@ this addAction [
  }, 
  nil, 1.5, true, true, "", "true", 5, false, "", "" 
 ]; 
-this addAction [ 
+_this addAction [ 
  "Activate Laser Free-fire", { 
   lasertarget_mode = "ALL"; 
   _tmpgroup = createGroup [civilian, true];

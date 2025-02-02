@@ -1,4 +1,4 @@
-Mission Link - 
+Mission Link - https://77th-jsoc.com/forum/viewtopic.php?f=98&t=11838
 Total Participants - 
 Zeus - Root & 
 Squads - 
@@ -9,3 +9,14 @@ Reception -
 VODS:
 
 Vohu - 
+
+
+
+
+
+
+Points to takeaway:
+
+- Intel and Add action has to be remote exec'd
+- Buggy AI to investigate later
+- MLRS T140 was SUPER STRONG
