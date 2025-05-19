@@ -1,51 +1,73 @@
-// ["uns_b52h_alu",2,"Bo_Mk82_MI08",carpetbomb_pos,0,100,1000,5000] spawn ROOT_fnc_carpetBombing;
 
-ROOT_fnc_carpetBombing = {
-	params [["_bomberclass", "uns_b52h_alu"],["_numberofplanes", 2],["_bombType","Bo_Mk82_MI08"],["_bomblocation",[0,0,0]],["_direction",random 360],["_amount",25],["_distance",100],["_spawndist", 5000]];
-	if (_bomblocation isEqualTo [0,0,0]) exitWith {systemchat "Invalid Coordinates."};
-	if (!isClass (configFile >> "CfgAmmo" >> _bombType)) exitWith {systemchat "Invalid Bomb Class"};
-	if (!isClass (configFile >> "CfgVehicles" >> _bomberclass)) exitWith {systemchat "Invalid Bomber Class"};
-	_tempaltitude = 1000;
-	for "_i" from 1 to _numberofplanes do {
-		_spawnposendx = ((_bomblocation select 0)) + _spawndist * sin(_direction);
-		_spawnposendy = ((_bomblocation select 1)) + _spawndist * cos(_direction);
-		_spawnposbegx = ((_bomblocation select 0)) - _spawndist * sin(_direction);
-		_spawnposbegy = ((_bomblocation select 1)) - _spawndist * cos(_direction);
-		_spawncoordend = [_spawnposendx, _spawnposendy, 500];
-		_spawncoordbeg = [_spawnposbegx, _spawnposbegy, 500];
-		_spawnPlane = [_spawncoordbeg, _spawncoordend, _tempaltitude, "NORMAL", _bomberclass] call BIS_fnc_ambientFlyby;
-		uiSleep 0.5;
-		_tempaltitude = _tempaltitude + 25;
-	};
-	if (_bomberclass == "uns_A6_Intruder_GBU") then { uiSleep 25; } else { uiSleep 35; };
-	_firstImpactPos = (_bomblocation getPos [(_distance / 2),_direction + 180]) vectorAdd [0,0,200];
-	_posincrement = _distance / _amount;
-	_randomsound = selectRandom ["BattlefieldJet1_3D","BattlefieldJet2_3D","BattlefieldJet3_3D"];
-	_closePlayers = allPlayers select {_x distance2D _firstImpactPos < 1500};
-	[_randomsound] remoteExec ["playSound",_closePlayers];
-	_relpos = _firstImpactPos;
-	_bomb = objNull;
-	for "_i" from 1 to _amount do {
-		sleep 0.3;
-		_tempPos = _relpos vectorAdd [random [-20,0,20],random [-20,0,20],random [-5,0,5]];
-		_bomb = _bombType createvehicle _tempPos;
-		_bomb setposasl _tempPos;
-		_relpos = _firstImpactPos getPos [(_posincrement * _i),_direction] vectorAdd [0,0,200];
-		_bomb setVectorDirAndUp [[0,0,-1],[0,0.8,0]];
-		_bomb setVelocityModelSpace [0,50,-50];
-		_nul = [_bomb] spawn {
-			params ["_bomb"];
-			waituntil {getposATL _bomb select 2 <= 700};
-			_soundarray = ["Shell1","Shell2","Shell3","Shell4"];
-			_soundpos = [getposATL _bomb select 0, getposATL _bomb select 1,0];
-			_helper = "Land_Battery_F" createvehicle _soundpos;
-			_helper hideobjectGlobal true;
-			_rndSound = selectRandom _soundarray;
-			[_helper,[_rndSound,1,200]] remoteExec ["say3D",[0,-2] select isDedicated];
-			waituntil {!alive _bomb};
-			deletevehicle _helper;
-		};
-	};
-	sleep 10;
-	true
+// viewDistance
+// getObjectViewDistance
+// getPiPViewDistance
+// setViewDistance
+// setObjectViewDistance
+// setPiPViewDistance
+
+
+private _jsoc_ops_recon_uav_check = missionNamespace getVariable ["jsoc_ops_recon_uav", objNull];
+if (!(_jsoc_ops_recon_uav_check isEqualTo objNull) || alive _jsoc_ops_recon_uav_check) then {
+    deleteVehicle _jsoc_ops_recon_uav_check;
 };
+
+jsoc_ops_recon_uav = createVehicle ["USAF_MQ9", ATLToASL [2752.78, 6327.7, 800], [], 0, "FLY"]; 
+publicVariable "jsoc_ops_recon_uav";
+jsoc_ops_recon_uav setDir 0;
+jsoc_ops_recon_uav setPosASL [2752.78, 6327.7, 800];
+createVehicleCrew jsoc_ops_recon_uav; 
+
+
+private _jsoc_ops_recon_cam_check = missionNamespace getVariable ["jsoc_ops_recon_cam", objNull];
+if !(_jsoc_ops_recon_cam_check isEqualTo objNull) then {
+	_jsoc_ops_recon_cam_check cameraEffect ["terminate","back"];
+	camDestroy _jsoc_ops_recon_cam_check;
+};
+
+jsoc_ops_recon_cam = "camera" camCreate [0,0,0]; 
+jsoc_ops_recon_cam cameraEffect ["Internal", "Back", "jsoc_ops_uavrtt"]; 
+jsoc_ops_recon_cam attachTo [jsoc_ops_recon_uav, [0,0,0], "laser_start"]; 
+jsoc_ops_recon_cam camSetFov 0.1; 
+"jsoc_ops_uavrtt" setPiPEffect [0]; 
+jsoc_ops_recon_cam camCommit 0;
+
+JSOC_OPS_DisplayTerminal setObjectTextureGlobal [0, "#(argb,512,512,1)r2t(jsoc_ops_uavrtt,1)"]; 
+
+addMissionEventHandler ["Draw3D", { 
+    _dir =  
+        (jsoc_ops_recon_uav selectionPosition "laser_start")  
+            vectorFromTo  
+        (jsoc_ops_recon_uav selectionPosition "laser_end"); 
+    jsoc_ops_recon_cam setVectorDirAndUp [ 
+        _dir,  
+        _dir vectorCrossProduct [-(_dir select 1), _dir select 0, 0] 
+    ]; 
+}]; 
+
+[
+	"featureCamera", {
+		jsoc_ops_recon_cam cameraEffect ["Internal", "Back", "jsoc_ops_uavrtt"];
+	}
+] call CBA_fnc_addPlayerEventHandler;
+
+
+[
+	"cameraView", {
+		jsoc_ops_recon_cam cameraEffect ["Internal", "Back", "jsoc_ops_uavrtt"];
+	}
+] call CBA_fnc_addPlayerEventHandler;
+
+
+[
+	"unit", {
+		jsoc_ops_recon_cam cameraEffect ["Internal", "Back", "jsoc_ops_uavrtt"];
+	}
+] call CBA_fnc_addPlayerEventHandler;
+
+
+[
+	"visionMode", {
+		jsoc_ops_recon_cam cameraEffect ["Internal", "Back", "jsoc_ops_uavrtt"];
+	}
+] call CBA_fnc_addPlayerEventHandler;
