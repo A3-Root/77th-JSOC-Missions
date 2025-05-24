@@ -239,12 +239,12 @@ launch_screen_2 setObjectTextureGlobal [0, "#(argb,512,512,1)r2t(uavrtt3,1)"];
 			params ["_target", "_caller", "_id", "_args"]; 
 			1 cutText ["","BLACK OUT",1];
 			_mine_exit_spawnpos = [((getPosASL mine_exit select 0) + random (3)), ((getPosASL mine_exit select 1) + random (3)), (getPosASL mine_exit select 2)];
-			sleep 2;
+			uiSleep 2;
 			_caller setPosASL _mine_exit_spawnpos;
 			_caller setDir (320 + random[-5, 0, 5]);
 			1 cutText ["","BLACK IN",1];
 			enableEnvironment false;
-			sleep 0.4;
+			uiSleep 0.4;
 		},
 		nil,
 		1.5,
@@ -263,12 +263,12 @@ launch_screen_2 setObjectTextureGlobal [0, "#(argb,512,512,1)r2t(uavrtt3,1)"];
 			params ["_target", "_caller", "_id", "_args"]; 
 			1 cutText ["","BLACK OUT",1];
 			_mine_entrance_spawnpos = [((getPosASL mine_entrance select 0) + random (3)), ((getPosASL mine_entrance select 1) + random (3)), (getPosASL mine_entrance select 2)];
-			sleep 2;
+			uiSleep 2;
 			_caller setPosASL _mine_entrance_spawnpos;
 			_caller setDir (100 + random[-5, 0, 5]);
 			1 cutText ["","BLACK IN",1];
 			enableEnvironment true;
-			sleep 0.4;
+			uiSleep 0.4;
 		},
 		nil,
 		1.5,
