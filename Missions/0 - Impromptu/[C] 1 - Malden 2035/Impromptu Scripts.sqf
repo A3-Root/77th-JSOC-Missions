@@ -181,7 +181,7 @@ publicVariable "backup_landvic";
                 ];
                 private _worldObjects = nearestObjects [_caller, _lightClassnames, 1250, true];
                 private _lightoffobjects = nearestObjects [_caller, _lightoffobj, 1250, true];
-				if (generator_turnedoff == true) then 
+				if (generator_turnedoff) then 
 				{
 					generator_turnedoff = false;
 					publicVariable "generator_turnedoff";
