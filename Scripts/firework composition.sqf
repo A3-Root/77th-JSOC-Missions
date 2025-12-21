@@ -88,8 +88,8 @@ DCON_fnc_fireworkVisuals = {
 	deletevehicle _rocket;
 };
 M9SD_fnc_spawnfireworks = {
-    _pos = [14650.3,16759,0];
-    _fireworkcount = 1;
+    _pos = [18778, 15686, 0];
+    _fireworkcount = 2;
     _colorArray = [ [0.42, 0.81, 0.1], [0.8, 0.1, 0.35], [0.2, 0.73, 0.85], [1, 1, 1], [0.1, 0.81, 0.1] ];
     for "_i" from 1 to _fireworkcount do {
         _velocity = [random 1024, random 1024, random [1000, 2500, 5000]];

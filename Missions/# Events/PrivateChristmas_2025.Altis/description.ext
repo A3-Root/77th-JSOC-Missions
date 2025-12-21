@@ -1,0 +1,147 @@
+//------------------------- On Load
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;										// Min # of players the MISSION supports
+	maxPlayers = 120;									// Max # of players the MISSION supports, not server slots. Make sure # is greater than server slots.
+};
+
+author = "77th JSOC's Development Team";
+onLoadName = "Private Operation";
+OnLoadMission = "The 77th JSOC can be deployed anywhere around the globe wherever the threat is real.";
+loadScreen = "media\images\mission.jpg";
+onLoadIntro = "The 77th JSOC can be deployed anywhere around the globe wherever the threat is real.";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+disabledAI = 1;
+debriefing = 0;
+briefing = 0;
+showGPS = 1;
+enableDebugConsole = 1;
+zeusCompositionScriptLevel = 2;
+cba_settings_hasSettingsFile = 1;
+
+//------------------------- Cleanup
+
+corpseManagerMode = 2;
+corpseLimit = 1;
+wreckManagerMode = 0;
+wreckLimit = 1;
+wreckRemovalMinTime = 10;
+corpseRemovalMinTime = 960;
+corpseRemovalMaxTime = 3600;
+minPlayerDistance = 150;
+
+//------------------------- Respawn
+
+Respawn = "BASE";										// 0 = none. 1 = bird. 2 = instant where died. 3 = base
+RespawnDelay = 1;
+RespawnDialog = 0;										// default = 1. show respawn timer and scoreboard when killed.
+
+//------------------------- Includes / Functions
+
+class CfgFunctions {
+	class ROOT_OPS {
+		class Portal {
+			file = "functions\portal";
+			class portalVortex {};
+			class standalonePortal {};
+		};
+		class Temporal {
+			file = "functions\temporal";
+			class temporalBreachZone {};
+		};
+		class Music {
+			file = "functions\music";
+			class musicZone {};
+			class vietnamMusic {};
+			class heliMusicClient {};
+			class addMusicZone {};
+			class playPortalMusic {};
+		};
+		class Actions {
+			file = "functions\actions";
+			class laptopObjective3Airfield {};
+			class laptopObjective3Kavala {};
+			class laptopObjective4WW2 {};
+			class raceCountdown {};
+			class endSong {};
+			class applyBoostToVehicles {};
+		};
+		class Objectives {
+			file = "functions\objectives";
+			class executeObjective3Airfield {};
+			class executeObjective3Kavala {};
+			class executeObjective4WW2 {};
+			class displayWW2Objectives {};
+			class displayKavalaObjectives {};
+			class displayAirfieldObjectives {};
+		};
+		class Airfield {
+			file = "functions\airfield";
+			class airfieldFlashEffect {};
+			class airfieldVortexEffect {};
+		};
+		class Cage {
+			file = "functions\cage";
+			class cageSuperSpeedTick {};
+			class cageSuperSpeedTrail {};
+			class cageFullHeal {};
+			class cageFreezeInput {};
+			class executeDeathEffect {};
+			class cageFightChaos {};
+			class cageFightReset {};
+		};
+		class AAA {
+			file = "functions\aaa";
+			class personalAAAField {};
+		};
+	};
+};
+
+class CfgMusic {
+	tracks[] = {};
+	class greatest_christmas_song {
+		// display name
+		name	= "Greatest Christmas Music";
+
+		// filename, volume, pitch
+		sound[]	= { "media\audio\greatest_christmas_song.ogg", db + 10, 1.0 };
+	};
+	class jsoc_christmas_race_song {
+		// display name
+		name	= "Christmas Race Music";
+
+		// filename, volume, pitch
+		sound[]	= { "media\audio\jsoc_christmas_race_song.ogg", db + 10, 1.0 };
+	};
+	class jsoc_vietnam_christmas {
+		name = "JSOC Vietnam Christmas";						// display name
+		sound[] = { "media\audio\vietnam_christmas.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+	};
+	class jsoc_christmas_chatgpt_suno {
+		name = "JSOC ChatGPT Christmas";						// display name
+		sound[] = { "media\audio\77thChristmasChatGPTSuno.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {}; // OFP required it filled, now it can be empty or absent depending on the game's version
+
+	class jsoc_christmas_race_countdown {
+		name = "Christmas Race Countdown";						// display name
+		sound[] = { "media\audio\race_countdown.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+		titles[] = {};
+	};
+	class jsoc_vietnam_christmas {
+		name = "JSOC Vietnam Christmas";						// display name
+		sound[] = { "media\audio\vietnam_christmas.ogg", 10, 1, 100 };	// file, volume, pitch, maxDistance (increased volume to 10)
+		titles[] = {};
+	};
+	class jsoc_christmas_chatgpt_suno {
+		name = "JSOC ChatGPT Christmas";						// display name
+		sound[] = { "media\audio\77thChristmasChatGPTSuno.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+		titles[] = {};
+	};
+};

@@ -17,9 +17,9 @@ with uiNamespace do
 {
 	[] spawn
 	{
-		_text1 = "Hello Badfair! How are you? This is a long text, so it should take a while to display.";
-		_text2 = "Now this a faster text with different color!";
-		_text3 = "Another one!";
+		_text1 = "The numbers mason what do they mean?.";
+		_text2 = "OOH";
+		_text3 = "Booo";
 
 		ctrl = findDisplay 46 ctrlCreate ["RscStructuredText", -1];
 
