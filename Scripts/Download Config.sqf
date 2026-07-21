@@ -1,6 +1,6 @@
 // Vehicle
 
-private _cfg = configFile >> "CfgVehicles" >> "UK3CB_CHC_C_Old_Bike";
+private _cfg = configFile >> "CfgVehicles" >> "Land_Cyt_SingleBlastDoor_02";
 
 private _txt = "";
 
